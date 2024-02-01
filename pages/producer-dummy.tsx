@@ -1,6 +1,21 @@
-import Head from 'next/head'
+import React from 'react'
+import { Hero } from '../components/static/producer/Hero'
+import { Process } from '../components/static/producer/Process'
+import { DifferentTypes } from '../components/static/pvt/DifferentTypes'
+import { PvtReg } from '../components/static/pvt/PvtReg'
+import { Benefits } from '../components/static/producer/Benefits'
+import { Checklist } from '../components/static/pvt/Checklist'
+import { HowToRegister } from '../components/static/pvt/HowToRegister'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
+import { RegisterPvt } from '../components/static/pvt/RegisterPvt'
+import Head from 'next/head'
+import { TimeRequired } from '../components/static/pvt/TimeRequired'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
+import { DocumentRequired } from '../components/static/producer/DocumentRequired'
+import { WhatDocument } from '../components/static/producer/WhatDocument'
+import { TableCom } from '../components/static/pvt/TableCom'
+import { Requirement } from '../components/static/producer/Requirement'
+import { Procedure } from '../components/static/producer/Procedure'
 
 let faq = [
     {
@@ -66,48 +81,48 @@ let faq = [
     {
         "question": "What Are the Benefits of Registering as a Producer Company?",
         "answer": "The benefits include enhanced access to credit, better marketing opportunities, improved bargaining power, and legal recognition as a collective entity, strengthening the position of primary producers."
-    },
+    }
 ]
 
 const Home = () => {
     return (
-        <div className='services-pages pvt-reg'>
+        <div className='services-pages producer-reg'>
             <Head>
+                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
+                {/* <meta name="description" content="The Official RegisterKaro" /> */}
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
                 <meta name="robots" content="all" />
                 <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
                 <meta name="google" content="notranslate" key="notranslate" />
                 <link rel="icon" href="/favicon.ico" />
+                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
-            {/* <Hero /> */}
-            <h1 className='main-heading'>What is One Person Company Registration in India?</h1>
+            <Hero />
+            <h1 className='main-heading'>Online Producer Company Registration in India</h1>
             <div className='heading-line'></div>
-            {/* <Process /> */}
-            <h1 className="main-heading">Features of One Person Company in India</h1>
+            <Process />
+            <h1 className="main-heading">Advantages of Producer Company Registration in India</h1>
             <div className='heading-line'></div>
-            {/* <OPCReg /> */}
-            <h1 className="main-heading">Checklist for One Person Company Registration in India</h1>
+            <Benefits />
+            <h1 className="main-heading">Checklist for the Registration of Producer Company</h1>
             <div className='heading-line'></div>
-            {/* <Checklist /> */}
-            <h1 className="main-heading">Documents Required for OPC Registration in India</h1>
+            <Requirement />
+            <h1 className="main-heading">Documents Required for the Registration of Producer Company</h1>
             <div className='heading-line'></div>
-            {/* <DocumentRequired /> */}
-            <h1 className="main-heading">Procedure for One Person Company Registration</h1>
+            <DocumentRequired />
+            <h1 className="main-heading">Procedure for Producer Company Registration</h1>
             <div className='heading-line'></div>
-            {/* <Procedure /> */}
-            <h1 className="main-heading">Restrictions on One Person Company</h1>
+             <Procedure />
+            <h1 className="main-heading">Post-Incorporation Compliance for Producer Company</h1>
             <div className='heading-line'></div>
-            {/* <Restrictions /> */}
-            <h1 className="main-heading">LLP Compliance</h1>
-            <div className='heading-line'></div>
-            {/* <TableCom /> */}
+            <WhatDocument />
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
             <h1 className="main-heading">FAQs</h1>
-            <div className='heading-line'></div>
-            <FaqTemplatePVT faqItems={faq} />
+            <div className='heading-line'></div>  
+            <FaqTemplatePVT faqItems={faq} /> 
         </div>
     )
 }
