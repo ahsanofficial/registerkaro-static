@@ -5,7 +5,7 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Eligibility = () => {
   return (
-    <div className='DocumentRequired flex w-80 m-auto mobile-flex-column' id='Documents'>
+    <div className='DocumentRequired flex w-80 m-auto mobile-flex-column' id='Eligibility'>
       <div className='flex-3'>
         <Image alt="documents" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={430} />
       </div>

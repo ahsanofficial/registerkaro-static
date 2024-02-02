@@ -4,7 +4,7 @@ import bft from '../../../assets/images/section-8-reg/Requirements.svg'
 
 export const Requirements = () => {
   return (
-    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Benefits'>
+    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Requirements'>
       <div className='flex-7'>
         <p>Following are some vital requirements for Section 8 Company Registration:</p>
         <p><strong>1. Directors:</strong></p>

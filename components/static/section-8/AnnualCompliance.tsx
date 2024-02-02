@@ -4,7 +4,7 @@ import pvtReg from '../../../assets/images/section-8-reg/Annual.svg'
 
 export const AnnualCompliance = () => {
   return (
-    <div className='pvtReg flex w-80 m-auto mobile-flex-column' id='What'>
+    <div className='pvtReg flex w-80 m-auto mobile-flex-column' id='AnnualCompliance'>
       <div className='flex-3'>
         <Image alt="Private Limited Company sample" className="AnnualCompliance-img w-100" height={382} loading="lazy" src={pvtReg} />
       </div>

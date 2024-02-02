@@ -4,7 +4,7 @@ import bft from '../../../assets/images/section-8-reg/Advantages.svg'
 
 export const Advantages = () => {
   return (
-    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Benefits'>
+    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Advantages'>
       <div className='flex-7'>
         <p>Following are the advantages of Section 8 Company Registration in India:</p>
         <p><strong>1. Separate Legal Entity:</strong></p>
