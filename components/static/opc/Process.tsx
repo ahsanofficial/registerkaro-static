@@ -10,32 +10,23 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#What" className="scrollTo">
-                                <li>What is a Private Limited Company?</li>
-                            </a>
-                            <a href="#Different" className="scrollTo">
-                                <li>Different types of Business Structures in India</li>
-                            </a>
-                            <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of Private Limited Company Registration in India</li>
+                            <a href="#Features" className="scrollTo">
+                                <li>Features of One Person Company in India</li>
                             </a>
                             <a href="#Checklist" className="scrollTo">
-                                <li>Checklist for Private Limited Company Registration in India</li>
+                                <li>Checklist for One Person Company Registration in</li>
                             </a>
-                            <a href="#Documents" className="scrollTo">
-                                <li>Documents Required for Company Registration in India</li>
+                            <a href="#Required" className="scrollTo">
+                                <li>Documents Required for OPC Registration in India</li>
                             </a>
-                            <a href="#How" className="scrollTo">
-                                <li>How to register a private limited company?</li>
+                            <a href="#Procedure" className="scrollTo">
+                                <li>Procedure for One Person Company Registration</li>
                             </a>
-                            <a href="#Time" className="scrollTo">
-                                <li>Time Required for Registering a Company Online in India</li>
+                            <a href="#Restrictions" className="scrollTo">
+                                <li>Restrictions on One Person Company</li>
                             </a>
-                            <a href="#HowTo" className="scrollTo">
-                                <li>How to Register Your Private Limited Company in India with RegisterKaro?</li>
-                            </a>
-                            <a href="#WhatDocuments" className="scrollTo">
-                                <li>What Documents will you get after Online Company Registration in India?</li>
+                            <a href="#LLP" className="scrollTo">
+                                <li>LLP Compliance</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

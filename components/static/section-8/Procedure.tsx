@@ -4,7 +4,7 @@ import pvtReg from '../../../assets/images/section-8-reg/Procedure .svg'
 
 export const Procedure = () => {
   return (
-    <div className='Procedure flex w-80 m-auto mobile-flex-column-reverse' id='What'>
+    <div className='Procedure flex w-80 m-auto mobile-flex-column-reverse' id='Procedure'>
       <div className='flex-7'>
         <p>Following is the step-by-step procedure for Section 8 Company Registration:</p>
         <p><strong>Step 1: Obtain DSC & DIN:</strong></p>

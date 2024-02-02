@@ -4,7 +4,7 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const EventBased = () => {
   return (
-    <div className='EventBased flex w-80 m-auto mobile-flex-column-reverse' id='Benefits'>
+    <div className='EventBased flex w-80 m-auto mobile-flex-column-reverse' id='EventBased'>
       <div className='flex-7'>
         <p>These compliances are required to be filed only once during the incorporation process. Following is the list of event-based compliances:</p>
         <ul className='tick list-unstyled'>

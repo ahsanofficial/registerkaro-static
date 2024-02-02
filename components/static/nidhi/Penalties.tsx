@@ -4,7 +4,7 @@ import bft from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const Penalties = () => {
   return (
-    <div className='Penalties flex w-80 m-auto mobile-flex-column' id='Benefits'>
+    <div className='Penalties flex w-80 m-auto mobile-flex-column' id='Penalties'>
        <div className='flex-5'>
           <Image alt="Private Limited Company sample" className="Penalties-img w-100" height={382} loading="lazy" src={bft} />
       </div>

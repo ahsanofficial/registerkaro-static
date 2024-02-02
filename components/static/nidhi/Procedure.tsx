@@ -4,7 +4,7 @@ import ProcedureReg from '../../../assets/images/nidhi-reg/Procedure.svg'
 
 export const Procedure = () => {
   return (
-    <div className='Procedure  flex w-80 m-auto mobile-flex-column-reverse' id='What'>
+    <div className='Procedure  flex w-80 m-auto mobile-flex-column-reverse' id='Procedure'>
       <div className='flex-7'>
         <p>Following is the step-by-step procedure for Nidhi Company Registration in India:</p>
         <p><strong>Step 1:</strong></p>

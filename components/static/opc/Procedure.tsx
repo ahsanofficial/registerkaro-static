@@ -4,7 +4,7 @@ import procedure from '../../../assets/images/opc-reg/procedure.svg'
 
 export const Procedure = () => {
   return (
-    <div className='Procedure flex w-80 m-auto  mobile-flex-column-reverse' id='What'>
+    <div className='Procedure flex w-80 m-auto  mobile-flex-column-reverse' id='Procedure'>
       <div className='flex-7'>
         <p>Following is the procedure for One Person Company Registration in India:</p>
         <p><strong>Step 1:</strong></p>

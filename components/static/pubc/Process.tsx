@@ -12,32 +12,29 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#What" className="scrollTo">
-                                <li>What is a Private Limited Company?</li>
-                            </a>
-                            <a href="#Different" className="scrollTo">
-                                <li>Different types of Business Structures in India</li>
-                            </a>
                             <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of Private Limited Company Registration in India</li>
-                            </a>
-                            <a href="#Checklist" className="scrollTo">
-                                <li>Checklist for Private Limited Company Registration in India</li>
-                            </a>
-                            <a href="#Documents" className="scrollTo">
-                                <li>Documents Required for Company Registration in India</li>
+                                <li>What are the Benefits of Public Limited Company Registration in India?</li>
                             </a>
                             <a href="#How" className="scrollTo">
-                                <li>How to register a private limited company?</li>
+                                <li>Eligibility for Public Limited Company Registration</li>
                             </a>
-                            <a href="#Time" className="scrollTo">
-                                <li>Time Required for Registering a Company Online in India</li>
+                            <a href="#Types" className="scrollTo">
+                                <li>Types and distinctions of Licenses/Services involved</li>
                             </a>
-                            <a href="#HowTo" className="scrollTo">
-                                <li>How to Register Your Private Limited Company in India with RegisterKaro?</li>
+                            <a href="#DocumentRequired" className="scrollTo">
+                                <li>Documents Required for Public Limited Company Registration in India</li>
                             </a>
-                            <a href="#WhatDocuments" className="scrollTo">
-                                <li>What Documents will you get after Online Company Registration in India?</li>
+                            <a href="#Procedure" className="scrollTo">
+                                <li>Procedure for Public Limited Company Registration</li>
+                            </a>
+                            <a href="#Validity" className="scrollTo">
+                                <li>Validity and Renewal of Public Limited Company</li>
+                            </a>
+                              <a href="#Suspension" className="scrollTo">
+                                <li>Suspension/Revocation of Service</li>
+                            </a>
+                            <a href="#Mandatory" className="scrollTo">
+                                <li>Mandatory Compliance</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>
