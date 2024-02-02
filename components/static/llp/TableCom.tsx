@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TableCom = () => {
     return (
-        <div>
+        <div id='HowTo'>
             <p className='main-para'>All LLPs incorporated in India are required to file statutory returns with MCA every year. Limited Liability Partnerships having a sales turnover of over Rs. 40 lakhs or capital of over Rs. 25 lakhs will also be required to complete a statutory audit. RegisterKaro can help you maintain your LLP Compliance at a very affordable price.</p>
             <table>
                 <tr>
