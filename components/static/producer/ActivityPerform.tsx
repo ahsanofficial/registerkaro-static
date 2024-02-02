@@ -10,7 +10,7 @@ import seven from '../../../assets/images/pvt-reg/checklist/seven.svg'
 
 export const ActivityPerform = () => {
   return (
-    <div className='checklist' id='Checklist'>
+    <div className='checklist' id='Activity'>
       <p className='main-para'>Following is the list of activities performed by a Producer Company in India:</p>
       <div className="checklist flex w-80 m-auto mobile-flex-column">
         <div className="checklist-divs flex flex-column text-center align-center">

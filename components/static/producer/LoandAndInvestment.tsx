@@ -3,6 +3,8 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
+import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
 export const LoanAndInvestment = () => {
@@ -13,7 +15,7 @@ export const LoanAndInvestment = () => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='WhatDocuments'>
+    <div className='DocumentButtonWise w-80 m-auto' id='LoanAndInvestment'>
       <p className='main-para mb-0'>Following is the list of all the vital documents required for the Registration of Producer Company in India:</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-5'>
@@ -31,7 +33,7 @@ export const LoanAndInvestment = () => {
           </button>
           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Credit Facility
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Credit Facility
             </div>
             <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
