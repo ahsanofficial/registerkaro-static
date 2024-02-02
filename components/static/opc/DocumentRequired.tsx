@@ -5,7 +5,7 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocumentRequired = () => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Documents'>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Required'>
       <div className='flex-7'>
         <p>Following are the crucial documents required for One Person Company Registration in India</p>
         <h3>A scanned copy of a current bank statement:</h3>

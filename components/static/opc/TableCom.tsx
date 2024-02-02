@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TableCom = () => {
     return (
-        <div>
+        <div id='LLP'>
             <table>
                 <tr>
                     <th className='first'>Forms</th>

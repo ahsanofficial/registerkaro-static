@@ -4,7 +4,7 @@ import pvtReg from '../../../assets/images/opc-reg/opc-reg.svg'
 
 export const OPCReg = () => {
   return (
-    <div className='opcReg flex w-80 m-auto mobile-flex-column-reverse' id='What'>
+    <div className='opcReg flex w-80 m-auto mobile-flex-column-reverse' id='Features'>
       <div className='flex-7'>
         <p>Following are some important features of One Person Company in India:</p>
         <p><strong>1. Simple Succession:</strong></p>

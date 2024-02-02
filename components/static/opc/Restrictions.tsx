@@ -4,7 +4,7 @@ import Restriction from '../../../assets/images/opc-reg/Restrictions.svg'
 
 export const Restrictions = () => {
   return (
-      <div className='Restrictions flex w-80 m-auto  mobile-flex-column-reverse' id='What'>
+      <div className='Restrictions flex w-80 m-auto  mobile-flex-column-reverse' id='Restrictions'>
         <div className='flex-7'>
           <p>Despite its many advantages, starting a one-person business comes with a number of constraints.</p>
           <p><strong>1. Not Suitable for Scalability:</strong></p>
