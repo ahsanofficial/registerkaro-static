@@ -5,7 +5,7 @@ import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
-export const Procedure = () => {
+export const LoanAndInvestment = () => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -19,44 +19,38 @@ export const Procedure = () => {
         <div className='flex-5'>
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={one} alt="one" loading="lazy" width={30} height={30} /> &nbsp; Step 1: Obtain DSC
+              <Image src={one} alt="one" loading="lazy" width={30} height={30} /> &nbsp; Loans & Advances
             </div>
             <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Step 2: Choose a Unique Company Name
+              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; NABARD Loan
             </div>
             <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Step 3: Prepare all Requisite Documents
+              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Credit Facility
             </div>
             <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Step 4: File for Incorporation
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
-          </button>
-          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Step 5: Follow up and Approval
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
-          </button>
+        
         </div>
         <div className='flex-5 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <p>
-            First, you need to obtain a DSC (Digital Signature Certificate), it is vital for signing the digital incorporation application.
+            Loans & Advances are provided to the members against security, repayable within a period not more than 7 years from the date of loan disbursement of such loans or advances.
             </p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
             <p>
-             Then, you need to choose a unique name for your Company that aligns with the set name availability guidelines. At the time of the Producer Company Registration process, list your chosen names in the SPICe+ Part-A Form.
+            In India, NABARD provides support & financial support to meet the requirements of Producer Companies. In 2011, NABARD set up a Rs. 50 crores PODF out of its operating surplus.
+            </p>
+          </div> 
+          <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <p>
+            This is available to any member for a period of not more than 6 months (such facility must be in association with the business).
             </p>
           </div>
         </div>

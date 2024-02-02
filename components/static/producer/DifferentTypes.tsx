@@ -1,19 +1,19 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
+import bft from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const DifferentTypes = () => {
   return (
-    <div className='DifferentTypes w-80 m-auto' id='Different'>
-      <div className='flex justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
-      <div>
-        <p><strong>1. Private Limited Company: </strong>This Company is the most prevalent & popular type of corporate legal entity in India. Private Limited Company is a privately held business entity and Company is privately held by the shareholders & the maximum number of shareholders shouldn’t be more than 200.</p>
-        <p><strong>2. Public Limited Company: </strong>This Company is a group of members which is incorporated under the Companies Act and it has a separate legal existence & the liability of its members are limited to the share they hold.</p>
-        <p><strong>3. OPC or One Person Company: </strong>A One Person Company is a company established by only one person. A single person established & managed the Company. A One Person Company has all the features of a Company like limited liability, perpetual succession & a separate legal entity.</p>
-        <p><strong>4. LLP or Limited Liability Partnership:</strong>Limited Liability Partnership is an alternative corporate business that gives the benefits of limited liability of a Company & the flexibility of a Partnership. It is liable to the full extent of its assets but liability of the partners is limited to their agreed contribution in the Limited Liability Partnership.</p>
-        <p><strong>5. Sole Proprietorship: </strong>This is a business that is completely owned & controlled by a single person, a Company or a Limited Liability Partnership. There are no partners in the business. Sole Proprietorship is not a separate legal entity from the business owner. The business owner has unlimited liability that means the owner is personally liable for all the debts & losses of the Sole Proprietorship.</p>
+    <div className='benefits flex w-80 m-auto mobile-flex-column' id='Benefits'>
+      <div className='flex-5'>
+          <p>Following are the different types of Producer Companies in India:</p>
+          <p><strong>Agricultural Producer Company:</strong> This type of Producer Company is set up by agriculturalists, farmers, or producers who are involved in the crop’s cultivation, poultry or dairy farming. The primary objective of an agricultural company is to increase the income of its members & improve their agricultural practices.</p>
+          <p><strong>Sericulture Producer Company:</strong> It is set up by various individuals who are involved in the production of silk like silk reelers, weavers, or farmers. The primary objective of this Company is to improve the quality of silk produced, increase its availability & provide better marketing opportunities.</p>
+          <p><strong>Horticultural Producer Company:</strong> It is established by individuals who are involved in horticulture like flowers, plants, growing fruits, or vegetables. The primary objective of this type of Company is to improve the quality of its products.</p>
+          <p><strong>Handloom Producer Company:</strong> This type of Producer Company is set up by individuals who are involved in handloom weaving/handloom fabric production. The primary objective of a handloom company is to improve their products’ quality.</p>
+        </div>
+      <div className='flex-5'>
+        <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={600} loading="lazy" src={bft} />
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ The primary goal of a Producer Company is to collectively handle activities like
                     <ul>
                         <ul>
                             <a href="#What" className="scrollTo">
-                                <li>What is a Private Limited Company?</li>
+                                <li>What is a Farmer Producer Company?</li>
                             </a>
                             <a href="#Different" className="scrollTo">
                                 <li>Different types of Business Structures in India</li>
@@ -49,7 +49,7 @@ The primary goal of a Producer Company is to collectively handle activities like
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Pvt. Ltd. Company - Incorporation Certificate [Sample]</p>
+                <p className="small-heading text-center">Producer Company - Incorporation Certificate [Sample]</p>
                 <div>
                     <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate}/>
                 </div>
