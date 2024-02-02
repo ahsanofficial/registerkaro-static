@@ -4,7 +4,7 @@ import bft from '../../../assets/images/nidhi-reg/Requirements.svg'
 
 export const Requirement = () => {
   return (
-    <div className='benefits flex w-80 m-auto mobile-flex-column' id='Benefits'>
+    <div className='benefits flex w-80 m-auto mobile-flex-column' id='Requirement'>
        <div className='flex-5'>
           <Image alt="Private Limited Company sample" className="benefits-img w-100" height={600} loading="lazy" src={bft} />
       </div>

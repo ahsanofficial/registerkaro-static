@@ -10,32 +10,26 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#What" className="scrollTo">
-                                <li>What is a Private Limited Company?</li>
-                            </a>
-                            <a href="#Different" className="scrollTo">
-                                <li>Different types of Business Structures in India</li>
-                            </a>
                             <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of Private Limited Company Registration in India</li>
+                                <li>Benefits of Nidhi Company Registration</li>
                             </a>
-                            <a href="#Checklist" className="scrollTo">
-                                <li>Checklist for Private Limited Company Registration in India</li>
+                            <a href="#Requirement" className="scrollTo">
+                                <li>Requirements for Nidhi Company Registration in India</li>
                             </a>
                             <a href="#Documents" className="scrollTo">
-                                <li>Documents Required for Company Registration in India</li>
+                                <li>Documents Required for the Registration of Nidhi Company in India</li>
                             </a>
-                            <a href="#How" className="scrollTo">
-                                <li>How to register a private limited company?</li>
+                            <a href="#Procedure" className="scrollTo">
+                                <li>Procedure for Nidhi Company Registration in India</li>
                             </a>
-                            <a href="#Time" className="scrollTo">
-                                <li>Time Required for Registering a Company Online in India</li>
+                            <a href="#WhatDocument" className="scrollTo">
+                                <li>Annual Compliance of a Nidhi Company</li>
                             </a>
-                            <a href="#HowTo" className="scrollTo">
-                                <li>How to Register Your Private Limited Company in India with RegisterKaro?</li>
+                            <a href="#EventBased" className="scrollTo">
+                                <li>Event-Based Compliances of a Nidhi Company in India</li>
                             </a>
-                            <a href="#WhatDocuments" className="scrollTo">
-                                <li>What Documents will you get after Online Company Registration in India?</li>
+                            <a href="#Penalties" className="scrollTo">
+                                <li>What are the Penalties for Non-Compliance?</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

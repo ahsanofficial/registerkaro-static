@@ -17,7 +17,7 @@ export const WhatDocument = () => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='WhatDocuments'>
+    <div className='DocumentButtonWise w-80 m-auto' id='WhatDocument'>
       <p className='main-para mb-4'>Following are some annual compliances of a Nidhi Company in India:</p>
       <div className="flex w-100 justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-4'>
