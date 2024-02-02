@@ -4,7 +4,7 @@ import bft from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const Types = () => {
   return (
-    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Benefits'>
+    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Types'>
       <div className='flex-7'>
         <p><strong>1. Director Identification Number (DIN):</strong></p>
         <p>Unique identification number for directors obtained from the Ministry of Corporate Affairs.</p>

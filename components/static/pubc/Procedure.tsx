@@ -4,7 +4,7 @@ import pvtReg from '../../../assets/images/pvt-reg/pvt-reg.svg'
 
 export const Procedure = () => {
   return (
-    <div className='Procedure flex w-80 m-auto mobile-flex-column' id='Benefits'>
+    <div className='Procedure flex w-80 m-auto mobile-flex-column' id='Procedure'>
       <div className='flex-3'>
         <Image alt="Private Limited Company sample" className="PvtReg-img w-100" height={382} loading="lazy" src={pvtReg} />
       </div>
