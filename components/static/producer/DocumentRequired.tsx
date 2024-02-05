@@ -7,7 +7,6 @@ export const DocumentRequired = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Documents'>
       <div className='flex-7'>
-        <p>Documents Required for the Registration of Producer Company</p>
         <p>Following is the list of all the vital documents required for the Registration of Producer Company in India:</p>
         <h3>Documents of the applicant:</h3>
         <ul className='tick list-unstyled'>
