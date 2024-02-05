@@ -5,7 +5,6 @@ import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
-import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
 export const Compliances = () => {
@@ -17,7 +16,7 @@ export const Compliances = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Compliances'>
-      <p className='main-para mb-0'>The following are some vital compliances for Sole Proprietorship in India:</p>
+      <p className='main-para mb-0'>The following are some vital compliances for Sole Proprietorship in India</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-5'>
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>

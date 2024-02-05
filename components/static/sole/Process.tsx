@@ -1,8 +1,19 @@
-import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import React, { useState } from 'react'
+import msme_certificate from '../../../assets/images/sole_reg/MSME-Certificate-Sample.webp';
+import gst_certificate from '../../../assets/images/sole_reg/Gst-Registration-Sample.png';
+import shop_certificate from '../../../assets/images/sole_reg/shop_and_establishment_sample.webp';
+import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
+import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
+import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 import Image from 'next/image';
 
 export const Process = () => {
+    const [active, setActive] = useState('1')
+
+  const handleActive = (id: string) => {
+    setActive(id)
+  }
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -30,10 +41,10 @@ export const Process = () => {
                             <a href="#Procedure" className="scrollTo">
                                 <li>Procedure for Sole Proprietorship Registration in India</li>
                             </a>
-                            <a href="#RegisterGst" className="scrollTo">
+                            <a href="#RegisterUnderEstablishment" className="scrollTo">
                                 <li>Registering under the Shops & Establishments Act</li>
                             </a>
-                            <a href="#WhatDocuments" className="scrollTo">
+                            <a href="#RegisterGst" className="scrollTo">
                                 <li>Registering through GST Registration</li>
                             </a>
                             <a href="#RegisterUdyog" className="scrollTo">
@@ -51,13 +62,57 @@ export const Process = () => {
                         </ul>
                     </ul>
                 </div>
-            </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Pvt. Ltd. Company - Incorporation Certificate [Sample]</p>
-                <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate}/>
-                </div>
-            </div>
+                {/* for certification new code is written here  */}
+
+                <div className='DocumentButtonWise w-80 m-auto mt-4' >
+                    <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
+                        <div className='flex-5'>
+                        <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
+                            <div>
+                            <Image src={one} alt="one" loading="lazy" width={30} height={30} /> &nbsp; MSME Certificate
+                            </div>
+                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+                        </button>
+                        <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
+                            <div>
+                            <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; GST Certificate  
+                            </div>
+                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+                        </button>
+                        <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
+                            <div>
+                            <Image src={three} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Shop License
+                            </div>
+                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+                        </button>
+                        </div>
+                        <div className='flex-5 text-justify fs-20'>
+                        <div className={`${active === '1' ? 'active' : 'none'}`}>
+                        <p className="small-heading text-center">MSME Certificate [Sample]</p>
+                            <div>
+                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={msme_certificate}/>
+                            </div>
+                        </div>
+                        <div className={`${active === '2' ? 'active' : 'none'}`}>
+                           <p className="small-heading text-center"> GST Certificate  [Sample]</p>
+                            <div>
+                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={gst_certificate}/>
+                            </div>
+                        </div>
+                        <div className={`${active === '3' ? 'active' : 'none'}`}>
+                        <p className="small-heading text-center"> Shop License [Sample]</p>
+                            <div>
+                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={shop_certificate}/>
+                            </div>
+                        </div> 
+                      
+                        </div>
+                    </div>
+                 
+                    </div>
+              
+          </div>
+           
         </div>
     )
 }

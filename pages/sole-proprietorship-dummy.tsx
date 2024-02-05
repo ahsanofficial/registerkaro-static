@@ -13,6 +13,7 @@ import { Compliances } from '../components/static/sole/Compliances'
 import { RegisterGst } from '../components/static/sole/RegisterGst'
 import { RegisterUdyog } from '../components/static/sole/RegisterUdyog'
 import { Procedure } from '../components/static/sole/Procedure'
+import { RegisterUnderEstablishment } from '../components/static/sole/RegisterUnderEstablishment'
 
 
 
@@ -122,7 +123,7 @@ const Home = () => {
             <Procedure/>
             <h1 className="main-heading">Registering under the Shops & Establishments Act</h1>
             <div className='heading-line'></div>
-            <RegisterGst/>
+            <RegisterUnderEstablishment/>
             <h1 className="main-heading">Registering through GST Registration</h1>
             <div className='heading-line'></div>
             <RegisterGst/>
