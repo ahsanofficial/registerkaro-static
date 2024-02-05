@@ -10,32 +10,35 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#What" className="scrollTo">
-                                <li>What is a Private Limited Company?</li>
+                            <a href="#Purpose" className="scrollTo">
+                                <li>Purpose of Society Registration</li>
                             </a>
-                            <a href="#Different" className="scrollTo">
-                                <li>Different types of Business Structures in India</li>
+                            <a href="#Registration" className="scrollTo">
+                                <li>Registration of a Society In India</li>
                             </a>
-                            <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of Private Limited Company Registration in India</li>
+                            <a href="#SelectionHead" className="scrollTo">
+                                <li>Selection of a Name and Memorandum of Association</li>
                             </a>
-                            <a href="#Checklist" className="scrollTo">
-                                <li>Checklist for Private Limited Company Registration in India</li>
+                            <a href="#WhySocietyRegi" className="scrollTo">
+                                <li>Why to go for Society Registration?</li>
                             </a>
                             <a href="#Documents" className="scrollTo">
-                                <li>Documents Required for Company Registration in India</li>
+                                <li>Documents you will need for Society Registration</li>
                             </a>
-                            <a href="#How" className="scrollTo">
-                                <li>How to register a private limited company?</li>
+                            <a href="#UnderstandProcess" className="scrollTo">
+                                <li>Understand the Process for Society Registration</li>
                             </a>
-                            <a href="#Time" className="scrollTo">
-                                <li>Time Required for Registering a Company Online in India</li>
+                            <a href="#Dissolution" className="scrollTo">
+                                <li>Dissolution of a registered Society</li>
                             </a>
-                            <a href="#HowTo" className="scrollTo">
-                                <li>How to Register Your Private Limited Company in India with RegisterKaro?</li>
+                            <a href="#RenewSociety" className="scrollTo">
+                                <li>When to Renew Society Registration Certificate in India?</li>
                             </a>
-                            <a href="#WhatDocuments" className="scrollTo">
-                                <li>What Documents will you get after Online Company Registration in India?</li>
+                            <a href="#Renewal" className="scrollTo">
+                                <li>Renewal Process for Society Registration Certificate</li>
+                            </a>
+                            <a href="#HowToRegister" className="scrollTo">
+                                <li>How RegisterKaro assist you with Society Registration?</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

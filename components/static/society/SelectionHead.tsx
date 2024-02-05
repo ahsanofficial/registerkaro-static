@@ -9,7 +9,7 @@ import six from '../../../assets/images/pvt-reg/checklist/six.svg'
 
 export const SelectionHead = () => {
   return (
-    <div className='checklist' id='Checklist'>
+    <div className='checklist' id='SelectionHead'>
       <p className='main-para'>Let’s discuss about selection of name and memorandum of association</p>
      
     </div>

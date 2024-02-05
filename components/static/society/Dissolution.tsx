@@ -15,7 +15,7 @@ export const Dissolution = () => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='How'>
+    <div className='DocumentButtonWise w-80 m-auto' id='Dissolution'>
       <p className='main-para'>As per the provisions of the Society Registration Act, the dissolution of a society registered under the Act can be initiated by either the Registrar of Cooperative Societies or at least one-tenth of the society members through a court of competent jurisdiction. The court, upon due consideration, may decree the dissolution of the society based on various grounds, including:</p>
       
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">

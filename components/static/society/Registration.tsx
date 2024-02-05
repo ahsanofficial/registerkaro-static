@@ -9,7 +9,7 @@ import six from '../../../assets/images/pvt-reg/checklist/six.svg'
 
 export const Registration = () => {
   return (
-    <div className='checklist' id='Checklist'>
+    <div className='checklist' id='Registration'>
       <p className='main-para'>Following are some checklist for Society Registration in India:</p>
       <div className="checklist flex w-80 m-auto mobile-flex-column">
         <div className="checklist-divs flex flex-column text-center align-center">
