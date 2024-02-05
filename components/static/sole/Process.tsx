@@ -8,6 +8,14 @@ import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 import Image from 'next/image';
 
+<style jsx>{`
+  .certificate {
+    width: 30%;
+    height: auto; /* Maintain aspect ratio */
+  }
+`}</style>
+
+
 export const Process = () => {
     const [active, setActive] = useState('1')
 
@@ -88,21 +96,21 @@ export const Process = () => {
                         </div>
                         <div className='flex-5 text-justify fs-20'>
                         <div className={`${active === '1' ? 'active' : 'none'}`}>
-                        <p className="small-heading text-center">MSME Certificate [Sample]</p>
+                        <p className="small-heading text-center w-80">MSME Certificate [Sample]</p>
                             <div>
-                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={msme_certificate}/>
+                                <Image    alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={msme_certificate}/>
                             </div>
                         </div>
                         <div className={`${active === '2' ? 'active' : 'none'}`}>
-                           <p className="small-heading text-center"> GST Certificate  [Sample]</p>
-                            <div>
-                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={gst_certificate}/>
+                           <p className="small-heading text-center w-80"> GST Certificate  [Sample]</p>
+                            <div >
+                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={gst_certificate}/>
                             </div>
                         </div>
                         <div className={`${active === '3' ? 'active' : 'none'}`}>
-                        <p className="small-heading text-center"> Shop License [Sample]</p>
+                        <p className="small-heading text-center w-80"> Shop License [Sample]</p>
                             <div>
-                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={shop_certificate}/>
+                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={shop_certificate}/>
                             </div>
                         </div> 
                       
