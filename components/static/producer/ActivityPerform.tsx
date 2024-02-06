@@ -1,85 +1,27 @@
 import Image from 'next/image'
 import React from 'react'
-import one from '../../../assets/images/pvt-reg/checklist/one.png'
-import two from '../../../assets/images/pvt-reg/checklist/two.png'
-import three from '../../../assets/images/pvt-reg/checklist/three.svg'
-import four from '../../../assets/images/pvt-reg/checklist/four.svg'
-import five from '../../../assets/images/pvt-reg/checklist/five.svg'
-import six from '../../../assets/images/pvt-reg/checklist/six.svg'
-import seven from '../../../assets/images/pvt-reg/checklist/seven.svg'
+import bft from '../../../assets/images/pvt-reg/benefit.svg'
+
 
 export const ActivityPerform = () => {
   return (
-    <div className='checklist' id='Activity'>
-      <p className='main-para'>Following is the list of activities performed by a Producer Company in India:</p>
-      <div className="checklist flex w-80 m-auto mobile-flex-column">
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={one} alt="Provide education to the mutual support principle to its members & others;"/>
-          </div>
-          <p>Provide education to the mutual support principle to its members & others;</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={two} alt="Activities for the promotion of the interest of their members;"/>
-          </div>
-          <p>Activities for the promotion of the interest of their members;</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={three} alt="Insurance of producers/their primary produce;"/>
-          </div>
-          <p>Insurance of producers/their primary produce;</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={four} alt="Sale, supply, or manufacture of equipment, machinery, or consumables mainly to their members;"/>
-          </div>
-          <p>Sale, supply, or manufacture of equipment, machinery, or consumables mainly to their members;</p>
-        </div>
+    <div className='benefits flex w-80 m-auto mobile-flex-column' id='Benefits'>
+        <div className='flex-5'>
+          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={600} loading="lazy" src={bft} />
       </div>
-      <div className="checklist flex w-80 m-auto mobile-flex-column">
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={five} alt="Processing includes distilling, canning, preserving, brewing, packaging, drying & venting its members’ producer;"/>
-          </div>
-          <p>Processing includes distilling, canning, preserving, brewing, packaging, drying & venting its members’ producer;</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={six} alt="Provide technical services, training, R&D, consultancy services & all other activities to promote its members’ interests;"/>
-          </div>
-          <p>Provide technical services, training, R&D, consultancy services & all other activities to promote its members’ interests;</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={seven} alt="Promoting unique techniques of mutual & mutuality support;"/>
-          </div>
-          <p>Promoting unique techniques of mutual & mutuality support;</p>
-        </div>
-          
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={seven} alt="Promoting unique techniques of mutual & mutuality support"/>
-          </div>
-          <p>Financing of procurement, marketing, processing or other activities which comprise extending of the credit facilities or any other financial services to their members</p>
-        </div>
-        </div>
-        <div className="checklist flex w-80 m-auto mobile-flex-column">
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={seven} alt="Promoting unique techniques of mutual & mutuality support;"/>
-          </div>
-          <p>Welfare measures/facilities for the members’ benefits as decided by the Board</p>
-        </div>
-       
-      
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={seven} alt="Promoting unique techniques of mutual & mutuality support;"/>
-          </div>
-          <p>Any other activity, similar to any of the actions which promote or encourage the principles of mutual support among the members in any different manner</p>
-        </div>
+      <div className='flex-5'>
+        <p>Following is the list of activities performed by a Producer Company in India:</p>
+            <p><strong>1: </strong>Provide education to the mutual support principle to its members & others</p>
+            <p><strong>2: </strong>Activities for the promotion of the interest of their members</p>
+            <p><strong>3: </strong>Insurance of producers/their primary produce</p>
+            <p><strong>4: </strong>Sale, supply, or manufacture of equipment, machinery, or consumables mainly to their members</p>
+            <p><strong>5: </strong>Processing includes distilling, canning, preserving, brewing, packaging, drying & venting its members’ producer</p>
+            <p><strong>6: </strong>Provide technical services, training, R&D, consultancy services & all other activities to promote its members’ interests</p>
+            <p><strong>7: </strong>Promoting unique techniques of mutual & mutuality support</p>
+            <p><strong>8: </strong>Financing of procurement, marketing, processing or other activities which comprise extending of the credit facilities or any other financial services to their members</p>
+            <p><strong>9: </strong>Welfare measures/facilities for the members’ benefits as decided by the Board</p>
+            <p><strong>10: </strong>Any other activity, similar to any of the actions which promote or encourage the principles of mutual support among the members in any different manner.</p> 
+
       </div>
     </div>
   )
