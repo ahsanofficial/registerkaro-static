@@ -17,7 +17,7 @@ export const Process = () => {
                                 <li>Advantages of Section 8 Company Registration in India</li>
                             </a>
                             <a href="#Eligibility" className="scrollTo">
-                                <li>Documents Required for Section 8 Company Registration in India</li>
+                                <li>Eligibility Criteria for Section 8 Company Registration in India</li>
                             </a>
                             <a href="#Requirements" className="scrollTo">
                                 <li>Requirements for Section 8 Company Registration</li>

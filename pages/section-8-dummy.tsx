@@ -100,7 +100,7 @@ const Home = () => {
             <h1 className="main-heading">Advantages of Section 8 Company Registration in India</h1>
             <div className='heading-line'></div>
             <Advantages />
-            <h1 className="main-heading">Documents Required for Section 8 Company Registration in India</h1>
+            <h1 className="main-heading">Eligibility Criteria for Section 8 Company Registration in India</h1>
             <div className='heading-line'></div>
             <Eligibility />
             <h1 className="main-heading">Requirements for Section 8 Company Registration</h1>
