@@ -55,18 +55,23 @@ export const DocumentRequired = () => {
           </div>
           <div className='flex-6 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>1: PAN Card or Identity Proof of all the Partners</h3>
             <p>All the designated Partners are required to provide their PAN and it acts as a primary identity proof.</p>
             </div>
             <div className={`${active === '2' ? 'active' : 'none'}`}>
+               <h3>2: Address Proof of Partners</h3>
             <p >For the address proof, Partners can submit any one document out of Passport, Aadhar Card, Voter’s Id, or Driving License. Name & other information as per address proof & PAN Card should be the same. If the spelling of one’s own name or father’s name or DoB is different in PAN Card & address proof, it should be corrected before submitting to the Registrar of Companies.</p>
             </div>
             <div className={`${active === '3' ? 'active' : 'none'}`}>
+               <h3>3: Partners Residence Proof</h3>
             <p>Latest telephone bill, electricity bill, bank statement, or gas bill should be submitted as residence proof. Note: Such bills should not be more than 2-3 months old & must contain the Partner’s Name as mentioned in the PAN Card.</p>
             </div>
             <div className={`${active === '4' ? 'active' : 'none'}`}>
+               <h3>4: Passport sized-photos</h3>
             <p> Partners should also provide their latest passport size photos</p>
             </div>
             <div className={`${active === '5' ? 'active' : 'none'}`}>
+               <h3>5: Passport</h3>
             <p> For becoming a Partner in a Limited Liability Partnership, NRIs & Foreign Nationals have to submit their passport mandatorily. Passport has to be notarized by the concerned authorities in the country of such NRI & Foreign Nationals, else the Indian Embassy located in that country can also sign the documents.</p>
             </div>
           </div>
