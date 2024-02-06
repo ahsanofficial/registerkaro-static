@@ -53,26 +53,31 @@ export const Procedure = () => {
         </div>
         <div className='flex-5 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>Step 1: Obtain DSC</h3>
             <p>
             First, you need to obtain a DSC (Digital Signature Certificate), it is vital for signing the digital incorporation application.
             </p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
+            <h3>Step 2: Choose a Unique Company Name</h3>
             <p>
              Then, you need to choose a unique name for your Company that aligns with the set name availability guidelines. At the time of the Producer Company Registration process, list your chosen names in the SPICe+ Part-A Form.
             </p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <h3>Step 3: Prepare all Requisite Documents</h3>
             <p>
             Once your Company Name is approved, then the next step is to prepare all the vital documents for Company Registration. At this step, MoA, AoA, INC-9, INC-10, DIR-2, etc., are prepared & shared for signature.
             </p>
           </div> 
           <div className={`${active === '4' ? 'active' : 'none'}`}>
+            <h3>Step 4: File for Incorporation</h3>
             <p>
             Once all the vital documents are signed by the promoters then the next step is to file the Incorporation Form with SPICe+ INC-32 Form.
             </p>
           </div>
           <div className={`${active === '5' ? 'active' : 'none'}`}>
+            <h3>Step 5: Follow up and Approval</h3>
             <p>
             Once you have filed for the Registration, then the next step is to follow up with the Government. If all your Documents and application are fine then the Government will issue the Registration Certificate.
             </p>

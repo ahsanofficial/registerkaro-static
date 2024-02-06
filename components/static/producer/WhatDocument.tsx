@@ -17,9 +17,11 @@ export const WhatDocument = () => {
     <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
       <div className='flex-5 text-justify fs-20'>
         <div className={`${active === '1' ? 'active' : 'none'}`}>
+          <h3>1: Annual Report by Auditor</h3>
           <p>Annual Report by Auditor: NDH-3 is a half-yearly return filed to check whether the Company is working under the prescribed rules or not. This Return is to be filed by 30th Sep & 31st Mar each year.</p>
         </div>
         <div className={`${active === '2' ? 'active' : 'none'}`}>
+          <h3>2: Internal Audit</h3>
           <p>Internal Audit: This will be conducted at regular intervals by a CS, CA, Advocate, or CMA as per the AoA.</p>
         </div>
       </div>

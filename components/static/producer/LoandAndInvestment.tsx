@@ -41,16 +41,19 @@ export const LoanAndInvestment = () => {
         </div>
         <div className='flex-5 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>1: Loans & Advances</h3>
             <p>
             Loans & Advances are provided to the members against security, repayable within a period not more than 7 years from the date of loan disbursement of such loans or advances.
             </p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
+            <h3>2: NABARD Loan</h3>
             <p>
             In India, NABARD provides support & financial support to meet the requirements of Producer Companies. In 2011, NABARD set up a Rs. 50 crores PODF out of its operating surplus.
             </p>
           </div> 
           <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <h3>3: Credit Facility</h3>
             <p>
             This is available to any member for a period of not more than 6 months (such facility must be in association with the business).
             </p>
