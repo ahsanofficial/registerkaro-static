@@ -14,7 +14,7 @@ The primary goal of a Producer Company is to collectively handle activities like
                             <a href="#What" className="scrollTo">
                                 <li>What is a Farmer Producer Company?</li>
                             </a>
-                            <a href="#Activity" className="scrollTo">
+                            <a href="#ActivityPerform" className="scrollTo">
                                 <li>Activities Performed by a Producer Company in India</li>
                             </a>
                             <a href="#Differnt" className="scrollTo">
