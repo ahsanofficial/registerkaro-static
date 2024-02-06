@@ -37,6 +37,7 @@ export const WhySocietyRegi = () => {
           </div>
       </div>
         <div className='flex-4'>
+          
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
             <div>
               <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /> &nbsp; Legal Status

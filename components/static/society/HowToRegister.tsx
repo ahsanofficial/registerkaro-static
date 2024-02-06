@@ -19,6 +19,7 @@ export const HowToRegister = () => {
       
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
       <div className='flex-6 text-justify fs-20'>
+          
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>Expert Advisory</h3>
             <p>RegisterKaro primarily assigns you an expert advisor for the Society registration process who will guide from the beginning to the end till you obtain the certificate of incorporation. The Expert assist you in designing the plan of action for the entire process.</p>
@@ -37,29 +38,29 @@ export const HowToRegister = () => {
           </div>
       </div>
         <div className='flex-4'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /> &nbsp; Expert Advisory
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /> <div className='pe-4'>Expert Advisory </div> 
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="pu step 2" loading="lazy" width={30} height={30} /> &nbsp; Collection of Documents
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={two} alt="pu step 2" loading="lazy" width={30} height={30} /> <div className='pe-4'>Collection of Documents </div> 
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="pu step 3" loading="lazy" width={30} height={30} /> &nbsp; Application Filing
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={three} alt="pu step 3" loading="lazy" width={30} height={30} /> <div className='pe-4'>Application Filing </div> 
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="pu step 4" loading="lazy" width={30} height={30} /> &nbsp; Registration Certificate
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={four} alt="pu step 4" loading="lazy" width={30} height={30} /> <div className='pe-4'>Registration Certificate </div> 
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
         </div>
        
