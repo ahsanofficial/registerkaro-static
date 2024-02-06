@@ -23,59 +23,59 @@ export const Eligibility = () => {
       <p className='main-para mb-0'>Following is the eligibility for Public Limited Company Registration:</p>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
         <div className='flex-5'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /> &nbsp; Minimum Directors
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'> Minimum Directors</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="pu step 2" loading="lazy" width={30} height={30} /> &nbsp; Shareholders
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={two} alt="pu step 2" loading="lazy" width={30} height={30} /><div className='pe-4'> Shareholders</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="pu step 3" loading="lazy" width={30} height={30} /> &nbsp; Authorized Capital
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={three} alt="pu step 3" loading="lazy" width={30} height={30} /><div className='pe-4'> Authorized Capital</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="pu step 4" loading="lazy" width={30} height={30} /> &nbsp; DIN and DSC
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={four} alt="pu step 4" loading="lazy" width={30} height={30} /><div className='pe-4'> DIN and DSC</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={five} alt="pu step 5" loading="lazy" width={30} height={30} /> &nbsp; Name Approval
+          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={five} alt="pu step 5" loading="lazy" width={30} height={30} /><div className='pe-4'> Name Approval</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={six} alt="pu step 6" loading="lazy" width={30} height={30} /> &nbsp; Registered Office
+          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={six} alt="pu step 6" loading="lazy" width={30} height={30} /><div className='pe-4'> Registered Office</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('7')} className={`btn flex ${active === '7' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={seven} alt="pu step 7" loading="lazy" width={30} height={30} /> &nbsp; Compliance with Laws
+          <button onClick={() => handleActive('7')} className={`btn flex ${active === '7' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={seven} alt="pu step 7" loading="lazy" width={30} height={30} /><div className='pe-4'> Compliance with Laws</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('8')} className={`btn flex ${active === '8' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={eight} alt="pu step 8" loading="lazy" width={30} height={30} /> &nbsp; Board Meetings and Annual General Meetings
+          <button onClick={() => handleActive('8')} className={`btn flex ${active === '8' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2' >
+              <Image src={eight} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'> Board Meetings and Annual General Meetings</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('9')} className={`btn flex ${active === '9' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={nine} alt="pu step 7" loading="lazy" width={30} height={30} /> &nbsp; Statutory Compliance
+          <button onClick={() => handleActive('9')} className={`btn flex ${active === '9' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={nine} alt="pu step 7" loading="lazy" width={30} height={30} /><div className='pe-4'> Statutory Compliance</div>
+              <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
         </div>
         <div className='flex-5 text-justify fs-20'>
