@@ -46,21 +46,25 @@ export const Compliances = () => {
         </div>
         <div className='flex-5 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>1: Filing ITR</h3>
             <p>
             The owner of a Proprietorship will have to file ITR using ITR-3 & 4.
             </p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
+            <h3>2: GST Return Filing</h3>
             <p>
             In case the Proprietorship has GST Registration, GST returns must be filed every month as per the Scheme under which the business is registered.
             </p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <h3>3: Business Income</h3>
             <p>
             Once your Company Name is approved, then the next step is to prepare all the vital documents for Company Registration. At this step, MOnly ITR Forms allow for declaring business income. Hence, all proprietorships will have to file ITR forms to be compliant with the Income Tax Regulations.
             </p>
           </div> 
           <div className={`${active === '4' ? 'active' : 'none'}`}>
+            <h3>4: TDS Returns</h3>
             <p>
             If the Proprietorship has employees or purchases products or services beyond a certain threshold, then tax must be deducted & TDS returns must be filed every quarter.
             </p>
