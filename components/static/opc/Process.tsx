@@ -14,7 +14,7 @@ export const Process = () => {
                                 <li>Features of One Person Company in India</li>
                             </a>
                             <a href="#Checklist" className="scrollTo">
-                                <li>Checklist for One Person Company Registration in</li>
+                                <li>Checklist for One Person Company Registration in India</li>
                             </a>
                             <a href="#Required" className="scrollTo">
                                 <li>Documents Required for OPC Registration in India</li>
@@ -26,7 +26,7 @@ export const Process = () => {
                                 <li>Restrictions on One Person Company</li>
                             </a>
                             <a href="#LLP" className="scrollTo">
-                                <li>LLP Compliance</li>
+                                <li>Compliances for One Person Company in India</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>
