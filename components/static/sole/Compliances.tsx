@@ -19,29 +19,29 @@ export const Compliances = () => {
       <p className='main-para mb-0'>The following are some vital compliances for Sole Proprietorship in India</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-5'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="one" loading="lazy" width={30} height={30} /> &nbsp; Filing ITR
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={one} alt="one" loading="lazy" width={30} height={30} /><div className='pe-4'> Filing ITR</div>
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; GST Return Filing
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={two} alt="two" loading="lazy" width={30} height={30} /><div className='pe-4'> GST Return Filing</div>
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Business Income
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='pe-4'> Business Income</div>
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="four" loading="lazy" width={30} height={30} /> &nbsp; TDS Returns
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={four} alt="four" loading="lazy" width={30} height={30} /><div className='pe-4'> TDS Returns</div>
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
         </div>
         <div className='flex-5 text-justify fs-20'>
