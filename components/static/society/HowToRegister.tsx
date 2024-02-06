@@ -21,19 +21,19 @@ export const HowToRegister = () => {
       <div className='flex-6 text-justify fs-20'>
           
           <div className={`${active === '1' ? 'active' : 'none'}`}>
-            <h3>Expert Advisory</h3>
+            <h3>1: Expert Advisory</h3>
             <p>RegisterKaro primarily assigns you an expert advisor for the Society registration process who will guide from the beginning to the end till you obtain the certificate of incorporation. The Expert assist you in designing the plan of action for the entire process.</p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
-            <h3>Collection of Documents</h3>
+            <h3>2: Collection of Documents</h3>
             <p>Next, RegisterKaro helps you in preparing and drafting all the required documents such as Memorandum of Association, Rules and Regulations or By-laws and further signed by all the members which is an important requirement in the society registration process.</p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
-            <h3>Application Filing</h3>
+            <h3>3: Application Filing</h3>
             <p>Once all the documentation are drafting and prepared for filing, now RegisterKaro helps you in filing the application for Society Registration along with step-by-step consultation from our expert Advisor. We make sure that there is a consistent follow up on your application status. In case of rejected application, we also assist you in refiling of the same till you get the end results.</p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
-            <h3>Registration Certificate</h3>
+            <h3>4: Registration Certificate</h3>
             <p>Once the department examine and approve your application, your Registration Certificate is Issued. The whole process takes approx 30-90 days (varies state to state as per their working process)</p>
           </div>
       </div>

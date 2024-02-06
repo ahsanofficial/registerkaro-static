@@ -47,15 +47,19 @@ export const UnderstandProcess = () => {
         
       <div className='flex-6 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>1: Gather Necessary Documents for Society Registration</h3>
             <p>Collect all required documents for society registration. Ensure a thorough review of these documents before proceeding with the application.</p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
+            <h3>2: Complete the Online Application</h3>
             <p>Fill in the online application form. If you encounter difficulties accessing the website, seek guidance from an expert to initiate the society registration process in Delhi through offline means.</p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <h3>3: Submit Application to the Relevant Authority</h3>
             <p>Send the completed online application through the official portal. In case of any difficulty locating the portal, consider having experts visit the head office to submit the application for cooperative society registration in Delhi</p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
+            <h3>4: Attain Society Registration Certificate</h3>
             <p>After scrutinizing your application form, the head office will evaluate its satisfaction. Upon approval, you will be issued the society registration certificate</p>
           </div>
       </div>

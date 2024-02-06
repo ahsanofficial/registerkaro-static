@@ -45,15 +45,19 @@ export const Renewal = () => {
         </div>
         <div className='flex-6 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>Step 1</h3>
             <p>Prepare the application for the renewal, and fill in the form with details like personal information.</p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
+            <h3>Step 2</h3>
             <p>The renewal process is only possible if the registrar had not dispensed the certificate due to destruction, loss or any other relevant reason</p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <h3>Step 3</h3>
             <p>Attach the documents with the application such as Account Audit, Financial Documents, affidavits. Member details, society registration certificate, etc</p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
+            <h3>Step 4</h3>
             <p>Submit the application and wait for the verification. Once verified, your will receive the renewal of the certificate for Society Registration.</p>
           </div>
         </div>

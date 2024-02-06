@@ -21,18 +21,23 @@ export const WhySocietyRegi = () => {
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
       <div className='flex-6 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
+            <h3>1: Legal Status</h3>
             <p>Society upon registration receives the legal status of being a separate entity working in furtherance of certain objective that is different from that of the personal interest of those operating it. Once registration is successful, Society enjoys all the benefits of that of a legal entity and an artificial person.</p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
+            <h3>2: Access to funds</h3>
             <p>When society attains legal status in the market, it becomes convenient to access funds and investors as the registration creates authenticity and reliability of the society being original and not a hoax conduct.</p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
+            <h3>3: Limited Liability</h3>
             <p>Like many other forms of company registered under the companies Act, the registered society also holds certain level of limited liability when it comes to debt recovery from its operators or employees running the operations.</p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
+            <h3>4: Credibility & Trust</h3>
             <p>Registration of the society leads to creation of trust and reliability in the market which brings the association of people. It is expected that there can be many such organization operating for person dishonest interest, therefore, to segregate the honest societies from the bunch of bogus ones, registration plays a crucial role.</p>
           </div>
           <div className={`${active === '5' ? 'active' : 'none'}`}>
+            <h3>5: Benefits & Tax Exemptions</h3>
             <p>Society, being a legal separate entity operating in the welfare of the people, enjoys wide range of benefits and tax exemptions offered by the government. However, these benefits and exemptions can only be availed if the society is</p>
           </div>
       </div>
