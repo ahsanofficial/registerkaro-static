@@ -89,7 +89,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Hero />
-            <h1 className='main-heading'>Limited Liability Registration (LLP) Registration in India</h1>
+            <h1 className='main-heading'>Limited Liability Partnership (LLP) Registration Online in India</h1>
             <div className='heading-line'></div>
             <Process />
             <h1 className='main-heading'>What is a “Limited Liability Partnership” or “LLP”?</h1>
