@@ -30,53 +30,53 @@ export const WhatDocument = () => {
       <p className='main-para mb-0'>If you have found your destination in the face of a Private Limited Company, then let Registerkaro map the road to your destination. Following the given route, the company registration process becomes easy to handle.</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-5'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="one" loading="lazy" width={30} height={30} /> &nbsp; Director Identification Number (DIN)
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={one} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Director Identification Number (DIN)</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Digital Signature Certificate (DSC)
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={two} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Digital Signature Certificate (DSC)</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Memorandum of Association (MoA)
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={three} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Memorandum of Association (MoA)</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="four" loading="lazy" width={30} height={30} /> &nbsp; Articles of Association (AoA)
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={four} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Articles of Association (AoA)</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={five} alt="five" loading="lazy" width={30} height={30} /> &nbsp; Permanent Account Number (PAN) of the company
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={five} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Permanent Account Number (PAN) of the company</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={six} alt="six" loading="lazy" width={30} height={30} /> &nbsp; Tax Deduction Account Number (TAN) of the company
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={six} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Tax Deduction Account Number (TAN) of the company</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('7')} className={`btn flex ${active === '7' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={seven} alt="seven" loading="lazy" width={30} height={30} /> &nbsp; Certificate of Incorporation (COI)
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('7')} className={`btn flex ${active === '7' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={seven} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Certificate of Incorporation (COI)</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
-          <button onClick={() => handleActive('8')} className={`btn flex ${active === '8' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={eight} alt="eight" loading="lazy" width={30} height={30} /> &nbsp; Master Data of the Company
-            </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
+          <button onClick={() => handleActive('8')} className={`btn flex ${active === '8' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={eight} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Master Data of the Company</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
           </button>
         </div>
         <div className='flex-5 text-justify fs-20'>
