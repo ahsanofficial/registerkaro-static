@@ -14,22 +14,22 @@ export const Process = () => {
                                 <li>What is a “Limited Liability Partnership” or “LLP”?</li>
                             </a>
                             <a href="#Different" className="scrollTo">
-                                <li>What are the Features of an LLP in India?</li>
+                                <li>What are the characteristics of an LLP in India?</li>
                             </a>
                             <a href="#Benefits" className="scrollTo">
                                 <li>Benefits of LLP Registration in India</li>
                             </a>
-                            <a href="#Different" className="scrollTo">
+                            <a href="#DifferentTypes" className="scrollTo">
                                 <li>What are the Different Types of LLP Forms in India?</li>
                             </a>
                             <a href="#Checklist" className="scrollTo">
-                                <li>Checklist for the LLP Registration</li>
+                                <li>Checklist for the Registration of LLP</li>
                             </a>
                             <a href="#Documents" className="scrollTo">
                                 <li>What are the vital documents required for LLP Registration in India?</li>
                             </a>
                             <a href="#How" className="scrollTo">
-                                <li>Know the LLP Registration Process</li>
+                                <li>Procedure for LLP Registration in India</li>
                             </a>
                             <a href="#HowTo" className="scrollTo">
                                 <li>LLP Compliance</li>

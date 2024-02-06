@@ -17,47 +17,10 @@ export const HowToRegister = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='How'>
-      <p className='main-para'>If you have found your destination in the face of a Limited liability Partnership, then let Registerkaro map the road to your destination. Following the given route, the LLP registration process becomes easy to handle.</p>
+      <p className='main-para'>Following is the step-by-step procedure for LLP Registration in India</p>
         <div className="flex w-100 align-center justify-content-between mobile-flex-column">
-          <div className='flex-4'>
-             <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Obtain DSC</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-              </button>
-            <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={two} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Get DPIN</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-              </button>
-            <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={three} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Application for Name su Approval</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-              </button>
-            <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={four} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Filing FiLLiP Form</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-              </button>
-            <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={five} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>File LLP</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-              </button>
-            <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={six} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Apply for PAN, TAN, and Open a Bank Account</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-              </button>
-          </div>
-          <div className='flex-6 text-justify fs-20'>
+         
+        <div className='flex-6 text-justify fs-20'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <p>We already know that the documents for LLP Registration are filed online & are required to be digitally signed. So, before starting the LLP Registration process, you must apply for the Digital Signature Certificate (DSC) of the designated Partners of the proposed LLP. Hence, the designated Partner must obtain their DSCs from the Government-recognized certifying agencies.</p>
             </div>
@@ -76,6 +39,44 @@ export const HowToRegister = () => {
             <div className={`${active === '6' ? 'active' : 'none'}`}>
             <p>Once you get the Certificate of Incorporation we will apply for the PAN, TAN and Bank Account for your Limited Liability Partnership. </p>
             </div>
+          </div>
+          <div className='flex-4'>
+             <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Obtain DSC</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+              </button>
+            <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={two} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Get DIN</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+              </button>
+            <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={three} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Application for Name su Approval</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+              </button>
+            <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={four} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Filing FiLLiP Form</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+              </button>
+            <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={five} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>File LLP Agreement </div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+              </button>
+            <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2' >
+                <Image src={six} alt="pu step 1" loading="lazy" width={30} height={30} /><div className='pe-4'>Apply for PAN, TAN, and Open a Bank Account</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+              </button>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Different from '../../../assets/images/llp-reg/Different.svg'
 
 export const DifferentTypes = () => {
   return (
-    <div className='DifferentTypes flex w-80 m-auto mobile-flex-column-reverse' id='Different'>
+    <div className='DifferentTypes flex w-80 m-auto mobile-flex-column-reverse' id='DifferentTypes'>
       <div className='flex-5'>
         <p>Following is the list of all types of LLP Forms in India:</p>
         <p><strong>1. FiLLiP Form: </strong>This form is used for the incorporation of LLP in India.</p>

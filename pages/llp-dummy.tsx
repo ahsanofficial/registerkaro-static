@@ -12,60 +12,70 @@ import { LLPReg } from '../components/static/llp/LLPReg'
 import { Process } from '../components/static/llp/Process'
 import { TableCom } from '../components/static/llp/TableCom'
 
-let faq = [
+let faq = 
+[
     {
-        "question": "How do I register for LLP?",
-        "answer": "To register for the LLP, you may follow the given steps: apply for the DSC < apply for the DIN < draft the LLP Agreement for the partners to sign it < Fill Form-2, Form-3, and Form-4 along with attaching the LLP agreement < pay the LLP registration fee < application verification process will take place < once verified, you will receive the certificate for incorporation."
+        "question": "Is LLP Registration compulsory in India?",
+        "answer": "Yes, LLP Registration in India is compulsory. An LLP must obtain Registration under LLP Act to be a legally valid entity."
     },
     {
-        "question": "Who are eligible for LLP?",
-        "answer": "Individual eligible to conduct business in Indian Region is eligible for LLP registration if that individual is accompanied by another eligible partner with Indian Citizenship"
+        "question": "What is an LLP Agreement?",
+        "answer": "This Agreement is made between the Partners and the LLP. An LLP Agreement in India generally includes management guidelines, provisions regarding adding new Partners, methods for formulating policy, etc."
     },
     {
-        "question": "What LLP means?",
-        "answer": "It is one of the eight forms of company structures available for business registration under Companies Act 2013. It stands for Limited Liability Partnership."
+        "question": "Is GST Registration required for LLP?",
+        "answer": "Yes, GST Registration is required for all Limited Liability Partnerships in India depending on the type of products or services they offer. Also, LLPs are required to file GST Returns on a regular basis."
     },
     {
-        "question": "Is it compulsory to register LLP?",
-        "answer": "Any business needs to be registered in order to avail benefits offered by the government. In order to register, it is important to check is the business nature and operation is matching the eligibility frame for registering as LLP. Important to note that any business can only be called as an LLP, if it is registered."
+        "question": "Can Foreign Nationals or NRIs be designated Partners in LLP?",
+        "answer": "An NRI or Foreign National can be a designated Partner in LLP if he or she has DPIN. However, at least one Partner should be an Indian Resident."
     },
     {
-        "question": "Is LLP better than Pvt Ltd?",
-        "answer": "LLP has distinctive features and benefits than that of a Pvt. Ltd. Such as that of registration process asking for MoA and AoA, where there is no such requirement in LLP registration. Moreover, the LLP registration process is quite convenient to be followed than that of a Pvt. Ltd. However, Pvt. Ltd. Is the most sorted and organized form of company."
-    },
-    {
-        "question": "Is LLP better than partnership?",
-        "answer": "LLP is a form of partnership which is based on the partnership deed signed between the partners who are intending to work together in a business. It is basically a bridge between the private limited company and a partnership firm with perks of a private limited and functioning of a partnership firm."
-    },
-    {
-        "question": "What are the disadvantages of LLP?",
-        "answer": "LLP is not allowed to raise equity investment which eventually narrow down the capital investment options. Moreover, the income tax rate is bit higher for the LLP in comparison to that of a private limited company."
-    },
-    {
-        "question": "What is the advantage of LLP?",
-        "answer": "You may proceed ahead with LLP registration owing to its wide range of benefits such as no capital requirement, minimum two directors, less registration cost, less complex process, etc."
-    },
-    {
-        "question": "What is the tax slab for LLP?",
-        "answer": "In case the turnover is up to Rs. 250 Cores, the tax slab for the LLP raises to 30%."
-    },
-    {
-        "question": "Who pays the debts of a LLP?",
-        "answer": "The partners of the LLP are responsible for the payment of the debts. However, the personal debts of the partners cannot be touched upon for the debt recovery unless the case is of the fraud or cheating. The recovery is only done from the capital contribution of the partners."
-    },
-    {
-        "question": "Is LLP public or private?",
-        "answer": "LLP is a private entity which is regulated under the Companies Act 2013."
+        "question": "How many Partners are required to start an LLP in India?",
+        "answer": "At least 2 Partners are required to start an LLP in India."
     },
     {
         "question": "What is the minimum capital requirement for LLP?",
-        "answer": "There is no minimum capital requirement for LLP registration, meaning that the LLP can be registered at capital contribution."
+        "answer": "There is no minimum capital requirement for LLP in India."
     },
     {
-        "question": "What are the documents required for LLP registration?",
-        "answer": "Partner's Identity proof, Partner’s Address proof, Registered address proof, Partnership Deed, For foreign nationals [Passport, residence card, bank statement, or government-issued identity with the address], DSC for each Partner."
+        "question": "What’s the maximum tax rate for LLP in India?",
+        "answer": "Limited Liability Partnerships are taxed separately & pay a fixed rate of 30% in income tax on their earnings. Moreover, the AMT or Alternate Minimum Tax at a rate of 18.5% of a Limited Liability Partnership’s adjusted total revenue may also apply."
+    },
+    {
+        "question": "Is LLP better than Company?",
+        "answer": "In India, an LLP is easier to start & manage as it has fewer formalities and it has a lesser registration cost as compared to Company Registration cost."
+    },
+    {
+        "question": "Can a Limited Liability Partnership be converted into a Private Limited Company?",
+        "answer": "An LLP can be converted into a Private Limited Company as per provisions under Section 366 of the Companies Act, 2013 & Companies (Authorized to Register) Rules, 2014."
+    },
+    {
+        "question": "Does LLP require MoA & AoA?",
+        "answer": "No, MoA & AoA are required for companies registered under Companies Act. The LLP Agreement governs the LLP and not MoA & AoA."
+    },
+    {
+        "question": "What is DPIN?",
+        "answer": "DPIN stands for Designated Partner Identification Number is a unique number given by the Ministry of Corporate Affairs (MCA) to the designated Partner of an LLP."
+    },
+    {
+        "question": "Who can be a Partner in an LLP?",
+        "answer": "Any corporate body or individual can be a Partner in an LLP."
+    },
+    {
+        "question": "Whether a body corporate can be a designated Partner in an LLP?",
+        "answer": "Yes, a body corporate can be a designated Partner in an LLP in India."
+    },
+    {
+        "question": "Are there any minimum requirements for LLP Registration in India?",
+        "answer": "No, there are no minimum requirements for LLP Registration in India."
+    },
+    {
+        "question": "Is FDI allowed in an LLP?",
+        "answer": "Yes, FDI or Foreign Direct Investment is allowed in an LLP under the automatic route in the various sectors allowed by the FIPB."
     }
 ]
+
 
 const Home = () => {
     return (
@@ -85,7 +95,7 @@ const Home = () => {
             <h1 className='main-heading'>What is a “Limited Liability Partnership” or “LLP”?</h1>
             <div className='heading-line'></div>
             <LLPReg />
-            <h1 className="main-heading">What are the Features of an LLP in India?</h1>
+            <h1 className="main-heading">What are the characteristics of an LLP in India?</h1>
             <div className='heading-line'></div>
             <Characteristics />
             <h1 className="main-heading">Benefits of LLP Registration in India</h1>
@@ -94,13 +104,13 @@ const Home = () => {
             <h1 className="main-heading">What are the Different Types of LLP Forms in India?</h1>
             <div className='heading-line'></div>
             <DifferentTypes />
-            <h1 className="main-heading">Checklist for the LLP Registration</h1>
+            <h1 className="main-heading">Checklist for the Registration of LLP</h1>
             <div className='heading-line'></div>
             <Checklist />
             <h1 className="main-heading">What are the vital documents required for LLP Registration in India?</h1>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h1 className="main-heading">Know the LLP Registration Process</h1>
+            <h1 className="main-heading">Procedure for LLP Registration in India</h1>
             <div className='heading-line'></div>
             <HowToRegister />
             <h1 className="main-heading">LLP Compliance</h1>
