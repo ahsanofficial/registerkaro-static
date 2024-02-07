@@ -1,39 +1,23 @@
 import Image from 'next/image'
 import React from 'react'
-import one from '../../../assets/images/pvt-reg/checklist/one.png'
-import two from '../../../assets/images/pvt-reg/checklist/two.png'
-import three from '../../../assets/images/pvt-reg/checklist/three.svg'
-import four from '../../../assets/images/pvt-reg/checklist/four.svg'
-import five from '../../../assets/images/pvt-reg/checklist/five.svg'
-import six from '../../../assets/images/pvt-reg/checklist/six.svg'
-import seven from '../../../assets/images/pvt-reg/checklist/seven.svg'
+import bft from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const RenewSociety = () => {
   return (
-    <div className='checklist' id='RenewSociety'>
-      <p className='main-para'>Society Registration certificate is subject to renewal depending on the state and sometimes the kind of society you have registered. In order to renew the registration certificate, you need to keep following things in mind.</p>
-      <div className="checklist flex w-80 m-auto mobile-flex-column">
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={one} alt="Society Registered under the Society Registration Act 1860, is subject to renewal every 5 years."/>
-          </div>
-          <p>Society Registered under the Society Registration Act 1860, is subject to renewal every 5 years.</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={two} alt="Diffusion of political education"/>
-          </div>
-          <p>The renewal cost of the society registration starts from Rs 200, which varies from state to state.</p>
-        </div>
-        <div className="checklist-divs flex flex-column text-center align-center">
-          <div>
-            <Image height={125} width={125} src={three} alt="Grant of charitable assistance"/>
-          </div>
-          <p>For the renewal process you need more documents than you needed on the registration of the society. These documents include registration certificate, list of existing members, Authenticity certificate, Financial Statement, Audit Reports, Utility bills for address proof, copy of utilized certificate, signature of new members (if any), Bank Account details with passbook, passport size photos, affidavit and renewal fee.</p>
-        </div>
-      </div>
-      
-    </div>
-
+    <div>
+   <p className='main-para'>Society Registration certificate is subject to renewal depending on the state and sometimes the kind of society you have registered. In order to renew the registration certificate, you need to keep following things in mind:</p>
+    <div className='Checklist flex w-80 m-auto mobile-flex-column' id='RenewSociety'>
+  
+   <div className='flex-5'>
+  
+     <p><strong>1: </strong>The Memorandum of Association of the society along with Rules & Regulations of society must be signed by every establishing member, witness by Gazetted Officer, Notary Public, Chartered Accountant, Oath Commissioner, Advocate, Magistrate first-class or Chartered Accountant with their official stamping and complete address.</p>
+     <p><strong>2: </strong>The memorandum must contain the name of the society, the object of the society. Also, it consists of details of members of the society registration along with their names, addresses, designations, and occupations. The following document has to be prepared, submitted and signed for the sake of registration</p>
+     <p><strong>3: </strong>Requesting society registration by providing covering letter, signed by all establishing members.</p>
+   </div>
+   <div className='flex-5'>
+       <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={600} loading="lazy" src={bft} />
+   </div>
+   </div>
+   </div>
   )
 }

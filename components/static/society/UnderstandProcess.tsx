@@ -45,7 +45,7 @@ export const UnderstandProcess = () => {
              </button>
           </div>
         
-      <div className='flex-6 text-justify fs-20'>
+      <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Gather Necessary Documents for Society Registration</h3>
             <p>Collect all required documents for society registration. Ensure a thorough review of these documents before proceeding with the application.</p>

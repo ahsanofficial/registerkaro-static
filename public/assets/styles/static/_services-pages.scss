@@ -285,6 +285,11 @@
       border: none;
     }
   }
+  .p-color-black {
+    p {
+      color: black;
+    }
+  }
 
   @media screen and (max-width: 1400px) {
     .hero {

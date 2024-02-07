@@ -43,7 +43,7 @@ export const Renewal = () => {
             <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
           </button>
         </div>
-        <div className='flex-6 text-justify fs-20'>
+        <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>Step 1</h3>
             <p>Prepare the application for the renewal, and fill in the form with details like personal information.</p>

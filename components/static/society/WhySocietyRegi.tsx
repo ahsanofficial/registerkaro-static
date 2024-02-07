@@ -19,7 +19,7 @@ export const WhySocietyRegi = () => {
       <p className='main-para'>Society registration offers you wide range of benefits which brings more ease in the operation of the society. Such range of benefits include</p>
       
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
-      <div className='flex-6 text-justify fs-20'>
+      <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Legal Status</h3>
             <p>Society upon registration receives the legal status of being a separate entity working in furtherance of certain objective that is different from that of the personal interest of those operating it. Once registration is successful, Society enjoys all the benefits of that of a legal entity and an artificial person.</p>

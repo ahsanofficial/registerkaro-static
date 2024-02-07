@@ -18,7 +18,7 @@ export const HowToRegister = () => {
       <p className='main-para'>RegisterKaro brings the expert assistance to your door to turn our dream into a living reality. Our service toolkit has been of service to our longstanding clients for many reasons few of which could be counted on</p>
       
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
-      <div className='flex-6 text-justify fs-20'>
+      <div className='flex-6 text-justify fs-20 p-color-black'>
           
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Expert Advisory</h3>
