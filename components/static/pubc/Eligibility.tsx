@@ -78,7 +78,7 @@ export const Eligibility = () => {
             </div>
           </button>
         </div>
-        <div className='flex-5 text-justify fs-20'>
+        <div className='flex-5 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Minimum Directors</h3>
             <p>You need a minimum of three directors to register a public limited company in India. Out of these directors, at least one must be a resident of India.</p>

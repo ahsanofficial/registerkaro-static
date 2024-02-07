@@ -44,7 +44,7 @@ export const Compliances = () => {
             </div>
           </button>
         </div>
-        <div className='flex-5 text-justify fs-20'>
+        <div className='flex-5 text-justify fs-20 p-color-black' >
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Filing ITR</h3>
             <p>

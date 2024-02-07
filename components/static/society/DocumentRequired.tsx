@@ -1,12 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import dft from '../../../assets/images/pvt-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocumentRequired = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Documents'>
-      <div className='flex-7'>
+      <div >
+      <div className='flex justify-content-center'>
+        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+      </div>
         <p>The following are the documents required for Society Registration in India:</p>
         <h3>PAN Card</h3>
         <ul className='tick list-unstyled'>
@@ -64,11 +67,7 @@ export const DocumentRequired = () => {
         
        
       </div>
-      <div className='flex-3'>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={430}/>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={430}/>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={430}/>
-      </div>
+     
     </div>
   )
 }

@@ -57,7 +57,7 @@ export const HowToRegister = () => {
               </div>
             </button>
         </div>
-        <div className='flex-6 text-justify fs-20'>
+        <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Select the Company name</h3>
             <p>Business structure selection is the first step for company registration and when the private limited company is what you have chosen, time is to select the company name. It is important to then verify if the selected name is available for company registration. Once MCA approves a certain name, the applicant then is left with 21 days to register the company.</p>

@@ -70,7 +70,7 @@ export const WhatDocument = () => {
             </div>
           </button>
         </div>
-        <div className='flex-6 text-justify fs-20'>
+        <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Form NDH-1</h3>
             <p>This form contains all the information regarding members, loans, deposits, etc., for the complete Financial Year e-Form GNL-2 is used for the submission of the documents with the Registrar.</p>

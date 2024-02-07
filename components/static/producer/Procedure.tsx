@@ -51,7 +51,7 @@ export const Procedure = () => {
             </div>
           </button>
         </div>
-        <div className='flex-5 text-justify fs-20'>
+        <div className='flex-5 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>Step 1: Obtain DSC</h3>
             <p>

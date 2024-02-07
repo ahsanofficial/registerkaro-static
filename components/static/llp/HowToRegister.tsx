@@ -20,7 +20,7 @@ export const HowToRegister = () => {
       <p className='main-para'>Following is the step-by-step procedure for LLP Registration in India</p>
         <div className="flex w-100 align-center justify-content-between mobile-flex-column">
          
-        <div className='flex-6 text-justify fs-20'>
+        <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Obtain DSC</h3>
             <p>We already know that the documents for LLP Registration are filed online & are required to be digitally signed. So, before starting the LLP Registration process, you must apply for the Digital Signature Certificate (DSC) of the designated Partners of the proposed LLP. Hence, the designated Partner must obtain their DSCs from the Government-recognized certifying agencies.</p>

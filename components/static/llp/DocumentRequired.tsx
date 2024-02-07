@@ -53,7 +53,7 @@ export const DocumentRequired = () => {
               </div>
             </button>
           </div>
-          <div className='flex-6 text-justify fs-20'>
+          <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: PAN Card or Identity Proof of all the Partners</h3>
             <p>All the designated Partners are required to provide their PAN and it acts as a primary identity proof.</p>

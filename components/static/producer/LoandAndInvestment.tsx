@@ -39,7 +39,7 @@ export const LoanAndInvestment = () => {
           </button>
         
         </div>
-        <div className='flex-5 text-justify fs-20'>
+        <div className='flex-5 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Loans & Advances</h3>
             <p>
