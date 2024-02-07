@@ -50,7 +50,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Pvt. Ltd. Company - Incorporation Certificate [Sample]</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate}/>
+                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

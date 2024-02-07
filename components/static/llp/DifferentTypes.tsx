@@ -15,7 +15,7 @@ export const DifferentTypes = () => {
         <p><strong>6. Form 24: </strong>This is the application to the ROC for striking off the name of LLP.</p>
       </div>
       <div className='flex-5'>
-          <Image alt="6 different types of LLP Forms required at the time of LLP Registration" className="DifferentTypes-img w-100" height={382} loading="lazy" src={Different} />
+        <Image alt="6 different types of LLP Forms required at the time of LLP Registration" className="DifferentTypes-img w-100" height={382} loading="lazy" src={Different} />
       </div>
     </div>
   )

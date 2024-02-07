@@ -14,48 +14,48 @@ export const HowToRegister = () => {
   const handleActive = (id: string) => {
     setActive(id)
   }
-  three
+
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='How'>
       <p className='main-para'>If you have found your destination in the face of a Private Limited Company, then let Registerkaro map the road to your destination. Following the given route, the company registration process becomes easy to handle.</p>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
         <div className='flex-4'>
-           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={one} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Select the Company name</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-            </button>
-           <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={two} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Digital Signature Certificate</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-            </button>
-           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={three} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>SPICe+ Form (INC-32)</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-            </button>
-           <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={four} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Electronic submission of MoA and AoA</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-            </button>
-           <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={five} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Non-electronic submission of MoA and AoA</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-            </button>
-           <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
-              <div className='d-flex justify-content-between align-items-center gap-2' >
-                <Image src={six} alt=" Select the Company name" loading="lazy" width={30} height={30} /><div className='pe-4'>Certificate of Incorporation</div>
-                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
-              </div>
-            </button>
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
+            <div>
+              <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /> &nbsp; Select the Company name
+            </div>
+            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+          </button>
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
+            <div>
+              <Image src={two} alt="pu step 2" loading="lazy" width={30} height={30} /> &nbsp; Digital Signature Certificate
+            </div>
+            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+          </button>
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
+            <div>
+              <Image src={three} alt="pu step 3" loading="lazy" width={30} height={30} /> &nbsp; SPICe+ Form (INC-32)
+            </div>
+            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+          </button>
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
+            <div>
+              <Image src={four} alt="pu step 4" loading="lazy" width={30} height={30} /> &nbsp; Electronic submission of MoA and AoA
+            </div>
+            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+          </button>
+          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'}`}>
+            <div>
+              <Image src={five} alt="pu step 5" loading="lazy" width={30} height={30} /> &nbsp; Non-electronic submission of MoA and AoA
+            </div>
+            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+          </button>
+          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'}`}>
+            <div>
+              <Image src={six} alt="pu step 5" loading="lazy" width={30} height={30} /> &nbsp; Certificate of Incorporation
+            </div>
+            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+          </button>
         </div>
         <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>

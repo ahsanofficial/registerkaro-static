@@ -16,7 +16,6 @@ import { Procedure } from '../components/static/sole/Procedure'
 import { RegisterUnderEstablishment } from '../components/static/sole/RegisterUnderEstablishment'
 
 
-
 let faq = [
     {
         "question": "What is a sole proprietorship?",

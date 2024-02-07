@@ -52,7 +52,7 @@ let faq = [
     },
     {
         "question": "What are the steps for registering a society in India?",
-       "answer":"For the successful society registration, you need to follow the given step-by-step process  Step 1. The first step begins with compilation and preparation of the paperwork including Members’ identification related documents [PAN, Aadhar Card, residency proof, affidavit] Step 2. Selection of the Society Name and then you need to verify the name with the government portal for its availability. [click here to search] Step 3. Drafting of Memorandum of Association & By-laws laying down the role and function of the members in the society, and the operation of the society Step 4. Fill in the application form for registration Step 5. Application will now be subject to assessment and verification. Once the verification process is completed, either your application will be rejected where you will have to file the application again with the correction or it will be approved. On the approval, your certification for society registration will be approved to you."
+        "answer": "For the successful society registration, you need to follow the given step-by-step process  Step 1. The first step begins with compilation and preparation of the paperwork including Members’ identification related documents [PAN, Aadhar Card, residency proof, affidavit] Step 2. Selection of the Society Name and then you need to verify the name with the government portal for its availability. [click here to search] Step 3. Drafting of Memorandum of Association & By-laws laying down the role and function of the members in the society, and the operation of the society Step 4. Fill in the application form for registration Step 5. Application will now be subject to assessment and verification. Once the verification process is completed, either your application will be rejected where you will have to file the application again with the correction or it will be approved. On the approval, your certification for society registration will be approved to you."
     },
     {
         "question": "Who can be a member of society?",
@@ -93,40 +93,40 @@ const Home = () => {
             <Process />
             <h1 className='main-heading'>Purpose of Society Registration</h1>
             <div className='heading-line'></div>
-            <Purpose /> 
+            <Purpose />
             <h1 className='main-heading'>Registration of a Society In India</h1>
             <div className='heading-line'></div>
-            <Registration/>
+            <Registration />
             <h1 className='main-heading'>Selection of a Name and Memorandum of Association</h1>
             <div className='heading-line'></div>
-            <SelectionHead/>
+            <SelectionHead />
             <h2 className='main-heading'>Selection of Name</h2>
             <div className='heading-line'></div>
-            <SelectionName/>
+            <SelectionName />
             <h1 className='main-heading'>Memorandum of Association</h1>
             <div className='heading-line'></div>
-            <Memorandum/>
+            <Memorandum />
             <h1 className='main-heading'>Why to go for Society Registration?</h1>
             <div className='heading-line'></div>
-            <WhySocietyRegi/>
+            <WhySocietyRegi />
             <h1 className='main-heading'>Documents you will need for Society Registration</h1>
             <div className='heading-line'></div>
-            <DocumentRequired/>
+            <DocumentRequired />
             <h1 className='main-heading'>Understand the Process for Society Registration</h1>
             <div className='heading-line'></div>
-            <UnderstandProcess/>
+            <UnderstandProcess />
             <h1 className='main-heading'>Dissolution of a registered Society</h1>
             <div className='heading-line'></div>
-            <Dissolution/>
+            <Dissolution />
             <h1 className='main-heading'>When to Renew Society Registration Certificate in India?</h1>
             <div className='heading-line'></div>
-            <RenewSociety/>
+            <RenewSociety />
             <h1 className='main-heading'>Renewal Process for Society Registration Certificate</h1>
             <div className='heading-line'></div>
-            <Renewal/>
+            <Renewal />
             <h1 className='main-heading'>How RegisterKaro assist you with Society Registration?</h1>
             <div className='heading-line'></div>
-            <HowToRegister/>
+            <HowToRegister />
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

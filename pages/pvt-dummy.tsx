@@ -2,7 +2,6 @@ import React from 'react'
 import { Hero } from '../components/static/pvt/Hero'
 import { Process } from '../components/static/pvt/Process'
 import { DifferentTypes } from '../components/static/pvt/DifferentTypes'
-import { PvtReg } from '../components/static/pvt/PvtReg'
 import { Benefits } from '../components/static/pvt/Benefits'
 import { Checklist } from '../components/static/pvt/Checklist'
 import { HowToRegister } from '../components/static/pvt/HowToRegister'
@@ -14,6 +13,7 @@ import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
 import { DocumentRequired } from '../components/static/pvt/DocumentRequired'
 import { WhatDocument } from '../components/static/pvt/WhatDocument'
 import { TableCom } from '../components/static/pvt/TableCom'
+import { PvtReg } from '../components/static/producer/PvtReg'
 
 let faq = [
     {

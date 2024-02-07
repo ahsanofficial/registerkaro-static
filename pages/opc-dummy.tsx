@@ -89,7 +89,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Hero />
-            <h1 className='main-heading'>Online One Person Company Registration in India</h1>
+            <h1 className='main-heading'>What is One Person Company Registration in India?</h1>
             <div className='heading-line'></div>
             <Process />
             <h1 className="main-heading">Features of One Person Company in India</h1>
@@ -107,7 +107,7 @@ const Home = () => {
             <h1 className="main-heading">Restrictions on One Person Company</h1>
             <div className='heading-line'></div>
             <Restrictions />
-            <h1 className="main-heading">Compliances for One Person Company in India</h1>
+            <h1 className="main-heading">LLP Compliance</h1>
             <div className='heading-line'></div>
             <TableCom />
             <h1 className="main-heading">Why RegisterKaro?</h1>

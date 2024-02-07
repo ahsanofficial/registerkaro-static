@@ -1,24 +1,17 @@
-import React from 'react'
-import { Hero } from '../components/static/producer/Hero'
-import { Process } from '../components/static/producer/Process'
-import { DifferentTypes } from '../components/static/producer/DifferentTypes'
-import { PvtReg } from '../components/static/pvt/PvtReg'
-import { Benefits } from '../components/static/producer/Benefits'
-import { Checklist } from '../components/static/pvt/Checklist'
-import { HowToRegister } from '../components/static/pvt/HowToRegister'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { RegisterPvt } from '../components/static/pvt/RegisterPvt'
 import Head from 'next/head'
-import { TimeRequired } from '../components/static/pvt/TimeRequired'
+import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { DocumentRequired } from '../components/static/producer/DocumentRequired'
-import { WhatDocument } from '../components/static/producer/WhatDocument'
-import { TableCom } from '../components/static/pvt/TableCom'
-import { Requirement } from '../components/static/producer/Requirement'
-import { Procedure } from '../components/static/producer/Procedure'
-import { WhatFarmerProducer } from '../components/static/producer/WhatFarmerProducer'
 import { ActivityPerform } from '../components/static/producer/ActivityPerform'
+import { Benefits } from '../components/static/producer/Benefits'
+import { DifferentTypes } from '../components/static/producer/DifferentTypes'
+import { DocumentRequired } from '../components/static/producer/DocumentRequired'
+import { Hero } from '../components/static/producer/Hero'
 import { LoanAndInvestment } from '../components/static/producer/LoandAndInvestment'
+import { Procedure } from '../components/static/producer/Procedure'
+import { Process } from '../components/static/producer/Process'
+import { WhatDocument } from '../components/static/producer/WhatDocument'
+import { WhatFarmerProducer } from '../components/static/producer/WhatFarmerProducer'
+import { Checklist } from '../components/static/pvt/Checklist'
 
 let faq = [
     {
@@ -107,10 +100,10 @@ const Home = () => {
             <Process />
             <h1 className="main-heading">What is a Farmer Producer Company?</h1>
             <div className='heading-line'></div>
-            <WhatFarmerProducer/>
+            <WhatFarmerProducer />
             <h1 className="main-heading">Activities Performed by a Producer Company in India</h1>
             <div className='heading-line'></div>
-            <ActivityPerform/>
+            <ActivityPerform />
             <h1 className="main-heading">Different Types of Producer Companies in India</h1>
             <div className='heading-line'></div>
             <DifferentTypes />
@@ -125,19 +118,19 @@ const Home = () => {
             <DocumentRequired />
             <h1 className="main-heading">Procedure for Producer Company Registration</h1>
             <div className='heading-line'></div>
-             <Procedure />
+            <Procedure />
             <h1 className="main-heading">Post-Incorporation Compliance for Producer Company</h1>
             <div className='heading-line'></div>
             <WhatDocument />
             <h1 className="main-heading">Loans & Investments under Producer Company</h1>
             <div className='heading-line'></div>
-            <LoanAndInvestment/>
+            <LoanAndInvestment />
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
             <h1 className="main-heading">FAQs</h1>
-            <div className='heading-line'></div>  
-            <FaqTemplatePVT faqItems={faq} /> 
+            <div className='heading-line'></div>
+            <FaqTemplatePVT faqItems={faq} />
         </div>
     )
 }
