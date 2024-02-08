@@ -319,8 +319,7 @@
   @media (max-width: 700px) {
     table {
       width: 100%;
-      display: flex;
-      flex-wrap: wrap;
+      display: block;
       overflow-x: auto;
     }
   }
