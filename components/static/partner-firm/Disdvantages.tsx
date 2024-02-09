@@ -46,26 +46,26 @@ export const Disdvantages = () => {
           </div>
         </div>
         <div className='flex-5'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Unlimited Liability
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={one} alt="three" loading="lazy" width={30} height={30}  /><div className='ms-1 pe-4'>Unlimited Liability</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
-          </button><button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="three" loading="lazy" width={30} height={30} /> &nbsp; No Perpetual Successio
+          </button><button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={two} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>No Perpetual Successio</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
-          </button><button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Limited Resources
+          </button><button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Limited Resources</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
-          </button><button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Difficult to Raise Funds
+          </button><button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Difficult to Raise Funds</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
         
         </div>
