@@ -23,7 +23,7 @@ export const Prerequisite = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Prerequisite'>
       <p className='main-para'>To qualify for trust registration, the following conditions must be fulfilled:</p>
-    <div className="flex w-100 align-center justify-content-between mobile-flex-column-reverse">
+    <div className="flex w-100 align-center justify-content-between mobile-flex-column">
  
           <div className='flex-4'>
             <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
