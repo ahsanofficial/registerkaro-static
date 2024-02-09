@@ -20,29 +20,35 @@ export const Advantages = () => {
       <p className='main-para mb-0'>The following are the benefits of Partnership Firm Registration in India:</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-5'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="one" loading="lazy" width={30} height={30} /> &nbsp; Easy to Incorporate
+        {/* <button onClick={() => handleActive('9')} className={`btn flex ${active === '9' ? 'active-btn' : 'none-btn'} position-relative`}>
+              <div className='d-flex justify-content-between align-items-center gap-2'>
+                <Image src={nine} alt="pu step 7" loading="lazy" width={30} height={30} /><div className='pe-4'>&nbsp;Legal Compliance Assurance:</div>
+                <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} className="position-absolute end-0" />
+              </div>
+            </button> */}
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={one} alt="one" loading="lazy" width={30} height={30} /><div className='pe-4'>&nbsp;Easy to Incorporate</div>
+            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0' />
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="two" loading="lazy" width={30} height={30} /> &nbsp; Less Compliance
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={two} alt="two" loading="lazy" width={30} height={30} /><div className='pe-4'>&nbsp;Less Compliance</div>
+            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0' />
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Quick Decision
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='pe-4'>&nbsp;Quick Decision</div>
+            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0' />
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="three" loading="lazy" width={30} height={30} /> &nbsp; Sharing of Profits and Losses
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='pe-4'>&nbsp;Sharing of Profits and Losses</div>
+            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0' />
             </div>
-            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} />
           </button>
         
         </div>

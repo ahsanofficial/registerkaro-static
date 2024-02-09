@@ -6,7 +6,7 @@ export const DocumentsForPartnership = () => {
   return (
     <div className='m-auto w-80' id='DocumentsForPartnership'>
       <h3 className='main-para mb-0'>Following are some crucial documents required for Partnership Firm Registration in India:</h3>
-    <div className='benefits flex w-80 m-auto mobile-flex-column' >
+    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
   
   
   

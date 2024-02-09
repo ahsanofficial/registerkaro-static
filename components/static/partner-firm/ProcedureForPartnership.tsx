@@ -8,7 +8,7 @@ export const ProcedureForPartnership = () => {
   return (
     <div>
         <p className='main-para'>Following is the step-by-step Partnership Firm Registration in India:</p>
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='ProcedureForPartnership'>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='ProcedureForPartnership'>
       <div className='flex justify-content-center'>
         <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
       </div>
