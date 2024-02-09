@@ -6,10 +6,10 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 export const DocumentRequired = () => {
   return (
     <div className='DocumentRequired flex w-80 m-auto mobile-flex-column' id='DocumentRequired'>
-      <div className='flex-5'>
+      <div className='flex-4 DocumentRequired-img'>
         <Image alt="documents" className="DocumentRequired-img w-100" height={382} loading="lazy" src={documents} />
       </div>
-      <div className='flex-5'>
+      <div className='flex-7'>
         <p>Following is the list of all the vital documents for Public Limited Company Registration in India:</p>
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Identity proof of all the Directors & Shareholders of the Company</li>

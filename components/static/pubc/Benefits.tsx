@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/public-reg/benefits.svg'
+import bft from '../../../assets/images/public-reg/Benefits.svg'
 
 export const Benefits = () => {
   return (
     <div className='benefits flex w-80 m-auto mobile-flex-column' id='Benefits'>
-       <div className='flex-3'>
-          <Image alt="Private Limited Company sample" className="benefits-img w-100" height={382} loading="lazy" src={bft} />
+        <div className='flex-3'>
+        <Image alt="Private Limited Company sample" className="benefits-img w-100" height={900} loading="lazy" src={bft} />
       </div>
       <div className='flex-7'>
         <p>Following are the benefits of Public Limited Company Registration in India:</p>
