@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import documents from '../../../assets/images/nidhi-reg/documents.svg'
+import documents from '../../../assets/images/nidhi-reg/document_req.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocumentRequired = () => {

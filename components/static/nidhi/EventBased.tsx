@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import pvtReg from '../../../assets/images/pvt-reg/pvt-reg.svg'
+import pvtReg from '../../../assets/images/nidhi-reg/event_based.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const EventBased = () => {
