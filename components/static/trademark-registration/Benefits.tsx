@@ -6,6 +6,7 @@ import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
+import benefits from '../../../assets/images/trade-mark/Benefits.svg';
 
 export const Benefits = () => {
   const [active, setActive] = useState('1')
@@ -15,7 +16,11 @@ export const Benefits = () => {
   }
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Benefits'>
-      <p>Following are the benefits of Trademark Registration Online in India:</p>
+      < div className='flex-7'>
+          <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={benefits} height={530}/>
+             <p className='main-para mb-2'>Following are the benefits of Trademark Registration Online in India:</p>
+        </div>
+
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
       <div className='flex-4'>
          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>

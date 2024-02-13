@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocRequirement = () => {
@@ -8,7 +7,7 @@ export const DocRequirement = () => {
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='DocRequirement'>
       <div className='flex-5'>
         <div className='flex-3'>
-          <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={dft} height={430} />
+         
           <p>Following are the crucial documents required for Trademark Registration Online in India:</p>
         </div>
         <h3>For Individual: </h3>

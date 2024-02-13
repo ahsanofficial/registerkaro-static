@@ -4,14 +4,16 @@ import one from '../../../assets/images/pvt-reg/checklist/one.png'
 import two from '../../../assets/images/pvt-reg/checklist/two.png'
 import three from '../../../assets/images/pvt-reg/checklist/three.svg'
 import four from '../../../assets/images/pvt-reg/checklist/four.svg'
-import five from '../../../assets/images/pvt-reg/checklist/five.svg'
-import six from '../../../assets/images/pvt-reg/checklist/six.svg'
-import seven from '../../../assets/images/pvt-reg/checklist/seven.svg'
+import whoCan from '../../../assets/images/trade-mark/whoCanApply.svg'
+
 
 export const Checklist = () => {
   return (
     <div className='checklist' id='Checklist'>
-      <p className='main-para'>A Trademark application can be filed by:</p>
+      < div className='flex-7'>
+          <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={whoCan} height={530}/>
+        <p className='main-para'>A Trademark application can be filed by:</p>
+        </div>
       <div className="checklist flex w-80 m-auto mobile-flex-column">
         <div className="checklist-divs flex flex-column text-center align-center">
           <div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/trade-mark/Why.svg'
+import ProcedureReg from '../../../assets/images/trade-mark/whyRegisterKaro.svg'
 export const WhyRegist = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='WhyRegist'>

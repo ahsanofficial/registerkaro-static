@@ -1,16 +1,17 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
+import dft from '../../../assets/images/trade-mark/listOfDiff.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const ListOfDiff = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='ListOfDiff'>
-      <div className='flex-5'> 
-        <div className='flex-3'>
-          <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={dft} height={430} />
-         <p>resents a distinct category of goods and services. Following is the list of different Trademark Classes in India:</p>
+      <div className='flex-7'> 
+        <div className='flex-7'>
+          <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={dft} height={530}/>
+         <p>In India, trademarks are categorized into 45 classes based on the Nice Classification system. Each class represents a distinct category of goods and services. Following is the list of different Trademark Classes in India:</p>
         </div>
+        <div className='mt-0'>
         <h3>Goods Classes (1-34): </h3>
         <h3>Class 1: </h3>
         <ul className='tick list-unstyled'>
@@ -110,7 +111,7 @@ export const ListOfDiff = () => {
         </ul>
         <h3>Class 25:</h3>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Advertising and business management; business administration; office functions.</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Clothing, footwear, headgear.</li>
         </ul>
         <h3>Services Classes (35-45):</h3>
         <h3>Class 35:</h3>
@@ -158,6 +159,7 @@ export const ListOfDiff = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Legal services; security services for the protection of property and individuals; personal and social services rendered by others to meet the needs of individuals.</li>
         </ul>
        </div>
+      </div>
       </div>
   )
 }

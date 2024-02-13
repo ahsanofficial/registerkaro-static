@@ -1,6 +1,6 @@
 import React from "react"
 import Image from 'next/image'
-import ProcedureReg from '../../../assets/images/trade-mark/Validity.svg'
+import ProcedureReg from '../../../assets/images/trade-mark/validity.svg'
 export const ValidityOfTrad = () => {
   return (
     <div className='main-para my-2' id='ValidityOfTrad'>

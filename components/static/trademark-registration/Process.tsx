@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/trade-mark/trademark_certificate.webp';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -10,29 +10,29 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#TypeOfSubs" className="scrollTo">
-                                <li>Types of Subsidiaries in India</li>
+                            <a href="#ListOfDiff" className="scrollTo">
+                                <li>List of Different Trademark Classes in India</li>
                             </a>
-                            <a href="#Advantages" className="scrollTo">
-                                <li>Advantages of Indian Subsidiary Registration</li>
+                            <a href="#RoleOfTrad" className="scrollTo">
+                                <li>What is the Role of Trademark Registry?</li>
                             </a>
-                            <a href="#Classification" className="scrollTo">
-                                <li>Regulatory Authorities for Indian Subsidiary Registration</li>
+                            <a href="#Benefits" className="scrollTo">
+                                <li>Benefits of Trademark Registration Online in India</li>
                             </a>
-                            <a href="#Requirement" className="scrollTo">
-                                <li>Requirements and Key Facts about Company Registration in India</li>
+                            <a href="#Checklist" className="scrollTo">
+                                <li>Who can apply for Trademark Registration Online in India?</li>
                             </a>
-                            <a href="#Procedure" className="scrollTo">
-                                <li>Procedure for Indian Subsidiary Registration</li>
+                            <a href="#DocRequirement" className="scrollTo">
+                                <li>Documents required for Trademark Registration Online in India</li>
                             </a>
                             <a href="#Compilance" className="scrollTo">
-                                <li>Compliance Requirements for Indian Subsidiary Registration</li>
+                                <li>Apply for Trademark Registration Online with RegisterKaro</li>
                             </a>
-                            <a href="#Taxation" className="scrollTo">
-                                <li>Taxation of Indian Subsidiary Companies</li>
+                            <a href="#ValidityOfTrad" className="scrollTo">
+                                <li>Validity of Trademark Registration Online in India</li>
                             </a>
-                            <a href="#HowToRegister" className="scrollTo">
-                                <li>How Registerkaro Can Assist with Indian Subsidiary Registration?</li>
+                            <a href="#WhyRegist" className="scrollTo">
+                                <li>Why RegisterKaro for Trademark Registration</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>
@@ -45,9 +45,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Trademark RegistrationCertificate [Sample]</p>
-                <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                <p className="small-heading text-center">Trademark Simple Certificate</p>
+                <div className='d-flex justify-content-center'>
+                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-60 " loading="lazy"  src={certificate} />
                 </div>
             </div>
         </div>
