@@ -6,6 +6,7 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
+// import dft from '../../../assets/images/fssai/'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
@@ -19,7 +20,10 @@ export const MandatoryCompilance = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='MandatoryCompilance'>
-      <p className='main-para mb-2'>Following is the complete procedure for FSSAI Registration in India:</p>
+        <div className='flex justify-content-center'>
+        {/* <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} /> */}
+        <p className='main-para mb-2'>Following is the complete procedure for FSSAI Registration in India:</p>
+      </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
         <div className='flex-5 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>

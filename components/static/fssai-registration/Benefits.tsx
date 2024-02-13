@@ -4,8 +4,6 @@ import React, { useState } from 'react'
 import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
-import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
@@ -20,9 +18,6 @@ export const Benefits = () => {
     <div className='DocumentButtonWise w-80 m-auto' id='Benefits'>
       <p className='main-para mb-2'>FSSAI License in India is based on the business turnover, types & capacity of production. Depending upon the installed capacity & turnover, Food Business Operators are eligible for Licenses such as FSSAI Basic Registration, FSSAI State License, and FSSAI Central License.</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
- 
- 
- 
         <div className='flex-5'>
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>

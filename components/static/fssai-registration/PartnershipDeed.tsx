@@ -1,17 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import dft from '../../../assets/images/fssai/eligibity.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const PartnershipDeed = () => {
   return (
     <div >
         <p className='main-para mb-0'id='PartnershipDeed'>The following are the eligibility criteria for FSSAI Registration:</p>
-      <div className='flex justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
+     
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+    
       <div className='flex-7'>
          <h3>1. Criteria for FSSAI Basic Registration:</h3>
         <ul className='tick list-unstyled'>
@@ -32,6 +30,9 @@ export const PartnershipDeed = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />FSSAI Central License is for all Food Business Operators having an annual turnover of Rs. 20 crores or more;</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />This license is issued for 5 years and a minimum of 1 year.</li>
         </ul>
+      </div>
+      <div className='flex-4 justify-content-center'>
+        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
       </div>
       </div>
     </div>
