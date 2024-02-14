@@ -12,8 +12,6 @@ import { AdvantagesBIS } from '../components/static/bis-fmcs-certification/Advan
 import { ProcedureObtaining } from '../components/static/bis-fmcs-certification/ProcedureObtaining'
 import { DocRequiredBIS } from '../components/static/bis-fmcs-certification/DocRequiredBIS'
 
-
-
 const Home = () => {
     return (
         <div className='services-pages bis-fmcs-certification-reg'>
