@@ -7,9 +7,9 @@ export const ActivityPerform = () => {
   return (
     <div className='flex w-80 m-auto mobile-flex-column' id='ActivityPerform'>
         <div className='flex-3 ActivityPerform '>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={500}  loading="lazy" src={bft} />
+          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="acitivity-img w-100" height={500}  loading="lazy" src={bft} />
       </div>
-      <div className='flex-5'>
+      <div className='flex-5 mt-5'>
         <p>Following is the list of activities performed by a Producer Company in India:</p>
             <p><strong>1: </strong>Provide education to the mutual support principle to its members & others</p>
             <p><strong>2: </strong>Activities for the promotion of the interest of their members</p>

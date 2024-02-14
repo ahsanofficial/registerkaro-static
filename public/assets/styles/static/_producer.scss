@@ -1,11 +1,18 @@
 .producer-reg {
+  .acitivity-img {
+    height: 700px;
+
+  }
   @media screen and (max-width: 990px) {
     // .DifferentTypes-img {
     //   height: 280px;
     // }
-    // .benefits-img {
-    //   height: 320px;
-    // }
+    .benefits-img {
+      height: 620px;
+    }
+    .acitivity-img {
+      height: 820px;
+    }
     // .DocumentArrowWise-img {
     //   height: 300px;
     // }
@@ -15,5 +22,14 @@
     // .Restrictions-img{
     //   height: 280px;
     // }
+  }
+
+  @media screen and (max-width: 650px) {
+    .benefits-img {
+      height: 100%;
+    }
+    .acitivity-img{
+      height: 100%;
+    }
   }
 }
