@@ -4,19 +4,31 @@
       height: 280px;
     }
     .benefits-img {
-      height: 320px;
+      height: 620px;
     }
     .DocumentArrowWise-img {
       height: 320px;
     }
     .Procedure-img {
-      height: 320px;
+      height: 620px;
     }
     .EventBased-img{
-      height: 320px;
+      height: 620px;
     }
     .Penalties-img{
       height: 320px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .benefits-img {
+      height: 100%;
+    }
+    .Procedure-img {
+      height: 100%;
+    }
+    .EventBased-img{
+      height: 100%;
     }
   }
 }
