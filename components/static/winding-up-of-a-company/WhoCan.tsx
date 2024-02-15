@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/fssai/whatDiffrenet.svg'
+import dft from '../../../assets/images/winding-up-of-a-company/who-tribunal.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const WhoCan = () => {

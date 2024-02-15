@@ -1,13 +1,19 @@
 .winding-up-of-a-company-reg {
-  @media screen and (max-width: 990px) {
-    .DifferentTypes-img {
-      height: 280px;
-    }
-    .benefits-img {
-      height: 320px;
-    }
-    .DocumentArrowWise-img {
-      height: 320px;
+  @media screen and (max-width: 920px) {
+    .DifferentTypes-img{
+      height:720px;
     }
   }
+  @media screen and (max-width: 520px) {
+    .DifferentTypes-img{
+      height:100%;
+    }
+
+    // .benefits-img {
+    //   height: 320px;
+    // }
+    // .DocumentArrowWise-img {
+    //   height: 320px;
+    // }
+    }
 }

@@ -3,12 +3,15 @@ import React from 'react'
 import one from '../../../assets/images/pvt-reg/checklist/one.png'
 import two from '../../../assets/images/pvt-reg/checklist/two.png'
 import three from '../../../assets/images/pvt-reg/checklist/three.svg'
-
+import stages from '../../../assets/images/winding-up-of-a-company/stages-trubunal.svg';
 
 export const Checklist = () => {
   return (
     <div className='checklist' id='Checklist'>
-          <p className='main-para'>The process for a tribunal for winding up of a company involuntarily is as follows:</p>
+           <div className='flex-5'>
+            <p className='main-para'>The process for a tribunal for winding up of a company involuntarily is as follows:</p>
+            <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={520} loading="lazy" src={stages} />
+          </div>
           <div className="checklist flex w-80 m-auto mobile-flex-column">
               <div className="checklist-divs flex flex-column text-center align-center">
                   <div>
