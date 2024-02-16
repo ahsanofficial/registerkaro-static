@@ -97,7 +97,7 @@ export const Process = () => {
                         <div className='flex-5 text-justify fs-20'>
                         <div className={`${active === '1' ? 'active' : 'none'}`}>
                         <p className="small-heading text-center w-80">MSME Certificate [Sample]</p>
-                            <div>
+                            <div > 
                                 <Image    alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={msme_certificate}/>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import documents from '../../../assets/images/assets/sole-proprietorship/Documents.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocumentRequired = () => {
@@ -28,7 +28,7 @@ export const DocumentRequired = () => {
        
       </div>
       <div className='flex-3'>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={430}/>
+        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={500}/>
       </div>
     </div>
   )
