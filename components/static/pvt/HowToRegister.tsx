@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
-import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
-import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
-import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
+import one from '../../../assets/images/static/private-reg/HowToRegister/one.svg'
+import two from '../../../assets/images/static/private-reg/HowToRegister/two.svg'
+import three from '../../../assets/images/static/private-reg/HowToRegister/three.svg'
+import four from '../../../assets/images/static/private-reg/HowToRegister/four.svg'
+import five from '../../../assets/images/static/private-reg/HowToRegister/five.svg'
+import six from '../../../assets/images/static/private-reg/HowToRegister/six.svg'
+import arrow from '../../../assets/images/static/private-reg/HowToRegister/arrow.svg'
 
 export const HowToRegister = () => {
   const [active, setActive] = useState('1')
@@ -17,50 +17,50 @@ export const HowToRegister = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='How'>
-      <p className='main-para'>If you have found your destination in the face of a Private Limited Company, then let Registerkaro map the road to your destination. Following the given route, the company registration process becomes easy to handle.</p>
+      <p className='main-para'>Following is the step by step procedure for private limited company registration online in India:</p>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
         <div className='flex-4'>
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={one} alt="pu step 1" loading="lazy" width={30} height={30} /> &nbsp; Select the Company name
+              <Image src={one} alt="Select the Company name" loading="lazy" width={30} height={30} /> &nbsp; Select the Company name
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+            <Image src={arrow} alt="Select the Company name" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={two} alt="pu step 2" loading="lazy" width={30} height={30} /> &nbsp; Digital Signature Certificate
+              <Image src={two} alt="Digital Signature Certificate" loading="lazy" width={30} height={30} /> &nbsp; Digital Signature Certificate
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+            <Image src={arrow} alt="Digital Signature Certificate" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={three} alt="pu step 3" loading="lazy" width={30} height={30} /> &nbsp; SPICe+ Form (INC-32)
+              <Image src={three} alt="SPICe+ Form (INC-32)" loading="lazy" width={30} height={30} /> &nbsp; SPICe+ Form (INC-32)
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+            <Image src={arrow} alt="SPICe+ Form (INC-32)" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={four} alt="pu step 4" loading="lazy" width={30} height={30} /> &nbsp; Electronic submission of MoA and AoA
+              <Image src={four} alt="Electronic submission of MoA and AoA" loading="lazy" width={30} height={30} /> &nbsp; Electronic submission of MoA and AoA
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+            <Image src={arrow} alt="Electronic submission of MoA and AoA" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={five} alt="pu step 5" loading="lazy" width={30} height={30} /> &nbsp; Non-electronic submission of MoA and AoA
+              <Image src={five} alt="Non-electronic submission of MoA and AoA" loading="lazy" width={30} height={30} /> &nbsp; Non-electronic submission of MoA and AoA
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+            <Image src={arrow} alt="Non-electronic submission of MoA and AoA" loading="lazy" width={30} height={30} />
           </button>
           <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'}`}>
             <div>
-              <Image src={six} alt="pu step 5" loading="lazy" width={30} height={30} /> &nbsp; Certificate of Incorporation
+              <Image src={six} alt="Certificate of Incorporation" loading="lazy" width={30} height={30} /> &nbsp; Certificate of Incorporation
             </div>
-            <Image src={arrow} alt="pu step 1" loading="lazy" width={30} height={30} />
+            <Image src={arrow} alt="Certificate of Incorporation" loading="lazy" width={30} height={30} />
           </button>
         </div>
         <div className='flex-6 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>1: Select the Company name</h3>
-            <p>Business structure selection is the first step for company registration and when the private limited company is what you have chosen, time is to select the company name. It is important to then verify if the selected name is available for company registration. Once MCA approves a certain name, the applicant then is left with 21 days to register the company.</p>
+            <p>Business structure selection is the first step for private limited company registration and when the private limited company is what you have chosen, time is to select the company name. It is important to then verify if the selected name is available for private limited company registration. Once MCA approves a certain name, the applicant then is left with 21 days to register the company.</p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
             <h3>2: Digital Signature Certificate</h3>
@@ -68,7 +68,7 @@ export const HowToRegister = () => {
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
             <h3>3: SPICe+ Form (INC-32)</h3>
-            <p>SPICe+ Form (INC-32) has been introduced to streamline the company registration process for private limited companies. This form is used to obtain Director Identification Number (DIN) which is required by individuals intending to be a director, Employees' Provident Fund Organisation (EPFO), Company’s PAN, Company’s Tax Deduction Account Number, and Employee's State Insurance Corporation (ESIC) applications.</p>
+            <p>SPICe+ Form (INC-32) has been introduced to streamline the private limited company registration process. This form is used to obtain Director Identification Number (DIN) which is required by individuals intending to be a director, Employees' Provident Fund Organisation (EPFO), Company’s PAN, Company’s Tax Deduction Account Number, and Employee's State Insurance Corporation (ESIC) applications.</p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
             <h3>4: Electronic submission of MoA and AoA</h3>
