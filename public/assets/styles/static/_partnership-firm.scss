@@ -1,13 +1,26 @@
 .partnership-firm-reg {
   @media screen and (max-width: 990px) {
-    .DifferentTypes-img {
-      height: 280px;
+
+    .compliance-img{
+      height: 620px;
     }
-    .benefits-img {
-      height: 320px;
+    .ProcedureForPartnership-img{
+      height: 620px;
     }
-    .DocumentArrowWise-img {
-      height: 320px;
+    .DocumentsForPartnership-img{
+      height: 620px;
+    }
+  }
+  @media screen and (max-width: 530px) {
+
+    .compliance-img{
+      height: 100%;
+    }
+    .DocumentsForPartnership-img{
+      height: 100%;
+    }
+    .ProcedureForPartnership-img{
+      height: 630px;
     }
   }
 }
