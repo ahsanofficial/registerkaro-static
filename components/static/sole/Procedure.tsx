@@ -1,13 +1,9 @@
 import Image from 'next/image'
-import React from 'react'
-import one from '../../../assets/images/pvt-reg/checklist/one.png'
-import two from '../../../assets/images/pvt-reg/checklist/two.png'
-import three from '../../../assets/images/pvt-reg/checklist/three.svg'
 
 
-import Registration_under_the_shop_and_establishment_Act from '../../../assets/images/assets/sole-proprietorship/icon/Registration_under_the_shop_and_establishment_Act.svg'
-import applicants_must_obtain_GST_registration_for_their_business from '../../../assets/images/assets/sole-proprietorship/icon/applicants_must_obtain_GST_registration_for_their_business.svg'
-import Getting_udyam_or_udyog_aadhar_under_the_ministry_of_MSME from '../../../assets/images/assets/sole-proprietorship/icon/Getting_udyam_or_udyog_aadhar_under_the_ministry_of_MSME.svg'
+import Getting_udyam_or_udyog_aadhar_under_the_ministry_of_MSME from '../../../assets/images/static/sole-proprietorship/Getting_udyam_or_udyog_aadhar_under_the_ministry_of_MSME.svg'
+import Registration_under_the_shop_and_establishment_Act from '../../../assets/images/static/sole-proprietorship/Registration_under_the_shop_and_establishment_Act.svg'
+import applicants_must_obtain_GST_registration_for_their_business from '../../../assets/images/static/sole-proprietorship/applicants_must_obtain_GST_registration_for_their_business.svg'
 export const Procedure = () => {
   return (
     <div className='checklist' id='Procedure'>

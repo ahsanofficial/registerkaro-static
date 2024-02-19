@@ -11,7 +11,7 @@ import { Procedure } from '../components/static/producer/Procedure'
 import { Process } from '../components/static/producer/Process'
 import { WhatDocument } from '../components/static/producer/WhatDocument'
 import { WhatFarmerProducer } from '../components/static/producer/WhatFarmerProducer'
-import { Checklist } from '../components/static/pvt/Checklist'
+import { Checklist } from '../components/static/producer/Checklist'
 
 let faq = [
     {

@@ -98,19 +98,19 @@ export const Process = () => {
                         <div className={`${active === '1' ? 'active' : 'none'}`}>
                         <p className="small-heading text-center w-80">MSME Certificate [Sample]</p>
                             <div > 
-                                <Image    alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={msme_certificate}/>
+                                <Image    alt="MSME Certificate Sample" className="certificate h-100 w-80" loading="lazy" src={msme_certificate}/>
                             </div>
                         </div>
                         <div className={`${active === '2' ? 'active' : 'none'}`}>
                            <p className="small-heading text-center w-80"> GST Certificate  [Sample]</p>
                             <div >
-                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={gst_certificate}/>
+                                <Image alt="GST Certificate" className="certificate h-100 w-80" loading="lazy" src={gst_certificate}/>
                             </div>
                         </div>
                         <div className={`${active === '3' ? 'active' : 'none'}`}>
                         <p className="small-heading text-center w-80"> Shop License [Sample]</p>
                             <div>
-                                <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-80" loading="lazy" src={shop_certificate}/>
+                                <Image alt="Shop License Sample" className="certificate h-100 w-80" loading="lazy" src={shop_certificate}/>
                             </div>
                         </div> 
                       

@@ -1,16 +1,10 @@
 import Image from 'next/image'
-import React from 'react'
-import one from '../../../assets/images/pvt-reg/checklist/one.png'
-import two from '../../../assets/images/pvt-reg/checklist/two.png'
-import three from '../../../assets/images/pvt-reg/checklist/three.svg'
-import four from '../../../assets/images/pvt-reg/checklist/four.svg'
-import five from '../../../assets/images/pvt-reg/checklist/five.svg'
 
-import PAN_ard_of_the_proprietor from '../../../assets/images/assets/sole-proprietorship/icon/PAN_ard_of_the_proprietor.svg'
-import Registration_under_the_shop_and_establishment_Act from '../../../assets/images/assets/sole-proprietorship/icon/Registration_under_the_shop_and_establishment_Act.svg'
-import applicants_must_obtain_GST_registration_for_their_business from '../../../assets/images/assets/sole-proprietorship/icon/applicants_must_obtain_GST_registration_for_their_business.svg'
-import register_a_bank_account_in_the_name from '../../../assets/images/assets/sole-proprietorship/icon/register_a_bank_account_in_the_name.svg'
-import complete_name_address_of_the_business from '../../../assets/images/assets/sole-proprietorship/icon/complete_name_address_of_the_business.svg'
+import PAN_ard_of_the_proprietor from '../../../assets/images/static/sole-proprietorship/PAN_ard_of_the_proprietor.svg'
+import Registration_under_the_shop_and_establishment_Act from '../../../assets/images/static/sole-proprietorship/Registration_under_the_shop_and_establishment_Act.svg'
+import applicants_must_obtain_GST_registration_for_their_business from '../../../assets/images/static/sole-proprietorship/applicants_must_obtain_GST_registration_for_their_business.svg'
+import complete_name_address_of_the_business from '../../../assets/images/static/sole-proprietorship/complete_name_address_of_the_business.svg'
+import register_a_bank_account_in_the_name from '../../../assets/images/static/sole-proprietorship/register_a_bank_account_in_the_name.svg'
 
 export const Checklist = () => {
   return (
