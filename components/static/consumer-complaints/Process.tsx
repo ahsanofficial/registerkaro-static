@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/consumer-complaints/certificate.svg';
+import certificate from '../../../assets/images/static/consumer-complaints/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -37,7 +37,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Consumer Complaints</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate}/>
+                    <Image alt="A certificate of Consumer complaints,If customers pay for a certain commodity or service and receive inferior goods or services, they are entitled to legal action. Consumers are granted a number of legal rights and safeguards under the Consumer Protection Act, 1986." className="certificate h-100 w-100" loading="lazy" src={certificate}/>
                     {/* <p>pending pdf render file</p> */}
                 </div>
             </div>

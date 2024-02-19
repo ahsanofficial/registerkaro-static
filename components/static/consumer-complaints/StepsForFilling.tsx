@@ -6,7 +6,7 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
-import dft from '../../../assets/images/consumer-complaints/steps-filling.svg'
+import dft from '../../../assets/images/static/consumer-complaints/steps-filling.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
 export const StepsForFilling = () => {
@@ -19,7 +19,7 @@ export const StepsForFilling = () => {
   return (
   <div className='DocumentButtonWise w-80 m-auto' id='StepsForFilling'>
      <div className='flex-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={350} loading="lazy" src={dft} />
+          <Image alt="Steps for filing a Consumer Complaint,Start with a notice describing your consumer complaint,Vendor’s reciprocity" className="benefits-img w-100" height={350} loading="lazy" src={dft} />
               <p className='main-para mb-2'>The following are the steps for filing a Consumer Compliant:</p>
           </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">

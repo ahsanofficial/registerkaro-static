@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/winding-up-of-a-company/diffrent-ways.svg'
+import dft from '../../../assets/images/static/winding-up-of-a-company/diffrent-ways.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DiffrentWays = () => {
@@ -9,7 +9,7 @@ export const DiffrentWays = () => {
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
      <div className='flex-4 justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+        <Image alt="What are the different ways of winding up of a company? The process of winding up has been further subdivided into two parts; according to Section 270," className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
       </div>
       <div className='flex-7'>
         

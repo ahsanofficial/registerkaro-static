@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import orderTrubunal from '../../../assets/images/winding-up-of-a-company/order-trubunal.svg'
+import orderTrubunal from '../../../assets/images/static/winding-up-of-a-company/order-trubunal.svg'
 
 
 export const WindingUp = () => {
@@ -21,7 +21,7 @@ export const WindingUp = () => {
           <p><strong>8: </strong>If it seems just, reasonable and equitable to wind up.</p>
            </div>
            <div className='flex-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="DifferentTypes-img w-100" height={520} loading="lazy" src={orderTrubunal} />
+          <Image alt="Winding up of a Company by the order of the tribunal,Bypassing of special resolution for winding up;,If it seems just, reasonable and equitable to wind up" className="DifferentTypes-img w-100" height={520} loading="lazy" src={orderTrubunal} />
           </div>
         </div>
       </div>

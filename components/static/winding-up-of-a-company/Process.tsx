@@ -49,7 +49,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Winding Up of a Company Certificate [Sample]</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-50 w-60" loading="lazy" src={certificate}/>
+                    <Image alt="In the corporate world, winding up of a company is an important procedure. It denotes the end of a business’s activities and the beginning of its dissolution. A company’s dissolution is a crucial event in the life cycle of any business" className="certificate h-50 w-60" loading="lazy" src={certificate}/>
                     {/* <p>pending pdf render file</p> */}
                 </div>
             </div>

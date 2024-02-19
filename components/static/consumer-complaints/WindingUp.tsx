@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/consumer-complaints/challenges.svg'
+import dft from '../../../assets/images/static/consumer-complaints/challenges.svg'
 
 
 export const WindingUp = () => {
@@ -14,7 +14,7 @@ export const WindingUp = () => {
           <p><strong>Rigorous Follow-up</strong>The other important step in the consumer complaint process is the rigorous follow up to be taken care of at every stage. This creates a challenge in the process while proceeding ahead with the complaint at the consumer forum</p>
            </div>
            <div className='flex-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={350} loading="lazy" src={dft} />
+          <Image alt="Challenges you might face in filing a Consumer complaint,Rigorous Follow-up,Tedious Process" className="benefits-img w-100" height={350} loading="lazy" src={dft} />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/winding-up-of-a-company/who-tribunal.svg'
+import dft from '../../../assets/images/static/winding-up-of-a-company/who-tribunal.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const WhoCan = () => {
@@ -9,7 +9,7 @@ export const WhoCan = () => {
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
      <div className='flex-4 justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
+        <Image alt="Who can all file the petition for winding up of a Company by tribunal?  According to Section 272 of the Companies Act of 2013,  Before submitting the petition for the company to be wound up, the Registrar must first receive approval from the Central Government. Furthermore, before giving the Registrar such authorization, the Central Government must provide a reasonable opportunity to the company. The petition must be filed in copy form to the Registrar," className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
       </div>
       <div className='flex-7'>
          <p>1. According to Section 272 of the Companies Act of 2013, the following individuals may petition the Tribunal for winding up of a company::</p>
