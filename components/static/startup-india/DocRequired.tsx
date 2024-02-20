@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/nidhi-reg/Procedure.svg'
+import documents_required_for_startup_india_company_registration from '../../../assets/images/static/startup_india_registration/documents_required_for_startup_india_company_registration.svg'
+
 export const DocRequired = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='DocRequired'>
@@ -22,7 +23,7 @@ export const DocRequired = () => {
         <p><strong>11: </strong>Brief write-up on how the business is working towards (innovation in the industry, high potential for wealth creation, potential for employment generation).</p>
         
       </div>
-      <div className='flex-3'><Image alt="Private Limited Company sample" className="Procedure-img w-100" loading="lazy" height={430} src={ProcedureReg} /></div>
+      <div className='flex-3'><Image alt="Documents required for Startup India Company Registration,CoI or Certificate of Incorporation,MoA (Memorandum of Association) & AoA (Articles of Association)" className="DocRequired-img w-100" loading="lazy" height={560} src={documents_required_for_startup_india_company_registration} /></div>
     </div>
   )
 }

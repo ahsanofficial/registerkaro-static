@@ -1,8 +1,6 @@
 import Image from 'next/image'
-import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
-import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-import ProcedureReg from '../../../assets/images/nidhi-reg/Procedure.svg'
+import objectives_of_startup_india_movement from '../../../assets/images/static/startup_india_registration/objectives_of_startup_india_movement.svg'
+
 export const TypeOfSubs = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='TypeOfSubs'>
@@ -17,7 +15,9 @@ export const TypeOfSubs = () => {
         <p><strong>4: </strong>Provide an extensive networking database for the entrepreneurs & other stakeholders in the startup ecosystem;</p>
         <p><strong>5: </strong>The better regulatory environment including the tax benefits, easier compliance improved establishing a Company, fastest mechanism & more.</p>   
       </div>
-      <div className='flex-3'><Image alt="Private Limited Company sample" className="Procedure-img w-100" loading="lazy" height={430} src={ProcedureReg} /></div>
+      <div className='flex-3'>
+        <Image alt="Objectives of Startup India Movement,Enhanced Infrastructure, including incubation centers,IPR facilitation" className="Objectives-img w-100" loading="lazy" height={430} src={objectives_of_startup_india_movement} />
+        </div>
     </div>
   )
 }

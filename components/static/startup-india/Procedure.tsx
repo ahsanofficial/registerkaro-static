@@ -8,7 +8,7 @@ export const Procedure = () => {
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Procedure'>
       <div className='flex-5'>
         <div className='flex-3'>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={dft} height={430} />
+        <Image alt="Procedure for Indian Subsidiary Registration, Step by step procedure for getting Startup India Registration Certificate" className="Procedure-img w-100" loading="lazy" src={dft} height={430} />
         <p>Following is the step by step procedure for getting Startup India Registration Certificate:</p>
       </div>
         <h3>Step 1: Incorporate Your Company:</h3>
