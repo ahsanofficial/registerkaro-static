@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import React, { useState } from 'react'
-import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
+import { useState } from 'react'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
-import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
+import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
+import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
-import eight from '../../../assets/images/pvt-reg/HowToRegister/eight.svg'
+import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
+import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
+import advantages_of_trust_registration from '../../../assets/images/static/trust-registration/advantages_of_trust_registration.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
@@ -20,6 +20,9 @@ export const Benefits = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Benefits'>
+      <div>
+       <Image alt="Advantages of Trust Registration,  Charitable Engagement, Tax Exemptions, Financial Assistance, Legal Safeguards, Family Wealth Management, Probate Avoidance, Immigration/Emigration Benefits, Establishing a trust proves advantageous during relocation, offering benefits such as tax mitigation, asset safeguarding, and flexibility in asset organization." className="Advantages-of-trust-img w-100" loading="lazy" src={advantages_of_trust_registration} height={600} />
+        </div>
       <p className='main-para'>The process of trust registration provides several benefits to both individuals and organizations. Here are the key advantages:</p>
     <div className="flex w-100 align-center justify-content-between mobile-flex-column-reverse">
     <div className='flex-6 text-justify fs-20 p-color-black'>

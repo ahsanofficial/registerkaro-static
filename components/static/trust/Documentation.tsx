@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
+import docuemntation_for_trust_registration from '../../../assets/images/static/trust-registration/docuemntation_for_trust_registration.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Documentation = () => {
   return (
     <div>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={dft} height={430} />
+        <Image alt="Documentation for Trust Registration,Trust Deed, photographs, PAN Cards, address proof, identity proof, authentication" className="DocumentRequired-img w-100" loading="lazy" src={docuemntation_for_trust_registration} height={530} />
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Documentation'>
  
      

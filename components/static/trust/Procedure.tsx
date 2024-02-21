@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/nidhi-reg/Procedure.svg'
+import ProcedureReg from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const Procedure = () => {
   return (

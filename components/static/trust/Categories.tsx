@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import categories_of_trusts_in_india from '../../../assets/images/static/trust-registration/categories_of_trusts_in_india.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Categories = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='Categories'>
        <div className='flex-3'>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="DocumentRequired-img w-100" loading="lazy" src={documents} height={430} />
+        <Image alt="Categories of Trusts in India,Public trusts are established to benefit the general public. They often focus on charitable, educational, and religious purposes, Private trusts are established to carry out activities for specific individuals" className="Categories-of-trust-trusts-img w-100" loading="lazy" src={categories_of_trusts_in_india} height={450} />
         </div>
       <div className='flex-7'>
        

@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import get_online_trust_registration_in_india_certificate from '../../../assets/images/static/trust-registration/get_online_trust_registration_in_india_certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -60,7 +60,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Trust Registration Certificate [Sample]</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Trust Registration Certificate ,Get Online Trust Registration in India,Trusts, conceived with noble intentions to foster advancements in sciences, literature, and other commendable causes, serve various purposes such as mitigating scarcity, facilitating education for the underprivileged, and extending medical support. The formal process of Trust Registration involves officially enrolling a trust under the Trusts Act of 1882." className="certificate h-100 w-100" loading="lazy" src={get_online_trust_registration_in_india_certificate} />
                 </div>
             </div>
         </div>

@@ -9,6 +9,7 @@ import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
 import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
 import eight from '../../../assets/images/pvt-reg/HowToRegister/eight.svg'
 import nine from '../../../assets/images/pvt-reg/HowToRegister/nine.svg'
+import components_of_a_trust_deed from '../../../assets/images/static/trust-registration/components_of_a_trust_deed.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
@@ -21,6 +22,9 @@ export const Components = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto '  id='Components'>
+       <div>
+       <Image alt="Components of a Trust Deed, Operational Period, Registered Office Address, Geographical Scope, Goals and Objectives, Details of the Settlor, Board of Trustees Information, Roles, Responsibilities, and Powers of Trustees, Legal Compliance Assurance" className="Components-of-trust-img w-100" loading="lazy" src={components_of_a_trust_deed} height={600} />
+        </div>
       <p className='main-para'>A trust deed stands as a pivotal document delineating essential details and provisions governing a trust. It encompasses the following key clauses:</p>
     <div className="flex w-100 align-center justify-content-between mobile-flex-column-reverse">
     <div className='flex-6 text-justify fs-20 p-color-black text-center'>

@@ -10,6 +10,7 @@ import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
 import eight from '../../../assets/images/pvt-reg/HowToRegister/eight.svg'
 import nine from '../../../assets/images/pvt-reg/HowToRegister/nine.svg'
 import ten from '../../../assets/images/pvt-reg/HowToRegister/ten.svg'
+import prerequisites_for_trust_registration from '../../../assets/images/static/trust-registration/prerequisites_for_trust_registration.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
@@ -22,6 +23,9 @@ export const Prerequisite = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Prerequisite'>
+         <div>
+       <Image alt="Prerequisites for Trust Registration,  Minimum Number of Founders, Compliance with the Indian Trusts Act of 1882, Disqualification Status, Conformity with Legal Objectives, Fair and Just Conduct, Alignment with Public Interest, Non-Harmful Activities, Consistency with Stated Objectives, Appropriately Drafted Trust Deed,Validity of Multiple Objectives" className="Prerequisites-of-trust-img w-100" loading="lazy" src={prerequisites_for_trust_registration} height={600} />
+        </div>
       <p className='main-para'>To qualify for trust registration, the following conditions must be fulfilled:</p>
     <div className="flex w-100 align-center justify-content-between mobile-flex-column">
  
