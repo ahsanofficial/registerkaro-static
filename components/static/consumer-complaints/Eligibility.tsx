@@ -3,13 +3,13 @@ import React from 'react'
 import dft from '../../../assets/images/static/consumer-complaints/eligitbility-to-file.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const WhoCan = () => {
+export const Eligibility  = () => {
   return (
-    <div id='WhoCan' >
+    <div id='Eligibility ' >
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
      <div className='flex-4 justify-content-center'>
-        <Image alt="Eligibility to file a complaint,Consumer associations,Legal heirs" className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
+        <Image alt="Eligibility to file a complaint,Consumer associations,Legal heirs" className="Eligibility-img w-100" height={582} loading="lazy" src={dft} />
       </div>
       <div className='flex-7'>
         <p>If you are the expected applicant, then you need to fall in one of the following categories, in order to be eligible for filing a consumer complaint:</p>

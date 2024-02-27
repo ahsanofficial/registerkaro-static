@@ -19,7 +19,7 @@ export const StepsForFilling = () => {
   return (
   <div className='DocumentButtonWise w-80 m-auto' id='StepsForFilling'>
      <div className='flex-5'>
-          <Image alt="Steps for filing a Consumer Complaint,Start with a notice describing your consumer complaint,Vendor’s reciprocity" className="benefits-img w-100" height={350} loading="lazy" src={dft} />
+          <Image alt="Steps for filing a Consumer Complaint,Start with a notice describing your consumer complaint,Vendor’s reciprocity" className="StepsForFilling-img w-100" height={350} loading="lazy" src={dft} />
               <p className='main-para mb-2'>The following are the steps for filing a Consumer Compliant:</p>
           </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">

@@ -11,16 +11,16 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#WhoCan" className="scrollTo">
+                            <a href="#Eligibility" className="scrollTo">
                                 <li>Eligibility to file a complaint</li>
                             </a>
-                            <a href="#WindingUp" className="scrollTo">
+                            <a href="#Challenges" className="scrollTo">
                                 <li>Challenges you might face in filing a Consumer complaint</li>
                             </a>
                             <a href="#StepsForFilling" className="scrollTo">
                                 <li>Steps for filing a Consumer Complaint</li>
                             </a>
-                            <a href="#WhyToChoose" className="scrollTo">
+                            <a href="#HowCanRegisterKaro" className="scrollTo">
                                 <li>How can RegisterKaro assist you?</li>
                             </a>
                             <a href="#Why" className="scrollTo">

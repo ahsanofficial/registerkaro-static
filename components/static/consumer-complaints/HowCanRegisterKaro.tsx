@@ -3,13 +3,13 @@ import React from 'react'
 import dft from '../../../assets/images/static/consumer-complaints/how-can.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const WhyToChoose = () => {
+export const HowCanRegisterKaro  = () => {
   return (
-    <div id='WhyToChoose' >
+    <div id='HowCanRegisterKaro' >
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
      <div className='flex-4 justify-content-center'>
-        <Image alt="How can RegisterKaro assist you?,Choose the right forum,Preparation of Consumer Complaint,Detailed analysis of the case, Assistance with Notice" className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
+        <Image alt="How can RegisterKaro assist you?,Choose the right forum,Preparation of Consumer Complaint,Detailed analysis of the case, Assistance with Notice" className="HowCanRegisterKaro-img w-100" height={582} loading="lazy" src={dft} />
       </div>
       <div className='flex-7'>
         <h3>Step 1. Assistance with Notice</h3>

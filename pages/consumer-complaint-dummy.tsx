@@ -1,13 +1,12 @@
-import React from 'react'
 import Head from 'next/head'
-import { Hero } from '../components/static/consumer-complaints/Hero'
-import { Process } from '../components/static/consumer-complaints/Process'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { WindingUp } from '../components/static/consumer-complaints/WindingUp'
-import { WhoCan } from '../components/static/consumer-complaints/WhoCan'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
+import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
+import { Eligibility } from '../components/static/bis-crs-certification/Eligibility'
+import { Challenges } from '../components/static/consumer-complaints/Challenges'
+import { Hero } from '../components/static/consumer-complaints/Hero'
+import { HowCanRegisterKaro } from '../components/static/consumer-complaints/HowCanRegisterKaro'
+import { Process } from '../components/static/consumer-complaints/Process'
 import { StepsForFilling } from '../components/static/consumer-complaints/StepsForFilling'
-import { WhyToChoose } from '../components/static/consumer-complaints/WhyToChoose'
 
 
 const faq = [
@@ -69,16 +68,16 @@ const Home = () => {
             <Process />
             <h1 className='main-heading'>Eligibility to file a complaint</h1>
             <div className='heading-line'></div>
-            <WhoCan/>
+            <Eligibility/>
             <h1 className='main-heading'>Challenges you might face in filing a Consumer complaint</h1>
             <div className='heading-line'></div>
-            <WindingUp/>
+            <Challenges/>
             <h1 className='main-heading'>Steps for filing a Consumer Complaint</h1>
             <div className='heading-line'></div>
             <StepsForFilling/>
             <h1 className='main-heading'>How can RegisterKaro assist you?</h1>
             <div className='heading-line'></div>
-            <WhyToChoose/>
+            <HowCanRegisterKaro/>
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
