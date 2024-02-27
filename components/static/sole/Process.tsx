@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import msme_certificate from '../../../assets/images/sole_reg/MSME-Certificate-Sample.webp';
-import gst_certificate from '../../../assets/images/sole_reg/Gst-Registration-Sample.png';
-import shop_certificate from '../../../assets/images/sole_reg/shop_and_establishment_sample.webp';
+import msme_certificate from '../../../assets/images/static/sole-proprietorship/MSME-Certificate-Sample.webp';
+import gst_certificate from '../../../assets/images/static/sole-proprietorship/Gst-Registration-Sample.png';
+import shop_certificate from '../../../assets/images/static/sole-proprietorship/shop_and_establishment_sample.webp';
 import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
