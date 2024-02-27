@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import pvtReg from '../../../assets/images/pvt-reg/pvt-reg.svg'
+import pvtReg from '../../../assets/images/static/private-reg/pvt-reg.svg'
 
 export const MandatoryCompliance = () => {
   return (
     <div className='MandatoryCompliance flex w-80 m-auto mobile-flex-column' id='Mandatory'>
       <div className='flex-5'>
-        <Image alt="Private Limited Company sample" className="PvtReg-img w-100" height={382} loading="lazy" src={pvtReg} />
+        <Image alt="Mandatory Compliance" className="PvtReg-img w-100" height={382} loading="lazy" src={pvtReg} />
       </div>
       <div className='flex-5'>
         <ol>

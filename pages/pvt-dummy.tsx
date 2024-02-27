@@ -14,6 +14,296 @@ import { DocumentRequired } from '../components/static/pvt/DocumentRequired'
 import { WhatDocument } from '../components/static/pvt/WhatDocument'
 import { TableCom } from '../components/static/pvt/TableCom'
 import { PvtReg } from '../components/static/producer/PvtReg'
+import { RegistrationLinks } from '../components/child_components/RegistrationLinks'
+
+let state = [
+    "Maharashtra",
+    "Jharkhand",
+    "Kashmir",
+    "Puducherry",
+    "Karnataka",
+    "Madhya Pradesh",
+    "Andhra Pradesh",
+    "Himachal Pradesh",
+    "Tamil Nadu",
+    "Odisha",
+    "Assam",
+    "Arunachal Pradesh",
+    "Gujarat",
+    "Chandigarh",
+    "Jammu And Kashmir",
+    "Manipur",
+    "Andaman And Nicobar Islands",
+    "Bihar",
+    "Chhattisgarh",
+    "Dadra And Nagar Haveli",
+    "Daman And Diu",
+    "Goa",
+    "Haryana",
+    "Kerala",
+    "Ladakh",
+    "Lakshadweep",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+]
+
+let city = [
+    "Mumbai",
+    "Firozabad",
+    "New Delhi",
+    "Srinagar",
+    "Bangalore",
+    "Ghaziabad",
+    "Hyderabad",
+    "Thiruvananthapuram",
+    "Ahmedabad",
+    "Chennai",
+    "Gorakhpur",
+    "Kolkata",
+    "Thrissur",
+    "Gulbarga",
+    "Lucknow",
+    "Tiruchirappalli",
+    "Agartala",
+    "Agra",
+    "Ahmednagar",
+    "Aizawl",
+    "Ajmer",
+    "Akola",
+    "Aligarh",
+    "Alwar",
+    "Ambala",
+    "Ambarnath",
+    "Ambattur",
+    "Amravati",
+    "Amritsar",
+    "Amroha",
+    "Anand",
+    "Anantapur",
+    "Anantapuram",
+    "Arrah",
+    "Asansol",
+    "Avadi",
+    "Bahraich",
+    "Bally",
+    "Baranagar",
+    "Barasat",
+    "Bardhaman",
+    "Bareilly",
+    "Bathinda",
+    "Begusarai",
+    "Belgaum",
+    "Bellary",
+    "Berhampore",
+    "Berhampur",
+    "Bhagalpur",
+    "Bhalswa-jahangir-pur",
+    "Bharatpur",
+    "Bhatpara",
+    "Bhavnagar",
+    "Bhilai",
+    "Bhilwara",
+    "Bhind",
+    "Bhiwandi",
+    "Bhiwani",
+    "Bhopal",
+    "Bhubaneswar",
+    "Bhusawal",
+    "Bidar",
+    "Bidhannagar",
+    "Bihar-sharif",
+    "Bikaner",
+    "Bilaspur",
+    "Bokaro",
+    "Bulandshahr",
+    "Burhanpur",
+    "Chandigarh",
+    "Chapra",
+    "Chittoor",
+    "Coimbatore",
+    "Cuttack",
+    "Darbhanga",
+    "Davanagere",
+    "Dehradun",
+    "Delhi",
+    "Deoghar",
+    "Dewas",
+    "Dhanbad",
+    "Dhule",
+    "Dindigul",
+    "Durg",
+    "Durgapur",
+    "Eluru",
+    "Erode",
+    "Etawah",
+    "Faridabad",
+    "Farrukhabad",
+    "Fatehpur",
+    "Gandhidham",
+    "Gandhinagar",
+    "Gaya",
+    "Gopalpur",
+    "Guntur",
+    "Gurgaon",
+    "Guwahati",
+    "Gwalior",
+    "Haldia",
+    "Hapur",
+    "Haridwar",
+    "Hospet",
+    "Gulbargahowrah",
+    "Hubli-dharwad",
+    "Ichalkaranji",
+    "Imphal",
+    "Indore",
+    "Jabalpur",
+    "Jaipur",
+    "Jalandhar",
+    "Jalgaon",
+    "Jalna",
+    "Jammu",
+    "Jamnagar",
+    "Jamshedpur",
+    "Jhansi",
+    "Jodhpur",
+    "Junagadh",
+    "Kadapa",
+    "Kakinada",
+    "Kalyan-dombivli",
+    "Kamarhati",
+    "Kanpur",
+    "Karawal-nagar",
+    "Karimnagar",
+    "Karnal",
+    "Katni",
+    "Khammam",
+    "Khandwa",
+    "Kharagpur",
+    "Khora-ghaziabad",
+    "Kirari-suleman-nagar",
+    "Kochi",
+    "Kolhapur",
+    "Kollam",
+    "Korba",
+    "Kota",
+    "Kozhikode",
+    "Kulti",
+    "Kurnool",
+    "Latur",
+    "Loni",
+    "Ludhiana",
+    "Madhyamgram",
+    "Madurai",
+    "Maheshtala",
+    "Malda",
+    "Malegaon",
+    "Mangalore",
+    "Mathura",
+    "Mau",
+    "Meerut",
+    "Mira-bhayandar",
+    "Mirzapur",
+    "Moradabad",
+    "Morbi",
+    "Morena",
+    "Munger",
+    "Muzaffarnagar",
+    "Muzaffarpur",
+    "Mysore",
+    "Nadiad",
+    "Nagercoil",
+    "Nagpur",
+    "Naihati",
+    "Nanded",
+    "Nandyal",
+    "Nangloi-jat",
+    "Nashik",
+    "Navi-mumbai",
+    "Nellore",
+    "New-delhi",
+    "Nizamabad",
+    "Noida",
+    "North-dumdum",
+    "Ongole",
+    "Orai",
+    "Pali",
+    "Pallavaram",
+    "Panchkula",
+    "Panihati",
+    "Panipat",
+    "Parbhani",
+    "Patiala",
+    "Patna",
+    "Pimpri-chinchwad",
+    "Pondicherry",
+    "Pune",
+    "Puri",
+    "Purnia",
+    "Raebareli",
+    "Raichur",
+    "Raipur",
+    "Rajahmundry",
+    "Rajkot",
+    "Rajpur-sonarpur",
+    "Ramagundam",
+    "Rampur",
+    "Ranchi",
+    "Ratlam",
+    "Rewa",
+    "Rohtak",
+    "Rourkela",
+    "Sagar",
+    "Saharanpur",
+    "Salem",
+    "Sambalpur",
+    "Sambhal",
+    "Sangli-miraj-%26-kupwad",
+    "Satara",
+    "Satna",
+    "Secunderabad",
+    "Shahjahanpur",
+    "Shimoga",
+    "Sikar",
+    "Silchar",
+    "Siliguri",
+    "Singrauli",
+    "Solapur",
+    "Sonipat",
+    "South-dumdum",
+    "Sri-ganganagar",
+    "Surat",
+    "Tenali",
+    "Thane",
+    "Thanjavur",
+    "Thoothukudi",
+    "Tirunelveli",
+    "Tirupati",
+    "Tiruppur",
+    "Tiruvottiyur",
+    "Tumkur",
+    "Udaipur",
+    "Ujjain",
+    "Ulhasnagar",
+    "Uluberia",
+    "Uzhavarkarai",
+    "Vadodara",
+    "Varanasi",
+    "Vasai-virar",
+    "Vijayanagaram",
+    "Vijayawada",
+    "Visakhapatnam",
+    "Warangal",
+    "Yamunanagar"
+]
 
 let faq = [
     {
@@ -77,45 +367,47 @@ const Home = () => {
                 {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
             <Hero />
-            <h1 className='main-heading'>Online Company Registration in India – Meaning, Documents and Procedure</h1>
+            <h1 className='main-heading'>Online Private Limited Company Registration in India – Meaning, Documents and Procedure</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>What is a Private Limited Company?</h1>
+            <h2 className='main-heading'>What is a Private Limited Company?</h2>
             <div className='heading-line'></div>
             <PvtReg />
-            <h1 className="main-heading">Different types of Business Structures in India</h1>
+            <h2 className="main-heading">Different types of Business Structures in India</h2>
             <div className='heading-line'></div>
             <DifferentTypes />
-            <h1 className="main-heading">Benefits of Private Limited Company Registration in India</h1>
+            <h2 className="main-heading">Benefits of Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
             <Benefits />
-            <h1 className="main-heading">Checklist for Private Limited Company Registration in India</h1>
+            <h2 className="main-heading">Checklist for Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
             <Checklist />
-            <h1 className="main-heading">Documents Required for Company Registration in India</h1>
+            <h2 className="main-heading">Documents Required for Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
-            <DocumentRequired/>
-            <h1 className="main-heading">How to register a private limited company?</h1>
+            <DocumentRequired />
+            <h2 className="main-heading">Procedure for Private Limited Company Registration?</h2>
             <div className='heading-line'></div>
             <HowToRegister />
-            <h1 className="main-heading">Time Required for Registering a Company Online in India</h1>
+            <h2 className="main-heading">Time Required for Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
             <TimeRequired />
-            <h1 className="main-heading">How to Register Your Private Limited Company in India with RegisterKaro?</h1>
+            <h2 className="main-heading">How to Register Your Private Limited Company in India with RegisterKaro?</h2>
             <div className='heading-line'></div>
             <RegisterPvt />
-            <h1 className="main-heading">What Documents will you get after Online Company Registration in India?</h1>
+            <h2 className="main-heading">What Documents will you get after Online Private Limited Company Registration in India?</h2>
             <div className='heading-line'></div>
             <WhatDocument />
-            <h1 className="main-heading">Comparative List of Different Business Structures in India</h1>
+            <h2 className="main-heading">Comparative List of Different Business Structures in India</h2>
             <div className='heading-line'></div>
             <TableCom />
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
+            <div className='mb-4'></div>
+            <RegistrationLinks formattedQuery={'Private Limited Company Registration'} state={state} Query={'private-limited-company-registration'} city={city} />
         </div>
     )
 }
