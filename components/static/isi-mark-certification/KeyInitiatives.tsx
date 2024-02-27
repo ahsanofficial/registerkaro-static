@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/fssai/DocsRequire.svg'
+import dft from '../../../assets/images/static/private-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const KeyInitiatives = () => {

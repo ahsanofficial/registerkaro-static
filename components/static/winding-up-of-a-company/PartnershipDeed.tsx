@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/fssai/DocsRequire.svg'
+import dft from '../../../assets/images/static/private-reg/benefit.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const PartnershipDeed = () => {
@@ -29,7 +29,7 @@ export const PartnershipDeed = () => {
         </ul>
       </div>
       <div className='flex-4 justify-content-center'>
-        <Image alt="Voluntary winding up a company,Subsequently, ROC notifies the Indian Official Gazette to publish the notification.,days of the Tribunal’s order being passed, the liquidator is required to send a copy of the order to ROC. The liquidator will be subject to sanctions if they fail to comply with this" className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
+        <Image alt="Voluntary winding up a company,Subsequently, ROC notifies the Indian Official Gazette to publish the notification.,days of the Tribunal’s order being passed, the liquidator is required to send a copy of the order to ROC. The liquidator will be subject to sanctions if they fail to comply with this" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
       </div>
       </div>
     </div>

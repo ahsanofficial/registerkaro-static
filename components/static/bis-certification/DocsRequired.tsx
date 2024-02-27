@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/fssai/DocsRequire.svg'
+import dft from '../../../assets/images/static/private-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocsREquired = () => {
   return (
     <div >
-        
+          <div className='flex justify-content-center' id='DocsREquired'>
+        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+      </div>
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
@@ -61,9 +63,7 @@ export const DocsREquired = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Trimethyl Phosphite</li>
           </ul>
       </div>
-      <div className='flex justify-content-center' id='DocsREquired'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={682} loading="lazy" src={dft} />
-      </div>
+    
       </div>
     </div>
   )

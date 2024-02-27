@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/fssai/benefits.svg'
+import bft from '../../../assets/images/static/private-reg/benefit.svg'
 
 export const EventBased = () => {
   return (
@@ -10,7 +10,7 @@ export const EventBased = () => {
      <p className='main-para mb-2'>Manufacturers, importers, or their authorized representatives are typically involved in applying for registration to market their products in India.</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
+          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={350} loading="lazy" src={bft} />
       </div>
       <div className='flex-7 pt-5'>
       <p><strong>1: Submission of Application: </strong>Manufacturers submit applications containing comprehensive details about the product, manufacturing process, quality management systems, clinical data (if applicable), and other relevant information to CDSCO.</p>
