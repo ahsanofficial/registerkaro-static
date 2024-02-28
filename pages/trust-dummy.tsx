@@ -1,21 +1,20 @@
-import React from 'react'
-import { Hero } from '../components/static/trust/Hero'
-import { Process } from '../components/static/trust/Process'
-import { Benefits } from '../components/static/trust/Benefits'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import Head from 'next/head'
+import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Classification } from '../components/static/trust/Classification'
-import { WhyNGO } from '../components/static/trust/WhyNGO'
-import { RegiFee } from '../components/static/trust/RegiFee'
-import { Dissolution } from '../components/static/trust/Dissolution'
-import { TrustsComp } from '../components/static/trust/TrustsComp'
+import { Advantages } from '../components/static/trust/Advantages'
 import { Categories } from '../components/static/trust/Categories'
-import { Prerequisite } from '../components/static/trust/Prerequisite'
-import { Components } from '../components/static/trust/components'
-import { Procedure } from '../components/static/trust/Procedure'
-import { Regularity } from '../components/static/trust/Regularity'
+import { Dissolution } from '../components/static/trust/Dissolution'
 import { Documentation } from '../components/static/trust/Documentation'
+import { Hero } from '../components/static/trust/Hero'
+import { PartiesInvolved } from '../components/static/trust/PartiesInvolved'
+import { Prerequisite } from '../components/static/trust/Prerequisite'
+import { Procedure } from '../components/static/trust/Procedure'
+import { Process } from '../components/static/trust/Process'
+import { RegiFee } from '../components/static/trust/RegiFee'
+import { Regularity } from '../components/static/trust/Regularity'
+import { TrustsComp } from '../components/static/trust/TrustsComp'
+import { ImportanceTrust } from '../components/static/trust/WhyNGO'
+import { Components } from '../components/static/trust/components'
 
 const faq = [
     {
@@ -85,7 +84,7 @@ const Home = () => {
             <TrustsComp/>
             <h1 className='main-heading'>Parties Involved in the Trust Registration Process</h1>
             <div className='heading-line'></div>
-            <Classification />
+            <PartiesInvolved />
             <h1 className='main-heading'>Categories of Trusts in India</h1>
             <div className='heading-line'></div>
             <Categories />
@@ -94,10 +93,10 @@ const Home = () => {
             <Regularity />
             <h1 className="main-heading">Importance of Trust Registration</h1>
             <div className='heading-line'></div>
-            <WhyNGO/>
+            <ImportanceTrust/>
             <h1 className="main-heading">Advantages of Trust Registration</h1>
             <div className='heading-line'></div>
-            <Benefits />
+            <Advantages />
             <h1 className="main-heading">Prerequisites for Trust Registration</h1>
             <div className='heading-line'></div>
             <Prerequisite />

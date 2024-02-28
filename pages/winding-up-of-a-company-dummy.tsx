@@ -1,17 +1,16 @@
-import React from 'react'
 import Head from 'next/head'
+import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
+import { Checklist } from '../components/static/winding-up-of-a-company/Checklist'
+import { DiffrentWays } from '../components/static/winding-up-of-a-company/DiffrentWays'
+import { DocsREquired } from '../components/static/winding-up-of-a-company/DocsRequired'
 import { Hero } from '../components/static/winding-up-of-a-company/Hero'
 import { Process } from '../components/static/winding-up-of-a-company/Process'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { PartnershipDeed } from '../components/static/winding-up-of-a-company/PartnershipDeed'
-import { MandatoryCompilance } from '../components/static/winding-up-of-a-company/MandatoryCompilance'
-import { DocsREquired } from '../components/static/winding-up-of-a-company/DocsRequired'
-import { WhoReq } from '../components/static/winding-up-of-a-company/WhoReq'
-import { DiffrentWays } from '../components/static/winding-up-of-a-company/DiffrentWays'
+import { VoluntaryWinding } from '../components/static/winding-up-of-a-company/VoluntaryWinding'
 import { WhatIsComp } from '../components/static/winding-up-of-a-company/WhatIsComp'
-import { WindingUp } from '../components/static/winding-up-of-a-company/WindingUp'
-import { Checklist } from '../components/static/winding-up-of-a-company/Checklist'
+import { WhatVoluntary } from '../components/static/winding-up-of-a-company/WhatVoluntary'
 import { WhoCan } from '../components/static/winding-up-of-a-company/WhoCan'
+import { WindingUp } from '../components/static/winding-up-of-a-company/WindingUp'
+import { WindingUpThrough } from '../components/static/winding-up-of-a-company/WindingUpThrough'
 
 const Home = () => {
     return (
@@ -48,16 +47,16 @@ const Home = () => {
             <Checklist/>
             <h1 className='main-heading'>What is voluntary winding up of a company?</h1>
             <div className='heading-line'></div>
-            <WhoReq/>
+            <WhatVoluntary/>
             <h1 className='main-heading'>Voluntary winding up a company</h1>
             <div className='heading-line'></div>
-            <PartnershipDeed/>
+            <VoluntaryWinding/>
             <h1 className='main-heading'>What is a Fast-Track Exit Scheme (FTE)?</h1>
             <div className='heading-line'></div>
             <DocsREquired/>
             <h1 className='main-heading'>Winding up of a company through FTE</h1>
             <div className='heading-line'></div>
-            <MandatoryCompilance/>
+            <WindingUpThrough/>
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

@@ -11,7 +11,7 @@ export const Checklist = () => {
   return (
     <div className='checklist' id='Checklist'>
       <div className='flex-5'>
-          <Image alt="The vital checklist for Partnership Firm Registration" className="benefits-img w-100" height={600} loading="lazy" src={checklist} />
+          <Image alt="The vital checklist for Partnership Firm Registration" className="Checklist-img w-100" height={600} loading="lazy" src={checklist} />
       </div>
       <p className='main-para'>Following is the vital checklist for Partnership Firm Registration:</p>
       <div className="checklist flex w-80 m-auto mobile-flex-column">

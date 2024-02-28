@@ -19,7 +19,7 @@ export const WhyNGO = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='WhyNGO'>
         <div className='flex-3'>
-        <Image alt="Why Is NGO Registration Required?" className="DocumentRequired-img w-100" loading="lazy" src={why_ngo_registration} height={430} />
+        <Image alt="Why Is NGO Registration Required?" className="WhyNGO-img w-100" loading="lazy" src={why_ngo_registration} height={430} />
       </div>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
       <div className='flex-4'>

@@ -8,7 +8,7 @@ export const TypeOfNgo = () => {
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='TypeOfNgo'>
       <div className='flex-5'>
         <div className='flex-3'>
-        <Image alt="different types of NGO Registration in India" className="DocumentRequired-img w-100" loading="lazy" src={type_of_ngo_registration} height={430} />
+        <Image alt="different types of NGO Registration in India" className="TypeOfNgo-img w-100" loading="lazy" src={type_of_ngo_registration} height={430} />
         <p>Following are the different types of NGO Registration in India:</p>
       </div>
         <h3>1. Trust Registration:</h3>

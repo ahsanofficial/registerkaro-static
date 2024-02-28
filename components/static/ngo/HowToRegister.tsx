@@ -24,7 +24,7 @@ export const HowToRegister = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='HowToRegister'>
       <div className='flex-3'>
-        <Image alt="the process for NGO Registration in India" className="DocumentRequired-img w-100" loading="lazy" src={ngo_registration_process} height={430} />
+        <Image alt="the process for NGO Registration in India" className="HowToRegister-img w-100" loading="lazy" src={ngo_registration_process} height={430} />
       </div>
       <p className='main-para'>The following is the process for NGO Registration in India:</p>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">

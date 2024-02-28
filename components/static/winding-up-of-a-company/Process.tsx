@@ -26,16 +26,16 @@ export const Process = () => {
                             <a href="#Checklist" className="scrollTo">
                                 <li>Stages involved in the process of winding up of a company by tribunal</li>
                             </a>
-                            <a href="#WhoReq" className="scrollTo">
+                            <a href="#WhatVoluntary" className="scrollTo">
                                 <li>What is voluntary winding up of a company?</li>
                             </a>
-                            <a href="#PartnershipDeed" className="scrollTo">
+                            <a href="#VoluntaryWinding" className="scrollTo">
                                 <li>Voluntary winding up a company</li>
                             </a>
                             <a href="#DocsREquired" className="scrollTo">
                                 <li>What is a Fast-Track Exit Scheme (FTE)?</li>
                             </a>
-                            <a href="#MandatoryCompilance" className="scrollTo">
+                            <a href="#WindingUpThrough" className="scrollTo">
                                 <li>Winding up of a company through FTE</li>
                             </a>
                             <a href="#Why" className="scrollTo">

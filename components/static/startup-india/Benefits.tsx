@@ -9,7 +9,7 @@ import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import benefits_of_startup_india_registration from '../../../assets/images/static/startup_india_registration/benefits_of_startup_india_registration.svg'
 
-export const Advantages = () => {
+export const Benefits = () => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -17,9 +17,9 @@ export const Advantages = () => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='Advantages'>
+    <div className='DocumentButtonWise w-80 m-auto' id='Benefits'>
        <div className='flex-3'>
-        <Image alt="Benefits of Startup India Registration, Easy Access of Funds,Tax Savings for Investors, Income Tax Exemption,Easily apply for Government Tenders,Rebate in Trademark & Patent Filing,Easy Winding Up" className="Procedure-img w-100" loading="lazy" src={benefits_of_startup_india_registration} height={500} />
+        <Image alt="Benefits of Startup India Registration, Easy Access of Funds,Tax Savings for Investors, Income Tax Exemption,Easily apply for Government Tenders,Rebate in Trademark & Patent Filing,Easy Winding Up" className="Benefits-img w-100" loading="lazy" src={benefits_of_startup_india_registration} height={500} />
         </div>
       <p className='main-para'>Following are the benefits of Startup India Registration:</p>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">

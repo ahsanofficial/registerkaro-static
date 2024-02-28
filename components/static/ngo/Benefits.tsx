@@ -22,7 +22,7 @@ export const Benefits = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Benefits'>
       <div className='flex-3'>
-        <Image alt="the benefits of NGO Registration in India" className="DocumentRequired-img w-100" loading="lazy" src={benefits_of_ngo_registration} height={430} />
+        <Image alt="the benefits of NGO Registration in India" className="Benefits-img w-100" loading="lazy" src={benefits_of_ngo_registration} height={430} />
       </div>
       <p className='main-para'>The following are the benefits of NGO Registration in India:</p>
     <div className="flex w-100 align-center justify-content-between mobile-flex-column-reverse">

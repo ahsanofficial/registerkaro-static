@@ -8,7 +8,7 @@ export const Benefits = () => {
       <h3 className='main-para mb-0'>The Indian Partnership Act makes registration of a partnership firm optional rather than mandatory. It is entirely at the discretion of the couples and is entirely voluntary. The firm can be registered at the moment of its formation or incorporation, or at any time throughout the partnership’s operation.</h3>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
      <div className='flex-5'>
-          <Image alt="The Indian Partnership Act makes registration of a partnership firm optional rather than mandatory. It is entirely at the discretion of the couples and is entirely voluntary. The firm can be registered at the moment of its formation or incorporation, or at any time throughout the partnership’s operation" className="benefits-img w-100" height={420} loading="lazy" src={bft} />
+          <Image alt="The Indian Partnership Act makes registration of a partnership firm optional rather than mandatory. It is entirely at the discretion of the couples and is entirely voluntary. The firm can be registered at the moment of its formation or incorporation, or at any time throughout the partnership’s operation" className="Benefits-img w-100" height={420} loading="lazy" src={bft} />
       </div>
       <div className='flex-5 '>
         <p>However, it is usually better to register the partnership firm because a registered partnership firm has additional rights and benefits over unregistered firms. A partnership firm enjoys the following advantages:</p>

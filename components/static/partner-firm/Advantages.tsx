@@ -17,7 +17,7 @@ export const Advantages = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Advantages'>
-      <Image alt="Easy to Incorporate Less Compliance Quick Decision Sharing of Profits and Losses" className="benefits-img w-100" height={500} loading="lazy" src={advantages} />
+      <Image alt="Easy to Incorporate Less Compliance Quick Decision Sharing of Profits and Losses" className="Advantages-img w-100" height={500} loading="lazy" src={advantages} />
       <p className='main-para mb-0'>The following are the benefits of Partnership Firm Registration in India:</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
         <div className='flex-5'>

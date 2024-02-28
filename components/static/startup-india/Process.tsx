@@ -13,10 +13,10 @@ export const Process = () => {
                             <a href="#Startup" className="scrollTo">
                                 <li>What is a Startup?</li>
                             </a>
-                            <a href="#TypeOfSubs" className="scrollTo">
+                            <a href="#Objectives" className="scrollTo">
                                 <li>Objectives of Startup India Movement</li>
                             </a>
-                            <a href="#Advantages" className="scrollTo">
+                            <a href="#Benefits" className="scrollTo">
                                 <li>Benefits of Startup India Registration</li>
                             </a>
                             <a href="#Eligibility" className="scrollTo">

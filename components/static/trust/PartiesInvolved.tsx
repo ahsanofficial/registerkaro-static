@@ -3,9 +3,9 @@ import React from "react";
 import parties_involved_in_the_trust_registration_process from "../../../assets/images/static/trust-registration/parties_involved_in_the_trust_registration_process.svg";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
 
-export const Classification = () => {
+export const PartiesInvolved = () => {
   return (
-    <div id="Classification">
+    <div id="PartiesInvolved">
       <div>
         <Image
           alt="Parties Involved in the Trust Registration Process,  The trustor is the individual who initiates the establishment of

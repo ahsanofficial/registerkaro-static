@@ -17,7 +17,7 @@ export const Disdvantages = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Disdvantages'>
-       <Image alt="Disadvantages of Partnership Firm Registration Unlimited Liability No Perpetual Succession Limited Resources Difficult to Raise Funds" className="benefits-img w-100" height={500} loading="lazy" src={disadvantages} />
+       <Image alt="Disadvantages of Partnership Firm Registration Unlimited Liability No Perpetual Succession Limited Resources Difficult to Raise Funds" className="Disdvantages-img w-100" height={500} loading="lazy" src={disadvantages} />
       <p className='main-para mb-0'>The following are some disadvantages of Partnership Firm Registration:</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
       <div className='flex-5 text-justify fs-20 p-color-black'>

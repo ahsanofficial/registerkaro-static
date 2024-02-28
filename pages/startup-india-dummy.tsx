@@ -1,18 +1,16 @@
-import React from 'react'
-import { Hero } from '../components/static/startup-india/Hero'
-import { Process } from '../components/static/startup-india/Process'
-import { HowToRegister } from '../components/static/startup-india/HowToRegister'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import Head from 'next/head'
+import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { TypeOfSubs } from '../components/static/startup-india/TypeOfSubs'
-
-import { Advantages } from '../components/static/startup-india/Advantages'
+import { Hero } from '../components/static/startup-india/Hero'
+import { HowToRegister } from '../components/static/startup-india/HowToRegister'
+import { Process } from '../components/static/startup-india/Process'
+import { Benefits } from '../components/static/startup-india/Benefits'
+import { Checklist } from '../components/static/startup-india/Checklist'
+import { DocRequired } from '../components/static/startup-india/DocRequired'
+import { Eligibility } from '../components/static/startup-india/Eligibility'
+import { Objectives } from '../components/static/startup-india/Objectives'
 import { Procedure } from '../components/static/startup-india/Procedure'
 import { Startup } from '../components/static/startup-india/Startup'
-import { Eligibility } from '../components/static/startup-india/Eligibility'
-import { DocRequired } from '../components/static/startup-india/DocRequired'
-import { Checklist } from '../components/static/startup-india/Checklist'
 
 let faq = [
     {
@@ -106,10 +104,10 @@ const Home = () => {
             <Startup/>
             <h1 className="main-heading">Objectives of Startup India Movement</h1>
             <div className='heading-line'></div>
-            <TypeOfSubs/>
+            <Objectives/>
             <h1 className="main-heading">Benefits of Startup India Registration </h1>
             <div className='heading-line'></div>
-            <Advantages/>
+            <Benefits/>
             <h1 className="main-heading">Eligibility Criteria for the Registration</h1>
             <div className='heading-line'></div>
             <Eligibility/>

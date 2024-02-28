@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import objectives_of_startup_india_movement from '../../../assets/images/static/startup_india_registration/objectives_of_startup_india_movement.svg'
 
-export const TypeOfSubs = () => {
+export const Objectives = () => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='TypeOfSubs'>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Objectives'>
       <div className='flex-5'>
         <div className='flex-3'>
         <p>Following are the objectives of Startup India Movement:</p>

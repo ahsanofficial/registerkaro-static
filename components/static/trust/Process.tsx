@@ -14,7 +14,7 @@ export const Process = () => {
                             <a href="#TrustsComp" className="scrollTo">
                                 <li>Trusts – A Comprehensive Overview</li>
                             </a>
-                            <a href="#Classification" className="scrollTo">
+                            <a href="#PartiesInvolved" className="scrollTo">
                                 <li>Parties Involved in the Trust Registration Process</li>
                             </a>
                             <a href="#Categories" className="scrollTo">
@@ -23,10 +23,10 @@ export const Process = () => {
                             <a href="#Regularity" className="scrollTo">
                                 <li>Regulatory Oversight and Legislation for Trust Registration</li>
                             </a>
-                            <a href="#WhyNGO" className="scrollTo">
+                            <a href="#ImportanceTrust" className="scrollTo">
                                 <li>Importance of Trust Registration</li>
                             </a>
-                            <a href="#Benefits" className="scrollTo">
+                            <a href="#Advantages" className="scrollTo">
                                 <li>Advantages of Trust Registration</li>
                             </a>
                             <a href="#Prerequisite" className="scrollTo">

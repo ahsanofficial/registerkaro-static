@@ -32,7 +32,7 @@ export const PartnershipDeed = () => {
         <p>It is important to include all relevant details and provisions in the partnership deed to ensure clarity and avoid disputes among the partners.</p>
       </div>
       <div className='flex-3 justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="PartnershipDeed-img w-100" height={382} loading="lazy" src={dft} />
       </div>
       
       </div>

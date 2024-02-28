@@ -7,7 +7,7 @@ export const ActivityPerform = () => {
   return (
     <div className='flex w-80 m-auto mobile-flex-column' id='ActivityPerform'>
         <div className='flex-3 ActivityPerform '>
-          <Image alt="the list of activities performed by a Producer Company in India" className="acitivity-img w-100" height={500}  loading="lazy" src={bft} />
+          <Image alt="the list of activities performed by a Producer Company in India" className="ActivityPerform-img w-100" height={500}  loading="lazy" src={bft} />
       </div>
       <div className='flex-5 mt-5'>
         <p>Following is the list of activities performed by a Producer Company in India:</p>

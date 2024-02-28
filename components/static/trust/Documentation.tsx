@@ -6,7 +6,7 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 export const Documentation = () => {
   return (
     <div>
-        <Image alt="Documentation for Trust Registration,Trust Deed, photographs, PAN Cards, address proof, identity proof, authentication" className="DocumentRequired-img w-100" loading="lazy" src={docuemntation_for_trust_registration} height={530} />
+        <Image alt="Documentation for Trust Registration,Trust Deed, photographs, PAN Cards, address proof, identity proof, authentication" className="Documentation-img w-100" loading="lazy" src={docuemntation_for_trust_registration} height={530} />
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Documentation'>
  
      

@@ -11,7 +11,7 @@ import advantages_of_trust_registration from '../../../assets/images/static/trus
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
-export const Benefits = () => {
+export const Advantages = () => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -19,7 +19,7 @@ export const Benefits = () => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='Benefits'>
+    <div className='DocumentButtonWise w-80 m-auto' id='Advantages'>
       <div>
        <Image alt="Advantages of Trust Registration,  Charitable Engagement, Tax Exemptions, Financial Assistance, Legal Safeguards, Family Wealth Management, Probate Avoidance, Immigration/Emigration Benefits, Establishing a trust proves advantageous during relocation, offering benefits such as tax mitigation, asset safeguarding, and flexibility in asset organization." className="Advantages-of-trust-img w-100" loading="lazy" src={advantages_of_trust_registration} height={600} />
         </div>

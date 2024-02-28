@@ -13,7 +13,7 @@ export const DifferentTypes = () => {
           <p><strong>Handloom Producer Company:</strong> This type of Producer Company is set up by individuals who are involved in handloom weaving/handloom fabric production. The primary objective of a handloom company is to improve their products’ quality.</p>
         </div>
       <div className='flex-5'>
-        <Image alt="the different types of Producer Companies in India" className="benefits-img w-100" height={600} loading="lazy" src={bft} />
+        <Image alt="the different types of Producer Companies in India" className="DifferentTypes-img w-100" height={600} loading="lazy" src={bft} />
       </div>
     </div>
   )

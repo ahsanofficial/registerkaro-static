@@ -19,7 +19,7 @@ export const HowToRaise = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='HowToRaise'>
        <div className='flex-3'>
-        <Image alt="How to Raise Funds for NGOs?" className="DocumentRequired-img w-100" loading="lazy" src={raise_funds_for_ngo} height={430} />
+        <Image alt="How to Raise Funds for NGOs?" className="HowToRaise-img w-100" loading="lazy" src={raise_funds_for_ngo} height={430} />
       </div>
       <div className="flex w-100 align-center justify-content-between mobile-flex-column">
       <div className='flex-4'>

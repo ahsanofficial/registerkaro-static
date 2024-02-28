@@ -10,7 +10,7 @@ export const Checklist = () => {
     <div className='checklist' id='Checklist'>
            <div className='flex-5'>
             <p className='main-para'>The process for a tribunal for winding up of a company involuntarily is as follows:</p>
-            <Image alt="Stages involved in the process of winding up of a company by tribunal" className="benefits-img w-100" height={520} loading="lazy" src={stages} />
+            <Image alt="Stages involved in the process of winding up of a company by tribunal" className="Checklist-img w-100" height={520} loading="lazy" src={stages} />
           </div>
           <div className="checklist flex w-80 m-auto mobile-flex-column">
               <div className="checklist-divs flex flex-column text-center align-center">

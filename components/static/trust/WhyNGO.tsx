@@ -9,7 +9,7 @@ import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 import importance_of_trust_registration from '../../../assets/images/static/trust-registration/importance_of_trust_registration.svg'
 
-export const WhyNGO = () => {
+export const ImportanceTrust = () => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -17,7 +17,7 @@ export const WhyNGO = () => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='WhyNGO'>
+    <div className='DocumentButtonWise w-80 m-auto' id='ImportanceTrust'>
        <div className='flex-3'>
         <Image alt="Importance of Trust Registration,  Regulatory Compliance,  Advancement of Non-Commercial Activities, Income Tax Benefits, Public Interest, Legal Authorization for Business Operations,  Contribution to Social Sectors" className="Importance-of-trust-img w-100" loading="lazy" src={importance_of_trust_registration} height={500} />
         <p className='main-para'>Trust registration is imperative for the following reasons:</p>

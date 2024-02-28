@@ -3,10 +3,10 @@ import React from 'react'
 import dft from '../../../assets/images/static/private-reg/benefit.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const PartnershipDeed = () => {
+export const VoluntaryWinding = () => {
   return (
     <div >
-        <p className='main-para mb-0'id='PartnershipDeed'>The process for a company’s board of directors to voluntarily wind it up is as follows:</p>
+        <p className='main-para mb-0'id='VoluntaryWinding'>The process for a company’s board of directors to voluntarily wind it up is as follows:</p>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
     
       <div className='flex-7'>
@@ -29,7 +29,7 @@ export const PartnershipDeed = () => {
         </ul>
       </div>
       <div className='flex-4 justify-content-center'>
-        <Image alt="Voluntary winding up a company,Subsequently, ROC notifies the Indian Official Gazette to publish the notification.,days of the Tribunal’s order being passed, the liquidator is required to send a copy of the order to ROC. The liquidator will be subject to sanctions if they fail to comply with this" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+        <Image alt="Voluntary winding up a company,Subsequently, ROC notifies the Indian Official Gazette to publish the notification.,days of the Tribunal’s order being passed, the liquidator is required to send a copy of the order to ROC. The liquidator will be subject to sanctions if they fail to comply with this" className="VoluntaryWinding-img w-100" height={382} loading="lazy" src={dft} />
       </div>
       </div>
     </div>
