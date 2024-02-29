@@ -3,8 +3,11 @@ import React from 'react'
 import Image from 'next/image'
 import dft from '../../../assets/images/static/fpo-mark-certification/how-much-time-does-it-takes-to-obtain-the-fpo-mark.svg'
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const HowMuchTime = () => {
+export const HowMuchTime = ({ cityName }: HeroProps) => {
   return (
     <div >
        

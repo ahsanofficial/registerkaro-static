@@ -2,7 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/fpo-mark-certification/fpo-mark-certification-application.svg'
 
-export const FPOMark  = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const FPOMark  = ({ cityName }: HeroProps) => {
   return (
     <div id='FPOMark'>
        <p className='main-para mb-2'>Every food processing manufacturer should submit <strong>Form A (Application for License)</strong> as provided under the first schedule of the Food Products Order, 1955, to the ministry of food processing industries. The manufacturer must fill in the below details in the application:</p>

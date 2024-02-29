@@ -6,13 +6,13 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
-import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
-import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
-
-
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
-export const ProcedureGetFPO = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ProcedureGetFPO = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

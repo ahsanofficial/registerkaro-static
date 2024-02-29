@@ -2,12 +2,15 @@ import React from 'react'
 import certificate from '../../../assets/images/static/fpo-mark-certification/fpo-mark-certification.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>FPO mark is a certification mark mandatory on all processed fruit products sold in India such as packaged fruit beverages, fruit-jams, squashes, pickles, dehydrated fruit products, and fruit extracts, following the food safety and Standards Act of 2006. The FPO Mark Certification guarantees that the product was manufactured in a hygienic ‘food-safe’ environment, thus ensuring that the product is fit for consumption.</p>
-                <p className='text-justify'>As stated above, the FPO mark is important for businesses that manufactured products related to fruits and vegetables. But did you know who provides FPO license? So, the Food Safety and Standards Authority of India (FSSAI) issue the certificate. It ensures that the products which are sold in the Indian market must meet the quality and safety standards set by the government. To obtain the certificate, the manufacturer must submit an application with complete documents.</p>
+                <p className='text-justify'>FPO mark is a certification mark mandatory on all processed fruit products sold in { cityName } such as packaged fruit beverages, fruit-jams, squashes, pickles, dehydrated fruit products, and fruit extracts, following the food safety and Standards Act of 2006. The FPO Mark Certification guarantees that the product was manufactured in a hygienic ‘food-safe’ environment, thus ensuring that the product is fit for consumption.</p>
+                <p className='text-justify'>As stated above, the FPO mark is important for businesses that manufactured products related to fruits and vegetables. But did you know who provides FPO license? So, the Food Safety and Standards Authority of { cityName } (FSSAI) issue the certificate. It ensures that the products which are sold in the Indian market must meet the quality and safety standards set by the government. To obtain the certificate, the manufacturer must submit an application with complete documents.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

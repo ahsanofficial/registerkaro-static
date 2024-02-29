@@ -15,8 +15,10 @@ let hero = {
         "ZohoBooks subscription"
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +32,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>FPO Mark Certification</h4>
-                <p>The FPO mark is a mandatory certification mark for all processed fruit products sold in India, such as fruit jams, packaged fruit beverages, crushes and squashes, dehydrated fruit products, pickles, and fruit extracts. Contact Us! to get FPO Mark Certification without any hassle.</p>
+                <p>The FPO mark is a mandatory certification mark for all processed fruit products sold in { cityName }, such as fruit jams, packaged fruit beverages, crushes and squashes, dehydrated fruit products, pickles, and fruit extracts. Contact Us! to get FPO Mark Certification without any hassle.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

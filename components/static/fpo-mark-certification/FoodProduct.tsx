@@ -2,7 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import food_product from '../../../assets/images/static/fpo-mark-certification/food-products-requiring-fpo-mark.svg'
 
-export const FoodProduct = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const FoodProduct = ({ cityName }: HeroProps) => {
   return (
     <div id='FoodProduct'>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
