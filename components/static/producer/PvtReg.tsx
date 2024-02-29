@@ -2,7 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import pvtReg from '../../../assets/images/pvt-reg/pvt-reg.svg'
 
-export const PvtReg = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const PvtReg = ({ cityName }: HeroProps) => {
   return (
     <div className='pvtReg flex w-80 m-auto mobile-flex-column-reverse' id='What'>
       <div className='flex-7'>

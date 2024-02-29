@@ -1,20 +1,20 @@
 import React from 'react'
-import { Hero } from '../components/static/pvt/Hero'
-import { Process } from '../components/static/pvt/Process'
-import { DifferentTypes } from '../components/static/pvt/DifferentTypes'
-import { Benefits } from '../components/static/pvt/Benefits'
-import { Checklist } from '../components/static/pvt/Checklist'
-import { HowToRegister } from '../components/static/pvt/HowToRegister'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { RegisterPvt } from '../components/static/pvt/RegisterPvt'
+import { Hero } from '../../components/static/pvt/Hero'
+import { Process } from '../../components/static/pvt/Process'
+import { DifferentTypes } from '../../components/static/pvt/DifferentTypes'
+import { Benefits } from '../../components/static/pvt/Benefits'
+import { Checklist } from '../../components/static/pvt/Checklist'
+import { HowToRegister } from '../../components/static/pvt/HowToRegister'
+import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
+import { RegisterPvt } from '../../components/static/pvt/RegisterPvt'
 import Head from 'next/head'
-import { TimeRequired } from '../components/static/pvt/TimeRequired'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { DocumentRequired } from '../components/static/pvt/DocumentRequired'
-import { WhatDocument } from '../components/static/pvt/WhatDocument'
-import { TableCom } from '../components/static/pvt/TableCom'
-import { PvtReg } from '../components/static/producer/PvtReg'
-import { RegistrationLinks } from '../components/child_components/RegistrationLinks'
+import { TimeRequired } from '../../components/static/pvt/TimeRequired'
+import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
+import { DocumentRequired } from '../../components/static/pvt/DocumentRequired'
+import { WhatDocument } from '../../components/static/pvt/WhatDocument'
+import { TableCom } from '../../components/static/pvt/TableCom'
+import { PvtReg } from '../../components/static/producer/PvtReg'
+import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 
 let state = [
     "Maharashtra",
@@ -356,8 +356,8 @@ const Home = () => {
     return (
         <div className='services-pages pvt-reg'>
             <Head>
-                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
+                <title>Private Limited Company Registration | RegisterKaro</title>
+                <meta name="description" content="The Official RegisterKaro" />
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
                 <meta name="robots" content="all" />
@@ -366,40 +366,40 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
                 {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
-            <Hero />
+            <Hero cityName={'India'} />
             <h1 className='main-heading'>Online Private Limited Company Registration in India – Meaning, Documents and Procedure</h1>
             <div className='heading-line'></div>
-            <Process />
+            <Process cityName={'India'} />
             <h2 className='main-heading'>What is a Private Limited Company?</h2>
             <div className='heading-line'></div>
-            <PvtReg />
+            <PvtReg cityName={'India'} />
             <h2 className="main-heading">Different types of Business Structures in India</h2>
             <div className='heading-line'></div>
-            <DifferentTypes />
+            <DifferentTypes cityName={'India'} />
             <h2 className="main-heading">Benefits of Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
-            <Benefits />
+            <Benefits cityName={'India'} />
             <h2 className="main-heading">Checklist for Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
-            <Checklist />
+            <Checklist cityName={'India'} />
             <h2 className="main-heading">Documents Required for Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
-            <DocumentRequired />
+            <DocumentRequired cityName={'India'} />
             <h2 className="main-heading">Procedure for Private Limited Company Registration?</h2>
             <div className='heading-line'></div>
-            <HowToRegister />
+            <HowToRegister cityName={'India'} />
             <h2 className="main-heading">Time Required for Private Limited Company Registration in India</h2>
             <div className='heading-line'></div>
-            <TimeRequired />
+            <TimeRequired cityName={'India'} />
             <h2 className="main-heading">How to Register Your Private Limited Company in India with RegisterKaro?</h2>
             <div className='heading-line'></div>
-            <RegisterPvt />
+            <RegisterPvt cityName={'India'} />
             <h2 className="main-heading">What Documents will you get after Online Private Limited Company Registration in India?</h2>
             <div className='heading-line'></div>
-            <WhatDocument />
+            <WhatDocument cityName={'India'} />
             <h2 className="main-heading">Comparative List of Different Business Structures in India</h2>
             <div className='heading-line'></div>
-            <TableCom />
+            <TableCom cityName={'India'} />
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
