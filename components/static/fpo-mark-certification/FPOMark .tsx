@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/fpo-mark-certification/fpo-mark-certification-application.svg'
 
 export const FPOMark  = () => {
   return (
@@ -20,8 +20,8 @@ export const FPOMark  = () => {
       <p><strong>10:</strong>Declaration of compliance with the food products Order, 1955 and payment of a fee</p>
       <p><strong>11:</strong>Signature of the applicant</p>
       </div>
-       <div className='flex-3 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
+       <div className='flex-3 mt-3'>
+          <Image alt="FPO Mark Certification Application,Description of the fruit products,Period for which the licence is required ,Olan of the factory and list of equipment" className="FPOMark-img w-100" height={580} loading="lazy" src={bft} />
       </div>
      
      </div>

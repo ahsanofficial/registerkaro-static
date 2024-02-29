@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import food_product from '../../../assets/images/static/fpo-mark-certification/food-products-requiring-fpo-mark.svg'
 
 export const FoodProduct = () => {
   return (
     <div id='FoodProduct'>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
-       <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
-
+       <div className='flex-4 mt-1'>
+          <Image alt="Food Products Requiring FPO Mark,Syrups, synthetic beverages and sharbat," height={660} loading="lazy" className='FoodProduct-img w-100' src={food_product} />
       </div>
       <div className='flex-7 pt-5'>
       <p><strong>1:</strong>Syrups, synthetic beverages and sharbat</p>
