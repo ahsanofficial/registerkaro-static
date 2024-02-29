@@ -372,7 +372,7 @@ const Home = () => {
         console.log('q', query);
     }, [query]);
 
-    const cityFromQuery = query?.replace('fssai-registration-in-', '');
+    const cityFromQuery = query?.replace('private-limited-company-registration', '');
     const cityString = cityFromQuery ? cityFromQuery.slice(0) : '';
     const cityName = formatString(cityString)
     const isCityValid = city.includes(cityString) || state.includes(cityString)
