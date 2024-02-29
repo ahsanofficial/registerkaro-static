@@ -358,7 +358,7 @@ const Home = () => {
                 {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
             <Hero cityName={cityName} />
-            <h1 className='main-heading'>Get Online FPO Mark Certification in India</h1>
+            <h1 className='main-heading'>Get Online FPO Mark Certification in {cityName}</h1>
             <div className='heading-line'></div>
             <Process cityName={cityName} />
             <h1 className='main-heading'>Food Products Requiring FPO Mark</h1>
