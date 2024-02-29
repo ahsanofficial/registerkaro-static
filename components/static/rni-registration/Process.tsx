@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/rni-registration/rni_registration_certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -38,7 +38,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">RNI Registration Certificate [Sample]</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="RNI Registration Certificate,The regulation of any Newspaper, magazines, or editorial is maintained under the law which demands an authentication of such publication. The body regulating the publications in India is called Registrar of the Newspaper for India. The Registrar of the Newspapers must provide the owners of any new newspapers, periodicals, or printed publications in India an RNI registration" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/rni-registration/documents_you_might_need_for_rni_registration.svg'
 
 export const Documents = () => {
   return (
@@ -19,8 +19,8 @@ export const Documents = () => {
       <p><strong>8: </strong>Published newspapers and magazines contain public opinion, news, and comments.</p>
       <p><strong>9: </strong>Newspapers and periodicals may only publish content in the languages that RNI has verified.</p>
       </div>
-      <div className='flex-4'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="Documents-img w-100" height={450} loading="lazy" src={bft} />
+      <div className='flex-6'>
+          <Image alt="Documents you might need for RNI Registrationa duplicate of the letter from RNI confirming ownership.Declaration (Form-1) submitted by the publisher, fully verified by DM/DC/SDM/JCP/CMM.An official agreement between the proprietors of the periodical. If the owners of the printing press and the magazine are not the same, both of their signatures need to be on the agreement that is being submitted." className="Documents-img w-100" height={650} loading="lazy" src={bft} />
       </div>
      </div>
      <p className='main-para'>It is advisable to refrain from substituting syllables or letters in the title with emoticons, pictures, or symbols. Each duplicate needs to have a complete and correct imprint line. If the publisher or printer is not the owner, a signed copy of the Printer Agreement authorising the owner(s) in writing to allow individual (by name) to make and subscribe statement instead of the owner</p>

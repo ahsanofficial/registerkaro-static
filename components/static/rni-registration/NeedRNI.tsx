@@ -2,11 +2,16 @@ import Image from 'next/image'
 import React from 'react'
 import one from '../../../assets/images/pvt-reg/checklist/one.png'
 import two from '../../../assets/images/pvt-reg/checklist/two.png'
+import when_do_you_need from '../../../assets/images/static/rni-registration/when_do_you_need_rni_registraion.svg'
 
 
 export const NeedRNI = () => {
   return (
     <div id='NeedRNI'>
+    
+      <div className='flex justify-content-center' id='ChooseRegisterKaro'>
+        <Image alt="When do you need RNI Registration?" className="NeedRNI-img w-100" height={382} loading="lazy" src={when_do_you_need} />
+      </div>
       <p className='main-para'>You will have to opt for RNI registration in case you are conduction one of the following activities:</p>
       <div className="checklist flex w-80 m-auto mobile-flex-column">
         <div className="checklist-divs flex flex-column text-center align-center">

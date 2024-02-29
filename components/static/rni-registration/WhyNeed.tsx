@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/private-reg/benefit.svg";
+import bft from "../../../assets/images/static/rni-registration/why_do_you_need_rni_registration.svg";
 
 export const WhyNeed = () => {
   return (
@@ -10,11 +10,12 @@ export const WhyNeed = () => {
         regulating journals, newspapers, etc.
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
+        <div className="flex-6">
           <Image
-            alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP"
+            alt="Why do you need RNI Registration?,Legal Recognition,Government Schemes benefits,Copyright Protection,RNI registration offers many benefits to the user when it comes to
+            regulating journals, newspapers, etc."
             className="WhyNeed-img w-100"
-            height={500}
+            height={700}
             loading="lazy"
             src={bft}
           />
