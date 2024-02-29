@@ -1,6 +1,6 @@
 import React from 'react'
-import bgImage from '../../../assets/images/pvt-reg/bg.png';
-import rightArrow from '../../../assets/images/pvt-reg/rightArrow.svg';
+import bgImage from '../../../assets/images/static/private-reg/bg.png';
+import rightArrow from '../../../assets/images/static/private-reg/rightArrow.svg';
 import ZohoFormService from '../../child_components/ZohoformService';
 import Image from 'next/image';
 import { GoogleDiv } from '../GoogleDiv';
@@ -16,7 +16,11 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -46,7 +50,7 @@ export const Hero = () => {
                 <GoogleDiv />
             </div>
             <div className="zoho">
-                <ZohoFormService service={'private-limited-company-registration'} />
+                <ZohoFormService service={'fssai-registration'} />
             </div>
         </div>
     )

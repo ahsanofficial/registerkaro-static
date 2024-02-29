@@ -1,14 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
-import pvtReg from '../../../assets/images/section-8-reg/Annual.svg'
+import pvtReg from '../../../assets/images/static/section-8-reg/Annual.svg'
 
-export const AnnualCompliance = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const AnnualCompliance = ({ cityName }: HeroProps) => {
   return (
     <div className='pvtReg flex w-80 m-auto mobile-flex-column' id='AnnualCompliance'>
-      <div className='flex-3'>
-        <Image alt="Private Limited Company sample" className="AnnualCompliance-img w-100" height={382} loading="lazy" src={pvtReg} />
+      <div className='flex-4'>
+        <Image alt="Annual Compliances for Section 8 Companies" className="AnnualCompliance-img w-100" height={400} loading="lazy" src={pvtReg} />
       </div>
-      <div className='flex-7'>
+      <div className='flex-6'>
         <p>Following are the annual compliances for Section 8 Company:</p>
         <ol>
           <li>Mandatory Audit Report</li>

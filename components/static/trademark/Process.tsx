@@ -1,8 +1,12 @@
 import React from 'react'
-import certificate from '../../../assets/images/trade-mark/trademark_certificate.webp';
+import certificate from '../../../assets/images/static/trademark-reg/trademark_certificate.webp';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -11,25 +15,25 @@ export const Process = () => {
                     <ul>
                         <ul>
                             <a href="#ListOfDiff" className="scrollTo">
-                                <li>List of Different Trademark Classes in India</li>
+                                <li>List of Different Trademark Classes in {cityName}</li>
                             </a>
                             <a href="#RoleOfTrad" className="scrollTo">
                                 <li>What is the Role of Trademark Registry?</li>
                             </a>
                             <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of Trademark Registration Online in India</li>
+                                <li>Benefits of Trademark Registration Online in {cityName}</li>
                             </a>
                             <a href="#Checklist" className="scrollTo">
-                                <li>Who can apply for Trademark Registration Online in India?</li>
+                                <li>Who can apply for Trademark Registration Online in {cityName}?</li>
                             </a>
                             <a href="#DocRequirement" className="scrollTo">
-                                <li>Documents required for Trademark Registration Online in India</li>
+                                <li>Documents required for Trademark Registration Online in {cityName}</li>
                             </a>
                             <a href="#Compilance" className="scrollTo">
                                 <li>Apply for Trademark Registration Online with RegisterKaro</li>
                             </a>
                             <a href="#ValidityOfTrad" className="scrollTo">
-                                <li>Validity of Trademark Registration Online in India</li>
+                                <li>Validity of Trademark Registration Online in {cityName}</li>
                             </a>
                             <a href="#WhyRegist" className="scrollTo">
                                 <li>Why RegisterKaro for Trademark Registration</li>
@@ -45,9 +49,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Trademark Simple Certificate</p>
+                <p className="small-heading text-center">Trademark Sample Certificate</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-60 " loading="lazy"  src={certificate} />
+                    <Image alt="Trademark Sample Certificate" className="certificate h-100 w-60 " loading="lazy"  src={certificate} />
                 </div>
             </div>
         </div>

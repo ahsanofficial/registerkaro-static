@@ -1,12 +1,17 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/trade-mark/whyRegisterKaro.svg'
-export const WhyRegist = () => {
+import ProcedureReg from '../../../assets/images/static/trademark-reg/whyRegisterKaro.svg'
+
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhyRegist = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='WhyRegist'>
       <div className='flex-5'>
         <div className='flex-3'>
-        <p>Following is the documents required for Startup India Company Registration:</p>
+        <p>Following is the documents required for Startup {cityName} Company Registration:</p>
       </div>
 
         <p><strong>1: </strong>We conduct a thorough Trademark Search of the TM Directory;</p>
@@ -17,7 +22,7 @@ export const WhyRegist = () => {
       
         
       </div>
-      <div className='flex-3'><Image alt="Private Limited Company sample" className="Procedure-img w-100" loading="lazy" height={430} src={ProcedureReg} /></div>
+      <div className='flex-3'><Image alt="Why RegisterKaro for Trademark Registration" className="Procedure-img w-100" loading="lazy" height={430} src={ProcedureReg} /></div>
     </div>
   )
 }

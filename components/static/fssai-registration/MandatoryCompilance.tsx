@@ -1,16 +1,17 @@
-
 import Image from 'next/image'
 import React, { useState } from 'react'
-import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
-import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
-// import dft from '../../../assets/images/fssai/'
+import one from '../../../assets/images/static/private-reg/HowToRegister/one.svg'
+import two from '../../../assets/images/static/private-reg/HowToRegister/two.svg'
+import three from '../../../assets/images/static/private-reg/HowToRegister/three.svg'
+import four from '../../../assets/images/static/private-reg/HowToRegister/four.svg'
+import five from '../../../assets/images/static/private-reg/HowToRegister/five.svg'
+import arrow from '../../../assets/images/static/private-reg/HowToRegister/arrow.svg'
 
-import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
+interface HeroProps {
+  cityName: string;
+}
 
-export const MandatoryCompilance = () => {
+export const MandatoryCompilance = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -21,8 +22,8 @@ export const MandatoryCompilance = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='MandatoryCompilance'>
         <div className='flex justify-content-center'>
-        {/* <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} /> */}
-        <p className='main-para mb-2'>Following is the complete procedure for FSSAI Registration in India:</p>
+        {/* <Image alt="Types of business structures in {cityName} and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} /> */}
+        <p className='main-para mb-2'>Following is the complete procedure for FSSAI Registration in {cityName}:</p>
       </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
         <div className='flex-5 text-justify fs-20 p-color-black'>
@@ -60,32 +61,32 @@ export const MandatoryCompilance = () => {
         <div className='flex-5'>
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={one} alt="three" loading="lazy" width={30} height={30}  /><div className='ms-1 pe-4'>Step 1: Filing the Application Form</div> 
-              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
+              <Image src={one} alt="Filing the Application Form" loading="lazy" width={30} height={30}  /><div className='ms-1 pe-4'>Step 1: Filing the Application Form</div> 
+              <Image src={arrow} alt="Filing the Application Form" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={two} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 2: Documentation</div> 
-              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
+              <Image src={two} alt="Documentation for fssai" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 2: Documentation</div> 
+              <Image src={arrow} alt="Documentation for fssai" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3: Examination of application and Documents</div> 
-              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
+              <Image src={three} alt="Examination of application and Documents" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3: Examination of application and Documents</div> 
+              <Image src={arrow} alt="Examination of application and Documents" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4: Inspection of the Food Premises</div> 
-              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
+              <Image src={four} alt="Inspection of the Food Premises" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4: Inspection of the Food Premises</div> 
+              <Image src={arrow} alt="Inspection of the Food Premises" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={five} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 5: Issuance of FSSAI Certificate</div> 
-              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
+              <Image src={five} alt="Issuance of FSSAI Certificate" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 5: Issuance of FSSAI Certificate</div> 
+              <Image src={arrow} alt="Issuance of FSSAI Certificate" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
         </div>
