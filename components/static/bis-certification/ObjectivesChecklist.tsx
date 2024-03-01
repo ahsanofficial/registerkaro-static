@@ -3,11 +3,16 @@ import React from 'react'
 import one from '../../../assets/images/pvt-reg/checklist/one.png'
 import two from '../../../assets/images/pvt-reg/checklist/two.png'
 import three from '../../../assets/images/pvt-reg/checklist/three.svg'
+import objective_of_bis from '../../../assets/images/static/bis-certification/objective_of_bis.svg'
 
 
 export const ObjectivesChecklist = () => {
   return (
     <div id='ObjectivesChecklist'>
+      <div className='flex mt-3' id='KeyInitiatives'>
+        <Image alt="Objectives of BIS,The Bureau of Indian Standards (BIS) operates with a set of core objectives aimed at fostering the continual and harmonious development of standardization, quality certification, and marking. These objectives encompas" className="ObjectivesChecklist-img w-100" height={482} loading="lazy" src={objective_of_bis} />
+      </div>
+
       <p className='main-para'>The Bureau of Indian Standards (BIS) operates with a set of core objectives aimed at fostering the continual and harmonious development of standardization, quality certification, and marking. These objectives encompass:</p>
       <div className="checklist flex w-80 m-auto mobile-flex-column">
         <div className="checklist-divs flex flex-column text-center align-center">

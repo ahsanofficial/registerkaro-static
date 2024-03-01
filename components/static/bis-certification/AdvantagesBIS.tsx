@@ -8,6 +8,7 @@ import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
 import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
 import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
+import advantages_of_obtaining_bis_certification from '../../../assets/images/static/bis-certification/advantages_of_obtaining_bis_certification.svg'
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
@@ -21,9 +22,9 @@ export const AdvantagesBIS = () => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='AdvantagesBIS'>
-        <div className='flex justify-content-center'>
-        <p className='main-para mb-2'>In summary, securing a BIS Certificate offers a myriad of benefits, including:</p>
-      </div>
+        
+          <Image alt="Advantages of Obtaining BIS Certification,securing a BIS Certificate offers a myriad of benefits" className="AdvantagesBIS-img w-100" height={482} loading="lazy" src={advantages_of_obtaining_bis_certification} />
+           <p className='main-para mb-2'>In summary, securing a BIS Certificate offers a myriad of benefits, including:</p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
       <div className='flex-5'>
           <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>

@@ -1,15 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/bis-certification/key-initiatives-by-bis.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const KeyInitiatives = () => {
   return (
     <div >
-        
-      <div className='flex justify-content-center' id='KeyInitiatives'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={482} loading="lazy" src={dft} />
-      </div>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <h3>Compulsory Registration Scheme (CRS):</h3>
@@ -60,6 +56,9 @@ export const KeyInitiatives = () => {
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Conducting training programs to build awareness and expertise in standards compliance, both nationally and internationally.</li>
           </ul>
+      </div>
+      <div className='flex mt-3' id='KeyInitiatives'>
+        <Image alt="Key Initiatives by BIS,Information Services,Promotional Activities" className="KeyInitiatives-img w-100" height={1082} loading="lazy" src={dft} />
       </div>
       </div>
     </div>

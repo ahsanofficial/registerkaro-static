@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/bis-certification/types_of_bis_certification.svg'
 
 export const EventBased = () => {
   return (
@@ -8,7 +8,7 @@ export const EventBased = () => {
      <p className='main-para mb-2'>Throughout the BIS Certification process, we meticulously handle all BIS Schemes and standards. Our comprehensive assistance spans from filing the application form, overseeing testing procedures, to coordinating with BIS Officers until the successful acquisition of the Certificate. We specialize in aiding with product testing and obtaining various licenses falling under BIS. These licenses encompass:</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
+          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="TypesBIS-img w-100" height={620} loading="lazy" src={bft} />
 
       </div>
       <div className='flex-7 pt-5'>
