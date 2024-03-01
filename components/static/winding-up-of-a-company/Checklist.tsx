@@ -5,7 +5,13 @@ import two from '../../../assets/images/pvt-reg/checklist/two.png'
 import three from '../../../assets/images/pvt-reg/checklist/three.svg'
 import stages from '../../../assets/images/static/winding-up-of-a-company/stages-trubunal.svg';
 
-export const Checklist = () => {
+
+interface HeroProps {
+    cityName: string;
+}
+
+
+export const Checklist = ({ cityName }: HeroProps) => {
   return (
     <div className='checklist' id='Checklist'>
            <div className='flex-5'>

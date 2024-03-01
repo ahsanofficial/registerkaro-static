@@ -2,8 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/winding-up-of-a-company/who-tribunal.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
+interface HeroProps {
+  cityName: string;
+}
 
-export const WhoCan = () => {
+export const WhoCan = ({ cityName }: HeroProps) => {
   return (
     <div id='WhoCan' >
      
@@ -21,7 +24,7 @@ export const WhoCan = () => {
         </ul>
         <p>2. Before submitting the petition for the company to be wound up, the Registrar must first receive approval from the Central Government. Furthermore, before giving the Registrar such authorization, the Central Government must provide a reasonable opportunity to the company. The petition must be filed in copy form to the Registrar, who has sixty (60) days to review it and provide the Tribunal with his opinion.</p>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />By the Central Government or the State Government directly, if the company is operating against the interests of India’s sovereignty and integrity;</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />By the Central Government or the State Government directly, if the company is operating against the interests of { cityName }’s sovereignty and integrity;</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />By any individual that the Central Government grants permission to do so.</li>
         </ul>
       </div>

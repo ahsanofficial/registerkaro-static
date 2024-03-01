@@ -3,7 +3,10 @@ import React from 'react'
 import dft from '../../../assets/images/static/private-reg/benefit.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const VoluntaryWinding = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const VoluntaryWinding = ({ cityName }: HeroProps) => {
   return (
     <div >
         <p className='main-para mb-0'id='VoluntaryWinding'>The process for a company’s board of directors to voluntarily wind it up is as follows:</p>

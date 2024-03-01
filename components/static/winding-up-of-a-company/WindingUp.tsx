@@ -2,8 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import orderTrubunal from '../../../assets/images/static/winding-up-of-a-company/order-trubunal.svg'
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const WindingUp = () => {
+export const WindingUp = ({ cityName }: HeroProps) => {
  return (
     <div id='WindingUp'>
       <p className='main-para mb-1'>According to Section 271 of the Companies Act, a Tribunal has complete authority to make a winding-up order, but only in the following conditions. The circumstances are as follows: </p>

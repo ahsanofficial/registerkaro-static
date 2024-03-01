@@ -2,7 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/winding-up-of-a-company/what-voluntary.svg'
 
-export const WhatVoluntary  = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const WhatVoluntary  = ({ cityName }: HeroProps) => {
   return (
     <div id='WhatVoluntary'>
        <div className='flex-5'>

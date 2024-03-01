@@ -3,7 +3,11 @@ import React from 'react'
 import Image from 'next/image'
 import bft from '../../../assets/images/static/winding-up-of-a-company/whatIsComp.svg'
 
-export const WhatIsComp = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhatIsComp = ({ cityName }: HeroProps) => {
   return (
     <div id='WhatIsComp'>
         <div className='flex-5'>

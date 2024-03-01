@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
 
-import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-import throughFTE from '../../../assets/images/static/winding-up-of-a-company/through-FTE.svg'
+import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg';
+import throughFTE from '../../../assets/images/static/winding-up-of-a-company/through-FTE.svg';
 
-export const WindingUpThrough = () => {
+
+interface HeroProps {
+  cityName: string;
+}
+
+export const WindingUpThrough = ({ cityName }: HeroProps) => {
 
 
   return (

@@ -2,8 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/winding-up-of-a-company/diffrent-ways.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
+interface HeroProps {
+  cityName: string;
+}
 
-export const DiffrentWays = () => {
+export const DiffrentWays = ({ cityName }: HeroProps) => {
   return (
     <div id='DiffrentWays' >
      
