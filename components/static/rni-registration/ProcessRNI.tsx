@@ -14,8 +14,11 @@ import ten from '../../../assets/images/pvt-reg/HowToRegister/ten.svg'
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
+interface HeroProps {
+  cityName: string;
+}
 
-export const ProcessRNI = () => {
+export const ProcessRNI = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

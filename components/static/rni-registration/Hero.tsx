@@ -15,8 +15,11 @@ let hero = {
         "ZohoBooks subscription"
     ]
 }
+interface HeroProps {
+    cityName: string;
+}
 
-export const Hero = () => {
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +33,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>RNI Registration</h4>
-                <p>Obtain the authorization from office of Registrar of Newspapers of India (RNI), and begin the process of publishing your own newspaper. Get in touch with our RNI registration consultant to start the process of RNI online registration.</p>
+                <p>Obtain the authorization from office of Registrar of Newspapers of { cityName } (RNI), and begin the process of publishing your own newspaper. Get in touch with our RNI registration consultant to start the process of RNI online registration.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

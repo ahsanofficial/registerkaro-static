@@ -2,7 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/rni-registration/documents_you_might_need_for_rni_registration.svg'
 
-export const Documents = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Documents = ({ cityName }: HeroProps) => {
   return (
     <div id='Documents'>
       <p className='main-para'>The following list of documents is required in order to register a newspaper or publication:

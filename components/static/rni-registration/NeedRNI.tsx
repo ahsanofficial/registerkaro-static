@@ -4,8 +4,11 @@ import one from '../../../assets/images/pvt-reg/checklist/one.png'
 import two from '../../../assets/images/pvt-reg/checklist/two.png'
 import when_do_you_need from '../../../assets/images/static/rni-registration/when_do_you_need_rni_registraion.svg'
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const NeedRNI = () => {
+export const NeedRNI = ({ cityName }: HeroProps) => {
   return (
     <div id='NeedRNI'>
     

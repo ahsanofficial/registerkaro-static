@@ -3,7 +3,11 @@ import React from 'react'
 import dft from '../../../assets/images/static/rni-registration/why_choose_registerkaro_for_your_rni_regsitraion.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const ChooseRegisterKaro = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ChooseRegisterKaro = ({ cityName }: HeroProps) => {
   return (
     <div >
       <div className='flex justify-content-center' id='ChooseRegisterKaro'>

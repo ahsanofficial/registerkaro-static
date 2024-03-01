@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/rni-registration/why_do_you_need_rni_registration.svg";
-
-export const WhyNeed = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const WhyNeed = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyNeed">
       <p className="main-para mb-2">
