@@ -5,8 +5,20 @@ import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
 
 export const HowRegisterKaro = () => {
   return (
-    <div>
-      <div className="DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse">
+    <div id="HowRegisterKaro">
+      <div className="DocumentArrowWise flex w-80 m-auto mobile-flex-column">
+      <div className="flex-5 justify-content-center" >
+          <Image
+            alt="How does RegisterKaro help in the process? RegisterKaro has earned the trust of more than 10000+ clients who
+            have availed of our Gumasta License Registration Services. Their
+            trust in us from a term in continuity is proof of our services
+            backed by quality and assurance."
+            className="HowRegisterKaro-img mt-4 w-100"
+            height={502}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
         <div className="flex-7">
           <h3>Pool of Experts</h3>
           <ul className="tick list-unstyled">
@@ -94,18 +106,7 @@ export const HowRegisterKaro = () => {
             </li>
           </ul>
         </div>
-        <div className="flex-5 justify-content-center" id="HowRegisterKaro">
-          <Image
-            alt="How does RegisterKaro help in the process? RegisterKaro has earned the trust of more than 10000+ clients who
-            have availed of our Gumasta License Registration Services. Their
-            trust in us from a term in continuity is proof of our services
-            backed by quality and assurance."
-            className="HowRegisterKaro-img mt-4 w-100"
-            height={502}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+       
       </div>
     </div>
   );
