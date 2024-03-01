@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/private-reg/differentType.svg";
+import dft from "../../../assets/images/static/gumasta-license/how_does_registerKaro_help_in_the_processs.svg";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
 
 export const HowRegisterKaro = () => {
@@ -96,9 +96,12 @@ export const HowRegisterKaro = () => {
         </div>
         <div className="flex-5 justify-content-center" id="HowRegisterKaro">
           <Image
-            alt="How does RegisterKaro help in the process?"
-            className="HowRegisterKaro-img w-100"
-            height={382}
+            alt="How does RegisterKaro help in the process? RegisterKaro has earned the trust of more than 10000+ clients who
+            have availed of our Gumasta License Registration Services. Their
+            trust in us from a term in continuity is proof of our services
+            backed by quality and assurance."
+            className="HowRegisterKaro-img mt-4 w-100"
+            height={502}
             loading="lazy"
             src={dft}
           />

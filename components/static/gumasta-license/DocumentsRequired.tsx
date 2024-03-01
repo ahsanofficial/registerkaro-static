@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/gumasta-license/documents_required_for_gumasta.svg'
 interface HeroProps {
   cityName: string;
 }
@@ -11,7 +11,7 @@ export const DocumentsRequired = ({ cityName }: HeroProps) => {
     
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-4 mt-1'>
-          <Image alt="Documents required for Gumasta License" className="DocumentsRequired-img w-100" height={450} loading="lazy" src={bft} />
+          <Image alt="Documents required for Gumasta License" className="DocumentsRequired-img w-100" height={520} loading="lazy" src={bft} />
       </div>
       <div className='flex-7 pt-1'>
       <p><strong>1:</strong>Annexure [premises of Establishment]</p>
