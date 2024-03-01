@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 interface HeroProps {
@@ -8,11 +7,7 @@ interface HeroProps {
 }
 export const DocsREquired = ({ cityName }: HeroProps) => {
   return (
-    <div >
-          <div className='flex justify-content-center' id='DocsREquired'>
-        <Image alt="Products Covered Under Mandatory Certification" className="DifferentTypes-img w-100" height={322} loading="lazy" src={dft} />
-      </div>
-     
+    <div  id='DocsREquired'>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p><strong>Products Covered Under Mandatory Certification: Scheme – I (ISI Mark Scheme):</strong></p>

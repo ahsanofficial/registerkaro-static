@@ -32,9 +32,6 @@ export const OtherAnnual = ({ cityName }: HeroProps) => {
       <p><strong>18: </strong>Original Test Reports from BIS Laboratory.</p>
       <p><strong>19: </strong>Undertaking related to the test report.</p>
       </div>
-      <div className='flex-4 mt-5'>
-          <Image alt="Documentation Required for BIS Certification" className="benefits-img w-100" height={450} loading="lazy" src={bft} />
-      </div>
      </div>
     </div>
   )
