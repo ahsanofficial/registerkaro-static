@@ -405,7 +405,7 @@ const Home = () => {
             <h1 className="main-heading">FAQs</h1>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
-            <RegistrationLinks formattedQuery={'Trademark Registration'} state={state} Query={'rni-registration'} city={city} />
+            <RegistrationLinks formattedQuery={'RNI Registration'} state={state} Query={'rni-registration'} city={city} />
         </div>
     )
 }

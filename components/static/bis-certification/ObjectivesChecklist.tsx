@@ -4,9 +4,11 @@ import one from '../../../assets/images/pvt-reg/checklist/one.png'
 import two from '../../../assets/images/pvt-reg/checklist/two.png'
 import three from '../../../assets/images/pvt-reg/checklist/three.svg'
 import objective_of_bis from '../../../assets/images/static/bis-certification/objective_of_bis.svg'
+interface HeroProps {
+  cityName: string;
+}
 
-
-export const ObjectivesChecklist = () => {
+export const ObjectivesChecklist = ({ cityName }: HeroProps) => {
   return (
     <div id='ObjectivesChecklist'>
       <div className='flex mt-3' id='KeyInitiatives'>

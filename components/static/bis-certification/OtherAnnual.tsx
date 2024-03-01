@@ -2,13 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/private-reg/benefit.svg'
 
-export const OtherAnnual = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const OtherAnnual = ({ cityName }: HeroProps) => {
   return (
     <div id='OtherAnnual'>
-    <div className='benefits flex w-80 m-auto mobile-flex-column' >
-       <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={850} loading="lazy" src={bft} />
-      </div>
+    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
+       
       <div className='flex-7 pt-5'>
       <p><strong>To obtain BIS Certification, applicants must provide a comprehensive set of documents, including but not limited to:</strong></p>
       <p><strong>1: </strong>Name and Address proof of the applicant and the factory.</p>
@@ -30,6 +31,9 @@ export const OtherAnnual = () => {
       <p><strong>17: </strong>Undertaking and Affidavit attested with ID Proof and the signature of the approved Indian Representative (in the case of a foreign or overseas manufacturer).</p>
       <p><strong>18: </strong>Original Test Reports from BIS Laboratory.</p>
       <p><strong>19: </strong>Undertaking related to the test report.</p>
+      </div>
+      <div className='flex-4 mt-5'>
+          <Image alt="Documentation Required for BIS Certification" className="benefits-img w-100" height={450} loading="lazy" src={bft} />
       </div>
      </div>
     </div>

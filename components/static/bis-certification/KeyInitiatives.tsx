@@ -3,7 +3,10 @@ import React from 'react'
 import dft from '../../../assets/images/static/bis-certification/key-initiatives-by-bis.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const KeyInitiatives = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const KeyInitiatives = ({ cityName }: HeroProps) => {
   return (
     <div >
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>

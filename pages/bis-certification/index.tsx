@@ -1,13 +1,16 @@
 import Head from 'next/head'
 import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
-import { ChooseRegisterKaro } from '../../components/static/rni-registration/ChooseRegisterKaro'
-import { Documents } from '../../components/static/rni-registration/Documents'
-import { Hero } from '../../components/static/rni-registration/Hero'
-import { NeedRNI } from '../../components/static/rni-registration/NeedRNI'
-import { Process } from '../../components/static/rni-registration/Process'
-import { ProcessRNI } from '../../components/static/rni-registration/ProcessRNI'
-import { WhyNeed } from '../../components/static/rni-registration/WhyNeed'
+import { AdvantagesBIS } from '../../components/static/bis-certification/AdvantagesBIS'
+import { DocsREquired } from '../../components/static/bis-certification/DocsRequired'
+import { EventBased } from '../../components/static/bis-certification/EventBased'
+import { Hero } from '../../components/static/bis-certification/Hero'
+import { KeyInitiatives } from '../../components/static/bis-certification/KeyInitiatives'
+import { MandatoryCompilance } from '../../components/static/bis-certification/MandatoryCompilance'
+import { ObjectivesChecklist } from '../../components/static/bis-certification/ObjectivesChecklist'
+import { OtherAnnual } from '../../components/static/bis-certification/OtherAnnual'
+import { PartnershipDeed } from '../../components/static/bis-certification/PartnershipDeed'
+import { Process } from '../../components/static/bis-certification/Process'
 import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 
 let state = [
@@ -302,49 +305,52 @@ let state = [
 
 const faq = [
     {
-        "question": "How to apply for RNI registration?",
-        "answer": "You may apply for RNI registration by visiting the website [www.rni.nic.in] and file an application by attaching the required documents such as personal details, PAN, TAN, affidavits of the applicant, etc."
+        "question": "What is BIS certification?",
+        "answer": "BIS certification is a quality mark issued by the Bureau of Indian Standards (BIS) to ensure the quality and safety of products sold in India."
     },
     {
-        "question": "What is RNI full Form?",
-        "answer": "RNI stands for Registrar of Newspapers for India (RNI) which is an extended office of the Ministry of Information and Broadcasting statued under Section 19 of the Press & Registration of Books Act, 1867."
+        "question": "Why is BIS certification important?",
+        "answer": "BIS certification is essential to confirm that products meet Indian standards, ensuring consumer safety and product quality."
     },
     {
-        "question": "How much does RNI registration cost?",
-        "answer": "Making an application is the first step in the RNI registration procedure for which the application falls somewhere around Rs 50,000 whereas for the magazines, it costs Rs 10,000."
+        "question": "Which products require BIS certification?",
+        "answer": "Products like electronics, appliances, automotive components, and many others require BIS certification before they can be sold in India."
     },
     {
-        "question": "Which documents are required for RNI registration?",
-        "answer": "A self declaration certificate or Affidavit, Letter of Authority for submission of the Self-declaration by Publisher/ owner, Copy of First edition and First volume which has been issued, Authenticated declaration issued by publisher or owner."
+        "question": "How can I apply for BIS certification?",
+        "answer": "You can apply for BIS certification online through the BIS website or at a BIS branch office."
     },
     {
-        "question": "Is RNI registration mandatory?",
-        "answer": "Under Section 11B of the Act, Publishers are required to deliver a copy of every newspaper or periodical that is published to the Press Registrar. Therefore, in order to print any magazine or newspaper in the nation, one must first register with the RNI."
+        "question": "What are the documents required for BIS certification?",
+        "answer": "Required documents may include product specifications, test reports, manufacturing process details, and more, depending on the product category."
     },
     {
-        "question": "What is the role of RNI?",
-        "answer": "The RNI’s duties include maintaining and compiling the Register of published newspapers, giving the newspapers the RNI certificate so they can print them, checking the published contents and confirming the circulation claims."
+        "question": "How long does it take to obtain BIS certification?",
+        "answer": "The time frame varies depending on the complexity of the product and the certification process, but it typically takes several months."
     },
     {
-        "question": "What is the validity of RNI?",
-        "answer": "The owner/publisher must register the title within a year after the date of title verification, according to the revised RNI Title Guidelines that went into effect on January 1, 2021."
+        "question": "What is the validity period of a BIS certificate?",
+        "answer": "BIS certificates are typically valid for two years, after which they need to be renewed."
     },
     {
-        "question": "Who is responsible for newspaper registration?",
-        "answer": "Registrar of Newspaper for India is responsible for the newspaper registration in the Indian region."
+        "question": "What is the BIS mark, and where should it be placed on the product?",
+        "answer": "The BIS mark is the certification mark that should be placed on the product, packaging, or accompanying documents, as specified by BIS."
     },
     {
-        "question": "What are the benefits of RNI registration?",
-        "answer": "There are multiple benefits if you opt for RNI registration which includes legal recognition and protection, government benefits avail, monetary advantages, etc."
+        "question": "Can imported products be sold in India without BIS certification?",
+        "answer": "No, imported products must also comply with BIS standards and obtain BIS certification before being sold in India."
+    },
+    {
+        "question": "What are the consequences of selling uncertified products in India?",
+        "answer": "Selling uncertified products in India can result in legal penalties, product seizure, and damage to your brand’s reputation. It is essential to adhere to BIS certification requirements."
     }
-];
-
+]
 
 const Home = () => {
     return (
-        <div className='services-pages rni-registration-reg'>
+        <div className='services-pages bis-certification-reg'>
             <Head>
-                <title>RNI Registration | RegisterKaro</title>
+                <title>BIS Certification | RegisterKaro</title>
                 <meta name="description" content="The Official RegisterKaro" />
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
@@ -354,32 +360,41 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
                 {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
-            <Hero cityName={'India'} />
-            <h1 className='main-heading'>What is RNI Registration?</h1>
+            <Hero cityName={'India'}  />
+            <h1 className='main-heading'>Get Online BIS Certification in India</h1>
             <div className='heading-line'></div>
-            <Process cityName={'India'} />
-            <h1 className='main-heading'>Why do you need RNI Registration?</h1>
+            <Process cityName={'India'}  />
+            <h1 className='main-heading'>Key Initiatives by BIS</h1>
             <div className='heading-line'></div>
-            <WhyNeed cityName={'India'}/>
-            <h1 className='main-heading'>When do you need RNI Registration?</h1>
+            <KeyInitiatives cityName={'India'} />
+            <h1 className='main-heading'>Objectives of BIS</h1>
             <div className='heading-line'></div>
-            <NeedRNI cityName={'India'}/>
-            <h1 className='main-heading'>Documents you might need for RNI Registration</h1>
+            <ObjectivesChecklist cityName={'India'} />
+            <h1 className='main-heading'>Quality Control Orders</h1>
             <div className='heading-line'></div>
-            <Documents cityName={'India'}/>
-            <h1 className='main-heading'>Process of RNI Registration</h1>
+            <PartnershipDeed cityName={'India'} />
+            <h1 className='main-heading'>Advantages of Obtaining BIS Certification</h1>
             <div className='heading-line'></div>
-            <ProcessRNI cityName={'India'}/>
-            <h1 className='main-heading'>Why Choose RegisterKaro for your RNI Registration?</h1>
+            <AdvantagesBIS cityName={'India'} />
+            <h1 className='main-heading'>Types of BIS Certification</h1>
             <div className='heading-line'></div>
-            <ChooseRegisterKaro cityName={'India'}/>
+            <EventBased cityName={'India'} />
+            <h1 className='main-heading'>Products Covered Under BIS Certification</h1>
+            <div className='heading-line'></div>
+            <DocsREquired cityName={'India'} />
+            <h1 className='main-heading'>Documentation Required for BIS Certification</h1>
+            <div className='heading-line'></div>
+            <OtherAnnual cityName={'India'} />
+            <h1 className='main-heading'>Procedure for BIS Certification</h1>
+            <div className='heading-line'></div>
+            <MandatoryCompilance cityName={'India'} />
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
             <h1 className="main-heading">FAQs</h1>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
-            <RegistrationLinks formattedQuery={'RNI Registration'} state={state} Query={'rni-registration'} city={city} />
+            <RegistrationLinks formattedQuery={'BIS Certification in India'} state={state} Query={'bis-certification'} city={city} />
         </div>
     )
 }

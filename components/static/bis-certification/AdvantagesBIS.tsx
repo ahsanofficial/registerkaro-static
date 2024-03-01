@@ -12,8 +12,10 @@ import advantages_of_obtaining_bis_certification from '../../../assets/images/st
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const AdvantagesBIS = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const AdvantagesBIS = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

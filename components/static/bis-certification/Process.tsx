@@ -2,11 +2,15 @@ import React from 'react'
 import certificate from '../../../assets/images/static/bis-certification/get_online_bis_certification_in_india.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>BIS, an acronym for the Bureau of Indian Standards, stands as the National Standard Body of India, established under the BIS Act 2016. Its core mission revolves around fostering the harmonious development of standardization, marking, and quality certification of goods, as well as addressing related matters. BIS plays a pivotal role in contributing traceable and tangible benefits to the national economy by ensuring the provision of safe and reliable quality goods, mitigating health hazards, promoting import and export substitutes, and controlling the proliferation of varieties through standardization, certification, and testing. In India, BIS Certification is issued to offer customers a third-party guarantee of the safety, quality, and reliability of goods. The Government has mandated BIS Certification for specific products to prioritize public health. This certification aims to enhance customer confidence, provide quality assurance, protect customers from hazardous products, and uphold public health standards.</p>
+                <p className='text-justify'>BIS, an acronym for the Bureau of Indian Standards, stands as the National Standard Body of { cityName }, established under the BIS Act 2016. Its core mission revolves around fostering the harmonious development of standardization, marking, and quality certification of goods, as well as addressing related matters. BIS plays a pivotal role in contributing traceable and tangible benefits to the national economy by ensuring the provision of safe and reliable quality goods, mitigating health hazards, promoting import and export substitutes, and controlling the proliferation of varieties through standardization, certification, and testing. In { cityName }, BIS Certification is issued to offer customers a third-party guarantee of the safety, quality, and reliability of goods. The Government has mandated BIS Certification for specific products to prioritize public health. This certification aims to enhance customer confidence, provide quality assurance, protect customers from hazardous products, and uphold public health standards.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
@@ -47,7 +51,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">BIS Certification Certificate [Sample]</p>
                 <div>
-                    <Image alt="BIS Certification Certificate" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Get Online BIS Certification in India" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
