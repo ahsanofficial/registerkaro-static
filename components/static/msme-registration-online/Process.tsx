@@ -1,14 +1,14 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/msme-registration-online/get_msme_regi_certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps { cityName: string; }
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Micro, Small, and Medium Enterprises (MSMEs) are the backbone of the Indian economy, significantly contributing to employment and economic growth. The Indian government has developed the MSME Registration process to give small enterprises several benefits, including easier access to loans, subsidies, and other incentives. It is critical to emphasize the importance of keeping your registration under MSME information up to date. To maintain the validity of your registration, any changes in business activity, investment, or turnover should be quickly notified on the Udyam Registration portal. We will walk you through the process of applying for the MSME Registration online in India in this page.</p>
+                <p className='text-justify'>Micro, Small, and Medium Enterprises (MSMEs) are the backbone of the Indian economy, significantly contributing to employment and economic growth. The Indian government has developed the MSME Registration process to give small enterprises several benefits, including easier access to loans, subsidies, and other incentives. It is critical to emphasize the importance of keeping your registration under MSME information up to date. To maintain the validity of your registration, any changes in business activity, investment, or turnover should be quickly notified on the Udyam Registration portal. We will walk you through the process of applying for the MSME Registration online in { cityName } in this page.</p>
                 <p className='text-justify'>
-                Registering your company as an MSME in India is a vital step towards gaining access to the government’s various perks and prospects. The online registration process via the Udyam Registration portal is user-friendly and fast, making it easier for entrepreneurs and business owners to take advantage of these benefits. By acquiring the registration online, you not only open the door to financial assistance and incentives, but you also help to build your firm and the Indian economy. Don’t miss out on the benefits—begin the process of MSME registration online today!</p>
+                Registering your company as an MSME in { cityName } is a vital step towards gaining access to the government’s various perks and prospects. The online registration process via the Udyam Registration portal is user-friendly and fast, making it easier for entrepreneurs and business owners to take advantage of these benefits. By acquiring the registration online, you not only open the door to financial assistance and incentives, but you also help to build your firm and the Indian economy. Don’t miss out on the benefits—begin the process of MSME registration online today!</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
@@ -55,7 +55,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">MSME Registration certificate [Sample]</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Get MSME Registration Online in India" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

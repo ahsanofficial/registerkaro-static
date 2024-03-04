@@ -1,17 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/msme-registration-online/process_for_msme_regis.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const ProcessMSME = () => {
-  return (
-    <div >
-      <div className='flex justify-content-center' id='ProcessMSME'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="ProcessMSME-img w-100" height={482} loading="lazy" src={dft} />
+interface HeroProps { cityName: string; }
+export const ProcessMSME = ({ cityName }: HeroProps) => {
+  return (      
+     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='ProcessMSME'>
+       <div className='flex-3 justify-content-center' >
+        <Image alt="Process for MSME Registration Online" className="ProcessMSME-img w-100" height={482} loading="lazy" src={dft} />
       </div>
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
-        <p>Due to online platforms, applying for MSME registration online in India has become a simple process. Here’s a step-by-step procedure:</p>
+        <p>Due to online platforms, applying for MSME registration online in { cityName } has become a simple process. Here’s a step-by-step procedure:</p>
         <h3>a. Proceed to the Udyam Registration Portal:</h3>
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />The ‘Udyam Registration portal (https://udyamregistration.gov.in) is the official gateway for MSME registration Online.</li>
@@ -41,7 +40,8 @@ export const ProcessMSME = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />You can print your MSME certificate, which serves as proof of registration. When working with banks or government institutions, this certificate comes in handy.</li>
         </ul>
       </div>
+     
       </div>
-    </div>
+ 
   )
 }

@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/msme-registration-online/benefits_of_msme_registration.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const BenefitsMSME = () => {
-  return (
-    <div >
-      <div className='flex justify-content-center' id='BenefitsMSME'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="BenefitsMSME-img w-100" height={482} loading="lazy" src={dft} />
-      </div>
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+interface HeroProps { cityName: string; }
+export const BenefitsMSME = ({ cityName }: HeroProps) => {
+  return ( 
+     
+     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='BenefitsMSME'>
+        <div className='flex-4 justify-content-center' >
+            <Image alt="Benefits of MSME Registration Online" className="BenefitsMSME-img w-100" height={682} loading="lazy" src={dft} />
+          </div>
       <div className='flex-7'>
         <p>Before beginning the registration procedure, it is critical to understand why MSME registration online is advantageous:</p>
         <h3>a. Credit:</h3>
@@ -37,7 +37,7 @@ export const BenefitsMSME = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />MSME registration Online makes it easier to obtain licenses and permits.</li>
         </ul>
       </div>
-      </div>
+      
     </div>
   )
 }

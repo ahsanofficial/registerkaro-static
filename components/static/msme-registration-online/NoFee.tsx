@@ -1,6 +1,6 @@
 import React from "react";
-
-export const NoFee = () => {
+interface HeroProps { cityName: string; }
+export const NoFee = ({ cityName }: HeroProps) => {
   return (
     <div>
       <p className="main-para my-2" id="NoFee">

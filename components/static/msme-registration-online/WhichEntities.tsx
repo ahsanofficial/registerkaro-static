@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
-
-export const WhichEntities = () => {
+import bft from '../../../assets/images/static/msme-registration-online/which_entities_are_eligible_for_msme.svg'
+interface HeroProps { cityName: string; }
+export const WhichEntities = ({ cityName }: HeroProps) => {
   return (
 
     <div className='benefits flex w-80 m-auto mobile-flex-column' id='WhichEntities'>
-       <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="WhichEntities-img w-100" height={350} loading="lazy" src={bft} />
+       <div className='flex-4 mt-1'>
+          <Image alt="Which Entities are eligible for MSME Online?" className="WhichEntities-img w-100" height={450} loading="lazy" src={bft} />
       </div>
       <div className='flex-7 pt-5'>
       <p>The following entities are eligible for MSME Registration Online:</p>
