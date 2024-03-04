@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
-import { Eligibility } from '../../components/static/bis-crs-certification/Eligibility'
+import { Eligibility } from '../../components/static/consumer-complaints/Eligibility'
 import { Challenges } from '../../components/static/consumer-complaints/Challenges'
 import { Hero } from '../../components/static/consumer-complaints/Hero'
 import { HowCanRegisterKaro } from '../../components/static/consumer-complaints/HowCanRegisterKaro'
@@ -11,6 +11,7 @@ import { RegistrationLinks } from '../../components/child_components/Registratio
 import { CustomDefault } from '../../components/child_components/CustomDefault'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import { ChooseRegisterKaro } from '../../components/static/consumer-complaints/ChooseRegisterKaro'
 
 
 const faq = [
@@ -393,6 +394,9 @@ const Home = () => {
             <h1 className='main-heading'>How can RegisterKaro assist you?</h1>
             <div className='heading-line'></div>
             <HowCanRegisterKaro cityName={cityName}/>
+            <h1 className='main-heading'>Why to choose RegisterKaro?</h1>
+            <div className='heading-line'></div>
+            <ChooseRegisterKaro cityName={cityName}/>
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

@@ -3,9 +3,12 @@ import React from 'react'
 import dft from '../../../assets/images/static/consumer-complaints/eligitbility-to-file.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const Eligibility  = () => {
+interface HeroProps { cityName: string; }
+
+
+export const Eligibility  = ({ cityName }: HeroProps) => {
   return (
-    <div id='Eligibility ' >
+    <div id='Eligibility' >
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
      <div className='flex-4 justify-content-center'>
@@ -31,7 +34,7 @@ export const Eligibility  = () => {
         </ul>
         <h3>Eligible Authority:</h3>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> If a company violates consumer protection laws, certain government authorities and regulatory bodies, like the Securities and Exchange Board of India, the Food Safety and Standards Authority of India, and the Telecom Regulatory Authority of India, may file a complaint in the consumer court.</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> If a company violates consumer protection laws, certain government authorities and regulatory bodies, like the Securities and Exchange Board of { cityName }:, the Food Safety and Standards Authority of { cityName }:, and the Telecom Regulatory Authority of { cityName }:, may file a complaint in the consumer court.</li>
         </ul>
       </div>
      
