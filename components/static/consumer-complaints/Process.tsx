@@ -1,12 +1,12 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/consumer-complaints/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps { cityName: string; }
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>If customers pay for a certain commodity or service and receive inferior goods or services, they are entitled to legal action. Consumers are granted a number of legal rights and safeguards under the Consumer Protection Act, 1986. This Act allows a customer to file a formal Consumer complaint and bring a business or service provider to court. This particular concern is referred to as an online consumer complaint. A Consumer complaint is usually filed if the company disregards a court order to fix the issue. When filing a Consumer complaint, all required details and supporting documentation must be sent in. India’s consumer courts provide customers with timely legal advice and rulings.</p>
+                <p className='text-justify'>If customers pay for a certain commodity or service and receive inferior goods or services, they are entitled to legal action. Consumers are granted a number of legal rights and safeguards under the Consumer Protection Act, 1986. This Act allows a customer to file a formal Consumer complaint and bring a business or service provider to court. This particular concern is referred to as an online consumer complaint. A Consumer complaint is usually filed if the company disregards a court order to fix the issue. When filing a Consumer complaint, all required details and supporting documentation must be sent in. {cityName}’s consumer courts provide customers with timely legal advice and rulings.</p>
                
                 <div className='page-point'>
                     <ul>

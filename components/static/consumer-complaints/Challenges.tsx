@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/consumer-complaints/challenges.svg'
 
-
-export const Challenges = () => {
+interface HeroProps { cityName: string; }
+export const Challenges = ({ cityName }: HeroProps) => {
  return (
     <div id='Challenges'>
      

@@ -2,15 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/consumer-complaints/how-can.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const HowCanRegisterKaro  = () => {
+interface HeroProps { cityName: string; }
+export const HowCanRegisterKaro  = ({ cityName }: HeroProps) => {
   return (
     <div id='HowCanRegisterKaro' >
      
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
-     <div className='flex-4 justify-content-center'>
-        <Image alt="How can RegisterKaro assist you?,Choose the right forum,Preparation of Consumer Complaint,Detailed analysis of the case, Assistance with Notice" className="HowCanRegisterKaro-img w-100" height={582} loading="lazy" src={dft} />
-      </div>
+     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+     
       <div className='flex-7'>
         <h3>Step 1. Assistance with Notice</h3>
         <ul className='tick list-unstyled'>
@@ -32,6 +30,9 @@ export const HowCanRegisterKaro  = () => {
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />This analysis is further used in the preparation of the documentation and applications to be filed in the court. The process might also include the submission of the evidence. This definitely requires expert assistance in drafting the petitions, applications, documentation, affidavits, evidence, etc.</li>
         </ul>
+      </div>
+      <div className='flex-4 justify-content-center'>
+        <Image alt="How can RegisterKaro assist you?,Choose the right forum,Preparation of Consumer Complaint,Detailed analysis of the case, Assistance with Notice" className="HowCanRegisterKaro-img w-100" height={582} loading="lazy" src={dft} />
       </div>
      
       </div>
