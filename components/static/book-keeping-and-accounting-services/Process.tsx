@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/book-keeping-and-accounting-services/bookkeeping_and_accounting_services.svg'
 import Image from 'next/image';
 interface HeroProps { cityName: string; }
 export const Process = ({ cityName }: HeroProps) => {
@@ -40,7 +40,7 @@ export const Process = ({ cityName }: HeroProps) => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Bookkeeping and Accounting Services</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="A certificate of Consumer complaints,If customers pay for a certain commodity or service and receive inferior goods or services, they are entitled to legal action. Consumers are granted a number of legal rights and safeguards under the Consumer Protection Act, 1986." className="certificate h-100 w-100" loading="lazy" src={certificate}/>
+                    <Image alt="Bookkeeping and Accounting Services" className="certificate h-50 w-50" loading="lazy" src={certificate}/>
                     {/* <p>pending pdf render file</p> */}
                 </div>
             </div>

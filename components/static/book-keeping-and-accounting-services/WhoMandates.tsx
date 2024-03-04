@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/book-keeping-and-accounting-services/who_mandates_bookkeeping_acc.svg";
 
 interface HeroProps {
   cityName: string;
@@ -18,7 +18,7 @@ export const WhoMandates = ({ cityName }: HeroProps) => {
         </div>
         <div className="flex-5">
           <Image
-            alt="Challenges you might face in filing a Consumer complaint,Rigorous Follow-up,Tedious Process"
+            alt="Who mandates Bookkeeping and Accounting Services?"
             className="WhoMandates-img w-100"
             height={550}
             loading="lazy"

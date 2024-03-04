@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/book-keeping-and-accounting-services/why_bookkeeping_acc.svg";
 
 interface HeroProps {
   cityName: string;
@@ -12,7 +12,7 @@ export const WhyBookkeeping = ({ cityName }: HeroProps) => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-5">
           <Image
-            alt="Challenges you might face in filing a Consumer complaint,Rigorous Follow-up,Tedious Process"
+            alt="why book keeping, Every company or organization doing business in {cityName} must follow statutory regulatory standards, which include maintaining books of accounts"
             className="WhyBookkeeping-img w-100"
             height={650}
             loading="lazy"

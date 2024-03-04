@@ -370,7 +370,7 @@ const Home = () => {
     }
 
     return (
-        <div className='services-pages consumer-complaint-reg'>
+        <div className='services-pages book-keeping-and-accounting-services-reg'>
             <Head>
                 <title>Bookkeeping and Accounting Services | RegisterKaro</title>
                 <meta name="description" content="The Official RegisterKaro" />
