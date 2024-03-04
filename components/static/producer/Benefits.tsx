@@ -2,7 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/producer/advantages.svg'
 
-export const Benefits = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div className='benefits flex w-80 m-auto mobile-flex-column' id='Benefits'>
        <div className='flex-5'>
@@ -13,7 +17,7 @@ export const Benefits = () => {
         <p><strong>1. Separate Legal Entity:</strong></p>
         <p>It’s a separate legal entity which means it can acquire assets & incur debts in its own name and the Directors of the Company have no obligation to the lender of the Company.</p>
         <p><strong>2. 100% Income Tax Exemption:</strong></p>
-        <p>In India, the Producer Company is exempted from paying Income Tax.</p>
+        <p>In { cityName }, the Producer Company is exempted from paying Income Tax.</p>
         <p><strong>3. Loan Facility to Members:</strong></p>
         <p>Producer Company can extend the financial & credit facility to its members.</p>
         <p><strong>4. More Credibility:</strong></p>

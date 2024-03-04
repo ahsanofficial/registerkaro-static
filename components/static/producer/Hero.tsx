@@ -15,8 +15,9 @@ let hero = {
         "ZohoBooks subscription"
     ]
 }
+interface HeroProps { cityName: string; }
 
-export const Hero = () => {
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +31,7 @@ export const Hero = () => {
             />
             <div className="header-content">
                 <h4 className='mb-4'>Producer Company Registration</h4>
-                <p>In India, a Producer Company is a group of agriculturalists or farmers for the betterment of their living standards. We help to Incorporate the Producer Company in India without any hassle.</p>
+                <p>In { cityName }, a Producer Company is a group of agriculturalists or farmers for the betterment of their living standards. We help to Incorporate the Producer Company in { cityName } without any hassle.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (
