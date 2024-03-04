@@ -2,12 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 import documents from '../../../assets/images/pvt-reg/documents.svg'
-
-export const RegisterUnderEstablishment = () => {
+interface HeroProps { cityName: string; }
+export const RegisterUnderEstablishment = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='RegisterUnderEstablishment'>
       <div className='flex-7'>
-      <p>The Shop & Establishment Act allows the Registration of Sole Proprietorship for shops & establishments in India. Under the prescribed law, cafeterias, restaurants, theatres, hotels, factories, commercial facilities, or public entertainment locations aren’t considered shops. Following is the list of premises that qualify as a shop</p>
+      <p>The Shop & Establishment Act allows the Registration of Sole Proprietorship for shops & establishments in { cityName }. Under the prescribed law, cafeterias, restaurants, theatres, hotels, factories, commercial facilities, or public entertainment locations aren’t considered shops. Following is the list of premises that qualify as a shop</p>
         <h3>Following is the list of premises that qualify as a shop</h3>
         <ul className='tick list-unstyled'>
             <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />If the products are sold either retail, wholesale</li>

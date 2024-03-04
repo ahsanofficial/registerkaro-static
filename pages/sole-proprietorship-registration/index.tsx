@@ -1,20 +1,309 @@
 import React from 'react'
-import { Hero } from '../components/static/sole/Hero'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
+import { Hero } from '../../components/static/sole/Hero'
+import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
 import Head from 'next/head'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Process } from '../components/static/sole/Process'
-import { WhatBusinessPro } from '../components/static/sole/WhatBusinessPro'
-import { Benefits } from '../components/static/sole/Benefits'
-import { Eligibility } from '../components/static/sole/Eligibility'
-import { Checklist } from '../components/static/sole/Checklist'
-import { DocumentRequired } from '../components/static/sole/DocumentRequired'
-import { Compliances } from '../components/static/sole/Compliances'
-import { RegisterGst } from '../components/static/sole/RegisterGst'
-import { RegisterUdyog } from '../components/static/sole/RegisterUdyog'
-import { Procedure } from '../components/static/sole/Procedure'
-import { RegisterUnderEstablishment } from '../components/static/sole/RegisterUnderEstablishment'
+import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
+import { Process } from '../../components/static/sole/Process'
+import { WhatBusinessPro } from '../../components/static/sole/WhatBusinessPro'
+import { Benefits } from '../../components/static/sole/Benefits'
+import { Eligibility } from '../../components/static/sole/Eligibility'
+import { Checklist } from '../../components/static/sole/Checklist'
+import { DocumentRequired } from '../../components/static/sole/DocumentRequired'
+import { Compliances } from '../../components/static/sole/Compliances'
+import { RegisterGst } from '../../components/static/sole/RegisterGst'
+import { RegisterUdyog } from '../../components/static/sole/RegisterUdyog'
+import { Procedure } from '../../components/static/sole/Procedure'
+import { RegisterUnderEstablishment } from '../../components/static/sole/RegisterUnderEstablishment'
+import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 
+let state = [
+    "maharashtra",
+    "jharkhand",
+    "kashmir",
+    "puducherry",
+    "karnataka",
+    "madhya-pradesh",
+    "andhra-pradesh",
+    "himachal-pradesh",
+    "tamil-nadu",
+    "odisha",
+    "assam",
+    "arunachal-pradesh",
+    "gujarat",
+    "chandigarh",
+    "jammu-and-kashmir",
+    "manipur",
+    "andaman-and-nicobar-islands",
+    "bihar",
+    "chhattisgarh",
+    "dadra-and-nagar-haveli",
+    "daman-and-diu",
+    "goa",
+    "haryana",
+    "kerala",
+    "ladakh",
+    "lakshadweep",
+    "meghalaya",
+    "mizoram",
+    "nagaland",
+    "punjab",
+    "rajasthan",
+    "sikkim",
+    "telangana",
+    "tripura",
+    "uttar-pradesh",
+    "uttarakhand",
+    "west-bengal"
+  ]
+  
+  let city = [
+    "mumbai",
+    "firozabad",
+    "new-delhi",
+    "srinagar",
+    "bangalore",
+    "ghaziabad",
+    "hyderabad",
+    "thiruvananthapuram",
+    "ahmedabad",
+    "chennai",
+    "gorakhpur",
+    "kolkata",
+    "thrissur",
+    "gulbarga",
+    "lucknow",
+    "tiruchirappalli",
+    "agartala",
+    "agra",
+    "ahmednagar",
+    "aizawl",
+    "ajmer",
+    "akola",
+    "aligarh",
+    "alwar",
+    "ambala",
+    "ambarnath",
+    "ambattur",
+    "amravati",
+    "amritsar",
+    "amroha",
+    "anand",
+    "anantapur",
+    "anantapuram",
+    "arrah",
+    "asansol",
+    "avadi",
+    "bahraich",
+    "bally",
+    "baranagar",
+    "barasat",
+    "bardhaman",
+    "bareilly",
+    "bathinda",
+    "begusarai",
+    "belgaum",
+    "bellary",
+    "berhampore",
+    "berhampur",
+    "bhagalpur",
+    "bhalswa-jahangir-pur",
+    "bharatpur",
+    "bhatpara",
+    "bhavnagar",
+    "bhilai",
+    "bhilwara",
+    "bhind",
+    "bhiwandi",
+    "bhiwani",
+    "bhopal",
+    "bhubaneswar",
+    "bhusawal",
+    "bidar",
+    "bidhannagar",
+    "bihar-sharif",
+    "bikaner",
+    "bilaspur",
+    "bokaro",
+    "bulandshahr",
+    "burhanpur",
+    "chandigarh",
+    "chapra",
+    "chittoor",
+    "coimbatore",
+    "cuttack",
+    "darbhanga",
+    "davanagere",
+    "dehradun",
+    "delhi",
+    "deoghar",
+    "dewas",
+    "dhanbad",
+    "dhule",
+    "dindigul",
+    "durg",
+    "durgapur",
+    "eluru",
+    "erode",
+    "etawah",
+    "faridabad",
+    "farrukhabad",
+    "fatehpur",
+    "gandhidham",
+    "gandhinagar",
+    "gaya",
+    "gopalpur",
+    "guntur",
+    "gurgaon",
+    "guwahati",
+    "gwalior",
+    "haldia",
+    "hapur",
+    "haridwar",
+    "hospet",
+    "gulbargahowrah",
+    "hubli-dharwad",
+    "ichalkaranji",
+    "imphal",
+    "indore",
+    "jabalpur",
+    "jaipur",
+    "jalandhar",
+    "jalgaon",
+    "jalna",
+    "jammu",
+    "jamnagar",
+    "jamshedpur",
+    "jhansi",
+    "jodhpur",
+    "junagadh",
+    "kadapa",
+    "kakinada",
+    "kalyan-dombivli",
+    "kamarhati",
+    "kanpur",
+    "karawal-nagar",
+    "karimnagar",
+    "karnal",
+    "katni",
+    "khammam",
+    "khandwa",
+    "kharagpur",
+    "khora-ghaziabad",
+    "kirari-suleman-nagar",
+    "kochi",
+    "kolhapur",
+    "kollam",
+    "korba",
+    "kota",
+    "kozhikode",
+    "kulti",
+    "kurnool",
+    "latur",
+    "loni",
+    "ludhiana",
+    "madhyamgram",
+    "madurai",
+    "maheshtala",
+    "malda",
+    "malegaon",
+    "mangalore",
+    "mango",
+    "mathura",
+    "mau",
+    "meerut",
+    "mira-bhayandar",
+    "mirzapur",
+    "moradabad",
+    "morbi",
+    "morena",
+    "munger",
+    "muzaffarnagar",
+    "muzaffarpur",
+    "mysore",
+    "nadiad",
+    "nagercoil",
+    "nagpur",
+    "naihati",
+    "nanded",
+    "nandyal",
+    "nangloi-jat",
+    "nashik",
+    "navi-mumbai",
+    "nellore",
+    "new-delhi",
+    "nizamabad",
+    "noida",
+    "north-dumdum",
+    "ongole",
+    "orai",
+    "pali",
+    "pallavaram",
+    "panchkula",
+    "panihati",
+    "panipat",
+    "parbhani",
+    "patiala",
+    "patna",
+    "pimpri-chinchwad",
+    "pondicherry",
+    "pune",
+    "puri",
+    "purnia",
+    "raebareli",
+    "raichur",
+    "raipur",
+    "rajahmundry",
+    "rajkot",
+    "rajpur-sonarpur",
+    "ramagundam",
+    "rampur",
+    "ranchi",
+    "ratlam",
+    "rewa",
+    "rohtak",
+    "rourkela",
+    "sagar",
+    "saharanpur",
+    "salem",
+    "sambalpur",
+    "sambhal",
+    "satara",
+    "satna",
+    "secunderabad",
+    "shahjahanpur",
+    "shimoga",
+    "sikar",
+    "silchar",
+    "siliguri",
+    "singrauli",
+    "solapur",
+    "sonipat",
+    "south-dumdum",
+    "sri-ganganagar",
+    "surat",
+    "tenali",
+    "thane",
+    "thanjavur",
+    "thoothukudi",
+    "tirunelveli",
+    "tirupati",
+    "tiruppur",
+    "tiruvottiyur",
+    "tumkur",
+    "udaipur",
+    "ujjain",
+    "ulhasnagar",
+    "uluberia",
+    "uzhavarkarai",
+    "vadodara",
+    "varanasi",
+    "vasai-virar",
+    "vijayanagaram",
+    "vijayawada",
+    "visakhapatnam",
+    "warangal",
+    "yamunanagar"
+  ]
 
 let faq = [
     {
@@ -88,8 +377,8 @@ const Home = () => {
     return (
         <div className='services-pages sole-reg'>
             <Head>
-                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
+                <title>Sole Proprietorship Registration  | RegisterKaro</title>
+                <meta name="description" content="The Official RegisterKaro" />
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
                 <meta name="robots" content="all" />
@@ -98,46 +387,47 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
                 {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
-            <Hero />
+            <Hero cityName={'India'}/>
             <h1 className='main-heading'>Online Sole Proprietorship Registration in India</h1>
             <div className='heading-line'></div>
-            <Process/>
+            <Process cityName={'India'}/>
             <h1 className="main-heading">What types of businesses in India can be Sole Proprietorships?</h1>
             <div className='heading-line'></div>
-            <WhatBusinessPro/>
+            <WhatBusinessPro cityName={'India'}/>
             <h1 className="main-heading">Benefits of Sole Proprietorship in India</h1>
             <div className='heading-line'></div>
-            <Benefits/> 
+            <Benefits cityName={'India'}/> 
             <h1 className="main-heading">Eligibility Criteria for Sole Proprietorship Registration in India</h1>
             <div className='heading-line'></div>
-            <Eligibility/> 
+            <Eligibility cityName={'India'}/> 
             <h1 className="main-heading">Checklist for Sole Proprietorship Registration in India</h1>
             <div className='heading-line'></div>
-            <Checklist/>
+            <Checklist cityName={'India'}/>
             <h1 className="main-heading">Documents Required for Sole Proprietorship Registration in India</h1>
             <div className='heading-line'></div>
-            <DocumentRequired/>
+            <DocumentRequired cityName={'India'}/>
             <h1 className="main-heading">Procedure for Sole Proprietorship Registration in India</h1>
             <div className='heading-line'></div>
-            <Procedure/>
+            <Procedure cityName={'India'}/>
             <h1 className="main-heading">Registering under the Shops & Establishments Act</h1>
             <div className='heading-line'></div>
-            <RegisterUnderEstablishment/>
+            <RegisterUnderEstablishment cityName={'India'}/>
             <h1 className="main-heading">Registering through GST Registration</h1>
             <div className='heading-line'></div>
-            <RegisterGst/>
+            <RegisterGst cityName={'India'}/>
             <h1 className="main-heading">Registration through Udyog or Udyam Aadhar Registration under MSME</h1>
             <div className='heading-line'></div>
-            <RegisterUdyog/>
+            <RegisterUdyog cityName={'India'}/>
             <h1 className="main-heading">Compliances for Sole Proprietorship in India</h1>
             <div className='heading-line'></div>
-            <Compliances/>
+            <Compliances cityName={'India'}/>
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
-            <WhyRegisterkaro />
+            <WhyRegisterkaro  />
             <h1 className="main-heading">FAQs</h1>
             <div className='heading-line'></div>
-            <FaqTemplatePVT faqItems={faq} />
+            <FaqTemplatePVT  faqItems={faq} />
+            <RegistrationLinks formattedQuery={'Sole Proprietorship Registration '} state={state} Query={'sole-proprietorship-registration'} city={city} />
         </div>
     )
 }
