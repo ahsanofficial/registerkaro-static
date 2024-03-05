@@ -16,7 +16,10 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+
+interface HeroProps {  cityName: string;}
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +33,7 @@ export const Hero = () => {
             />
             <div className="header-content">
                 <h4 className='mb-4'>Partnership Firm Registration</h4>
-                <p>Bridge the Path to Prosperity: Register Your Partnership Firm in India with RegisterKaro, Unleash Success!</p>
+                <p>Bridge the Path to Prosperity: Register Your Partnership Firm in { cityName } with RegisterKaro, Unleash Success!</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

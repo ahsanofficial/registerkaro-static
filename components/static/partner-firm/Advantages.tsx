@@ -2,12 +2,12 @@
 import Image from 'next/image'
 import React from 'react'
 import advantages from '../../../assets/images/static/partnership-firm/advantages.svg'
-
-export const Advantages = () => {
+interface HeroProps {  cityName: string;}
+export const Advantages = ({ cityName }: HeroProps) => {
 
   return (
     <div id='Advantages'>
-    <h3 className='main-para mb-5'>The following are the benefits of Partnership Firm Registration in India:</h3>
+    <h3 className='main-para mb-5'>The following are the benefits of Partnership Firm Registration in { cityName }:</h3>
     <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
         
         <div className='flex-7'>

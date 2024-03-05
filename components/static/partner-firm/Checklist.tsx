@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import checklist from '../../../assets/images/static/partnership-firm/checklist.svg'
-
-export const Checklist = () => {
+interface HeroProps {  cityName: string;}
+export const Checklist = ({ cityName }: HeroProps) => {
   return (
     <div className='checklist' id='Checklist'>
        <div id='Checklist'>

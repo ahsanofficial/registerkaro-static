@@ -4,8 +4,8 @@ import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-
-export const ProcedureForPartnership = () => {
+interface HeroProps {  cityName: string;}
+export const ProcedureForPartnership = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -16,7 +16,7 @@ export const ProcedureForPartnership = () => {
 
     <div className='DocumentButtonWise w-80 m-auto' id='ProcedureForPartnership'>
     <div className='flex justify-content-center'>
-    <p className='main-para mb-2'>Following is the step-by-step Partnership Firm Registration in India:</p>
+    <p className='main-para mb-2'>Following is the step-by-step Partnership Firm Registration in { cityName }:</p>
   </div>
   <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
     <div className='flex-5 text-justify fs-20 p-color-black'>

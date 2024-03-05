@@ -1,8 +1,8 @@
 
 import Image from 'next/image'
 import disadvantages from '../../../assets/images/static/partnership-firm/partnershipt_disadvantage_upd.svg'
-
-export const Disdvantages = () => {
+interface HeroProps {  cityName: string;}
+export const Disdvantages = ({ cityName }: HeroProps) => {
 
   return (
     <div id='Disdvantages'>

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/partnership-firm/partnership.svg'
-
-export const Benefits = () => {
+interface HeroProps {  cityName: string;}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id='Benefits'>
       <h3 className='main-para mb-5'>The Indian Partnership Act makes registration of a partnership firm optional rather than mandatory. It is entirely at the discretion of the couples and is entirely voluntary. The firm can be registered at the moment of its formation or incorporation, or at any time throughout the partnership’s operation.</h3>

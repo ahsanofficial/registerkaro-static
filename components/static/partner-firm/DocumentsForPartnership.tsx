@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/partnership-firm/documents_for_partnership_firm_regi_upd.svg'
-
-export const DocumentsForPartnership = () => {
+interface HeroProps {  cityName: string;}
+export const DocumentsForPartnership = ({ cityName }: HeroProps) => {
   return (
     <div className='m-auto w-80' id='DocumentsForPartnership'>
-      <h3 className='main-para mb-0'>Following are some crucial documents required for Partnership Firm Registration in India:</h3>
+      <h3 className='main-para mb-0'>Following are some crucial documents required for Partnership Firm Registration in { cityName }:</h3>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
       <div className='flex-5'>
           <Image alt="Documents for Partnership Firm Registration in India. Proof of principal place of business of the firm (ownership documents or rental/lease agreement).

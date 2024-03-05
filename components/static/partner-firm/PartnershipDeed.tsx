@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const PartnershipDeed = () => {
+interface HeroProps {  cityName: string;}
+export const PartnershipDeed = ({ cityName }: HeroProps) => {
   return (
     <div id='PartnershipDeed'>
         <p className='main-para'>A partnership deed is a formal agreement that outlines the rights, duties, profit sharing, and other obligations of the partners in a partnership. It can be in written or oral form, but it is generally recommended to have a written partnership deed to prevent any potential conflicts in the future:</p>
