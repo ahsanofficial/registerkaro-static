@@ -7,10 +7,8 @@ export const ProcedureForPartnership = () => {
   return (
     <div>
         <p className='main-para'>Following is the step-by-step Partnership Firm Registration in India:</p>
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='ProcedureForPartnership'>
-      <div className='flex-3 justify-content-center'>
-        <Image alt="Procedure for Partnership Firm Registration in India" className="ProcedureForPartnership-img w-100" height={482} loading="lazy" src={dft} />
-      </div>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='ProcedureForPartnership'>
+      
       
       <div className='flex-7'>
         <h3>Step 1: Submit an Application for Registration</h3>
@@ -34,6 +32,9 @@ export const ProcedureForPartnership = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> If the Registrar approves the registration application and documentation, he will enter the firm into the Register of Firms and issue the Registration Certificate. The Register of Firms contains up-to-date information on all firms, and anybody can use it for a fee.</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />A completed application form and fees must be sent to the Registrar of Firms in the state where the firm is located. All partners or their agents must sign the application.</li>
         </ul>
+      </div>
+      <div className='flex-3 justify-content-center'>
+        <Image alt="Procedure for Partnership Firm Registration in India" className="ProcedureForPartnership-img w-100" height={482} loading="lazy" src={dft} />
       </div>
       </div>
     </div>

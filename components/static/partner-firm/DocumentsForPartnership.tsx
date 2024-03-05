@@ -6,7 +6,7 @@ export const DocumentsForPartnership = () => {
   return (
     <div className='m-auto w-80' id='DocumentsForPartnership'>
       <h3 className='main-para mb-0'>Following are some crucial documents required for Partnership Firm Registration in India:</h3>
-    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
+    <div className='benefits flex w-80 m-auto mobile-flex-column' >
       <div className='flex-5'>
           <Image alt="Documents for Partnership Firm Registration in India. Proof of principal place of business of the firm (ownership documents or rental/lease agreement).
         However, it is usually better to register the partnership firm because a registered partnership firm has additional rights and benefits over unregistered firms." className="DocumentsForPartnership-img w-100" height={600} loading="lazy" src={bft} />
