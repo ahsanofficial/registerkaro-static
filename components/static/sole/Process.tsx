@@ -70,47 +70,39 @@ export const Process = ({ cityName }: HeroProps) => {
                         </ul>
                     </ul>
                 </div>
+             </div>
                 {/* for certification new code is written here  */}
-
-                <div className='DocumentButtonWise w-80 m-auto mt-4' >
-                    <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
-                        <div className='flex-5'>
-                        <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
-                            <div className='d-flex justify-content-between align-items-center gap-2'>
-                            <Image src={one} alt="one" loading="lazy" width={30} height={30} /> <div className='pe-4'>MSME Certificate</div> 
-                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-                            </div>
+            <div className='flex-5'>
+                <div className='DocumentButtonWise w-100 m-auto mt-4' >
+                    <div className="main flex justify-content-between align-center m-auto flex-column">
+                        <div className='flex'>
+                        <button onClick={() => handleActive('1')} className={`flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
+                            <div className='p-1'>MSME Certificate</div> 
                         </button>
-                        <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
-                            <div className='d-flex justify-content-between align-items-center gap-2'>
-                            <Image src={two} alt="two" loading="lazy" width={30} height={30} /> <div className='pe-4'>GST Certificate  </div> 
-                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-                            </div>
+                        <button onClick={() => handleActive('2')} className={`flex ${active === '2' ? 'active-btn' : 'none-btn'} `}> 
+                           <div className='p-1'>GST Certificate  </div> 
                         </button>
-                        <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
-                            <div className='d-flex justify-content-between align-items-center gap-2'>
-                            <Image src={three} alt="three" loading="lazy" width={30} height={30} /> <div className='pe-4'>Shop License</div> 
-                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-                            </div>
+                        <button onClick={() => handleActive('3')} className={`flex ${active === '3' ? 'active-btn' : 'none-btn'} `}> 
+                            <div className='p-1'>Shop License</div> 
                         </button>
                         </div>
                         <div className='flex-5 text-justify fs-20'>
                         <div className={`${active === '1' ? 'active' : 'none'}`}>
-                        <p className="small-heading text-center w-80">MSME Certificate [Sample]</p>
+                        <p className="small-heading text-center w-100">MSME Certificate [Sample]</p>
                             <div > 
-                                <Image    alt="MSME Certificate Sample" className="certificate h-100 w-80" loading="lazy" src={msme_certificate}/>
+                                <Image    alt="MSME Certificate Sample" className="certificate h-100 w-100" loading="lazy" src={msme_certificate}/>
                             </div>
                         </div>
                         <div className={`${active === '2' ? 'active' : 'none'}`}>
-                           <p className="small-heading text-center w-80"> GST Certificate  [Sample]</p>
+                           <p className="small-heading text-center w-100"> GST Certificate  [Sample]</p>
                             <div >
-                                <Image alt="GST Certificate" className="certificate h-100 w-80" loading="lazy" src={gst_certificate}/>
+                                <Image alt="GST Certificate" className="certificate h-100 w-100" loading="lazy" src={gst_certificate}/>
                             </div>
                         </div>
                         <div className={`${active === '3' ? 'active' : 'none'}`}>
-                        <p className="small-heading text-center w-80"> Shop License [Sample]</p>
+                        <p className="small-heading text-center w-100"> Shop License [Sample]</p>
                             <div>
-                                <Image alt="Shop License Sample" className="certificate h-100 w-80" loading="lazy" src={shop_certificate}/>
+                                <Image alt="Shop License Sample" className="certificate h-100 w-100" loading="lazy" src={shop_certificate}/>
                             </div>
                         </div> 
                       
@@ -118,6 +110,7 @@ export const Process = ({ cityName }: HeroProps) => {
                     </div>
                  
                     </div>
+
               
           </div>
            
