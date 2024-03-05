@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import compliance from '../../../assets/images/static/partnership-firm/compliance.svg'
+import compliance from '../../../assets/images/static/partnership-firm/compliance_after_getting_partnership_firm_reg_online_upd.svg'
 
 export const Compilance = () => {
   return (
