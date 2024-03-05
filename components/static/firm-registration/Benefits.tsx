@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/firm-registration/benefits_of_registreing_a_firm.svg";
-
-export const Benefits = () => {
+interface HeroProps { cityName: string;}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
 import dft from "../../../assets/images/static/firm-registration/documents.svg";
-export const Documents = () => {
+interface HeroProps { cityName: string;}
+export const Documents = ({ cityName }: HeroProps) => {
   return (
     <div id="Documents">
       <p className="main-para">The following are the Documents required for registering a firm</p>

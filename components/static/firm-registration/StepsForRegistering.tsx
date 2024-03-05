@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
-
-export const StepsForRegistering = () => {
+interface HeroProps { cityName: string;}
+export const StepsForRegistering = ({ cityName }: HeroProps) => {
   return (
     <div id="StepsForRegistering">
       <div className="DocumentArrowWise w-80 m-auto mobile-flex-column-reverse">

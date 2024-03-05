@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/firm-registration/structure_business.svg";
-
-export const Structure = () => {
+interface HeroProps { cityName: string;}
+export const Structure = ({ cityName }: HeroProps) => {
   return (
     <div id="Structure">
       <p className="main-para">
