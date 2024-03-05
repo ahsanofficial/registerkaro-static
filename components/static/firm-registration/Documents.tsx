@@ -1,10 +1,13 @@
 import Image from "next/image";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
+import dft from "../../../assets/images/static/firm-registration/documents.svg";
 export const Documents = () => {
   return (
     <div id="Documents">
       <p className="main-para">The following are the Documents required for registering a firm</p>
-      <div className="DocumentArrowWise w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+        
+        <div>
           <h3>Address Proof and Identity of the Partners:</h3>
 
           <ul className="tick list-unstyled">
@@ -166,6 +169,16 @@ export const Documents = () => {
               documents are correct to the best of the knowledge.
             </li>
           </ul>
+        </div>
+        <div className="flex-4 mt-5">
+          <Image
+            alt="The following are the Documents required for registering a firm"
+            className="Document-img w-100"
+            height={700}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
         </div>
       </div>
 

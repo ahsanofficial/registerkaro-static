@@ -1,11 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/private-reg/benefit.svg";
+import bft from "../../../assets/images/static/firm-registration/benefits_of_registreing_a_firm.svg";
 
 export const Benefits = () => {
   return (
     <div id="Benefits">
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="flex-4 mt-5">
+          <Image
+            alt="Benefits of Registering a Firm
+            The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP
+            Partner : In case when a dispute arises between a partner or between a partner or ex-partners of a firm, they may consider legal proceedings to solve the dispute. Hence, having proper registration papers of the firm acts "
+            className="Benefits-img w-100"
+            height={700}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-7 pt-5">
           <p>
             <strong>Partner : </strong>
@@ -54,15 +65,7 @@ export const Benefits = () => {
             only considered for change in business structure.
           </p>
         </div>
-        <div className="flex-4 mt-5">
-          <Image
-            alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP"
-            className="Benefits-img w-100"
-            height={700}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+       
       </div>
     </div>
   );

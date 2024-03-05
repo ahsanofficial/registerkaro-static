@@ -5,7 +5,6 @@ import { Benefits } from '../components/static/firm-registration/Benefits'
 import { Documents } from '../components/static/firm-registration/Documents'
 import { Hero } from '../components/static/firm-registration/Hero'
 import { Process } from '../components/static/firm-registration/Process'
-import { Registration } from '../components/static/firm-registration/Registration'
 import { StepsForRegistering } from '../components/static/firm-registration/StepsForRegistering'
 import { Structure } from '../components/static/firm-registration/Structure'
 
@@ -47,7 +46,7 @@ const faq = [
 
 const Home = () => {
     return (
-        <div className='services-pages state-fssai-license-registration-reg'>
+        <div className='services-pages firm-reg'>
             <Head>
                 {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
                 {/* <meta name="description" content="The Official RegisterKaro" /> */}
@@ -63,9 +62,6 @@ const Home = () => {
             <h1 className='main-heading'>An Overview of Firm Registration</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>­Firm Registration</h1>
-            <div className='heading-line'></div>
-            <Registration/>
             <h1 className='main-heading'>Structure of Business</h1>
             <div className='heading-line'></div>
             <Structure/>
