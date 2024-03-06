@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/pvt-reg/benefit.svg'
+import ProcedureReg from '../../../assets/images/static/nbfc-registration/documents.svg'
 
 interface HeroProps {
   cityName: string;
@@ -8,8 +8,8 @@ interface HeroProps {
 
 export const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='DocumentsRequired'>
-        <div className='flex-3'><Image alt="Why RegisterKaro for Trademark Registration" className="Procedure-img w-100" loading="lazy" height={630} src={ProcedureReg} /></div>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='DocumentsRequired'>
+      
       <div className='flex-5'>
         <p>For proceeding with the successful NBFC Registration Process, one must need following documents get prepared:</p>
         <p><strong>1:</strong>Company Incorporation Certificate under the Companies Act.</p>
@@ -28,6 +28,9 @@ export const DocumentsRequired = ({ cityName }: HeroProps) => {
         <p><strong>14:</strong>Information that includes projections for the balance sheets, cash flow statement, and income statement as well as the company’s future goal, usually for the next three years.</p>
         <p><strong>Note: the list can be extensive depending upon the type of NBFC chosen for registration</strong></p>
       </div>
+      <div className='flex-3'><Image alt="Documents required for NBFC Registration
+          Why RegisterKaro for Trademark Registration
+          For proceeding with the successful NBFC Registration Process" className="DocumentsRequired-img w-100" loading="lazy" height={630} src={ProcedureReg} /></div>
     
     </div>
   )

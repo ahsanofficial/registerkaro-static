@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/pvt-reg/benefit.svg'
+import ProcedureReg from '../../../assets/images/static/nbfc-registration/challenges_faced_in_nbfc_registration.svg'
 
 interface HeroProps {
   cityName: string;
@@ -8,9 +8,9 @@ interface HeroProps {
 
 export const Challenges = ({ cityName }: HeroProps) => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='Challenges'>
-        <div className='flex-3'><Image alt="Why RegisterKaro for Trademark Registration" className="Procedure-img w-100" loading="lazy" height={430} src={ProcedureReg} /></div>
-      <div className='flex-5'>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Challenges'>
+       
+        <div className='flex-5'>
         <p>There are certain challenges that entrepreneurs face in the NBFC business starting from the NBFC registration to NBFC Operation, few of which are as follows:</p>
          <p><strong>Extensive Compliances</strong>
           The compliances for the NFBC registration and operation is quite of an extensive list which becomes a challenge in the smooth sailing. The compliances part oftenly experience exhaustion in the Company which further slows down the operations.</p>
@@ -24,7 +24,9 @@ export const Challenges = ({ cityName }: HeroProps) => {
           <p><strong>Lack of Flexibility</strong>
           The NBFC is governed by rigid statutes which brings little or no space for flexibility whether it be in terms of taxes, compliances, etc. Therefore, the NBFC faces a series of challenges in terms of operation in comparison to other businesses.</p>
       </div>
-    
+      <div className='flex-3'><Image alt="Challenges faced in NBFC Registration
+        Why RegisterKaro for Trademark Registration
+        There are certain challenges that entrepreneurs face in the NBFC business starting from the NBFC registration to NBFC Operation" className="Procedure-img w-100" loading="lazy" height={560} src={ProcedureReg} /></div>
     </div>
   )
 }

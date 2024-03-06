@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import ulArrow from '../../../assets/images//static/private-reg/ulArrow.svg'
-import dft from '../../../assets/images//static/private-reg/differentType.svg'
 
 interface HeroProps {
   cityName: string;
@@ -11,9 +10,6 @@ export const Activities = ({ cityName }: HeroProps) => {
   return (
 
     <div id='Activities'>
-        <div className='flex-3'><Image alt="Why RegisterKaro for Trademark Registration" className="Procedure-img w-100" loading="lazy" height={330} src={dft} /></div>
-    
-   
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' >
       <div className='flex-5'>
         <div className='flex-3'>

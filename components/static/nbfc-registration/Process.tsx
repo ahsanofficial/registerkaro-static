@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp'
+import certificate from '../../../assets/images/static/nbfc-registration/NBFC_Registration_certificat.svg'
 import Image from 'next/image';
 
 interface HeroProps {
@@ -55,7 +55,8 @@ export const Process = ({ cityName }: HeroProps) => {
             <div className='flex-5'>
                 <p className="small-heading text-center">NBFC Registration Certificate</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="Trademark Sample Certificate" className="certificate h-100 w-100 " loading="lazy"  src={certificate} />
+                    <Image alt="Understanding the NBFCs
+                        Although it offers financial services and products, a non-banking financial company, sometimes referred to as a non-banking financial institution, is not recognized as a bank with an official " className="certificate h-100 w-100 " loading="lazy"  src={certificate} />
                 </div>
             </div>
         </div>

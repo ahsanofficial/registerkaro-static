@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React from 'react'
 import ulArrow from '../../../assets/images//static/private-reg/ulArrow.svg'
-import dft from '../../../assets/images//static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/nbfc-registration/benefits_of_nbfcs.svg'
 
 interface HeroProps {
   cityName: string;
@@ -12,15 +12,15 @@ interface HeroProps {
 export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id='Benefits'>
-    <div className='flex-3'><Image alt="Why RegisterKaro for Trademark Registration" className="Procedure-img w-100" loading="lazy" height={330} src={dft} /></div>
-
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' >
-      <div className='flex-5'>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' >
+      
         <div className='flex-3'>
+        <Image alt="Benefits of NBFCs
+          Why RegisterKaro for Trademark Registration
+          NBFC has gained a great spike in growth graph in the past few decades owing to the wide range of benefits it offers as a business. Few of such benefits can be observed below:" className="Benefits-img w-100" loading="lazy" height={830} src={dft} />
         </div>
+        <div className='flex-7'>
         <p>NBFC has gained a great spike in growth graph in the past few decades owing to the wide range of benefits it offers as a business. Few of such benefits can be observed below:</p>
-
-
         <h3>Easy Loan</h3>
         <ul className='tick list-unstyled'>
           <li><Image alt="Copy of Aadhar Card" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Private non-bank financial institutions provide a simplified loan application process for individuals with low credit scores, informal income sources, or unconventional collateral. Unlike traditional banks, these NBFCs have lenient eligibility criteria and minimal documentation requirements, making approval quick and easy. They offer a practical solution for individuals seeking credit without extensive hurdles, particularly beneficial for entrepreneurs needing capital promptly.</li></ul>
