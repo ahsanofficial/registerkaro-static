@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import prerequisites_for_trust_registration from '../../../assets/images/static/trust-registration/prerequisites_for_trust_registration.svg'
+interface HeroProps { cityName: string;}
 
-
-export const Prerequisite = () => {
+export const Prerequisite = ({ cityName }: HeroProps) => {
  
   
   return (
@@ -15,8 +15,8 @@ export const Prerequisite = () => {
             <p>To qualify for trust registration, the following conditions must be fulfilled:</p>
             <p><strong>Minimum Number of Founders:</strong> Trust must be established by at least two or more individuals.</p>
             <p><strong>Compliance with the Indian Trusts Act of 1882:</strong> The trust must be formed in accordance with the provisions specified in the Indian Trusts Act of 1882.</p>
-            <p><strong>Disqualification Status:</strong> None of the parties involved should be disqualified under any prevailing law in India.</p>
-            <p><strong>Conformity with Legal Objectives:</strong> The objectives of the trust must not contravene any existing laws in India.</p>
+            <p><strong>Disqualification Status:</strong> None of the parties involved should be disqualified under any prevailing law in {cityName}.</p>
+            <p><strong>Conformity with Legal Objectives:</strong> The objectives of the trust must not contravene any existing laws in {cityName}.</p>
             <p><strong>Fair and Just Conduct:</strong> The trustee must conduct their activities in a fair and just manner.</p>
             <p><strong>Alignment with Public Interest:</strong> The formation of the trust should not be contrary to public interest or any other applicable laws.</p>
             <p><strong>Non-Harmful Activities:</strong> The activities carried out by the trust must not cause harm to any individual.</p>

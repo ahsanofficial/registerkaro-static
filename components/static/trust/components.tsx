@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import components_of_a_trust_deed from '../../../assets/images/static/trust-registration/Components_oof_ Trust_Deed.svg.svg'
 
-
-export const Components = () => {
+interface HeroProps { cityName: string;}
+export const Components = ({ cityName }: HeroProps) => {
  
   return (
     <div id='Components'> 

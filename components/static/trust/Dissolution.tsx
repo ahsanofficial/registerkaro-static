@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import categories_of_trusts_in_india from '../../../assets/images/static/trust-registration/dissolution_of_trust.svg'
 
-
-export const Dissolution = () => {
+interface HeroProps { cityName: string;}
+export const Dissolution = ({ cityName }: HeroProps) => {
   return (
     <div id='Dissolution'> 
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' >

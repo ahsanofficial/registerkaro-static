@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import importance_of_trust_registration from '../../../assets/images/static/trust-registration/Importance_of_Trust_Registration.svg'
-
-export const ImportanceTrust = () => {
+interface HeroProps { cityName: string;}
+export const ImportanceTrust = ({ cityName }: HeroProps) => {
 
 
   return (

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import advantages_of_trust_registration from '../../../assets/images/static/trust-registration/advantages_of_trust_registration.svg'
 
-
-export const Advantages = () => {
+interface HeroProps { cityName: string;}
+export const Advantages = ({ cityName }: HeroProps)=> {
  
   return (
     <div id='Advantages'> 
@@ -10,7 +10,7 @@ export const Advantages = () => {
         <div className='flex-7'>
           <p>The process of trust registration provides several benefits to both individuals and organizations. Here are the key advantages:</p>
           <p><strong>Charitable Engagement:</strong> Establishing a Charitable Trust allows individuals to benefit themselves, their beneficiaries, and their chosen charitable causes.</p>
-          <p><strong>Tax Exemptions:</strong> Registered trusts in India have access to tax exemptions provided by the Income Tax Department, enabling them to benefit from tax relaxations.</p>
+          <p><strong>Tax Exemptions:</strong> Registered trusts in {cityName} have access to tax exemptions provided by the Income Tax Department, enabling them to benefit from tax relaxations.</p>
           <p><strong>Financial Assistance:</strong> Registered trusts contribute essential financial support to the underprivileged and the public through various charitable activities.</p>
           <p><strong>Legal Safeguards:</strong> The Indian Trusts Act of 1882 ensures comprehensive legal protection, safeguarding the trust’s legal standing against unnecessary claims.</p>
           <p><strong>Family Wealth Management:</strong> Trusts assist in allocating specific assets, preserving and managing family wealth that may be challenging to divide individually.</p>

@@ -1,8 +1,8 @@
 import React from 'react'
 import get_online_trust_registration_in_india_certificate from '../../../assets/images/static/trust-registration/get_online_trust_registration_in_india_certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps { cityName: string;}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -18,7 +18,7 @@ export const Process = () => {
                                 <li>Parties Involved in the Trust Registration Process</li>
                             </a>
                             <a href="#Categories" className="scrollTo">
-                                <li>Categories of Trusts in India</li>
+                                <li>Categories of Trusts in {cityName}</li>
                             </a>
                             <a href="#Regularity" className="scrollTo">
                                 <li>Regulatory Oversight and Legislation for Trust Registration</li>

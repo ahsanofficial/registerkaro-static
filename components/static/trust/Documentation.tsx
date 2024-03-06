@@ -1,8 +1,8 @@
 import Image from "next/image";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
 import docuemntation_for_trust_registration from "../../../assets/images/static/trust-registration/Documentation.svg";
-
-export const Documentation = () => {
+interface HeroProps { cityName: string;}
+export const Documentation = ({ cityName }: HeroProps) => {
   return (
     <div id="Documentation">
       <div className="DocumentArrowWise flex w-80 m-auto mobile-flex-column">

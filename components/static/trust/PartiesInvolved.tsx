@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 import parties_involved_in_the_trust_registration_process from "../../../assets/images/static/trust-registration/parties_involved_in_the_trust_registration_process.svg";
 import ulArrow from "../../../assets/images/pvt-reg/ulArrow.svg";
-
-export const PartiesInvolved = () => {
+interface HeroProps { cityName: string;}
+export const PartiesInvolved = ({ cityName }: HeroProps) => {
   return (
     <div id="PartiesInvolved">
       <div>

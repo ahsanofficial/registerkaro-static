@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import categories_of_trusts_in_india from '../../../assets/images/static/trust-registration/categories_of_trusts_in_india.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const Categories = () => {
+interface HeroProps { cityName: string;}
+export const Categories = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='Categories'>
        <div className='flex-3'>
@@ -15,7 +15,7 @@ export const Categories = () => {
       
         <h3>1. Public Trust:</h3>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Public trusts are established to benefit the general public. They often focus on charitable, educational, and religious purposes. The governance of public trusts is guided by specific statutes such as the Religious Endowments Act of 1863, the Charitable and Religious Trust Act of 1920, or the Bombay Public Trust Act of 1950. Charitable and religious trusts are prevalent examples of public trusts in India.</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Public trusts are established to benefit the general public. They often focus on charitable, educational, and religious purposes. The governance of public trusts is guided by specific statutes such as the Religious Endowments Act of 1863, the Charitable and Religious Trust Act of 1920, or the Bombay Public Trust Act of 1950. Charitable and religious trusts are prevalent examples of public trusts in {cityName}.</li>
         </ul>
         
         <h3>2. Private Trust:</h3>

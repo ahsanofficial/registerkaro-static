@@ -2,8 +2,8 @@
 import Image from 'next/image'
 import React from 'react'
 import categories_of_trusts_in_india from '../../../assets/images/static/trust-registration/trust_a_comprehensive.svg'
-
-export const TrustsComp = () => {
+interface HeroProps { cityName: string;}
+export const TrustsComp = ({ cityName }: HeroProps) => {
   return (
   <div id='TrustsComp'> 
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' >
