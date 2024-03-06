@@ -5,7 +5,7 @@ import components_of_a_trust_deed from '../../../assets/images/static/trust-regi
 export const Components = () => {
  
   return (
-    <div id='ImportanceTrust'> 
+    <div id='Components'> 
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' >
    
       <div className='flex-7'>
