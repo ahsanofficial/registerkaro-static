@@ -1,14 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/society-registration/registration_of_a_society_in_india.svg'
 
 export const Registration = () => {
   return (
 
-  <div className='benefits flex w-80 m-auto mobile-flex-column' id='Registration'>
-    <div className='flex-5'>
-      <Image alt="Private Limited Company sample" className="benefits-img w-100" height={600} loading="lazy" src={bft} />
-    </div>
+  <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Registration'>
+   
     <div className='flex-5'>
         <p>Following are some checklist for Society Registration in India:</p>
         <p><strong>1: </strong>A Society can be created by a minimum of 7 or more persons. Apart from persons from India, companies, foreigners, as well as other registered societies can also register for the Memorandum of association of the society.</p>
@@ -17,6 +15,9 @@ export const Registration = () => {
         <p><strong>4: </strong>For Society registration, the establishing members must agree with the name of society first and then prepare for the Memorandum, followed by Rules & Regulations of the society.</p>
       
       </div>
+      <div className='flex-5'>
+      <Image alt="Registration of a Society In IndiaRegistration of a Society In India" className="Registration-img w-100" height={600} loading="lazy" src={bft} />
+    </div>
     </div>
   )
 }

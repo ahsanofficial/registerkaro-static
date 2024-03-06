@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
+import dft from '../../../assets/images/static/society-registration/documents_you_will_need_for_society.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocumentRequired = () => {
@@ -8,7 +8,7 @@ export const DocumentRequired = () => {
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Documents'>
       <div >
       <div className='flex justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+        <Image alt="Documents you will need for Society Registration" className="DocumentRequired-img w-100" height={482} loading="lazy" src={dft} />
       </div>
         <p>The following are the documents required for Society Registration in India:</p>
         <h3>PAN Card</h3>

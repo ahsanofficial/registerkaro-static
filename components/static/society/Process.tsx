@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/static/society/society_registration_certificate.png';
+import certificate from '../../../assets/images/static/society-registration/society_registration_certificate.png'
 import Image from 'next/image';
 
 export const Process = () => {
@@ -50,12 +50,16 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
+
             <div className='flex-5'>
-                <p className="small-heading text-center w-80 ">Society Registration [Sample]</p>
+                <p className="small-heading text-center">Society Registration [Sample]</p>
                 <div>
-                    <Image alt="A society is an association of several individuals combined using a mutual accord to deliberate, govern and act cooperatively for some communal purpose. Societies are usually registered for the advancement of charitable activities like sports" className="certificate h-100 w-80 " loading="lazy" src={certificate}/>
+                <div className='align-center m-auto'>
+                    <Image alt="A society is an association of several individuals combined using a mutual accord to deliberate, govern and act cooperatively for some communal purpose. Societies are usually registered for the advancement of charitable activities like sports" className="certificate h-100 w-100 " loading="lazy" src={certificate}/>
+                </div>
                 </div>
             </div>
+           
         </div>
     )
 }

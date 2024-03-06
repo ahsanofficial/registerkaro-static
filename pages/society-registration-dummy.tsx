@@ -77,8 +77,8 @@ const Home = () => {
     return (
         <div className='services-pages society-reg'>
             <Head>
-                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
+                <title>Society Registration | RegisterKaro</title>
+                <meta name="description" content="The Official RegisterKaro" />
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
                 <meta name="robots" content="all" />
