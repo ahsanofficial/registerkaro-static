@@ -7,7 +7,7 @@ export const Categories = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='Categories'>
        <div className='flex-3'>
-        <Image alt="Categories of Trusts in India,Public trusts are established to benefit the general public. They often focus on charitable, educational, and religious purposes, Private trusts are established to carry out activities for specific individuals" className="Categories-of-trust-trusts-img w-100" loading="lazy" src={categories_of_trusts_in_india} height={450} />
+        <Image alt="Categories of Trusts in India,Public trusts are established to benefit the general public. They often focus on charitable, educational, and religious purposes, Private trusts are established to carry out activities for specific individuals" className="Categories-img w-100" loading="lazy" src={categories_of_trusts_in_india} height={450} />
         </div>
       <div className='flex-7'>
        

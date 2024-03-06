@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import document from '../../../assets/images/pvt-reg/benefit.svg'
+import document from '../../../assets/images/static/trust-registration/regulatory_oversight.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Regularity = () => {
@@ -28,7 +28,8 @@ export const Regularity = () => {
         </ul>
       </div>
       <div className='flex-3'>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="Regularity-img w-100" loading="lazy" src={document} height={430} />
+        <Image alt="Regulatory Oversight and Legislation for Trust Registration
+The Registrar of Trusts serves as the principal regulatory authority entrusted with the responsibility of overseeing trust registration in India. Their pivotal role includes maintaining a comprehe" className="Regularity-img w-100" loading="lazy" src={document} height={430} />
         </div>
       </div>
     </div>

@@ -1,50 +1,36 @@
 .trust-reg {
   @media screen and (max-width: 990px) {
-   .Parties-involved-img{
-    height: 300px;    
-   }
-   .Categories-of-trust-trusts-img{
-      height: 500px;
-   }
-   .Importance-of-trust-img{
-      height: 500px;
-   }
-   .Advantages-of-trust-img{
-      height: 500px;
-   }
-   .Prerequisites-of-trust-img{
-      height: 500px;
-      
-   }
-   .Regularity-img{
-
-   }
-   .Components-of-trust-img{
-
-   }
-   .Documentation-img{
-
-   }
-   .Procedure-img{
-    
-   }
+    .TrustsComp-img{
+      height: 600px;
+    }
+    .PartiesInvolved -img{
+      height: 600px;
+    }
+    .Categories -img{
+      height: 600px;
+    }
+    .Regularity -img{
+      height: 600px;
+    }
+    .ImportanceTrust-img{
+      height: 600px;
+    }
+    .Advantages -img{
+      height: 600px;
+    }
+    .Prerequisite -img{
+      height: 600px;
+    }
+    .Components -img{
+      height: 900px;
+    }
+    .Documentation-img{
+      height: 800px;
+    }
+    .Procedure-img{
+      height: 600px;
+    }
   }
 
-  @media screen and (max-width: 560px) {
-    .Parties-involved-img{
-      height: 100%;
-    }
-    .Categories-of-trust-trusts-img{
-      height: 100%;
-    }
-    .Importance-of-trust-img{
-      height: 100%;
-    }
-    .Advantages-of-trust-img{
-      height: 100%;
-    }
-    .Prerequisites-of-trust-img{
-      height: 100%;
-    }
-   }
+ 
 }

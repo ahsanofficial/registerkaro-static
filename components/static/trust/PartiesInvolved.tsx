@@ -11,7 +11,7 @@ export const PartiesInvolved = () => {
           alt="Parties Involved in the Trust Registration Process,  The trustor is the individual who initiates the establishment of
           the trust. Typically, they are the proprietor of the assets or
           property being placed into the trust."
-          className="Parties-involved-img w-100"
+          className="PartiesInvolved-img w-100"
           loading="lazy"
           src={parties_involved_in_the_trust_registration_process}
           height={330}

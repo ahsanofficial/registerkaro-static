@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProcedureReg from '../../../assets/images/pvt-reg/benefit.svg'
+import ProcedureReg from '../../../assets/images/static/trust-registration/Procedure_for_Trust_Registration.svg'
 
 export const Procedure = () => {
   return (
@@ -25,7 +25,7 @@ export const Procedure = () => {
        
       </div>
       <div className='flex-3'>
-        <Image alt="Private Limited Company sample" className="Procedure-img w-100" loading="lazy" height={430} src={ProcedureReg} />
+        <Image alt="Procedure for Trust Registration" className="Procedure-img w-100" loading="lazy" height={730} src={ProcedureReg} />
       </div>
     </div>
   )
