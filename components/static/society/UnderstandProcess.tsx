@@ -2,11 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/society-registration/understand_the_process_for_society_registration.svg'
 
-
-export const UnderstandProcess = () => {
+interface HeroProps { cityName: string;}
+export const UnderstandProcess = ({ cityName }: HeroProps) => {
   return (
     <div id='UnderstandProcess'>
-      <p className='main-para'>Following is the step-by-step procedure for Society Registration in India:</p>
+      <p className='main-para'>Following is the step-by-step procedure for Society Registration in {cityName}:</p>
      <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='Registration'>
        
         <div className='flex-5 pt-5'>

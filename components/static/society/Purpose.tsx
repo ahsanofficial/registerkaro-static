@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/society-registration/trust_a_comprehensive.svg'
 
-
-export const Purpose = () => {
+interface HeroProps { cityName: string;}
+export const Purpose = ({ cityName }: HeroProps) => {
   return (
     <div className='checklist' id='Purpose'>
           <div className='benefits flex w-80 m-auto mobile-flex-column' >

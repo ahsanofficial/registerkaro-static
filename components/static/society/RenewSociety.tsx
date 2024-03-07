@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/society-registration/when_to_renew_society_registration.svg'
-
-export const RenewSociety = () => {
+interface HeroProps { cityName: string;}
+export const RenewSociety = ({ cityName }: HeroProps) => {
   return (
     <div>
    <p className='main-para'>Society Registration certificate is subject to renewal depending on the state and sometimes the kind of society you have registered. In order to renew the registration certificate, you need to keep following things in mind:</p>

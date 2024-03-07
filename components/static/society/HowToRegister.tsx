@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import bft from '../../../assets/images/static/society-registration/how_registerkar_assist.svg'
 
-
-export const HowToRegister = () => {
+interface HeroProps { cityName: string;}
+export const HowToRegister = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

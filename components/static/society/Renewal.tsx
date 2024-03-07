@@ -5,8 +5,8 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const Renewal = () => {
+interface HeroProps { cityName: string;}
+export const Renewal = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

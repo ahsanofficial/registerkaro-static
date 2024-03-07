@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import bft from '../../../assets/images/static/society-registration/dissolution_of_a_registered_society.svg'
+interface HeroProps { cityName: string;}
 
-export const Dissolution = () => {
+export const Dissolution = ({ cityName }: HeroProps) => {
   return (
     <div  id='Dissolution'>
       <p className='main-para'>As per the provisions of the Society Registration Act, the dissolution of a society registered under the Act can be initiated by either the Registrar of Cooperative Societies or at least one-tenth of the society members through a court of competent jurisdiction. The court, upon due consideration, may decree the dissolution of the society based on various grounds, including:</p>

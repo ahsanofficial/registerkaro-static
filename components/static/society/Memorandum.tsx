@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import bft from '../../../assets/images/static/society-registration/memorandum_of_association.svg'
 import React from 'react'
-
-export const Memorandum = () => {
+interface HeroProps { cityName: string;}
+export const Memorandum = ({ cityName }: HeroProps) => {
   return (
     <div className='Checklist flex w-80 m-auto mobile-flex-column-reverse' id='Memorandum'>
       
       <div className='flex-5'>
-      <p>Following are some checklist for Society Registration in India:</p>
+      <p>Following are some checklist for Society Registration in {cityName}:</p>
         <p><strong>1: </strong>The Memorandum of Association of the society along with Rules & Regulations of society must be signed by every establishing member, witness by Gazetted Officer, Notary Public, Chartered Accountant, Oath Commissioner, Advocate, Magistrate first-class or Chartered Accountant with their official stamping and complete address.</p>
         <p><strong>2: </strong>The memorandum must contain the name of the society, the object of the society. Also, it consists of details of members of the society registration along with their names, addresses, designations, and occupations. The following document has to be prepared, submitted and signed for the sake of registration</p>
         <p><strong>3: </strong>Requesting society registration by providing covering letter, signed by all establishing members.</p>

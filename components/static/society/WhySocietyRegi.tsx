@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import React, { useState } from 'react'
-import bft from "../../../assets/images/static/society-registration/why_to_go_for_society_registration.svg"
-export const WhySocietyRegi = () => {
+import Image from 'next/image';
+import bft from "../../../assets/images/static/society-registration/why_to_go_for_society_registration.svg";
+interface HeroProps { cityName: string;}
+export const WhySocietyRegi = ({ cityName }: HeroProps) => {
  
   return (
 
