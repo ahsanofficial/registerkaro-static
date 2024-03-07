@@ -1,12 +1,8 @@
-import React, { useState } from 'react'
+import Image from 'next/image';
+import { useState } from 'react';
 import Section_8_Incorporation_Certificate_Sample from '../../../assets/images/static/ngo/Section-8-Incorporation-Certificate-Sample.webp';
 import ngo_society_registration_certificate_sample from '../../../assets/images/static/ngo/ngo_society_registration_certificate_sample.webp';
 import ngo_trust_certificate_sample from '../../../assets/images/static/ngo/ngo_trust_certificate_sample.webp';
-import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-import Image from 'next/image';
 
 export const Process = () => {
     const [active, setActive] = useState('1')
@@ -57,56 +53,50 @@ export const Process = () => {
                             </a>
                         </ul>
                     </ul>
-                </div>
-          
-                <div className='DocumentButtonWise w-80 m-auto mt-4' >
-              {/* <p className='main-para'>NGO Registration [Sample]</p> */}
-                    <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
-                        <div className='flex-5'>
-                        <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
-                            <div className='d-flex justify-content-between align-items-center gap-2'>
-                            <Image src={one} alt="Section 8 Company" loading="lazy" width={30} height={30} /> <div className='pe-4'>Section 8 Company</div> 
-                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-                            </div>
+                </div>               
+           </div>
+           <div className='flex-5'>
+                <div className='DocumentButtonWise w-100 m-auto mt-4' >
+                    <div className="main flex justify-content-between align-center m-auto flex-column">
+                        <div className='d-flex justify-content-around w-100'>
+                        <button onClick={() => handleActive('1')} className={`flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
+                            <div className='p-1'>Section 8 Company</div> 
                         </button>
-                        <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
-                            <div className='d-flex justify-content-between align-items-center gap-2'>
-                            <Image src={two} alt="Trust certificate" loading="lazy" width={30} height={30} /> <div className='pe-4'>Trust  </div> 
-                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-                            </div>
+                        <button onClick={() => handleActive('2')} className={`flex px-5 ${active === '2' ? 'active-btn' : 'none-btn'} `}> 
+                           <div className='p-1'>Trust</div> 
                         </button>
-                        <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
-                            <div className='d-flex justify-content-between align-items-center gap-2'>
-                            <Image src={three} alt="Society certificate" loading="lazy" width={30} height={30} /> <div className='pe-4'>Society</div> 
-                            <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-                            </div>
+                        <button onClick={() => handleActive('3')} className={`flex px-5 ${active === '3' ? 'active-btn' : 'none-btn'} `}> 
+                            <div className='p-1'>Society</div> 
                         </button>
                         </div>
                         <div className='flex-5 text-justify fs-20'>
-                       
                         <div className={`${active === '1' ? 'active' : 'none'}`}>
-                            <div>
-                                <Image    alt="A certificate Section 8 Incorporation Certificate Sample" className="certificate h-100 w-80" loading="lazy" src={Section_8_Incorporation_Certificate_Sample}/>
+                        <p className="small-heading text-center w-100">Section 8 Company Certificate [Sample]</p>
+                            <div > 
+                                <Image    alt="A certificate Section 8 Incorporation Certificate Sample" className="certificate " loading="lazy" src={Section_8_Incorporation_Certificate_Sample}/>
                             </div>
                         </div>
                         <div className={`${active === '2' ? 'active' : 'none'}`}>
-                         
+                           <p className="small-heading text-center w-100"> Trust   Certificate  [Sample]</p>
                             <div >
-                                <Image alt="A certificate of ngo trust certificate sample" className="certificate h-100 w-80" loading="lazy" src={ngo_trust_certificate_sample}/>
+                                
+                                <Image alt="A certificate of ngo trust certificate sample" className="certificate " loading="lazy" src={ngo_trust_certificate_sample} />
                             </div>
                         </div>
                         <div className={`${active === '3' ? 'active' : 'none'}`}>
-                       
+                        <p className="small-heading text-center w-100"> Society License [Sample]</p>
                             <div>
-                                <Image alt="ngo society registration certificate sample" className="certificate h-100 w-80" loading="lazy" src={ngo_society_registration_certificate_sample}/>
+                                <Image alt="ngo society registration certificate sample" className="certificate " loading="lazy" src={ngo_society_registration_certificate_sample}/>
                             </div>
                         </div> 
                       
                         </div>
                     </div>
                  
-                 </div>
-           </div>
+                    </div>
+
+              
+               </div>
         </div>
     )
 }

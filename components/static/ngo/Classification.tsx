@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import documents from '../../../assets/images/static/ngo/classification_of_ngos_new.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Classification = () => {
@@ -27,7 +27,7 @@ export const Classification = () => {
         </ul>
     </div>
         <div className='flex-3'>
-        <Image alt="list of documents for private limited company registration in india that is passport size photos, aadhar and pan card, address proof, passport for NRIs applicant, bank statement" className="Classification-img w-100" loading="lazy" src={documents} height={430} />
+        <Image alt="Classification of NGOs in IndiaNGOs in India can be classified based on their orientation and level of operation:,By the Level of Orientation" className="Classification-img w-100" loading="lazy" src={documents} height={530} />
         </div>
     </div>
   )

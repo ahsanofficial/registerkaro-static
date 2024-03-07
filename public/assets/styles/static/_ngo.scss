@@ -1,6 +1,13 @@
 .ngo-reg {
+  .certificate{
+    height: 37rem;
+    width: 35rem;
+  }
   @media screen and (max-width: 990px) {
     .Benefits-img {
+
+    }
+    .Eligibility-img{
 
     }
     .certificate{
@@ -10,7 +17,7 @@
 
     }
     .Classification-img{
-
+      height: 600px;
     }
     .WhyNGO-img{
 
@@ -19,10 +26,10 @@
 
     }
     .HowToRegister-img{
-
+      height: 600px;
     }
-    .HowToRaise-img{
-
+    .WhyNGO-img{
+      height: 700px;
     }
   }
 }
