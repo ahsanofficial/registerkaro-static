@@ -3,8 +3,8 @@ import { useState } from 'react';
 import Section_8_Incorporation_Certificate_Sample from '../../../assets/images/static/ngo/Section-8-Incorporation-Certificate-Sample.webp';
 import ngo_society_registration_certificate_sample from '../../../assets/images/static/ngo/ngo_society_registration_certificate_sample.webp';
 import ngo_trust_certificate_sample from '../../../assets/images/static/ngo/ngo_trust_certificate_sample.webp';
-
-export const Process = () => {
+interface HeroProps {cityName: string;}
+export const Process = ({ cityName }: HeroProps)  => {
     const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -13,19 +13,19 @@ export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Non-Governmental Organizations (NGOs) play a pivotal role in addressing societal issues, driving positive change, and advocating for the underprivileged. The foundation of every impactful NGO lies in its legal establishment – a process known as NGO registration. This article serves as a comprehensive guide to navigating the intricacies of NGO registration in India, empowering aspiring changemakers to embark on their journey of social impact.</p>
-                <p className='text-justify'>NGO registration is a legal process that endows organizations with the official status required to carry out philanthropic activities. It serves as a gateway to credibility, transparency, and various benefits, including tax exemptions. In India, NGOs can be registered under different legal structures, such as Trusts, Societies, or Section 8 Companies.</p>
+                <p className='text-justify'>Non-Governmental Organizations (NGOs) play a pivotal role in addressing societal issues, driving positive change, and advocating for the underprivileged. The foundation of every impactful NGO lies in its legal establishment – a process known as NGO registration. This article serves as a comprehensive guide to navigating the intricacies of NGO registration in {cityName}, empowering aspiring changemakers to embark on their journey of social impact.</p>
+                <p className='text-justify'>NGO registration is a legal process that endows organizations with the official status required to carry out philanthropic activities. It serves as a gateway to credibility, transparency, and various benefits, including tax exemptions. In {cityName}, NGOs can be registered under different legal structures, such as Trusts, Societies, or Section 8 Companies.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
                             <a href="#TypeOfNgo" className="scrollTo">
-                                <li>Types of NGO Registration in India</li>
+                                <li>Types of NGO Registration in {cityName}</li>
                             </a>
                             <a href="#TableCom" className="scrollTo">
                                 <li>Difference Between Trust, Society, and Section 8 Company</li>
                             </a>
                             <a href="#Classification" className="scrollTo">
-                                <li>Classification of NGOs in India</li>
+                                <li>Classification of NGOs in {cityName}</li>
                             </a>
                             <a href="#WhyNGO" className="scrollTo">
                                 <li>Why Is NGO Registration Required?</li>

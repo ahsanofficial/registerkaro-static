@@ -1,12 +1,12 @@
 import Image from "next/image";
 import ngo_registration_process from "../../../assets/images/static/ngo/ngo_registration_process_new.svg";
-
-export const HowToRegister = () => {
+interface HeroProps {cityName: string;}
+export const HowToRegister = ({ cityName }: HeroProps)  => {
 
   return (
     <div className="Classification flex w-80 m-auto mobile-flex-column-reverse"id="HowToRegister" >
       <div className="flex-7">
-        <p>The following is the process for NGO Registration in India:</p>
+        <p>The following is the process for NGO Registration in {cityName}:</p>
         <p><strong>1: Type Determination:</strong> Choose the suitable NGO structure – Trust, Society, or Section 8 Company – based on your organization’s objectives.</p>
         <p><strong>2: Name Selection:</strong> Choose a unique name reflecting your mission.</p>
         <p><strong>3: Drafting MoA and AoA:</strong> Prepare the Memorandum and Articles of Association.</p>

@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import eligibility_criteria from '../../../assets/images/static/ngo/eligibility_criteria_for_the_registration.svg'
 
-
-export const Checklist = () => {
+interface HeroProps {cityName: string;}
+export const Checklist = ({ cityName }: HeroProps)  => {
   return (
     <div className="Classification flex w-80 m-auto mobile-flex-column" id="Checklist">
         <div className="flex-4">

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import raise_funds_for_ngo from '../../../assets/images/static/ngo/raise_funds_for_ngo.svg'
-
-export const HowToRaise = () => {
+interface HeroProps {cityName: string;}
+export const HowToRaise = ({ cityName }: HeroProps)  => {
   
   
   return (

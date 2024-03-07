@@ -2,13 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import documents from '../../../assets/images/static/ngo/classification_of_ngos_new.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const Classification = () => {
+interface HeroProps {cityName: string;}
+export const Classification = ({ cityName }: HeroProps)  => {
   return (
     <div className='Classification flex w-80 m-auto mobile-flex-column-reverse' id='Classification'>
       <div className='flex-7'>
        
-        <p>NGOs in India can be classified based on their orientation and level of operation:</p>
+        <p>NGOs in {cityName} can be classified based on their orientation and level of operation:</p>
       
         <h3>1. By the Level of Orientation:</h3>
         <ul className='tick list-unstyled'>
