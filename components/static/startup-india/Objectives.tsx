@@ -4,10 +4,9 @@ import objectives_of_startup_india_movement from '../../../assets/images/static/
 export const Objectives = () => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Objectives'>
-      <div className='flex-5'>
-        <div className='flex-3'>
+      <div className='flex-7 pt-5'>
         <p>Following are the objectives of Startup India Movement:</p>
-      </div>
+      
 
         <p><strong>1: </strong>Enhanced Infrastructure, including incubation centers;</p>
         <p><strong>2: </strong>IPR facilitation;</p>

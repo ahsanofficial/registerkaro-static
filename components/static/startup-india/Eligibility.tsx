@@ -2,9 +2,8 @@ import Image from 'next/image'
 import eligibility_criteria_for_the_registration from '../../../assets/images/static/startup_india_registration/eligibility_criteria_for_the_registration.svg'
 export const Eligibility = () => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='Eligibility'>
-      <div className='flex-3'>
-        <Image alt="Eligibility Criteria for the Registration,The Startup India Registration Certificate or DPIIT Certificate of Recognition ,To get the Registration Certificate, the firm should have an annual turnover of,The entity or company should be working towards improvement/development of a ,The entity or company should have a scalable business model with high potential,The period of Company’s operations or existence shouldn’t exceed 10 years from ,To get Startup India Registration Certificate or DPIIT Certificate of ,Applicants shouldn’t have defaulted with any financial institution in the past." className="Eligibility-img w-100" loading="lazy" height={450} src={eligibility_criteria_for_the_registration} /></div>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Eligibility'>
+     
       <div className='flex-5'>
         <div className='flex-3'>
         <p>Following is the eligibility criteria for Startup India Registration or DPIIT Certificate of Recognition:</p>
@@ -17,6 +16,8 @@ export const Eligibility = () => {
         <p><strong>6: </strong>To get Startup India Registration Certificate or DPIIT Certificate of Recognition, the company shouldn’t have been registered by splitting up/recreating an already existing entity.</p>
         <p><strong>7: </strong>Applicants shouldn’t have defaulted with any financial institution in the past.</p>
       </div>
+      <div className='flex-3'>
+        <Image alt="Eligibility Criteria for the Registration,The Startup India Registration Certificate or DPIIT Certificate of Recognition ,To get the Registration Certificate, the firm should have an annual turnover of,The entity or company should be working towards improvement/development of a ,The entity or company should have a scalable business model with high potential,The period of Company’s operations or existence shouldn’t exceed 10 years from ,To get Startup India Registration Certificate or DPIIT Certificate of ,Applicants shouldn’t have defaulted with any financial institution in the past." className="Eligibility-img w-100" loading="lazy" height={450} src={eligibility_criteria_for_the_registration} /></div>
     </div>
   )
 }

@@ -1,16 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Procedure = () => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Procedure'>
-      <div className='flex-5'>
-        <div className='flex-3'>
-        <Image alt="Procedure for Indian Subsidiary Registration, Step by step procedure for getting Startup India Registration Certificate" className="Procedure-img w-100" loading="lazy" src={dft} height={430} />
+    <div className='DocumentArrowWise w-80 m-auto' id='Procedure'>
+ 
         <p>Following is the step by step procedure for getting Startup India Registration Certificate:</p>
-      </div>
+
         <h3>Step 1: Incorporate Your Company:</h3>
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />First, you have to incorporate your Company in India into a Private Limited Company or Partnership or LLP. You just need to follow the normal procedure which involves filing a form-fitting to get the Registration.</li>
@@ -39,8 +36,6 @@ export const Procedure = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />For the registration of the application, you will get a Recognition Number. After the Authority goes through all your uploaded documents when you get the Certificate of Incorporation.</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Now enroll your Company into the Startup India Scheme & reap all the benefits which are provided by the Government of India.</li>
         </ul>
-       
-    </div>
     </div>
   )
 }
