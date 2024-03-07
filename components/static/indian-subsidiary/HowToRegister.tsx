@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import documents from '../../../assets/images/static/Indian_subsidiary_registration/help_register.svg'
-
-export const HowToRegister = () => {
+interface HeroProps {cityName: string;}
+export const HowToRegister = ({ cityName }: HeroProps) => {
   return (
     <div id="HowToRegister">
       <div className="DocumentArrowWise flex w-80 m-auto mobile-flex-column">
@@ -28,7 +28,7 @@ export const HowToRegister = () => {
           Our proficient team is dedicated to ensuring strict adherence to
           regulatory standards, encompassing compliance with the Foreign
           Exchange Management Act (FEMA), Companies Act, 2013, Reserve Bank of
-          India (RBI) regulations, and the Income Tax Act, 1961. With
+          {cityName} (RBI) regulations, and the Income Tax Act, 1961. With
           Registerkaro as your partner, you can initiate and grow your Indian
           subsidiary business confidently and efficiently.
         </p>

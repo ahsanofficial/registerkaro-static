@@ -1,7 +1,7 @@
 import Image from "next/image";
 import taxation_of_indian_subsidiary_companies from "../../../assets/images/static/Indian_subsidiary_registration/taxation_of_indian_new.svg";
-
-export const Taxation = () => {
+interface HeroProps {cityName: string;}
+export const Taxation = ({ cityName }: HeroProps)=> {
 
   return (
     <div id="Taxation">
@@ -9,8 +9,8 @@ export const Taxation = () => {
      
       <div className="flex-7">
         <p>Indian subsidiary companies are governed by distinct taxation policies, characterized by the following key features:</p>
-        <p><strong>1: Income Tax Applicability:</strong> Taxes are imposed on all income generated within or outside India, encompassing dividends received from foreign subsidiaries.</p>
-        <p><strong>2: Tax Rates for Foreign Subsidiaries:</strong> Tax rates for foreign subsidiaries in India vary, with a rate of 50% for royalties received for technical services from the government or any Indian entity, and a rate of 40% for other forms of income.</p>
+        <p><strong>1: Income Tax Applicability:</strong> Taxes are imposed on all income generated within or outside {cityName}, encompassing dividends received from foreign subsidiaries.</p>
+        <p><strong>2: Tax Rates for Foreign Subsidiaries:</strong> Tax rates for foreign subsidiaries in {cityName} vary, with a rate of 50% for royalties received for technical services from the government or any Indian entity, and a rate of 40% for other forms of income.</p>
         <p><strong>3: Surcharge Rates:</strong> Surcharge rates are applied based on the company’s income:</p>
         <p><li>A 2% surcharge is levied if the income falls between Rs. 1 Crore and Rs. 10 Crores.</li></p>
         <p><li>For incomes exceeding Rs. 10 Crores, a higher surcharge of 5% is imposed.</li></p>

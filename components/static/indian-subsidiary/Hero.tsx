@@ -15,8 +15,9 @@ let hero = {
         "ZohoBooks subscription"
     ]
 }
+interface HeroProps {cityName: string;}
 
-export const Hero = () => {
+export const Hero = ({ cityName }: HeroProps)=> {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +31,7 @@ export const Hero = () => {
             />
             <div className="header-content">
                 <h4 className='mb-4'>Indian Subsidiary Registration</h4>
-                <p>RegisterKaro specially curated Indian Subsidiary Registration service to foreigners looking to start their business by investing their money in India.</p>
+                <p>RegisterKaro specially curated Indian Subsidiary Registration service to foreigners looking to start their business by investing their money in {cityName}.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import procedure_for_indian_subsidiary_registration from '../../../assets/images/static/Indian_subsidiary_registration/procedure_for_indian_subsidiary_registration_new.svg'
-
-export const Procedure = () => {
+interface HeroProps {cityName: string;}
+export const Procedure = ({ cityName }: HeroProps) => {
 
 
   return (
     <div  id='Procedure'>
-        <p className='main-para'>Establishing an Indian subsidiary company involves a comprehensive series of steps and compliance measures. Below is a detailed guide outlining the step-by-step process for Indian Subsidiary Registration in India:</p>
+        <p className='main-para'>Establishing an Indian subsidiary company involves a comprehensive series of steps and compliance measures. Below is a detailed guide outlining the step-by-step process for Indian Subsidiary Registration in {cityName}:</p>
     <div  className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Procedure'>
       
       <div className='flex-7'>
@@ -19,7 +19,7 @@ export const Procedure = () => {
         <p><strong>Payment of Registration Fees: </strong>Pay the applicable registration fees to the ROC based on the authorized capital of the subsidiary company.</p>
         <p><strong>Obtain a Certificate of Incorporation (COI):</strong> If all submitted documents and information are in order, the ROC will issue a Certificate of Incorporation, officially confirming the registration of the subsidiary company.</p>
         <p><strong>Apply for Permanent Account Number (PAN) and Tax Registration:</strong> After obtaining the COI, apply for a Permanent Account Number and a Tax Deduction and Collection Account Number from the Income Tax Department for the subsidiary company.</p>
-        <p><strong>Open Bank Account:</strong> Conclude the process by opening a bank account in the name of the subsidiary company in India.</p>
+        <p><strong>Open Bank Account:</strong> Conclude the process by opening a bank account in the name of the subsidiary company in {cityName}.</p>
         <p><strong>Compliance with Other Regulations:</strong> Apart from the company registration process, ensure compliance with other relevant regulations.</p>
         <p><strong>Obtain a GST Number:</strong> Goods and Services Tax (GST) registration is required after completing the aforementioned steps, particularly if the company engages in various business activities. Every Indian company must apply for a GST number for taxation purposes.</p>
         <p><strong>Initiating Business Operations:</strong> Once all the preceding steps are completed, the subsidiary company can commence its business operations. This marks the culmination of the comprehensive process of registering and initiating operations for an Indian subsidiary company.</p>
