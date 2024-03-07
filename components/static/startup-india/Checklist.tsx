@@ -3,8 +3,8 @@ import sole_propretoship from "../../../assets/images/static/startup_india_regis
 import partnership_deed from "../../../assets/images/static/startup_india_registration/partnership_deed.svg"
 import older_than_ten_years from "../../../assets/images/static/startup_india_registration/older_than_ten_years.svg"
 import annual_turnover_rupees from "../../../assets/images/static/startup_india_registration/annual_turnover_rupees.svg"
-
-export const Checklist = () => {
+interface HeroProps {cityName: string;}
+export const Checklist = ({ cityName }: HeroProps) => {
   return (
     <div className='checklist' id='Checklist'>
       <div className="checklist flex w-80 m-auto mobile-flex-column">

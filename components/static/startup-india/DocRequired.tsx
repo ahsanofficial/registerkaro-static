@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import documents_required_for_startup_india_company_registration from '../../../assets/images/static/startup_india_registration/documents_required_for_startup_india_company_registration.svg'
-
-export const DocRequired = () => {
+interface HeroProps {cityName: string;}
+export const DocRequired = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' id='DocRequired'>
         <div className='flex-3'>
@@ -10,7 +10,7 @@ export const DocRequired = () => {
         </div>
       <div className='flex-5'>
        
-        <p>Following is the documents required for Startup India Company Registration:</p>
+        <p>Following is the documents required for Startup {cityName} Company Registration:</p>
 
         <p><strong>1: </strong>CoI or Certificate of Incorporation;</p>
         <p><strong>2: </strong>MoA (Memorandum of Association) & AoA (Articles of Association);</p>

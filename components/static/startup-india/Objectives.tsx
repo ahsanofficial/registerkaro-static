@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import objectives_of_startup_india_movement from '../../../assets/images/static/startup_india_registration/objectives_of_startup_india_movement.svg'
-
-export const Objectives = () => {
+interface HeroProps {cityName: string;}
+export const Objectives = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Objectives'>
       <div className='flex-7 pt-5'>
-        <p>Following are the objectives of Startup India Movement:</p>
+        <p>Following are the objectives of Startup {cityName} Movement:</p>
       
 
         <p><strong>1: </strong>Enhanced Infrastructure, including incubation centers;</p>
