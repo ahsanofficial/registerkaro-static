@@ -5,12 +5,15 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const Requirement = () => {
   return (
-    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='Requirement'>
-      <div className='flex-5'>
-        <div className='flex-3'>
-          <Image alt="Requirements and Key Facts about Company Registration in India,The registration process for a company in India is intricately governed by the Companies Act of 2013 " className="Requirement-img w-100" loading="lazy" src={requirements_and_key_facts_about_company_regi_in_india} height={530} />
-          <p>The registration process for a company in India is intricately governed by the Companies Act of 2013, a comprehensive legal framework that delineates pre-incorporation and post-incorporation requisites. When embarking on the journey of registering a company in India, it is imperative to consider the following key elements:</p>
-        </div>
+    <div id='Requirement'>
+       <p className='main-para'>The registration process for a company in India is intricately governed by the Companies Act of 2013, a comprehensive legal framework that delineates pre-incorporation and post-incorporation requisites. When embarking on the journey of registering a company in India, it is imperative to consider the following key elements:</p>
+    <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column' >
+            <div className='flex-4 pt-5'>
+                <Image alt="Requirements and Key Facts about Company Registration in India,The registration process for a company in India is intricately governed by the Companies Act of 2013 " className="Requirement-img w-100" loading="lazy" src={requirements_and_key_facts_about_company_regi_in_india} height={830} />
+            </div>
+        <div className='flex-7'>
+        
+         
         <h3>Company Name: </h3>
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Selecting a unique and distinct name for your business is paramount. The chosen name must stand apart from existing businesses’ names or trademarks.</li>
@@ -59,8 +62,9 @@ export const Requirement = () => {
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Mandatory statutory audits, even for smaller companies, necessitate the appointment of a statutory auditor and the submission of annual filings.</li>
         </ul>
-      <p className='main-para'>Navigating these multifaceted requirements is indispensable for the successful establishment and operation of a company in India, aligning with the stipulations of the Companies Act of 2013.</p>
       </div>
+    </div>
+         <p className='main-para'>Navigating these multifaceted requirements is indispensable for the successful establishment and operation of a company in India, aligning with the stipulations of the Companies Act of 2013.</p>
     </div>
   )
 }

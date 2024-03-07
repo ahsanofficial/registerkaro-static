@@ -65,7 +65,7 @@ const Home = () => {
         <div className='services-pages indian-subsidiary-reg'>
             <Head>
                 {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
+                <meta name="description" content="The Official RegisterKaro" />
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
                 <meta name="robots" content="all" />

@@ -320,11 +320,10 @@
   @media (max-width: 700px) {
     table {
       width: 100%;
-      display: flex;
-      flex-wrap: wrap;
+      display: block;
       overflow-x: auto;
     }
-  }
+  } 
   @media screen and (max-width: 600px) {
     .hero {
       padding: 40px 10px;

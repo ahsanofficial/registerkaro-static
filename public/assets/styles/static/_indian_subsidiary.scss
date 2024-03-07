@@ -1,5 +1,8 @@
 .indian-subsidiary-reg {
     @media screen and (max-width: 990px) {
+      .Regularity-img {
+        height: 430px;
+      }
       .Advantages-img{
         height: 620px;
       }
@@ -16,30 +19,17 @@
 
       }
       .Requirement-img{
-
+        height: 600px;
       }
       .Taxation-img{
         
       }
+      .HowToRegister-img{
+
+      }
     }
 
 
-    @media screen and (max-width: 600px) {
-      .Advantages-img{
-        height: 100%;
-      }
-      .TypeOfSubs-img{
-        height: 100%;          
-      }
-      .Procedure-img{
-        height: 100%;        
-      }
-      .Compilance-img{
-        height: 100%;
-      }
-      .Requirement-img{
-        height: 100%;
-      }
-    }
+   
   }
   
