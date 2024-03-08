@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/bis-fmcs-certification/bis-fmcs-certification.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -46,7 +46,8 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">BIS FMCS Certificate [Sample]</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="An Overview of BIS FMCS Certification
+                    The Foreign Manufacturers Certification Scheme (FMCS) is overseen by the Bureau of Indian Standards (BIS) as part of Scheme-I within Schedule-II of the Conformity (Assessme" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

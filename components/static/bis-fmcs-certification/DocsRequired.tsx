@@ -5,7 +5,7 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocsREquired = () => {
   return (
-    <div >
+    <div id='DocsREquired'>
         
      
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/bis-fmcs-certification/key_guidlines.svg";
 
 export const AdvantagesBIS = () => {
   return (
@@ -56,10 +56,10 @@ export const AdvantagesBIS = () => {
             foreign manufacturers concurrently.
           </p>
         </div>
-        <div className="flex-4 mt-5">
+        <div className="flex-4 ">
           <Image
-            alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP"
-            className="benefits-img w-100"
+            alt="Key Guidelines for Nomination of AIR (Authorized Indian Representative) for Foreign Manufacturers"
+            className="KeyGuidelines-img w-100"
             height={550}
             loading="lazy"
             src={bft}

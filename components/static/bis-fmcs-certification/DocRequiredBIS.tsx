@@ -1,15 +1,28 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import bft from "../../../assets/images/static/bis-fmcs-certification/required_docuement_for_is_fmcs.svg";
+
 
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocRequiredBIS = () => {
   return (
-    <div >
-        
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse' id='DocRequiredBIS'>
-      <div className='flex-7'>
-        <p>The following essential documents are imperative for BIS FMCS Certification  and should be available with the applicant before initiating the project:</p>
+    <div id='DocRequiredBIS'>
+     <p className='main-para'>The following essential documents are imperative for BIS FMCS Certification  and should be available with the applicant before initiating the project:</p>
+        <div className='benefits flex w-80 m-auto mobile-flex-column' >
+            <div className='flex-3'> 
+            <Image
+              alt="Required Documents for BIS FMCS Certification
+              The following essential documents are imperative for BIS FMCS Certification and should be available with the applicant before initiating the project:
+              
+              Key Guidelines for Nomination of AIR (Authorized Indian Representative) for Foreign Manufacturers
+              Factory or Company Registration Documents"
+              className="DocRequiredBIS-img w-100"
+              height={1050}
+              loading="lazy"
+              src={bft}
+            />
+          </div>
+          <div className='flex-7'>
            <h3>Factory or Company Registration Documents:</h3>
            <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Documentation validating the registration of the factory or company.</li>
@@ -56,6 +69,7 @@ export const DocRequiredBIS = () => {
           </ul>
           <p>Ensuring the availability and accuracy of these documents is crucial for a seamless initiation of the BIS FMCS Certification process.</p>
       </div>
+      
       </div>
     </div>
   )
