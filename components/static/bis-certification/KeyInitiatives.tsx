@@ -9,7 +9,10 @@ interface HeroProps {
 export const KeyInitiatives = ({ cityName }: HeroProps) => {
   return (
     <div >
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
+     <div className='flex mt-3' id='KeyInitiatives'>
+        <Image alt="Key Initiatives by BIS,Information Services,Promotional Activities" className="KeyInitiatives-img w-100" height={1082} loading="lazy" src={dft} />
+      </div>
       <div className='flex-7'>
         <h3>Compulsory Registration Scheme (CRS):</h3>
         <ul className='tick list-unstyled'>
@@ -60,9 +63,7 @@ export const KeyInitiatives = ({ cityName }: HeroProps) => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Conducting training programs to build awareness and expertise in standards compliance, both nationally and internationally.</li>
           </ul>
       </div>
-      <div className='flex mt-3' id='KeyInitiatives'>
-        <Image alt="Key Initiatives by BIS,Information Services,Promotional Activities" className="KeyInitiatives-img w-100" height={1082} loading="lazy" src={dft} />
-      </div>
+      
       </div>
     </div>
   )
