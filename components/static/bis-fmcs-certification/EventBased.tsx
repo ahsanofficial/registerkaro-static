@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/fssai/benefits.svg'
+import bft from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const EventBased = () => {
   return (

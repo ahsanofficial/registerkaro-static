@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/fssai/DocsRequire.svg'
+
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocRequiredBIS = () => {
@@ -55,9 +55,6 @@ export const DocRequiredBIS = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />A comprehensive list containing information on test equipment along with calibration certificates.</li>
           </ul>
           <p>Ensuring the availability and accuracy of these documents is crucial for a seamless initiation of the BIS FMCS Certification process.</p>
-      </div>
-      <div className='flex justify-content-center' id='DocsREquired'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={682} loading="lazy" src={dft} />
       </div>
       </div>
     </div>
