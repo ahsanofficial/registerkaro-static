@@ -41,7 +41,6 @@ export const Process = () => {
                             <a href="#Faq" className="scrollTo">
                                 <li>Frequently Asked Questions</li>
                             </a>
-                           
                         </ul>
                     </ul>
                 </div>
