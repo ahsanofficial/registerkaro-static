@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/bis-crs-certifiaction/BIS_CRS_Certification_Process-Step_Guide.svg'
 
 export const EventBased = () => {
   return (
     <div id='EventBased'>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-4 mt-2'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={450} loading="lazy" src={bft} />
+          <Image alt="BIS CRS Certification Process: A Step-by-Step Guide" className="Process-img w-100" height={450} loading="lazy" src={bft} />
       </div>
       <div className='flex-7 pt-5'>
       <p><strong>1: Product Identification (Step 1): </strong>To initiate the BIS CRS Certification, begin by identifying your product and obtaining its ISI number, as detailed in the provided table.</p>

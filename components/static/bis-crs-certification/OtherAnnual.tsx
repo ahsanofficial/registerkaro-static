@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/bis-crs-certifiaction/implementation.svg'
 
 export const OtherAnnual = () => {
   return (
     <div id='OtherAnnual'>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-4 mt-2'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
+          <Image alt="Implementation Steps for Surveillance Process" className="Implementation-img w-100" height={700} loading="lazy" src={bft} />
       </div>
       <div className='flex-7 pt-5'>
       <p><strong>1: Surveillance Cost Collection:</strong>The initial step involves the collection of the surveillance cost, a crucial element to support the surveillance activities.</p>

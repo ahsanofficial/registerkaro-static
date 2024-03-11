@@ -62,7 +62,7 @@ const faq = [
 
 const Home = () => {
     return (
-        <div className='services-pages bis-certification-reg'>
+        <div className='services-pages bis-crs-certification-reg'>
             <Head>
                 {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
                 {/* <meta name="description" content="The Official RegisterKaro" /> */}

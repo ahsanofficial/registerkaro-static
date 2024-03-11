@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/bis-crs-certifiaction/Get_BIS_CRS_Certification_India.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -50,7 +50,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">BIS CRS Certification [Sample]</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-50 w-70" loading="lazy" src={certificate} />
+                    <Image alt="The BIS CRS Certification, falling under Scheme – II of BIS (Conformity Assessment) Regulations, 2018, is a pivotal regulatory framework established by the Ministry of Electronics & Information Technology. Instituted in 2012, this scheme mandates manufacturers to secure a BIS CRS Certification Certificate" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
