@@ -5,7 +5,10 @@ import bft from '../../../assets/images/static/bis-crs-certifiaction/Guidelines_
 export const DocsREquired = () => {
   return (
   <div id='DocsREquired'>
-    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
+    <div className='benefits flex w-80 m-auto mobile-flex-column' >
+       <div className='flex-3'>
+            <Image alt="Guidelines for Electronic Labeling within the BIS CRS Certification Scheme" className="GuidelinesElectronic-img w-100" height={1000} loading="lazy" src={bft} />
+        </div>
         <div className='flex-7'>
       
           <h3>Physical Labeling Requirement:</h3>
@@ -45,9 +48,7 @@ export const DocsREquired = () => {
             <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />The electronic display of the Standard Mark must meet all the stipulated requirements issued by BIS, ensuring conformity and adherence to the established standards.</li>
           </ul>
         </div>
-        <div className='flex-3'>
-            <Image alt="Guidelines for Electronic Labeling within the BIS CRS Certification Scheme" className="GuidelinesElectronic-img w-100" height={1000} loading="lazy" src={bft} />
-        </div>
+       
         </div>
   </div>
     
