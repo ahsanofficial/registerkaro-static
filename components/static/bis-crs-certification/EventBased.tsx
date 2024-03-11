@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/bis-crs-certifiaction/BIS_CRS_Certification_Process-Step_Guide.svg'
-
-export const EventBased = () => {
+interface HeroProps {  cityName: string;}
+export const EventBased = ({ cityName }: HeroProps)  => {
   return (
     <div id='EventBased'>
     <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >

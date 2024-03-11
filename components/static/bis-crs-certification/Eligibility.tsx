@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/bis-crs-certifiaction/eligibility_criteria_for_the_registration.svg'
 
-// interface HeroProps { cityName: string; }
-export const Eligibility = ()  => {
+interface HeroProps {  cityName: string;}
+export const Eligibility = ({ cityName }: HeroProps)   => {
   return (
     <div id='Eligibility'>
       <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >

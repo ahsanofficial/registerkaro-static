@@ -1,8 +1,8 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/bis-crs-certifiaction/Get_BIS_CRS_Certification_India.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {  cityName: string;}
+export const Process = ({ cityName }: HeroProps)  => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>

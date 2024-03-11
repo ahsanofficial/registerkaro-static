@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/bis-crs-certifiaction/implementation.svg'
 
-export const OtherAnnual = () => {
+interface HeroProps {  cityName: string;}
+export const OtherAnnual = ({ cityName }: HeroProps)  => {
   return (
     <div id='OtherAnnual'>
     <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >

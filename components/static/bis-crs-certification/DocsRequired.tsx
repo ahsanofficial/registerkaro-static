@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 import bft from '../../../assets/images/static/bis-crs-certifiaction/Guidelines_for_Electronic_Labeling.svg'
-
-export const DocsREquired = () => {
+interface HeroProps {  cityName: string;}
+export const DocsREquired = ({ cityName }: HeroProps)  => {
   return (
   <div id='DocsREquired'>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
