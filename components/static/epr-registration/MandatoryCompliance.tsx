@@ -6,10 +6,6 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 export const MandatoryCompliance  = () => {
   return (
     <div >
-        
-      <div className='flex justify-content-center' id='MandatoryCompliance'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={482} loading="lazy" src={dft} />
-      </div>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p>The applicant is required to comply with the following mandatory requirements attached with the service of obtaining EPR registration:</p>

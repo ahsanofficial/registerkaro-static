@@ -18,9 +18,7 @@ export const Eligibility = () => {
       <p><strong>7: </strong>The applicant should have a valid agreement or MoU with the authorized testing laboratories for the testing of e-waste or plastic waste for RoHS parameters or plastic identification code or any other parameter as specified by the CPCB or the SPCBs.</p>
       <p><strong>8: </strong>The applicant should have a valid agreement or MoU with the State Pollution Control Boards or the Pollution Control Committees or the Union Territory Administration for the coordination and cooperation in the implementation of the E-Waste (Management) Rules, 2016 or the Plastic Waste Management Rules, 2016.</p>
       </div>
-      <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
-      </div>
+     
      </div>
       </div>
   )
