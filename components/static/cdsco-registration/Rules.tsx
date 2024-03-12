@@ -1,11 +1,33 @@
-
-import React from 'react'
-
+import Image from "next/image";
+import React from "react";
+import bft from "../../../assets/images/static/cdsco-registration/rules.svg";
 
 export const Rules = () => {
   return (
-    <div >
-        <p className='main-para my-2'id='Rules'>CDSCO operates under the Drugs and Cosmetics Act, of 1940, and the Medical Device Rules, of 2017, governing the registration and supervision of pharmaceuticals, medical devices, cosmetics, and diagnostics</p>        
+    <div id="Rules">
+      <p className="main-para">
+        Following are the applicants who can apply for online CDSCO Registration
+        in India:
+      </p>
+      <div className="checklist flex w-80 m-auto mobile-flex-column">
+      <div className="flex-3">
+          <Image
+            alt="Applicable Rules/Acts/ Regulations"
+            className="Applicable-img w-100"
+            height={350}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
+        <div className="flex-5 mt-5">
+          <p>
+            CDSCO operates under the Drugs and Cosmetics Act, of 1940, and the
+            Medical Device Rules, of 2017, governing the registration and
+            supervision of pharmaceuticals, medical devices, cosmetics, and
+            diagnostics
+          </p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};

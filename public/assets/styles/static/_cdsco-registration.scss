@@ -1,13 +1,40 @@
 .cdsco-registration-reg {
   @media screen and (max-width: 990px) {
-    .DifferentTypes-img {
-      height: 280px;
-    }
-    .benefits-img {
-      height: 320px;
-    }
-    .DocumentArrowWise-img {
-      height: 320px;
-    }
+   .Types-img{
+    height:600px;
+   }
+   .Applicable-img{
+    height:300px;
+   }
+   .Eligibility-img{
+    height:800px;
+   }
+   .description-img{
+    height:800px;
+   }
+   .Distinctions{
+    height:600px;
+   }
+   .Whocanapply-img{
+    height:300px;
+   }
+   .DocumentsReq-img{
+    height:300px;
+   }
+   .Registration-img{
+    height:400px;
+   }
+   .procedural-img{
+    height:400px;
+   }
+   .Validity-img{
+  height:400px;    
+   }
+   .Suspension-img{
+  height:400px;    
+   }
+   .Mandatory-img{
+  height:400px;    
+   }
   }
 }

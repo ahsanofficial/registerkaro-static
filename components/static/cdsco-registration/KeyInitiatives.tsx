@@ -1,15 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/cdsco-registration/Types_of_CDSCO_Registration.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const KeyInitiatives = () => {
   return (
-    <div >
-        
-      <div className='flex justify-content-center' id='KeyInitiatives'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
+    <div   id='KeyInitiatives'>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p>The Central Drugs Standard Control Organization (CDSCO) in India manages several types of registrations about pharmaceuticals, medical devices, cosmetics, and diagnostics. The primary types of CDSCO registrations are:</p>
@@ -46,6 +42,9 @@ export const KeyInitiatives = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Essential for exporters of pharmaceuticals, medical devices, cosmetics, or diagnostics to comply with international standards and regulations for export purposes.</li>
           </ul>
       </div>
+        <div className='flex-3'>
+          <Image alt="Types of CDSCO Registration" className="Types-img w-100" height={882} loading="lazy" src={dft} />
+        </div>
       </div>
       <p className='main-para'>These registrations and licenses are fundamental for ensuring adherence to established standards, safety, efficacy, and quality control measures before products enter the Indian market, are manufactured, imported, or exported within the country.</p>
     </div>
