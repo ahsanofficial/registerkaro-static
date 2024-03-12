@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-office/Key_Features_of_Virtual_Office.svg";
-
-const Features = () => {
+interface HeroProps { cityName: string;}
+const Features = ({ cityName }: HeroProps) => {
   return (
     <div id="Features">
         <p className="main-para">The following are the key features of Virtual Offices:</p>

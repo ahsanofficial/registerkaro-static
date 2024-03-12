@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-office/technology_and_tools.svg";
-
-const Technology = () => {
+interface HeroProps { cityName: string;}
+const Technology = ({ cityName }: HeroProps) => {
   return (
     <div id="Technology">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

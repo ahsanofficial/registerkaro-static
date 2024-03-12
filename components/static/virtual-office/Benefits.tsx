@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-office/Benefits_of_Virtual_Office.svg";
-
-const Benefits = () => {
+interface HeroProps { cityName: string;}
+const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">The following are the benefits of Virtual Office:</p>

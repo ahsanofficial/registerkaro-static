@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-office/Drawbacks_of_Virtual_Office.svg";
-
-const Drawbacks = () => {
+interface HeroProps { cityName: string;}
+const Drawbacks = ({ cityName }: HeroProps) => {
   return (
     <div id="Drawbacks">
       <p className="main-para">The following are the drawbacks of Virtual Offices:</p>

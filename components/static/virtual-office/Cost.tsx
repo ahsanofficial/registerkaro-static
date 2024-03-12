@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-office/Costs_of_Virtual_Offices.svg";
-
-const Cost = () => {
+interface HeroProps { cityName: string;}
+const Cost = ({ cityName }: HeroProps) => {
   return (
     <div id="Cost">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
