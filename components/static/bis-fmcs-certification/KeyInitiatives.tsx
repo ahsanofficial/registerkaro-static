@@ -1,9 +1,9 @@
 import Image from "next/image";
 import bft from "../../../assets/images/static/bis-fmcs-certification/statndard_mark.svg";
 
+interface HeroProps { cityName: string;}
 
-
-export const KeyInitiatives = () => {
+export const KeyInitiatives = ({ cityName }: HeroProps)  => {
   return (
     <div id="KeyInitiatives">
     <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

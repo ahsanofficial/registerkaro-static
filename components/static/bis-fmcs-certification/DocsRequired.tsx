@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const DocsREquired = () => {
+interface HeroProps { cityName: string;}
+export const DocsREquired = ({ cityName }: HeroProps)  => {
   return (
     <div id='DocsREquired'>
         
@@ -51,7 +51,7 @@ export const DocsREquired = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Sewing Machine</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Water Treatment System</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Jute Bag</li>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Cement (any variety of cement manufactured or sold in India)</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Cement (any variety of cement manufactured or sold in {cityName})</li>
           </ul>
       </div>
       </div>

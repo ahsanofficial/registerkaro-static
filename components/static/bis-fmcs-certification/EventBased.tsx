@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/bis-fmcs-certification/requiremetns_for_bis_fmcs_certifiaction.svg'
-
-export const EventBased = () => {
+interface HeroProps { cityName: string;}
+export const EventBased = ({ cityName }: HeroProps)  => {
   return (
     <div id='EventBased'>
-     <p className='main-para mb-2'>Foreign manufacturers intending to export their products to India must adhere to the following prerequisites</p>
+     <p className='main-para mb-2'>Foreign manufacturers intending to export their products to {cityName} must adhere to the following prerequisites</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
       
       <div className='flex-7 pt-5'>
-      <p><strong>1: Geographical Location: </strong>The manufacturing units should be situated outside of India.</p>
+      <p><strong>1: Geographical Location: </strong>The manufacturing units should be situated outside of {cityName}.</p>
       <p><strong>2: Acceptance of License Terms & Conditions: </strong>The foreign manufacturer or company must acknowledge and comply with the terms and conditions outlined in the license.</p>
       <p><strong>3: In-House Testing Facilities: </strong>The presence of in-house labs equipped with product testing and quality control personnel is imperative to conduct tests in accordance with Indian Standards Specifications (ISS).</p>
       <p><strong>4: Conformance to Indian Standards: </strong>Ensure that the products align with the relevant Indian Standards Specifications, demonstrating conformity to the stipulated norms.</p>

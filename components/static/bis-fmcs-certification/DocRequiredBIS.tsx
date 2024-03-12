@@ -1,10 +1,10 @@
 import Image from "next/image";
 import bft from "../../../assets/images/static/bis-fmcs-certification/required_docuement_for_is_fmcs.svg";
-
-
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const DocRequiredBIS = () => {
+
+interface HeroProps { cityName: string;}
+export const DocRequiredBIS = ({ cityName }: HeroProps)  => {
   return (
     <div id='DocRequiredBIS'>
      <p className='main-para'>The following essential documents are imperative for BIS FMCS Certification  and should be available with the applicant before initiating the project:</p>

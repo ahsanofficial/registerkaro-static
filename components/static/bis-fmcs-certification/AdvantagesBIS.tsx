@@ -1,12 +1,13 @@
 import Image from "next/image";
 import bft from "../../../assets/images/static/bis-fmcs-certification/key_guidlines.svg";
 
-export const AdvantagesBIS = () => {
+interface HeroProps { cityName: string;}
+export const AdvantagesBIS = ({ cityName }: HeroProps)  => {
   return (
     <div id="AdvantagesBIS">
       <p className="main-para mb-5">
         It is mandatory for Foreign Manufacturers to nominate an AIR or
-        Authorized Indian Representative in India to obtain a License. The
+        Authorized Indian Representative in {cityName} to obtain a License. The
         Authorized Indian Representative serves as the local representative
         responsible for managing and submitting the Certification application,
         as well as addressing any inquiries. Before nominating the AIR, the
