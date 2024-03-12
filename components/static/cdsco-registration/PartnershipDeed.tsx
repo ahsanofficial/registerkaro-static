@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/cdsco-registration/procedure.svg"
 
-
-export const PartnershipDeed = () => {
+interface HeroProps {cityName: string;}
+export const PartnershipDeed = ({ cityName }: HeroProps) => {
   return (
     <div id="PartnershipDeed">
     <div className="checklist flex w-80 m-auto mobile-flex-column-reverse">

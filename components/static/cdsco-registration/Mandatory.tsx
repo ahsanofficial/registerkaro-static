@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/cdsco-registration/mandatory.svg";
-
-export const Mandatory = () => {
+interface HeroProps {cityName: string;}
+export const Mandatory = ({ cityName }: HeroProps) => {
   return (
     <div id="Revocation">
       <div className="checklist flex w-80 m-auto mobile-flex-column">

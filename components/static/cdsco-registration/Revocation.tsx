@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/cdsco-registration/cancellation.svg"
+import bft from '../../../assets/images/static/private-reg/pvt-reg.svg'
 
-
-export const Revocation = () => {
+interface HeroProps {cityName: string;}
+export const Revocation = ({ cityName }: HeroProps) => {
   return (
     <div id="Revocation">
     <div className="checklist flex w-80 m-auto mobile-flex-column-reverse">

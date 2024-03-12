@@ -1,12 +1,12 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/cdsco-registration/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {cityName: string;}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>The Central Drugs Standard Control Organization (CDSCO) in India oversees the regulation and registration of pharmaceuticals, medical devices, cosmetics, and diagnostics under the Drugs and Cosmetics Act, of 1940. The CDSCO laid down the standards for Drugs, control over the imported Drugs’ quality, coordination of the activities of SDCO (State Drug Control Organisation) and facilitating expert advice with an outlook of the regularity in the enforcement of the Drugs & Cosmetics Act. Any organisation that manufacturers or imports or exports drugs & cosmetics conducts Research & Development activities regarding drugs, imports drugs for the purpose of examining conducts BA (Bioavailability) & BE (Bioequivalence) studies in drugs for export purposes need to obtain CDSCO Registration through its online registration portal.</p>
+                <p className='text-justify'>The Central Drugs Standard Control Organization (CDSCO) in {cityName} oversees the regulation and registration of pharmaceuticals, medical devices, cosmetics, and diagnostics under the Drugs and Cosmetics Act, of 1940. The CDSCO laid down the standards for Drugs, control over the imported Drugs’ quality, coordination of the activities of SDCO (State Drug Control Organisation) and facilitating expert advice with an outlook of the regularity in the enforcement of the Drugs & Cosmetics Act. Any organisation that manufacturers or imports or exports drugs & cosmetics conducts Research & Development activities regarding drugs, imports drugs for the purpose of examining conducts BA (Bioavailability) & BE (Bioequivalence) studies in drugs for export purposes need to obtain CDSCO Registration through its online registration portal.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
@@ -26,7 +26,7 @@ export const Process = () => {
                                 <li>Types and Distinctions of Licenses/Services Involved</li>
                             </a>
                             <a href="#ObjectivesChecklist" className="scrollTo">
-                                <li>Who can apply for CDSCO Registration in India?</li>
+                                <li>Who can apply for CDSCO Registration in {cityName}?</li>
                             </a>
                             <a href="#Paperwork" className="scrollTo">
                                 <li>Documents Required/Paperwork from the Client for CDSCO Registration</li>

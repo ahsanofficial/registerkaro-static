@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/cdsco-registration/service.svg";
-
-export const Services = () => {
+interface HeroProps {cityName: string;}
+export const Services = ({ cityName }: HeroProps) => {
   return (
     <div id="Services">
       <div className="checklist flex w-80 m-auto mobile-flex-column-reverse">

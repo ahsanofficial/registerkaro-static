@@ -1,14 +1,14 @@
 import Image from "next/image";
 import dft from "../../../assets/images/static/cdsco-registration/What_Eligibility.svg";
-
-export const AdvantagesBIS = () => {
+interface HeroProps {cityName: string;}
+export const AdvantagesBIS = ({ cityName }: HeroProps) => {
 
 
   return (
     <div id="AdvantagesBIS">
       <div className="DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
-        <p><strong>Legal Entity or Authorized Representative : </strong> Manufacturers or their authorized representatives intending to market pharmaceuticals, medical devices, cosmetics, or diagnostics in India are eligible.</p>
+        <p><strong>Legal Entity or Authorized Representative : </strong> Manufacturers or their authorized representatives intending to market pharmaceuticals, medical devices, cosmetics, or diagnostics in {cityName} are eligible.</p>
         <p><strong>Compliance with Quality Standards : </strong> Entities seeking registration must adhere to stringent quality management systems and standards specified by CDSCO. This includes compliance with Good Manufacturing Practices (GMP), Good Clinical Practices (GCP), and other applicable norms.</p>
         <p><strong>Necessary Testing Data : </strong> Submission of comprehensive testing data and documentation verifying the safety, efficacy, and quality of the product is mandatory. This includes detailed information on formulation, manufacturing process, stability data, and clinical trial results, if applicable.</p>
         <p><strong>Conformity with Regulatory Norms : </strong> Demonstrating conformity with regulatory requirements specific to the category of the product (pharmaceuticals, medical devices, cosmetics, etc.) is essential. This involves compliance with relevant Drugs and Cosmetics Act provisions, Medical Device Rules, and other applicable guidelines.</p>

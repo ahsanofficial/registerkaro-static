@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/cdsco-registration/rules.svg";
-
-export const Rules = () => {
+interface HeroProps {cityName: string;}
+export const Rules = ({ cityName }: HeroProps) => {
   return (
     <div id="Rules">
       <p className="main-para">
         Following are the applicants who can apply for online CDSCO Registration
-        in India:
+        in {cityName}:
       </p>
       <div className="checklist flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
