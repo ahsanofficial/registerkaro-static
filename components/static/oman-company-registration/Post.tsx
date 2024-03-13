@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/oman-company-registration/Post_Registration_Compliances.svg"
 
 const Post = () => {
   return (
@@ -9,7 +9,7 @@ const Post = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Post Registration Compliances"
             className="Post-img w-100"
             height={480}
             loading="lazy"

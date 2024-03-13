@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/oman-company-registration/Documents_you_would_need.svg";
 
 const DocumentsReq = () => {
   return (
     <div id="DocumentsReq">
         <p className="main-para"> The following crucial paperwork is required for company registration in Oman:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <p><strong>1 : </strong>Certificates of Memorandum </p>
             <p><strong>2 : </strong>Articles of Association, </p>
             <p><strong>3 : </strong>Tax Registration, </p>
@@ -19,7 +19,7 @@ const DocumentsReq = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Documents you would need"
             className="DocumentsReq-img w-100"
             height={480}
             loading="lazy"

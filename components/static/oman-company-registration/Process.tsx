@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/static/usa-company-registration/USA_Company_Registration_certificate.svg';
+import certificate from '../../../assets/images/static/oman-company-registration/Certification_oman.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -38,9 +38,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">USA Company Registration</p>
+                <p className="small-heading text-center">Company Registration in Oman</p>
                 <div>
-                    <Image alt="Get Online USA Company RegistrationExpansion to the United States may be revolutionary, opening up a universe of prospects and a large consumer base" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="An overview of Company Registration in Oman, the third-largest nation on the Arabian Peninsula, has a rich history of foreign trade and enterprise dating back many centuries." className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
