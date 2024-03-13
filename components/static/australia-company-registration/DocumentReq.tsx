@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/australia-company-registration/DOCUMENT_REQUIRED.svg";
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 const DocumentReq = () => {
   return (
     <div id="DocumentReq">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
              <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Completed Application Form (Form 201)</li></ul>
              <ul className='tick list-unstyled'>
@@ -27,11 +27,13 @@ const DocumentReq = () => {
              <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Evidence of the registered office address, such as a lease agreement or land title certificate</li></ul>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="Document Required
+            ulArrow Completed Application Form (Form 201)
+            ulArrow Name Reservation"
             className="DocumentReq-img w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

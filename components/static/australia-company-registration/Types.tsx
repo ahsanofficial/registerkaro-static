@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/australia-company-registration/Types_of_Company_in_Australia.svg";
 
 const Types = () => {
   return (
@@ -22,9 +22,9 @@ const Types = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Types of Company in Australia"
             className="Types-img w-100"
-            height={480}
+            height={880}
             loading="lazy"
             src={bft}
           />

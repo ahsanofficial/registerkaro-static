@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/static/usa-company-registration/USA_Company_Registration_certificate.svg';
+import certificate from '../../../assets/images/static/australia-company-registration/COMPANY_REGISTRATION _AUSTRALIA_certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -44,9 +44,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">USA Company Registration</p>
+                <p className="small-heading text-center">Australia Company Registration</p>
                 <div>
-                    <Image alt="Get Online USA Company RegistrationExpansion to the United States may be revolutionary, opening up a universe of prospects and a large consumer base" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="An overview of Company Registration in Australia If you are seeking the ideal location to establish and develop your business, consider registering a company in Australia." className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

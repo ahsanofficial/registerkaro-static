@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/australia-company-registration/facts_to_know.svg";
 
 const Facts = () => {
   return (
@@ -9,14 +9,14 @@ const Facts = () => {
      
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Facts to Know , Registering for GST is crucial for companies with an annual turnover exceeding AUD$75,000, requiring an Australian Business Number (ABN)."
             className="Facts-img w-100"
-            height={380}
+            height={420}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-4">
             <p><strong> 1 : </strong>Registering for GST is crucial for companies with an annual turnover exceeding AUD$75,000, requiring an Australian Business Number (ABN).</p>
             <p><strong> 2 : </strong>The application can be submitted online through the ABN Business Entry Point, with an ABN issued upon successful submission. </p>
             <p><strong> 3 : </strong>The ATO will confirm receipt within 28 days. Failure to obtain an ABN result in GST being applicable to all sales, with penalties for overdue payments. </p>

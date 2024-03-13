@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/australia-company-registration/why_to_es.svg";
 
 const Establish = () => {
   return (
     <div id="Establish">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="why to establish a business in australia?"
             className="Establish-img w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />
