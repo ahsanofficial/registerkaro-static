@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/static/llp-compliance/LLP_Compliance_in_India_certificate.svg';
+import certificate from '../../../assets/images/static/ca-services/Understanding_CA_certificate.svg'
 import Image from 'next/image';
 
 export const Process = () => {
@@ -34,9 +34,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">LLP Compliance Certificate [Sample]</p>
+                <p className="small-heading text-center">Understanding CA Services</p>
                 <div>
-                    <Image alt="LLP Compliance in India In India, LLP or Limited Liability Partnership enjoys a separate status and an organization needs to maintain its active status by regularly filing with MCA" className="certificate h-100 w-100" loading="lazy" src={certificate}/>
+                    <Image alt="A chartered accountant can help the nation's economy grow. Each chartered accountant possesses unique understanding in the areas of finance," className="certificate h-100 w-100" loading="lazy" src={certificate}/>
                     {/* <p>pending pdf render file</p> */}
                 </div>
             </div>

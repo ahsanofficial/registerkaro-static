@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/ca-services/Challenges_faced.svg";
 
 const Challenges = () => {
   return (
@@ -8,16 +8,16 @@ const Challenges = () => {
         <p className="main-para">Business is a multi dimensional process which consist of various different set of operations to be handled individually. One of such tangent is of financial handling which requires deliberation due to which many businesses face challenges in maintaining the same. Following are few of such challenges faced if no CA Service is availed for the Businesses:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
        
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="Challenges faced by Business without CA services"
             className="Challenges-img w-100"
-            height={480}
+            height={630}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-3">
             <p><strong>Complex process :</strong> The process for maintaining the financial aspect of the business is quite complex as it requires multiple tangents to cover such as bookkeeping, accounting, tax filing, etc. If no services are availed, then it becomes difficult for the business to handle all of such aspects single handedly.</p>
             <p><strong>Comprehensive Documentation :</strong> There is a comprehensive Documentation required in maintaining the financial record for the business operation which also becomes a major problem.</p>
             <p><strong>Exhaustive Compliances :</strong> Any business is required to adhere with the compliances in order to avoid any notice for non compliance. However, the list of compliances for a business becomes so long that it becomes a tedious task to handle without errors.</p>

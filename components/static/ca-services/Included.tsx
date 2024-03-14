@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/ca-services/What_all is_included.svg";
 
 const Included = () => {
   return (
@@ -18,9 +18,9 @@ const Included = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="What all is included in CA Services?"
             className="Included-img w-100"
-            height={480}
+            height={880}
             loading="lazy"
             src={bft}
           />
