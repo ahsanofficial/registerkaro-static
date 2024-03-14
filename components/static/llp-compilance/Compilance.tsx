@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/llp-compliance/What_are_LLP_Second_Amendment.svg'
 
 export const Compilance = () => {
   return (
@@ -8,7 +8,7 @@ export const Compilance = () => {
       <p className='main-para mb-2'>There are some vital changes have been made via LLP (Second Amendment) Rules, 2022, which are as follows:</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column' id='Compilance'>
        <div className='flex-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={350} loading="lazy" src={bft} />
+          <Image alt="What are LLP (Second Amendment) Rules, 2022?" className="WhatLLp-img w-100" height={350} loading="lazy" src={bft} />
       </div>
 
       <div className='flex-5 pt-5'>

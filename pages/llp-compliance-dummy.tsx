@@ -77,7 +77,6 @@ const faq = [
 ];
 
 
-
 const Home = () => {
     return (
         <div className='services-pages llp-compilance-reg '>

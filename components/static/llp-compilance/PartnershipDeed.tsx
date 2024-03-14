@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import documents from '../../../assets/images/static/llp-compliance/Mandatory_Compliance_for_LLP_India.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const PartnershipDeed = () => {
@@ -9,7 +8,7 @@ export const PartnershipDeed = () => {
     <div>
         <p className='main-para mb-2'id='PartnershipDeed'>Once an LLP is incorporated, there is some mandatory compliance that an LLP is required to fulfill. If a Limited Liability Partnership fails to comply with these requirements, it may have to pay heavy penalties. Following is the list of vital compliance that an LLP needs to follow after the LLP Registration in India:</p>
         <div className='flex justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
+        <Image alt="Mandatory Compliance for LLP in India" className="Mandatory-img w-100" height={582} loading="lazy" src={documents} />
       </div>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
