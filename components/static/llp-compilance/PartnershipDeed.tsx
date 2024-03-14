@@ -2,11 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import documents from '../../../assets/images/static/llp-compliance/Mandatory_Compliance_for_LLP_India.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const PartnershipDeed = () => {
+interface HeroProps {
+   cityName: string;
+}
+export const PartnershipDeed = ({ cityName }: HeroProps) => {
   return (
     <div>
-        <p className='main-para mb-2'id='PartnershipDeed'>Once an LLP is incorporated, there is some mandatory compliance that an LLP is required to fulfill. If a Limited Liability Partnership fails to comply with these requirements, it may have to pay heavy penalties. Following is the list of vital compliance that an LLP needs to follow after the LLP Registration in India:</p>
+        <p className='main-para mb-2'id='PartnershipDeed'>Once an LLP is incorporated, there is some mandatory compliance that an LLP is required to fulfill. If a Limited Liability Partnership fails to comply with these requirements, it may have to pay heavy penalties. Following is the list of vital compliance that an LLP needs to follow after the LLP Registration in {cityName}:</p>
         <div className='flex justify-content-center'>
         <Image alt="Mandatory Compliance for LLP in India" className="Mandatory-img w-100" height={582} loading="lazy" src={documents} />
       </div>
@@ -19,11 +21,11 @@ export const PartnershipDeed = () => {
         </ul>
         <h3>Opening a Bank Account:</h3>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> It’s vital to open a current bank account in the name of the Limited Liability Partnership with any Bank in India. All the transactions in the LLP Name should be transacted via the LLP Bank Account only.</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> It’s vital to open a current bank account in the name of the Limited Liability Partnership with any Bank in {cityName}. All the transactions in the LLP Name should be transacted via the LLP Bank Account only.</li>
         </ul>
         <h3>PAN & TAN Number:</h3>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Every Limited Liability Partnership in India must obtain PAN and TAN from the Income Tax Department. With the LLP (Second Amendment) Rules, 2022, the same shall now be allotted with the Certificate of Incorporation itself.</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> Every Limited Liability Partnership in {cityName} must obtain PAN and TAN from the Income Tax Department. With the LLP (Second Amendment) Rules, 2022, the same shall now be allotted with the Certificate of Incorporation itself.</li>
         </ul>
         <h3>GST Registration:</h3>
         <ul className='tick list-unstyled'>
