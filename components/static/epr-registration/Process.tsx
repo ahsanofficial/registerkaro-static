@@ -1,8 +1,8 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/epr-registration/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {cityName: string;}
+export const Process = ({ cityName }: HeroProps)  => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -20,7 +20,7 @@ export const Process = () => {
                                 <li>Documents Required for EPR Registration</li>
                             </a>
                             <a href="#HowEPRRegistration" className="scrollTo">
-                                <li>How to apply for EPR Registration online in India?</li>
+                                <li>How to apply for EPR Registration online in {cityName}?</li>
                             </a>
                             <a href="#CancellationValid" className="scrollTo">
                                 <li>Cancellation/Validity/ Renewal of EPR</li>

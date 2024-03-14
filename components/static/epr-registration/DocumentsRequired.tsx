@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const DocumentsRequired = () => {
+interface HeroProps {cityName: string;}
+export const DocumentsRequired = ({ cityName }: HeroProps)  => {
   return (
     <div >
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
