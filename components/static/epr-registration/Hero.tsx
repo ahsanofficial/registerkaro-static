@@ -7,12 +7,12 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "2 DIN and DSC for two Directors",
-        "Drafting of MoA & AoA",
-        "Registration fees and stamp duty",
-        "Company Incorporation Certificate",
-        "Company PAN and TAN",
-        "ZohoBooks subscription"
+        "Free Experts Assistance",
+        "Minimum Price guaranteed",
+        "Quick and Hassle-Free Process",
+        "Free Consultation on Import-Export Compliance",
+        "20 years experience & Serving more than 1100+ companies",
+        "Providing one stop solution for all Annual compliancesn"
     ]
 }
 
