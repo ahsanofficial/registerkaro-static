@@ -1,20 +1,15 @@
 import Head from 'next/head'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/drug-liecense/Hero'
-import { Process } from '../components/static/drug-liecense/Process'
-import { Benefits } from '../components/static/drug-liecense/Benefits'
-import { Types } from '../components/static/drug-liecense/Types'
-import { LLC } from '../components/static/drug-liecense/LLC'
-import { InfoAndDoc } from '../components/static/drug-liecense/InfoAndDoc'
-import { InformationRequired } from '../components/static/drug-liecense/InformationRequired'
-import { DocumentsRequired } from '../components/static/drug-liecense/DocumentsRequired'
-import { Business } from '../components/static/drug-liecense/Business'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { ProcessCompany } from '../components/static/drug-liecense/ProcessCompany'
-import { HowRegisterKaro } from '../components/static/drug-liecense/HowRegisterKaro'
-import { Basic } from '../components/static/drug-liecense/Basic'
+import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
 import { Application } from '../components/static/drug-liecense/Application'
+import { Basic } from '../components/static/drug-liecense/Basic'
+import { DocumentsRequired } from '../components/static/drug-liecense/DocumentsRequired'
 import { Fees } from '../components/static/drug-liecense/Fees'
+import { Hero } from '../components/static/drug-liecense/Hero'
+import { HowRegisterKaro } from '../components/static/drug-liecense/HowRegisterKaro'
+import { Process } from '../components/static/drug-liecense/Process'
+import { ProcessCompany } from '../components/static/drug-liecense/ProcessCompany'
+import { Types } from '../components/static/drug-liecense/Types'
 
 
 const faq = [
@@ -78,7 +73,7 @@ const Home = () => {
             <h1 className='main-heading'>Drug License Registration process in India</h1>
             <div className='heading-line'></div>
             <ProcessCompany />
-            <h1 className='main-heading'>Drug License Registration process in India</h1>
+            <h1 className='main-heading'>Fees for drug license registration</h1>
             <div className='heading-line'></div>
             <Fees />
             <h1 className='main-heading'>How RegisterKaro helps you in getting Drug License?</h1>

@@ -31,7 +31,7 @@ export const Process = () => {
                             </a>
                             
                             <a href="#Fees" className="scrollTo">
-                                <li>Drug License Registration process in India</li>
+                                <li>Fees for drug license registration</li>
                             </a>
                             
                             <a href="#HowRegisterKaro" className="scrollTo">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Fees = () => {
     return (
-        <div className='Fees'>
+        <div id='Fees'>
             <div>
                 <p className='main-para'>The drug license fees may differ from state to state. For offline mode, you must deposit drug license fees in the government treasury. At the same time, you can also pay it online through various methods available in your state. The table below provides standard drug license fees for the issue of the drug license-</p>
             </div>
