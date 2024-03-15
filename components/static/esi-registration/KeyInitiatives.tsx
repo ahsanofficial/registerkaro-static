@@ -1,14 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/benefit.svg'
+import dft from '../../../assets/images/static/esi-registration/vital_docs.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const KeyInitiatives = () => {
   return (
-    <div >
+    <div   id='KeyInitiatives'>
         
     
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
+
+      <div className='flex justify-content-center'>
+          <Image alt="What are the vital documents required for online ESI Registration in India?" className="vital-img w-100" height={582} loading="lazy" src={dft} />
+        </div>
       <div className='flex-7'>
         <p>Following are some essential documents for online ESI Registration in India:</p>
         <ul className='tick list-unstyled'>
@@ -64,9 +68,6 @@ export const KeyInitiatives = () => {
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>11: </strong> A register containing the employees’ attendance.</li>
           </ul>
-      </div>
-      <div className='flex justify-content-center' id='KeyInitiatives'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={582} loading="lazy" src={dft} />
       </div>
       </div>
     </div>

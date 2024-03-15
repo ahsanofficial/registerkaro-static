@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/esi-registration/Get_Online_ESI_Registration_Now_certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -41,7 +41,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">ESI Registration Certificate [Sample]</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Get Online ESI Registration Now! ESI or Employees State Insurance Scheme is a social security scheme offered by the Indian Government as per the ESI Act, 1948 and ESI is managed" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

@@ -1,13 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/benefit.svg'
+import dft from '../../../assets/images/static/esi-registration/Compliance_and_Returns_after_ESI_Registration_in_India.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DocsREquired = () => {
   return (
-    <div >
-        
-     
+    <div  id='DocsREquired'>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p><strong>After the ESI Registration under ESIC, the establishment needs to comply with the following:</strong></p>
@@ -26,8 +24,8 @@ export const DocsREquired = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Register of wages</li>
           </ul>
       </div>
-      <div className='flex justify-content-center' id='DocsREquired'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={450} loading="lazy" src={dft} />
+      <div className='flex justify-content-center'>
+        <Image alt="Compliance and Returns after ESI Registration in India" className="Compliance-img w-100" height={450} loading="lazy" src={dft} />
       </div>
       </div>
     </div>
