@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/u-k-company-registration/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg"
+import dft from "../../../assets/images/static/u-k-company-registration/why_choose_regis.svg"
 
 export const WhyChoose = () => {
   return (
