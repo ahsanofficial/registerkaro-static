@@ -7,16 +7,16 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Consultation with Expert",
-        "Procure documents",
-        "Preparation of Application",
-        "Filing of application with the statutory authorities",
+        "Company Registration ",
+        "Tax filing",
+        "Book-keeping",
+        "Trademark registration",
+        "Company Annual Filing",
+        "Taxation related Compliances",
     ]
 }
-interface HeroProps {
-    cityName: string;
-}
-export const Hero = ({ cityName }: HeroProps) => {
+
+export const Hero = () => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,8 +29,8 @@ export const Hero = ({ cityName }: HeroProps) => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>IEC Registration</h4>
-                <p>Boost Your Business with IEC Registration! @ Unlock Global Opportunities Today with RegisterKaro's Expert Services.</p>
+            <h4 className='mb-4'>Company Registration in United Kingdom</h4>
+                <p>Avail Our Company Registration Services today for a seamless and easy process. Our team of experts set up your business process easily so that you can focus on expanding your business.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (
