@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/esi-registration/Various_Entities_covered_under_ESIC.svg'
 
-
-export const ObjectivesChecklist = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ObjectivesChecklist = ({ cityName }: HeroProps) => {
   return (
     <div id='ObjectivesChecklist'>
       <p className='main-para'>Under Section 1(5) of the ESI Act, the following entities are covered under ESIC:</p>

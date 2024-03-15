@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/esi-registration/Compliance_and_Returns_after_ESI_Registration_in_India.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const DocsREquired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocsREquired = ({ cityName }: HeroProps) => {
   return (
     <div  id='DocsREquired'>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>

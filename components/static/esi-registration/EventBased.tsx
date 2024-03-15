@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/esi-registration/benefits.svg";
-
-export const EventBased = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const EventBased = ({ cityName }: HeroProps) => {
   return (
     <div id="EventBased">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 pt-5">
-          <p> The following are the benefits of ESI Registration in India:</p>
+          <p> The following are the benefits of ESI Registration in {cityName}:</p>
           <p>
             1. All disabled employees can get 90% of their monthly salaries as
             disablement benefits.

@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/esi-registration/vital_docs.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const KeyInitiatives = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const KeyInitiatives = ({ cityName }: HeroProps) => {
   return (
     <div   id='KeyInitiatives'>
         
@@ -14,7 +16,7 @@ export const KeyInitiatives = () => {
           <Image alt="What are the vital documents required for online ESI Registration in India?" className="vital-img w-100" height={382} loading="lazy" src={dft} />
         </div>
       <div className='flex-7'>
-        <p>Following are some essential documents for online ESI Registration in India:</p>
+        <p>Following are some essential documents for online ESI Registration in {cityName}:</p>
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>1: </strong> Registration Certificate obtained under Shops & Establishment Act and Factory Act;</li>
           </ul>

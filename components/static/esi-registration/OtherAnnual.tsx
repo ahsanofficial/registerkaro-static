@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/esi-registration/the_Eligibility_for_ESI_Registration_in_India.svg'
-
-export const OtherAnnual = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const OtherAnnual =  ({ cityName }: HeroProps)=> {
   return (
     <div id='OtherAnnual'>
-      <p className='main-para'>To be eligible for ESI Registration in India, you must have more than 10 employees or workers. In some areas, ESI Registration is possible for establishments only if there are more than 20 employees. The following are some criteria that need to be satisfied for obtain ESI Registration:</p>
+      <p className='main-para'>To be eligible for ESI Registration in {cityName}, you must have more than 10 employees or workers. In some areas, ESI Registration is possible for establishments only if there are more than 20 employees. The following are some criteria that need to be satisfied for obtain ESI Registration:</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' >
       
       <div className='flex-7 pt-5'>
