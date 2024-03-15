@@ -2,17 +2,19 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/iec-registration/Procedure_for.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const KeyInitiatives = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const KeyInitiatives = ({ cityName }: HeroProps) => {
   return (
     <div id='KeyInitiatives' >
-        <p className='main-para'>Following is the online step-by-step procedure for IEC Registration in India:</p>
+        <p className='main-para'>Following is the online step-by-step procedure for IEC Registration in {cityName}:</p>
      
           <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       
             <div className='flex-7'>
               <ul className='tick list-unstyled'>
-                <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />First, you need to visit the official website of DGFT for IEC Registration in India.</li>
+                <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />First, you need to visit the official website of DGFT for IEC Registration in {cityName}.</li>
                 </ul>
               
               <ul className='tick list-unstyled'>

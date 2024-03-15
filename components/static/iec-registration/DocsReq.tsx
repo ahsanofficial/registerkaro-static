@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/iec-registration/Document_ Required.svg'
-
-export const DocsReq = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocsReq = ({ cityName }: HeroProps) => {
   return (
     <div id='DocsReq'>
-    <p className='main-para'>The following are the documents required for IEC Registration in India:</p>
+    <p className='main-para'>The following are the documents required for IEC Registration in {cityName}:</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
       <div className='flex-4 '>
           <Image alt="Documents Required for IEC Registration" className="Documents-img w-100" height={350} loading="lazy" src={bft} />

@@ -1,14 +1,16 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/iec-registration/exemption.svg";
-
-export const Exemption = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Exemption = ({ cityName }: HeroProps) => {
   return (
     <div id="Exemption">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 pt-5">
           <p>
-            Individuals undertaking Import & Export in India for personal
+            Individuals undertaking Import & Export in {cityName} for personal
             reasons & not associated with trade, manufacture & agriculture;
           </p>
           <p>

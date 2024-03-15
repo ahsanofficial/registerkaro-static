@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/iec-registration/when_iec_not_m.svg";
-
-export const PartnershipDeed = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const PartnershipDeed = ({ cityName }: HeroProps) => {
   return (
     <div id='PartnershipDeed'>
       <div className="benefits flex w-80 m-auto mobile-flex-column">

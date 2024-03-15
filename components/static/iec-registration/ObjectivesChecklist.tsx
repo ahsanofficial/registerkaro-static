@@ -3,8 +3,10 @@ import React from "react";
 import one from "../../../assets/images/pvt-reg/checklist/one.png";
 import two from "../../../assets/images/pvt-reg/checklist/two.png";
 import three from "../../../assets/images/pvt-reg/checklist/three.svg";
-
-export const ObjectivesChecklist = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ObjectivesChecklist = ({ cityName }: HeroProps) => {
   return (
     <div id="ObjectivesChecklist">
       <div className="checklist flex w-80 m-auto mobile-flex-column">

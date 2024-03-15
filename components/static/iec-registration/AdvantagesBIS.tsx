@@ -1,8 +1,10 @@
 
 import Image from 'next/image'
 import dft from '../../../assets/images/static/iec-registration/Benefits_of_IEC.svg'
-
-export const AdvantagesBIS = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const AdvantagesBIS = ({ cityName }: HeroProps) => {
 
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='AdvantagesBIS'>
