@@ -8,9 +8,11 @@ import { GoogleDiv } from '../GoogleDiv';
 let hero = {
     "pack_includes": [
         "Expert Advisory",
-        "Application Preparation",
-        "Form Filing",
-        "PF Number issued",
+        "Comprehensive Documentation",
+        "Post Registration Compliance",
+        "Company Annual Filing",
+        "Process Consultation",
+        "Certificate Procurement",
     ]
 }
 
@@ -27,8 +29,8 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>EPF Registration</h4>
-                <p>Our experts can help you obtain EPF Registration only @ as well in regular PF compliances while you stay relaxed about getting insured under Provident Fund without complications</p>
+            <h4 className='mb-4'>Company Registration in Canada</h4>
+                <p>Avail Our Company Registration Services today for a seamless and easy process. Our team of experts set up your business process easily so that you can focus on expanding your business.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (
