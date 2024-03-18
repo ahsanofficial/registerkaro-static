@@ -1,40 +1,38 @@
 .epf_registration-reg {
   @media screen and (max-width: 990px) {
-    objectives-img{
+    .objectives-img{
       height: 600px;
     }
-    Applicability-img{
+    .Applicability-img{
+      height: 500px;
+    }
+    .Benefits-img{
       height: 600px;
     }
-    Benefits-img{
-      height: 600px;
+    .Eligibility-img{
+      height: 500px;
     }
-    Eligibility-img{
-      height: 600px;
+    .Different-img{
+      height: 500px;
     }
-    Different-img{
-      height: 600px;
+    .important-img{
+      height: 1080px;
     }
-    important-img{
-      height: 900px;
-      // border: 1px solid black;
-       
-    }
-    Documents-img{
+    .Documents-img{
       height: 600px;
 
     }
-    Withdrawal-img{
+    .Withdrawal-img{
       height: 600px;
     }
-    exempted-img{
-      height: 600px;
+    .exempted-img{
+      height: 500px;
     }
-    MandatoryCompliance-img{
-      height: 600px;
+    .MandatoryCompliance-img{
+      height: 400px;
     }
-    Due-img{
-      height: 600px;
+    .Due-img{
+      height: 500px;
     }
   }
 }
