@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/epf-registration/What_are_the_Different_Types_of_EPF_Forms.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const DifferentTypes = () => {
   return (
     <div >
       <div className='flex justify-content-center' id='DifferentTypes'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={482} loading="lazy" src={dft} />
+        <Image alt="What are the Different Types of EPF Forms?" className="Different-img w-100" height={382} loading="lazy" src={dft} />
       </div>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>

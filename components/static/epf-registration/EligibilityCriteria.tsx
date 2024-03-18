@@ -1,13 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/benefit.svg'
+import dft from '../../../assets/images/static/epf-registration/Eligibility_crieteria.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const EligibilityCriteria = () => {
   return (
     <div id='EligibilityCriteria' >
      
-     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+     <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column'>
+     <div className='flex justify-content-center' >
+        <Image alt="Eligibility Criteria for EPF Registration in India" className="Eligibility-img w-100" height={382} loading="lazy" src={dft} />
+      </div>
       <div className='flex-7'>
         <p>EPF in India is the primary way for employees to save for retirement and it’s managed by EPFO. The Employees’ Provident Fund & Miscellaneous Provisions Act, 1952 sets out who can join</p>
         <h3>For Employees:</h3>
@@ -21,9 +24,7 @@ export const EligibilityCriteria = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /> If a business or organisation employs at most 20 people, it may still require EPF Registration if specified by the Central Government notification.</li>
           </ul>
       </div>
-      <div className='flex justify-content-center' >
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="EligibilityCriteria-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
+      
       </div>
     </div>
   )
