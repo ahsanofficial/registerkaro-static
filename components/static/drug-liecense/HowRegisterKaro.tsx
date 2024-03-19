@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg"
+import bft from "../../../assets/images/static/drug-license/how_registre.svg"
 
 export const HowRegisterKaro = () => {
   return (
@@ -14,10 +14,9 @@ export const HowRegisterKaro = () => {
           <p><strong>Client-oriented approach :</strong>  Our team of experts is well trained and equipped with a client-oriented approach, keeping in mind that the process must be client-centric, focusing on meeting all the requirements of their business and, therefore, satisfying their needs.</p>
           <p><strong>Trust builders :</strong> RegisterKaro builds the trust among its clients and because of only this trust we have built a good network in worldwide marketplace.</p>
         </div>
-        <div className="flex-4 mt-4">
+        <div className="flex-4 ">
           <Image
-            alt="Information and Documents Required for USA Company Registration
-            In order to register a company in the US, a number of required documents and pieces of information must be provided. A detailed list of all the items you’ll need to start the process of USA Company Registration is provided below:"
+            alt="How RegisterKaro helps you in getting Drug License?"
             className="HowRegisterKaro-img w-100"
             height={500}
             loading="lazy"

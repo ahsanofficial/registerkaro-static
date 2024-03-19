@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/drug-license/Types_of_Drug_License_Registration.svg";
 
 export const Types = () => {
   return (
@@ -22,10 +22,9 @@ export const Types = () => {
         </div>
         <div className="flex-4 mt-5">
           <Image
-            alt="Types for USA Company Registration
-            The United States of America provides several legal forms for company formation, each with its own set of rules and regulations. The following are the five most common types of companies registered in the United States"
+            alt="Types of Drug License Registration"
             className="Types-img w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

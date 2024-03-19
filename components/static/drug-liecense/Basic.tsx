@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/drug-license/Basic_pre-requisites_for_a_drug_license.svg";
 
 export const Basic = () => {
   return (
@@ -8,7 +8,7 @@ export const Basic = () => {
         <p className="main-para">The relevant state authorities (Drugs Control Department) must issue a legitimate drug license to any individual, corporation, partnership firm, etc. The provisions for this has been made in Drugs and Cosmetic Act, 1940 and Rules 1945 applicable in India. The following are some fundamental pre-requisites:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         
-        <div className="flex-7 pt-2">
+        <div className="flex-7 pt-5">
             <p><strong>1 :</strong> Minimum space for the shop or office.</p>
             <p><strong>2 :</strong> Granted in a non-residential setting, such as a business space.</p>
             <p><strong>3 :</strong> Must adhere to the requirements of the licensing body.</p>
@@ -17,10 +17,9 @@ export const Basic = () => {
         </div>
         <div className="flex-4 ">
           <Image
-            alt="Benefits of USA Company Registration
-            The United States is a global economic powerhouse that also serves as a center for innovation and entrepreneurship. A powerful consumer market, potential investors, and a favorable business environment can all be gained"
+            alt="Basic pre-requisites for a drug license"
             className="Basic-img w-100"
-            height={450}
+            height={400}
             loading="lazy"
             src={bft}
           />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg"
+import bft from "../../../assets/images/static/drug-license/document_requirement.svg"
 
 export const DocumentsRequired = () => {
   return (
@@ -8,9 +8,9 @@ export const DocumentsRequired = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4 mt-4">
           <Image
-            alt="PAN Card: For tax and identity purposes, Indian people and entities must have a Permanent Account Number (PAN) card."
+            alt="Documents requirement for Drug License in India"
             className="DocumentsRequired-img w-100"
-            height={500}
+            height={600}
             loading="lazy"
             src={bft}
           />
