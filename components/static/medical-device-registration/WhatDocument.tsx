@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/medical-device-registration/What_are_the_Documents_or_Paperwork_required_for_Medical_Device_Registration.svg'
 
 export const WhatDocument = () => {
   return (
@@ -13,16 +13,8 @@ export const WhatDocument = () => {
         classification and the regulatory pathway chosen. Here is a general list
         of the documents/paperwork often required from the client:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4 mt-5">
-          <Image
-            alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP"
-            className="WhatDocument-img w-100"
-            height={750}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+       
         <div className="flex-7 pt-5">
           <p>
             <strong>1: Device Details: </strong> Description of the medical device, including its intended use, specifications, technical characteristics, and components.
@@ -60,6 +52,15 @@ export const WhatDocument = () => {
           <p>
             <strong>12: Certificates and Declarations: </strong> Certificates of free sale, non-circulation, or non-toxicity, along with declarations of conformity or compliance.
           </p>
+        </div>
+        <div className="flex-4 mt-5">
+          <Image
+            alt="What are the Documents or Paperwork required for Medical Device Registration?"
+            className="WhatDocument-img w-100"
+            height={960}
+            loading="lazy"
+            src={bft}
+          />
         </div>
       </div>
       <p className="main-para">It’s crucial to note that the specific requirements and the extent of documentation may vary based on the classification of the medical device, its intended use, risk level, and the regulatory pathway chosen for registration. Manufacturers or applicants should ensure that all documents provided are accurate, complete, and compliant with the regulatory standards outlined by the Central Drugs Standard Control Organization (CDSCO) and the Medical Device Rules, 2017.</p>

@@ -104,7 +104,7 @@ const Home = () => {
       <Process />
       <h1 className="main-heading">Applicable Rules/Acts/ Regulations</h1>
       <div className="heading-line"></div>
-      < ApplicableRegulations/>
+      <ApplicableRegulations/>
       <h1 className="main-heading">What is the Eligibility/Pre-Licensing/Mandatory Pre-Requisites for Medical Device Registration?</h1>
       <div className="heading-line"></div>
       <EligibilyMandatory />
