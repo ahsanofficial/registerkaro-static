@@ -7,13 +7,10 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        " Expert Assistance",
-        " Comprehensive Documentation",
-        " Tax Return Filing",
-        " Application Drafting",
-        " Post-filing Compliances",
-        " Process Consultation ",
-        " Doorstep PAN India Services"
+        "Consultancy with Expert",
+        "Documents preparation",
+        "Follow up with Department",
+        "Registration Certificate",
     ]
 }
 
