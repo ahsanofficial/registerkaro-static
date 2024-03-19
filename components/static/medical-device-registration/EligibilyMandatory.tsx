@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import dft from '../../../assets/images/static/medical-device-registration/eligibility.svg'
 
-
-export const EligibilyMandatory = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const EligibilyMandatory = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='EligibilyMandatory'>
     <div className="main flex justify-content-between align-center m-auto mobile-flex-column">

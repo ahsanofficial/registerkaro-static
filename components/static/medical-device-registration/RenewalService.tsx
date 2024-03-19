@@ -2,8 +2,10 @@
 import Image from 'next/image'
 import dft from '../../../assets/images/static/medical-device-registration/renewal.svg'
 
-
-export const RenewalService = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RenewalService = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='RenewalService'>
     <div className="main flex justify-content-between align-center m-auto mobile-flex-column">

@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/drug-license/who_submit.svg";
 
-export const Application = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Application = ({ cityName }: HeroProps) => {
   return (
     <div id="Application">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

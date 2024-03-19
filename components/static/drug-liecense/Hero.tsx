@@ -17,7 +17,13 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+
+interface HeroProps {
+    cityName: string;
+}
+
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -31,7 +37,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>DRUG LICENSE</h4>
-                <p>"Stay Legal, Stay Safe: Register Your Drug License Today!” To start a business in pharmaceutical industry including Ayurvedic & Unani Drugs, one must have to get a drug license to operate legally. As per Drugs Act, 1940, Drug license is mandatory throughout India. A particular license is needed on the type of business requirement. Obtain your Drug License from RegisterKaro hassle free.</p>
+                <p>"Stay Legal, Stay Safe: Register Your Drug License Today!” To start a business in pharmaceutical industry including Ayurvedic & Unani Drugs, one must have to get a drug license to operate legally. As per Drugs Act, 1940, Drug license is mandatory throughout {cityName}. A particular license is needed on the type of business requirement. Obtain your Drug License from RegisterKaro hassle free.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

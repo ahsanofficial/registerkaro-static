@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/medical-device-registration/What_are_the_Documents_or_Paperwork_required_for_Medical_Device_Registration.svg'
-
-export const WhatDocument = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhatDocument = ({ cityName }: HeroProps) => {
   return (
     <div id="WhatDocument">
       <p className="main-para mb-2">
         The documentation and paperwork required for Medical Device Registration
-        in India typically include a comprehensive set of technical, clinical,
+        in {cityName} typically include a comprehensive set of technical, clinical,
         and manufacturing information to ensure compliance with regulatory
         standards. The specific documents may vary based on the device
         classification and the regulatory pathway chosen. Here is a general list
@@ -47,7 +49,7 @@ export const WhatDocument = () => {
             <strong>10: Registration Fees and Application Forms: </strong> Submission of the prescribed application forms along with the required fees as per regulatory guidelines.
           </p>
           <p>
-            <strong>11: Authorized Representation Documents: </strong> For foreign manufacturers, documents appointing an authorized representative in India for regulatory purposes.
+            <strong>11: Authorized Representation Documents: </strong> For foreign manufacturers, documents appointing an authorized representative in {cityName} for regulatory purposes.
           </p>
           <p>
             <strong>12: Certificates and Declarations: </strong> Certificates of free sale, non-circulation, or non-toxicity, along with declarations of conformity or compliance.

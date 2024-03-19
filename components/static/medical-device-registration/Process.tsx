@@ -1,12 +1,14 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/medical-device-registration/medical-device-certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Medical Device Registration in India involves a structured process to ensure the safety, process, and efficiency of medical devices in the market. The regulatory framework governing this process primarily falls under the preview of the Central Drugs Standard Control Organization (CDSCO) and the Medical Device Rules, 2017.</p>
+                <p className='text-justify'>Medical Device Registration in {cityName} involves a structured process to ensure the safety, process, and efficiency of medical devices in the market. The regulatory framework governing this process primarily falls under the preview of the Central Drugs Standard Control Organization (CDSCO) and the Medical Device Rules, 2017.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
@@ -23,7 +25,7 @@ export const Process = () => {
                                 <li>What are the Documents or Paperwork required for Medical Device Registration?</li>
                             </a>
                             <a href="#MedicalDevice" className="scrollTo">
-                                <li>Medical Device Registration Process in India</li>
+                                <li>Medical Device Registration Process in {cityName}</li>
                             </a>
                             <a href="#MedicalDeviceRegistration" className="scrollTo">
                                 <li>What is the Medical Device Registration procedural timeline of the service involved?</li>

@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/drug-license/how_registre.svg"
 
-export const HowRegisterKaro = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const HowRegisterKaro = ({ cityName }: HeroProps) => {
   return (
     <div id="HowRegisterKaro">
         <p className="main-para">RegisterKaro has been one step solution for getting Drug License, because of the varied ranges of benefits such as:</p>

@@ -3,8 +3,10 @@
 import Image from 'next/image'
 import dft from '../../../assets/images/static/medical-device-registration/why_bookkeeping_acc.svg'
 
-
-export const MandatoryCom = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const MandatoryCom = ({ cityName }: HeroProps) => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='MandatoryCom'>
     <div className="main flex justify-content-between align-center m-auto mobile-flex-column">

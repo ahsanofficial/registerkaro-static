@@ -2,10 +2,13 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/drug-license/Basic_pre-requisites_for_a_drug_license.svg";
 
-export const Basic = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Basic = ({ cityName }: HeroProps) => {
   return (
     <div id="Basic">
-        <p className="main-para">The relevant state authorities (Drugs Control Department) must issue a legitimate drug license to any individual, corporation, partnership firm, etc. The provisions for this has been made in Drugs and Cosmetic Act, 1940 and Rules 1945 applicable in India. The following are some fundamental pre-requisites:</p>
+        <p className="main-para">The relevant state authorities (Drugs Control Department) must issue a legitimate drug license to any individual, corporation, partnership firm, etc. The provisions for this has been made in Drugs and Cosmetic Act, 1940 and Rules 1945 applicable in {cityName}. The following are some fundamental pre-requisites:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         
         <div className="flex-7 pt-5">

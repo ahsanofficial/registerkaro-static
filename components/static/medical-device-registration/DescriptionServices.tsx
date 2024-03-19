@@ -3,8 +3,10 @@ import React from 'react'
 import dft from '../../../assets/images/static/medical-device-registration/A_description_of_products_involved.svg'
 import dftTwo from '../../../assets/images/static/medical-device-registration/A_description_of_products_second.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const DescriptionServices = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DescriptionServices = ({ cityName }: HeroProps) => {
   return (
     <div id='DescriptionServices'>
         <p className='main-para'>Medical Device Registration involves a wide array of products and services, encompassing various healthcare equipment and technologies crucial for diagnosis, treatment, patient care and rehabilitation. These devices vary significantly in complexity, function and intended use.</p>
@@ -34,9 +36,9 @@ export const DescriptionServices = () => {
         </div>
         <div className='flex-7'>
          <ul className='tick list-unstyled'> 
-            <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Registration Certificate (RC):</strong> The primary authorization required for medical device registration in India is the Registration Certificate issued by the Central Drugs Standard Control Organization (CDSCO). It signifies that the device complies with regulatory standards and is approved for sale and distribution.</li>
+            <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Registration Certificate (RC):</strong> The primary authorization required for medical device registration in {cityName} is the Registration Certificate issued by the Central Drugs Standard Control Organization (CDSCO). It signifies that the device complies with regulatory standards and is approved for sale and distribution.</li>
             <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Import License:</strong> An import license is required for manufacturers or importers to bring medical devices into the country for commercial purposes. It is obtained from the CDSCO or other relevant authorities.</li>
-            <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Manufacturing License:</strong> Manufacturers need a valid manufacturing license from the CDSCO to produce medical devices within India. This license ensures adherence to quality standards and regulatory compliance in the manufacturing process.</li>
+            <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Manufacturing License:</strong> Manufacturers need a valid manufacturing license from the CDSCO to produce medical devices within {cityName}. This license ensures adherence to quality standards and regulatory compliance in the manufacturing process.</li>
             <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Quality Management System (QMS) Certification:</strong> Compliance with QMS standards such as ISO 13485 is often mandatory for certain classes of medical devices. Certification ensures that the manufacturing processes and quality control meet defined standards.</li>
             <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>Test License/Approval for Clinical Trials: </strong>In cases where clinical data is required, manufacturers might need a test license or approval from the CDSCO to conduct clinical trials for the medical device. This allows for the evaluation of the device’s safety and efficacy in human subjects.</li>
             <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} /><strong>License for Special Categories:</strong> Some specialized medical devices or those falling under specific categories might require additional licenses or approvals based on their nature, complexity, or intended use. This includes devices like radioactive medical devices, etc.</li>
