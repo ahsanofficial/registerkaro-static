@@ -65,28 +65,28 @@ const Home = () => {
             <h1 className='main-heading'>An Overview of Company Registration in Thailand</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Why to start a business in Thailand?</h1>
+            <h2 className='main-heading'>Why to start a business in Thailand?</h2>
             <div className='heading-line'></div>
             <WhyStart />
-            <h1 className='main-heading'>Types of Companies in Thailand</h1>
+            <h2 className='main-heading'>Types of Companies in Thailand</h2>
             <div className='heading-line'></div>
             <Types />
-            <h1 className='main-heading'>Documents you might need</h1>
+            <h2 className='main-heading'>Documents you might need</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h1 className='main-heading'>Process for Company Registration in Thailand</h1>
+            <h2 className='main-heading'>Process for Company Registration in Thailand</h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-            <h1 className='main-heading'>Post Registration To-dos</h1>
+            <h2 className='main-heading'>Post Registration To-dos</h2>
             <div className='heading-line'></div>
             <Registration />
-            <h1 className='main-heading'>Why Choose RegisterKaro for Company Registration in Thailand?</h1>
+            <h2 className='main-heading'>Why Choose RegisterKaro for Company Registration in Thailand?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>

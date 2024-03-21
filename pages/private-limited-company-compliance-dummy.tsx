@@ -115,31 +115,31 @@ const Home = () => {
             <h1 className='main-heading'>An Overview of Annual Private Limited Company Compliance</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>What are the Benefits of Private Limited Company Compliance in India?</h1>
+            <h2 className='main-heading'>What are the Benefits of Private Limited Company Compliance in India?</h2>
             <div className='heading-line'></div>
             <Benefits/>
-             <h1 className='main-heading'>Types of Compliance for a Company Registered in India</h1>
+             <h2 className='main-heading'>Types of Compliance for a Company Registered in India</h2>
             <div className='heading-line'></div>
             <TypeOfComp/>
-            <h1 className='main-heading'>External Compliance</h1>
+            <h2 className='main-heading'>External Compliance</h2>
             <div className='heading-line'></div>
             <PartnershipDeed/>
-             <h1 className='main-heading'>Internal Compliance</h1>
+             <h2 className='main-heading'>Internal Compliance</h2>
             <div className='heading-line'></div>
             <Compilance/>
-            <h1 className='main-heading'>Mandatory Private Limited Company Compliance</h1>
+            <h2 className='main-heading'>Mandatory Private Limited Company Compliance</h2>
             <div className='heading-line'></div>
             <MandatoryCompilance/>
-            <h1 className='main-heading'>Other Annual Compliance for Private Limited Company in India</h1>
+            <h2 className='main-heading'>Other Annual Compliance for Private Limited Company in India</h2>
             <div className='heading-line'></div>
             <OtherAnnual/>
-            <h1 className='main-heading'>Event-Based Compliance for Private Limited Company</h1>
+            <h2 className='main-heading'>Event-Based Compliance for Private Limited Company</h2>
             <div className='heading-line'></div>
             <EventBased/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>
