@@ -389,11 +389,11 @@ const Home = () => {
     return (
         <div className='services-pages private-limited-company-compliance-reg '>
             <Head>
-                <title>Private Limited Company Registration | RegisterKaro</title>
+                <title>Private Limited Company Compliance | RegisterKaro</title>
                 <meta name="description" content="The Official RegisterKaro" />
                 <link rel="canonical" href="https://www.registerkaro.in/private-limited-company-compliance" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Private Limited Company Registration | RegisterKaro" />
+                <meta property="og:title" content="Private Limited Company Compliance | RegisterKaro" />
                 <meta property="og:description" content="The Official RegisterKaro" />
             </Head>
             <Hero cityName={'India'}/>
@@ -427,7 +427,7 @@ const Home = () => {
             <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
-            <RegistrationLinks formattedQuery={'Private Limited Company Registration'} state={state} Query={'private-limited-company-compliance'} city={city} />
+            <RegistrationLinks formattedQuery={'Private Limited Company Compliance'} state={state} Query={'private-limited-company-compliance'} city={city} />
         </div>
     )
 }
