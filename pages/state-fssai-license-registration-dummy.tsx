@@ -28,25 +28,25 @@ const Home = () => {
             <h1 className='main-heading'>Get Online State FSSAI License Registration in India</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Role of Food Safety Standard Authority of India</h1>
+            <h2 className='main-heading'>Role of Food Safety Standard Authority of India</h2>
             <div className='heading-line'></div>
             <EventBased/>
-            <h1 className='main-heading'>Benefits of State FSSAI License Registration</h1>
+            <h2 className='main-heading'>Benefits of State FSSAI License Registration</h2>
             <div className='heading-line'></div>
             <BenefitsOfState/>
-            <h1 className='main-heading'>Who needs a State FSSAI License?</h1>
+            <h2 className='main-heading'>Who needs a State FSSAI License?</h2>
             <div className='heading-line'></div>
             <WhoState/>
-            <h1 className='main-heading'>Documents required for State FSSAI License Registration</h1>
+            <h2 className='main-heading'>Documents required for State FSSAI License Registration</h2>
             <div className='heading-line'></div>
             <DocumentsRequired/>
-            <h1 className='main-heading'>Process for State FSSAI License Registration</h1>
+            <h2 className='main-heading'>Process for State FSSAI License Registration</h2>
             <div className='heading-line'></div>
             <StateFSSAILicense/>
-            <h1 className='main-heading'>Penalties Under the FSSAI Act </h1>
+            <h2 className='main-heading'>Penalties Under the FSSAI Act </h2>
             <div className='heading-line'></div>
             <PenaltiesUnder/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
         </div>

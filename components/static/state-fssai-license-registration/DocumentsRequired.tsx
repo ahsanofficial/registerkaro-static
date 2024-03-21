@@ -6,9 +6,6 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 export const DocumentsRequired = () => {
   return (
     <div >
-      <div className='flex justify-content-center' id='DocumentsRequired'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p className='main-para'>The paperwork needed to apply for State FSSAI License Registration is listed below: </p>

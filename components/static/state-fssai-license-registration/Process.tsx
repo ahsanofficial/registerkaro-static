@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/state-fssai-license-registration/FSSAI_Registration_certifiacte.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -36,9 +36,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">State FSSAI License Registration Certificate [Sample]</p>
+                <p className="small-heading text-center">State FSSAI License Registration Certificate</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-50 w-70" loading="lazy" src={certificate} />
+                    <Image alt="Get Online State FSSAI License Registration in India" className="certificate h-50 w-70" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

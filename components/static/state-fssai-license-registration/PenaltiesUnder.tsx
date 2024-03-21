@@ -1,14 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/state-fssai-license-registration/Penalties_Under_the_FSSAI_Act.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const PenaltiesUnder = () => {
   return (
-    <div  id='PenaltiesUnder'>
-        <div className='flex justify-content-center' id='DocsREquired'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={482} loading="lazy" src={dft} />
-      </div>
+    <div  id='PenaltiesUnder' >
+     
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p>Penalties for infractions committed by several categories of companies, such as One Person Companies, Private Limited Companies, and Limited Companies, are outlined in detail in the Food Safety and Standards Authority of India Act.</p>
@@ -37,6 +35,9 @@ export const PenaltiesUnder = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />Penalties will be imposed on those who, directly or through agents, manufacture food items for human consumption that contain extraneous substances with the intention of selling, storing, distributing, or importing them. Penalties may reach a maximum of Rs. 1 lakh.</li>
          </ul>
          <p>Furthermore, persons falling under Section 31, subsection 2, who fail to comply with the conditions may face FSSAI Act penalties of up to Rs 25,000.</p>
+      </div>
+      <div className='flex-4' >
+        <Image alt="Penalties Under the FSSAI Act " className="Penalties-img w-100" height={882} loading="lazy" src={dft} />
       </div>
      
       </div>
