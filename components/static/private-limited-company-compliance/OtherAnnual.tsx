@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/private-limited-company-compliance/Other Annual_Compliance_for_Private_Limited_Company_in_India.svg'
 
 export const OtherAnnual = () => {
   return (
@@ -8,7 +8,7 @@ export const OtherAnnual = () => {
       <p className='main-para mb-2'> Following are some other annual compliance for Private Limited Company in India:</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={350} loading="lazy" src={bft} />
+          <Image alt="Other Annual Compliance for Private Limited Company in India" className="Other-img w-100" height={550} loading="lazy" src={bft} />
       </div>
      
       <div className='flex-5 pt-5'>

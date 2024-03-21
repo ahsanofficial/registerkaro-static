@@ -1,17 +1,15 @@
-import React from 'react'
 import Head from 'next/head'
-import { Hero } from '../components/static/private-limited-company-compliance/Hero'
-import { Process } from '../components/static/private-limited-company-compliance/Process'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
 import { Benefits } from '../components/static/private-limited-company-compliance/Benefits'
 import { Compilance } from '../components/static/private-limited-company-compliance/Compilance'
-import { PartnershipDeed } from '../components/static/private-limited-company-compliance/PartnershipDeed'
-import { WhatConseq } from '../components/static/private-limited-company-compliance/WhatConseq'
-import { TypeOfComp } from '../components/static/private-limited-company-compliance/TypeOfComp'
-import { OtherAnnual } from '../components/static/private-limited-company-compliance/OtherAnnual'
 import { EventBased } from '../components/static/private-limited-company-compliance/EventBased'
+import { Hero } from '../components/static/private-limited-company-compliance/Hero'
 import { MandatoryCompilance } from '../components/static/private-limited-company-compliance/MandatoryCompilance'
+import { OtherAnnual } from '../components/static/private-limited-company-compliance/OtherAnnual'
+import { PartnershipDeed } from '../components/static/private-limited-company-compliance/PartnershipDeed'
+import { Process } from '../components/static/private-limited-company-compliance/Process'
+import { TypeOfComp } from '../components/static/private-limited-company-compliance/TypeOfComp'
 
 const faq = [
     {
@@ -120,13 +118,13 @@ const Home = () => {
             <h1 className='main-heading'>What are the Benefits of Private Limited Company Compliance in India?</h1>
             <div className='heading-line'></div>
             <Benefits/>
-            <h1 className='main-heading'>Types of Compliance for a Company Registered in India</h1>
+             <h1 className='main-heading'>Types of Compliance for a Company Registered in India</h1>
             <div className='heading-line'></div>
             <TypeOfComp/>
             <h1 className='main-heading'>External Compliance</h1>
             <div className='heading-line'></div>
             <PartnershipDeed/>
-            <h1 className='main-heading'>Internal Compliance</h1>
+             <h1 className='main-heading'>Internal Compliance</h1>
             <div className='heading-line'></div>
             <Compilance/>
             <h1 className='main-heading'>Mandatory Private Limited Company Compliance</h1>
@@ -138,9 +136,6 @@ const Home = () => {
             <h1 className='main-heading'>Event-Based Compliance for Private Limited Company</h1>
             <div className='heading-line'></div>
             <EventBased/>
-            <h1 className='main-heading'>What are the Consequences of Non-Compliance for LLPs?</h1>
-            <div className='heading-line'></div>
-            <WhatConseq/>
             <h1 className="main-heading">Why RegisterKaro?</h1>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

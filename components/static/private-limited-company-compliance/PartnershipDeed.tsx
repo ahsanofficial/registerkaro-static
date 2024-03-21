@@ -1,17 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/pvt-reg/differentType.svg'
-import documents from '../../../assets/images/pvt-reg/documents.svg'
+import dft from '../../../assets/images/static/private-limited-company-compliance/External_Compliance.svg'
+
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const PartnershipDeed = () => {
   return (
     <div >
         <p className='main-para mb-0'id='PartnershipDeed'>This type of compliance refers to following the rules, laws and standards set by the Government to avoid any kind of negative impact on the Company’s Goodwill. The State in which the firm is built public relations and trust & brings transparency to its business. Complying with all the rules makes sure no unnecessary duplication of efforts of resources. External Companies are further divided into 2 different parts:</p>
-      <div className='flex justify-content-center'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
+     
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
+    
       <div className='flex-7'>
          <h3>Regulatory Compliance:</h3>
          <p>These are some rules and laws passed by some regulatory bodies set up by the Central or State Government. Some of these are listed below:</p>
@@ -93,6 +92,9 @@ export const PartnershipDeed = () => {
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />The Factories Act of 1948</li>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />The Trade Unions Act of 1926.</li>
          </ul>
+      </div>
+      <div className='flex-4'>
+        <Image alt="External Compliance" className="External-img w-100" height={1082} loading="lazy" src={dft} />
       </div>
       </div>
     </div>

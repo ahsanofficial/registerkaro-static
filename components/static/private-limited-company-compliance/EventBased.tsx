@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/private-limited-company-compliance/event_based_compliance.svg'
 
 export const EventBased = () => {
   return (
@@ -19,7 +19,7 @@ export const EventBased = () => {
           <p><strong>7: </strong>If there is an appointment/change of the statutory auditors of the company.</p>
            </div>
            <div className='flex-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={350} loading="lazy" src={bft} />
+          <Image alt="Event-Based Compliance for Private Limited Company" className="EventBased-img w-100" height={350} loading="lazy" src={bft} />
           </div>
         </div>
         <p className='main-para'><strong>Note: </strong>It is vital to file different forms with the Registrar for all such events within a specific period. In case of missing out on this, additional fees/penalties might be levied. Therefore, it is vital to meet such compliance on time.</p>
