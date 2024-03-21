@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/private-limited-company-compliance/External_Compliance.svg'
-
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
-export const PartnershipDeed = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const PartnershipDeed =({ cityName }: HeroProps)  => {
   return (
     <div >
         <p className='main-para mb-0'id='PartnershipDeed'>This type of compliance refers to following the rules, laws and standards set by the Government to avoid any kind of negative impact on the Company’s Goodwill. The State in which the firm is built public relations and trust & brings transparency to its business. Complying with all the rules makes sure no unnecessary duplication of efforts of resources. External Companies are further divided into 2 different parts:</p>
@@ -39,7 +41,7 @@ export const PartnershipDeed = () => {
         </ul>
         <h3>5. Secretarial Compliance</h3>
         <ul className='tick list-unstyled'>
-          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />In India, Businesses or Companies must comply with secretarial matters cited under the Companies Act & report to the concerned Registrar of Companies.</li>
+          <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />In {cityName}, Businesses or Companies must comply with secretarial matters cited under the Companies Act & report to the concerned Registrar of Companies.</li>
         </ul>
         <h3>6. Labour Laws</h3>
         <ul className='tick list-unstyled'>

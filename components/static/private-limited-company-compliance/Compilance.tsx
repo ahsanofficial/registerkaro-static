@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/private-limited-company-compliance/what_are_consequences.svg";
-
-export const Compilance = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Compilance = ({ cityName }: HeroProps) => {
   return (
     <div id="Compilance">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

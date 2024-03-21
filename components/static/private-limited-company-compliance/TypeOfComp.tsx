@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/private-limited-company-compliance/types.svg";
-
-export const TypeOfComp = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const TypeOfComp = ({ cityName }: HeroProps) => {
   return (
     <div id="TypeOfComp">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

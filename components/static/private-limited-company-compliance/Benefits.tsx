@@ -1,13 +1,15 @@
 import React from "react";
 import dft from "../../../assets/images/static/private-limited-company-compliance/What_are_the_Benefits.svg";
 import Image from "next/image";
-
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div className="DocumentButtonWise w-80 m-auto" id="Benefits">
       <p className="main-para mb-2">
         Following are some important benefits of Private Limited Company
-        Compliance in India:
+        Compliance in {cityName}:
       </p>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
         <div className="flex-7">
@@ -28,7 +30,7 @@ export const Benefits = () => {
             also reduce the business or company status. Furthermore, the Company
             will also be declared “in-operational” & removed from ROC. Such
             Companies’ Directors are debarred from all future businesses in
-            India.
+            {cityName}.
           </p>
           <p>
             <strong>Credibility:</strong> The date of filing Private Limited

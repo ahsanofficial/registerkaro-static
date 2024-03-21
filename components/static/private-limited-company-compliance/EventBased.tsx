@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/private-limited-company-compliance/event_based_compliance.svg'
-
-export const EventBased = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const EventBased = ({ cityName }: HeroProps) => {
   return (
     <div id='EventBased'>
       <p className='main-para mb-1'> Following is the list of event-based compliance for Private Limited Company:</p>
