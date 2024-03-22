@@ -1,15 +1,11 @@
-import Image from 'next/image'
-import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
-import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const RequirementsObtaining  = () => {
+import Image from 'next/image';
+import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg';
+interface HeroProps { cityName: string;}
+export const RequirementsObtaining  = ({ cityName }: HeroProps) => {
   return (
     <div id='RequirementsObtaining'>
-      <div className='flex justify-content-center'>
-    <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-  </div>
-<p className='main-para'>The FSSAI Central License, a crucial legal authorization granted by the Food Safety and Standards Authority of India (FSSAI), is available to food businesses meeting specific criteria:</p>
+      
+<p className='main-para'>The FSSAI Central License, a crucial legal authorization granted by the Food Safety and Standards Authority of {cityName} (FSSAI), is available to food businesses meeting specific criteria:</p>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <h3>Mandatory Criteria:</h3>
