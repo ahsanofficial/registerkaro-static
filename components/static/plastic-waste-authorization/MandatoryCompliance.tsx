@@ -1,15 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
+import dft from '../../../assets/images/static/plastic-waste-authorization/mandatory.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const MandatoryCompliance  = () => {
   return (
-    <div >
-        
-      <div className='flex justify-content-center' id='MandatoryCompliance'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={382} loading="lazy" src={dft} />
-      </div>
+    <div  id='MandatoryCompliance'>
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p>The plastic waste authorization holder has to comply with the following mandatory compliance:</p>
@@ -31,6 +27,9 @@ export const MandatoryCompliance  = () => {
         <ul className='tick list-unstyled'>
           <li><Image alt="ulArrow" className="ulArrow-img" loading="lazy" height={30} width={30} src={ulArrow} />The authorization holder has to follow the best practices and norms for plastic waste management, such as extended producer responsibility, collection and channelization, segregation and transportation, etc.</li>
           </ul>
+      </div>
+      <div className='flex justify-content-center'>
+        <Image alt="What are the mandatory compliance?" className="MandatoryCompliance-img w-100" height={382} loading="lazy" src={dft} />
       </div>
       </div>
     </div>

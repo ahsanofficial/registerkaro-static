@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/plastic-waste-authorization/Plastic_Waste_Authorization_certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -45,9 +45,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Plastic Waste Authorization Certificate [Sample]</p>
+                <p className="small-heading text-center">Plastic Waste Authorization Certificate</p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Get Plastic Waste Authorization in India" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

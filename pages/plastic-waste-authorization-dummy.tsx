@@ -9,7 +9,7 @@ import { Procedure } from '../components/static/plastic-waste-authorization/Proc
 import { Process } from '../components/static/plastic-waste-authorization/Process'
 import { RequirementsAuthorizationRules } from '../components/static/plastic-waste-authorization/RequirementsAuthorizationRules'
 import { ValidityRenewal } from '../components/static/plastic-waste-authorization/ValidityRenewal'
-import { WhoCan } from '../components/static/plastic-waste-authorization/WhoCan'
+import  WhoCan  from '../components/static/plastic-waste-authorization/WhoCan'
 const faq = [
     {
         "question": "What is plastic waste authorization?",
@@ -41,46 +41,43 @@ const faq = [
 const Home = () => {
     return (
         <div className='services-pages plastic-waste-authorization-reg'>
-            <Head>
-                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
-                <meta name="robots" content="noindex,nofollow" />
-                <meta name="googlebot" content="noindex,nofollow" />
-                <meta name="robots" content="all" />
-                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-                <meta name="google" content="notranslate" key="notranslate" />
+           <Head>
+                <title>Plastic Waste Authorization in India | RegisterKaro</title>
+                <meta name="description" content="The Official RegisterKaro" />
+                <link rel="canonical" href="https://www.registerkaro.in/plastic-waste-authorization" />
                 <link rel="icon" href="/favicon.ico" />
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                <meta property="og:title" content="Plastic Waste Authorization in India | RegisterKaro" />
+                <meta property="og:description" content="The Official RegisterKaro" />
             </Head>
             <Hero />
             <h1 className='main-heading'>Get Plastic Waste Authorization in India</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Who can apply?</h1>
+            <h2 className='main-heading'>Who can apply?</h2>
             <div className='heading-line'></div>
             <WhoCan/>
-            <h1 className='main-heading'>Requirements for Authorization</h1>
+            <h2 className='main-heading'>Requirements for Authorization</h2>
             <div className='heading-line'></div>
             <RequirementsAuthorizationRules/>
-            <h1 className='main-heading'>What are the documents required for Plastic Waste Authorization?</h1>
+            <h2 className='main-heading'>What are the documents required for Plastic Waste Authorization?</h2>
             <div className='heading-line'></div>
             <DocumentsRequired/>
-            <h1 className='main-heading'>What is the procedure for Plastic Waste Authorization?</h1>
+            <h2 className='main-heading'>What is the procedure for Plastic Waste Authorization?</h2>
             <div className='heading-line'></div>
             <Procedure/>
-            <h1 className='main-heading'>What is the validity and renewal of Authorization?</h1>
+            <h2 className='main-heading'>What is the validity and renewal of Authorization?</h2>
             <div className='heading-line'></div>
             <ValidityRenewal/>
-            <h1 className='main-heading'>Cancellation, suspension, or revocation</h1>
+            <h2 className='main-heading'>Cancellation, suspension, or revocation</h2>
             <div className='heading-line'></div>
             <Cancellation/>
-            <h1 className='main-heading'>What are the mandatory compliance?</h1>
+            <h2 className='main-heading'>What are the mandatory compliance?</h2>
             <div className='heading-line'></div>
             <MandatoryCompliance/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>
