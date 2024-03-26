@@ -95,25 +95,25 @@ const Home = () => {
             <h1 className='main-heading'>Get Online PRO Authorization in India</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Legal Framework for PRO Authorization </h1>
+            <h2 className='main-heading'>Legal Framework for PRO Authorization </h2>
             <div className='heading-line'></div>
             <LegalFramework/>
-            <h1 className='main-heading'>Eligibility/ Pre-Licensing/ Mandatory Prerequisites</h1>
+            <h2 className='main-heading'>Eligibility/ Pre-Licensing/ Mandatory Prerequisites</h2>
             <div className='heading-line'></div>
             <Eligibility/>
-            <h1 className='main-heading'>Procedure for Obtaining PRO Authorization</h1>
+            <h2 className='main-heading'>Procedure for Obtaining PRO Authorization</h2>
             <div className='heading-line'></div>
             <ProcedureObtaining/>
-            <h1 className='main-heading'>Cancellation/Validity/Renewal of the PRO Authorization</h1>
+            <h2 className='main-heading'>Cancellation/Validity/Renewal of the PRO Authorization</h2>
             <div className='heading-line'></div>
             <CancellationValid/>
-            <h1 className='main-heading'>Mandatory Compliance after getting PRO Authorization</h1>
+            <h2 className='main-heading'>Mandatory Compliance after getting PRO Authorization</h2>
             <div className='heading-line'></div>
             <MandatoryCompliance/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>

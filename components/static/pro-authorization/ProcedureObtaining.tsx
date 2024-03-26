@@ -5,11 +5,8 @@ import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
 
 export const ProcedureObtaining = () => {
   return (
-    <div >
-        
-      <div className='flex justify-content-center' id='ProcedureObtaining'>
-        <Image alt="Types of business structures in india and these structures are private limited company, public limited company, one person company, limited and sole proprietorship" className="DifferentTypes-img w-100" height={482} loading="lazy" src={dft} />
-      </div>
+    <div id='ProcedureObtaining'>
+
      <div className='DocumentArrowWise flex w-80 m-auto mobile-flex-column-reverse'>
       <div className='flex-7'>
         <p>The procedure for obtaining PRO authorization from the CPCB is as follows:</p>

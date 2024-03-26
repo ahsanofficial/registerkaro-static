@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/pro-authorization/legal.svg'
 
 export const LegalFramework = () => {
   return (
@@ -8,7 +8,7 @@ export const LegalFramework = () => {
      <p className='main-para mb-2'>The legal framework for PRO authorization is as follows:</p>
     <div className='benefits flex w-80 m-auto mobile-flex-column' >
        <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="benefits-img w-100" height={550} loading="lazy" src={bft} />
+          <Image alt="Legal Framework for PRO Authorization" className="LegalFramework-img w-100" height={550} loading="lazy" src={bft} />
       </div>
       <div className='flex-7 pt-5'>
       <p><strong>1: </strong>The Environment (Protection) Act, 1986, which is the umbrella legislation that empowers the central government to take measures to protect and improve the quality of the environment and prevent, control and abate environmental pollution. The act also provides for the establishment of the National Environmental Appellate Authority, which hears appeals against the orders of the central government or any authority under the act. The act also lays down the penalties for contravention of the provisions of the act or the rules made thereunder.</p>

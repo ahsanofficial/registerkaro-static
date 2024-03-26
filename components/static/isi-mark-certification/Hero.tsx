@@ -7,12 +7,14 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "2 DIN and DSC for two Directors",
-        "Drafting of MoA & AoA",
-        "Registration fees and stamp duty",
-        "Company Incorporation Certificate",
-        "Company PAN and TAN",
-        "ZohoBooks subscription"
+        "Determine if product falls under BIS purview and complies with standards.",
+        "We provides expert guidance for ISI certification.",
+        "Experienced consultants assist in documentation and evaluation.",
+        "Offer virtual and on-site pre-audits.",
+        "Schedule factory audit with BIS officer.",
+        "Assistance in setting up in-house testing facility if needed.",
+        "Coordinate with BIS accredited lab for product testing.",
+        "Assist in custom clearance of sample products."
     ]
 }
 
