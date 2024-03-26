@@ -2,8 +2,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/plastic-waste-authorization/validity.svg";
-
-export const ValidityRenewal = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ValidityRenewal = ({ cityName }: HeroProps)  => {
   return (
     <div id="ValidityRenewal">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/plastic-waste-authorization/procedure.svg'
-
-export const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Procedure = ({ cityName }: HeroProps)  => {
   return (
     <div id='Procedure'>
      <p className='main-para mb-2'>The procedure for plastic waste authorization involves the following steps:</p>

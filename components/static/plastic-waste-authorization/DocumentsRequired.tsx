@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/plastic-waste-authorization/Documents.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentsRequired = ({ cityName }: HeroProps)  => {
   return (
     <div id='DocumentsRequired'>
         

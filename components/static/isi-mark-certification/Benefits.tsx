@@ -1,15 +1,17 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/isi-mark-certification/benefits.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-
-export const Benefits = () => {
+export const Benefits = ({ cityName }: HeroProps)  => {
 
 
   return (
     <div  id="Benefits">
       <p className="main-para mb-2">
-        Obtaining ISI Mark Certification in India offers various advantages,
+        Obtaining ISI Mark Certification in {cityName} offers various advantages,
         including:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/plastic-waste-authorization/Requirements_for_Authorization.svg'
-
-export const RequirementsAuthorizationRules = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RequirementsAuthorizationRules = ({ cityName }: HeroProps)  => {
   return (
     <div id='RequirementsAuthorizationRules'>
      <p className='main-para mb-2'>The requirements for authorization vary depending on the type and capacity of the plastic waste activities undertaken by the entity. However, some of the common requirements are:</p>

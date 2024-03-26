@@ -1,13 +1,15 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/plastic-waste-authorization/Plastic_Waste_Authorization_certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps)  => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Plastic waste authorization is a certification that allows businesses to legally collect, store, transport, process, or recycle plastic waste in India. Plastic waste refers to any discarded plastic material that has no further use or value. Plastic waste can pose serious threats to human health and the environment, as it can leach toxic chemicals, clog drains, choke animals, and pollute water bodies. Therefore, proper management and disposal of plastic waste is essential to prevent its adverse impacts.</p>
-                <p className='text-justify'>In India, the Plastic Waste Management Rules, 2016, as amended in 2018, are the main legal framework for regulating the plastic waste sector. These rules aim to promote the environmentally sound management of plastic waste, reduce its generation, and encourage its reuse, recycling, and recovery. The rules also assign responsibilities and obligations to various stakeholders, such as producers, consumers, local bodies, waste pickers, collection centers, and recyclers, to ensure the effective implementation of the plastic waste management system.</p>
+                <p className='text-justify'>Plastic waste authorization is a certification that allows businesses to legally collect, store, transport, process, or recycle plastic waste in {cityName}. Plastic waste refers to any discarded plastic material that has no further use or value. Plastic waste can pose serious threats to human health and the environment, as it can leach toxic chemicals, clog drains, choke animals, and pollute water bodies. Therefore, proper management and disposal of plastic waste is essential to prevent its adverse impacts.</p>
+                <p className='text-justify'>In {cityName}, the Plastic Waste Management Rules, 2016, as amended in 2018, are the main legal framework for regulating the plastic waste sector. These rules aim to promote the environmentally sound management of plastic waste, reduce its generation, and encourage its reuse, recycling, and recovery. The rules also assign responsibilities and obligations to various stakeholders, such as producers, consumers, local bodies, waste pickers, collection centers, and recyclers, to ensure the effective implementation of the plastic waste management system.</p>
                 <p className='text-justify'>According to the rules, any entity that is engaged in the collection, storage, transport, processing, or recycling of plastic waste is required to obtain an authorization from the concerned State Pollution Control Board (SPCB) or Union Territory Pollution Control Committee (UTPCC). The authorization is granted based on the compliance with the standards and guidelines issued by the Central Pollution Control Board (CPCB) and the Ministry of Environment, Forest and Climate Change (MoEFCC).</p>
                 <p className='text-justify'>The plastic waste authorization is mandatory for any entity that is involved in the plastic waste sector and non-compliance with the rules and the authorization can attract penalties and legal actions. The authorization not only ensures the environmental and social benefits of plastic waste management, but also provides a competitive edge and a recognition to the authorized entity in the market.</p>
                 <div className='page-point'>

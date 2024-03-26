@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/isi-mark-certification/key_point.svg";
-
-const Checklist = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Checklist = ({ cityName }: HeroProps)  => {
   return (
     <div id="Checklist">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

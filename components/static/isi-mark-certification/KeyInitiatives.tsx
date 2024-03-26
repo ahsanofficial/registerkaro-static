@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/isi-mark-certification/9.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const KeyInitiatives = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const KeyInitiatives = ({ cityName }: HeroProps)  => {
   return (
 
     <div id='KeyInitiatives'>

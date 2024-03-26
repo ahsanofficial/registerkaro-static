@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/plastic-waste-authorization/cancellation.svg";
-
-export const Cancellation = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Cancellation = ({ cityName }: HeroProps)  => {
   return (
     <div id="Cancellation">
       <p className="main-para">

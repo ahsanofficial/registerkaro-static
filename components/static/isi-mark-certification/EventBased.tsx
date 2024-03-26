@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/isi-mark-certification/Primary_Objectives_of_ISI_Certification.svg'
-
-export const EventBased = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const EventBased = ({ cityName }: HeroProps)  => {
   return (
     <div id='EventBased'>
     
