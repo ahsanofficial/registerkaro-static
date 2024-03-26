@@ -14,7 +14,7 @@ export const ValidityRenewal = () => {
         <Image
             alt="What is the validity and renewal of Authorization?"
             className="ValidityRenewal-img w-100"
-            height={480}
+            height={400}
             loading="lazy"
             src={bft}
           />

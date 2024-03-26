@@ -1,13 +1,37 @@
 .isi-mark-certification-reg {
+  .main-parition{
+    display: flex;
+  }
+  .line{
+    width: 4px;
+    background-color: #E9A038;
+    margin: 0 0.5rem;
+  }
+  
   @media screen and (max-width: 990px) {
-    .DifferentTypes-img {
-      height: 280px;
+    .line{
+      display: none;
     }
-    .benefits-img {
-      height: 320px;
+    .main-parition{
+      flex-direction: column;
     }
-    .DocumentArrowWise-img {
-      height: 320px;
+    .Primary-img{
+      height: 500px;
+    }
+    .KeyPoints-img{
+      height: 500px;
+    }
+    .Benefits-img{
+      height: 500px;
+    }
+    .listProducts-img{
+      height: 500px;
+    }
+    .validity-img{
+      height: 500px;
+    }
+    .Reasons-img{
+      height: 500px;
     }
   }
 }

@@ -10,7 +10,7 @@ import { EventBased } from '../components/static/isi-mark-certification/EventBas
 import { KeyInitiatives } from '../components/static/isi-mark-certification/KeyInitiatives'
 import { ObjectivesChecklist } from '../components/static/isi-mark-certification/ObjectivesChecklist'
 import { AdvantagesBIS } from '../components/static/isi-mark-certification/AdvantagesBIS'
-import { Checklist } from '../components/static/isi-mark-certification/Checklist'
+import  Checklist  from '../components/static/isi-mark-certification/Checklist'
 const Home = () => {
     return (
         <div className='services-pages isi-mark-certification-reg'>
@@ -29,31 +29,31 @@ const Home = () => {
             <h1 className='main-heading'>Get ISI Mark Certification Online in India</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Primary Objectives of ISI Certification</h1>
+            <h2 className='main-heading'>Primary Objectives of ISI Certification</h2>
             <div className='heading-line'></div>
             <EventBased/>
-            <h1 className='main-heading'>Key Points to Consider for ISI Mark Certification</h1>
+            <h2 className='main-heading'>Key Points to Consider for ISI Mark Certification</h2>
             <div className='heading-line'></div>
             <Checklist/>
-            <h1 className='main-heading'>Benefits of Obtaining ISI Mark Certification</h1>
+            <h2 className='main-heading'>Benefits of Obtaining ISI Mark Certification</h2>
             <div className='heading-line'></div>
             <Benefits/>
-            <h1 className='main-heading'>List of Products under ISI Certification</h1>
+            <h2 className='main-heading'>List of Products under ISI Certification</h2>
             <div className='heading-line'></div>
             <ObjectivesChecklist/>
-            <h1 className='main-heading'>Documents Required for ISI Mark Certification</h1>
+            <h2 className='main-heading'>Documents Required for ISI Mark Certification</h2>
             <div className='heading-line'></div>
             <KeyInitiatives/>
-            <h1 className='main-heading'>Procedure for ISI Mark Certification in India</h1>
+            <h2 className='main-heading'>Procedure for ISI Mark Certification in India</h2>
             <div className='heading-line'></div>
             <AdvantagesBIS/>
-            <h1 className='main-heading'>Validity and Renewal of ISI Certificate</h1>
+            <h2 className='main-heading'>Validity and Renewal of ISI Certificate</h2>
             <div className='heading-line'></div>
             <PartnershipDeed/>
-            <h1 className='main-heading'>Reasons for ISI Application Rejection</h1>
+            <h2 className='main-heading'>Reasons for ISI Application Rejection</h2>
             <div className='heading-line'></div>
             <OtherAnnual/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
         </div>

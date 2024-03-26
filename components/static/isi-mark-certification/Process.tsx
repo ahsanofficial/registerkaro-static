@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/isi-mark-certification/ISI_Mark_Certification.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -44,9 +44,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">ISI Mark Certification Certificate [Sample]</p>
+                <p className="small-heading text-center">ISI Mark Certification Certificate </p>
                 <div>
-                    <Image alt="A certificate of incorporation for an indian company" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Get ISI Mark Certification Online in India" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
