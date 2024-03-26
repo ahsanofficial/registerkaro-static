@@ -1,0 +1,39 @@
+import Image from "next/image";
+import React from "react";
+import bft from "../../../assets/images/pvt-reg/benefit.svg";
+
+const Applicable = () => {
+  return (
+    <div id="Applicable">
+      <p className="main-para">Environmental clearance is governed by various national and international laws, regulations, standards, and guidelines, such as:</p>
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="flex-3">
+        <Image
+            alt=""
+            className="Applicable-img w-100"
+            height={400}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
+        <div className="flex-7">
+            <p><strong>1 : </strong>The Environment (Protection) Act, 1986</p>
+            <p><strong>2 : </strong>The National Green Tribunal Act, 2010</p>
+            <p><strong>3 : </strong>The Environmental Impact Assessment Notification, 2006</p>
+            <p><strong>4 : </strong>The CRZ Notification, 2011</p>
+            <p><strong>5 : </strong>The Forest (Conservation) Act, 1980</p>
+            <p><strong>6 : </strong>The Wildlife (Protection) Act, 1972</p>
+            <p><strong>7 : </strong>The Biological Diversity Act, 2002</p>
+            <p><strong>8 : </strong>The Convention on Biological Diversity, 1992</p>
+            <p><strong>9 : </strong>The Ramsar Convention on Wetlands, 1971</p>
+            <p><strong>10 : </strong>The World Heritage Convention, 1972</p>
+        </div>
+       
+      </div>
+    </div>
+  );
+};
+
+export default Applicable;
+
+
