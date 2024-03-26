@@ -1,14 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from '../../../assets/images/static/private-reg/benefit.svg'
+import bft from '../../../assets/images/static/shop-and-establishment-act-registration/Which_entities_have_to_register.svg'
 
 export const WhichEntities = () => {
   return (
-
-    <div className='benefits flex w-80 m-auto mobile-flex-column-reverse' id='WhichEntities'>
-      
+  <div  id='WhichEntities'>
+      <p className='main-para'>Following is the list of entities that can apply for Shop and Establishment Act Registration:</p>
+    <div className='benefits flex w-80 m-auto mobile-flex-column'>
+      <div className='flex-4 '>
+          <Image alt="Which entities have to register under the Shop and Establishment Act?" className="WhichEntities-img w-100" height={500} loading="lazy" src={bft} />
+      </div>
       <div className='flex-7 pt-5'>
-      <p>Following is the list of entities that can apply for Shop and Establishment Act Registration:</p>
       <p>1: Wholesale and Retail Shops;</p>
       <p>2: Restaurant or eating house;</p>
       <p>3: Residential hotels;</p>
@@ -18,10 +20,8 @@ export const WhichEntities = () => {
       <p>7: Premises where services are provide to customers including offices;</p>
       <p>8: Commercial establishment.</p>
       </div>
-      <div className='flex-4 mt-5'>
-          <Image alt="The benefits of private limited company in india and these are Separate Legal Entity, Ease in Raising Funds, Limited Liability, Easy Transferable, Limited Liability and ESOP" className="WhichEntities-img w-100" height={350} loading="lazy" src={bft} />
-      </div>
+    
      </div>
-
+     </div>
   )
 }

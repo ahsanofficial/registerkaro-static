@@ -99,31 +99,31 @@ const Home = () => {
             <h1 className='main-heading'>Get Online Shop and Establishment Act Registration</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>What are the various regulations under the Shop and Establishment Act?</h1>
+            <h2 className='main-heading'>What are the various regulations under the Shop and Establishment Act?</h2>
             <div className='heading-line'></div>
             <WhatRegulations/>
-            <h1 className='main-heading'>Importance of Shop and Establishment Act License</h1>
+            <h2 className='main-heading'>Importance of Shop and Establishment Act License</h2>
             <div className='heading-line'></div>
             <ImportanceShop/> 
-            <h1 className='main-heading'>Which entities have to register under the Shop and Establishment Act?</h1>
+            <h2 className='main-heading'>Which entities have to register under the Shop and Establishment Act?</h2>
             <div className='heading-line'></div>
             <WhichEntities/>
-            <h1 className='main-heading'>Advantages of Shop and Establishment Act Registration</h1>
+            <h2 className='main-heading'>Advantages of Shop and Establishment Act Registration</h2>
             <div className='heading-line'></div>
             <AdvantagesShop/>  
-            <h1 className='main-heading'>Documents Required for Shop and Establishment Act Registration</h1>
+            <h2 className='main-heading'>Documents Required for Shop and Establishment Act Registration</h2>
             <div className='heading-line'></div>
             <ChecklistDocumentRequired/> 
-            <h1 className='main-heading'>Procedure for Shop and Establishment Act Registration</h1>
+            <h2 className='main-heading'>Procedure for Shop and Establishment Act Registration</h2>
             <div className='heading-line'></div>
             <ProcedureShop/> 
-            <h1 className='main-heading'>Penalties for not obtaining Shop and Establishment License in India</h1>
+            <h2 className='main-heading'>Penalties for not obtaining Shop and Establishment License in India</h2>
             <div className='heading-line'></div>
             <Penalities/> 
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>

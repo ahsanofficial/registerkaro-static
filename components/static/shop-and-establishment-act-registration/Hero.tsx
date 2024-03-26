@@ -7,12 +7,11 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "2 DIN and DSC for two Directors",
-        "Drafting of MoA & AoA",
-        "Registration fees and stamp duty",
-        "Company Incorporation Certificate",
-        "Company PAN and TAN",
-        "ZohoBooks subscription"
+        "Consultation from Shop License Expert",
+        "Documents preparation",
+        "Application Submission",
+        "Registration Certificate",
+        "Current Account Opening Assistance"
     ]
 }
 
