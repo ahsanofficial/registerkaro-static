@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/shop-and-establishment-act-registration/advantages.svg'
 
-
-export const AdvantagesShop = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const AdvantagesShop = ({ cityName }: HeroProps) => {
 
   return (
     <div className="DocumentButtonWise w-80 m-auto" id="AdvantagesShop">

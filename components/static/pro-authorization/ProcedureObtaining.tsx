@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import React from 'react'
-import dft from '../../../assets/images/static/private-reg/differentType.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const ProcedureObtaining = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcedureObtaining = ({ cityName }: HeroProps) => {
   return (
     <div id='ProcedureObtaining'>
 

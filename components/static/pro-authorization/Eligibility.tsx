@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/pro-authorization/Eligibility.svg'
-
-export const Eligibility = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Eligibility = ({ cityName }: HeroProps) => {
   return (
     <div id='Eligibility'>
      <p className='main-para mb-2'>The eligibility, pre-licensing and mandatory pre-requisites for obtaining PRO authorization are as follows:</p>

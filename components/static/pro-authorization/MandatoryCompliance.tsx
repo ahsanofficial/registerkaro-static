@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import dft from '../../../assets/images/static/pro-authorization/Mandatory_Compliance_aft.svg'
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const MandatoryCompliance  = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const MandatoryCompliance  = ({ cityName }: HeroProps) => {
   return (
     <div >
         

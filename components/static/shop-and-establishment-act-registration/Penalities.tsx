@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/shop-and-establishment-act-registration/panalties.svg";
-
-export const Penalities = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Penalities = ({ cityName }: HeroProps) => {
   return (
     <div id="Penalities">
       <div className="DocumentArrowWise flex w-80 m-auto mobile-flex-column">

@@ -1,13 +1,15 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/shop-and-establishment-act-registration/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
                 <p className='text-justify'>
-                    In India, the Shop and Establishment Act was introduced to monitor/regulate work conditions & to protect the employees’ right in an unorganised sector of employment under the Indian Labor Law. The Shop and Establishment Act Registration is compulsory for all types of food businesses in India be it a food truck or a fine dining restaurant. Generally, shops are defined under the Shop and Establishment Act as the premises where the products selling take place either by retail or wholesale or where services are provided to customers. It comprises offices, storerooms, warehouses & godowns used in association with the trade or business.
+                    In {cityName}, the Shop and Establishment Act was introduced to monitor/regulate work conditions & to protect the employees’ right in an unorganised sector of employment under the Indian Labor Law. The Shop and Establishment Act Registration is compulsory for all types of food businesses in {cityName} be it a food truck or a fine dining restaurant. Generally, shops are defined under the Shop and Establishment Act as the premises where the products selling take place either by retail or wholesale or where services are provided to customers. It comprises offices, storerooms, warehouses & godowns used in association with the trade or business.
                 </p>
 
                 <p className='text-justify'>
@@ -35,7 +37,7 @@ export const Process = () => {
                                 <li>Procedure for Shop and Establishment Act Registration</li>
                             </a>
                             <a href="#Penalities" className="scrollTo">
-                                <li>Penalties for not obtaining Shop and Establishment License in India</li>
+                                <li>Penalties for not obtaining Shop and Establishment License in {cityName}</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

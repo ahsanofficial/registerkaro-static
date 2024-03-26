@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/shop-and-establishment-act-registration/Importance_of_Shop.svg'
-
-export const ImportanceShop = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ImportanceShop = ({ cityName }: HeroProps) => {
   return (
     <div className="checklist" id="ImportanceShop">
       <div className="checklist flex w-80 m-auto mobile-flex-column-reverse">

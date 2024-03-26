@@ -3,8 +3,10 @@ import React from 'react'
 import bft from '../../../assets/images/static/shop-and-establishment-act-registration/procedure.svg'
 
 import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-export const ProcedureShop = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcedureShop = ({ cityName }: HeroProps) => {
   return (
     <div  id='ProcedureShop' >
       <p className='main-para'>The complete process for getting the Shop and Establishment Registration Certificate differs from state to state and it can be obtained offline or online.</p>

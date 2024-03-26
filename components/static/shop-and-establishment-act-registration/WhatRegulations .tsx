@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/shop-and-establishment-act-registration/What_are_the_various_regulations.svg'
-
-export const WhatRegulations = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhatRegulations = ({ cityName }: HeroProps) => {
   return (
     <div id='WhatRegulations'>
        <p className='main-para'>Following are the regulations under the Shop and Establishment Act:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/shop-and-establishment-act-registration/Documents.svg";
-
-export const ChecklistDocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ChecklistDocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div className="checklist" id="ChecklistDocumentRequired">
       <p className="main-para">

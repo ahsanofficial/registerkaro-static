@@ -14,8 +14,10 @@ let hero = {
 
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,7 +31,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>PRO Authorization</h4>
-                <p>Get your PRO Authorization for your projects online with our hassle-free and affordable services. More than 5000 businesses trust us and keep their business compliant with the law. So, you are just a click away from getting the fastest and most affordable way to get PRO Authorization in India.</p>
+                <p>Get your PRO Authorization for your projects online with our hassle-free and affordable services. More than 5000 businesses trust us and keep their business compliant with the law. So, you are just a click away from getting the fastest and most affordable way to get PRO Authorization in {cityName}.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/shop-and-establishment-act-registration/Which_entities_have_to_register.svg'
-
-export const WhichEntities = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhichEntities = ({ cityName }: HeroProps) => {
   return (
   <div  id='WhichEntities'>
       <p className='main-para'>Following is the list of entities that can apply for Shop and Establishment Act Registration:</p>
