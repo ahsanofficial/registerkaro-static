@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nidhi-company-compliance/List_of_Annual_Nidhi_Company_Compliance.svg";
 
 const ListofAnnual = () => {
   return (
@@ -9,11 +9,11 @@ const ListofAnnual = () => {
         Following is the list of Annual Nidhi Company Compliance:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
-            alt=""
+            alt="List of Annual Nidhi Company Compliance"
             className="ListofAnnual-img w-100"
-            height={480}
+            height={1080}
             loading="lazy"
             src={bft}
           />

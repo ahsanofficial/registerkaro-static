@@ -17,11 +17,11 @@ const Home = () => {
     return (
         <div className='services-pages nidhi-comp-compliance-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
+                <title>Nidhi Company Compliance  | RegisterKaro</title>
                 <meta name="description" content="The Official RegisterKaro" />
                 <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
+                <meta property="og:title" content="Nidhi Company Compliance | RegisterKaro" />
                 <meta property="og:description" content="The Official RegisterKaro" />
             </Head>
             <Hero />

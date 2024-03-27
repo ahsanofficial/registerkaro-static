@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nidhi-company-compliance/new_compliance.svg";
 
 const NewComplianceRules = () => {
   return (
@@ -14,11 +14,11 @@ const NewComplianceRules = () => {
             <p><strong>3 : </strong>Nidhi Company must acquire central government approval to operate within 14 months after incorporation.</p>
             <p><strong>4 : </strong>If a corporation does not hear back from the Central Government after 45 days of filing the NDH-4 form, the approval is assumed granted.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="New Compliance Rules for Nidhi Companies"
             className="NewComplianceRules-img w-100"
-            height={400}
+            height={350}
             loading="lazy"
             src={bft}
           />

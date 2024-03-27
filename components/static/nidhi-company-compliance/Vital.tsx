@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nidhi-company-compliance/some_vital_nidhi.svg";
 
 const Vital = () => {
   return (
@@ -9,9 +9,9 @@ const Vital = () => {
         <div className="flex-7 pt-5">
             <p>Like any other financial institution, Nidhi Companies must adhere to certain regulatory requirements. They have to adhere to the following fundamental Nidhi Company Compliance:</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="Some Vital Nidhi Company Compliance"
             className="Vital-img w-100"
             height={280}
             loading="lazy"

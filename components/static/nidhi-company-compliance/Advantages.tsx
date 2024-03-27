@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nidhi-company-compliance/Key_Advantages_of_a_Nidhi_Company_in_India.svg";
 
 const Advantages = () => {
   return (
@@ -11,9 +11,9 @@ const Advantages = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt=""
+            alt="Key Advantages of a Nidhi Company in India"
             className="Advantages-img w-100"
-            height={480}
+            height={1080}
             loading="lazy"
             src={bft}
           />

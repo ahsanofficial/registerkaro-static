@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nidhi-company-compliance/penalities.svg";
 
 const Penalties = () => {
   return (
@@ -13,7 +13,7 @@ const Penalties = () => {
         </div>
         <div className="flex-3 ">
         <Image
-            alt=""
+            alt="Penalties If the company fails to submit the required documentation on time, the Nidhi Bank Operators may face punishment and penalties"
             className="Penalties-img w-100"
             height={380}
             loading="lazy"

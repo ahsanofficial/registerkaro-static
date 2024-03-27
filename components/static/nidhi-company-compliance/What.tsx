@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nidhi-company-compliance/what_are_nidhi_companies.svg";
 
 const What = () => {
   return (
@@ -11,7 +11,7 @@ const What = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="What are Nidhi Companies?"
             className="What-img w-100"
             height={280}
             loading="lazy"
