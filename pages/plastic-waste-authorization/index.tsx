@@ -333,11 +333,11 @@ const Home = () => {
         <div className='services-pages plastic-waste-authorization-reg'>
            <Head>
                 <title>Plastic Waste Authorization | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <meta name="description" content="Plastic waste authorization allows businesses to legally collect, store, transport, process, or recycle plastic waste in India." />
                 <link rel="canonical" href="https://www.registerkaro.in/plastic-waste-authorization" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content="Plastic Waste Authorization | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:description" content="Plastic waste authorization allows businesses to legally collect, store, transport, process, or recycle plastic waste in India." />
             </Head>
             <Hero cityName={'India'} />
             <h1 className='main-heading'>Get Plastic Waste Authorization in India</h1>

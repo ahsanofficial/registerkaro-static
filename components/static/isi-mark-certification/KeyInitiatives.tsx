@@ -73,7 +73,7 @@ export const KeyInitiatives = ({ cityName }: HeroProps)  => {
         <Image
             alt="Validity and Renewal of ISI Certificate"
             className="Documents-img w-100"
-            height={1100}
+            height={1200}
             loading="lazy"
             src={bft}
           />

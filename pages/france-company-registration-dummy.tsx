@@ -59,12 +59,12 @@ const Home = () => {
     return (
         <div className='services-pages france-reg'>
            <Head>
-                <title>Company Registration in France | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Company Registration Services in France - Documents | Process</title>
+                <meta name="description" content="Get your business up and running in France swiftly with our professional company registration services. Start your venture today with RegisterKaro" />
                 <link rel="canonical" href="https://www.registerkaro.in/france-company-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Company Registration in France | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Company Registration Services in France - Documents | Process" />
+                <meta property="og:description" content="Get your business up and running in France swiftly with our professional company registration services. Start your venture today with RegisterKaro" />
             </Head>
             <Hero />
             <h1 className='main-heading'>An Overview of Company Registration in France</h1>
