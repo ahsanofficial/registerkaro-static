@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/environmental-clearance/cancellation.svg";
-import bft_two from "../../../assets/images/static/environmental-clearance/cancellation_part_two.svg";
+import bft_two from "../../../assets/images/static/environmental-clearance/5.svg";
 
 interface HeroProps {
     cityName: string;
@@ -22,7 +21,20 @@ const Certificate = ({ cityName }: HeroProps) => {
             <p><strong>5 : </strong>Any other document or information that may be required by the MoEFCC or the SEIAA or the EAC or the SEAC or the concerned regulatory authority for the appraisal of the application for renewal.</p>
         </div>
       </div>
+      <div className="benefits flex pt-3 w-80 m-auto mobile-flex-column-reverse">
+        <div className="flex-7">
       <p className="main-para pt-5">The MoEFCC or the SEIAA may renew the EC or the CRZC or both granted to the proponent subject to the satisfactory performance of the proponent and the compliance with the terms and conditions of the EC or the CRZC or both and the applicable laws and regulations. The MoEFCC or the SEIAA may also modify or amend or revoke the terms and conditions of the EC or the CRZC or both or impose new terms and conditions or reject the application for renewal after giving a reasonable opportunity of being heard to the proponent and after recording the reasons for such decision in writing. The MoEFCC or the SEIAA may also impose a penalty or take any other legal action against the proponent for any violation or non-compliance, or impact related to the environmental aspects of the project or activity. The MoEFCC or the SEIAA may renew the EC or the CRZC or both for a further period of five years from the date of their expiry and communicate the decision to the proponent and the concerned regulatory authority and display the decision on its website. The renewal of the EC or the CRZC or both is required for all Category A and B projects and is a part of the environmental clearance process.</p>
+         </div>
+         <div className="flex-3">
+        <Image
+            alt="Procedure to get Environmental Clearance"
+            className="Procedure-img w-100"
+            height={450}
+            loading="lazy"
+            src={bft_two}
+          />
+        </div>
+        </div>
     </div>
   );
 };
