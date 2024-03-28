@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/change-in-director/change.svg";
 
 const Meaning = () => {
   return (
@@ -12,7 +12,7 @@ const Meaning = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Change in Director – Meaning "
             className="Meaning-img w-100"
             height={300}
             loading="lazy"

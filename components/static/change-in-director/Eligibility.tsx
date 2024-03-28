@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/change-in-director/Eligibility.svg";
 
 const Eligibility = () => {
   return (
@@ -23,15 +23,7 @@ const Eligibility = () => {
                 <li>A Company that hasn’t filed financial statements/annual returns for a continuous period of 3 Financial Year.</li>
             </ul>
         </div>
-        <div className="flex-3">
-        <Image
-            alt=""
-            className="Eligibility-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+
       </div>
     </div>
   );

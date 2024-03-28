@@ -6,15 +6,6 @@ export const WhatIs = () => {
   return (
     <div id="WhatIs">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
-          <Image
-            alt="What is E-Waste?"
-            className="WhatIs-img w-100"
-            height={300}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
         <div className="flex-7 pt-5">
           <p>
             E-Waste is one of the world’s fastest growing trash streams. India

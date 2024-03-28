@@ -14,11 +14,11 @@ const Home = () => {
         <div className='services-pages change-in-director '>
            <Head>
                 <title>Change in Director of a Company | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <meta name="description" content="Simplify director transitions with our seamless process. Apply now for expert support in changing directors and ensure a smooth corporate journey." />
                 <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Change in Director of a Company | RegisterKaro" />
+                <meta property="og:description" content="Simplify director transitions with our seamless process. Apply now for expert support in changing directors and ensure a smooth corporate journey." />
             </Head>
 
             <Hero />
