@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/environmental-clearance/Different_types.svg";
 
 export const Types = () => {
   return (
     <div id="Types">
-        <p className="main-para"> We offer different types of environmental clearance services, such as:</p>
+        <p className="main-para"> Different types of Environmental Clearance services we offer</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-4">
             <Image
-              alt="Types of Company Structures in UK"
+              alt="Different types of Environmental Clearance services"
               className="Types-img w-100"
-              height={500}
+              height={600}
               loading="lazy"
               src={dft}
             />

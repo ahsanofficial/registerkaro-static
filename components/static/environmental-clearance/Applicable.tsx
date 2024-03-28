@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/environmental-clearance/Applicable_Rules.svg";
 
 const Applicable = () => {
   return (
@@ -9,14 +9,14 @@ const Applicable = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Applicable Rules/Acts/Regulations"
             className="Applicable-img w-100"
-            height={400}
+            height={700}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <p><strong>1 : </strong>The Environment (Protection) Act, 1986</p>
             <p><strong>2 : </strong>The National Green Tribunal Act, 2010</p>
             <p><strong>3 : </strong>The Environmental Impact Assessment Notification, 2006</p>

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/environmental-clearance/cancellation.svg";
+import bft_two from "../../../assets/images/static/environmental-clearance/cancellation_part_two.svg";
+
 
 const Certificate = () => {
   return (
@@ -15,8 +17,8 @@ const Certificate = () => {
         <div className="flex-3">
         <Image
             alt="Cancellation/Validity/ Renewal of the Environment Clearance Certificate            "
-            className="Certificate-img w-100"
-            height={480}
+            className="Certificate-img-two w-100"
+            height={580}
             loading="lazy"
             src={bft}
           />
@@ -26,11 +28,11 @@ const Certificate = () => {
        
         <div className="flex-3">
         <Image
-            alt="Cancellation/Validity/ Renewal of the Environment Clearance Certificate"
-            className="Certificate-img w-100"
-            height={480}
+            alt="Cancellation/Validity/ Renewal of the Environment Clearance Certificate two"
+            className="Certificate-img-two w-100"
+            height={580}
             loading="lazy"
-            src={bft}
+            src={bft_two}
           />
         </div>
         <div className="flex-7">

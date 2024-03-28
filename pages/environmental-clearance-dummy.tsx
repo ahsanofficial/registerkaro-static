@@ -57,43 +57,40 @@ const faq = [
 const Home = () => {
     return (
         <div className='services-pages environmental-clearance-reg'>
-            <Head>
-                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
-                <meta name="robots" content="noindex,nofollow" />
-                <meta name="googlebot" content="noindex,nofollow" />
-                <meta name="robots" content="all" />
-                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-                <meta name="google" content="notranslate" key="notranslate" />
+           <Head>
+                <title>Online Environmental Clearance | RegisterKaro</title>
+                <meta name="description" content="The Official RegisterKaro" />
+                <link rel="canonical" href="https://www.registerkaro.in/environmental-clearance" />
                 <link rel="icon" href="/favicon.ico" />
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                <meta property="og:title" content="Online Environmental Clearance | RegisterKaro" />
+                <meta property="og:description" content="Online Environmental Clearance" />
             </Head>
             <Hero />
             <h1 className='main-heading'>Get Online Environmental Clearance in India</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Applicable Rules/Acts/Regulations</h1>
+            <h2 className='main-heading'>Applicable Rules/Acts/Regulations</h2>
             <div className='heading-line'></div>
             <Applicable />
-            <h1 className='main-heading'>Eligibility/Pre-Licensing/Mandatory Pre-Requisites</h1>
+            <h2 className='main-heading'>Eligibility/Pre-Licensing/Mandatory Pre-Requisites</h2>
             <div className='heading-line'></div>
             <Prerequisites />
-            <h1 className='main-heading'>Different types of Environmental Clearance services we offer</h1>
+            <h2 className='main-heading'>Different types of Environmental Clearance services we offer</h2>
             <div className='heading-line'></div>
             <Types />
-            <h1 className='main-heading'>Documents Required for Environmental Clearance</h1>
+            <h2 className='main-heading'>Documents Required for Environmental Clearance</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h1 className='main-heading'>Procedure to get Environmental Clearance</h1>
+            <h2 className='main-heading'>Procedure to get Environmental Clearance</h2>
             <div className='heading-line'></div>
             <Procedure />
-            <h1 className='main-heading'>Cancellation/Validity/ Renewal of the Environment Clearance Certificate</h1>
+            <h2 className='main-heading'>Cancellation/Validity/ Renewal of the Environment Clearance Certificate</h2>
             <div className='heading-line'></div>
             <Certificate />
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>

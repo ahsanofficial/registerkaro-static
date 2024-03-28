@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/pvt_ltd_company_certificate_sample.webp';
+import certificate from '../../../assets/images/static/environmental-clearance/Procedure_Environmental.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -40,9 +40,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in United Kingdom</p>
+                <p className="small-heading text-center">Get Online Environmental Clearance in India</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in United Kingdom" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Get Online Environmental Clearance in India" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

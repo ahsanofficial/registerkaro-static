@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/environmental-clearance/RegisterKaro_for_Environment.svg";
 
 const Procedure = () => {
   return (
@@ -9,9 +9,9 @@ const Procedure = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Procedure to get Environmental Clearance"
             className="Procedure-img w-100"
-            height={480}
+            height={680}
             loading="lazy"
             src={bft}
           />

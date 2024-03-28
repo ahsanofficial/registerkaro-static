@@ -1,22 +1,25 @@
 .environmental-clearance-reg {
   @media screen and (max-width: 990px) {
     .Applicable-img{
-      border: 1px solid black;
+      height: 900px;
     }
     .Prerequisites-img{
-      border: 1px solid black;
+      height: 600px;
     }
     .Types-img{
-      border: 1px solid black;
+      height: 600px;
     }
     .DocumentRequired-img{
-      border: 1px solid black;
+      height: 600px;
     }
     .Procedure-img{
-      border: 1px solid black;
+      height: 500px;
     }
-    .Certificate-img{
-      border: 1px solid black;
+    .Certificate-img-one{
+      height: 400px;
+    }
+    .Certificate-img-two{
+      height: 400px;
     }
   }
 }
