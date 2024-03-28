@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/pre-incorporation.svg";
-
-const Incorporation = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Incorporation = ({ cityName }: HeroProps) => {
   return (
     <div id="Incorporation">
         <p className="main-para">To get Nidhi Company Registration, all Nidhi Companies must adhere to certain necessary Compliance. The following is a list of the requirements that must be met:</p>

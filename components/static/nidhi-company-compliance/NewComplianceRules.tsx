@@ -2,8 +2,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/new_compliance.svg";
-
-const NewComplianceRules = () => {
+interface HeroProps {
+    cityName: string;
+}
+const NewComplianceRules = ({ cityName }: HeroProps) => {
   return (
     <div id="NewComplianceRules">
         <p className="main-para">The Nidhi (Amendment) Rules, 2022, enhance compliance requirements for Nidhi companies.</p>

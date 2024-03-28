@@ -1,7 +1,9 @@
 import certificate from '../../../assets/images/static/environmental-clearance/Procedure_Environmental.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -40,7 +42,7 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Get Online Environmental Clearance in India</p>
+                <p className="small-heading text-center">Get Online Environmental Clearance in {cityName}</p>
                 <div>
                     <Image alt="Get Online Environmental Clearance in India" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

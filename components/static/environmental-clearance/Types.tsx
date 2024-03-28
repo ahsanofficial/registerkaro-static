@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/environmental-clearance/Different_types.svg";
-
-export const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         <p className="main-para"> Different types of Environmental Clearance services we offer</p>

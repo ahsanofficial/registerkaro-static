@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/child_components/TradeMarkContact.tsx", "components/landing/Blog.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/child_components/TradeMarkContact.tsx", "components/landing/Blog.tsx", "pages/nidhi-company-compliance/indextsx"],
   "exclude": ["node_modules"]
 }

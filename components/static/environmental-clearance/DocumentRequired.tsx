@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/environmental-clearance/documentRequired.svg";
-
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
         <p className="main-para"> The documents required for environmental clearance may vary depending on the type, category, and stage of the project. However, some of the common documents that are usually needed for environmental clearance are:</p>

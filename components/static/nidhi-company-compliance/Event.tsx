@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/Event-Based_Compliance.svg";
-
-const Event = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Event = ({ cityName }: HeroProps) => {
   return (
     <div id="Event">
         <p className="main-para">In most cases, event-based Compliance must be filed just once during the company registration procedure. Furthermore, these Compliance must be observed when there is a non-periodic change in the Nidhi company’s structure.</p>

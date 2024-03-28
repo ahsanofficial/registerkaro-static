@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/environmental-clearance/Applicable_Rules.svg";
-
-const Applicable = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Applicable = ({ cityName }: HeroProps) => {
   return (
     <div id="Applicable">
       <p className="main-para">Environmental clearance is governed by various national and international laws, regulations, standards, and guidelines, such as:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/List_of_Annual_Nidhi_Company_Compliance.svg";
-
-const ListofAnnual = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ListofAnnual = ({ cityName }: HeroProps) => {
   return (
     <div id="ListofAnnual">
       <p className="main-para">

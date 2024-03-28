@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/Key_Advantages_of_a_Nidhi_Company_in_India.svg";
-
-const Advantages = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Advantages = ({ cityName }: HeroProps) => {
   return (
     <div id="Advantages">
       <p className="main-para">
-        Following are the key advantages of a Nidhi Company in India:
+        Following are the key advantages of a Nidhi Company in {cityName}:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
@@ -106,7 +108,7 @@ const Advantages = () => {
         </div>
        
       </div>
-      <p className="main-para pt-2">While Nidhi companies provide several advantages, they are also subject to stringent regulatory regulations and Compliance to protect the safety of members’ funds and the overall integrity of the organization as a whole. By adhering to these standards, Nidhi companies can continue to provide these benefits to their members while also positively contributing to India’s financial inclusion and economic development. Now let’s discuss the Nidhi Company Compliance.</p>
+      <p className="main-para pt-2">While Nidhi companies provide several advantages, they are also subject to stringent regulatory regulations and Compliance to protect the safety of members’ funds and the overall integrity of the organization as a whole. By adhering to these standards, Nidhi companies can continue to provide these benefits to their members while also positively contributing to {cityName}’s financial inclusion and economic development. Now let’s discuss the Nidhi Company Compliance.</p>
     </div>
   );
 };

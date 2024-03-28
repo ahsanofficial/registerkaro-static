@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/Post-Incorporation.svg";
-
-const PostIncorporation = () => {
+interface HeroProps {
+    cityName: string;
+}
+const PostIncorporation = ({ cityName }: HeroProps) => {
   return (
     <div id="PostIncorporation">
         <p className="main-para">Nidhi Company compliance is categorized into two categories following incorporation:</p>

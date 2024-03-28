@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/environmental-clearance/RegisterKaro_for_Environment.svg";
-
-const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Procedure = ({ cityName }: HeroProps) => {
   return (
     <div id="Procedure">
       <p className="main-para">Procedural timeline of the service involved in obtaining environmental clearance is as follows:</p>

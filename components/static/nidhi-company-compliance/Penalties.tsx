@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nidhi-company-compliance/penalities.svg";
-
-const Penalties = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Penalties = ({ cityName }: HeroProps) => {
   return (
     <div id="Penalties">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

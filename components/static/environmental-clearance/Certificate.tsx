@@ -3,8 +3,10 @@ import React from "react";
 import bft from "../../../assets/images/static/environmental-clearance/cancellation.svg";
 import bft_two from "../../../assets/images/static/environmental-clearance/cancellation_part_two.svg";
 
-
-const Certificate = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Certificate = ({ cityName }: HeroProps) => {
   return (
     <div id="Certificate">
         <p className="main-para">The cancellation, validity and renewal of the service involved in obtaining environmental clearance are as follows:</p>
