@@ -43,12 +43,12 @@ const Home = () => {
     return (
         <div className='services-pages epr-authorization-for-e-waste'>
            <Head>
-                <title>Authorization for E-Waste Online | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <title> Get Online EPR Authorization for E-Waste in India | RegisterKaro</title>
+                <meta name="description" content="EPR Authorization for e-waste involves making manufactures liable for the end of life disposal & management of electronic items they produce." />
+                <link rel="canonical" href="https://www.registerkaro.in/epr-authorization-for-e-waste" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Authorization for E-Waste Online | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Get Online EPR Authorization for E-Waste in India | RegisterKaro" />
+                <meta property="og:description" content="EPR Authorization for e-waste involves making manufactures liable for the end of life disposal & management of electronic items they produce." />
             </Head>
             <Hero />
             <h1 className='main-heading'>Get EPR Authorization for E-Waste Online</h1>
