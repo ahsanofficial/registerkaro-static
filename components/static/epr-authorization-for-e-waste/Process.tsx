@@ -1,13 +1,15 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/epr-authorization-for-e-waste-dummy.tsx/EPR_Authorization_for_E-Waste_certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
                 <p className='text-justify'>EPR authorization for e-waste involves holding producers accountable for the proper disposal and management of electronic waste. It’s a regulatory approach ensuring manufacturers take responsibility for the end –of –life disposal of their products. Regulations and requirements for EPR authorization can vary by region, so specific details would depend on the local laws governing e-waste management in your area.</p>
-                <p className='text-justify'>EPR Authorization is given by the Central Pollution Control Board (CPCB) under MoEFCC, Government of India. With EPR India authorization, the manufacture/ importer of electronic and electrical products has been given the responsibility to control E-waste by the products after expiry of their lifetime.</p>
+                <p className='text-justify'>EPR Authorization is given by the Central Pollution Control Board (CPCB) under MoEFCC, Government of {cityName}. With EPR {cityName} authorization, the manufacture/ importer of electronic and electrical products has been given the responsibility to control E-waste by the products after expiry of their lifetime.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

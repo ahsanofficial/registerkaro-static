@@ -1,7 +1,9 @@
 import React from 'react'
 
-
-export const Registration = ()=> {
+interface HeroProps {
+    cityName: string;
+}
+export const Registration = ({ cityName }: HeroProps)=> {
     return (
         <div id='Registration' className='w-80 m-auto'>
             

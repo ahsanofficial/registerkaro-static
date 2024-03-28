@@ -16,7 +16,12 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+
+interface HeroProps {
+    cityName: string;
+}
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,8 +34,8 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>Get Online EPR Authorization for E-Waste in India</h4>
-                <p>RegisterKaro has a team of experts that can help you to obtain your EPR Authorization/EPR Certificate. We are the leading EPR Registration consultant in India helping our clients to get EPR Registration in any part of India.</p>
+            <h4 className='mb-4'>Get Online EPR Authorization for E-Waste in {cityName}</h4>
+                <p>RegisterKaro has a team of experts that can help you to obtain your EPR Authorization/EPR Certificate. We are the leading EPR Registration consultant in {cityName} helping our clients to get EPR Registration in any part of {cityName}.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

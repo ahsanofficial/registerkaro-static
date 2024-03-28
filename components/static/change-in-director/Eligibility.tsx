@@ -1,8 +1,7 @@
-import Image from "next/image";
-import React from "react";
-import bft from "../../../assets/images/static/change-in-director/Eligibility.svg";
-
-const Eligibility = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligibility = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligibility">
         <p className="main-para">Following is the criteria to become a Director of a Company:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/epr-authorization-for-e-waste-dummy.tsx/Documents Required.svg";
-
-const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
       <p className="main-para">The main documents required to obtain an EPR Authorisation for e-waste management are as follows:</p>

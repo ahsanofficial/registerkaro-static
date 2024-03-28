@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/epr-authorization-for-e-waste-dummy.tsx/Types_of_E-Waste.svg'
-
-export const TypeOF = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const TypeOF = ({ cityName }: HeroProps) => {
   return (
     <div id='TypeOF'>
       

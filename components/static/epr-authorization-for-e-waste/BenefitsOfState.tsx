@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/epr-authorization-for-e-waste-dummy.tsx/Benefits_of_EPR_Registration_for_e-waste.svg'
 
-
-export const BenefitsOfState = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const BenefitsOfState = ({ cityName }: HeroProps) => {
   return (
     <div id='BenefitsOfState'>
       <p className='main-para'></p>
