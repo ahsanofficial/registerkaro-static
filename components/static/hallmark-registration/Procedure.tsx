@@ -8,8 +8,10 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Procedure = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -19,7 +21,7 @@ export const Procedure = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='Procedure'>
         <div className='flex justify-content-center'>
-        <p className='main-para mb-2'>The following is the procedure for Hallmark Registration in India: </p>
+        <p className='main-para mb-2'>The following is the procedure for Hallmark Registration in {cityName}: </p>
       </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
       <div className='flex-5'>

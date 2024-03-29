@@ -1,6 +1,8 @@
 import React from "react";
-
-export const DifferentTable = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DifferentTable = ({ cityName }: HeroProps) => {
   return (
     <div className="w-80 m-auto" id="DifferentTable">
       <table>

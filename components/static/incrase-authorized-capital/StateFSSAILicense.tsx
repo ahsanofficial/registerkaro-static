@@ -1,18 +1,17 @@
 
 import Image from 'next/image'
-import React, { useState } from 'react'
-import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+import { useState } from 'react'
 import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
-import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
-import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
-import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
+import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
+import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const ProcessIncrease = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessIncrease = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

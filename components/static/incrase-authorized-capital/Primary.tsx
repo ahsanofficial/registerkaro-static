@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/increase-authorized/primary.svg";
-
-const Primary = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Primary = ({ cityName }: HeroProps) => {
   return (
     <div id="Primary">
         <p className="main-para">Following are the main components of Authorized Capital:</p>

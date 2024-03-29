@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/increase-authorized/What_are_the_Advantages.svg";
-
-const Advantages = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Advantages = ({ cityName }: HeroProps) => {
   return (
     <div id="Advantages">
       <p className="main-para">Following are the advantages that you can get once you Increase Authorized Capital:</p>

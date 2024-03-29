@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/hallmark-registration/important.svg";
-
-const Importance = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Importance = ({ cityName }: HeroProps) => {
   return (
     <div id="Importance">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

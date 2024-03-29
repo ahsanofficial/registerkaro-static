@@ -14,8 +14,10 @@ let hero = {
         "Certificate Issuance",
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,7 +31,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>Hallmark Registration</h4>
-                <p>Are you looking for Hallmark Registration in India? Then, you are at the right place. We offer Hallmark Registration at an affordable cost & quick turnaround.</p>
+                <p>Are you looking for Hallmark Registration in {cityName}? Then, you are at the right place. We offer Hallmark Registration at an affordable cost & quick turnaround.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

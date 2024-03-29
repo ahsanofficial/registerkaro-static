@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/hallmark-registration/Documents.svg";
-
-const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/hallmark-registration/Types_of_BIS_Hallmarking_Certificate.svg";
-
-const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
