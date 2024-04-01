@@ -7,12 +7,10 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Documentation & Consultancy",
-        "Preparation of Complete Application",
-        "Filing of Application",
-        "Follow Up with Department",
-        "Assistance at the time of inspection",
-        "Representation before Authority",
+        "Consultancy with RERA Expert",
+        "Drafting of Documents",
+        "filing of application",
+        "Hassle Free RERA Registration",
     ]
 }
 
@@ -29,8 +27,8 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>PSARA License</h4>
-                <p>PSARA License is mandatory to start and run a Security Guard Agency business in India. Hence before supplying the security guards the private security agency should obtain PSARA License. Our Experts can help you in getting PSARA License at minimum cost.</p>
+            <h4 className='mb-4'>rera-registration</h4>
+                <p>RegisterKaro RERA Registration services are of premium quality at the most efficient rate, which suits the client's pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

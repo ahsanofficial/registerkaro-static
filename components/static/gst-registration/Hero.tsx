@@ -7,12 +7,11 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Document Preparation",
-        "Application Submission",
-        "Filing Assistance",
-        "Regular Follow-Ups",
-        "Compliance Check",
-        "Certificate Acquisition",
+        "Completely online process",
+        "Expert professionals",
+        "Timely and tax compliant registration",
+        "Ethical and transparent advice",
+        "Dedicated relationship manager",
     ]
 }
 
