@@ -48,12 +48,12 @@ const Home = () => {
     return (
         <div className='services-pages liquor-license-reg'>
           <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <title>Online Liquor License -  Process, Benefits, Documents</title>
+                <meta name="description" content="For selling any type of alcohol in any shop, cafe, club, bar, lounge, or any restaurant, Liquor License is mandatory." />
+                <link rel="canonical" href="https://www.registerkaro.in/liquor-license-dummy" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Online Liquor License -  Process, Benefits, Documents" />
+                <meta property="og:description" content="For selling any type of alcohol in any shop, cafe, club, bar, lounge, or any restaurant, Liquor License is mandatory." />
             </Head>
             <Hero />
             <h1 className='main-heading'>Why do you need Liquor License?</h1>

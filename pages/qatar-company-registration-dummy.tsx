@@ -50,12 +50,12 @@ const Home = () => {
     return (
         <div className='services-pages qatar-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Get Started with Company Registration in Qatar</title>
+                <meta name="description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />
                 <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Get Started with Company Registration in Qatar" />
+                <meta property="og:description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />
             </Head>
             <Hero />
             <h1 className='main-heading'>An Overview of Company Registration in Qatar</h1>

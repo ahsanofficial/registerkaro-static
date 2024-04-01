@@ -58,12 +58,12 @@ const Home = () => {
     return (
         <div className='services-pages copyright-reg'>
               <Head>
-                <title>Copyright Registration | RegisterKaro</title>
-                <meta name="description" content="Want GST Registration in India or want to know complete details regarding GST in India? Contact RegisterKaro Now!" />
+                <title>Copyright Registration Process and Procedure | Registerkaro</title>
+                <meta name="description" content="Get Copyright Registration online in India for books, music, film, photography and software applications and etc. through RegisterKaro" />
                 <link rel="canonical" href="https://www.registerkaro.in/copyright-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Apply for GST Registration with Registerkaro" />
-                <meta property="og:description" content="Want GST Registration in India or want to know complete details regarding GST in India? Contact RegisterKaro Now!" />
+                <meta property="og:title" content="Copyright Registration Process and Procedure | Registerkaro" />
+                <meta property="og:description" content="Get Copyright Registration online in India for books, music, film, photography and software applications and etc. through RegisterKaro" />
             </Head>
             <Hero />
             <h1 className='main-heading'>What is Copyright Registration?</h1>
