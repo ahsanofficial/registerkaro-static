@@ -52,7 +52,7 @@ const Home = () => {
             <Head>
                 <title>Get Started with Company Registration in Qatar</title>
                 <meta name="description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <link rel="canonical" href="https://www.registerkaro.in/qatar-company-registration" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content="Get Started with Company Registration in Qatar" />
                 <meta property="og:description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />

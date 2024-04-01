@@ -54,7 +54,7 @@ const Home = () => {
             <Head>
                 <title>Get Started with Company Registration in Saudi Arabia</title>
                 <meta name="description" content="description-Get your business up and running smoothly with our Saudi Arabia company registration services. This quick guide tells you which steps to take." />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <link rel="canonical" href="https://www.registerkaro.in/saudi-arabia-company-registration" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content="Get Started with Company Registration in Saudi Arabia" />
                 <meta property="og:description" content="description-Get your business up and running smoothly with our Saudi Arabia company registration services. This quick guide tells you which steps to take." />
