@@ -8,20 +8,20 @@ const DocumentsRequired = () => {
         <p className="main-para">To obtain a Private Security Agencies (Regulation) Act, 2005 (PSARA) license, the following registration certificates and documents are necessary</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
-            <p>PAN (Permanent Account Number)</p>
-            <p>GSTIN (Goods and Services Tax Identification Number)</p>
-            <p>Provident Fund Registration</p>
-            <p>ESIC (Employees State Insurance Corporation) Registration</p>
-            <p>Registration under the Shops and Commercial Establishments Act</p>
-            <p>Registration under the Labour Act</p>
-            <p>Proof of identity for directors and employees</p>
-            <p>Copies of Income Tax Returns for Directors</p>
-            <p>Two passport-size photographs of promoters along with their PANs</p>
-            <p>Proof of address for the agency office</p>
-            <p>Affidavit as per Section 7 (2) of PSARA, 2005</p>
-            <p>Security training affidavit</p>
-            <p>Certificate of Incorporation</p>
-            <p>Signed Memorandum of Understanding (MOU) with the training institute</p>
+            <p><strong>1. </strong>PAN (Permanent Account Number)</p>
+            <p><strong>2. </strong>GSTIN (Goods and Services Tax Identification Number)</p>
+            <p><strong>3. </strong>Provident Fund Registration</p>
+            <p><strong>4. </strong>ESIC (Employees State Insurance Corporation) Registration</p>
+            <p><strong>5. </strong>Registration under the Shops and Commercial Establishments Act</p>
+            <p><strong>6. </strong>Registration under the Labour Act</p>
+            <p><strong>7. </strong>Proof of identity for directors and employees</p>
+            <p><strong>8. </strong>Copies of Income Tax Returns for Directors</p>
+            <p><strong>9. </strong>Two passport-size photographs of promoters along with their PANs</p>
+            <p><strong>10. </strong>Proof of address for the agency office</p>
+            <p><strong>11. </strong>Affidavit as per Section 7 (2) of PSARA, 2005</p>
+            <p><strong>12. </strong>Security training affidavit</p>
+            <p><strong>13. </strong>Certificate of Incorporation</p>
+            <p><strong>14. </strong>Signed Memorandum of Understanding (MOU) with the training institute</p>
         </div>
         <div className="flex-3">
         <Image

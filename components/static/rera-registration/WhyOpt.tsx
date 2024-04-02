@@ -12,7 +12,7 @@ const WhyOpt = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
           <p>
-            <strong>Uniformity</strong>
+            <strong>Uniformity : </strong>
             According to the conditions of the RERA Registration, the company is
             accountable for all of the promises it made during project
             acquisition. If it is not followed appropriately, the owner also has
@@ -22,7 +22,7 @@ const WhyOpt = () => {
           </p>
 
           <p>
-            <strong>Accountability</strong>
+            <strong>Accountability : </strong>
             The company is liable for all of its promises made during project
             takeover under the terms of the RERA Registration. In addition, the
             owner has the right to protest to the broker or construction
@@ -31,7 +31,7 @@ const WhyOpt = () => {
           </p>
 
           <p>
-            <strong>Transparency</strong>
+            <strong>Transparency : </strong>
             The organization that is RERA-registered will be open and honest
             about every endeavor. The proprietor will be informed on a regular
             basis on the development of the project. Consequently, the
@@ -39,7 +39,7 @@ const WhyOpt = () => {
           </p>
 
           <p>
-            <strong>Legal status & benefits</strong>
+            <strong>Legal status & benefits : </strong>
             The RERA Registration for either the project or the company offers
             legals status to the same. When a legal status is granted to an
             organization or a project, it becomes eligible for enjoyment of the
@@ -48,7 +48,7 @@ const WhyOpt = () => {
           </p>
 
           <p>
-            <strong>Dispute/Grievance Resolution</strong>
+            <strong>Dispute/Grievance Resolution : </strong>
             The RERA Registration will also assist those working in this
             industry and registered to do so in resolving complaints resulting
             from projects. A distinct authority is instituted to settle
@@ -56,7 +56,7 @@ const WhyOpt = () => {
           </p>
 
           <p>
-            <strong>Quality Assurance</strong>
+            <strong>Quality Assurance : </strong>
             Typically, builders promise quality up front then fall short of
             expectations. Therefore, in accordance with the RERA Registration,
             the builder has agreed to maintain any defects discovered by buyers
@@ -67,7 +67,7 @@ const WhyOpt = () => {
           </p>
 
           <p>
-            <strong>Tribunal institution</strong>
+            <strong>Tribunal institution : </strong>
             In an effort to better serve those who are dissatisfied with the
             directives and rulings made by the RERA Authority, the RERA also
             established an appeal tribunal. Therefore, the person who is harmed

@@ -43,11 +43,11 @@ const Eligible = () => {
             An authorized agent is also eligible to file for the copyright
             registration on the behalf of:
           </p>
-          <div className="ps-5">
-            <p>1 : The Owner or Co-Owner</p>
-            <p>2 : Author or Co-Author</p>
-            <p>3 : Copyright Claimant</p>
-          </div>
+          <ol className="ps-5">
+            <li>The Owner or Co-Owner</li>
+            <li>Author or Co-Author</li>
+            <li>Copyright Claimant</li>
+          </ol>
         </div>
         <div className="flex-3">
           <Image
