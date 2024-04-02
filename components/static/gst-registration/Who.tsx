@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/gst-registration/who_can_appy.svg";
 
 const Who = () => {
   return (
@@ -8,7 +8,7 @@ const Who = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Who can apply for GST Registration in India?"
             className="Who-img w-100"
             height={480}
             loading="lazy"

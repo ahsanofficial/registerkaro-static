@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/gst-registration/Exemption_on_GST_Registration_in_India.svg";
 
 const Exemption = () => {
   return (
@@ -9,9 +9,9 @@ const Exemption = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Exemption on GST Registration in India"
             className="Exemption-img w-100"
-            height={480}
+            height={680}
             loading="lazy"
             src={bft}
           />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/gst-registration/Benefits_of_GST_Registration_in_India.svg";
 
 const Benefits = () => {
   return (
@@ -14,11 +14,11 @@ const Benefits = () => {
             <p><strong>4. Ability to collect & claim ITC:</strong> A Company must collect & charge GST from its customers on taxable supplies after it has registered for Goods & Services Tax. The firm is nonetheless permitted to claim ITC (Input Tax Credits) for the GST, it has paid on its outgoings. As an outcome, the Government would allow you to get a refund for the GST you paid on inputs such as goods, services, supplies as a credit against the GST you paid on outputs like sales. The ability to make ITC claims can increase a Company’s cash flow & lower its overall GST liability.</p>
             <p><strong>5. E-Commerce Treatment:</strong> E-Commerce was given a distinct status under GST, which eliminated inter-state disputes.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="Benefits of GST Registration in India"
             className="Benefits-img w-100"
-            height={480}
+            height={640}
             loading="lazy"
             src={bft}
           />

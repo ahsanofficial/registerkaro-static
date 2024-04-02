@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/gst-registration/List_of_Vital_Documents.svg";
 
 const VitalDocuments = () => {
   return (
     <div id="VitalDocuments">
         <p className="main-para">Following is the list of vital documents required for GST Registration in India:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <p><strong>1. </strong>Aadhar Card;</p>
             <p><strong>2. </strong>PAN of the applicant;</p>
             <p><strong>3. </strong>ID and Address proof of Directors or Promoters with latest photos;</p>
@@ -19,9 +19,9 @@ const VitalDocuments = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="List of Vital Documents Required for GST Registration in India"
             className="VitalDocuments-img w-100"
-            height={480}
+            height={500}
             loading="lazy"
             src={bft}
           />
