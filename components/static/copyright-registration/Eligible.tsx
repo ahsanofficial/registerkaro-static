@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/copyright-registration/Are_you_eligible_for_CopyrightRegistration.svg";
 
 const Eligible = () => {
   return (
@@ -51,9 +51,9 @@ const Eligible = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=""
+            alt="Are you eligible for Copyright Registration?"
             className="Eligible-img w-100"
-            height={480}
+            height={680}
             loading="lazy"
             src={bft}
           />
