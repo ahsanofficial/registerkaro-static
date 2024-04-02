@@ -21,10 +21,10 @@ const DocumentsRequired = ({ cityName }: HeroProps) => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       
         <div className="flex-7">
-            <p><strong>1 : </strong>Electricity bill or gas bill;</p>
-            <p><strong>2 : </strong>Possession tax receipt;</p>
-            <p><strong>3 : </strong>NOC (No Objection Certificate) collected from the owner of the registered office;</p>
-            <p><strong>4 : </strong>Lease treaty between the firm & the owner.</p>
+            <p><strong>1. </strong>Electricity bill or gas bill;</p>
+            <p><strong>2. </strong>Possession tax receipt;</p>
+            <p><strong>3. </strong>NOC (No Objection Certificate) collected from the owner of the registered office;</p>
+            <p><strong>4. </strong>Lease treaty between the firm & the owner.</p>
         </div>
       
       </div>

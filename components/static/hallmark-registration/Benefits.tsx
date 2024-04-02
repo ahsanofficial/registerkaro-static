@@ -19,10 +19,10 @@ const Benefits = ({ cityName }: HeroProps) => {
           />
         </div>
         <div className="flex-6 pt-5">
-            <p><strong>1 : </strong>Mandatory hallmarking of gold jewellery provides much-needed assurance to buyers about their quality</p>
-            <p><strong>2 : </strong>It ensures higher exchange or resale value because quality standardization always leads to price parity. This increase the trading of gold articles.</p>
-            <p><strong>3 : </strong>Buyers receive the necessary legal protection. Hallmarked gold/silver ensures they don’t get caught in fraud.</p>
-            <p><strong>4 : </strong>By selling hallmarked jewellery, retailers lay the base of sustainable businesss growth.</p>
+            <p><strong>1. </strong>Mandatory hallmarking of gold jewellery provides much-needed assurance to buyers about their quality</p>
+            <p><strong>2. </strong>It ensures higher exchange or resale value because quality standardization always leads to price parity. This increase the trading of gold articles.</p>
+            <p><strong>3. </strong>Buyers receive the necessary legal protection. Hallmarked gold/silver ensures they don’t get caught in fraud.</p>
+            <p><strong>4. </strong>By selling hallmarked jewellery, retailers lay the base of sustainable businesss growth.</p>
         </div>
       </div>
     </div>

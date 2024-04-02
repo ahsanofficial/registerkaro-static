@@ -9,11 +9,11 @@ const Importance = ({ cityName }: HeroProps) => {
     <div id="Importance">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 pt-5">
-            <p><strong>1 : </strong>It rapidly boosts your business;</p>
-            <p><strong>2 : </strong>It gives quality assurances to jewellery products;</p>
-            <p><strong>3 : </strong>It provides customers satisfaction and builds trust among customers;</p>
-            <p><strong>4 : </strong>This Certification adds value to the precious stone & trust in jewellery;</p>
-            <p><strong>5 : </strong>Provide legal protection against any violation.</p>
+            <p><strong>1. </strong>It rapidly boosts your business;</p>
+            <p><strong>2. </strong>It gives quality assurances to jewellery products;</p>
+            <p><strong>3. </strong>It provides customers satisfaction and builds trust among customers;</p>
+            <p><strong>4. </strong>This Certification adds value to the precious stone & trust in jewellery;</p>
+            <p><strong>5. </strong>Provide legal protection against any violation.</p>
         </div>
         <div className="flex-3">
         <Image
