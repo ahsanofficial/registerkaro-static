@@ -11,12 +11,12 @@ const Home = () => {
     return (
         <div className='services-pages types-of-companies-reg'>
            <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Different Types of Companies in India | RegisterKaro</title>
+                <meta name="description" content="Before starting any business, it is vital to know the various types of companies in India for both entrepreneurs and investors" />
                 <link rel="canonical" href="https://www.registerkaro.in/types-of-companies" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Different Types of Companies in India | RegisterKaro" />
+                <meta property="og:description" content="Before starting any business, it is vital to know the various types of companies in India for both entrepreneurs and investors" />
             </Head>
             <Hero />
             <h1 className='main-heading'>What are the Different Types of Companies in India?</h1>

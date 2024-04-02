@@ -15,12 +15,12 @@ const Home = () => {
     return (
         <div className='services-pages income-tax-filing-online-reg'>
            <Head>
-                <title>Online Income Tax Filing | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Income Tax - IT Returns, e-Filing</title>
+                <meta name="description" content="Income tax filing involves the online submission of your ITR to governmental tax authorities in a specified digital format." />
                 <link rel="canonical" href="https://www.registerkaro.in/income-tax-filing-online" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Income Tax - IT Returns, e-Filing" />
+                <meta property="og:description" content="Income tax filing involves the online submission of your ITR to governmental tax authorities in a specified digital format." />
             </Head>
             <Hero />
             <h1 className='main-heading'>Income Tax Filing Online – Process, Documents, Benefits</h1>
