@@ -9,8 +9,8 @@ export const DocumentRequired = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
      
         <div className="flex-4 pt-5">
-            <p><strong>2: </strong>Memorandum of Association [if applicable]</p>
-            <p><strong>1. </strong>Article of Association [if applicable]</p>
+            <p><strong>1. </strong>Memorandum of Association [if applicable]</p>
+            <p><strong>2. </strong>Article of Association [if applicable]</p>
             <p><strong>3. </strong>Passport of shareholders [if foreign nationals]</p>
             <p><strong>4. </strong>Company name reservations Certificate</p>
             <p><strong>5. </strong>Company’s office address with proof [lease agreement, Utility Bills, etc]</p>

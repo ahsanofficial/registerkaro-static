@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/saudi-arabia-company-registration/certificate.svg";
+import dft from "../../../assets/images/static/saudi-arabia-company-registration/Types_of_companies.svg";
 
 export const Types = () => {
   return (
