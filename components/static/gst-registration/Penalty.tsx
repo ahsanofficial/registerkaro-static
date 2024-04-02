@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/gst-registration/penalities.svg";
-
-const Penalty = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Penalty = ({ cityName }: HeroProps) => {
   return (
     <div id="Penalty">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

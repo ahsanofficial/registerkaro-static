@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/gst-registration/GST_Return_Filing.svg";
-
-const GSTReturn = () => {
+interface HeroProps {
+    cityName: string;
+}
+const GSTReturn = ({ cityName }: HeroProps) => {
   return (
     <div id="GSTReturn">
-        <p className="main-para">Once online Registration of GST is done, it is compulsory to file the GST Return in India even if you have 0 turnover. Moreover, each month there are 4 GST Returns that need to be filed. Following is the brief summary about all the returns:</p>
+        <p className="main-para">Once online Registration of GST is done, it is compulsory to file the GST Return in {cityName} even if you have 0 turnover. Moreover, each month there are 4 GST Returns that need to be filed. Following is the brief summary about all the returns:</p>
         <div className="flex-3">
         <Image
             alt="GST Return Filing"

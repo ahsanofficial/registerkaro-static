@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/gst-registration/List_of_Vital_Documents.svg";
-
-const VitalDocuments = () => {
+interface HeroProps {
+    cityName: string;
+}
+const VitalDocuments = ({ cityName }: HeroProps) => {
   return (
     <div id="VitalDocuments">
-        <p className="main-para">Following is the list of vital documents required for GST Registration in India:</p>
+        <p className="main-para">Following is the list of vital documents required for GST Registration in {cityName}:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 pt-5">
             <p><strong>1. </strong>Aadhar Card;</p>

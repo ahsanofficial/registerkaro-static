@@ -1,17 +1,18 @@
 import Head from 'next/head'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/gst-registration/Hero'
-import { Process } from '../components/static/gst-registration/Process'
-import { DifferentTable } from '../components/static/gst-registration/DifferentTable'
-import Benefits from '../components/static/gst-registration/Benefits'
-import Who from '../components/static/gst-registration/Who'
-import VitalDocuments from '../components/static/gst-registration/VitalDocuments'
-import { RegistrationProcess } from '../components/static/gst-registration/RegistrationProcess'
-import GSTReturn from '../components/static/gst-registration/GSTReturn'
-import Penalty from '../components/static/gst-registration/Penalty'
-import Voluntary from '../components/static/gst-registration/Voluntary'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import Exemption from '../components/static/gst-registration/Exemption'
+import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
+import { Hero } from '../../components/static/gst-registration/Hero'
+import { Process } from '../../components/static/gst-registration/Process'
+import { DifferentTable } from '../../components/static/gst-registration/DifferentTable'
+import Benefits from '../../components/static/gst-registration/Benefits'
+import Who from '../../components/static/gst-registration/Who'
+import VitalDocuments from '../../components/static/gst-registration/VitalDocuments'
+import { RegistrationProcess } from '../../components/static/gst-registration/RegistrationProcess'
+import GSTReturn from '../../components/static/gst-registration/GSTReturn'
+import Penalty from '../../components/static/gst-registration/Penalty'
+import Voluntary from '../../components/static/gst-registration/Voluntary'
+import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
+import Exemption from '../../components/static/gst-registration/Exemption'
+import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 
 const faq = [
     {
@@ -79,6 +80,294 @@ const faq = [
         "answer": "Late filing of GST returns can lead to penalties and interest charges, so it’s essential to comply with the filing deadlines."
     }
 ]
+let state = [
+  "maharashtra",
+  "jharkhand",
+  "kashmir",
+  "puducherry",
+  "karnataka",
+  "madhya-pradesh",
+  "andhra-pradesh",
+  "himachal-pradesh",
+  "tamil-nadu",
+  "odisha",
+  "assam",
+  "arunachal-pradesh",
+  "gujarat",
+  "chandigarh",
+  "jammu-and-kashmir",
+  "manipur",
+  "andaman-and-nicobar-islands",
+  "bihar",
+  "chhattisgarh",
+  "dadra-and-nagar-haveli",
+  "daman-and-diu",
+  "goa",
+  "haryana",
+  "kerala",
+  "ladakh",
+  "lakshadweep",
+  "meghalaya",
+  "mizoram",
+  "nagaland",
+  "punjab",
+  "rajasthan",
+  "sikkim",
+  "telangana",
+  "tripura",
+  "uttar-pradesh",
+  "uttarakhand",
+  "west-bengal"
+]
+
+let city = [
+  "mumbai",
+  "firozabad",
+  "new-delhi",
+  "srinagar",
+  "bangalore",
+  "ghaziabad",
+  "hyderabad",
+  "thiruvananthapuram",
+  "ahmedabad",
+  "chennai",
+  "gorakhpur",
+  "kolkata",
+  "thrissur",
+  "gulbarga",
+  "lucknow",
+  "tiruchirappalli",
+  "agartala",
+  "agra",
+  "ahmednagar",
+  "aizawl",
+  "ajmer",
+  "akola",
+  "aligarh",
+  "alwar",
+  "ambala",
+  "ambarnath",
+  "ambattur",
+  "amravati",
+  "amritsar",
+  "amroha",
+  "anand",
+  "anantapur",
+  "anantapuram",
+  "arrah",
+  "asansol",
+  "avadi",
+  "bahraich",
+  "bally",
+  "baranagar",
+  "barasat",
+  "bardhaman",
+  "bareilly",
+  "bathinda",
+  "begusarai",
+  "belgaum",
+  "bellary",
+  "berhampore",
+  "berhampur",
+  "bhagalpur",
+  "bhalswa-jahangir-pur",
+  "bharatpur",
+  "bhatpara",
+  "bhavnagar",
+  "bhilai",
+  "bhilwara",
+  "bhind",
+  "bhiwandi",
+  "bhiwani",
+  "bhopal",
+  "bhubaneswar",
+  "bhusawal",
+  "bidar",
+  "bidhannagar",
+  "bihar-sharif",
+  "bikaner",
+  "bilaspur",
+  "bokaro",
+  "bulandshahr",
+  "burhanpur",
+  "chandigarh",
+  "chapra",
+  "chittoor",
+  "coimbatore",
+  "cuttack",
+  "darbhanga",
+  "davanagere",
+  "dehradun",
+  "delhi",
+  "deoghar",
+  "dewas",
+  "dhanbad",
+  "dhule",
+  "dindigul",
+  "durg",
+  "durgapur",
+  "eluru",
+  "erode",
+  "etawah",
+  "faridabad",
+  "farrukhabad",
+  "fatehpur",
+  "gandhidham",
+  "gandhinagar",
+  "gaya",
+  "gopalpur",
+  "guntur",
+  "gurgaon",
+  "guwahati",
+  "gwalior",
+  "haldia",
+  "hapur",
+  "haridwar",
+  "hospet",
+  "gulbargahowrah",
+  "hubli-dharwad",
+  "ichalkaranji",
+  "imphal",
+  "indore",
+  "jabalpur",
+  "jaipur",
+  "jalandhar",
+  "jalgaon",
+  "jalna",
+  "jammu",
+  "jamnagar",
+  "jamshedpur",
+  "jhansi",
+  "jodhpur",
+  "junagadh",
+  "kadapa",
+  "kakinada",
+  "kalyan-dombivli",
+  "kamarhati",
+  "kanpur",
+  "karawal-nagar",
+  "karimnagar",
+  "karnal",
+  "katni",
+  "khammam",
+  "khandwa",
+  "kharagpur",
+  "khora-ghaziabad",
+  "kirari-suleman-nagar",
+  "kochi",
+  "kolhapur",
+  "kollam",
+  "korba",
+  "kota",
+  "kozhikode",
+  "kulti",
+  "kurnool",
+  "latur",
+  "loni",
+  "ludhiana",
+  "madhyamgram",
+  "madurai",
+  "maheshtala",
+  "malda",
+  "malegaon",
+  "mangalore",
+  "mango",
+  "mathura",
+  "mau",
+  "meerut",
+  "mira-bhayandar",
+  "mirzapur",
+  "moradabad",
+  "morbi",
+  "morena",
+  "munger",
+  "muzaffarnagar",
+  "muzaffarpur",
+  "mysore",
+  "nadiad",
+  "nagercoil",
+  "nagpur",
+  "naihati",
+  "nanded",
+  "nandyal",
+  "nangloi-jat",
+  "nashik",
+  "navi-mumbai",
+  "nellore",
+  "new-delhi",
+  "nizamabad",
+  "noida",
+  "north-dumdum",
+  "ongole",
+  "orai",
+  "pali",
+  "pallavaram",
+  "panchkula",
+  "panihati",
+  "panipat",
+  "parbhani",
+  "patiala",
+  "patna",
+  "pimpri-chinchwad",
+  "pondicherry",
+  "pune",
+  "puri",
+  "purnia",
+  "raebareli",
+  "raichur",
+  "raipur",
+  "rajahmundry",
+  "rajkot",
+  "rajpur-sonarpur",
+  "ramagundam",
+  "rampur",
+  "ranchi",
+  "ratlam",
+  "rewa",
+  "rohtak",
+  "rourkela",
+  "sagar",
+  "saharanpur",
+  "salem",
+  "sambalpur",
+  "sambhal",
+  "satara",
+  "satna",
+  "secunderabad",
+  "shahjahanpur",
+  "shimoga",
+  "sikar",
+  "silchar",
+  "siliguri",
+  "singrauli",
+  "solapur",
+  "sonipat",
+  "south-dumdum",
+  "sri-ganganagar",
+  "surat",
+  "tenali",
+  "thane",
+  "thanjavur",
+  "thoothukudi",
+  "tirunelveli",
+  "tirupati",
+  "tiruppur",
+  "tiruvottiyur",
+  "tumkur",
+  "udaipur",
+  "ujjain",
+  "ulhasnagar",
+  "uluberia",
+  "uzhavarkarai",
+  "vadodara",
+  "varanasi",
+  "vasai-virar",
+  "vijayanagaram",
+  "vijayawada",
+  "visakhapatnam",
+  "warangal",
+  "yamunanagar"
+]
 
 const Home = () => {
     return (
@@ -91,43 +380,44 @@ const Home = () => {
                 <meta property="og:title" content="Apply for GST Registration with Registerkaro" />
                 <meta property="og:description" content="Want GST Registration in India or want to know complete details regarding GST in India? Contact RegisterKaro Now!" />
             </Head>
-            <Hero />
+            <Hero  cityName={'India'}/>
             <h1 className='main-heading'>An Overview of GST Registration</h1>
             <div className='heading-line'></div>
-            <Process />
+            <Process  cityName={'India'}/>
             <h2 className='main-heading'>What are the Different Types of GST in India?</h2>
             <div className='heading-line'></div>
-            <DifferentTable/>
+            <DifferentTable cityName={'India'}/>
             <h2 className='main-heading'>Benefits of GST Registration in India</h2>
             <div className='heading-line'></div>
-            <Benefits/>
+            <Benefits cityName={'India'}/>
             <h2 className='main-heading'>Who can apply for GST Registration in India?</h2>
             <div className='heading-line'></div>
-            <Who/>
+            <Who cityName={'India'}/>
             <h2 className='main-heading'>List of Vital Documents Required for GST Registration in India</h2>
             <div className='heading-line'></div>
-            <VitalDocuments/>
+            <VitalDocuments cityName={'India'}/>
             <h2 className='main-heading'>Online GST Registration Process with RegisterKaro</h2>
             <div className='heading-line'></div>
-            <RegistrationProcess/>
+            <RegistrationProcess cityName={'India'}/>
             <h2 className='main-heading'>GST Return Filing</h2>
             <div className='heading-line'></div>
-            <GSTReturn/>
+            <GSTReturn cityName={'India'}/>
             <h2 className='main-heading'>Penalty for Not Getting GST in India</h2>
             <div className='heading-line'></div>
-            <Penalty/>
+            <Penalty cityName={'India'}/>
             <h2 className='main-heading'>Voluntary Registration under GST</h2>
             <div className='heading-line'></div>
-            <Voluntary/>
+            <Voluntary cityName={'India'}/>
             <h2 className='main-heading'>Exemption on GST Registration in India</h2>
             <div className='heading-line'></div>
-            <Exemption/>
+            <Exemption cityName={'India'}/>
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
             <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
+            <RegistrationLinks formattedQuery={'Apply for GST Registration with Registerkaro'} state={state} Query={'gst-registration'} city={city} />
         </div>
     )
 }

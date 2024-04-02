@@ -15,7 +15,13 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+
+interface HeroProps {
+    cityName: string;
+}
+
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,7 +35,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>GST Registration</h4>
-                <p>Want GST Registration in India or want to know complete details regarding GST in India? Then you are at the right place. RegisterKaro is India’s no.1 service provider for GST Registration.</p>
+                <p>Want GST Registration in {cityName} or want to know complete details regarding GST in {cityName}? Then you are at the right place. RegisterKaro is {cityName}’s no.1 service provider for GST Registration.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (
