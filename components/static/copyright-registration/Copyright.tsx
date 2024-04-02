@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/copyright-registration/eligibility_criteria_for_the_registration.svg";
-
-const Copyright = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Copyright = ({ cityName }: HeroProps) => {
   return (
     <div id="Copyright">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

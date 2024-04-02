@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentsRequired = ({ cityName }: HeroProps) => {
     return (
         <div className='w-80 m-auto' id='DocumentsRequired'>
             <p className='main-para'>The list of the documents varies as per the nature of the work proposed by the Copyright Registration. However, the general documents required in any category of work are as follows:</p>

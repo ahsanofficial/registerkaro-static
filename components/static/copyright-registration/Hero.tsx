@@ -16,7 +16,12 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +35,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>Copyright Registration</h4>
-                <p>Get Copyright Registration online in India for books, music, film, photography and software applications and etc. through RegisterKaro</p>
+                <p>Get Copyright Registration online in {cityName} for books, music, film, photography and software applications and etc. through RegisterKaro</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/copyright-registration/Are_you_eligible_for_CopyrightRegistration.svg";
-
-const Eligible = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligible = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligible">
       <p className="main-para">
