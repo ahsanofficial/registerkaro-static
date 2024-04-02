@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/u-k-company-registration/Registration_uk_certificate.svg';
+import certificate from '../../../assets/images/static/saudi-arabia-company-registration/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -43,9 +43,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in United Kingdom</p>
+                <p className="small-heading text-center">Company Registration in  Saudi Arabia</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in United Kingdom" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="An Overview of Company Registration in Saudi Arabia" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
