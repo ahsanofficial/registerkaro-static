@@ -7,12 +7,11 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Company Registration ",
-        "Tax filing",
-        "Book-keeping",
-        "Trademark registration",
-        "Company Annual Filing",
-        "Taxation related Compliances",
+        "Eligibility Evaluation",
+        "Application Assistance",
+        "Compliance Guidance",
+        "Liaison Services",
+        "Post-License Support",
     ]
 }
 

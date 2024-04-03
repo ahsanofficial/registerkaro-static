@@ -2,14 +2,13 @@ import Head from 'next/head'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
 import { DocumentRequired } from '../components/static/liquor-license/DocumentRequired'
+import { Estimated } from '../components/static/liquor-license/Estimated'
 import { Hero } from '../components/static/liquor-license/Hero'
+import { Prerequisites } from '../components/static/liquor-license/Prerequisites'
 import { Process } from '../components/static/liquor-license/Process'
 import { ProcessCompany } from '../components/static/liquor-license/ProcessCompany'
 import { Types } from '../components/static/liquor-license/Types'
 import { WhyChoose } from '../components/static/liquor-license/WhyChoose'
-import { Benefits } from '../components/static/liquor-license/Benefits'
-import { Prerequisites } from '../components/static/liquor-license/Prerequisites'
-import { Estimated } from '../components/static/liquor-license/Estimated'
 
 const faq = [
     {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/liquor-license/Types_of_Liquor_License.svg";
 
 export const Types = () => {
   return (
@@ -8,7 +8,7 @@ export const Types = () => {
         <p className="main-para">There are following licenses for the Liquor related services:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
            <p><strong>Beer and Wine License : </strong> For businesses who want to exclusively sell moderately alcoholic beverages like wine and beer. Remember that these companies shouldn’t sell strong liquor.</p>
            <p><strong>Restaurant Liquor Licence : </strong> For eateries that want to provide alcoholic beverages. Only establishments that receive less than 40% of their total revenue from the sale of alcohol are eligible for this license.</p>
            <p><strong>Tavern License : </strong> For companies where the majority of their income come from the selling of alcohol</p>
@@ -23,9 +23,9 @@ export const Types = () => {
         </div>
         <div className="flex-4">
             <Image
-              alt="Types of Company Structures in UK"
+              alt="Types of Liquor License"
               className="Types-img w-100"
-              height={900}
+              height={800}
               loading="lazy"
               src={dft}
             />

@@ -9,16 +9,8 @@ export const WhyChoose = () => {
         RegisterKaro has been one stop solution for liquor license related
         services for the varied ranges of benefits such as:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt="Why Choose RegisterKaro for Company Registration in the United Kingdom?"
-            className="WhyChoose-img w-100"
-            height={400}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+     
         <div className="flex-7">
           <p>
             <strong>Pool of Experts :</strong> RegisterKaro holds a large pool
@@ -46,12 +38,21 @@ export const WhyChoose = () => {
             vision. For us, obtaining the best results is the focus, along with
             the Client satisfaction.
           </p>
-          <>
-            <strong>Trusted partner of 10000+ Clients</strong>RegisterKaro has
+          <p>
+            <strong>Trusted partner of 10000+ Clients: </strong>RegisterKaro has
             earned the trust of more than 10000+ clients who have availed our
             liquor license services. Their trust in us from a term in continuity
             is proof of our services backed by quality and assurance.
-          </>
+          </p>
+        </div>
+        <div className="flex-3">
+          <Image
+            alt="How RegisterKaro helps you in obtaining the liquor license?"
+            className="WhyChoose-img w-100"
+            height={490}
+            loading="lazy"
+            src={dft}
+          />
         </div>
 
         

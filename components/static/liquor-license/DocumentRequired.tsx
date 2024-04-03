@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/liquor-license/Documents.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -9,9 +9,9 @@ export const DocumentRequired = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-5">
             <Image
-              alt="Documents required for Company registration"
+              alt="Documents required for Liquor License"
               className="DocumentRequired-img w-100"
-              height={550}
+              height={600}
               loading="lazy"
               src={dft}
             />
