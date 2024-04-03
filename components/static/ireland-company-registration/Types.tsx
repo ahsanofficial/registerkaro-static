@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/italy-company-registration/Types_of_companies.svg"
+import dft from "../../../assets/images/static/ireland-company-registration/Types_of_companies.svg"
 
 export const Types = () => {
   return (
@@ -9,7 +9,7 @@ export const Types = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-4">
             <Image
-              alt="Types of companies for Company Registration in Italy"
+              alt="Types of companies for Company Registration in Ireland"
               className="Types-img w-100"
               height={800}
               loading="lazy"

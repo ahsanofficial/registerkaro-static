@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/italy-company-registration/Benefits_of_starting_a_Business_in_Italy.svg";
+import dft from "../../../assets/images/static/ireland-company-registration/Benefits_of_starting_a_Business_in_Ireland.svg";
 
 export const Benefits = () => {
   return (
@@ -16,7 +16,7 @@ export const Benefits = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt="Benefits of company registration in Itally"
+            alt="Benefits of starting a Business in Ireland"
             className="Benefits-img w-100"
             height={850}
             loading="lazy"

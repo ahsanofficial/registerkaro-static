@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/u-k-company-registration/Documents.svg";
+import dft from "../../../assets/images/static/ireland-company-registration/Documents_to_carry.svg";
 
 export const DocumentRequired = () => {
   return (
