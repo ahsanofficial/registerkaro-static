@@ -7,10 +7,11 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Consultation Eligibility",
-        "Drafting documents for FSSAI State License",
-        "Filing of FSSAI Application",
-        "Follow-Up with Department",
+        "Agreement Review",
+        "Legal Consultation",
+        "Document Drafting",
+        "Filing Assistance",
+        "Post-Amendment Support",
     ]
 }
 
