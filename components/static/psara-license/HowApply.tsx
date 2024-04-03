@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/psara-license/How_to_apply_for_PSARA_License.svg";
-
-const HowApply = () => {
+interface HeroProps {
+    cityName: string;
+}
+const HowApply = ({ cityName }: HeroProps) => {
   return (
     <div id="HowApply">
         <p className="main-para">Step-by-step process to get PSARA License:</p>

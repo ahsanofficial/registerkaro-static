@@ -1,9 +1,11 @@
 import React from 'react'
-
-export const Estimated = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Estimated = ({ cityName }: HeroProps) => {
     return (
         <div className='m-auto w-auto' id='Estimated'>
-            <p className='main-para'>Because liquor rules differ from one state to the next, getting a license also costs different amounts based on where your business is located. Furthermore, the price of getting a license varies according to your business’s size and type as well as the kind of license you desire. A summary of the typical price of a liquor license in India is provided below:</p>
+            <p className='main-para'>Because liquor rules differ from one state to the next, getting a license also costs different amounts based on where your business is located. Furthermore, the price of getting a license varies according to your business’s size and type as well as the kind of license you desire. A summary of the typical price of a liquor license in {cityName} is provided below:</p>
             <table>
                 <tr>
                     <th className='first'>Nature of License </th>

@@ -15,8 +15,10 @@ let hero = {
         "Representation before Authority",
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +32,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>PSARA License</h4>
-                <p>PSARA License is mandatory to start and run a Security Guard Agency business in India. Hence before supplying the security guards the private security agency should obtain PSARA License. Our Experts can help you in getting PSARA License at minimum cost.</p>
+                <p>PSARA License is mandatory to start and run a Security Guard Agency business in {cityName}. Hence before supplying the security guards the private security agency should obtain PSARA License. Our Experts can help you in getting PSARA License at minimum cost.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

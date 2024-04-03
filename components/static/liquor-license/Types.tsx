@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/liquor-license/Types_of_Liquor_License.svg";
-
-export const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         <p className="main-para">There are following licenses for the Liquor related services:</p>

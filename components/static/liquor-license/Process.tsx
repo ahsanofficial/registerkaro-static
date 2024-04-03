@@ -1,11 +1,13 @@
 import certificate from '../../../assets/images/static/liquor-license/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Obtaining a liquor license is essential in order to sell alcohol in India lawfully. A valid liquor license is a requirement for liquor stores, pubs, clubs, discos, bars, hotels, and restaurants. Alcohol sales are forbidden and considered unlawful without this authorization. In the regulatory framework, liquor licenses are essential because they handle the complex socio-legal aspects of the distribution and use of alcoholic beverages. </p>
+                <p className='text-justify'>Obtaining a liquor license is essential in order to sell alcohol in {cityName} lawfully. A valid liquor license is a requirement for liquor stores, pubs, clubs, discos, bars, hotels, and restaurants. Alcohol sales are forbidden and considered unlawful without this authorization. In the regulatory framework, liquor licenses are essential because they handle the complex socio-legal aspects of the distribution and use of alcoholic beverages. </p>
                 <p className='text-justify'>Beyond just a drink, liquor has cultural, legal, and societal ramifications. Owing to its possible associations with criminal activity and aggression, state governments closely oversee every aspect of the liquor industry, including production, sales, and manufacturing. Liquor licenses are issued by each state government to fully oversee and control these activities. Legally speaking, a liquor license is the permission given by the state excise department to people or organizations that are involved in the production, distribution, import, export, transportation, possession, and sale of alcoholic beverages.</p>
                 <div className='page-point'>
                     <ul>

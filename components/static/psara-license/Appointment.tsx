@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/psara-license/appointment.svg";
-
-const Appointment = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Appointment = ({ cityName }: HeroProps) => {
   return (
     <div id="Appointment">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

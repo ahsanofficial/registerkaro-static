@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/psara-license/Documents_Required.svg";
-
-const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
         <p className="main-para">To obtain a Private Security Agencies (Regulation) Act, 2005 (PSARA) license, the following registration certificates and documents are necessary</p>

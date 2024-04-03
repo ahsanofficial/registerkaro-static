@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/psara-license/the_Benefits_of_PSARA_License.svg";
-
-const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
-      <p className="main-para">The following are the benefits of PSARA License in India:</p>
+      <p className="main-para">The following are the benefits of PSARA License in {cityName}:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 pt-5">
             <p><strong>1. </strong>Empowers the training company;</p>

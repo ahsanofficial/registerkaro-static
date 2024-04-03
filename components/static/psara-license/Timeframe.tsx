@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/psara-license/timefram_obtaining.svg";
-
-const Timeframe = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Timeframe = ({ cityName }: HeroProps) => {
   return (
     <div id="Timeframe">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
