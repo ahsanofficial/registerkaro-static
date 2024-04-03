@@ -1,16 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/psara-license/Who_is_Eligible_for.svg";
 
 const Eligible = () => {
   return (
     <div id="Eligible">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
         <Image
-            alt=""
+            alt="Who is Eligible for PSARA?"
             className="Eligible-img w-100"
-            height={480}
+            height={880}
             loading="lazy"
             src={bft}
           />

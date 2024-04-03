@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/psara-license/How_to_apply_for_PSARA_License.svg";
 
 const HowApply = () => {
   return (
@@ -9,9 +9,9 @@ const HowApply = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="How to apply for PSARA License?"
             className="HowApply-img w-100"
-            height={480}
+            height={600}
             loading="lazy"
             src={bft}
           />

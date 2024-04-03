@@ -63,11 +63,11 @@ const Home = () => {
     return (
         <div className='services-pages psara-license-reg'>
             <Head>
-                <title>Get Started with Company Registration in Saudi Arabia</title>
-                <meta name="description" content="description-Get your business up and running smoothly with our Saudi Arabia company registration services. This quick guide tells you which steps to take." />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <title> PSARA License - Eligibility, documents and Procedure</title>
+                <meta name="description" content="Secure your PSARA license hassle-free with our expert guidance. From application to approval, trust our team to navigate the process smoothly." />
+                <link rel="canonical" href="https://www.registerkaro.in/psara-license" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Get Started with Company Registration in Saudi Arabia" />
+                <meta property="og:title" content=" PSARA License - Eligibility, documents and Procedure" />
                 <meta property="og:description" content="description-Get your business up and running smoothly with our Saudi Arabia company registration services. This quick guide tells you which steps to take." />
             </Head>
             <Hero />

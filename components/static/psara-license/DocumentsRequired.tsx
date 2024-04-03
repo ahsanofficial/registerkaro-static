@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/psara-license/Documents_Required.svg";
 
 const DocumentsRequired = () => {
   return (
     <div id="DocumentsRequired">
         <p className="main-para">To obtain a Private Security Agencies (Regulation) Act, 2005 (PSARA) license, the following registration certificates and documents are necessary</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <p><strong>1. </strong>PAN (Permanent Account Number)</p>
             <p><strong>2. </strong>GSTIN (Goods and Services Tax Identification Number)</p>
             <p><strong>3. </strong>Provident Fund Registration</p>
@@ -25,9 +25,9 @@ const DocumentsRequired = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Documents Required for PSARA License"
             className="DocumentsRequired-img w-100"
-            height={480}
+            height={750}
             loading="lazy"
             src={bft}
           />
