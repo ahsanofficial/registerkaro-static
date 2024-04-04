@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/eligiblity.svg";
-
-const Eligibility = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligibility = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligibility">
         <p className="main-para">To be eligible for BIS Certification for Power Banks, you need to fulfill the following conditions:</p>

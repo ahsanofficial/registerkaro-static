@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/mandatory_compiance.svg";
-
-const Mandatory = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Mandatory = ({ cityName }: HeroProps) => {
   return (
     <div id="Mandatory">
         <p className="main-para">The mandatory compliance attached with the BIS Certification for Power Banks are:</p>

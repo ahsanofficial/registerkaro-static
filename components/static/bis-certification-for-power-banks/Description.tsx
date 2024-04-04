@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/A_detailed_description_of_the_Power_Banks.svg";
-
-const Description = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Description = ({ cityName }: HeroProps) => {
   return (
     <div id="Description">
         <p className="main-para">Power banks are portable chargers that can recharge electronic devices such as mobile phones, tablets, laptops, etc. when a person is on the move. Power banks have different capacities, sizes, shapes, and features depending on the type and number of batteries, charging ports, cables, indicators, etc. Power banks are classified as information technology equipment under the CRS Order and are subject to BIS CRS Certification.</p>

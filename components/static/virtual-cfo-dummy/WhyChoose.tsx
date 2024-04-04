@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const WhyChoose = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
     return (
         <div id='WhyChoose' className='m-auto w-80'>
             <table>

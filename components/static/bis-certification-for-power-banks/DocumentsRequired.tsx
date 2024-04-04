@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/Documents.svg";
-
-const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
         <p className="main-para">The documents required for BIS Certification for Power Banks are:</p>

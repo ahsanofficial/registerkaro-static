@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/Types_and_distinctions.svg";
-
-const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         <p className="main-para">There are two types of BIS Certification for Power Banks:</p>
@@ -17,8 +19,8 @@ const Types = () => {
           />
         </div>
         <div className="flex-7 pt-5">
-            <p><strong>Domestic Manufacturer Registration:</strong> This is for the manufacturers who produce power banks in India. They need to apply for BIS CRS Registration for each manufacturing unit and each brand name of their power banks.</p>
-            <p><strong>Foreign Manufacturer Registration: </strong>This is for the manufacturers who produce power banks outside India and import them into India. They need to apply for BIS CRS Certification for each country of origin and each brand name of their power banks.</p>
+            <p><strong>Domestic Manufacturer Registration:</strong> This is for the manufacturers who produce power banks in {cityName}. They need to apply for BIS CRS Registration for each manufacturing unit and each brand name of their power banks.</p>
+            <p><strong>Foreign Manufacturer Registration: </strong>This is for the manufacturers who produce power banks outside {cityName} and import them into {cityName}. They need to apply for BIS CRS Certification for each country of origin and each brand name of their power banks.</p>
         </div>
       
       </div>

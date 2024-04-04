@@ -1,19 +1,21 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-cfo-services/Functions_of_a_Virtual_CFO.svg";
-
-const Functions = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Functions = ({ cityName }: HeroProps) => {
   return (
     <div id="Functions">
       <p className="main-para">
-        Following are the Functions of a Virtual CFO in India:
+        Following are the Functions of a Virtual CFO in {cityName}:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
           <p>
             <strong>Internal Control Development : </strong>
             The hierarchical top-down organizational structure and managerial
-            deficiency that SMEs in India frequently experience is clear from
+            deficiency that SMEs in {cityName} frequently experience is clear from
             their lax internal controls. The significance of implementing
             sufficient internal controls that support best practices and
             effectively reduce risk is not well understood by a significant

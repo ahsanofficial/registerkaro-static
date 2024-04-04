@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/revocation.svg";
-
-const Revocation = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Revocation = ({ cityName }: HeroProps) => {
   return (
     <div id="Revocation">
         <p className="main-para">BIS may cancel, suspend, or revoke your BIS Certification for Power Banks if you:</p>

@@ -13,8 +13,10 @@ let hero = {
         "End-to-end Support",
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -27,7 +29,7 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>Get Online BIS CRS Certification for Power Banks in India</h4>
+            <h4 className='mb-4'>Get Online BIS CRS Certification for Power Banks in {cityName}</h4>
                 <p>Get your BIS CRS Certification for Power Banks with the help of RegisterKaro, where we guide you through the complete Registration Procedure under BIS Guidelines.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {

@@ -1,10 +1,10 @@
 import Image from "next/image";
-import React from "react";
 import bft from "../../../assets/images/static/rera-registration/Check_your_Eligibility.svg";
 
-import ulArrow from '../../../assets/images/pvt-reg/ulArrow.svg'
-
-const Eligibility = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligibility = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligibility">
         <p className="main-para">You are eligible for RERA Registration Certificate is you fall to be in any of the following category:</p>

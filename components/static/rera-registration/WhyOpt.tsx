@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/rera-registration/Why_to_opt_for_RERA_Registration_Certificate.svg";
-
-const WhyOpt = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhyOpt = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyOpt">
       <p className="main-para">

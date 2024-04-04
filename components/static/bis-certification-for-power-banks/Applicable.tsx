@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/bis-certification-for-power-banks/applicatble.svg";
-
-const Applicable = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Applicable = ({ cityName }: HeroProps) => {
   return (
     <div id="Applicable">
         <p className="main-para">The BIS Certification for Power Banks is governed by the following rules and regulations:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-cfo-services/Virtual_CFO_for_all.svg";
-
-const Virtual = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Virtual = ({ cityName }: HeroProps) => {
   return (
     <div id="Virtual">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

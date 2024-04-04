@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/virtual-cfo-services/Why_to_avail.svg";
-
-const CFOServices = () => {
+interface HeroProps {
+    cityName: string;
+}
+const CFOServices = ({ cityName }: HeroProps) => {
   return (
     <div id="CFOServices">
       <p className="main-para">
