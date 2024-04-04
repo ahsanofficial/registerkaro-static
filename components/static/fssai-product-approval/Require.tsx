@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/Which_Food_products.svg";
 
-const Require = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Require = ({ cityName }: HeroProps) => {
   return (
     <div id="Require">
         <p className="main-para">Food products inclusive of food ingredients or food additives for which there are no standards notified by FSSAI will require products approval. However, recently FSSAI has tried to include many categories of food products eligible for approval.</p>

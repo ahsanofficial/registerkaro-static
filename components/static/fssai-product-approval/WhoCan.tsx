@@ -2,7 +2,12 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/who_can.svg";
 
-const WhoCan = () => {
+
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhoCan = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCan">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

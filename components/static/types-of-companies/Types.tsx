@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+interface HeroProps {
+  cityName: string;
+}
 
-const Types = () => {
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         <p className="main-para">Classification of a company is done based on several factors:</p>
@@ -18,7 +20,7 @@ const Types = () => {
 
          <h3>Companies based on Liabilities</h3>
          <div className="ps-5">
-                <p><strong>1. Companies Limited by Shares: </strong> These companies issue their shares to the public through initial public offerings (IPOs). These companies are referred to as limited companies in India and public limited companies (PLCs), or “Inc” in the United States, in the commonwealth countries, and in Great Britain.</p>
+                <p><strong>1. Companies Limited by Shares: </strong> These companies issue their shares to the public through initial public offerings (IPOs). These companies are referred to as limited companies in {cityName} and public limited companies (PLCs), or “Inc” in the United States, in the commonwealth countries, and in Great Britain.</p>
                 <p><strong>2. Companies Limited by Guarantee: </strong> In some cases, the memorandum of association (MoA) of a business stipulates the quantities of capital that certain members commit to pay. They will only be required to make the promised payment if the business is dissolved. <br />Example: Clubs, sports groups, workers’ cooperatives, student unions, and non-governmental organizations (NGOs) are examples of companies that can establish guarantee companies because they do not split their assets into shares or give earnings to their members.</p>
                 <p><strong>3. Unlimited Companies: </strong>It’s a form of private company. Members of unlimited companies have no limits on their liabilities. As a result, while the corporation is winding up, it can take all of the shareholders’ assets to pay off its debts. Their duties will cover the company’s whole debt.</p>
                 </div>
@@ -39,9 +41,9 @@ const Types = () => {
             <p><strong>1. Micro Companies: </strong>These are companies with yearly sales under Rs. 5 crore and plant and machinery investments under Rs. 1 crore.</p>
             <p><strong>2. Small Companies: </strong>Small Companies are established under the Companies Act 2013, which aims to foster economic growth and create jobs for the general public.  According to the Companies Act, a business is classified as small if its maximum paid-up share capital is Rs. 4 crore and its maximum turnover is Rs. 40 crore. The Companies Act of 2013 confers certain advantages for these companies.</p>
             <p><strong>3. Small and Medium-sized Companies: </strong>It refers to an unlisted company (private or public) that is not a bank/financial institution or insurance company and has a turnover and borrowings of less than INR 250 crore and INR 50 crore, respectively.</p>
-            <h4>Types of Companies in India Based on Residence</h4>
-            <p><strong>4. Foreign companies: /</strong> According to Section 2(42) of the Companies Act, 2013, a “foreign company” is a company or body corporate that has a place of business or does business in India (either directly or through an agent). This form of company is subject to the provisions specified in Sections 379-393.</p>
-            <p><strong>5. Indian companies: </strong>This pertains to companies incorporated and registered in India. It is an umbrella phrase that encompasses practically all other types of companies.</p>
+            <h4>Types of Companies in {cityName} Based on Residence</h4>
+            <p><strong>4. Foreign companies: /</strong> According to Section 2(42) of the Companies Act, 2013, a “foreign company” is a company or body corporate that has a place of business or does business in {cityName} (either directly or through an agent). This form of company is subject to the provisions specified in Sections 379-393.</p>
+            <p><strong>5. Indian companies: </strong>This pertains to companies incorporated and registered in {cityName}. It is an umbrella phrase that encompasses practically all other types of companies.</p>
         </div>
         <h3>Other Types of Companies</h3>
         <div className="ps-5">

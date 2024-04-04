@@ -1,8 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/benefits.svg";
+interface HeroProps {
+  cityName: string;
+}
 
-export const Benefits = () => {
+export const Benefits = ({ cityName }: HeroProps) => {
+
   return (
     <div id="Benefits">
         <p className="main-para">Following are some benefits of FSSAI product approval:</p>

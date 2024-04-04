@@ -1,5 +1,9 @@
+interface HeroProps {
+  cityName: string;
+}
 
-export const DocumentRequired = () => {
+export const DocumentRequired = ({ cityName }: HeroProps) => {
+
   return (
     <div id="DocumentRequired">
         <p className="main-para">Following are the documents required for the company registration in United Kingdom:</p>

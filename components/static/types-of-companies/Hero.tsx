@@ -5,7 +5,11 @@ import Image from 'next/image';
 import { GoogleDiv } from '../GoogleDiv';
 
 
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -18,8 +22,8 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>Different Types of Companies in India</h4>
-                <p>Before starting any business, it is vital to know the various types of companies in India for both entrepreneurs and investors.</p>
+            <h4 className='mb-4'>Different Types of Companies in {cityName}</h4>
+                <p>Before starting any business, it is vital to know the various types of companies in {cityName} for both entrepreneurs and investors.</p>
                 <GoogleDiv />
             </div>
             <div className="zoho">

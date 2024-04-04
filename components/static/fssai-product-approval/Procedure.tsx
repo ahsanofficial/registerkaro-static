@@ -2,7 +2,12 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/Procedure_for_getting_Product_Approval_in_India.svg";
 
-const Procedure = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Procedure = ({ cityName }: HeroProps) => {
+
   return (
     <div id="Procedure">
       <p className="main-para">
@@ -16,7 +21,7 @@ const Procedure = () => {
             Basically, Food Product Approval is an intangible asset for any
             business or company and it gives the business with authority to
             either manufacture or markets a certain type of food product in
-            India. In addition, each product approval is granted only after a
+            {cityName}. In addition, each product approval is granted only after a
             significant amount of processing time and involves payment of high
             processing fees to FSSAI. Therefore, it has been advised that the
             Product Approval application is filed from any entity such as
@@ -49,7 +54,7 @@ const Procedure = () => {
             It’s compulsory to contain a product label for Product Approval. The
             label may be a prototype and need not be printed. It’s vital to make
             sure that the food product label follows the FSSAI food product
-            labelling standards in India.
+            labelling standards in {cityName}.
           </p>
 
           <h3>Submitting the Application:</h3>

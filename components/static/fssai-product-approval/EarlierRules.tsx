@@ -1,8 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/rules.svg";
+interface HeroProps {
+  cityName: string;
+}
 
-const EarlierRules = () => {
+export const EarlierRules = ({ cityName }: HeroProps) => {
+
   return (
     <div id="EarlierRules">
         <p className="main-para">The FSSAI introduced a product approval system to undertake a safety assessment of food products containing ingredients that do not have prescribed standards after implementing the FSSAI Act and the Regulations. However, continuing the product approval process for non-standardized food products or components was impossible without legitimate regulations. The product approval system for non-standardized food products/ingredients was discontinued on 26th August 2015.</p>

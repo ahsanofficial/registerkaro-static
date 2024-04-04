@@ -2,7 +2,12 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/approval.svg";
 
-const System = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const System = ({ cityName }: HeroProps) => {
+
   return (
     <div id="System">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

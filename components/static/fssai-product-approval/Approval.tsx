@@ -2,7 +2,12 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/fssai-product-approval/approval.svg";
 
-const Approval = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Approval = ({ cityName }: HeroProps) => {
+
   return (
     <div id="Approval">
         <p className="main-para"><strong>Following are some points where you need FSSAI product approval:</strong></p>
