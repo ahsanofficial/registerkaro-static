@@ -54,7 +54,7 @@ const Home = () => {
             <Head>
                 <title>Virtual Registration | RegisterKaro</title>
                 <meta name="description" content="The Official RegisterKaro" />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <link rel="canonical" href="https://www.registerkaro.in/virtual-cfo-services" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content="Trademark Registration | RegisterKaro" />
                 <meta property="og:description" content="The Official RegisterKaro" />

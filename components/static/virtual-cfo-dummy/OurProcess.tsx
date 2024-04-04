@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/virtual-cfo-services/process.svg";
 
 const OurProcess = () => {
   return (
@@ -12,7 +12,7 @@ const OurProcess = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt=""
+            alt="Our Process to get Virtual CFO Services"
             className="OurProcess-img w-100"
             height={480}
             loading="lazy"

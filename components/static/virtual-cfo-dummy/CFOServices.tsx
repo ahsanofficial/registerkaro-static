@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/virtual-cfo-services/Why_to_avail.svg";
 
 const CFOServices = () => {
   return (
@@ -11,14 +11,14 @@ const CFOServices = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt=""
+            alt="Why to avail Virtual CFO Services?"
             className="CFOServices-img w-100"
-            height={480}
+            height={1080}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-4">
           <p>
             <strong>Accurate Accounting & Budgeting : </strong>
             Accuracy in Accounting and budgeting helps in strategizing

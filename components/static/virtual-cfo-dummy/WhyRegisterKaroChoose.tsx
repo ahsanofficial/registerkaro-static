@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/virtual-cfo-services/why_registerkaro_for.svg";
 
 const WhyRegisterKaroChoose = () => {
   return (
@@ -48,7 +48,7 @@ const WhyRegisterKaroChoose = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=""
+            alt="Why RegisterKaro for Virtual CFO Services?"
             className="WhyRegisterKaroChoose-img w-100"
             height={480}
             loading="lazy"
