@@ -27,7 +27,7 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>rera-registration</h4>
+            <h4 className='mb-4'>RERA Registration</h4>
                 <p>RegisterKaro RERA Registration services are of premium quality at the most efficient rate, which suits the client's pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {

@@ -1,16 +1,27 @@
 .rera-reg {
+    .line{
+        width: 4px;
+        background-color: #E9A038;
+        margin: 0 0.5rem;
+      }
     @media screen and (max-width: 990px) {
+        .line{
+            display: none;
+        }
+        .DcosContainer{
+            display: block;
+        }
         .WhyOpt-img{
-            border:1px solid black;
+            height: 800px;
         }
         .Eligibility-img{
-            border:1px solid black;
+            height: 500px;
         }
         .DocumentRequired-img{
-            border:1px solid black;
+            height: 500px;
         }
         .WhyChoose-img{
-            border:1px solid black;
+            height: 500px;
         }
     }
   }

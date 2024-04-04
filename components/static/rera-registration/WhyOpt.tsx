@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/rera-registration/Why_to_opt_for_RERA_Registration_Certificate.svg";
 
 const WhyOpt = () => {
   return (
@@ -10,7 +10,7 @@ const WhyOpt = () => {
         benefits such as:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-3">
           <p>
             <strong>Uniformity : </strong>
             According to the conditions of the RERA Registration, the company is
@@ -77,9 +77,9 @@ const WhyOpt = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=""
+            alt="Why to opt for RERA Registration Certificate?"
             className="WhyOpt-img w-100"
-            height={480}
+            height={780}
             loading="lazy"
             src={bft}
           />

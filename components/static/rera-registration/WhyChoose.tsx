@@ -1,21 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/u-k-company-registration/why_choose_regis.svg"
+import dft from "../../../assets/images/static/common-images/Why _choose.svg"
 
 export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for UK Company Registration for the varied ranges of benefits such as :</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt="Why Choose RegisterKaro for Company Registration in the United Kingdom?"
-            className="WhyChoose-img w-100"
-            height={400}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+     
         <div className="flex-7">
            <p><strong>Pool of Experts :</strong> RegisterKaro holds a large pool of Experts from all over the world specializing in RERA Registration services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
            <p><strong>Cost-effective :</strong> RegisterKaro RERA Registration services are of premium quality at the most efficient rate, which suits the client’s pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
@@ -24,6 +16,15 @@ export const WhyChoose = () => {
            <p><strong>Trusted partner of 10000+ Clients :</strong> RegisterKaro has earned the trust of more than 10000+ clients who have availed in RERA Registration services.  Their trust in us from a term in continuity is proof of our services backed by quality and assurance.</p>
         </div>
           
+        <div className="flex-3">
+          <Image
+            alt="Why Choose RegisterKaro for Company Registration in the Rera Registration?"
+            className="WhyChoose-img w-100"
+            height={500}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
      
       </div>
     </div>
