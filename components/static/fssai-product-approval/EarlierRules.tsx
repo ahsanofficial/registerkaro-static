@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/fssai-product-approval/rules.svg";
 
 const EarlierRules = () => {
   return (
@@ -16,7 +16,7 @@ const EarlierRules = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Earlier Rules and Regulations for FSSAI Product Approval"
             className="EarlierRules-img w-100"
             height={480}
             loading="lazy"

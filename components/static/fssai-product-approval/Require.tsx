@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/fssai-product-approval/Which_Food_products.svg";
 
 const Require = () => {
   return (
@@ -9,14 +9,14 @@ const Require = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Which Food products require product approval?"
             className="Require-img w-100"
             height={480}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-3">
             <h3>Some of these include:</h3>
             <p><strong>1. </strong>Health Supplements.</p>
             <p><strong>2. </strong>Nutraceuticals.</p>

@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/fssai-product-approval/approval.svg";
 
 const Approval = () => {
   return (
     <div id="Approval">
         <p className="main-para"><strong>Following are some points where you need FSSAI product approval:</strong></p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
         <Image
-            alt=""
+            alt="When do you need product approval in India?"
             className="Approval-img w-100"
-            height={480}
+            height={350}
             loading="lazy"
             src={bft}
           />

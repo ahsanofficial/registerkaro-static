@@ -1,6 +1,3 @@
-import Image from "next/image";
-import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -8,43 +5,37 @@ export const DocumentRequired = () => {
         <p className="main-para">Following are the documents required for the company registration in United Kingdom:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
-        <div className="flex-4 pt-5">
-           <ol>
-            <li>An FSSAI license for the food product</li>
-            <li>Demand draft, which needs to be payable to the senior Accounts officer of the FSSAI.</li>
-            <li>Agreement of relation between the FBO.</li>
-            <li>The information on the manufacturing process of the food product.</li>
-            <li>The test report was obtainined from the national accreditation board for testing and calibration laboratories or international laboratory Accreditation cooperation.</li>
-            <li>Details of any technology.</li>
-            <li>The history of quality and duration of the food product or ingredients consumption.</li>
-            <li>The regulatory status of the ingredients or food product worldwide.</li>
-            <li>Business name</li>
-            <li>Business address</li>
-            <li>Brand name</li>
-            <li>Method of manufacturing</li>
-            <li>Claim, if any?</li>
-            <li>Product’s shelf life;</li>
-            <li>Pack size</li>
-            <li>Serving details;</li>
-            <li>Ingredients details;</li>
-            <li>Email;</li>
-            <li>Phone number</li>
-            <li>Manufactures address</li>
-            <li>Product origin</li>
-            <li>Country of origin</li>
-            <li>Existence in the market</li>
-            <li>Common name.</li>
-           </ol>
-        </div>
-        <div className="flex-5">
-            <Image
-              alt="Documents required for Company registration"
-              className="DocumentRequired-img w-100"
-              height={550}
-              loading="lazy"
-              src={dft}
-            />
+        <div className="flex DcosContainer">
+           <div className="leftDocs">
+            <p><strong>1. </strong> An FSSAI license for the food product</p>
+            <p><strong>2. </strong> Demand draft, which needs to be payable to the senior Accounts officer of the FSSAI.</p>
+            <p><strong>3. </strong> Agreement of relation between the FBO.</p>
+            <p><strong>4. </strong> The information on the manufacturing process of the food product.</p>
+            <p><strong>5. </strong> The test report was obtainined from the national accreditation board for testing and calibration laboratories or international laboratory Accreditation cooperation.</p>
+            <p><strong>6. </strong> Details of any technology.</p>
+            <p><strong>7. </strong> The history of quality and duration of the food product or ingredients consumption.</p>
+            <p><strong>8. </strong> The regulatory status of the ingredients or food product worldwide.</p>
+            <p><strong>9. </strong> Business name</p>
+            <p><strong>10. </strong> Business address</p>
+            <p><strong>11. </strong> Brand name</p>
           </div>
+          <div className="line"></div>
+          <div>
+            <p><strong>12. </strong> Method of manufacturing</p>
+            <p><strong>13. </strong> Claim, if any?</p>
+            <p><strong>14. </strong> Product’s shelf life;</p>
+            <p><strong>15. </strong> Pack size</p>
+            <p><strong>16. </strong> Serving details;</p>
+            <p><strong>17. </strong> Ingredients details;</p>
+            <p><strong>18. </strong> Email;</p>
+            <p><strong>19. </strong> Phone number</p>
+            <p><strong>20. </strong> Manufactures address</p>
+            <p><strong>21. </strong> Product origin</p>
+            <p><strong>21. </strong> Country of origin</p>
+            <p><strong>23. </strong> Existence in the market</p>
+            <p><strong>24. </strong> Common name.</p>
+           </div>
+        </div>
       </div>
     </div>
   );

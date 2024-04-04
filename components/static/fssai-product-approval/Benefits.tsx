@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/fssai-product-approval/benefits.svg";
 
 export const Benefits = () => {
   return (
@@ -15,9 +15,9 @@ export const Benefits = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt="Benefits of company registration in United Kingdom"
+            alt="Benefits of getting product approval"
             className="Benefits-img w-100"
-            height={550}
+            height={350}
             loading="lazy"
             src={bft}
           />

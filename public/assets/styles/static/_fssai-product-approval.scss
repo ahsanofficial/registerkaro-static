@@ -1,28 +1,45 @@
 .fssai-product-approval-reg {
+    .line{
+        width: 4px;
+        background-color: #E9A038;
+        margin: 0 0.5rem;
+      }
+    .leftDocs{
+        width: 60%;
+    }
     @media screen and (max-width: 990px) {
+        .line{
+            display: none;
+        }
+        .DcosContainer{
+            display: block;
+        }
+        .leftDocs{
+            width: 100%;
+        }
         .System-img{
-            border:1px solid black;
+            height: 400px;
         }
         .Require-img{
-            border:1px solid black;
+            height: 700px;
         }
         .EarlierRules-img{
-            border:1px solid black;
+            height: 400px;
         }
         .Approval-img{
-            border:1px solid black;
+            height: 400px;
         }
         .Benefits-img{
-            border:1px solid black;
+            height: 400px;
         }
         .WhoCan-img{
-            border:1px solid black;
+            height: 400px;
         }
         .DocumentRequired-img{
-            border:1px solid black;
+            height: 400px;
         }
         .Procedure-img{
-            border:1px solid black;
+            height: 600px;
         }
     }
 }

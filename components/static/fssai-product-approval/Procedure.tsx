@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/fssai-product-approval/Procedure_for_getting_Product_Approval_in_India.svg";
 
 const Procedure = () => {
   return (
@@ -8,16 +8,8 @@ const Procedure = () => {
       <p className="main-para">
         Following is the procedure for getting FSSAI product approval:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=""
-            className="Procedure-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+     
         <div className="flex-7">
           <h3>Company Incorporation</h3>
           <p>
@@ -67,6 +59,15 @@ const Procedure = () => {
             Approval System. However, it’s vital to have an expert while
             preparing & submitting the application.
           </p>
+        </div>
+        <div className="flex-3">
+          <Image
+            alt="Procedure for getting Product Approval in India"
+            className="Procedure-img w-100"
+            height={780}
+            loading="lazy"
+            src={bft}
+          />
         </div>
      
       </div>
