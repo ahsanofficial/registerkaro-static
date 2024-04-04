@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/bis-certification-for-power-banks/A_detailed_description_of_the_Power_Banks.svg";
 
 const Description = () => {
   return (
@@ -15,7 +15,7 @@ const Description = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="A detailed description of the Power Banks"
             className="Description-img w-100"
             height={480}
             loading="lazy"

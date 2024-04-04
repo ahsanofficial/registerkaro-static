@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/bis-certification-for-power-banks/applicatble.svg";
 
 const Applicable = () => {
   return (
@@ -15,11 +15,11 @@ const Applicable = () => {
                 <p><strong>4. </strong>The BIS Conformity Assessment Regulations, 2018</p>
             
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="Applicable Rules/ Acts/Regulations"
             className="Applicable-img w-100"
-            height={480}
+            height={320}
             loading="lazy"
             src={bft}
           />

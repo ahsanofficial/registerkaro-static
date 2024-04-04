@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/bis-certification-for-power-banks/why_registerkaro.svg";
 
 const WhyRegisterKaroBIS = () => {
   return (
@@ -15,9 +15,9 @@ const WhyRegisterKaroBIS = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Why RegisterKaro for BIS CRS Certification"
             className="WhyRegisterKaroBIS-img w-100"
-            height={480}
+            height={380}
             loading="lazy"
             src={bft}
           />
