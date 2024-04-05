@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/income-tax-filing-online/Different_Types_of.svg";
 
 export const Types = () => {
   return (
@@ -8,7 +8,7 @@ export const Types = () => {
         <p className="main-para">In India, various types of Income Tax Return (ITR) forms are available to cater to the diverse financial situations of taxpayers. Each form is designed to capture specific income sources and financial activities. Here are some commonly used ITR forms along with brief explanations:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
        
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
            <p><strong>1. ITR-1 (Sahaj): </strong> Applicable for individuals with income from salary, one house property, other sources (interest, etc.), and having total income up to Rs. 50 lakh. Not for individuals with income from business or profession.</p>
            <p><strong>2. ITR-2: </strong> For individuals and Hindu Undivided Families (HUFs) having income from sources other than business or profession. Suitable for those with income from capital gains, multiple house properties, and foreign income.</p>
            <p><strong>3. ITR-3:  </strong>Applicable for individuals and HUFs having income from business or profession. It includes provisions for reporting partnership firm income.</p>
@@ -20,9 +20,9 @@ export const Types = () => {
         </div>
         <div className="flex-4">
             <Image
-              alt="Types of Company Structures in UK"
+              alt="Different Types of ITR Forms in India"
               className="Types-img w-100"
-              height={900}
+              height={800}
               loading="lazy"
               src={bft}
             />

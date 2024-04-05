@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/income-tax-filing-online/Eligibility_criteria_for_Income_Tax_Filing_Online.svg";
 
 export const Prerequisites = () => {
   return (
@@ -14,9 +14,9 @@ export const Prerequisites = () => {
            <p><strong>E-Filing Option: </strong> Taxpayers falling within the stipulated exemptions can opt to electronically file their income tax returns.</p>
            <p><strong>Paper ITR Form Option: </strong> Alternatively, they have the choice to utilize the appropriate paper-based ITR form for filing their returns.</p>
         </div>
-        <div className="flex-4 pt-5">
+        <div className="flex-4">
           <Image
-            alt="Prerequisites of Company Registration in UK"
+            alt="Eligibility criteria for Income Tax Filing Online"
             className="Prerequisites-img w-100"
             height={500}
             loading="lazy"
