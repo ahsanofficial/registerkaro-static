@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Benefits } from '../components/static/pf-return/Benefits'
 import Consequences from '../components/static/pf-return/Consequences'
 import { DocumentRequired } from '../components/static/pf-return/DocumentRequired'
 import { File } from '../components/static/pf-return/File'
@@ -60,7 +59,7 @@ const Home = () => {
             <Head>
                 <title>Step by step process to fill PR Return Filing online</title>
                 <meta name="description" content="All businesses that have registered for employee provident funds are required to file a PF return each month." />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <link rel="canonical" href="https://www.registerkaro.in/pf-return" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content="Step by step process to fill PR Return Filing online" />
                 <meta property="og:description" content="All businesses that have registered for employee provident funds are required to file a PF return each month." />
