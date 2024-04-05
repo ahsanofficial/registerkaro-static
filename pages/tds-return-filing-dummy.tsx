@@ -94,12 +94,12 @@ const Home = () => {
     return (
         <div className='services-pages tds-return-filing-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Tds return filing- Eligibility and Process</title>
+                <meta name="description" content="Complete your TDS return filing on-time and avoid penalties. E-filing done by Top Accountants and TAX experts" />
                 <link rel="canonical" href="https://www.registerkaro.in/tds-return-filing" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Tds return filing- Eligibility and Process" />
+                <meta property="og:description" content="Complete your TDS return filing on-time and avoid penalties. E-filing done by Top Accountants and TAX experts" />
             </Head>
             <Hero />
             <h1 className='main-heading'>Understand TDS Return filing</h1>

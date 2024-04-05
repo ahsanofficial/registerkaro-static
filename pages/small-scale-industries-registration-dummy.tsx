@@ -53,12 +53,12 @@ const Home = () => {
     return (
         <div className='services-pages small-scale-industries-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Small Scale Industries Registration | RegisterKaro</title>
+                <meta name="description" content="Companies with Small Scale Industries Registration are offered low interest rates loan for the operations which helps them to advance the growth and operations." />
                 <link rel="canonical" href="https://www.registerkaro.in/small-scale-industries-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Small Scale Industries Registration | RegisterKaro" />
+                <meta property="og:description" content="Companies with Small Scale Industries Registration are offered low interest rates loan for the operations which helps them to advance the growth and operations." />
             </Head>
             <Hero />
             <h1 className='main-heading'>What are all Small Scale Industries?</h1>

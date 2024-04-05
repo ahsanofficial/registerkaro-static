@@ -58,12 +58,12 @@ const Home = () => {
     return (
         <div className='services-pages shareholders-agreement-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Shareholders Agreement- Key Clauses, Benefits</title>
+                <meta name="description" content="A Shareholders’ Agreement stands as a foundational document governing the relationships and operations within a company." />
                 <link rel="canonical" href="https://www.registerkaro.in/shareholders-agreement" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Shareholders Agreement- Key Clauses, Benefits" />
+                <meta property="og:description" content="A Shareholders’ Agreement stands as a foundational document governing the relationships and operations within a company." />
             </Head>
             <Hero />
             <h1 className='main-heading'>What is a Shareholders’ Agreement?</h1>

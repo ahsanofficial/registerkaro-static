@@ -62,12 +62,12 @@ const Home = () => {
     return (
         <div className='services-pages revival-of-struck-off-companies-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title>Revival of Struck Off Companies - RegisterKaro</title>
+                <meta name="description" content="The revival of struck off companies may be done for a period of twenty years following the date of the strike-off." />
                 <link rel="canonical" href="https://www.registerkaro.in/revival-of-struck-off-companies" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Revival of Struck Off Companies - RegisterKaro" />
+                <meta property="og:description" content="The revival of struck off companies may be done for a period of twenty years following the date of the strike-off." />
             </Head>
             <Hero />
             <h1 className='main-heading'>An Overview of Revival of Struck Off Companies</h1>

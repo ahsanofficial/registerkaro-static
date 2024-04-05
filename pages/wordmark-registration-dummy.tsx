@@ -80,12 +80,12 @@ const Home = () => {
     return (
         <div className='services-pages wordmark-registration-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
+                <title> Wordmark registration- Documents required, Procedure, Process</title>
+                <meta name="description" content="wordmark registration is the process of legally protecting a unique textual representation of a brand name, logo, or slogan used in commerce." />
                 <link rel="canonical" href="https://www.registerkaro.in/wordmark-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content=" Wordmark registration- Documents required, Procedure, Process" />
+                <meta property="og:description" content="wordmark registration is the process of legally protecting a unique textual representation of a brand name, logo, or slogan used in commerce." />
             </Head>
             <Hero />
             <h1 className='main-heading'>An Overview of Wordmark Registration</h1>
