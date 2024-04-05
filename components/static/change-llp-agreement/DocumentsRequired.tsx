@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/change-llp-agreement/documents.svg";
 
 const DocumentsRequired = () => {
   return (
@@ -9,9 +9,9 @@ const DocumentsRequired = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="What are the documents required to change LLP agreement?"
             className="DocumentsRequired-img w-100"
-            height={480}
+            height={650}
             loading="lazy"
             src={bft}
           />

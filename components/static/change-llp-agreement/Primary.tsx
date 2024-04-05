@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/change-llp-agreement/Primary_Reasons.svg";
 
 const Primary = () => {
   return (
     <div id="Primary">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <p><strong>1. </strong>Change in partners;</p>
             <p><strong>2. </strong>Change in the name of LLP;</p>
             <p><strong>3. </strong>Change in rights and duties;</p>
@@ -19,9 +19,9 @@ const Primary = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Primary Reasons – Change LLP Agreement"
             className="Primary-img w-100"
-            height={480}
+            height={520}
             loading="lazy"
             src={bft}
           />

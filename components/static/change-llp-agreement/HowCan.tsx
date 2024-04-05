@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/change-llp-agreement/help.svg";
 
 const HowCan = () => {
   return (
     <div id="HowCan">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <p><strong>1. </strong>Submit a service request.</p>
             <p><strong>2. </strong>Our team will be there with you, to understand the necessary details about the business and provide you with a simple checklist</p>
             <p><strong>3. </strong>Once you fill-up the checklist and provide us with the required documents, our team shall verify them</p>
@@ -17,7 +17,7 @@ const HowCan = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="How Can We Help You?"
             className="HowCan-img w-100"
             height={480}
             loading="lazy"
