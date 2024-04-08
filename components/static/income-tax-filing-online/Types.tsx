@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/income-tax-filing-online/Different_Types_of.svg";
-
-export const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
-        <p className="main-para">In India, various types of Income Tax Return (ITR) forms are available to cater to the diverse financial situations of taxpayers. Each form is designed to capture specific income sources and financial activities. Here are some commonly used ITR forms along with brief explanations:</p>
+        <p className="main-para">In {cityName}, various types of Income Tax Return (ITR) forms are available to cater to the diverse financial situations of taxpayers. Each form is designed to capture specific income sources and financial activities. Here are some commonly used ITR forms along with brief explanations:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
        
         <div className="flex-7 pt-5">

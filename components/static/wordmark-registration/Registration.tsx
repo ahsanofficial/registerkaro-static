@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/wordmark-registration/Wordmark_Registration.svg";
-
-const Registration = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Registration = ({ cityName }: HeroProps) => {
   return (
     <div id="Registration">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
@@ -72,7 +74,7 @@ const Registration = () => {
      
       </div>
       <p className="main-para">Note: It’s essential to note that the process may vary based on the specifics of the application, and seeking legal guidance or assistance from trademark professionals or attorneys can be beneficial to navigate through the intricacies of trademark law and ensure a smoother registration process. Failure to register a wordmark can leave it vulnerable to infringement and misuse by others, potentially leading to brand dilution, confusion among consumers, and loss of market value. Therefore, securing trademark registration for a wordmark is a critical step in safeguarding intellectual property rights and maintaining a distinct brand identity in the Indian market.</p>
-      <p className="main-para">The primary legislation governing wordmark registration in India is the Trade Marks Act, of 1999, and the Trade Marks Rules, of 2017. The Controller General of Patents, Designs, and Trademarks, operating under the Ministry of Commerce and Industry, oversees the registration process.
+      <p className="main-para">The primary legislation governing wordmark registration in {cityName} is the Trade Marks Act, of 1999, and the Trade Marks Rules, of 2017. The Controller General of Patents, Designs, and Trademarks, operating under the Ministry of Commerce and Industry, oversees the registration process.
 
 </p>
     </div>

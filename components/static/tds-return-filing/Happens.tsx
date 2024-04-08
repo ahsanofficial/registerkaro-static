@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/tds-return-filing/three.svg";
-
-const Happens = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Happens = ({ cityName }: HeroProps) => {
   return (
     <div id="Happens">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

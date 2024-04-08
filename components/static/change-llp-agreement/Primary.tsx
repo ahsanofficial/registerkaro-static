@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-llp-agreement/Primary_Reasons.svg";
-
-const Primary = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Primary = ({ cityName }: HeroProps) => {
   return (
     <div id="Primary">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/income-tax-filing-online/Eligibility_criteria_for_Income_Tax_Filing_Online.svg";
-
-export const Prerequisites = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Prerequisites = ({ cityName }: HeroProps) => {
   return (
     <div id="Prerequisites">
         <p className="main-para">Fulfilling income tax filing requirements is now obligatory under the prevailing Income Tax regulations. Nevertheless, there are specific exemptions to this mandate, as outlined below:</p>

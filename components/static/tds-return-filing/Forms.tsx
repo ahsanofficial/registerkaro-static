@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/tds-return-filing/Forms_you_need_to_know.svg";
-
-const Forms = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Forms = ({ cityName }: HeroProps) => {
   return (
     <div id="Forms">
         <p className="main-para">Following are certain forms that you need to know if you are looking forward to TDS Return Filings, as these forms will be extensively used in the entire process.</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-llp-agreement/help.svg";
-
-const HowCan = () => {
+interface HeroProps {
+    cityName: string;
+}
+const HowCan = ({ cityName }: HeroProps) => {
   return (
     <div id="HowCan">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

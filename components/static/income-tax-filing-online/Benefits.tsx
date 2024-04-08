@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/income-tax-filing-online/Benefits_of_filing_ITR_Online_in_India.svg";
-
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">The following are the benefits of Income Tax Filing Online:</p>

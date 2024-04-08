@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/tds-return-filing/one.svg";
-
-const Eligible = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligible = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligible">
         <p className="main-para">If you are looking forward to knowing more about TDS returns or TDS Filing, then before anything, it is important to check whether you are eligible for a TDS Return or not. Following are certain criteria to check the eligibility for the TDS Return or TDS Filing.</p>

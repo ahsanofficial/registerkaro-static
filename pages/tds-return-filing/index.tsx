@@ -1,16 +1,305 @@
 import Head from 'next/head'
-import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/tds-return-filing/Hero'
-import { Process } from '../components/static/tds-return-filing/Process'
-import Deadlines from '../components/static/tds-return-filing/Deadlines'
-import { ProcessBtn } from '../components/static/tds-return-filing/ProcessBtn'
-import Rates from '../components/static/tds-return-filing/Rates'
-import Happens from '../components/static/tds-return-filing/Happens'
-import Eligible from '../components/static/tds-return-filing/Eligible'
-import Forms from '../components/static/tds-return-filing/Forms'
-import HowDoes from '../components/static/tds-return-filing/HowDoes'
+import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
+import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
+import { Hero } from '../../components/static/tds-return-filing/Hero'
+import { Process } from '../../components/static/tds-return-filing/Process'
+import Deadlines from '../../components/static/tds-return-filing/Deadlines'
+import { ProcessBtn } from '../../components/static/tds-return-filing/ProcessBtn'
+import Rates from '../../components/static/tds-return-filing/Rates'
+import Happens from '../../components/static/tds-return-filing/Happens'
+import Eligible from '../../components/static/tds-return-filing/Eligible'
+import Forms from '../../components/static/tds-return-filing/Forms'
+import HowDoes from '../../components/static/tds-return-filing/HowDoes'
+import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 
+let state = [
+  "maharashtra",
+  "jharkhand",
+  "kashmir",
+  "puducherry",
+  "karnataka",
+  "madhya-pradesh",
+  "andhra-pradesh",
+  "himachal-pradesh",
+  "tamil-nadu",
+  "odisha",
+  "assam",
+  "arunachal-pradesh",
+  "gujarat",
+  "chandigarh",
+  "jammu-and-kashmir",
+  "manipur",
+  "andaman-and-nicobar-islands",
+  "bihar",
+  "chhattisgarh",
+  "dadra-and-nagar-haveli",
+  "daman-and-diu",
+  "goa",
+  "haryana",
+  "kerala",
+  "ladakh",
+  "lakshadweep",
+  "meghalaya",
+  "mizoram",
+  "nagaland",
+  "punjab",
+  "rajasthan",
+  "sikkim",
+  "telangana",
+  "tripura",
+  "uttar-pradesh",
+  "uttarakhand",
+  "west-bengal"
+]
+
+let city = [
+  "mumbai",
+  "firozabad",
+  "new-delhi",
+  "srinagar",
+  "bangalore",
+  "ghaziabad",
+  "hyderabad",
+  "thiruvananthapuram",
+  "ahmedabad",
+  "chennai",
+  "gorakhpur",
+  "kolkata",
+  "thrissur",
+  "gulbarga",
+  "lucknow",
+  "tiruchirappalli",
+  "agartala",
+  "agra",
+  "ahmednagar",
+  "aizawl",
+  "ajmer",
+  "akola",
+  "aligarh",
+  "alwar",
+  "ambala",
+  "ambarnath",
+  "ambattur",
+  "amravati",
+  "amritsar",
+  "amroha",
+  "anand",
+  "anantapur",
+  "anantapuram",
+  "arrah",
+  "asansol",
+  "avadi",
+  "bahraich",
+  "bally",
+  "baranagar",
+  "barasat",
+  "bardhaman",
+  "bareilly",
+  "bathinda",
+  "begusarai",
+  "belgaum",
+  "bellary",
+  "berhampore",
+  "berhampur",
+  "bhagalpur",
+  "bhalswa-jahangir-pur",
+  "bharatpur",
+  "bhatpara",
+  "bhavnagar",
+  "bhilai",
+  "bhilwara",
+  "bhind",
+  "bhiwandi",
+  "bhiwani",
+  "bhopal",
+  "bhubaneswar",
+  "bhusawal",
+  "bidar",
+  "bidhannagar",
+  "bihar-sharif",
+  "bikaner",
+  "bilaspur",
+  "bokaro",
+  "bulandshahr",
+  "burhanpur",
+  "chandigarh",
+  "chapra",
+  "chittoor",
+  "coimbatore",
+  "cuttack",
+  "darbhanga",
+  "davanagere",
+  "dehradun",
+  "delhi",
+  "deoghar",
+  "dewas",
+  "dhanbad",
+  "dhule",
+  "dindigul",
+  "durg",
+  "durgapur",
+  "eluru",
+  "erode",
+  "etawah",
+  "faridabad",
+  "farrukhabad",
+  "fatehpur",
+  "gandhidham",
+  "gandhinagar",
+  "gaya",
+  "gopalpur",
+  "guntur",
+  "gurgaon",
+  "guwahati",
+  "gwalior",
+  "haldia",
+  "hapur",
+  "haridwar",
+  "hospet",
+  "gulbargahowrah",
+  "hubli-dharwad",
+  "ichalkaranji",
+  "imphal",
+  "indore",
+  "jabalpur",
+  "jaipur",
+  "jalandhar",
+  "jalgaon",
+  "jalna",
+  "jammu",
+  "jamnagar",
+  "jamshedpur",
+  "jhansi",
+  "jodhpur",
+  "junagadh",
+  "kadapa",
+  "kakinada",
+  "kalyan-dombivli",
+  "kamarhati",
+  "kanpur",
+  "karawal-nagar",
+  "karimnagar",
+  "karnal",
+  "katni",
+  "khammam",
+  "khandwa",
+  "kharagpur",
+  "khora-ghaziabad",
+  "kirari-suleman-nagar",
+  "kochi",
+  "kolhapur",
+  "kollam",
+  "korba",
+  "kota",
+  "kozhikode",
+  "kulti",
+  "kurnool",
+  "latur",
+  "loni",
+  "ludhiana",
+  "madhyamgram",
+  "madurai",
+  "maheshtala",
+  "malda",
+  "malegaon",
+  "mangalore",
+  "mango",
+  "mathura",
+  "mau",
+  "meerut",
+  "mira-bhayandar",
+  "mirzapur",
+  "moradabad",
+  "morbi",
+  "morena",
+  "munger",
+  "muzaffarnagar",
+  "muzaffarpur",
+  "mysore",
+  "nadiad",
+  "nagercoil",
+  "nagpur",
+  "naihati",
+  "nanded",
+  "nandyal",
+  "nangloi-jat",
+  "nashik",
+  "navi-mumbai",
+  "nellore",
+  "new-delhi",
+  "nizamabad",
+  "noida",
+  "north-dumdum",
+  "ongole",
+  "orai",
+  "pali",
+  "pallavaram",
+  "panchkula",
+  "panihati",
+  "panipat",
+  "parbhani",
+  "patiala",
+  "patna",
+  "pimpri-chinchwad",
+  "pondicherry",
+  "pune",
+  "puri",
+  "purnia",
+  "raebareli",
+  "raichur",
+  "raipur",
+  "rajahmundry",
+  "rajkot",
+  "rajpur-sonarpur",
+  "ramagundam",
+  "rampur",
+  "ranchi",
+  "ratlam",
+  "rewa",
+  "rohtak",
+  "rourkela",
+  "sagar",
+  "saharanpur",
+  "salem",
+  "sambalpur",
+  "sambhal",
+  "satara",
+  "satna",
+  "secunderabad",
+  "shahjahanpur",
+  "shimoga",
+  "sikar",
+  "silchar",
+  "siliguri",
+  "singrauli",
+  "solapur",
+  "sonipat",
+  "south-dumdum",
+  "sri-ganganagar",
+  "surat",
+  "tenali",
+  "thane",
+  "thanjavur",
+  "thoothukudi",
+  "tirunelveli",
+  "tirupati",
+  "tiruppur",
+  "tiruvottiyur",
+  "tumkur",
+  "udaipur",
+  "ujjain",
+  "ulhasnagar",
+  "uluberia",
+  "uzhavarkarai",
+  "vadodara",
+  "varanasi",
+  "vasai-virar",
+  "vijayanagaram",
+  "vijayawada",
+  "visakhapatnam",
+  "warangal",
+  "yamunanagar"
+]
 const faq = [
     {
         "question": "How is the TDS return filed?",
@@ -101,37 +390,38 @@ const Home = () => {
                 <meta property="og:title" content="Tds return filing- Eligibility and Process" />
                 <meta property="og:description" content="Complete your TDS return filing on-time and avoid penalties. E-filing done by Top Accountants and TAX experts" />
             </Head>
-            <Hero />
+            <Hero  cityName={'India'} />
             <h1 className='main-heading'>Understand TDS Return filing</h1>
             <div className='heading-line'></div>
-            <Process />
+            <Process  cityName={'India'} />
             <h2 className='main-heading'>Are you eligible for a TDS Return?</h2>
             <div className='heading-line'></div>
-            <Eligible />
+            <Eligible  cityName={'India'} />
             <h2 className='main-heading'>Forms you need to know for TDS Return Filing</h2>
             <div className='heading-line'></div>
-            <Forms />
+            <Forms  cityName={'India'} />
             <h2 className='main-heading'>Check the deadlines</h2>
             <div className='heading-line'></div>
-            <Deadlines />
+            <Deadlines  cityName={'India'} />
             <h2 className='main-heading'>Process of TDS Return filing</h2>
             <div className='heading-line'></div>
-            <ProcessBtn />
+            <ProcessBtn  cityName={'India'} />
             <h2 className='main-heading'>Few common TDS Rates</h2>
             <div className='heading-line'></div>
-            <Rates />
+            <Rates  cityName={'India'} />
             <h2 className='main-heading'>What happens when you do late TDS Filing?</h2>
             <div className='heading-line'></div>
-            <Happens />
+            <Happens  cityName={'India'} />
             <h2 className='main-heading'>How does RegisterKaro help in the process?</h2>
             <div className='heading-line'></div>
-            <HowDoes />
+            <HowDoes  cityName={'India'} />
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
             <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
+            <RegistrationLinks formattedQuery={'TDS Return filing'} state={state} Query={'tds-return-filing'} city={city} />
         </div>
     )
 }

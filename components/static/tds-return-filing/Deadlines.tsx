@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/tds-return-filing/Check_the_deadlines.svg";
-
-const Deadlines = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Deadlines = ({ cityName }: HeroProps) => {
   return (
     <div id="Deadlines">
         <p className="main-para">The deadline for TDS Return Filing for the current Fiscal Year tends to be the following:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-llp-agreement/documents.svg";
-
-const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
         <p className="main-para">The following documents are required to change LLP agreement :</p>

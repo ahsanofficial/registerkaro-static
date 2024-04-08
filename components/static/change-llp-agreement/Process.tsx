@@ -1,12 +1,14 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/change-llp-agreement/certificate.svg'
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>In India, registering an LLP follows rules laid out in the LLP Act of 2008. When you set up an LLP, you have to submit a special LLP Agreement. Think of it like a rulebook that decides how the LLP will work. This LLP Agreement isn’t just a piece of paper – it’s like the boss that guides everything the partnership does. Partners need to follow the rules in the agreement, and breaking any of them is a big deal. But, just like life, businesses change too. That’s when you might need to tweak the LLP Agreement. Maybe you want to adjust how much money each partner puts in, change the kind of work you do, or sort out who does what. These changes are like updates to the rulebook, and they’re made when all the partners agree. When it’s time change LLP Agreement, RegisterKaro is here to help. We’re like the helpful guide that takes care of all the paperwork and legal stuff so your LLP can smoothly go through these changes. Think of us as your partner in making your business grow and evolve.</p>
+                <p className='text-justify'>In {cityName}, registering an LLP follows rules laid out in the LLP Act of 2008. When you set up an LLP, you have to submit a special LLP Agreement. Think of it like a rulebook that decides how the LLP will work. This LLP Agreement isn’t just a piece of paper – it’s like the boss that guides everything the partnership does. Partners need to follow the rules in the agreement, and breaking any of them is a big deal. But, just like life, businesses change too. That’s when you might need to tweak the LLP Agreement. Maybe you want to adjust how much money each partner puts in, change the kind of work you do, or sort out who does what. These changes are like updates to the rulebook, and they’re made when all the partners agree. When it’s time change LLP Agreement, RegisterKaro is here to help. We’re like the helpful guide that takes care of all the paperwork and legal stuff so your LLP can smoothly go through these changes. Think of us as your partner in making your business grow and evolve.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

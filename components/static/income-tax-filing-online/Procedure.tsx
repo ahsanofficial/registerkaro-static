@@ -15,8 +15,10 @@ import eleven from '../../../assets/images/pvt-reg/HowToRegister/eleven.svg'
 import twelve from '../../../assets/images/pvt-reg/HowToRegister/twelve.svg'
 import thirteen from '../../../assets/images/pvt-reg/HowToRegister/thirteen.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Procedure = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

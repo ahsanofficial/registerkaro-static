@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/pvt-reg/benefit.svg";
-
-const Changing = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Changing = ({ cityName }: HeroProps) => {
   return (
     <div id="Changing">
         <p className="main-para">The step by step process to change LLP agreement is as follows : </p>

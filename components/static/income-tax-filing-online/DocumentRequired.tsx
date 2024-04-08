@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/income-tax-filing-online/Documents_required_for_ITR_filing_online.svg";
-
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
         <p className="main-para">The following is the list of some vital documents required for income tax filing online:</p>

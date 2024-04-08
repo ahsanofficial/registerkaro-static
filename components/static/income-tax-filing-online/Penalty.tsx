@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/income-tax-filing-online/Penalty_for_late_income_tax_filing.svg";
-
-const Penalty = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Penalty = ({ cityName }: HeroProps) => {
   return (
     <div id="Penalty">
         <p className="main-para">Failing to file income tax returns within the stipulated timeframe attracts penalties and incurs interest on delayed tax payments. Recent revisions have heightened the penalties for late filing, with the updated structure as follows:</p>

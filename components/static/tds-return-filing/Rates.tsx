@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/tds-return-filing/two.svg";
-
-const Rates = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Rates = ({ cityName }: HeroProps)=> {
   return (
     <div id="Rates">
         <p className="main-para">Though the TDS rate list is quite extensive, here are certain common TDS Rates for reference:</p>

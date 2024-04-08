@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/wordmark-registration/What_are_the_Documents_Required_for_Wordmark_Registration.svg";
-
-const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentsRequired = ({ cityName }: HeroProps)=> {
   return (
     <div id="DocumentsRequired">
-        <p className="main-para">Several documents and information are necessary for filing a wordmark registration in India:</p>
+        <p className="main-para">Several documents and information are necessary for filing a wordmark registration in {cityName}:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
             <p><strong>Name and Address: </strong>Complete details of the applicant, including the name, address, and nationality for individuals. For entities, the legal name, address of the principal place of business, and legal status are required.</p>
@@ -25,7 +27,7 @@ const DocumentsRequired = () => {
           />
         </div>
       </div>
-      <p className="main-para">Ensuring the completeness and accuracy of these documents is crucial for a successful wordmark registration process in India. Professional assistance from trademark attorneys or service providers can streamline this paperwork and improve the chances of a smooth registration process.</p>
+      <p className="main-para">Ensuring the completeness and accuracy of these documents is crucial for a successful wordmark registration process in {cityName}. Professional assistance from trademark attorneys or service providers can streamline this paperwork and improve the chances of a smooth registration process.</p>
     </div>
   );
 };

@@ -1,19 +1,21 @@
 import certificate from '../../../assets/images/static/income-tax-filing-online/crtificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Income tax filing involves the online submission of your Income Tax Return (ITR) to governmental tax authorities in a specified digital format. This method offers a more secure, straightforward, and expeditious alternative compared to the traditional approach of physically visiting the Income Tax Office for filing returns. In accordance with the prevailing income tax regulations in India, e-filing has become obligatory for the majority of taxpayers, marking a shift from the previous paper-based ITR filing system. Not only is e-filing a mandated practice, but it also enhances safety, simplifies the process, and expedites the overall filing experience.</p>
+                <p className='text-justify'>Income tax filing involves the online submission of your Income Tax Return (ITR) to governmental tax authorities in a specified digital format. This method offers a more secure, straightforward, and expeditious alternative compared to the traditional approach of physically visiting the Income Tax Office for filing returns. In accordance with the prevailing income tax regulations in {cityName}, e-filing has become obligatory for the majority of taxpayers, marking a shift from the previous paper-based ITR filing system. Not only is e-filing a mandated practice, but it also enhances safety, simplifies the process, and expedites the overall filing experience.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
                             <a href="#Types" className="scrollTo">
-                                <li>Different Types of ITR Forms in India</li>
+                                <li>Different Types of ITR Forms in {cityName}</li>
                             </a>
                             <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of filing ITR Online in India</li>
+                                <li>Benefits of filing ITR Online in {cityName}</li>
                             </a>
                             <a href="#Prerequisites" className="scrollTo">
                                 <li>Eligibility criteria for Income Tax Filing Online</li>
