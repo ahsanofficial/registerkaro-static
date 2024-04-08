@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/british-virgin-island-company-reg/Documents.svg";
+import dft from "../../../assets/images/static/british-virgin-island-company-reg/documents_update.svg";
 
 export const DocumentRequired = () => {
   return (
