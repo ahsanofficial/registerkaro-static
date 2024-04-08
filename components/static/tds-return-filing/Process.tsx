@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/u-k-company-registration/Registration_uk_certificate.svg';
+import certificate from '../../../assets/images/static/tds-return-filing/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -37,15 +37,14 @@ export const Process = () => {
                             <a href="#Faq" className="scrollTo">
                                 <li>Frequently Asked Questions</li>
                             </a>
-
                         </ul>
                     </ul>
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in United Kingdom</p>
+                <p className="small-heading text-center">Understand TDS Return filing</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in United Kingdom" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Understand TDS Return filing" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

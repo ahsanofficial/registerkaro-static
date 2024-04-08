@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/tds-return-filing/one.svg";
 
 const Eligible = () => {
   return (
@@ -15,9 +15,9 @@ const Eligible = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Are you eligible for a TDS Return?"
             className="Eligible-img w-100"
-            height={480}
+            height={400}
             loading="lazy"
             src={bft}
           />
