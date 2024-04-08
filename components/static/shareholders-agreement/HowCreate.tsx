@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/shareholders-agreement/How_to_Create_a_Shareholders.svg";
-
-const HowCreate = () => {
+interface HeroProps {
+    cityName: string;
+}
+const HowCreate = ({ cityName }: HeroProps) => {
   return (
     <div id="HowCreate">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

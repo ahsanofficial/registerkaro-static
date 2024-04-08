@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/small-scale-industries-registration/Check_your_eligibility.svg";
-
-const Eligibility = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligibility = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligibility">
         <p className="main-para">The requirements under which a business qualifies as a small business have been laid out by the Indian government. The MSMED Act, 2006 states that the Finance Ministry’s amended regime, effective July 2020, establishes the following limits for the small scale industries in </p>

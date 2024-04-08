@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/small-scale-industries-registration/Documents_you.svg";
-
-const Documents = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Documents = ({ cityName }: HeroProps) => {
   return (
     <div id="Documents">
         <p className="main-para">A few documents must be presented as part of the registration process in order to confirm the applicant’s and the company’s legitimacy. These consist of, but are not restricted to:</p>

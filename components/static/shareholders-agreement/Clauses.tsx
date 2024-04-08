@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/shareholders-agreement/Key_Clauses.svg";
-
-const Clauses = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Clauses = ({ cityName }: HeroProps) => {
   return (
     <div id="Clauses">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/small-scale-industries-registration/types_of_small_scale.svg";
-
-const Small = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Small = ({ cityName }: HeroProps) => {
   return (
     <div id="Small">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

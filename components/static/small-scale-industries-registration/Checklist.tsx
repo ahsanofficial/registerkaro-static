@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/small-scale-industries-registration/one.svg"
-
-const Checklist = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Checklist = ({ cityName }: HeroProps) => {
   return (
     <div id="Checklist">
         <p className="main-para">Following are certain prerequisites to be taken care of while proceeding for the Small Scale Industries Registration:</p>

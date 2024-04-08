@@ -1,11 +1,13 @@
 import certificate from '../../../assets/images/static/small-scale-industries-registration/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>In India, MSME Registration is synonymous with SSI registration, small business registration, or small scale industry registration. The Directorate of Industries of the State Government, on behalf of the Ministry of Micro, Small, and Medium Enterprises, facilitates SSI Registration. Maintaining data and a list of SSI companies in India is the primary goal of SSI registration, as it enables the provision of support services and incentives. According to the MSME standards, all State Governments have implemented uniform registration procedures. On the other hand, some states have changed how to apply for Small Scale Industries Registration. As a result, each State would have a different registration process.</p>
+                <p className='text-justify'>In {cityName}, MSME Registration is synonymous with SSI registration, small business registration, or small scale industry registration. The Directorate of Industries of the State Government, on behalf of the Ministry of Micro, Small, and Medium Enterprises, facilitates SSI Registration. Maintaining data and a list of SSI companies in {cityName} is the primary goal of SSI registration, as it enables the provision of support services and incentives. According to the MSME standards, all State Governments have implemented uniform registration procedures. On the other hand, some states have changed how to apply for Small Scale Industries Registration. As a result, each State would have a different registration process.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

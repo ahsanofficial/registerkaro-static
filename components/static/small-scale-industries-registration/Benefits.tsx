@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/small-scale-industries-registration/Benefits_to.svg";
-
-const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">There are various types of benefits one can avail if the industry is registered under the Small Scale Industries, few of which are as follows:</p>
