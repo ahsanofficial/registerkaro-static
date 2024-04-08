@@ -56,12 +56,12 @@ const Home = () => {
     return (
         <div className='services-pages malaysia-company-reg'>
             <Head>
-                <title>Trademark Registration | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
-                <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+                <title>Company Registration in Malaysia</title>
+                <meta name="description" content="RegisterKaro Team of expert professionals offers a seamless and easy process for company registration in Malaysia" />
+                <link rel="canonical" href="https://www.registerkaro.in/malaysia-company-registration" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Trademark Registration | RegisterKaro" />
-                <meta property="og:description" content="The Official RegisterKaro" />
+                <meta property="og:title" content="Company Registration in Malaysia" />
+                <meta property="og:description" content="RegisterKaro Team of expert professionals offers a seamless and easy process for company registration in Malaysia" />
             </Head>
             <Hero />
             <h1 className='main-heading'>An Overview of Company Registration in Malaysia</h1>
