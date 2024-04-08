@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/small-scale-industries-registration/Check_your_eligibility.svg";
 
 const Eligibility = () => {
   return (
@@ -9,7 +9,7 @@ const Eligibility = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Check your eligibility for Small Scale Industries Registration"
             className="Eligibility-img w-100"
             height={480}
             loading="lazy"

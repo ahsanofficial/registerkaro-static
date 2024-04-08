@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/small-scale-industries-registration/Documents_you.svg";
 
 const Documents = () => {
   return (
@@ -9,14 +9,14 @@ const Documents = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="Documents you will need for Small Scale Industries Registration"
             className="Documents-img w-100"
             height={480}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-5">
             <ol>
                 <li>PAN card</li>
                 <li>Aadhaar card</li>
