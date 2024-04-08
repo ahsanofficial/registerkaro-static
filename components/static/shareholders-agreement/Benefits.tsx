@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/shareholders-agreement/Benefits.svg";
 
 const Benefits = () => {
   return (
@@ -15,7 +15,7 @@ const Benefits = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Benefits of a Shareholders’ Agreement"
             className="Benefits-img w-100"
             height={480}
             loading="lazy"

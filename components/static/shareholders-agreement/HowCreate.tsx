@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/shareholders-agreement/How_to_Create_a_Shareholders.svg";
 
 const HowCreate = () => {
   return (
@@ -8,9 +8,9 @@ const HowCreate = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
         <Image
-            alt=""
+            alt="How to Create a Shareholders’ Agreement?"
             className="HowCreate-img w-100"
-            height={480}
+            height={880}
             loading="lazy"
             src={bft}
           />
