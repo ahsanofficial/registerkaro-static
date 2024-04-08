@@ -1,21 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/wordmark-registration/two.svg";
 
 const Renewal = () => {
   return (
     <div id="Renewal">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4 pt-5">
         <Image
-            alt=""
+            alt="Renewal of Wordmark Registration Certificate"
             className="Renewal-img w-100"
-            height={480}
+            height={400}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-5 pt-5">
             <p>The renewal process can be initiated within six months before the expiration date. Late renewal within six months after expiration is possible, subject to additional fees. However, failing to renew within this extended period may result in the removal of the wordmark from the register.</p>
         </div>
       

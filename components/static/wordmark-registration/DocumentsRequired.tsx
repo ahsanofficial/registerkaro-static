@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/wordmark-registration/What_are_the_Documents_Required_for_Wordmark_Registration.svg";
 
 const DocumentsRequired = () => {
   return (
@@ -17,7 +17,7 @@ const DocumentsRequired = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="What are the Documents Required for Wordmark Registration?"
             className="DocumentsRequired-img w-100"
             height={480}
             loading="lazy"
