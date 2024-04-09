@@ -46,7 +46,6 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5 align-center '>
-                <p className="small-heading text-center">Sweden for Company Registration</p>
                 <div className='d-flex justify-content-center m-auto'>
                     <Image alt="An Overview of Company Registration in United Kingdom" className="certificate h-50 w-60" loading="lazy" src={certificate} />
                 </div>
