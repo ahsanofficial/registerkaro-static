@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/pf-return/key_points.svg";
 
 const KeyPoints = () => {
   return (
@@ -9,9 +9,9 @@ const KeyPoints = () => {
      
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Key points to remember for PF Return"
             className="KeyPoints-img w-100"
-            height={480}
+            height={550}
             loading="lazy"
             src={bft}
           />
