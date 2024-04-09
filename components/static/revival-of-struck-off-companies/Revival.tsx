@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/revival-of-struck-off-companies/grounds_for_revival_of_struck.svg";
 
 const Revival = () => {
   return (
@@ -20,7 +20,7 @@ const Revival = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Grounds for Revival of Struck off Companies"
             className="Revival-img w-100"
             height={480}
             loading="lazy"

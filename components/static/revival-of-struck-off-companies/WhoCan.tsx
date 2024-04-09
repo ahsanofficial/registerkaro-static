@@ -1,21 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/revival-of-struck-off-companies/Who_can_apply_for_Revival.svg";
 
 const WhoCan = () => {
   return (
     <div id="WhoCan">
         <p className="main-para">Following are the persons who can make an appeal in NCLT to restore the company:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+        <div className="flex-3">
         <Image
-            alt=""
+            alt="Who can apply for Revival?"
             className="WhoCan-img w-100"
-            height={480}
+            height={380}
             loading="lazy"
             src={bft}
           />
         </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+     
         <div className="flex-7">
             <ol>
                 <li>Company;</li>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/revival-of-struck-off-companies/Procedure_for_revival.svg";
 
 const Procedure = () => {
   return (
@@ -10,16 +10,8 @@ const Procedure = () => {
           The following is the procedure for revival of struck off Companies:
         </strong>
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=""
-            className="Procedure-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+     
         <div className="flex-7">
 
           <h3>Preparation & filing of Petition</h3>
@@ -73,6 +65,15 @@ const Procedure = () => {
             Registrar with additional fee and comply with the requirements of
             the Companies Act, 2013 in this regard.
           </p>
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="Procedure for revival of Struck off companies as per Companies Act, 2013"
+            className="Procedure-img w-100"
+            height={780}
+            loading="lazy"
+            src={bft}
+          />
         </div>
        
       </div>
