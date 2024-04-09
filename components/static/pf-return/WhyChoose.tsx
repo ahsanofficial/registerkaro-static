@@ -17,7 +17,7 @@ export const WhyChoose = () => {
           
         <div className="flex-3">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in the United Kingdom?"
+            alt="Why Choose RegisterKaro for your PF Return?"
             className="WhyChoose-img w-100"
             height={500}
             loading="lazy"
