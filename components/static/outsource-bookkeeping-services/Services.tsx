@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/outsource-bookkeeping-services/Services_include.svg";
 
 const Services = () => {
   return (
@@ -64,9 +64,9 @@ const Services = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=""
+            alt="Services included in Outsourcing Bookkeeping"
             className="Services-img w-100"
-            height={480}
+            height={680}
             loading="lazy"
             src={bft}
           />
