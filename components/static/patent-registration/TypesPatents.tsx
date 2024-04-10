@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/patent-registration/Types_of_Patents.svg";
 
 const TypesPatents = () => {
   return (
@@ -9,7 +9,16 @@ const TypesPatents = () => {
         There are different types of patents to be registered under the Patent,
         which are as follows:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="flex-3">
+          <Image
+            alt="Types of Patents"
+            className="TypesPatents-img w-100"
+            height={480}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-7">
           <h3>Utility Patent</h3>
 
@@ -50,15 +59,7 @@ const TypesPatents = () => {
             different plant variety.
           </p>
         </div>
-        <div className="flex-3">
-          <Image
-            alt=""
-            className="TypesPatents-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+       
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/patent-registration/Forms_Used_in_Patent.svg";
 
 const Forms = () => {
   return (
@@ -50,7 +50,7 @@ const Forms = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=""
+            alt="Forms Used in Patent Registration"
             className="Forms-img w-100"
             height={480}
             loading="lazy"
