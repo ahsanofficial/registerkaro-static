@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/revival-of-struck-off-companies/strike_off_of_comp.svg";
-
-const Strike = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Strike = ({ cityName }: HeroProps) => {
   return (
     <div id="Strike">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

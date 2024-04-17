@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/revival-of-struck-off-companies/Who_can_apply_for_Revival.svg";
-
-const WhoCan = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhoCan = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCan">
         <p className="main-para">Following are the persons who can make an appeal in NCLT to restore the company:</p>

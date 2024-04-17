@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/revival-of-struck-off-companies/Documents.svg";
-
-const DocumentsRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
         <p className="main-para">Following are the documents required for the Revival of Struck Off Companies:</p>

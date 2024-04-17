@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/revival-of-struck-off-companies/Procedure_for_revival.svg";
-
-const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Procedure = ({ cityName }: HeroProps) => {
   return (
     <div id="Procedure">
       <p className="main-para">

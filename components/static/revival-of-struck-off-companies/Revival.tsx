@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/revival-of-struck-off-companies/grounds_for_revival_of_struck.svg";
-
-const Revival = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Revival = ({ cityName }: HeroProps) => {
   return (
     <div id="Revival">
         <p className="main-para">The grounds on which NCLT does the Revival of Struck Off Companies are as follows:-</p>
