@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/common-images/Why _choose.svg"
+interface HeroProps {
+    cityName: string;
+}
 
-export const WhyChoose = () => {
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for the PF Return related services for the varied ranges of benefits such as: :</p>

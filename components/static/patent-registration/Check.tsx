@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/patent-registration/Check_if_you_can_proceed.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const Check = () => {
+const Check = ({ cityName }: HeroProps) => {
   return (
     <div id="Check">
         <p className="main-para">For being eligible to file for patent registration application, you must fall in one of the following categories:</p>

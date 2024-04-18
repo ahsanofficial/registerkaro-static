@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/outsource-bookkeeping-services/What_happen_if_you_do_not_outsource_bookkeeping_services.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const WhatHappen = () => {
+const WhatHappen = ({ cityName }: HeroProps) => {
   return (
     <div id="WhatHappen">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

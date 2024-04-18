@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/patent-registration/Why_Patent_Registration.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const WhyPatent = () => {
+const WhyPatent = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyPatent">
       <p className="main-para">
@@ -58,7 +61,7 @@ const WhyPatent = () => {
             at the beginning of the patent registration process. As soon as the
             applicant files the Provisional Patent Application, he has
             protection and assurance that no other individual or business could
-            claim ideas identical to his invention. In India, the filing time
+            claim ideas identical to his invention. In {cityName}, the filing time
             lasts for 12 months. If another person applies for the same patent,
             his request would be denied.
           </p>

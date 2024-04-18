@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pf-return/who_can_apply.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const WhoCan = () => {
+const WhoCan = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCan">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

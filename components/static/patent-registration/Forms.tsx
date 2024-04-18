@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/patent-registration/Forms_Used_in_Patent.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const Forms = () => {
+const Forms = ({ cityName }: HeroProps) => {
   return (
     <div id="Forms">
       <p className="main-para">
@@ -31,7 +34,7 @@ const Forms = () => {
             Form 3 is used to provide details on patent applications for the
             current invention that have been filed in any other nation. It will
             commit to the inventor providing written updates to the patent
-            office on relevant applications for patents filed outside of India.
+            office on relevant applications for patents filed outside of {cityName}.
           </p>
 
           <p>

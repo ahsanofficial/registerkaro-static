@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/outsource-bookkeeping-services/Why_outsource.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const WhyOutsource = () => {
+const WhyOutsource = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyOutsource">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

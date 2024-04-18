@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/outsource-bookkeeping-services/Services_include.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const Services = () => {
+const Services = ({ cityName }: HeroProps) => {
   return (
     <div id="Services">
       <p className="main-para">

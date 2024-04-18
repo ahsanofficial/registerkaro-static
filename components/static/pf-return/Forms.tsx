@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pf-return/Forms_to_be_familiar.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const Forms = () => {
+const Forms = ({ cityName }: HeroProps) => {
   return (
     <div id="Forms">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

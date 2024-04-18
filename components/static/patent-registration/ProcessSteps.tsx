@@ -1,18 +1,20 @@
 
 import Image from 'next/image'
-import React, { useState } from 'react'
-import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
-import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
+import { useState } from 'react'
 import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
+import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
+import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
 import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
-import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
+import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
+interface HeroProps {
+    cityName: string;
+}
 
-export const ProcessSteps = () => {
+export const ProcessSteps = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -76,7 +78,7 @@ export const ProcessSteps = () => {
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
             <h3>Step 3. Filing Application</h3>
-            <p className='mb-0'>You can start the process of filing a patent application in India after creating the patent specification. As we previously covered, depending on the written specifications, patent applications might be either provisional or full. According to the Indian Patent Act, the completed or prepared provisional specification is filed in Form-2, whereas the patent application is filed in Form 1. If a provisional patent specification is filed, the inventor’s claims must be included in a complete specification within a year of the provisional specification’s filing. Depending on their intended use, six distinct types of patent application forms can be submitted.
+            <p className='mb-0'>You can start the process of filing a patent application in {cityName} after creating the patent specification. As we previously covered, depending on the written specifications, patent applications might be either provisional or full. According to the Indian Patent Act, the completed or prepared provisional specification is filed in Form-2, whereas the patent application is filed in Form 1. If a provisional patent specification is filed, the inventor’s claims must be included in a complete specification within a year of the provisional specification’s filing. Depending on their intended use, six distinct types of patent application forms can be submitted.
             </p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
@@ -91,7 +93,7 @@ export const ProcessSteps = () => {
           </div>
           <div className={`${active === '6' ? 'active' : 'none'}`}>
             <h3>Step 6. Grant of a Patent</h3>
-            <p className='mb-0'>Once the applicant has addressed all objections to the examination report and the examiner is pleased with the response, the application is processed for patent registration grant. The process of registering a patent has now come to an end. However, the examiner has the option to reject the patent application if they are not pleased with the applicant’s response and supporting documentation. To obtain patent protection in this scenario, the applicant will need to go through the complete patent process in India once more.
+            <p className='mb-0'>Once the applicant has addressed all objections to the examination report and the examiner is pleased with the response, the application is processed for patent registration grant. The process of registering a patent has now come to an end. However, the examiner has the option to reject the patent application if they are not pleased with the applicant’s response and supporting documentation. To obtain patent protection in this scenario, the applicant will need to go through the complete patent process in {cityName} once more.
             </p>
           </div>
         </div>

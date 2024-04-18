@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pf-return/Why_to_opt_for_PF_Return.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const WhyOpt = () => {
+const WhyOpt = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyOpt">
         <p className="main-para">Opting for PF return offers range of benefits to the user, which includes:</p>

@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/patent-registration/document.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-export const DocumentRequired = () => {
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
@@ -17,7 +20,7 @@ export const DocumentRequired = () => {
           </div>
        
        <div className="flex-4 pt-5">
-            <p><strong>1. </strong>Form 1 Application for the Grant of a Patent in India</p>
+            <p><strong>1. </strong>Form 1 Application for the Grant of a Patent in {cityName}</p>
             <p><strong>2. </strong>Bot the provisional and complete patent specifications must be submitted in duplicate, and if the provisional specification is filed, it must be followed within a year by the entire specification. (Form 2)</p>
             <p><strong>3. </strong>Only draw in duplicate if required.</p>
             <p><strong>4. </strong>The invention’s abstract and pertinent details, created in triplicate by the party.</p>

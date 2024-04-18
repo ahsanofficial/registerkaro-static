@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pf-return/consequences.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const Consequences = () => {
+const Consequences = ({ cityName }: HeroProps) => {
   return (
     <div id="Consequences">
         <p className="main-para">In event of late filing of PF Return attracts penalty on the applicant. The penalty can be observed in the following manner:</p>

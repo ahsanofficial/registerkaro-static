@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pf-return/key_points.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const KeyPoints = () => {
+const KeyPoints = ({ cityName }: HeroProps) => {
   return (
     <div id="KeyPoints">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

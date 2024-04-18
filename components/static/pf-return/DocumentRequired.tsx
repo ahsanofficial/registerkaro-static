@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/pf-return/Documents.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-export const DocumentRequired = () => {
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
         <p className="main-para">Following are the general documents you will need to regulate the PF Return, however, this list is not exhaustive:</p>

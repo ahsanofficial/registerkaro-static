@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/patent-registration/Types_of_Patents.svg";
+interface HeroProps {
+    cityName: string;
+}
 
-const TypesPatents = () => {
+const TypesPatents = ({ cityName }: HeroProps) => {
   return (
     <div id="TypesPatents">
       <p className="main-para">
