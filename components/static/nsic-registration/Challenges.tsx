@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nsic-registration/Challenges_to.svg";
 
 const Challenges = () => {
   return (
@@ -10,7 +10,16 @@ const Challenges = () => {
         expected to face for a successful journey. Few of such hurdles are as
         follows:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="flex-3">
+          <Image
+            alt="Challenges to experience in NSIC registration"
+            className="Challenges-img w-100"
+            height={300}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-7">
           <h3>Complex Process</h3>
 
@@ -40,15 +49,7 @@ const Challenges = () => {
             taken care, it is expected to receive notice for non-compliance.
           </p>
         </div>
-        <div className="flex-3">
-          <Image
-            alt=""
-            className="Challenges-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+       
       </div>
     </div>
   );

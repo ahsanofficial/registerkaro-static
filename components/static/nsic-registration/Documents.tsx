@@ -1,13 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nsic-registration/Documents_to_carry_with_you.svg";
 
 const Documents = () => {
   return (
     <div id="Documents">
         <p className="main-para">You need to carry the following documents which are annexed with both the online and offline NSIC registration application:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="flex-4">
+        <Image
+            alt="Documents to carry with you"
+            className="Documents-img w-100"
+            height={580}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
+        <div className="flex-7 pt-3">
             <p><strong>1. </strong>Certificate of Incorporation [for companies]</p>
             <p><strong>2. </strong>LLP agreement and Form A which is issued by the registrar of Firms [for LLP]</p>
             <p><strong>3. </strong>Memorandum of Association and Articles of association</p>
@@ -21,15 +30,7 @@ const Documents = () => {
             <p><strong>11. </strong>Human Resource recruitment report</p>
             <p><strong>12. </strong>Utility bills like electricity, water bill, etc.,</p>
         </div>
-        <div className="flex-3">
-        <Image
-            alt=""
-            className="Documents-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      
       </div>
     </div>
   );

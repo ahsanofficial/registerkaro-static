@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/nsic-registration/Schemes_pertaining_to_NSIC.svg";
 
 const Schemes = () => {
   return (
@@ -8,16 +8,8 @@ const Schemes = () => {
       <p className="main-para">
         Following are certain schemes available under the NSIC Registration:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=""
-            className="Schemes-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+     
         <div className="flex-7">
           <p>
             <strong>Single Point Registration schemes: </strong>
@@ -78,6 +70,15 @@ const Schemes = () => {
             National Small Industries Corporation to share the processing fee
             and submit loan applications from interested MSEs to the banks.
           </p>
+        </div>
+        <div className="flex-3">
+          <Image
+            alt="Schemes pertaining to NSIC"
+            className="Schemes-img w-100"
+            height={780}
+            loading="lazy"
+            src={bft}
+          />
         </div>
        
       </div>
