@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsic-registration/Documents_to_carry_with_you.svg";
-
-const Documents = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Documents = ({ cityName }: HeroProps) => {
   return (
     <div id="Documents">
         <p className="main-para">You need to carry the following documents which are annexed with both the online and offline NSIC registration application:</p>

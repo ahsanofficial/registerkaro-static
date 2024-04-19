@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsic-registration/Benefits_of_NSIC.svg";
-
-const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">NSIC Registration brings a wide range of benefits for the entities to enjoy under the domain. Few of such benefits are as follows-</p>

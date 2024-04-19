@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/memorandum-of-understanding-mou/Why_do_youneed_Memorandum_of_Understanding.svg";
-
-const NeedMemorandum = () => {
+interface HeroProps {
+  cityName: string;
+}
+const NeedMemorandum = ({ cityName }: HeroProps) => {
   return (
     <div id="NeedMemorandum">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

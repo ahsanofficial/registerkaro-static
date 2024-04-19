@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsic-registration/Challenges_to.svg";
-
-const Challenges = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Challenges = ({ cityName }: HeroProps) => {
   return (
     <div id="Challenges">
       <p className="main-para">

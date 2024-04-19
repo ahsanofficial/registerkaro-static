@@ -1,12 +1,14 @@
 import certificate from '../../../assets/images/static/nsic-registration/certificate.svg'
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Under the Ministry of Micro, Small, and Medium Enterprises (MoMSMEs), the Government of India oversees the National Small Industries Corporation (NSIC). NSIC encourages and supports MSMEs’ expansion across the country. Professionals oversee the corporation’s incubation and training programs. NSIC offers comprehensive support services across multiple domains, including technology, marketing, finance, and support services. Micro and Small Enterprises (MSEs) can participate in government procurement by opting for NSIC Registration under the <strong>Single Point Registration Scheme (SPRS).</strong></p>
-                <p className='text-justify'>The Indian government founded the <strong>National Small Industries Corporation in 1955.</strong> As of right now, NSIC is a well-known Mini Ratna PSU with <strong>ISO 9001:2015</strong> certification. The Government of India established NSIC to support small and expanding businesses in post-independence India. NSIC serves as a middleman, offering support to small-scale industries (SSI). MSEs with NSIC registration are eligible for a number of government development programs, which can help them expand their businesses significantly.</p>
+                <p className='text-justify'>Under the Ministry of Micro, Small, and Medium Enterprises (MoMSMEs), the Government of {cityName} oversees the National Small Industries Corporation (NSIC). NSIC encourages and supports MSMEs’ expansion across the country. Professionals oversee the corporation’s incubation and training programs. NSIC offers comprehensive support services across multiple domains, including technology, marketing, finance, and support services. Micro and Small Enterprises (MSEs) can participate in government procurement by opting for NSIC Registration under the <strong>Single Point Registration Scheme (SPRS).</strong></p>
+                <p className='text-justify'>The Indian government founded the <strong>National Small Industries Corporation in 1955.</strong> As of right now, NSIC is a well-known Mini Ratna PSU with <strong>ISO 9001:2015</strong> certification. The Government of {cityName} established NSIC to support small and expanding businesses in post-independence {cityName}. NSIC serves as a middleman, offering support to small-scale industries (SSI). MSEs with NSIC registration are eligible for a number of government development programs, which can help them expand their businesses significantly.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

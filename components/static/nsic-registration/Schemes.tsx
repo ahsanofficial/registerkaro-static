@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsic-registration/Schemes_pertaining_to_NSIC.svg";
-
-const Schemes = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Schemes = ({ cityName }: HeroProps) => {
   return (
     <div id="Schemes">
       <p className="main-para">
@@ -13,7 +15,7 @@ const Schemes = () => {
         <div className="flex-7">
           <p>
             <strong>Single Point Registration schemes: </strong>
-            The Government of India has directed that firms registered under the
+            The Government of {cityName} has directed that firms registered under the
             Single Point Registration Scheme of NSIC be eligible to receive
             benefits under the “Public Procurement Policy for Micro & Small
             Enterprises (MSEs) Order 2012”.
@@ -51,7 +53,7 @@ const Schemes = () => {
             Annual participation in National and International Trade Fairs and
             Exhibitions by National Small Industries Corporation serves to
             highlight the key competencies of Micro and Small Enterprises in
-            India and to leverage market opportunities. The National Small
+            {cityName} and to leverage market opportunities. The National Small
             Industries Corporation provides MSEs with rents and other subsidies
             to make their participation easier. By taking part in various
             national and international events, Micro and Small Enterprises units

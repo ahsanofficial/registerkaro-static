@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/memorandum-of-understanding-mou/Points_to_remembe.svg";
-
-const Points = () => {
+interface HeroProps {
+  cityName: string;
+}
+const Points =({ cityName }: HeroProps)  => {
   return (
     <div id="Points">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

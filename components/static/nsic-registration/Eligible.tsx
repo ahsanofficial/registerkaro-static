@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsic-registration/check_if_you_are_eligible.svg";
-
-const Eligible = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Eligible = ({ cityName }: HeroProps) => {
   return (
     <div id="Eligible">
         <p className="main-para">For proceeding ahead with the NSIC Registration, you need to fall in one of the give category to qualify for the minimum eligibility criteria:</p>
