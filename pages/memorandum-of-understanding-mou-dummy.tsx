@@ -42,7 +42,7 @@ const Home = () => {
     return (
         <div className='services-pages mou-reg'>
             <Head>
-                <title>  Get Memorandum of understanding online in India</title>
+                <title>Get Memorandum of understanding online in India</title>
                 <meta name="description" content=" A memorandum of Understanding is a document that helps parties come to mutual agreements. and it specifies duties & expectations." />
                 <link rel="canonical" href="https://www.registerkaro.in/memorandum-of-understanding-mou" />
                 <link rel="icon" href="/favicon.ico" />

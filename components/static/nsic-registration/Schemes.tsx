@@ -71,11 +71,11 @@ const Schemes = () => {
             and submit loan applications from interested MSEs to the banks.
           </p>
         </div>
-        <div className="flex-3">
+        <div className="flex-3 align-content-center">
           <Image
             alt="Schemes pertaining to NSIC"
             className="Schemes-img w-100"
-            height={780}
+            height={580}
             loading="lazy"
             src={bft}
           />
