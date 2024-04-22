@@ -1,4 +1,7 @@
 .joint-venture-agreement{
+  ol > li::marker {
+    font-weight: bold;
+  }
     @media screen and (max-width: 990px) {
         .Benefits-img{
             height: 620px;

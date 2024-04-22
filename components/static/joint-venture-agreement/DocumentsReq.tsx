@@ -8,7 +8,7 @@ const DocumentsReq = () => {
         <p className="main-para"> Following documents are required for Joint Venture Agreement:</p>
       <div className="flex w-80 m-auto mobile-flex-column">
         <div className="flex-7 pt-5">
-        <ul className="fs-5">
+        <ol className="fs-5">
               <li>A written agreement signed by all joint venture participants.</li>
               <li>Photocopies of government-issued identity documents of all parties, such as a passport, PAN card, or voter ID card.</li>
               <li>If the joint venture involves companies, a copy of the Incorporation Certificate of each company.</li>
@@ -16,7 +16,7 @@ const DocumentsReq = () => {
               <li>Bank account details of all parties, including cancelled cheques.</li>
               <li>A document outlining the joint venture’s objective, objectives, and each party’s rights and obligations.</li>
               <li>If the joint venture is a company, proof of registered office, such as a rent agreement or utility bill.</li>
-            </ul>
+            </ol>
         </div>
         <div className="flex-3">
         <Image

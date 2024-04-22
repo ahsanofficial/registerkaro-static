@@ -20,7 +20,7 @@ const WhyChooseReg = () => {
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-7 pt-3">
-          <ul className="fs-5">
+          <ol className="fs-5">
             <li>
               RegisterKaro has a team of experienced and qualified
               professionals, who can guide you through the entire process of
@@ -42,7 +42,7 @@ const WhyChooseReg = () => {
               with a dedicated account manager and a 24/7 helpline, to answer
               your queries and resolve your issues.
             </li>
-          </ul>
+          </ol>
           <p>If you are looking for a reliable and professional partner to help you register a joint venture agreement in India, look no further than RegisterKaro. Contact us today and get started with your joint venture.</p>
         </div>
         <div className="flex-4">
