@@ -48,22 +48,22 @@ const Home = () => {
             <h1 className='main-heading'>What is a Joint Venture Agreement?</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>What are the Benefits of Joint Venture?</h1>
+            <h2 className='main-heading'>What are the Benefits of Joint Venture?</h2>
             <div className='heading-line'></div>
             <Benefits/>
-            <h1 className='main-heading'>Documents Required for Joint Venture Agreement</h1>
+            <h2 className='main-heading'>Documents Required for Joint Venture Agreement</h2>
             <div className='heading-line'></div>
             <DocumentsReq/>
-            <h1 className='main-heading'>How to Register a Joint Venture Agreement in India?</h1>
+            <h2 className='main-heading'>How to Register a Joint Venture Agreement in India?</h2>
             <div className='heading-line'></div>
             <ProcessStep/>
-            <h1 className='main-heading'>Why choose RegisterKaro for your Joint Venture?</h1>
+            <h2 className='main-heading'>Why choose RegisterKaro for your Joint Venture?</h2>
             <div className='heading-line'></div>
             <WhyChooseReg/>
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>

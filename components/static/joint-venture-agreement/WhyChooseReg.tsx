@@ -13,10 +13,10 @@ const WhyChooseReg = () => {
         filings, payroll management, GST Registration and filing, Trademark
         Registration, and more.
       </p>
-      <p className="main-para fw-bold">
+      <p className="main-para">
         {" "}
-        RegisterKaro can help you with your venture agreement in the following
-        ways:
+          <strong>RegisterKaro can help you with your venture agreement in the following
+          ways:</strong>
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-7 pt-3">

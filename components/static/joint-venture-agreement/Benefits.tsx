@@ -4,7 +4,7 @@ import bft from "../../../assets/images/static/oman-company-registration/why_cho
 
 export const Benefits = () => {
   return (
-    <div id="Types">
+    <div id="Benefits">
         <p className="main-para">A joint venture agreement can be beneficial for various reasons, such as: </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       <div className="flex-4">
