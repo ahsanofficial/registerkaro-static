@@ -15,7 +15,7 @@ const faq = [
   
 const Home = () => {
     return (
-        <div className='services-pages company-valuation-startups mb-5'>
+        <div className='services-pages company-valuation-startups'>
             <Head>
                 <title>Company Valuation for Startups | RegisterKaro</title>
                 <meta name="description" content="The Official RegisterKaro" />
@@ -31,16 +31,16 @@ const Home = () => {
             <h1 className='main-heading'>What is the Meaning of Company Valuation for Startups?</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Methods Used for Company Valuation of Startups</h1>
+            <h2 className='main-heading'>Methods Used for Company Valuation of Startups</h2>
             <div className='heading-line'></div>
             <MethodsUsed />
-            <h1 className='main-heading'>Factors Affecting Company Valuation for Startups in India</h1>
+            <h2 className='main-heading'>Factors Affecting Company Valuation for Startups in India</h2>
             <div className='heading-line'></div>
             <FactorsAffectingValuation />
-            <h1 className='main-heading'>Challenges in Startup Valuation in India</h1>
+            <h2 className='main-heading'>Challenges in Startup Valuation in India</h2>
             <div className='heading-line'></div>
             <ChallengesInValuation />
-            <h1 className='main-heading'>Why RegisterKaro for Startup Valuation?</h1>
+            <h2 className='main-heading'>Why RegisterKaro for Startup Valuation?</h2>
             <div className='heading-line'></div>
             <WhyForStartupEvaluation />
             <h2 className="main-heading">Why RegisterKaro?</h2>

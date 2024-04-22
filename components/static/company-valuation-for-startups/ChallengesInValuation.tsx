@@ -18,7 +18,7 @@ export const ChallengesInValuation = () => {
         <div className="flex-3">
           <Image
             alt="Methods Used for Company Valuation of Startups"
-            className="MethodsUsed-img w-100"
+            className="ChangesInValuation-img w-100"
             height={350}
             loading="lazy"
             src={bft}

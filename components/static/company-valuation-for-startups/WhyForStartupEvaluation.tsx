@@ -9,7 +9,7 @@ export const WhyForStartupEvaluation = () => {
         <div className="flex-3">
           <Image
             alt="Factors Affecting Company Valuation for Startups in India"
-            className="FactorsAffectingValuation-img w-100"
+            className="WhyForStartupEvaluation-img w-100"
             height={480}
             loading="lazy"
             src={bft}
