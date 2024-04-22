@@ -23,7 +23,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://www.registerkaro.in/_next/static/media/Logo.77348f99.png" />
       <link rel="icon" href="/favicon.ico" />
-      <ZohoSalesIQ></ZohoSalesIQ>
+      {/* <ZohoSalesIQ></ZohoSalesIQ> */}
       <SessionProvider session={pageProps.session}>
         {shouldRenderHeader && <Header />}
         <Component {...pageProps} />
