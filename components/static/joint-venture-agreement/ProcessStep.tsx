@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/oman-company-registration/why_choose_regis.svg";
+import bft from "../../../assets/images/pvt-reg/benefit.svg";
 
 export const ProcessStep = () => {
   return (
     <div id="ProcessStep">
         <p className="main-para">To register a joint venture agreement in India, you need to follow these steps: </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4 pt-5">
         <Image
             alt="Types of Companies in Oman"

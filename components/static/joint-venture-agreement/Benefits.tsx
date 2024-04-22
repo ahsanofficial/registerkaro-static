@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/oman-company-registration/why_choose_regis.svg";
+import bft from "../../../assets/images/pvt-reg/benefit.svg";
 
 export const Benefits = () => {
   return (
     <div id="Benefits">
         <p className="main-para">A joint venture agreement can be beneficial for various reasons, such as: </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
         <Image
             alt="Types of Companies in Oman"

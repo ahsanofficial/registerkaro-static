@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/oman-company-registration/why_choose_regis.svg";
+import bft from "../../../assets/images/pvt-reg/benefit.svg";
 
 const WhyChooseReg = () => {
   return (
@@ -18,7 +18,7 @@ const WhyChooseReg = () => {
           <strong>RegisterKaro can help you with your venture agreement in the following
           ways:</strong>
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 pt-3">
           <ol className="fs-5">
             <li>
