@@ -6,7 +6,6 @@ import { Hero } from '../components/static/trademark-objection/Hero'
 import { Process } from '../components/static/trademark-objection/Process'
 import { HowToReply } from '../components/static/trademark-objection/HowToReply'
 import { DocumentRequired } from '../components/static/trademark-objection/DocumentRequired'
-// import { Types } from '../components/static/trademark-objection/Types'
 import { WhyChoose } from '../components/static/trademark-objection/WhyChoose'
 
 const faq = [

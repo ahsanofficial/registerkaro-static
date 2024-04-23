@@ -29,8 +29,8 @@ export const HowToReply = () => {
             </div>
             <div className='flex-4'>
                 <Image
-                alt="WhenRecieveObjection of companies for Company Registration in Qatar"
-                className="WhenRecieveObjection-img w-100 img-h-100"
+                alt="How do you reply to Trademark Objections?"
+                className="HowToReply-img w-100 img-h-100"
                 height={200}
                 loading="lazy"
                 src={bft}

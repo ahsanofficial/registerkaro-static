@@ -16,7 +16,7 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-5">
             <Image
-              alt="Documents to carry for registration process"
+              alt="Documents required for the Trademark Objection"
               className="DocumentRequired-img w-100 img-h-100"
               height={200}
               loading="lazy"

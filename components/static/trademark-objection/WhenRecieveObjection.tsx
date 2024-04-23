@@ -9,7 +9,7 @@ export const WhenRecieveObjection = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-4">
             <Image
-              alt="WhenRecieveObjection of companies for Company Registration in Qatar"
+              alt="When do you receive a trademark objection?"
               className="WhenRecieveObjection-img w-100 img-h-100"
               height={1000}
               loading="lazy"
