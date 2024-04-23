@@ -4,7 +4,7 @@ import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
 export const DocumentRequired = () => {
   return (
-    <div id="#whyreg">
+    <div id="DocumentRequired">
        
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
@@ -19,7 +19,7 @@ export const DocumentRequired = () => {
             height={350}
             loading="lazy"
             src={dft}
-          />
+          /> 
         </div>
       </div>
     </div>

@@ -14,23 +14,40 @@ export const Process = () => {
                             <a href="#Types" className="scrollTo">
                                 <li>What is the check bounce notice?</li>
                             </a>
-                            <a href="#WhyReg" className="scrollTo">
+
+
+                            <a href="#DocumentRequired" className="scrollTo">
                                 <li>Cheque Bounce Notice Vis-a-vis Negotiable Instrumrnt Act</li>
                             </a>
-                            <a href="#DocumentRequired" className="scrollTo">
+
+
+                            <a href="#why" className="scrollTo">
                                 <li>When do you receive a notice for Cheque Bounce?</li>
                             </a>
-                            <a href="#whyregs" className="scrollTo">
+
+                            <a href="#Document2" className="scrollTo">
+                                <li>How do you issue a notice for cheque Bounce?</li>
+                            </a>
+
+                            <a href="#Document3" className="scrollTo">
+                                <li>Points to be remember for drafting chequw Bounce Notice?</li>
+                            </a>
+
+
+                            <a href="#Document4" className="scrollTo">
+                                <li>What to do when you receive a Cheque Bounce Notice?</li>
+                            </a>
+
+                            <a href="#Whychoose" className="scrollTo">
                                 <li>How RegisterKaro helps you in the Cheque Bounce Notice??</li>
                             </a>
-                            <a href="#WhyChoose" className="scrollTo">
-                                <li>Why Choose RegisterKaro for Company Registration in Dubai?</li>
-                            </a>
+
+                            
                             
                             <a href="#Faq" className="scrollTo">
                                 <li>Frequently Asked Questions</li>
                             </a> 
-
+ 
                          </ul> 
                      </ul> 
                 </div> 

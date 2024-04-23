@@ -1,13 +1,14 @@
 import Head from 'next/head'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
 import { Hero } from "../components/static/cheque-bounce-notice/Hero"
 import { Process } from '../components/static/cheque-bounce-notice/Process'
 import { Types } from '../components/static/cheque-bounce-notice/Types'
 import { Why } from '../components/static/cheque-bounce-notice/Why'
 import { DocumentRequired } from '../components/static/cheque-bounce-notice/DocumentRequired'
 import { WhyChoose } from '../components/static/dubai-company-registration/WhyChoose'
-import { ProcessCompany } from '../components/static/dubai-company-registration/ProcessCompany'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
+import { Document2 } from '../components/static/cheque-bounce-notice/Document2'
+import { Document3 } from '../components/static/cheque-bounce-notice/Document3'
+import { Document4 } from '../components/static/cheque-bounce-notice/Document4'
 
 const faq = [
     {
@@ -56,7 +57,7 @@ const Home = () => {
     return (
         <div className='services-pages dubai-reg'>
             <Head>
-                {/* <title>Private Limited Company Registration | RegisterKaro</title> */}
+                 <title>Cheque Bounce Notice---| RegisterKaro</title> 
                 {/* <meta name="description" content="The Official RegisterKaro" /> */}
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
@@ -66,27 +67,44 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" /> 
                 {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
             </Head>
+
             <Hero />
             <h1 className='main-heading'>Understanding the Cheque Bounces</h1>
             <div className='heading-line'></div>
             <Process />
+
             <h2 className='main-heading'>What is a Cheque Bounce Notice?</h2>
             <div className='heading-line'></div>
-            
             <Types cityName={''}/>
-            <h1 className='main-heading'>Cheque Bounce Notice Vis-a-vis Negotiable Instrumrnt Act</h1>
+
+            <h2 className='main-heading'>Cheque Bounce Notice Vis-a-vis Negotiable Instrumrnt Act</h2>
             <div className='heading-line'></div>
              <DocumentRequired />
-            <h1 className='main-heading'> When do you receive a notice for Cheque Bounce?</h1>
-            <div className='heading-line'></div>
-           <Why />
 
-            <h1 className='main-heading'>How RegisterKaro helps you in the Cheque Bounce Notice??</h1>
+            <h2 className='main-heading'> When do you receive a notice for Cheque Bounce?</h2>
+            <div className='heading-line'></div>
+            <Why />
+
+
+            <h2 className='main-heading'> How do you issue a notice for cheque Bounce</h2>
+            <div className='heading-line'></div>
+            <Document2 />
+
+            <h2 className='main-heading'> Points to rember for drafting cheque Bounce Notice</h2>
+            <div className='heading-line'></div>
+            <Document3 />
+
+            <h2 className='main-heading'>What to do when you recieve a cheque Bounce Notice</h2>
+            <div className='heading-line'></div>
+            <Document4 />
+
+            <h2 className='main-heading'>How RegisterKaro helps you in the Cheque Bounce Notice??</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
 
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
+
             <FaqTemplatePVT faqItems={faq} />
         </div>
     )

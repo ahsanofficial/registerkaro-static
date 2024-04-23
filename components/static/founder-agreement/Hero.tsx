@@ -28,19 +28,19 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-            <h4 className='mb-4'>Cheque Bounce Notice</h4>
-                <p>Receiving a notice for a bounced cheque remains a commonplace occurrence even in an era marked by sophisticated financial oversight. Should you find yourself in receipt of such a notice, we urge you to promptly engage the expertise of the RegisterKaro team for best results..</p>
+            <h4 className='mb-4'>Founders' Agreement</h4>
+                <p>At Registerkaro, we offer a professional and affordable service for drafting and registering your Founders’ Agreement. We have a team of experienced and qualified lawyers who can help you create a customized and comprehensive Founders’ Agreement that suits your business needs and goals. We also take care of all the legal formalities and documentation required for registering your Founders’ Agreement with the relevant authorities</p>
                 <div className="packages">
-                     {hero.pack_includes?.map((i: any, n: number) => {
+                    {hero.pack_includes?.map((i: any, n: number) => {
                         return (
                             <div key={n} className='package flex w-80'>
-                                 <div>
+                                <div>
                                     <Image src={rightArrow} alt='rightArrow' className='rightArrow' />
                                 </div>
                                 <div>{i}</div>
                             </div>
                         );
-                    })} 
+                    })}
                 </div>
                 <GoogleDiv />
             </div>
