@@ -5,7 +5,6 @@ import dft from "../../../assets/images/static/qatar-company-registration/types.
 export const WhenRecieveObjection = () => {
   return (
     <div id="WhenRecieveObjection">
-        <p className="main-para">For establishing a business in Qatar, you may choose one of the following company structure:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-4">
             <Image
