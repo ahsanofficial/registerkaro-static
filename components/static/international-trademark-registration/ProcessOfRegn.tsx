@@ -34,25 +34,25 @@ export const ProcessOfRegn = () => {
           </button>
           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3: Application evaluation by WIPO: </div> 
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3. Application evaluation by WIPO: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={four} alt="four" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4: Notification by WIPO: </div> 
+              <Image src={four} alt="four" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4. Notification by WIPO: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={five} alt="five" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 5: Trademark Opposition: </div> 
+              <Image src={five} alt="five" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 5. Trademark Opposition: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={six} alt="six" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 6: Granting Trademark: </div> 
+              <Image src={six} alt="six" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 6. Granting Trademark: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
