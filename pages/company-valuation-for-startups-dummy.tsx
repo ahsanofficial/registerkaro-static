@@ -18,14 +18,11 @@ const Home = () => {
         <div className='services-pages company-valuation-startups'>
             <Head>
                 <title>Company Valuation for Startups | RegisterKaro</title>
-                <meta name="description" content="The Official RegisterKaro" />
-                <meta name="robots" content="noindex,nofollow" />
-                <meta name="googlebot" content="noindex,nofollow" />
-                <meta name="robots" content="all" />
-                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-                <meta name="google" content="notranslate" key="notranslate" />
+                <meta name="description" content="Company valuation for startups in India is a critical aspect that determines the worth of a company based on various factors." />
+                <link rel="canonical" href="https://www.registerkaro.in/company-valuation-startups" />
                 <link rel="icon" href="/favicon.ico" />
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                <meta property="og:title" content="Company Valuation for Startups | RegisterKaro" />
+                <meta property="og:description" content="Company valuation for startups in India is a critical aspect that determines the worth of a company based on various factors." />
             </Head>
             <Hero />
             <h1 className='main-heading'>What is the Meaning of Company Valuation for Startups?</h1>

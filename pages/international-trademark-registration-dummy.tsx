@@ -57,11 +57,11 @@ const Home = () => {
     <div className='services-pages international-tm-reg'>
         <Head>
             <title>International Trademark Registration | RegisterKaro</title>
-            <meta name="description" content="The Official RegisterKaro" />
-            <link rel="canonical" href="https://www.registerkaro.in/international-trademark-registration" />
+            <meta name="description" content="International trademark registration offers legal protection to the applicant in many different countries at once." />
+            <link rel="canonical" href="https://www.registerkaro.in/company-valuation-startups" />
             <link rel="icon" href="/favicon.ico" />
             <meta property="og:title" content="International Trademark Registration | RegisterKaro" />
-            <meta property="og:description" content="The Official RegisterKaro" />
+            <meta property="og:description" content="International trademark registration offers legal protection to the applicant in many different countries at once." />
         </Head>
         <Hero />
         <h1 className="main-heading">What is International Trademark Registration?</h1>
