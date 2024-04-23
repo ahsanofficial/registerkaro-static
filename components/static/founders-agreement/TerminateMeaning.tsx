@@ -15,7 +15,7 @@ const TerminateMeaning = () => {
         <div className="flex-3 pt-5">
         <Image
             alt="Documents you would need"
-            className="DocumentsReq-img w-100"
+            className="TerminateMeaning-img w-100"
             height={480}
             loading="lazy"
             src={bft}

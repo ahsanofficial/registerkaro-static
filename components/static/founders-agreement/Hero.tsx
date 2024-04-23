@@ -30,7 +30,6 @@ export const Hero = () => {
             <div className="header-content">
             <h4 className='mb-4 fs-2'>Founders’ Agreement</h4>
                 <p>At Registerkaro, we offer a professional and affordable service for drafting and registering your Founders’ Agreement. We have a team of experienced and qualified lawyers who can help you create a customized and comprehensive Founders’ Agreement that suits your business needs and goals. We also take care of all the legal formalities and documentation required for registering your Founders’ Agreement with the relevant authorities.</p>
-                <p className='fs-4'><span className='fw-bold'>50,000+</span> businesses incorporated since 2021</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

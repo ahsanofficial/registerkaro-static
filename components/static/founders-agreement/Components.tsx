@@ -14,7 +14,7 @@ export const Components = () => {
         <div className="flex-4 pt-5">
           <Image
             alt="Types of Companies in Oman"
-            className="Benefits-img w-100"
+            className="Components-img w-100"
             height={480}
             loading="lazy"
             src={bft}

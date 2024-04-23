@@ -30,7 +30,6 @@ export const Hero = () => {
             <div className="header-content">
             <h4 className='mb-4 fs-2'>Joint Venture Agreement</h4>
                 <p>Get your Joint Venture Agreements for your projects online with our hassle-free and affordable services.</p>
-                <p className='fs-4'><span className='fw-bold'>50,000+</span> businesses incorporated since 2021</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

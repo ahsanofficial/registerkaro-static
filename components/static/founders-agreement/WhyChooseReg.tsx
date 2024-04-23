@@ -36,9 +36,9 @@ const WhyChooseReg = () => {
             We have a 100% customer satisfaction rate and a loyal client base of more than 5000 businesses.
             </li>
           </ol>
-          <p>So, what are you waiting for? Contact us today and get your Founders’ Agreement done with Registerkaro. We are here to help you start and grow your business with confidence and peace of mind.</p>
         </div>
       </div>
+      <p className="main-para">So, what are you waiting for? Contact us today and get your Founders’ Agreement done with Registerkaro. We are here to help you start and grow your business with confidence and peace of mind.</p>
     </div>
   );
 };
