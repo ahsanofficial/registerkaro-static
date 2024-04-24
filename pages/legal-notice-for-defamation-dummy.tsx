@@ -57,7 +57,7 @@ const faq = [
 
 const Home = () => {
     return (
-        <div className='services-pages legal-notice-for-defamation'>
+        <div className='services-pages'>
             <Head>
                 <title>Legal Notice for Defamation</title>
                 <meta name="description" content="Defamation is an offence in which a person makes a false statement about another person in front of a third person by words, signs, or visible representations to cause harm and also with the knowledge that it will cause harm to the person's reputation." />

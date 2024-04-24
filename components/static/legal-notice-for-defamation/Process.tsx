@@ -21,7 +21,7 @@ export const Process = () => {
                             <a href="#CivilDefamation" className="scrollTo">
                                 <li>Civil Defamation</li>
                             </a>
-                            <a href="#ProcessStep" className="scrollTo">
+                            <a href="#HowRegisterKaro" className="scrollTo">
                                 <li>How does Register Karo help?</li>
                             </a>
                             <a href="#Faq" className="scrollTo">

@@ -11,7 +11,8 @@ let hero = {
         "Process Consultation",
         "Notice Drafting",
         "Post Notice follow up",
-        "Suit Assistance Legal Consultation"
+        "Suit Assistance",
+        "Legal Consultation"
     ]
 }
 

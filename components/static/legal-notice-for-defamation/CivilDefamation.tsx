@@ -12,7 +12,7 @@ const CivilDefamation = () => {
         <div className="flex-4">
           <Image
             alt="Civil Defamation"
-            className="CivilDefamation-img w-100"
+            className="Importance-img-h-100 w-100"
             height={480}
             loading="lazy"
             src={bft}
