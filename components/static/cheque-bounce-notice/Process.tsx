@@ -25,7 +25,7 @@ export const Process = () => {
                                 <li>When do you receive a notice for Cheque Bounce?</li>
                             </a>
 
-                            <a href="#Document2" className="scrollTo">
+                            <a href="#issue" className="scrollTo">
                                 <li>How do you issue a notice for cheque Bounce?</li>
                             </a>
 

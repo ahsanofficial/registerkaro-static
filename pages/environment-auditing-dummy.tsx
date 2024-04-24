@@ -4,13 +4,12 @@ import { Hero } from '../components/static/environmental-auditing/Hero'
 import { Process } from '../components/static/environmental-auditing/Process'
 import { Types } from '../components/static/environmental-auditing/Types'
 import { Why } from '../components/static/environmental-auditing/Why'
-import { DocumentRequired } from '../components/static/environmental-auditing/DocumentRequired'
-import { WhyChoose } from '../components/static/environmental-auditing/WhyChoose'
-import { ProcessCompany } from '../components/static/environmental-auditing/ProcessCompany'
+import { ProcessEnvironment} from '../components/static/environmental-auditing/ProcessEnvironment'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { DocumentRequired2 } from '../components/static/environmental-auditing/DocumentRequired2'
-import { DocumentRequired3} from '../components/static/environmental-auditing/DocumentRequired3'
-import { DocumentRequired4} from '../components/static/environmental-auditing/DocumentRequired4'
+import { Phases } from '../components/static/environmental-auditing/Phases'
+import { Benifits} from '../components/static/environmental-auditing/Benifits'
+import { Help} from '../components/static/environmental-auditing/Help'
+
 const faq = [
     {
       "question": "What is environmental auditing?",
@@ -70,23 +69,23 @@ const Home = () => {
             <h1 className='main-heading'>Areas of Environmental Audit</h1>
             <div className='heading-line'></div>
             <Why />
-            <h1 className='main-heading'>Documents you would need</h1>
+            <h1 className='main-heading'>Process of Environmental Audit</h1>
             <div className='heading-line'></div>
-            <DocumentRequired />
+            <ProcessEnvironment/>
 
             <h1 className='main-heading'>Phases</h1>
             <div className='heading-line'></div>
-            <DocumentRequired2 />
+            <Phases/>
 
             
 
             <h1 className='main-heading'>Benefits of Environmental Audit</h1>
             <div className='heading-line'></div>
-            <DocumentRequired3 />
+            <Benifits/>
 
             <h1 className='main-heading'>How does Register Karo Help ?</h1>
             <div className='heading-line'></div>
-            <DocumentRequired4 />
+            <Help />
 
 
 

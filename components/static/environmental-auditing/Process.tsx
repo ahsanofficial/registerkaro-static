@@ -15,18 +15,19 @@ export const Process = () => {
                             <a href="#WhyReg" className="scrollTo">
                                 <li>Areas of Environmental Audit</li>
                             </a>
-                            <a href="#DocumentRequired" className="scrollTo">
-                                <li>Documents you would need</li>
+                            <a href="#processenvironment" className="scrollTo">
+                                <li>Process of Environmental Audit</li>
                             </a>
                             <a href="#phases" className="scrollTo">
                                 <li>Phases</li>
                             </a>
-                            <a href="#WhyChoose" className="scrollTo">
+                            <a href="#benifits" className="scrollTo">
                                 <li>Benefits of Environmental Audit</li>
                             </a>
-                            <a href="#Why" className="scrollTo">
+                            <a href="#help" className="scrollTo">
                                 <li>How does Register Karo Help ?</li>
                             </a>
+                            
                             <a href="#Faq" className="scrollTo">
                                 <li>Frequently Asked Questions</li>
                             </a>
@@ -36,7 +37,7 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Dubai</p>
+                {/* <p className="small-heading text-center">Company Registration in Dubai</p> */}
                 <div>
                     <Image alt="An Overview Company Registration in Dubai After Abu Dhabi, the nation's capital, Dubai, the commercial center of the United Arab Emirates, is the second-richest emirate. Surprisingly," className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

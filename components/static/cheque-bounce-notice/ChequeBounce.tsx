@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Document4 = () => {
+ 
+export const ChequeBounce = () => {
   return (
     <div id="Document4">
         

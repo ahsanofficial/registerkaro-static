@@ -6,9 +6,9 @@ import { Why } from '../components/static/cheque-bounce-notice/Why'
 import { DocumentRequired } from '../components/static/cheque-bounce-notice/DocumentRequired'
 import { WhyChoose } from '../components/static/dubai-company-registration/WhyChoose'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { Document2 } from '../components/static/cheque-bounce-notice/Document2'
-import { Document3 } from '../components/static/cheque-bounce-notice/Document3'
-import { Document4 } from '../components/static/cheque-bounce-notice/Document4'
+import { IssueCheque } from '../components/static/cheque-bounce-notice/IssueCheque'
+import { DraftingCheque } from '../components/static/cheque-bounce-notice/DraftingCheque'
+import { ChequeBounce } from '../components/static/cheque-bounce-notice/ChequeBounce'
 
 const faq = [
     {
@@ -88,15 +88,15 @@ const Home = () => {
 
             <h2 className='main-heading'> How do you issue a notice for cheque Bounce</h2>
             <div className='heading-line'></div>
-            <Document2 />
+            <IssueCheque />
 
             <h2 className='main-heading'> Points to rember for drafting cheque Bounce Notice</h2>
             <div className='heading-line'></div>
-            <Document3 />
+            <DraftingCheque />
 
             <h2 className='main-heading'>What to do when you recieve a cheque Bounce Notice</h2>
             <div className='heading-line'></div>
-            <Document4 />
+            <ChequeBounce />
 
             <h2 className='main-heading'>How RegisterKaro helps you in the Cheque Bounce Notice??</h2>
             <div className='heading-line'></div>

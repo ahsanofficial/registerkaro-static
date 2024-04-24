@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
-export const DocumentRequired3 = () => {
+export const Benifits = () => {
   return (
-    <div id="WhyChoose">
+    <div id="benifits">
         {/* <p className="main-para">Following is the list of documents [not exhaustive] that you might need for the Company Registration process in Dubai:</p> */}
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">

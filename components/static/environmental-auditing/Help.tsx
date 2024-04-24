@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
-export const DocumentRequired4 = () => {
+export const Help = () => {
   return (
-    <div id="Why">
+    <div id="help">
         <p className="main-para">RegisterKaro has been a one-stop solution for assisting in conducting environmental audits for the varied ranges of benefits such as:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">

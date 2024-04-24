@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
-export const DocumentRequired2= () => {
+export const Phases= () => {
   return (
     <div id="phases">
         <p className="main-para">The environmental audit is done in three phases:</p>
