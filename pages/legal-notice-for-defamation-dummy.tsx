@@ -6,7 +6,7 @@ import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { Understanding } from '../components/static/legal-notice-for-defamation/Understanding'
 import CivilDefamation from '../components/static/legal-notice-for-defamation/CivilDefamation'
 import Definition from '../components/static/legal-notice-for-defamation/Definition'
-import { ProcessStep } from '../components/static/legal-notice-for-defamation/ProcessStep'
+import { HowRegisterKaro } from '../components/static/legal-notice-for-defamation/HowRegisterKaro'
 import CriminalDefamation from '../components/static/legal-notice-for-defamation/CriminalDefamation'
 
 const faq = [
@@ -87,7 +87,7 @@ const Home = () => {
             <CivilDefamation/>
             <h2 className='main-heading'>How does Register Karo help?</h2>
             <div className='heading-line'></div>
-            <ProcessStep/>
+            <HowRegisterKaro/>
             <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
