@@ -74,17 +74,17 @@ export const ProcessOfRegn = () => {
             </p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
-            <h3>Step 4: Notification by WIPO: </h3>
+            <h3>Step 4. Notification by WIPO: </h3>
             <p className='mb-0'>If the applicant chooses to seek registration, each member country of the Madrid Protocol will get notification from the WIPO of the worldwide trademark application. In accordance with trademark laws and regulations, the member nations will review the application for international registration. Within 12 to 18 months of receiving the application for trademark registration, the member nations will submit their examination report and advise the WIPO of their acceptance or rejection of the application.
             </p>
           </div>
           <div className={`${active === '5' ? 'active' : 'none'}`}>
-            <h3>Step 5: Trademark Opposition: </h3>
+            <h3>Step 5. Trademark Opposition: </h3>
             <p className='mb-0'>Should any of the member nations object to the trademark registration application, it needs to be filed with the WIPO using the format specified. Direct communication between the trademark applicant and the relevant Madrid Protocol member nation will characterize the opposition processes to the trademark application. The opposition processes consist of the following: prosecution, hearing, response, and appeal. Throughout the entire opposition process, the WIPO will be involved.
             </p>
           </div>
           <div className={`${active === '6' ? 'active' : 'none'}`}>
-            <h3>Step 6: Granting Trademark: </h3>
+            <h3>Step 6. Granting Trademark: </h3>
             <p className='mb-0'>Once the member countries accept the application, the Trademark will be registered under the Madrid Protocol in the respective chosen countries for a period of ten years. Following approval of the registration application, the applicant will receive a statement of grant attesting to the international trademark registration of an Indian trademark.
             </p>
           </div>
