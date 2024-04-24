@@ -11,7 +11,7 @@ export const ProcessEnvironment = () => {
       <div className="flex-3">
           <Image
             alt="Documents you would need"
-            className="DocumentRequired-img w-100"
+            className="Importance-img-h-100 w-100"
             height={300}
             loading="lazy"
             src={dft}

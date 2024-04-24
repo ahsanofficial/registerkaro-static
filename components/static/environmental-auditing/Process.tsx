@@ -24,7 +24,7 @@ export const Process = () => {
                             <a href="#benifits" className="scrollTo">
                                 <li>Benefits of Environmental Audit</li>
                             </a>
-                            <a href="#help" className="scrollTo">
+                            <a href="#WhyChoose" className="scrollTo">
                                 <li>How does Register Karo Help ?</li>
                             </a>
                             
@@ -39,7 +39,7 @@ export const Process = () => {
             <div className='flex-5'>
                 {/* <p className="small-heading text-center">Company Registration in Dubai</p> */}
                 <div>
-                    <Image alt="An Overview Company Registration in Dubai After Abu Dhabi, the nation's capital, Dubai, the commercial center of the United Arab Emirates, is the second-richest emirate. Surprisingly," className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="environment auditing" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ import { ProcessEnvironment} from '../components/static/environmental-auditing/P
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { Phases } from '../components/static/environmental-auditing/Phases'
 import { Benifits} from '../components/static/environmental-auditing/Benifits'
-import { Help} from '../components/static/environmental-auditing/Help'
+import { WhyChoose} from '../components/static/environmental-auditing/WhyChoose'
 
 const faq = [
     {
@@ -85,7 +85,7 @@ const Home = () => {
 
             <h1 className='main-heading'>How does Register Karo Help ?</h1>
             <div className='heading-line'></div>
-            <Help />
+            <WhyChoose />
 
 
 

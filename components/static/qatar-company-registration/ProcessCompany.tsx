@@ -45,7 +45,7 @@ export const ProcessCompany = () => {
             <div className='d-flex justify-content-between align-items-center gap-2'>
               <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4: File Application: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
-            </div>
+            </div> 
           </button>
         </div>
         <div className='flex-5 text-justify fs-20 p-color-black'>

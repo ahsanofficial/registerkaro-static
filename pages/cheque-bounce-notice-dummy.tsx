@@ -4,12 +4,13 @@ import { Process } from '../components/static/cheque-bounce-notice/Process'
 import { Types } from '../components/static/cheque-bounce-notice/Types'
 import { Why } from '../components/static/cheque-bounce-notice/Why'
 import { DocumentRequired } from '../components/static/cheque-bounce-notice/DocumentRequired'
-import { WhyChoose } from '../components/static/dubai-company-registration/WhyChoose'
+// import { WhyChoose } from '../components/static/dubai-company-registration/WhyChoose'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { IssueCheque } from '../components/static/cheque-bounce-notice/IssueCheque'
 import { DraftingCheque } from '../components/static/cheque-bounce-notice/DraftingCheque'
 import { ChequeBounce } from '../components/static/cheque-bounce-notice/ChequeBounce'
-
+import {WhyChoose } from '../components/static/cheque-bounce-notice/WhyChoose'
+ 
 const faq = [
     {
       "question": "What is the legal notice for a bounced cheque?",
@@ -89,7 +90,7 @@ const Home = () => {
             <h2 className='main-heading'> How do you issue a notice for cheque Bounce</h2>
             <div className='heading-line'></div>
             <IssueCheque />
-
+ 
             <h2 className='main-heading'> Points to rember for drafting cheque Bounce Notice</h2>
             <div className='heading-line'></div>
             <DraftingCheque />
@@ -98,7 +99,7 @@ const Home = () => {
             <div className='heading-line'></div>
             <ChequeBounce />
 
-            <h2 className='main-heading'>How RegisterKaro helps you in the Cheque Bounce Notice??</h2>
+            <h2 className='main-heading'>How RegisterKaro helps you in the Cheque Bounce Notice?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
 

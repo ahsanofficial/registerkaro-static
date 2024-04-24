@@ -6,11 +6,11 @@ export const Types = () => {
   return (
     <div id="Types">
         <p className="main-para">Now, we will be discussing the purpose for which the environmental audit would be serving the companies</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="Importance-img flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
             alt="Types of Companies in Dubai"
-            className="Types-img w-100"
+            className="Importance-img-h-100 w-100"
             height={400}
             loading="lazy"
             src={dft}
