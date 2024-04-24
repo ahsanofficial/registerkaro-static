@@ -9,20 +9,30 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#Benefits" className="scrollTo">
-                             <li>Benefits of starting a Business in Qatar</li>
+                          
+                            <a href="#WhatIs" className="scrollTo">
+                             <li>What is a Franchise Agreement</li>
                             </a>
                             <a href="#Types" className="scrollTo">
-                             <li>Types of companies for Company Registration in Qatar</li>
+                             <li>Types of Franchise Agreements</li>
                             </a>
                             <a href="#DocumentRequired" className="scrollTo">
-                             <li>Documents to carry for registration process</li>
+                             <li>List of Documents required for Franchise Agreement</li>
+                            </a>
+                            <a href="#KeyElements" className="scrollTo">
+                             <li>Key Elements of a Franchise Agreement</li>
                             </a>
                             <a href="#ProcessCompany" className="scrollTo">
-                             <li>Company registration Process in Qatar</li>
+                             <li>How Franchise Agreements Work</li>
+                            </a>
+                            <a href="#Advantages" className="scrollTo">
+                             <li>Advantages of Franchise Agreement</li>
+                            </a>
+                            <a href="#Various" className="scrollTo">
+                             <li>Various laws that govern a Franchise Agreement in India</li>
                             </a>
                             <a href="#WhyChoose" className="scrollTo">
-                             <li>Why Choose RegisterKaro for Company Registration in Qatar?</li>
+                             <li>How RegisterKaro Can Assist You in the Franchise Agreement Process</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

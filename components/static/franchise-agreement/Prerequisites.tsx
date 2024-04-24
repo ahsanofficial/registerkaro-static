@@ -16,7 +16,7 @@ export const Prerequisites = () => {
         <div className="flex-4 pt-5">
           <Image
             alt="Prerequisites of Company Registration in UK"
-            className="Prerequisites-img w-100"
+            className="Importance-img-h-100 w-100"
             height={500}
             loading="lazy"
             src={dft}

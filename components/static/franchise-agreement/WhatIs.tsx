@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/pvt-reg/benefit.svg";
 
-const Technology = () => {
+const WhatIs = () => {
   return (
-    <div id="Technology">
+    <div id="WhatIs">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
           <p>
@@ -28,11 +28,11 @@ const Technology = () => {
             agreements to expand their service offerings across regions.
           </p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt=""
-            className="Technology-img w-100"
-            height={480}
+            className="Importance-img-h-100 w-100"
+            height={400}
             loading="lazy"
             src={bft}
           />
@@ -42,4 +42,4 @@ const Technology = () => {
   );
 };
 
-export default Technology;
+export default WhatIs;

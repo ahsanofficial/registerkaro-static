@@ -1,12 +1,15 @@
 import Head from 'next/head'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Benefits } from '../components/static/franchise-agreement/Benefits'
+import Advantages from '../components/static/franchise-agreement/Advantages'
 import { DocumentRequired } from '../components/static/franchise-agreement/DocumentRequired'
 import { Hero } from '../components/static/franchise-agreement/Hero'
+import KeyElements from '../components/static/franchise-agreement/KeyElements'
 import { Process } from '../components/static/franchise-agreement/Process'
 import { ProcessCompany } from '../components/static/franchise-agreement/ProcessCompany'
 import { Types } from '../components/static/franchise-agreement/Types'
+import Various from '../components/static/franchise-agreement/Various'
+import WhatIs from '../components/static/franchise-agreement/WhatIs'
 import { WhyChoose } from '../components/static/franchise-agreement/WhyChoose'
 
 const faq = [
@@ -72,20 +75,26 @@ const Home = () => {
             <Process />
             <h2 className='main-heading'>What is a Franchise Agreement?</h2>
             <div className='heading-line'></div>
-            <Benefits />
-            {/* <h2 className='main-heading'>Benefits of starting a Business in Qatar</h2>
-            <div className='heading-line'></div>
-            <Benefits /> */}
+            <WhatIs />
             <h2 className='main-heading'>Types of Franchise Agreements</h2>
             <div className='heading-line'></div>
             <Types />
-            <h2 className='main-heading'>Documents to carry for registration process</h2>
+            <h2 className='main-heading'>List of Documents required for Franchise Agreement:</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h2 className='main-heading'>Company registration Process in Qatar</h2>
+            <h2 className='main-heading'>Key Elements of a Franchise Agreement</h2>
+            <div className='heading-line'></div>
+            <KeyElements />
+            <h2 className='main-heading'>How Franchise Agreements Work</h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-            <h2 className='main-heading'>Why Choose RegisterKaro for Company Registration in Qatar?</h2>
+            <h2 className='main-heading'>Advantages of Franchise Agreement</h2>
+            <div className='heading-line'></div>
+            <Advantages />
+            <h2 className='main-heading'>Various laws that govern a Franchise Agreement in India</h2>
+            <div className='heading-line'></div>
+            <Various />
+            <h2 className='main-heading'>How RegisterKaro Can Assist You in the Franchise Agreement Process?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
             <h2 className="main-heading">Why RegisterKaro?</h2>
