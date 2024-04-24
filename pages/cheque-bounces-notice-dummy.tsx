@@ -1,15 +1,15 @@
 import Head from 'next/head'
-import { Hero } from "../components/static/cheque-bounce-notice/Hero"
-import { Process } from '../components/static/cheque-bounce-notice/Process'
-import { Types } from '../components/static/cheque-bounce-notice/Types'
-import { Why } from '../components/static/cheque-bounce-notice/Why'
-import { DocumentRequired } from '../components/static/cheque-bounce-notice/DocumentRequired'
+import { Hero } from "../components/static/cheque-bounces-notice/Hero"
+import { Process } from '../components/static/cheque-bounces-notice/Process'
+import { Types } from '../components/static/cheque-bounces-notice/Types'
+import { Why } from '../components/static/cheque-bounces-notice/Why'
+import { DocumentRequired } from '../components/static/cheque-bounces-notice/DocumentRequired'
 // import { WhyChoose } from '../components/static/dubai-company-registration/WhyChoose'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { IssueCheque } from '../components/static/cheque-bounce-notice/IssueCheque'
-import { DraftingCheque } from '../components/static/cheque-bounce-notice/DraftingCheque'
-import { ChequeBounce } from '../components/static/cheque-bounce-notice/ChequeBounce'
-import {WhyChoose } from '../components/static/cheque-bounce-notice/WhyChoose'
+import { IssueCheque } from '../components/static/cheque-bounces-notice/IssueCheque'
+import { DraftingCheque } from '../components/static/cheque-bounces-notice/DraftingCheque'
+import { ChequeBounce } from '../components/static/cheque-bounces-notice/ChequeBounce'
+import {WhyChoose } from '../components/static/cheque-bounces-notice/WhyChoose'
  
 const faq = [
     {

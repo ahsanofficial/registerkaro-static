@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/environmental-auditing/Hero'
-import { Process } from '../components/static/environmental-auditing/Process'
-import { Types } from '../components/static/environmental-auditing/Types'
-import { Why } from '../components/static/environmental-auditing/Why'
-import { ProcessEnvironment} from '../components/static/environmental-auditing/ProcessEnvironment'
+import { Hero } from '../components/static/environmental-auditings/Hero'
+import { Process } from '../components/static/environmental-auditings/Process'
+import { Types } from '../components/static/environmental-auditings/Types'
+import { Why } from '../components/static/environmental-auditings/Why'
+import { ProcessEnvironment} from '../components/static/environmental-auditings/ProcessEnvironment'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { Phases } from '../components/static/environmental-auditing/Phases'
-import { Benifits} from '../components/static/environmental-auditing/Benifits'
-import { WhyChoose} from '../components/static/environmental-auditing/WhyChoose'
+import { Phases } from '../components/static/environmental-auditings/Phases'
+import { Benifits} from '../components/static/environmental-auditings/Benifits'
+import { WhyChoose} from '../components/static/environmental-auditings/WhyChoose'
 
 const faq = [
     {
