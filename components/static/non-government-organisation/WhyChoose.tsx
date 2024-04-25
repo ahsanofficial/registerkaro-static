@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg"
+import dft from "../../../assets/images/static/common-images/Why _choose.svg"
 
 export const WhyChoose = () => {
   return (
@@ -28,7 +28,7 @@ With trust as our cornerstone, RegisterKaro has garnered the loyalty of over 10,
           <div className="flex-3">
           <Image
             alt="RegisterKaro serves as your ultimate solution for the NGO registration process"
-            className="Importance-img w-100"
+            className="Importance-img-h-100 w-100"
             height={400}
             loading="lazy"
             src={dft}

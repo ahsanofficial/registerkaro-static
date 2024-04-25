@@ -11,7 +11,7 @@ export const Registration_Ngo = () => {
         <div className="flex-3">
           <Image
             alt="Innovative approaches and, if necessary, to take risks. "
-            className="Importance-img w-100"
+            className="Importance-img-h-100 w-100"
             height={400}
             loading="lazy"
             src={dft}
