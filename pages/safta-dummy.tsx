@@ -6,7 +6,7 @@ import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 import { ApplicableGovernments } from '../components/static/safta/ApplicableGovernments'
 import ProcessDuration from '../components/static/safta/ProcessDuration'
 import { ProcessStep } from '../components/static/safta/ProcessStep'
-import { WhyChoose } from '../components/static/canada-company-registration/WhyChoose'
+import { WhyChoose } from '../components/static/safta/WhyChoose'
 import Definition from '../components/static/safta/Definition'
 import WhyApply from '../components/static/safta/WhyApply'
 import DocumentReq from "../components/static/safta/DocumentReq"
