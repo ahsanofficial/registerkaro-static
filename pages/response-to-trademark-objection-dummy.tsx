@@ -62,11 +62,11 @@ const Home = () => {
         <div className='services-pages'>
             <Head>
                 <title>Response To Trademark Objection | Registerkaro</title>
-                <meta name="description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />
+                <meta name="description" content="Overcome Trademark Objections with Confidence with the help of Registerkaro!" />
                 <link rel="canonical" href="https://www.registerkaro.in/response-to-trademark-objection" />
                 <link rel="icon" href="/favicon.ico" />
-                <meta property="og:title" content="Get Started with Company Registration in Qatar" />
-                <meta property="og:description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />
+                <meta property="og:title" content="Response To Trademark Objection | Registerkaro" />
+                <meta property="og:description" content="Overcome Trademark Objections with Confidence with the help of Registerkaro!" />
             </Head>
             <Hero />
             <h1 className='main-heading'>An Overview of Response To Trademark Objection</h1>

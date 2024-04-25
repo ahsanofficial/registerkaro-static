@@ -9,20 +9,26 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#Benefits" className="scrollTo">
-                             <li>Benefits of starting a Business in Qatar</li>
+                            <a href="#WhatTrademar" className="scrollTo">
+                             <li>What is trademark objection?</li>
                             </a>
-                            <a href="#Types" className="scrollTo">
-                             <li>Types of companies for Company Registration in Qatar</li>
-                            </a>
-                            <a href="#DocumentRequired" className="scrollTo">
-                             <li>Documents to carry for registration process</li>
+                            <a href="#ReasonTrademark" className="scrollTo">
+                             <li>Reason for Trademark Objection?</li>
                             </a>
                             <a href="#ProcessCompany" className="scrollTo">
-                             <li>Company registration Process in Qatar</li>
+                             <li>What are the steps of a Trademark Objection reply?</li>
+                            </a>
+                            <a href="#Benefits" className="scrollTo">
+                             <li>The benefit of Trademark objection Reply?</li>
+                            </a>
+                            <a href="#DocumentRequired" className="scrollTo">
+                             <li>Documents required for a trademark objection response includes:</li>
+                            </a>
+                            <a href="#TrademarkObjection" className="scrollTo">
+                             <li>Trademark Objection Response: Overcoming Challenges under Sections 9 & 11</li>
                             </a>
                             <a href="#WhyChoose" className="scrollTo">
-                             <li>Why Choose RegisterKaro for Company Registration in Qatar?</li>
+                             <li>How RegisterKaro Can Assist You in the Network Licensing Process?</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>
