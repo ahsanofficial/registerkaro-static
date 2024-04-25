@@ -5,7 +5,7 @@ import dft from "../../../assets/images/static/common-images/Why _choose.svg"
 export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
-      <p className="main-para">RegisterKaro has earned the trust of more than 10000+ clients who have availed our SSI registration services.  Their trust in us from a term in continuity is proof of our services backed by quality and assurance.</p>
+      <p className="main-para">RegisterKaro has been a one-stop solution for assisting in conducting environmental audits for the varied ranges of benefits such as:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
      
         <div className="flex-7">

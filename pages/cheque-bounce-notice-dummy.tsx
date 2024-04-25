@@ -95,7 +95,7 @@ const Home = () => {
             <div className='heading-line'></div>
             <DraftingCheque />
 
-            <h2 className='main-heading'> when you recieve a cheque Bounce Notice?</h2>
+            <h2 className='main-heading'>what to do when you recieve a cheque Bounce Notice?</h2>
             <div className='heading-line'></div>
             <ChequeBounce />
 

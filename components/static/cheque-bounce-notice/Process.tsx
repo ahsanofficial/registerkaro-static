@@ -30,12 +30,12 @@ export const Process = () => {
                             </a>
 
                             <a href="#Document3" className="scrollTo">
-                                <li>Points to be remember for drafting chequw Bounce Notice?</li>
+                                <li>Points to be remember for drafting cheque Bounce Notice</li>
                             </a>
 
 
                             <a href="#Document4" className="scrollTo">
-                                <li>What to do when you receive a Cheque Bounce Notice?</li>
+                                <li> what to do when you receive a Cheque Bounce Notice?</li>
                             </a>
 
                             <a href="#WhyChoose" className="scrollTo">
