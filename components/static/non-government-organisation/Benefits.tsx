@@ -6,11 +6,11 @@ export const Benefits = () => {
   return (
     <div id="Benefits">
         <p className="main-para">NGOs may operate under various legal structures, including trusts, societies, and Section 8 of the Companies Act. Each structure has its own set of regulations and requirements, governed primarily by:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
             alt="Legal Framework for NGOs In india"
-            className="Importance-img-h-100 w-100"
+            className="Importance-img w-100"
             height={350}
             loading="lazy"
             src={dft}

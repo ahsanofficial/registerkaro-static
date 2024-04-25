@@ -6,7 +6,7 @@ export const Why = () => {
   return (
     <div id="Instruction">
  <p className='main-para mb-2'>Here is a list of documents essential for different types of NGO registration.</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         
        
         <div className="flex-7 ">
@@ -58,8 +58,8 @@ export const Why = () => {
 
         <div className="flex-3">
           <Image
-            alt="Instructions for Form No. DIR-3 KYC (Web) "
-            className="Importance-img-h-100 w-100"
+            alt="documents essential for different types of NGO registration  "
+            className="Importance-img w-100"
             height={700}
             loading="lazy"
             src={dft}

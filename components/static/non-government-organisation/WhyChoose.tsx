@@ -6,7 +6,7 @@ export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
       <p className="main-para"> RegisterKaro serves as your ultimate solution for the NGO registration process, offering a multitude of benefits:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
 
 
@@ -27,8 +27,8 @@ With trust as our cornerstone, RegisterKaro has garnered the loyalty of over 10,
         </div>
           <div className="flex-3">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Qatar?"
-            className="WhyChoose-img w-100"
+            alt="RegisterKaro serves as your ultimate solution for the NGO registration process"
+            className="Importance-img w-100"
             height={400}
             loading="lazy"
             src={dft}

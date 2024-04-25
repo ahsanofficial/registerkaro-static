@@ -6,7 +6,7 @@ export const Eligibility = () => {
   return (
     <div id="eligibility">
         <p className="main-para">To establish an NGO, prospective founders must adhere to specific eligibility criteria. These prerequisites vary depending on the chosen legal structure:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
      
       <div className="flex-5">
             <Image
