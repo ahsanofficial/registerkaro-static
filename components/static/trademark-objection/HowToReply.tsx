@@ -102,32 +102,32 @@ export const HowToReply = () => {
                     </p>
                 </div>
                 <div className={`${active === '3' ? 'active' : 'none'}`}>
-                    <h3>Step 3: Present your case: </h3>
+                    <h3>Step 3. Present your case: </h3>
                     <p className='mb-0'>You have to prepare your case for presentation along with relevant documents and evidence to support your matter, showcasing that the trademark applied for is authentic.
                     </p>
                 </div>
                 <div className={`${active === '4' ? 'active' : 'none'}`}>
-                    <h3>Step 4: Appeal: </h3>
+                    <h3>Step 4. Appeal: </h3>
                     <p className='mb-0'>If the registrar has favoured the case for the opposing party and you are not satisfied with the decision, then you may file the appeal with the Intellectual Property Appellate Board (IPAB)
                     </p>
                 </div>
                 <div className={`${active === '5' ? 'active' : 'none'}`}>
-                    <h3>Step 5: File the Counter: </h3>
+                    <h3>Step 5. File the Counter: </h3>
                     <p className='mb-0'>If you have proceeded with the appeal, you will now have to prepare and file the counter for the same within three months from the date of passing order.
                     </p>
                 </div>
                 <div className={`${active === '6' ? 'active' : 'none'}`}>
-                    <h3>Step 6: Avoid delays: </h3>
+                    <h3>Step 6. Avoid delays: </h3>
                     <p className='mb-0'>If there is any delay in filing the counter application, you will be fined Rs 2500 along with an explanation for such delay. If accepted, your case will be scheduled for hearing.
                     </p>
                 </div>
                 <div className={`${active === '7' ? 'active' : 'none'}`}>
-                    <h3>Step 7: Documents endorsement: </h3>
+                    <h3>Step 7. Documents endorsement: </h3>
                     <p className='mb-0'>The proceeding will take place under the IPAB rules. Before proceeding ahead, the documents need to be verified and endorsed by the Deputy Registrar.
                     </p>
                 </div>
                 <div className={`${active === '8' ? 'active' : 'none'}`}>
-                    <h3>Step 8: The results: </h3>
+                    <h3>Step 8. The results: </h3>
                     <p className='mb-0'>The deputy registrar will notify if any defects are required to be corrected within two months from the date of notice issued. Otherwise, the approval will be granted. Important to note that the application will be tagged as abandoned if there is no response received on the notice.
                     </p>
                 </div>

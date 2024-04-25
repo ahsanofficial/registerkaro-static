@@ -34,13 +34,13 @@ export const HowToDeal = () => {
           </button>
           <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3: Evidence in response: </div> 
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3. Evidence in response: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
           <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
             <div className='d-flex justify-content-between align-items-center gap-2'>
-              <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4: Hearing: </div> 
+              <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4. Hearing: </div> 
               <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
           </button>
@@ -57,12 +57,12 @@ export const HowToDeal = () => {
             </p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
-            <h3>Step 3: Evidence in response: </h3>
+            <h3>Step 3. Evidence in response: </h3>
             <p className='mb-0'>If chosen to respond with the supportive evidence by the opposing party, the applicant can also file the evidence in support of his counter statement, or else can choose to waive off the opportunity by filing a letter to the Trademark Registry of India. Otherwise, one should file the evidence within one month.
             </p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
-            <h3>Step 4: Hearing: </h3>
+            <h3>Step 4. Hearing: </h3>
             <p className='mb-0'>Upon the successful documentation process, the Registrar shall provide the parties the opportunity to be heard and present their case before the Registrar as per Section 21(5) of the Act. The registrar notifies the parties regarding the hearing and the date for the same. Each party presents its case with evidence to support it before the registrar. On evaluation, the registrar renders a judgement in support of one party, stating whether the trademark shall be registered or denied.
             </p>
           </div>
