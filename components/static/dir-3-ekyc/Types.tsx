@@ -10,7 +10,7 @@ export const Types = () => {
       <div className="flex-4">
           <Image
             alt="Types of E-Form Dir-3 Ekyc"
-            className="Types-img w-100"
+            className="Importance-img-h-100 w-100"
             height={300}
             loading="lazy"
             src={dft}

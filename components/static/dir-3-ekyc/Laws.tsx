@@ -7,12 +7,12 @@ export const Laws = () => {
     <div id="laws">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
-            <p>Penalty charges for failure to file the DIR-3 e-KYC form within the stipulated time frame or extended due date, as mandated by the Ministry of Corporate Affairs (MCA) through the MCA 21 portal, result in the deactivation of the Director Identification Number (DIN) associated with the non-compliant director. Subsequently, the concerned director can remedy this situation by submitting the overdue e-Form DIR-3 KYC and remitting a late fee of INR 5,000.</p>
+            <p>The e-Form DIR-3 KYC filing is governed by the Companies Act, 2013, and the rules prescribed therein. Non-compliance with the provisions of the Companies Act can attract penalties and other legal consequences.</p>
         </div>
         <div className="flex-3">
           <Image
             alt="Lawa for penalty charges for failure"
-            className="DocumentRequired-img w-100"
+            className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"
             src={dft}

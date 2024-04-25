@@ -11,7 +11,7 @@ export const WhyChoose = () => {
         <div className="flex-3">
           <Image
             alt="How RegisterKaro Can Assist You in the DIR 3 eKYC Filing Process"
-            className="WhyChoose-img w-100"
+            className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"
             src={dft}

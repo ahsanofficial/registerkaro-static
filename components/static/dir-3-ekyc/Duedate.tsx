@@ -10,7 +10,7 @@ export const Duedate = () => {
       <div className="flex-3">
           <Image
             alt="Due date"
-            className="DocumentRequired-img w-100"
+            className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"
             src={dft}

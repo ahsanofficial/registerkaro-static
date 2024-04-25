@@ -9,7 +9,7 @@ export const Why = () => {
         <div className="flex-3">
           <Image
             alt="Instructions for Form No. DIR-3 KYC (Web) "
-            className="Why-img w-100"
+            className="Importance-img-h-100 w-100"
             height={700}
             loading="lazy"
             src={dft}
