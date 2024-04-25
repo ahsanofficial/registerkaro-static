@@ -45,7 +45,7 @@ const Home = () => {
     return (
         <div className='services-pages '>
             <Head>
-                 <title>Private Limited Company Registration | RegisterKaro</title> 
+                 <title>Environment, Audit | RegisterKaro</title> 
                 <meta name="description" content="The Official RegisterKaro" /> 
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
@@ -53,7 +53,7 @@ const Home = () => {
                 <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
                 <meta name="google" content="notranslate" key="notranslate" />
                 <link rel="icon" href="/favicon.ico" />
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                 <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
             <Hero />
             <h1 className='main-heading'>Understanding Environmental Audit</h1>
@@ -73,8 +73,6 @@ const Home = () => {
             <div className='heading-line'></div>
             <Phases/>
 
-            
-
             <h2  className='main-heading'>Benefits of Environmental Audit</h2 >
             <div className='heading-line'></div>
             <Benifits/>
@@ -82,15 +80,6 @@ const Home = () => {
             <h2 className='main-heading'>How does Register Karo Help ?</h2 >
             <div className='heading-line'></div>
             <WhyChoose />
-
-
-
-
-
-          {/* 
-            <h1 className='main-heading'>Why Choose RegisterKaro for Company Registration in Dubai?</h1>
-            <div className='heading-line'></div>
-            <WhyChoose/> */}
 
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>

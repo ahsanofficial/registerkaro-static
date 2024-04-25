@@ -21,7 +21,7 @@ export const Why = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="hy register your company in Dubai?"
+            alt="areas of the environment audit"
             className="Importance-img-h-100 w-100"
             height={700}
             loading="lazy"

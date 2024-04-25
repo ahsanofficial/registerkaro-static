@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
 import { Hero } from "../components/static/cheque-bounce-notice/Hero"
 import { Process } from '../components/static/cheque-bounce-notice/Process'
 import { Types } from '../components/static/cheque-bounce-notice/Types'
@@ -58,14 +59,14 @@ const Home = () => {
         <div className='services-pages '>
             <Head>
                  <title>Cheque Bounce Notice | RegisterKaro</title> 
-                {/* <meta name="description" content="The Official RegisterKaro" /> */}
+                <meta name="description" content="The Official RegisterKaro" /> 
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
                 <meta name="robots" content="all" />
                 <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
                 <meta name="google" content="notranslate" key="notranslate" />
                 <link rel="icon" href="/favicon.ico" /> 
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
 
             <Hero />
@@ -94,7 +95,7 @@ const Home = () => {
             <div className='heading-line'></div>
             <DraftingCheque />
 
-            <h2 className='main-heading'>What to do when you recieve a cheque Bounce Notice</h2>
+            <h2 className='main-heading'> when you recieve a cheque Bounce Notice?</h2>
             <div className='heading-line'></div>
             <ChequeBounce />
 
@@ -102,9 +103,12 @@ const Home = () => {
             <div className='heading-line'></div>
             <WhyChoose/>
 
+            <h2 className="main-heading">Why RegisterKaro?</h2>
+            <div className='heading-line'></div>
+            <WhyRegisterkaro />
+
             <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
-
             <FaqTemplatePVT faqItems={faq} />
         </div>
     )

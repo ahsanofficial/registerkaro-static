@@ -9,7 +9,7 @@ export const WhyChoose = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Qatar?"
+            alt="Why Choose RegisterKaro for Company Registration ?"
             className="Importance-img-h-100 w-100"
             height={400}
             loading="lazy"

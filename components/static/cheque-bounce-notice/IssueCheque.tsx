@@ -18,7 +18,7 @@ export const IssueCheque = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="Documents you would need"
+            alt="Issue in cheque bounce notice to legal action"
             className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"

@@ -5,12 +5,13 @@ import dft from "../../../assets/images/pvt-reg/benefit.svg";
 export const Why = () => {
   return (
     <div id="why">
-      
+              <p className="main-para" style={{ textAlign: 'left' }}>There are several reasons why a cheque would bounce. The most frequent explanation is that when the cheque was offered for payment, the payer did not have enough money in their savings account. A “bounce due to insufficient funds” is what is meant by this. cheque bounces can also occur for the following reasons:</p>
+
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       
         <div className="flex-3">
           <Image
-            alt="hy register your company in Dubai?"
+            alt="Cheque or Insuffucuent Balance "
             className="Importance-img-h-100 w-100"
             height={300}
             loading="lazy"
