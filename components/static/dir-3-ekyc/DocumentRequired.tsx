@@ -5,7 +5,7 @@ import dft from "../../../assets/images/pvt-reg/benefit.svg";
 export const DocumentRequired = () => {
   return (
     <div id="DocumentRequired">
-      <div className="Importance-img w-100 flex w-80 m-auto mobile-flex-column-reverse">
+      <div className=" flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
             <p><strong>1. </strong> Please read the instructions and guidelines carefully before filling out online application web forms.</p>
 
