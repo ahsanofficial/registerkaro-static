@@ -2,10 +2,8 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
-interface HeroProps {
-  cityName: string;
-}
-export const Types = ({ cityName }: HeroProps) => {
+
+export const Types=  () =>{
   return (
     <div id="Types">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/environmental-auditings/Hero'
-import { Process } from '../components/static/environmental-auditings/Process'
-import { Types } from '../components/static/environmental-auditings/Types'
-import { Why } from '../components/static/environmental-auditings/Why'
-import { ProcessEnvironment} from '../components/static/environmental-auditings/ProcessEnvironment'
+import { Hero } from '../components/static/environmental-auditing/Hero'
+import { Process } from '../components/static/environmental-auditing/Process'
+import { Types } from '../components/static/environmental-auditing/Types'
+import { Why } from '../components/static/environmental-auditing/Why'
+import { ProcessEnvironment} from '../components/static/environmental-auditing/ProcessEnvironment'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { Phases } from '../components/static/environmental-auditings/Phases'
-import { Benifits} from '../components/static/environmental-auditings/Benifits'
-import { WhyChoose} from '../components/static/environmental-auditings/WhyChoose'
+import { Phases } from '../components/static/environmental-auditing/Phases'
+import { Benifits} from '../components/static/environmental-auditing/Benifits'
+import { WhyChoose} from '../components/static/environmental-auditing/WhyChoose'
 
 const faq = [
     {
@@ -30,10 +30,6 @@ const faq = [
     {
       "question": "What is the role of ISO 14001 in conducting environmental audits?",
       "answer": "ISO 14001 is an international standard for environmental management systems. It provides a framework for organizations to establish, implement, maintain, and continually improve their environmental performance. Compliance with ISO 14001 principles is often a focus of environmental audits."
-    },
-    {
-      "question": "Is Dubai a good place to start a company?",
-      "answer": "Due to its advantageous location, first-rate infrastructure, and welcoming business environment, Dubai has drawn investors and entrepreneurs from all over the world. Dubai also offers many tax benefits, 100% foreign ownership is allowed, and a large number of free zones."
     },
     {
       "question": "Difference between compliance and performance auditing?",
@@ -66,24 +62,24 @@ const Home = () => {
             <h2 className='main-heading'>Purpose of Environmental Audit</h2>
             <div className='heading-line'></div>
             <Types />
-            <h1 className='main-heading'>Areas of Environmental Audit</h1>
+            <h2 className='main-heading'>Areas of Environmental Audit</h2>
             <div className='heading-line'></div>
             <Why />
-            <h1 className='main-heading'>Process of Environmental Audit</h1>
+            <h2  className='main-heading'>Process of Environmental Audit</h2 >
             <div className='heading-line'></div>
             <ProcessEnvironment/>
 
-            <h1 className='main-heading'>Phases</h1>
+            <h2 className='main-heading'>Phases</h2>
             <div className='heading-line'></div>
             <Phases/>
 
             
 
-            <h1 className='main-heading'>Benefits of Environmental Audit</h1>
+            <h2  className='main-heading'>Benefits of Environmental Audit</h2 >
             <div className='heading-line'></div>
             <Benifits/>
 
-            <h1 className='main-heading'>How does Register Karo Help ?</h1>
+            <h2 className='main-heading'>How does Register Karo Help ?</h2 >
             <div className='heading-line'></div>
             <WhyChoose />
 
@@ -96,10 +92,10 @@ const Home = () => {
             <div className='heading-line'></div>
             <WhyChoose/> */}
 
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>
