@@ -10,20 +10,24 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
+                           
+                            <a href="#WhatIs" className="scrollTo">
+                             <li>What is the need for Remote CFO?</li>
+                            </a>
                             <a href="#Benefits" className="scrollTo">
-                             <li>Benefits of starting a Business in Qatar</li>
+                             <li>Benefits of Employing Remote CFO Services:</li>
                             </a>
-                            <a href="#Types" className="scrollTo">
-                             <li>Types of companies for Company Registration in Qatar</li>
+                            <a href="#Function" className="scrollTo">
+                             <li>Functions of Remote CFO</li>
                             </a>
-                            <a href="#DocumentRequired" className="scrollTo">
-                             <li>Documents to carry for registration process</li>
+                            <a href="#NeedOfStartup" className="scrollTo">
+                             <li>Need of Remote CFO for startups:</li>
                             </a>
-                            <a href="#ProcessCompany" className="scrollTo">
-                             <li>Company registration Process in Qatar</li>
+                            <a href="#NeedOfMsme" className="scrollTo">
+                             <li>Need of Remote CFO for MSMEs:</li>
                             </a>
                             <a href="#WhyChoose" className="scrollTo">
-                             <li>Why Choose RegisterKaro for Company Registration in Qatar?</li>
+                             <li>How RegisterKaro helps in the Remote CFO Services?</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>
