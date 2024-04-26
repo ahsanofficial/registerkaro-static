@@ -9,7 +9,7 @@ const ProprietorshipEntities = () => {
       <div className="flex-4">
           <Image
             alt="Civil Defamation"
-            className="CivilDefamation-img w-100"
+            className="Importance-img-h-100 w-100"
             height={280}
             loading="lazy"
             src={bft}

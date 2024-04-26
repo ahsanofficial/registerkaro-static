@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/safta/Hero'
-import { Process } from '../components/static/safta/Process'
+import { Hero } from '../components/static/safta-license/Hero'
+import { Process } from '../components/static/safta-license/Process'
 import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
-import { ApplicableGovernments } from '../components/static/safta/ApplicableGovernments'
-import ProcessDuration from '../components/static/safta/ProcessDuration'
-import { ProcessStep } from '../components/static/safta/ProcessStep'
-import { WhyChoose } from '../components/static/safta/WhyChoose'
-import Definition from '../components/static/safta/Definition'
-import WhyApply from '../components/static/safta/WhyApply'
-import DocumentReq from "../components/static/safta/DocumentReq"
+import { ApplicableGovernments } from '../components/static/safta-license/ApplicableGovernments'
+import ProcessDuration from '../components/static/safta-license/ProcessDuration'
+import { ProcessStep } from '../components/static/safta-license/ProcessStep'
+import { WhyChoose } from '../components/static/safta-license/WhyChoose'
+import Definition from '../components/static/safta-license/Definition'
+import WhyApply from '../components/static/safta-license/WhyApply'
+import DocumentReq from "../components/static/safta-license/DocumentReq"
 
 const faq = [
     {
@@ -51,7 +51,7 @@ const faq = [
 
 const Home = () => {
     return (
-        <div className='services-pages safta'>
+        <div className='services-pages safta-license'>
             <Head>
                 <title>The South Asian Free Trade Agreement (SAFTA) License</title>
                 <meta name="description" content="The South Asian Free Trade Area (SAFTA) is the free trade arrangement of the South Asian Association for Regional Cooperation (SAARC)." />
