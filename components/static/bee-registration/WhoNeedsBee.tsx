@@ -5,7 +5,6 @@ import dft from "../../../assets/images/pvt-reg/benefit.svg";
 export const WhoNeedsBee = () => {
   return (
     <div id="WhoNeedsBee">
-      <p className="main-para">RegisterKaro has been one step solution for the BEE registration because of the varied ranges of benefits such as:</p>
       <div className="whoNeedsBee flex w-80 m-auto mobile-flex-column-reverse">        
         <div className="flex-7">
           <p><strong>1. Manufacturers : </strong>The person who produces the final product may register with BEE's Star Labeling Scheme. However, a single product may only be registered under a single login with a single brand.</p>
