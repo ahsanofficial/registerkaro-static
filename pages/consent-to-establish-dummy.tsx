@@ -65,36 +65,31 @@ const Home = () => {
             <h1 className='main-heading'>Introduction:</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>What is Consent to Establish?</h1>
+            <h2 className='main-heading'>What is Consent to Establish?</h2>
             <div className='heading-line'></div>
             <Types />
-            <h1 className='main-heading'>Things to know about conset to Establish(CFE)</h1>
+            <h2 className='main-heading'>Things to know about conset to Establish(CFE)</h2>
             <div className='heading-line'></div>
             <Why />
-            <h1 className='main-heading'>Documents Required for Consent to Establish (CFE)Application:</h1>
+            <h2 className='main-heading'>Documents Required for Consent to Establish (CFE)Application:</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h1 className='main-heading'>Procedure for Consent To Establish</h1>
+            <h2 className='main-heading'>Procedure for Consent To Establish</h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-            <h1 className='main-heading'>Advantages of Consent to Establish (NOC):</h1>
+            <h2 className='main-heading'>Advantages of Consent to Establish (NOC):</h2>
             <div className='heading-line'></div>
             <Advantage/>
-            <h1 className='main-heading'>Consent to Establish a validity period shall be as follows: </h1>
+            <h2 className='main-heading'>Consent to Establish a validity period shall be as follows: </h2>
             <div className='heading-line'></div>
           <Consent/>
-
-
-
-
-
-            <h1 className='main-heading'>How RegisterKaro Can Assist You in the Franchise Agreement Process?</h1>
+            <h2 className='main-heading'>How RegisterKaro Can Assist You in the Franchise Agreement Process?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
-            <h1 className="main-heading">FAQs</h1>
+            <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
         </div>
