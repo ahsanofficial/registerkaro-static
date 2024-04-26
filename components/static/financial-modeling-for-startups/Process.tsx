@@ -1,17 +1,19 @@
 import certificate from '../../../assets/images/static/financial-modeling-for-startups/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+  }
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Financial modeling for startups in India is a critical aspect of business planning, helping entrepreneurs make informed decisions, attract investors, and steer the company toward growth and profitability. It involves creating a comprehensive representation of a company’s financial performance using various assumptions, projections, and valuation techniques.</p>
+                <p className='text-justify'>Financial modeling for startups in {cityName} is a critical aspect of business planning, helping entrepreneurs make informed decisions, attract investors, and steer the company toward growth and profitability. It involves creating a comprehensive representation of a company’s financial performance using various assumptions, projections, and valuation techniques.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
                            
                             <a href="#Importance" className="scrollTo">
-                             <li>Importance of Financial Modeling for Businesses in India</li>
+                             <li>Importance of Financial Modeling for Businesses in {cityName}</li>
                             </a>
                             <a href="#Components" className="scrollTo">
                              <li>Components of Financial Modeling for Businesses</li>
@@ -20,7 +22,7 @@ export const Process = () => {
                              <li>Key Challenges in Financial Modeling</li>
                             </a>
                             <a href="#BestPractices" className="scrollTo">
-                             <li>Best Practices in Financial Modeling for Businesses in India</li>
+                             <li>Best Practices in Financial Modeling for Businesses in {cityName}</li>
                             </a>
                             <a href="#ImportantPoint" className="scrollTo">
                              <li>Important Points to Make a Financial Model</li>

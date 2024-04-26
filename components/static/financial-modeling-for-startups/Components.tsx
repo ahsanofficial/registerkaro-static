@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/financial-modeling-for-startups/Components_of.svg";
-
-export const Components = () => {
+interface HeroProps {
+    cityName: string;
+  }
+export const Components = ({ cityName }: HeroProps) => {
   return (
     <div id="Components">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

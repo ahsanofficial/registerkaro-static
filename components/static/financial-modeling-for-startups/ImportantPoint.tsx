@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/financial-modeling-for-startups/Important_Points_to.svg"
-
-export const ImportantPoint = () => {
+interface HeroProps {
+    cityName: string;
+  }
+export const ImportantPoint = ({ cityName }: HeroProps) => {
   return (
     <div id="ImportantPoint">
-      <p className="main-para">Following are some important point that should be kept in mind while creating a good financial model for startups in India:</p>
+      <p className="main-para">Following are some important point that should be kept in mind while creating a good financial model for startups in {cityName}:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
      
         <div className="flex-7">
