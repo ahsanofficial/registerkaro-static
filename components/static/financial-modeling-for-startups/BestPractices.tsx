@@ -1,21 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/financial-modeling-for-startups/Best_Practices_in.svg";
 
 export const BestPractices = () => {
   return (
     <div id="BestPractices">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
+      <div className="flex-5 ">
           <Image
-            alt="BestPractices of starting a Business in Qatar"
+            alt="Best Practices in Financial Modeling for Businesses in India"
             className="Importance-img-h-100 w-100"
-            height={390}
+            height={450}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7 ">
+        <div className="flex-7">
            <p className='pt-5'><strong>1. Dynamic and Iterative Approach: </strong> Financial models should be flexible to accommodate changes and updates based on evolving market conditions and business strategies.</p>
            <p className='pt-5'><strong>2. Sensitivity Analysis: </strong> Conducting sensitivity analysis helps in understanding the impact of varying assumptions on financial outcomes, making the model more robust.</p>
            <p className='pt-5'><strong>3. Engage with Experts: </strong> Collaborating with financial analysts, advisors, or consultants can enhance the accuracy and reliability of the financial model.</p>

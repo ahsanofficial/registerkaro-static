@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg"
+import dft from "../../../assets/images/static/financial-modeling-for-startups/Important_Points_to.svg"
 
 export const ImportantPoint = () => {
   return (
@@ -25,11 +25,11 @@ export const ImportantPoint = () => {
           <p className="ps-5">Regularly review and recheck formulas to prevent inaccuracies.</p>
           <p className="ps-5">Consider having another person review the financial model for validation.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Qatar?"
+            alt="Important Points to Make a Financial Model"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={680}
             loading="lazy"
             src={dft}
           />

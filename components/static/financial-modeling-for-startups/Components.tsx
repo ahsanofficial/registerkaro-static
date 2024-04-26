@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/financial-modeling-for-startups/Components_of.svg";
 
 export const Components = () => {
   return (
     <div id="Components">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
+      <div className="flex-4 align-content-center">
           <Image
-            alt="Components of starting a Business in Qatar"
+            alt="Components of Financial Modeling for Businesses"
             className="Importance-img-h-100 w-100"
             height={890}
             loading="lazy"

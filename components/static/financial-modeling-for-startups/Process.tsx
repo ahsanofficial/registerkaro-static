@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/financial-modeling-for-startups/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -39,7 +39,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center ">Financial Modeling for Startups</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="An Overview of Company Registration in Qatar" className="certificate h-50 w-50" loading="lazy" src={certificate} />
+                    <Image alt="An Overview of Financial Modeling for Startups" className="certificate h-50 w-60" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
