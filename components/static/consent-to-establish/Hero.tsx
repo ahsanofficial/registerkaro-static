@@ -46,7 +46,7 @@ export const Hero = () => {
                 <GoogleDiv />
             </div>
             <div className="zoho">
-                <ZohoFormService service={'Consent to Establish | RegisterKaro'} />
+                <ZohoFormService service={'consent-to-establish'} />
             </div>
         </div>
     )
