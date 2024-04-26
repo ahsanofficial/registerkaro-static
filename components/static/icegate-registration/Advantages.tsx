@@ -9,7 +9,7 @@ const Advantages = () => {
       <div className="flex-4">
           <Image
             alt="What is a Legal Defamation Notice"
-            className="Definition-img w-100"
+            className="Importance-img-h-100 w-100"
             height={380}
             loading="lazy"
             src={bft}
