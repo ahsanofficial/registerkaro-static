@@ -30,7 +30,13 @@ const faq = [
     },
     {
         "question": "What are the rules of petrol pump?",
-        "answer": "Rules of petrol pump are as follows: 1.Please refrain from smoking on the Petrol Pump property.\n2. It is forbidden to fire a matchstick inside the Petrol Pump area.\n3. When refueling, it is advisable to exit the vehicle.\n4. Carrying gasoline or fuel in glass or plastic bottles is not advised."
+        "answer": "Rules of petrol pump are as follows:",
+        "list":[
+            "Please refrain from smoking on the Petrol Pump property.",
+            "It is forbidden to fire a matchstick inside the Petrol Pump area.",
+            "When refueling, it is advisable to exit the vehicle.",
+            "Carrying gasoline or fuel in glass or plastic bottles is not advised."
+        ]
     },
     {
         "question": "What is petrol law?",
