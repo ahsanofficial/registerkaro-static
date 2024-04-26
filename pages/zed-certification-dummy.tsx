@@ -25,12 +25,15 @@ const faq = [
         "answer": "ZED Certification is a voluntary program that offers MSMEs a path to global competitiveness; government certification is not required."
     },
     {
+        "question": "What advantages does the ZED Certificate offer?",
+        "answer": "",
+        "list": ["To boost the company's credibility.", "Financial reward for accepting the ZED pledge.", "Bank waiver for certification.", "MSMEs that are UDYAM-registered may also apply."]
+    },
+    {
         "question": "Who grants MSMEs a ZED Certificate?",
         "answer": "The Quality Council of India (QCI) awards ZED Certification following a comprehensive assessment of MSME."
     },
 ];
-
-
 
 const Home = () => {
     return (
