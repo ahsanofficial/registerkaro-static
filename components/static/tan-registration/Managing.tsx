@@ -10,10 +10,10 @@ export const Managing = () => {
         <div className="flex-7">
             <p>The following documents should make clear the TAN:</p>
           
-            <p><strong>1.</strong>Statements and returns pertaining to TDS (Tax Deducted at Source) or TCS (Tax Collected at Source):</p>
-            <p><strong>2.</strong>Challans concerning payments made to TDS or TCS.</p>         
-            <p><strong>3.</strong>The certification of TDS or TCS being issued or presented.</p>         
-            <p><strong>4.</strong>Various paperwork and forms related to income tax filing and procedures.</p>         
+            <p><strong>1. </strong>Statements and returns pertaining to TDS (Tax Deducted at Source) or TCS (Tax Collected at Source):</p>
+            <p><strong>2. </strong>Challans concerning payments made to TDS or TCS.</p>         
+            <p><strong>3. </strong>The certification of TDS or TCS being issued or presented.</p>         
+            <p><strong>4. </strong>Various paperwork and forms related to income tax filing and procedures.</p>         
 
         </div>
         <div className="flex-4">

@@ -16,9 +16,9 @@ export const Types = () => {
           />
         </div>
         <div className="flex-7">
-            <p><strong></strong>The Income Tax Department issues TANs, which stand for Tax Deduction Account Numbers or Tax Collection Account Numbers. The number is ten-digit alphanumeric.</p>
-            <p><strong></strong>Every assesse who is obligated to withhold TDS must apply for a TAN and include this number in all TDS payments, returns, and correspondence with the Income Tax Department on TDS.</p>
-            <p><strong></strong>In TDS/TCS certificates, TDS/TCS payment challans, and TDS/TCS returns (including any e-TDS/TCS Return), TAN must be quoted.</p>
+            <p>The Income Tax Department issues TANs, which stand for Tax Deduction Account Numbers or Tax Collection Account Numbers. The number is ten-digit alphanumeric.</p>
+            <p>Every assesse who is obligated to withhold TDS must apply for a TAN and include this number in all TDS payments, returns, and correspondence with the Income Tax Department on TDS.</p>
+            <p>In TDS/TCS certificates, TDS/TCS payment challans, and TDS/TCS returns (including any e-TDS/TCS Return), TAN must be quoted.</p>
 
             
         </div>

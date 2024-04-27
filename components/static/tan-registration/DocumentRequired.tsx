@@ -19,9 +19,9 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-7">
             <p ><strong>Appointment Restrictions:</strong><br/></p> 
-            <p className="ps-5"><strong>1.Non-Profit Organizations: </strong>A company cannot simultaneously appoint or employ both a managing director and a manager.</p>
-            <p className="ps-5"><strong>2.Business Branches:</strong>The tenure of appointment for a managing director, whole-time director, or manager cannot exceed five years at a time.</p>
-            <p className="ps-5"><strong>3.Individuals with salaries: </strong>Re-appointment is prohibited within one year before the expiry of the current term.</p>
+            <p className="ps-5"><strong>1. Non-Profit Organizations: </strong>A company cannot simultaneously appoint or employ both a managing director and a manager.</p>
+            <p className="ps-5"><strong>2. Business Branches:</strong>The tenure of appointment for a managing director, whole-time director, or manager cannot exceed five years at a time.</p>
+            <p className="ps-5"><strong>3. Individuals with salaries: </strong>Re-appointment is prohibited within one year before the expiry of the current term.</p>
 
          
         </div>

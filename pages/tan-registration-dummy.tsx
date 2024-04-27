@@ -26,7 +26,7 @@ const faq = [
     },
     {
       "question": " Why is TAN important?",
-      "answer": "A TAN doesn't need to be renewed or reapplied for; it is valid for life.."
+      "answer": "Since TAN is to be referenced in all TDS/TCS transactions, returns, and associated paperwork, it is crucial for legal compliance. The consequences of non-compliance are possible."
     },
     {
       "question": " What is the TAN's validity? ",
@@ -42,6 +42,10 @@ const faq = [
     },
     {
       "question": " What advantages come with registering with TAN?",
+      "answer": "In addition to simplifying tax operations and enabling simple monitoring and reconciliation of tax transactions, TAN registration guarantees legal compliance."
+    },
+    {
+      "question": "What documentation is required to register a TAN?",
       "answer": "A legal document, a passport-size photo, the company's PAN card, proof of address for the registered office, and the TAN application form are among the required materials."
     },
     {
@@ -54,7 +58,7 @@ const Home = () => {
     return (
         <div className='services-pages dubai-reg'>
             <Head>
-                 <title>Appointment-of-managing-director | RegisterKaro</title> 
+                 <title>Tan Registration | RegisterKaro</title> 
               <meta name="description" content="The Official RegisterKaro" /> 
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
@@ -92,7 +96,7 @@ const Home = () => {
 
 
 
-            <h2 className='main-heading'>  Documents Required for TAN Registration:    </h2>
+            <h2 className='main-heading'>Documents Required for TAN Registration:    </h2>
             <div className='heading-line'></div>
             <Registration />  
 

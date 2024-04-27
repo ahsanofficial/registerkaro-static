@@ -9,11 +9,11 @@ export const Publiclimited = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
         <div className="flex-7">
-            <p><strong>Lifetime Validity:</strong> A TAN is good for as long as it is obtained. This implies that organizations or people are exempt from the need to periodically renew or reapply for it.</p>
-            <p><strong>Essential for TDS Remittances: </strong>The TAN needs to be quoted when paying Tax Deducted at Source (TDS) to a bank that has been approved. Banks won't accept your TDS deposits if you don't have a TAN.</p>
-            <p><strong>Proprietor Requirement:</strong> If an individual is obligated to deduct taxes at the source, they must obtain a TAN, even if they are operating a single proprietorship. This emphasizes how crucial TAN is for small business owners as well as for larger organizations.</p>
+            <p><strong>1. Lifetime Validity:</strong> A TAN is good for as long as it is obtained. This implies that organizations or people are exempt from the need to periodically renew or reapply for it.</p>
+            <p><strong>2. Essential for TDS Remittances: </strong>The TAN needs to be quoted when paying Tax Deducted at Source (TDS) to a bank that has been approved. Banks won't accept your TDS deposits if you don't have a TAN.</p>
+            <p><strong>3. Proprietor Requirement:</strong> If an individual is obligated to deduct taxes at the source, they must obtain a TAN, even if they are operating a single proprietorship. This emphasizes how crucial TAN is for small business owners as well as for larger organizations.</p>
 
-            <p><strong>Unique Identifier: </strong>The 10-character alphanumeric code known as TAN is unique. The Income Tax Department has created this special identification number just for people or organizations in charge of withholding or collecting taxes at the source.</p>
+            <p><strong>4. Unique Identifier: </strong>The 10-character alphanumeric code known as TAN is unique. The Income Tax Department has created this special identification number just for people or organizations in charge of withholding or collecting taxes at the source.</p>
 
 
         </div>

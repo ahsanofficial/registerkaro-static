@@ -19,9 +19,9 @@ export const Appointment = () => {
         
       
         <div className="flex-7 pt-2">
-          <p><strong>Ensuring Legal Compliance:</strong>  Obtaining a Tax Deduction and Collection Account Number (TAN) is essential for any organization charged with tax deductions or collections in order to ensure legal compliance. Having a TAN protects you from potential legal consequences or penalties for non-compliance by ensuring that tax laws are followed.</p>
-          <p><strong>Simplified Tax Procedures:  </strong> Having a TAN makes your tax deduction and collection processes more effective. As a result, there is less chance of mistakes or cycle lags and timely and precise tax deductions and filings to the government are made possible.</p>
-          <p><strong>Easy Monitoring and Reconciliation: </strong> A TAN gives you a simple way to keep track of and balance your tax transactions. Your TDS/TCS records and certificates, which attest to the correct tax deduction and payment, are easily retrieved. Such a methodical strategy strengthens regulatory compliance and streamlines the oversight of tax transactions.
+          <p><strong>1. Ensuring Legal Compliance:</strong>  Obtaining a Tax Deduction and Collection Account Number (TAN) is essential for any organization charged with tax deductions or collections in order to ensure legal compliance. Having a TAN protects you from potential legal consequences or penalties for non-compliance by ensuring that tax laws are followed.</p>
+          <p><strong>2. Simplified Tax Procedures:  </strong> Having a TAN makes your tax deduction and collection processes more effective. As a result, there is less chance of mistakes or cycle lags and timely and precise tax deductions and filings to the government are made possible.</p>
+          <p><strong>3. Easy Monitoring and Reconciliation: </strong> A TAN gives you a simple way to keep track of and balance your tax transactions. Your TDS/TCS records and certificates, which attest to the correct tax deduction and payment, are easily retrieved. Such a methodical strategy strengthens regulatory compliance and streamlines the oversight of tax transactions.
 </p>
     
 
