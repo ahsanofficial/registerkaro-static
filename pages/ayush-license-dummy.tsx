@@ -6,7 +6,7 @@ import { Process } from '../components/static/ayush-license/Process'
 import { Why } from '../components/static/ayush-license/Why'
 import { WhyChoose } from '../components/static/ayush-license/WhyChoose'
 import { ProcessCompany } from '../components/static/ayush-license/ProcessCompany'
-
+import { Types } from '../components/static/ayush-license/Types'
 const faq = [
     {
         "question": "What’s AYUSH License certification?",
@@ -46,9 +46,12 @@ const Home = () => {
             </Head>
             
             <Hero />
-            <h1 className='main-heading'>Types of AYUSH License</h1>
+            <h1 className='main-heading'> An Overview of Ayush license</h1>
             <div className='heading-line'></div>
             <Process />
+            <h1 className='main-heading'>Types of AYUSH License</h1>
+            <div className='heading-line'></div>
+            <Types />
             <h2 className='main-heading'>Documents Required</h2>
             <div className='heading-line'></div>
             <Why />

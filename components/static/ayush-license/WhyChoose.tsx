@@ -7,17 +7,8 @@ export const WhyChoose = () => {
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for the SSI registration for the varied ranges of benefits such as:
 </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
-      <div className="flex-3">
-          <Image
-            alt=" RegisterKaro has been one stop solution for the SSI registration "
-            className="Importance-img-h-100 w-100"
-            height={350}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
         <div className="flex-7">
             <p><strong>Pool of Experts </strong>RegisterKaro holds a large pool of Experts from all over the world specializing in SSI registration services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
 
@@ -29,6 +20,15 @@ export const WhyChoose = () => {
             <p><strong>Trusted partner of 10000+ Clients: </strong> RegisterKaro has earned the trust of more than 10000+ clients who have availed our SSI registration services.  Their trust in us from a term in continuity is proof of our services backed by quality and assurance. </p>
         </div>
         
+      <div className="flex-3">
+          <Image
+            alt=" RegisterKaro has been one stop solution for the SSI registration "
+            className="Importance-img-h-100 w-100"
+            height={350}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
         
       </div>
     </div>

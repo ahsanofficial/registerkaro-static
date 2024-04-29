@@ -5,17 +5,9 @@ import dft from "../../../assets/images/pvt-reg/benefit.svg";
 export const Why = () => {
   return (
     <div id="Why">
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
-      <div className="flex-3">
-          <Image
-            alt="Douments required:"
-            className="Importance-img-h-100 w-100"
-            height={300}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+      
 
         <div className="flex-6 pt-2 ps-5  ">
             <p className="ps-5"> <strong>1. </strong>MoA or AoA</p>
@@ -36,6 +28,15 @@ export const Why = () => {
             <p className="ps-5"> <strong>16. </strong>Proof of safety & effectiveness as per the rule of 158B of Drugs & Cosmetics Rules, 1945.</p>
             <p className="ps-5"> <strong>17. </strong>Undertaking in case of absence of non-herbal ingredients, applicable in case of herbal products.</p>
 
+        </div>
+        <div className="flex-3">
+          <Image
+            alt="Douments required:"
+            className="Importance-img-h-100 w-100"
+            height={300}
+            loading="lazy"
+            src={dft}
+          />
         </div>
         
       </div>
