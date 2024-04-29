@@ -49,7 +49,7 @@ const Home = () => {
             <h1 className='main-heading'> An Overview of Ayush license</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Types of AYUSH License</h1>
+            <h2 className='main-heading'>Types of AYUSH License</h2>
             <div className='heading-line'></div>
             <Types />
             <h2 className='main-heading'>Documents Required</h2>
