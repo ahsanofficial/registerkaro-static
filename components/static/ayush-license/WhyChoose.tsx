@@ -12,7 +12,7 @@ export const WhyChoose = () => {
         <div className="flex-7">
             <p><strong>Pool of Experts: </strong>RegisterKaro holds a large pool of Experts from all over the world specializing in SSI registration services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
 
-            <p><strong>Cost-effective: </strong>RegisterKaro WPC Certificate registration services are of premium quality at the most efficient rate, which suits the client’s pocket, making sure that quality service is not the only thing which client gets on our platform.</p>
+            <p><strong>Cost-effective: </strong>RegisterKaro SSI registration services are of premium quality at the most efficient rate, which suits the client's pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
 
             <p><strong>Client-oriented approach: </strong> Our team of experts is well trained and equipped with a client-oriented approach, keeping in mind that the process must be client-centric, focusing on meeting all the requirements of their business and, therefore, satisfying their needs.</p>
 
