@@ -11,8 +11,20 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#WhyChoose" className="scrollTo">
-                             <li>How RegisterKaro Can Assist You in the GSP Registration Process?</li>
+                            <a href="#TypesOfCompany" className="scrollTo">
+                             <li>Types of Company in Australia</li>
+                            </a>
+                            <a href="#WhyEstablish" className="scrollTo">
+                             <li>Why to establish a business in Australia</li>
+                            </a>
+                            <a href="#DocumentsRequired" className="scrollTo">
+                             <li>Documents Required</li>
+                            </a>
+                            <a href="#HowRegister" className="scrollTo">
+                             <li>Process of Registering Your Company in Australia</li>
+                            </a>
+                            <a href="#Facts" className="scrollTo">
+                             <li>Facts to Know</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

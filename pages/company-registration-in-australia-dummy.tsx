@@ -59,7 +59,7 @@ const Home = () => {
             <h2 className='main-heading'>Documents Required</h2>
             <div className='heading-line'></div>
             <DocumentsRequired/>
-            <h2 className='main-heading'>Documents Required</h2>
+            <h2 className='main-heading'>Process of Registering Your Company in Australia</h2>
             <div className='heading-line'></div>
             <HowRegister/>
             <h2 className='main-heading'>Facts to Know</h2>
