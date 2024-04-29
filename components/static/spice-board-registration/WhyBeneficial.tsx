@@ -11,7 +11,7 @@ export const WhyBeneficial = () => {
                         <Image
                             alt="Why it’s Beneficial?"
                             className="WhyBeneficial-img w-100 Importance-img-h-100"
-                            height={250}
+                            height={550}
                             loading="lazy"
                             src={dft}
                         />
