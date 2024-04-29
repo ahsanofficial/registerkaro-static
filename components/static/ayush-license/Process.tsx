@@ -14,7 +14,7 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                        <a href="#Why" className="scrollTo">
+                        <a href="#Types" className="scrollTo">
                                 <li>Types of AYUSH License</li>
                             </a>
                             <a href="#Why" className="scrollTo">
