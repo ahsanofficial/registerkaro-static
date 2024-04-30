@@ -11,7 +11,7 @@ export const KeyNotes = () => {
                         <Image
                             alt="Key Notes for Financial Consultancy Services"
                             className="KeyNotes-img w-100 Importance-img-h-100"
-                            height={1500}
+                            height={500}
                             loading="lazy"
                             src={dft}
                         />
@@ -25,8 +25,7 @@ export const KeyNotes = () => {
                     <p>However, the burden of staying abreast of economic fluctuations and adjustments can be overwhelming for an individual to handle and may not be the best use of your valuable time unless you have a strong interest in the financial industry. Therefore, the majority of individuals need financial assistance to understand the essential obstacles and overcome them. Financial consulting meets this precise requirement.</p>
                     <p>Private individuals can benefit from financial consultancy services as they help to minimize uncertainty, lower the risk of market transactions, and achieve reliable and steady returns on investments. The quantitative analysis is validated and double-checked in the broader context, along with guidance provided to PSUs on their portfolio investments and the qualitative methods needed to acquire additional capital investment.</p>
                     <p>Quantitative finance and mathematical finance, among others in the financial industry, also collaborate closely with financial consulting services to enhance both personal well-being and business earnings. With a clear understanding of the key finance elements involved in financial consulting, let's now delve into the services and advantages offered by financial consultants, including the assumptions they make to ensure optimal financial outcomes and the concept of seamless financial consultancy leading to minimal impact on projects or organizations.</p>
-                </div>
-                
+                </div>                
             </div>
         </div>
     )
