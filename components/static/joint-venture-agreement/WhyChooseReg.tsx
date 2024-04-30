@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/joint-venture-agreement/Why choose RegisterKaro.svg";
 
 const WhyChooseReg = () => {
   return (
@@ -19,7 +19,7 @@ const WhyChooseReg = () => {
           ways:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7 pt-3">
+        <div className="flex-6 pt-3">
           <ol className="fs-5">
             <li>
               RegisterKaro has a team of experienced and qualified
@@ -46,9 +46,9 @@ const WhyChooseReg = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Oman?"
+            alt="Why choose RegisterKaro for your Joint Venture?"
             className="WhyChooseReg-img w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

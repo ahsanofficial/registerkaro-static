@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/joint-venture-agreement/How to Register a Joint.svg";
 
 export const ProcessStep = () => {
   return (
@@ -9,9 +9,10 @@ export const ProcessStep = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4 pt-5">
         <Image
-            alt="Types of Companies in Oman"
+            alt="How to Register a Joint Venture Agreement in India?
+            "
             className="Benefits-img w-100"
-            height={480}
+            height={680}
             loading="lazy"
             src={bft}
           />
