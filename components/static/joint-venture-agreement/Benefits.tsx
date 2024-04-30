@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/joint-venture-agreement/What are the Benefits.svg";
 
 export const Benefits = () => {
   return (
@@ -9,7 +9,7 @@ export const Benefits = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
         <Image
-            alt="Types of Companies in Oman"
+            alt="What are the Benefits of Joint Venture?"
             className="Benefits-img w-100"
             height={480}
             loading="lazy"

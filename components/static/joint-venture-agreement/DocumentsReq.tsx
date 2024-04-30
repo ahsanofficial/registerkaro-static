@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/joint-venture-agreement/Documents Required.svg";
 
 const DocumentsReq = () => {
   return (
     <div id="DocumentsReq">
         <p className="main-para"> Following documents are required for Joint Venture Agreement:</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7 pt-5">
+        <div className="flex-6 pt-5">
         <ol className="fs-5">
               <li>A written agreement signed by all joint venture participants.</li>
               <li>Photocopies of government-issued identity documents of all parties, such as a passport, PAN card, or voter ID card.</li>
@@ -18,11 +18,11 @@ const DocumentsReq = () => {
               <li>If the joint venture is a company, proof of registered office, such as a rent agreement or utility bill.</li>
             </ol>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
             alt="Documents you would need"
             className="DocumentsReq-img w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />
