@@ -11,7 +11,7 @@ export const WhyChoose = () => {
           <Image
             alt="Why Choose RegisterKaro for Company Registration ?"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={450}
             loading="lazy"
             src={dft}
           />

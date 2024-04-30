@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/cheque-bounce-notice/When do you receive a.svg";
 
 export const Why = () => {
   return (
@@ -13,7 +13,7 @@ export const Why = () => {
           <Image
             alt="Cheque or Insuffucuent Balance "
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={450}
             loading="lazy"
             src={dft}
           />

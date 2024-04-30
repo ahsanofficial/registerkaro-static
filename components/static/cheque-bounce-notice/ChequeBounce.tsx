@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/cheque-bounce-notice/How do you issue a notic.svg";
  
 export const ChequeBounce = () => {
   return (

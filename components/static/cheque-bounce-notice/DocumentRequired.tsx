@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/cheque-bounce-notice/Cheque Bounce Notice vis-a-vis Negotiable.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -16,7 +16,8 @@ export const DocumentRequired = () => {
           <Image
             alt="Sections for cheque bounce "
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={250}
+           
             loading="lazy"
             src={dft}
           /> 

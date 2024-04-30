@@ -68,7 +68,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" /> 
                 <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
-
+ 
             <Hero />
             <h1 className='main-heading'>Understanding the Cheque Bounces</h1>
             <div className='heading-line'></div>
