@@ -11,7 +11,7 @@ export const Why = () => {
       
         <div className="flex-3">
           <Image
-            alt="Cheque or Insuffucuent Balance "
+            alt="When do you receive a notice for Cheque Bounce?"
             className="Importance-img-h-100 w-100"
             height={450}
             loading="lazy"

@@ -14,7 +14,7 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="Sections for cheque bounce "
+            alt="Cheque Bounce Notice Vis-a-vis Negotiable Instrumrnt Act"
             className="Importance-img-h-100 w-100"
             height={250}
            

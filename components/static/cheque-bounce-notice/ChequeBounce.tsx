@@ -14,7 +14,7 @@ export const ChequeBounce = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="Documents you would need for cheque bounce"
+            alt="what to do when you recieve a cheque Bounce Notice?"
             className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"

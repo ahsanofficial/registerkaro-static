@@ -9,7 +9,7 @@ export const Types=  () =>{
       <div className="benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-5">
           <Image
-            alt="Why Outsource Accounting and Bookkeeping Services in India?"
+            alt="What is a Cheque Bounce Notice?"
             className="Importance-img-h-100 w-100"
             height={500}
             loading="lazy"

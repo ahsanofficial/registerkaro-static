@@ -87,11 +87,11 @@ const Home = () => {
             <Why />
 
 
-            <h2 className='main-heading'> How do you issue a notice for cheque Bounce</h2>
+            <h2 className='main-heading'> How do you issue a notice for cheque Bounce ?</h2>
             <div className='heading-line'></div>
             <IssueCheque />
  
-            <h2 className='main-heading'> Points to rember for drafting cheque Bounce Notice</h2>
+            <h2 className='main-heading'> Points to remember for drafting cheque Bounce Notice</h2>
             <div className='heading-line'></div>
             <DraftingCheque />
 
