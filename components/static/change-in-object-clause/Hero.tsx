@@ -9,9 +9,10 @@ let hero = {
     "pack_includes": [
         "Expert Advisory",
         "Process Consultation",
-        "Comprehensive Documentation",
-        "Application Drafting ",
-        "Post Registration Compliances",
+        "Notice Drafting",
+        "Post Notice follow up",
+        "Suit Assistance",
+        "Legal Consultation",
     ]
 }
 
@@ -28,8 +29,8 @@ export const Hero = () => {
                 className="background-image"
             />
             <div className="header-content">
-              <h4 className='mb-4'>Financial Consultancy Services</h4>
-              <p>A financial consultant is basically synonymous with a financial advisor. Their financial advice is tailored to the individual client's needs and goals, and they frequently provide a variety of services. Sometimes, a financial consultant may possess a greater amount of financial planning expertise compared to the average financial advisor. Financial advisors typically offer investment assistance as part of their services.</p>
+              <h4 className='mb-4'>Change in Object Clause</h4>
+              <p>The object clause in a contract mainly discusses the primary purpose for which the contract was entered. In today's world, where businesses work in a very fast-paced environment, the business structures and the area of business keep changing with time after it has been incorporated with a particular purpose.</p>
               <div className="packages">
                   {hero.pack_includes?.map((i: any, n: number) => {
                       return (
@@ -45,7 +46,7 @@ export const Hero = () => {
               <GoogleDiv />
             </div>
             <div className="zoho">
-                <ZohoFormService service={'financial-consultancy-services'} />
+                <ZohoFormService service={'change-in-object-clause'} />
             </div>
         </div>
     )

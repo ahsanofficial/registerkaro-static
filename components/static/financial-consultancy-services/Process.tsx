@@ -11,6 +11,15 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
+                            <a href="#KeyNotes" className="scrollTo">
+                                <li>Key Notes for Financial Consultancy Services</li>
+                            </a>
+                            <a href="#BestFCS" className="scrollTo">
+                                <li>What could be the Best Financial Consultancy Services?</li>
+                            </a>
+                            <a href="#WhyRKforFCS" className="scrollTo">
+                                <li>Why RegisterKaro is Perfect for Financial Consultancy Services</li>
+                            </a>
                             <a href="#WhyChoose" className="scrollTo">
                                 <li>How RegisterKaro helps you in the Registration process?</li>
                             </a>
