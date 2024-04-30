@@ -20,7 +20,7 @@ const DocumentsReq = () => {
         </div>
         <div className="flex-4">
         <Image
-            alt="Documents you would need"
+            alt="Documents Required for Joint Venture Agreement"
             className="DocumentsReq-img w-100"
             height={580}
             loading="lazy"
