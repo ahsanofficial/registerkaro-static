@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/cheque-bounce-notice/How do you issue a notice.svg";
  
 export const IssueCheque = () => {
   return (
@@ -18,9 +18,9 @@ export const IssueCheque = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="Issue in cheque bounce notice to legal action"
+            alt="How do you issue a notice for cheque Bounce?"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={500}
             loading="lazy"
             src={dft}
           />

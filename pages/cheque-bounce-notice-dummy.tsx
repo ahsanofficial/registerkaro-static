@@ -68,7 +68,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" /> 
                 <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
-
+ 
             <Hero />
             <h1 className='main-heading'>Understanding the Cheque Bounces</h1>
             <div className='heading-line'></div>
@@ -87,11 +87,11 @@ const Home = () => {
             <Why />
 
 
-            <h2 className='main-heading'> How do you issue a notice for cheque Bounce</h2>
+            <h2 className='main-heading'> How do you issue a notice for cheque Bounce ?</h2>
             <div className='heading-line'></div>
             <IssueCheque />
  
-            <h2 className='main-heading'> Points to rember for drafting cheque Bounce Notice</h2>
+            <h2 className='main-heading'> Points to remember for drafting cheque Bounce Notice</h2>
             <div className='heading-line'></div>
             <DraftingCheque />
 

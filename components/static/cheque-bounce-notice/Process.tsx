@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/cheque-bounce-notice/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -55,7 +55,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Cheque Bounce Notice</p>
                 <div>
-                    <Image alt="An Overview of company on a diferent chequrBounce " className="Importance-img-h-100 h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Understanding the Cheque Bounces" className="Importance-img-h-100 h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
