@@ -13,12 +13,12 @@ const WhyChooseReg = () => {
           <Image
             alt="Why choose Registerkaro for Founders’ Agreement service?"
             className="WhyChooseReg-img w-100"
-            height={480}
+            height={420}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7 pt-3">
+        <div className="flex-7 pt-4">
           <ol className="fs-5">
             <li>
             We offer a fast and hassle-free service that saves you time and money.

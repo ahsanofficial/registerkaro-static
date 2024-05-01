@@ -11,11 +11,11 @@ export const Components = () => {
         in any Founders’ Agreement. These are:{" "}
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4 pt-5">
+        <div className="flex-5">
           <Image
             alt="Components of Founders’ Agreement"
             className="Components-img w-100"
-            height={680}
+            height={1380}
             loading="lazy"
             src={bft}
           />
