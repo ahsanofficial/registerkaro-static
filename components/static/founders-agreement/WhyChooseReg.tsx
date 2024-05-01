@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/founders-agreement/Why choose Register.svg";
 
 const WhyChooseReg = () => {
   return (
@@ -11,7 +11,7 @@ const WhyChooseReg = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Oman?"
+            alt="Why choose Registerkaro for Founders’ Agreement service?"
             className="WhyChooseReg-img w-100"
             height={480}
             loading="lazy"
