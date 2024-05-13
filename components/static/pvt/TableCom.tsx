@@ -6,7 +6,7 @@ interface HeroProps {
 
 export const TableCom = ({ cityName }: HeroProps) => {
     return (
-        <div>
+        <div id='TableCom'>
             <table>
                 <tr>
                     <th className='first'>Particulars</th>

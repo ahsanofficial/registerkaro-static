@@ -1,12 +1,16 @@
+
 import Image from 'next/image'
 import React, { useState } from 'react'
-import one from '../../../assets/images/static/private-reg/HowToRegister/one.svg'
-import two from '../../../assets/images/static/private-reg/HowToRegister/two.svg'
-import three from '../../../assets/images/static/private-reg/HowToRegister/three.svg'
-import four from '../../../assets/images/static/private-reg/HowToRegister/four.svg'
-import five from '../../../assets/images/static/private-reg/HowToRegister/five.svg'
-import six from '../../../assets/images/static/private-reg/HowToRegister/six.svg'
-import arrow from '../../../assets/images/static/private-reg/HowToRegister/arrow.svg'
+import one from '../../../assets/images/pvt-reg/HowToRegister/one.svg'
+import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
+import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
+import four from '../../../assets/images/pvt-reg/HowToRegister/four.svg'
+import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
+import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
+import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
+
+
+import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
 interface HeroProps {
   cityName: string;
@@ -19,74 +23,97 @@ export const HowToRegister = ({ cityName }: HeroProps) => {
   }
 
   return (
-    <div className='DocumentButtonWise w-80 m-auto' id='How'>
-      <p className='main-para'>Following is the step by step procedure for private limited company registration online in {cityName}:</p>
-      <div className="flex w-100 align-center justify-content-between mobile-flex-column">
-        <div className='flex-4'>
-          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={one} alt="Select the Company name" loading="lazy" width={30} height={30} /> &nbsp; Select the Company name
+    <div className='DocumentButtonWise w-80 m-auto' id='HowToRegister'>
+        <div className='flex justify-content-center'>
+        <p className='main-para mb-2'>Following is the step-by-step procedure for Private Limited Company Registration in {cityName}: </p>
+      </div>
+      <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
+      <div className='flex-5'>
+          <button onClick={() => handleActive('1')} className={`btn flex ${active === '1' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={one} alt="three" loading="lazy" width={30} height={30}  /><div className='ms-1 pe-4'>Step 1: Obtain a Digital Signature Certificate (DSC)</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="Select the Company name" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={two} alt="Digital Signature Certificate" loading="lazy" width={30} height={30} /> &nbsp; Digital Signature Certificate
+          <button onClick={() => handleActive('2')} className={`btn flex ${active === '2' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={two} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 2: Secure a Director Identification Number (DIN)</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="Digital Signature Certificate" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={three} alt="SPICe+ Form (INC-32)" loading="lazy" width={30} height={30} /> &nbsp; SPICe+ Form (INC-32)
+          <button onClick={() => handleActive('3')} className={`btn flex ${active === '3' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={three} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 3: Reserve a Company Name (SPICe+ Part A)</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="SPICe+ Form (INC-32)" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={four} alt="Electronic submission of MoA and AoA" loading="lazy" width={30} height={30} /> &nbsp; Electronic submission of MoA and AoA
+          <button onClick={() => handleActive('4')} className={`btn flex ${active === '4' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={four} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 4: Submit Company Information (SPICe+ Part B)</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="Electronic submission of MoA and AoA" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={five} alt="Non-electronic submission of MoA and AoA" loading="lazy" width={30} height={30} /> &nbsp; Non-electronic submission of MoA and AoA
+          <button onClick={() => handleActive('5')} className={`btn flex ${active === '5' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={five} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 5: Prepare and File Incorporation Documents (SPICe+ MOA and AOA)</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="Non-electronic submission of MoA and AoA" loading="lazy" width={30} height={30} />
           </button>
-          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'}`}>
-            <div>
-              <Image src={six} alt="Certificate of Incorporation" loading="lazy" width={30} height={30} /> &nbsp; Certificate of Incorporation
+          <button onClick={() => handleActive('6')} className={`btn flex ${active === '6' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={six} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 6: Certificate of Incorporation</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
             </div>
-            <Image src={arrow} alt="Certificate of Incorporation" loading="lazy" width={30} height={30} />
+          </button>
+          <button onClick={() => handleActive('7')} className={`btn flex ${active === '7' ? 'active-btn' : 'none-btn'} position-relative`}>
+            <div className='d-flex justify-content-between align-items-center gap-2'>
+              <Image src={seven} alt="three" loading="lazy" width={30} height={30} /><div className='ms-1 pe-4'>Step 7: Additional Registration: File AGILE-PRO-S Form</div> 
+              <Image src={arrow} alt="arrow" loading="lazy" width={30} height={30} className='position-absolute end-0'/>
+            </div>
           </button>
         </div>
-        <div className='flex-6 text-justify fs-20 p-color-black'>
+        <div className='flex-5 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
-            <h3>1: Select the Company name</h3>
-            <p>Business structure selection is the first step for private limited company registration and when the private limited company is what you have chosen, time is to select the company name. It is important to then verify if the selected name is available for private limited company registration. Once MCA approves a certain name, the applicant then is left with 21 days to register the company.</p>
+            <h3>Step 1: Obtain a Digital Signature Certificate (DSC)</h3>
+            <p className='mb-0'>Each director and shareholder is required to obtain a Digital Signature Certificate (DSC). The process requires submission of basic information including passport-sized photographs, Permanent Account Number (PAN), Aadhaar Card, contact details, and email. Foreign nationals must also provide notarized and apostilled copies of their documents, as needed.
+            </p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
-            <h3>2: Digital Signature Certificate</h3>
-            <p>The next step comprises obtaining the Digital Signature Certificate (DSC) which is the digital identity of the applicant registering itself as the director. DSC is required for proceeding ahead with the company registration process as it is needed for drafting the Memorandum of Association (MOA) and Articles of Association (AOA). It is important to note that the DSC can be obtained only through government-certified organizations.</p>
+            <h3>Step 2: Secure a Director Identification Number (DIN)</h3>
+            <p className='mb-0'>Anyone aiming to become a director in the company must secure a Director Identification Number (DIN). This number is crucial and must be included in the company registration documents.
+            </p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
-            <h3>3: SPICe+ Form (INC-32)</h3>
-            <p>SPICe+ Form (INC-32) has been introduced to streamline the private limited company registration process. This form is used to obtain Director Identification Number (DIN) which is required by individuals intending to be a director, Employees' Provident Fund Organisation (EPFO), Company’s PAN, Company’s Tax Deduction Account Number, and Employee's State Insurance Corporation (ESIC) applications.</p>
+            <h3>Step 3: Reserve a Company Name (SPICe+ Part A)</h3>
+            <p className='mb-0'>Initiate the registration by filing the SPICe+ Part A form, which is aimed at reserving a unique name for the company. The form requires details such as type of company, class, category, sub-category, and the main division of industrial activities along with a detailed description of the business. Propose up to two names for approval.
+            </p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
-            <h3>4: Electronic submission of MoA and AoA</h3>
-            <p>A Memorandum of Association and an Article of Association are one of the main components of company registration as one directs the charter and the other lists the internal rules and regulations for the company. Therefore, both MoA and AoA are required to be submitted electronically, using the INC-33 and INC-34 forms respectively especially in cases where the first subscribers are either non-individual persons (based in {cityName}), Indian nationals being subscribers (non-directors) & subscriber-cum-directors, and foreign national being subscribers (non-directors) & subscriber-cum-directors [DIN and business visa is a must].</p>
+            <h3>Step 4: Submit Company Information (SPICe+ Part B)</h3>
+            <p className='mb-0'>Fill out the SPICe+ Part B form with detailed information about the company's capital structure, address of the registered office, details of subscribers and directors, applicable stamp duty, and applications for PAN and TAN, along with required attachments. This step ensures adherence to the Companies Act of 2013, with all documents digitally signed by designated professionals.
+            </p>
           </div>
           <div className={`${active === '5' ? 'active' : 'none'}`}>
-            <h3>5: Non-electronic submission of MoA and AoA</h3>
-            <p>In certain cases, the submission of MoA and AoA is done through the non-electronic method in the form of an attachment to the SPICe+ Form. Such cases include where the first subscriber is a non-individual subscriber [Foreign based], a foreign national other than a director with a valid DIN but no valid business visa, a foreign national being a director with a DIN but no valid business visa, the foreign national being a director with no DIN and at last in a company with more than seven subscribers.</p>
+            <h3>Step 5: Prepare and File Incorporation Documents (SPICe+ MOA and AOA)</h3>
+            <p className='mb-0'>Draft and prepare the Memorandum of Association (MOA) and Articles of Association (AOA), which outline essential details of the company. These documents must be digitally signed by subscribers and certified professionals before submission to the Ministry of Corporate Affairs (MCA) for approval.
+            </p>
           </div>
           <div className={`${active === '6' ? 'active' : 'none'}`}>
-            <h3>6: Certificate of Incorporation</h3>
-            <p>After the verification of the application & documents, the MCA grants the Certificate of Incorporation. Basically, it’s conclusive proof of the existence of the Company, wherein the Incorporation Date, CIN (Company Identification Number), PAN & TAN are mentioned with the sign & seal of the Registrar. Moreover, DIN is allotted to Directors with the Registration Approval. The CIN receipt is the proof of the legal existence of your business.</p>
+            <h3>Step 6: Certificate of Incorporation</h3>
+            <p className='mb-0'>Following the successful verification of all documents, the MCA issues a Certificate of Incorporation (COI) along with the Company Identification Number (CIN), PAN, and TAN assigned to the company.
+            </p>
+          </div>
+          <div className={`${active === '7' ? 'active' : 'none'}`}>
+            <h3>Step 7: Additional Registration: File AGILE-PRO-S Form</h3>
+            <p className='mb-0'>Complete and submit the AGILE-PRO-S form to register for Goods and Services Tax (GST), Employees' Provident Fund Organisation (EPFO), Employees' State Insurance Corporation (ESIC), a corporate bank account, and the necessary shop and establishment license, which varies by state.
+            </p>
           </div>
         </div>
+        
       </div>
     </div>
   )
+  
 }
+
+

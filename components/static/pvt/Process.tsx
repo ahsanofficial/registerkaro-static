@@ -14,9 +14,6 @@ export const Process = ({ cityName }: HeroProps) => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#What" className="scrollTo">
-                                <li>What is a Private Limited Company?</li>
-                            </a>
                             <a href="#Different" className="scrollTo">
                                 <li>Different types of Business Structures in {cityName}</li>
                             </a>
@@ -29,17 +26,20 @@ export const Process = ({ cityName }: HeroProps) => {
                             <a href="#Documents" className="scrollTo">
                                 <li>Documents Required for Company Registration in {cityName}</li>
                             </a>
-                            <a href="#How" className="scrollTo">
-                                <li>How to register a private limited company?</li>
+                            <a href="#HowToRegister" className="scrollTo">
+                                <li>Procedure for Private Limited Company Registration?</li>
                             </a>
                             <a href="#Time" className="scrollTo">
                                 <li>Time Required for Registering a Company Online in {cityName}</li>
                             </a>
                             <a href="#HowTo" className="scrollTo">
-                                <li>How to Register Your Private Limited Company in {cityName}with RegisterKaro?</li>
+                                <li>How to Register Your Private Limited Company in {cityName} with RegisterKaro?</li>
                             </a>
                             <a href="#WhatDocuments" className="scrollTo">
                                 <li>What Documents will you get after Online Company Registration in {cityName}?</li>
+                            </a>
+                            <a href="#TableCom" className="scrollTo">
+                                <li>Comparative List of Different Business Structures in {cityName}?</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

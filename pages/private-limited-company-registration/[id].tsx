@@ -4,7 +4,8 @@ import { Process } from '../../components/static/pvt/Process'
 import { DifferentTypes } from '../../components/static/pvt/DifferentTypes'
 import { Benefits } from '../../components/static/pvt/Benefits'
 import { Checklist } from '../../components/static/pvt/Checklist'
-import { HowToRegister } from '../../components/static/pvt/HowToRegister'
+import  {HowToRegister}  from '../../components/static/pvt/HowToRegister'
+
 import { FaqTemplatePVT } from '../../components/child_components/FaqTemplatePVT'
 import { RegisterPvt } from '../../components/static/pvt/RegisterPvt'
 import Head from 'next/head'
@@ -13,7 +14,6 @@ import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
 import { DocumentRequired } from '../../components/static/pvt/DocumentRequired'
 import { WhatDocument } from '../../components/static/pvt/WhatDocument'
 import { TableCom } from '../../components/static/pvt/TableCom'
-import { PvtReg } from '../../components/static/producer/PvtReg'
 import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 import { useRouter } from 'next/router'
 import { CustomDefault } from '../../components/child_components/CustomDefault'
@@ -397,9 +397,6 @@ const Home = () => {
             <h1 className='main-heading'>Online Private Limited Company Registration in India – Meaning, Documents and Procedure</h1>
             <div className='heading-line'></div>
             <Process cityName={cityName} />
-            <h2 className='main-heading'>What is a Private Limited Company?</h2>
-            <div className='heading-line'></div>
-            <PvtReg cityName={cityName} />
             <h2 className="main-heading">Different types of Business Structures in India</h2>
             <div className='heading-line'></div>
             <DifferentTypes cityName={cityName} />

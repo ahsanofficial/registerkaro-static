@@ -13,7 +13,6 @@ import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
 import { DocumentRequired } from '../../components/static/pvt/DocumentRequired'
 import { WhatDocument } from '../../components/static/pvt/WhatDocument'
 import { TableCom } from '../../components/static/pvt/TableCom'
-import { PvtReg } from '../../components/static/producer/PvtReg'
 import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
 
 
@@ -370,9 +369,6 @@ const Home = () => {
             <h1 className='main-heading'>Online Private Limited Company Registration in India – Meaning, Documents and Procedure</h1>
             <div className='heading-line'></div>
             <Process cityName={'India'} />
-            <h2 className='main-heading'>What is a Private Limited Company?</h2>
-            <div className='heading-line'></div>
-            <PvtReg cityName={'India'} />
             <h2 className="main-heading">Different types of Business Structures in India</h2>
             <div className='heading-line'></div>
             <DifferentTypes cityName={'India'} />
