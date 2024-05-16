@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-Registration/How RegisterKaro helps you in the registration process_.svg";
 
 export const WhyChoose = () => {
   return (
@@ -20,11 +20,11 @@ export const WhyChoose = () => {
             <p><strong>Trust builders:  </strong> RegisterKaro builds the trust among its clients and because of only this trust we have built a good network in worldwide marketplace.</p>
             <p><strong>Trusted Partner of 10,000+ Clientele: </strong>RegisterKaro has earned the trust of more than 10000+ clients who have availed our TAN registration services.  Their trust in us from a term in continuity is proof of our services backed by quality and assurance.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="RegisterKaro helps you in the registration process"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={400}
             loading="lazy"
             src={dft}
           />

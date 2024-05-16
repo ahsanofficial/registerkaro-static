@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-Registration/onetwo.svg";
 
 export const Why = () => {
   return (
@@ -15,11 +15,11 @@ export const Why = () => {
           <p><strong>3. Last Character (Alphabetic): </strong>A system-generated, distinct letter serves as the final character.</p>
           
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="TAN Number: Meaning and Configuration"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={320}
             loading="lazy"
             src={dft}
           />

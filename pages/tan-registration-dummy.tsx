@@ -93,16 +93,9 @@ const Home = () => {
             <h2 className='main-heading'>Benefits of TAN Registration: </h2>
             <div className='heading-line'></div>
             <Appointment />
-
-
-
             <h2 className='main-heading'>Documents Required for TAN Registration:    </h2>
             <div className='heading-line'></div>
             <Registration />  
-
-
-
-
             <h2 className='main-heading'>Process to apply for TAN Registration:</h2>
             <div className='heading-line'></div>
             <Apply /> 

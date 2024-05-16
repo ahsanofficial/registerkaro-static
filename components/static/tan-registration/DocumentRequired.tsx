@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-Registration/two.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -8,11 +8,11 @@ export const DocumentRequired = () => {
             <p className="main-para" style={{ textAlign: "left" }}>Tax Deducting Entities: Any person or entity that has to deduct taxes at the source while doing specific operations, such paying contractors, distributing salaries, or paying rent that exceeds Rs.1,80,000 annually.</p>
 
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
             alt=" Needs to Get a TAN"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={340}
             loading="lazy"
             src={dft}
           />
