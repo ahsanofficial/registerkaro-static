@@ -53,11 +53,11 @@ export const WhyChoose = () => {
             excellence firsthand.
           </p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="Why Choose RegisterKaro for Company Registration in Qatar?"
             className="Importance-img-h-100 w-100"
-            height={500}
+            height={550}
             loading="lazy"
             src={dft}
           />

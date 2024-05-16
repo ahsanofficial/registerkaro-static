@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/response-to-trademark-objection/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -42,9 +42,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Qatar</p>
+                <p className="small-heading text-center">Response To Trademark Objection</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Qatar" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Response To Trademark Objection" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

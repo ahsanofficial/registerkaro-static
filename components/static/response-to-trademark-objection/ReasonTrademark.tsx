@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/response-to-trademark-objection/important.svg";
 
 const ReasonTrademark = () => {
   return (
     <div id="ReasonTrademark">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-5">
+      <div className="flex-4">
         <Image
-            alt=""
+            alt="Reason for Trademark Objection?"
             className="Importance-img-h-100 w-100"
             height={480}
             loading="lazy"
