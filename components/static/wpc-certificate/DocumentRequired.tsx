@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/wpc-Certificate/Importance of WPC License_.svg";
 
 export const DocumentRequired = () => {
   return (
     <div id="DocumentRequired">
         <p className="main-para">There are three types of WPC Certificate which are listed below:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
             alt=" the types of WPC Certificate"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={425}
             loading="lazy"
             src={dft}
           />

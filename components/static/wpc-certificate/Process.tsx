@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/wpc-Certificate/Vector Smart Object2 202.svg';
 import Image from 'next/image';
 
 export const Process = () => {

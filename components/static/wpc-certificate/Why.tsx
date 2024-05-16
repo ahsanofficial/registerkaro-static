@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/wpc-Certificate/onetwo.svg";
 
 export const Why = () => {
   return (
@@ -29,11 +29,11 @@ export const Why = () => {
           <p><strong>16. </strong>Drones</p>
 
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="List of products which requires a WPC Certificate for import:"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={500}
             loading="lazy"
             src={dft}
           />

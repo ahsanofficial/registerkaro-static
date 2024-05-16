@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/wpc-Certificate/Importance of WPC License_.svg";
 
 export const Consent = () => {
   return (
@@ -15,11 +15,11 @@ export const Consent = () => {
             <p><strong>6. </strong>Spectrum Management: Effective radio frequency spectrum management and distribution depend heavily on the WPC License. The regulatory authority can guarantee an equitable and optimal allocation of scarce spectrum resources among diverse stakeholders, including telecom operators, broadcasters, and other wireless service providers, by granting licenses for particular frequencies and usage scenarios. WPC licenses enable efficient spectrum management, which reduces interference, improves network dependability, and encourages the expansion of wireless communication infrastructure—all of which eventually benefit wirelessly dependent businesses and consumers.</p>
 
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="How to Apply Certificate or WPC License "
             className=" Importance-img-h-100 w-100"
-            height={350}
+            height={450}
             loading="lazy"
             src={dft}
           />

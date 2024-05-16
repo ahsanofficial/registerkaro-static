@@ -26,7 +26,7 @@ const Home = () => {
                 <meta name="google" content="notranslate" key="notranslate" />
                 <link rel="icon" href="/favicon.ico" />
                <link rel="canonical" href="https://www.registerkaro.in/ads/wpc-certificate" /> 
-            </Head>
+            </Head> 
             <Hero />
             <h1 className='main-heading'>Overview of Wireless Planning and Coordination (WPC) Certificate:</h1>
             <div className='heading-line'></div>

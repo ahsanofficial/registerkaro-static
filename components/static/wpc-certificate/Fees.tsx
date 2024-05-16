@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/wpc-Certificate/three.svg";
 
 export const Fees = () => {
   return (
@@ -10,7 +10,7 @@ export const Fees = () => {
           <Image
             alt="How to Apply Certificate or WPC License "
             className=" Importance-img-h-100 w-100"
-            height={350}
+            height={320}
             loading="lazy"
             src={dft}
           />
