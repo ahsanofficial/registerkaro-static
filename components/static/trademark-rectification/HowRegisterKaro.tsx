@@ -1,21 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/common-images/Why _choose.svg";
 
 const HowRegisterKaro = () => {
   return (
     <div id="HowRegisterKaro">
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=""
-            className="HowRegisterKaro-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
-        <div className="flex-7">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+    
+        <div className="flex-7 pt-3">
           <p>
             <strong>1. Pool of Experts</strong>
             RegisterKaro holds a large pool of Experts from all over the world
@@ -55,6 +47,15 @@ const HowRegisterKaro = () => {
             term in continuity is proof of our services backed by quality and
             assurance.
           </p>
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="How does RegisterKaro help with the Trademark Rectification?"
+            className="HowRegisterKaro-img w-100"
+            height={570}
+            loading="lazy"
+            src={bft}
+          />
         </div>
       
       </div>
