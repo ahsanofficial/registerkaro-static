@@ -38,7 +38,8 @@ export const ProcessStep = () => {
           </div>
           <div className={`${active === '2' ? 'active' : 'none'} text-center`}>
             <h3>PHASE 2: </h3>
-            <p className='mb-0'>MSMEs in the service sector are included. The integration of MSMEs (manufacturing and service sectors) registered under a State Government protocol or system but not on UDYAM is another goal of this phase. From this point on, more data on the performance and operations of MSME may be gathered in order to develop a National MSME Competitiveness Index.<br />PHASE 2 also includes financing ZED Certified MSMEs to get international certifications as needed for foreign markets, as well as setting up arrangements to align ZED Certification with international certifications for its widespread recognition.
+            <p className='mb-0'><div className='p-2'>MSMEs in the service sector are included. The integration of MSMEs (manufacturing and service sectors) registered under a State Government protocol or system but not on UDYAM is another goal of this phase. From this point on, more data on the performance and operations of MSME may be gathered in order to develop a National MSME Competitiveness Index.</div>
+            <div className='p-2'>PHASE 2 also includes financing ZED Certified MSMEs to get international certifications as needed for foreign markets, as well as setting up arrangements to align ZED Certification with international certifications for its widespread recognition.</div>
             </p>
           </div>
         </div>

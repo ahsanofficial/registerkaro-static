@@ -1,24 +1,18 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/common-images/Why _choose.svg";
-
-export const WhyChoose = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">
         RegisterKaro has been one stop solution for the NSIC registration for
         the varied ranges of benefits such as:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
-          <Image
-            alt="Why Choose RegisterKaro for Company Registration in the United Kingdom?"
-            className="WhyChoose-img w-100"
-            height={550}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+     
         <div className="flex-7">
           <p>
             <strong>Pool of Experts</strong>
@@ -59,6 +53,15 @@ export const WhyChoose = () => {
             a term in continuity is proof of our services backed by quality and
             assurance.{" "}
           </p>
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="Why Choose RegisterKaro for NSIC Registration?"
+            className="WhyChoose-img w-100"
+            height={550}
+            loading="lazy"
+            src={dft}
+          />
         </div>
       
       </div>

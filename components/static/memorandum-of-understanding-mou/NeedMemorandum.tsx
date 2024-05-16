@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
-
-const NeedMemorandum = () => {
+import bft from "../../../assets/images/static/memorandum-of-understanding-mou/Why_do_youneed_Memorandum_of_Understanding.svg";
+interface HeroProps {
+  cityName: string;
+}
+const NeedMemorandum = ({ cityName }: HeroProps) => {
   return (
     <div id="NeedMemorandum">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
@@ -72,11 +74,11 @@ const NeedMemorandum = () => {
             a formal document is provided beforehand.
           </p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4 align-content-center">
           <Image
-            alt=""
+            alt="Why do you need Memorandum of Understanding"
             className="NeedMemorandum-img w-100"
-            height={480}
+            height={680}
             loading="lazy"
             src={bft}
           />

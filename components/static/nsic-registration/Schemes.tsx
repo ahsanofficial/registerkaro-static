@@ -1,27 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
-
-const Schemes = () => {
+import bft from "../../../assets/images/static/nsic-registration/Schemes_pertaining_to_NSIC.svg";
+interface HeroProps {
+    cityName: string;
+}
+const Schemes = ({ cityName }: HeroProps) => {
   return (
     <div id="Schemes">
       <p className="main-para">
         Following are certain schemes available under the NSIC Registration:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=""
-            className="Schemes-img w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+     
         <div className="flex-7">
           <p>
             <strong>Single Point Registration schemes: </strong>
-            The Government of India has directed that firms registered under the
+            The Government of {cityName} has directed that firms registered under the
             Single Point Registration Scheme of NSIC be eligible to receive
             benefits under the “Public Procurement Policy for Micro & Small
             Enterprises (MSEs) Order 2012”.
@@ -59,7 +53,7 @@ const Schemes = () => {
             Annual participation in National and International Trade Fairs and
             Exhibitions by National Small Industries Corporation serves to
             highlight the key competencies of Micro and Small Enterprises in
-            India and to leverage market opportunities. The National Small
+            {cityName} and to leverage market opportunities. The National Small
             Industries Corporation provides MSEs with rents and other subsidies
             to make their participation easier. By taking part in various
             national and international events, Micro and Small Enterprises units
@@ -78,6 +72,15 @@ const Schemes = () => {
             National Small Industries Corporation to share the processing fee
             and submit loan applications from interested MSEs to the banks.
           </p>
+        </div>
+        <div className="flex-3 align-content-center">
+          <Image
+            alt="Schemes pertaining to NSIC"
+            className="Schemes-img w-100"
+            height={580}
+            loading="lazy"
+            src={bft}
+          />
         </div>
        
       </div>
