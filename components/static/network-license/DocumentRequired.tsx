@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/network-license/Documents_required_for_the_Network_License_in_India.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -17,7 +17,7 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-5">
             <Image
-              alt="Documents to carry for registration process"
+              alt="Documents required for the Network License in India"
               className="Importance-img-h-100 w-100"
               height={350}
               loading="lazy"

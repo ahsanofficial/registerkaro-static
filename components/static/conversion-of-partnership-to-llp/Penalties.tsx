@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/three.svg";
 
 const Penalties = () => {
   return (
@@ -16,7 +16,7 @@ const Penalties = () => {
         </div>
         <div className="flex-4">
         <Image
-            alt=""
+            alt="Penalties for False Statements"
             className="Importance-img-h-100 w-100"
             height={580}
             loading="lazy"

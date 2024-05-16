@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/conversion-of-partnership-to-llp/one.svg";
 
 export const Benefits = () => {
   return (
@@ -17,9 +17,9 @@ Let's understand the benefits as discussed below.
         </div>
         <div className="flex-4">
           <Image
-            alt="Benefits of starting a Business in Qatar"
+            alt="Network licensing offers four main benefits:"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={400}
             loading="lazy"
             src={dft}
           />

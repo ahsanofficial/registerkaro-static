@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/pre-incorporation.svg";
 
 const ToIncorporate = () => {
   return (
@@ -17,7 +17,7 @@ const ToIncorporate = () => {
         </div>
         <div className="flex-4">
         <Image
-            alt=""
+            alt="To incorporate a Limited Liability Partnership (LLP)"
             className="Importance-img-h-100 w-100"
             height={580}
             loading="lazy"

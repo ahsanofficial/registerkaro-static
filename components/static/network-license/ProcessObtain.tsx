@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/network-license/Process_to_Obtain_Network_License.svg";
 
 const ProcessObtain = () => {
   return (
     <div id="ProcessObtain">
         <p className="main-para">Following is the process to obtain a Network License:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
         <Image
-            alt=""
+            alt="Process to Obtain Network License"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={400}
             loading="lazy"
             src={bft}
           />
