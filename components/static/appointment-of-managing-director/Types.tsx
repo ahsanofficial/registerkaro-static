@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/normal-images/one.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/one.svg";
 
 export const Types = () => {
   return (

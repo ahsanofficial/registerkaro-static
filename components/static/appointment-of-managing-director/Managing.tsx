@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/normal-images/two.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/two.svg";
 
 export const Managing = () => {
   return (
