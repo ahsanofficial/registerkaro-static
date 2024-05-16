@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/due-diligence/Types of Due Diligence.svg'
 
 export const Types = () => {
   return (
@@ -21,7 +21,7 @@ export const Types = () => {
             <Image
               alt="Types of Due Diligence"
               className="Types-img w-100 img-h-100"
-              height={1300}
+              height={800}
               loading="lazy"
               src={bft}
             />

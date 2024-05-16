@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/due-diligence/three.svg'
 
 export const WhatisDueDiligence = () => {
   return (
