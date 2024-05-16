@@ -9,7 +9,7 @@ export const ChallengesInValuation = () => {
         <div className="flex-3">
           <Image
             alt="Challenges in Startup Valuation in India"
-            className="ChangesInValuation-img w-100"
+            className="Importance-img-h-100 w-100"
             height={290}
             loading="lazy"
             src={bft}

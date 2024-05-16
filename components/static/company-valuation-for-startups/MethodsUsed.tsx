@@ -9,7 +9,7 @@ export const MethodsUsed = () => {
         <div className="flex-4">
           <Image
             alt="Methods Used for Company Valuation of Startups"
-            className="MethodsUsed-img w-100 Importance-img-h-100"
+            className="Importance-img-h-100 w-100"
             height={510}
             loading="lazy"
             src={bft}

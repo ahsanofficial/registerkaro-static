@@ -17,7 +17,7 @@ export const FactorsAffectingValuation = () => {
         <div className="flex-4">
             <Image
               alt="Factors Affecting Company Valuation for Startups in India"
-              className="FactorsAffectingValuation-img w-100"
+              className="Importance-img-h-100 w-100"
               height={550}
               loading="lazy"
               src={bft}

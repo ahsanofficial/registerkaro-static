@@ -8,7 +8,7 @@ export const DocumentRequired = () => {
         <p className="main-para">For the Trademark Objection reply, you will need the following documents:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
      
-        <div className="flex-6">
+        <div className="flex-6 pt-5">
             <p><strong>1. </strong>Authorized document report</p>
             <p><strong>2. </strong>Trademark examination report</p>
             <p><strong>3. </strong>Identification document</p>
@@ -18,7 +18,7 @@ export const DocumentRequired = () => {
             <Image
               alt="Documents required for the Trademark Objection"
               className="DocumentRequired-img w-100 img-h-100"
-              height={160}
+              height={280}
               loading="lazy"
               src={dft}
             />
