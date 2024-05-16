@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/due-diligence/Best Practices to be followed for Effective Due Diligence.svg'
 
 export const BestPractices = () => {
   return (
     <div id="BestPractices">
       <div className="BestPractices flex w-80 m-auto mobile-flex-column-reverse">
         
-        <div className="flex-7">
+        <div className="flex-6">
           <p><strong>1. Define Objectives and Scope:</strong>Clearly define the objectives and scope of due diligence, focusing on key areas of concern and strategic priorities. Tailor the due diligence process to address specific transactional risks and objectives comprehensively.</p>
           <p><strong>2. Assemble a Multidisciplinary Team :</strong>Collaborate with legal experts, financial analysts, industry specialists, and other relevant professionals to conduct a holistic due diligence assessment. Leverage diverse expertise and perspectives to uncover potential issues and opportunities across different domains.</p>
           <p><strong>3. Document Review and Analysis :</strong>Thoroughly review and analyze relevant documents, including contracts, financial records, regulatory filings, intellectual property rights, and operational reports. Pay close attention to inconsistencies, omissions, and potential red flags warranting further investigation.</p>
@@ -18,7 +18,7 @@ export const BestPractices = () => {
           <Image
             alt="Best Practices to be followed for Effective Due Diligence"
             className="BestPractices-img w-100 img-h-100"
-            height={600}
+            height={620}
             loading="lazy"
             src={bft}
           />
