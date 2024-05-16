@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/safta-license/onetwo.svg";
 
 const WhyApply = () => {
   return (
@@ -19,7 +19,7 @@ const WhyApply = () => {
           <Image
             alt="Why one should apply for SAFTA License?"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={280}
             loading="lazy"
             src={bft}
           />

@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/zed-certification/Components of ZED Certification_.svg";
 
 const Components = () => {
   return (
     <div id="Components">
       <p className="main-para">These are the following components of ZED Certification</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-6 pt-5">
+        <div className="flex-6">
           <ol>
             <li><strong>Industry Awareness Programs/Workshops: </strong>With the support of stakeholders such as Industry Associations, Implementing Agencies, MSME-DIs, District Industries Centers (DICs), Large Enterprises/OEMs, and BEE, MSMEs will be made aware of the MSME Sustainable (ZED) Certification through nationwide awareness programs (online and/or in-person, as appropriate).</li>
             <li><strong>Training Programs: </strong>In order to facilitate an efficient implementation by partners including QCI, BIS, and NPC, stakeholders such as MSME Officers, Assessors, and Consultants will get training on the MSME Sustainable (ZED) Certification.</li>
@@ -20,7 +20,7 @@ const Components = () => {
           <Image
             alt="Components of ZED Certification"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

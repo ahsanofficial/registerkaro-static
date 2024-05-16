@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/safta-license/List of documents required for SAFTA Licence registration.svg";
 
 const DocumentReq = () => {
   return (
@@ -10,7 +10,7 @@ const DocumentReq = () => {
           <Image
             alt="List of documents required for SAFTA Licence registration."
             className="Importance-img-h-100 w-100"
-            height={380}
+            height={780}
             loading="lazy"
             src={bft}
           />

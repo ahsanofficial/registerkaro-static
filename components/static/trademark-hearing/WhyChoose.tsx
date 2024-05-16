@@ -1,22 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/canada-company-reg/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg"
+import dft from "../../../assets/images/static/trademark-hearing/How RegisterKaro Can Assist You in the Franchise Agreement Process_.svg"
 
 export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro serves as your ultimate solution for Trademark Hearing, offering a multitude of benefits:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
             alt="How RegisterKaro Can Assist You in the Franchise Agreement Process?"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={480}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-6">
            <p><strong>1. Pool of Experts:</strong> Our experienced legal experts will provide personalized consultation to assess your organization's eligibility and guide you through the Trademark Hearing process. Rest assured; our team ensures your requirements are met with utmost efficiency.</p>
            <p><strong>2. Cost-effective:</strong> RegisterKaro offers premium-quality registration services for the Trademark Hearing at highly competitive rates, ensuring that quality service remains accessible without straining your budget.</p>
            <p><strong>3. Client-oriented Approach:</strong> Our well-trained experts adopt a client-centric approach, prioritizing your needs and preferences throughout the registration process. We focus on understanding your business requirements to deliver tailored solutions.</p>

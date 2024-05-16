@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/canada-company-reg/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg"
+import dft from "../../../assets/images/static/zed-certification/How RegisterKaro Can Assist You in the Network Licensing Process_.svg"
 
 export const HowRegisterKaro = () => {
   return (

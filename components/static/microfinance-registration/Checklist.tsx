@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/microfinance-registration/Checklist to Set Up a Microfinance Company Registration_.svg";
 
 const Checklist = () => {
   return (

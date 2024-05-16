@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/trademark-hearing/What are the Key Considerations for a Successful Hearing.svg";
 
 const KeyConsiderations = () => {
   return (
@@ -30,7 +30,7 @@ const KeyConsiderations = () => {
           <Image
             alt="What are the Key Considerations for a Successful Hearing?"
             className="Importance-img-h-100 w-100"
-            height={380}
+            height={480}
             loading="lazy"
             src={bft}
           />

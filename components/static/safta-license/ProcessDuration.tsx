@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/safta-license/three.svg";
 
 const ProcessDuration = () => {
   return (
@@ -10,7 +10,7 @@ const ProcessDuration = () => {
           <Image
             alt="Process Duration"
             className="Importance-img-h-100 w-100"
-            height={280}
+            height={250}
             loading="lazy"
             src={bft}
           />

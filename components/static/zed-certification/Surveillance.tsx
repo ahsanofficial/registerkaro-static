@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/zed-certification/private (copy).svg";
 
 const Surveillance = () => {
   return (
@@ -28,7 +28,7 @@ const Surveillance = () => {
           <Image
             alt="Surveillance under ZED Certification"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={400}
             loading="lazy"
             src={bft}
           />

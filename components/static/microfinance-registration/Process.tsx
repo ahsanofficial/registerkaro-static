@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/italy-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/microfinance-registration/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>Microfinance in India supports low-income individuals by offering microloans, micro-savings, and microinsurance through non-profit organizations. These services cater to those without access to traditional banking. In India, "small loans" are defined as amounts below one lakh rupees.</p>
                 <div className='page-point'>
                     <ul>
@@ -41,10 +41,10 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Italy</p>
+            <div className='flex-3'>
+                <p className="small-heading text-center">Microfinance Company Registration</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Italy" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Microfinance Company Registration" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
