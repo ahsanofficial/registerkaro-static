@@ -63,7 +63,7 @@ const Home = () => {
                 <meta property="og:description" content="Get your business up and running smoothly with our Qatar company registration services. This quick guide tells you which steps to take." />
             </Head>
             <Hero />
-            <h1 className='main-heading'>Introduction:</h1>
+            <h1 className='main-heading'>An Overview Icegate Registration</h1>
             <div className='heading-line'></div>
             <Process />
             <h2 className='main-heading'>Legal Framework for NGOs in India:</h2>
