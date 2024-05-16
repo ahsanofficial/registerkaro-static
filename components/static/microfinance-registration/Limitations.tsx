@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/microfinance-registration/three.svg";
 
 const Limitations = () => {
   return (
@@ -19,7 +19,7 @@ const Limitations = () => {
           <Image
             alt="Limitations of Microfinancing"
             className="Importance-img-h-100 w-100"
-            height={380}
+            height={480}
             loading="lazy"
             src={bft}
           />

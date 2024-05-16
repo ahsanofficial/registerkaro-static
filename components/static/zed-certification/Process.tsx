@@ -1,4 +1,4 @@
-import certificate from "../../../assets/images/static/italy-company-registration/certificate.svg";
+import certificate from "../../../assets/images/static/zed-certification/certificate.svg";
 import Image from "next/image";
 
 export const Process = () => {
@@ -75,11 +75,11 @@ export const Process = () => {
       </div>
       <div className="flex-5">
         <p className="small-heading text-center">
-          Company Registration in Italy
+          ZED Certification
         </p>
         <div>
           <Image
-            alt="An Overview of Company Registration in Italy"
+            alt="ZED Certification"
             className="certificate h-100 w-100"
             loading="lazy"
             src={certificate}

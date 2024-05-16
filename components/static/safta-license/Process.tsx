@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/italy-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/safta-license/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>The South Asian Free Trade Area (SAFTA) is the free trade arrangement of the South Asian Association for Regional Cooperation (SAARC). The license refers to the rules and regulations that businesses must follow when operating within the SAFTA region. The license is a requirement for businesses that plan to engage in cross-border trade within the region.  Rules of Determination of Origin of Goods under the Agreement on South Asian Free Trade Area (SAFTA).</p>
                 <div className='page-point'>
                     <ul>
@@ -38,7 +38,7 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
+            <div className='flex-3'>
                 <p className="small-heading text-center">Company Registration in Italy</p>
                 <div>
                     <Image alt="An Overview of Company Registration in Italy" className="certificate h-100 w-100" loading="lazy" src={certificate} />

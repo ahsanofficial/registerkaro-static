@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/trademark-hearing/Reason for Hearing Notices on Trademark.svg";
 
 const Reason = () => {
   return (
@@ -10,7 +10,7 @@ const Reason = () => {
           <Image
             alt="Reason for Hearing Notices on Trademark"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={280}
             loading="lazy"
             src={bft}
           />

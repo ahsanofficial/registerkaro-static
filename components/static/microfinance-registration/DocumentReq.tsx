@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/microfinance-registration/Documents Required for Micro Finance Company Registration_.svg";
 
 const DocumentReq = () => {
   return (
@@ -10,7 +10,7 @@ const DocumentReq = () => {
           <Image
             alt="Civil Defamation"
             className="Importance-img-h-100 w-100"
-            height={280}
+            height={580}
             loading="lazy"
             src={bft}
           />

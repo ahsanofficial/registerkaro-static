@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/canada-company-reg/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg"
+import dft from "../../../assets/images/static/microfinance-registration/How RegisterKaro Can Assist You in the Network Licensing Process_.svg"
 
 export const HowRegisterKaro = () => {
   return (
@@ -14,7 +14,7 @@ export const HowRegisterKaro = () => {
           <Image
             alt="How RegisterKaro Can Assist You in the Microfinance Company Registration?"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={dft}
           />
