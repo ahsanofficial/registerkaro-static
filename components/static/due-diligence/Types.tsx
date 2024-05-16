@@ -20,7 +20,7 @@ export const Types = () => {
         <div className="flex-4">
             <Image
               alt="Types of Due Diligence"
-              className="Types-img w-100 img-h-100"
+              className="Importance-img-h-100 w-100"
               height={800}
               loading="lazy"
               src={bft}

@@ -9,7 +9,7 @@ export const Benefits = () => {
         <div className="flex-3">
             <Image
               alt="Benefits of GSP"
-              className="Benefits-img w-100 img-h-100"
+              className="Importance-img-h-100 w-100"
               height={215}
               loading="lazy"
               src={dft}

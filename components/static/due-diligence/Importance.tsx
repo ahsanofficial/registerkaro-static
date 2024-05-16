@@ -10,7 +10,7 @@ export const Importance = () => {
         <div className="flex-3">
           <Image
             alt="Importance of Due Diligence"
-            className="Importance-img w-100 img-h-100"
+            className="Importance-img-h-100 w-100"
             height={550}
             loading="lazy"
             src={bft}

@@ -17,7 +17,7 @@ export const WhyChoose = () => {
         <div className="flex-3">
           <Image
             alt="How RegisterKaro helps you in getting Petrol Pump License?"
-            className="WhyChoose-img w-100 Importance-img-h-100"
+            className="Importance-img-h-100 w-100"
             height={500}
             loading="lazy"
             src={dft}

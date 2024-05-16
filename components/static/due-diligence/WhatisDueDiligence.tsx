@@ -9,7 +9,7 @@ export const WhatisDueDiligence = () => {
         <div className="flex-3">
           <Image
             alt="What is Due Diligence?"
-            className="WhatisDueDiligence-img w-100 img-h-100"
+            className="Importance-img-h-100 w-100"
             height={180}
             loading="lazy"
             src={bft}

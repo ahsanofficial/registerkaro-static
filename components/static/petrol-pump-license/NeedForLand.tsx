@@ -10,7 +10,7 @@ export const NeedForLand = () => {
                     <div>
                         <Image
                             alt="Need for Land to Begin a Petrol Pump"
-                            className="NeedForLand-img w-100 Importance-img-h-100"
+                            className="Importance-img-h-100 w-100"
                             height={600}
                             loading="lazy"
                             src={dft}
