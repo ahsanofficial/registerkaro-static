@@ -25,7 +25,7 @@ const Advantages = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt="What is a Legal Defamation Notice"
+            alt="Advantages of ICEGATE Registration"
             className="Importance-img-h-100 w-100"
             height={380}
             loading="lazy"

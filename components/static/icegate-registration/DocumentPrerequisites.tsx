@@ -51,7 +51,7 @@ const DocumentPrerequisites = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt="What is a Legal Defamation Notice"
+            alt="List of documents and Pre-requisites for user registration on ICEGATE"
             className="Importance-img-h-100 w-100"
             height={620}
             loading="lazy"

@@ -12,7 +12,7 @@ const CorporateEntity = () => {
       <div className="flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="What is a Legal Defamation Notice"
+            alt="Prerequisites where Entity Type is Corporate (Company or LLP)"
             className="Importance-img-h-100 w-100"
             height={480}
             loading="lazy"

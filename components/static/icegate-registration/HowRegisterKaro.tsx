@@ -11,7 +11,7 @@ export const HowRegisterKaro = () => {
       <div className="flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="What is a Legal Defamation Notice"
+            alt="How RegisterKaro Can Assist You in the Registration Process?"
             className="Importance-img-h-100 w-100"
             height={580}
             loading="lazy"

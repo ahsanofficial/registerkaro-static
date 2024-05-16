@@ -6,7 +6,7 @@ const ProprietorshipEntities = () => {
   return (
     <div id="ProprietorshipEntities">
       <Image
-        alt="Civil Defamation"
+        alt="Prerequisites for Proprietorship Entities"
         className="Importance-img-h-100 w-100"
         height={300}
         loading="lazy"
