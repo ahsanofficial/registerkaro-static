@@ -1,12 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/dir-3-ekyc/DIR-3 eKYC Package.svg";
 
 export const DocumentRequired = () => {
   return (
     <div id="DocumentRequired">
-      <div className=" flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-7">
+      <div className=" flex w-80 m-auto mobile-flex-column">
+      <div className="flex-4">
+          <Image
+            alt="Importance check points while filling "
+            className="Importance-img-h-100 w-100"
+            height={780}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
+        <div className="flex-6">
             <p><strong>1. </strong> Please read the instructions and guidelines carefully before filling out online application web forms.</p>
 
             
@@ -28,15 +37,6 @@ export const DocumentRequired = () => {
             <p><strong>12.  </strong>Please ensure that the applicant verifies the OTP entered for mobile number and email id.</p>
             <p><strong>13.  </strong>If the space within any of the fields is not sufficient to provide all the information, then additional details can be provided as an optional attachment to the web form.</p>
            <p><strong>14.  </strong>Please note no fees are applicable if application for KYC is filed before 30th September by DIN holder who has been allotted DIN on or before 31st March of every year, and whose DIN is in ‘Approved’ status. </p>
-        </div>
-        <div className="flex-3">
-          <Image
-            alt="Importance check points while filling "
-            className="Importance-img-h-100 w-100"
-            height={350}
-            loading="lazy"
-            src={dft}
-          />
         </div>
       </div>
     </div>
