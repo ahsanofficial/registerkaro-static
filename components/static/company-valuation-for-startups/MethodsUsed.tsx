@@ -10,7 +10,7 @@ export const MethodsUsed = () => {
           <Image
             alt="Methods Used for Company Valuation of Startups"
             className="MethodsUsed-img w-100"
-            height={450}
+            height={485}
             loading="lazy"
             src={bft}
           />

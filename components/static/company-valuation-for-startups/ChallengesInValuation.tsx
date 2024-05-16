@@ -5,12 +5,12 @@ import Image from 'next/image'
 export const ChallengesInValuation = () => {
   return (
     <div id='ChallengesInValuation'>
-      <div className="challenges-in-valuation flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="challenges-in-valuation flex w-80 m-auto mobile-flex-column">
         <div className="flex-3">
           <Image
             alt="Methods Used for Company Valuation of Startups"
             className="ChangesInValuation-img w-100"
-            height={250}
+            height={290}
             loading="lazy"
             src={bft}
           />
