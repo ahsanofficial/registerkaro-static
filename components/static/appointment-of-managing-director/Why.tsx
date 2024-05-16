@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/Eligibility Criteria for the Appointment of Managing Director.svg";
 
 export const Why = () => {
   return (
@@ -16,11 +16,11 @@ export const Why = () => {
           <p><strong>4. </strong>Consent of existing Board members.</p>
           <p><strong>5. </strong>Indian nationals, Non-Resident Indians (NRIs), and Foreign Nationals are eligible for directorship.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="Eligibility Criteria for the Appointment of Managing Director"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={350}
             loading="lazy"
             src={dft}
           />

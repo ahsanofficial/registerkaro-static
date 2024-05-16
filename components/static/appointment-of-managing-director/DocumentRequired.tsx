@@ -1,16 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/normal-images/onetwo.svg";
 
 export const DocumentRequired = () => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
             alt=" Section 96 of the Companies Act "
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={400}
             loading="lazy"
             src={dft}
           />
