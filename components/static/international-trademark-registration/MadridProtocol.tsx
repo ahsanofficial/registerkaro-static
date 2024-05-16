@@ -13,7 +13,7 @@ export const MadridProtocol = () => {
         <div className="flex-4">
           <Image
             alt="Madrid Protocol & Madrid Agreement"
-            className="MadridProtocol-img w-100"
+            className="Importance-img-h-100 w-100"
             height={420}
             loading="lazy"
             src={bft}

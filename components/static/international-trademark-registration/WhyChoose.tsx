@@ -10,7 +10,7 @@ export const WhyChoose = () => {
         <div className="flex-4">
           <Image
             alt="Why choose International Trademark Registration?"
-            className="WhyChoose-img w-100"
+            className="Importance-img-h-100 w-100"
             height={480}
             loading="lazy"
             src={bft}

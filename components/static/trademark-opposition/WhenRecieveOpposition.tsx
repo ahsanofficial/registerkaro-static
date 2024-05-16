@@ -18,7 +18,7 @@ export const WhenRecieveOpposition = () => {
         <div className="flex-4">
             <Image
               alt="When do you receive the Trademark Opposition?"
-              className="WhenRecieveOpposition-img w-100 img-h-100"
+              className="Importance-img-h-100 w-100"
               height={680}
               loading="lazy"
               src={dft}

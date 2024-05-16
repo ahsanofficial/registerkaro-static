@@ -11,7 +11,7 @@ export const CheckIfCanApply = () => {
         <div className="flex-4">
           <Image
             alt="Check if you can apply for the International Trademark Registration"
-            className="CheckIfCanApply-img w-100"
+            className="Importance-img-h-100 w-100"
             height={240}
             loading="lazy"
             src={bft}
