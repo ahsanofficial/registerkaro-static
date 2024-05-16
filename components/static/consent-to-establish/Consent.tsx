@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/normal-images/three.svg";
+import dft from "../../../assets/images/static/consent to establish/three.svg";
 
 export const Consent = () => {
   return (
