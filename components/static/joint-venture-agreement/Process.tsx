@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>A joint venture agreement is a legal contract between two or more parties who agree to collaborate on a specific project or business activity. A joint venture agreement defines the rights and obligations of each party, such as the scope of work, the sharing of profits and losses, the management and control of the joint venture, the dispute resolution mechanism, and the termination clauses.</p>
                 <div className='page-point'>
                     <ul>
@@ -31,7 +31,7 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
+            <div className='flex-3'>
                 <p className="small-heading text-center">Joint Venture Agreement</p>
                 <div>
                     <Image alt="Joint Venture Agreement" className="certificate h-100 w-100" loading="lazy" src={certificate} />

@@ -21,7 +21,7 @@ const DocumentsReq = () => {
         <Image
             alt="Documents Required for Founders’ Agreement"
             className="DocumentsReq-img w-100"
-            height={380}
+            height={340}
             loading="lazy"
             src={bft}
           />

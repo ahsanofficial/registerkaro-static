@@ -48,7 +48,7 @@ const WhyChooseReg = () => {
           <Image
             alt="Why choose RegisterKaro for your Joint Venture?"
             className="WhyChooseReg-img w-100"
-            height={580}
+            height={480}
             loading="lazy"
             src={bft}
           />

@@ -11,7 +11,7 @@ export const Benefits = () => {
         <Image
             alt="What are the Benefits of Joint Venture?"
             className="Benefits-img w-100"
-            height={480}
+            height={380}
             loading="lazy"
             src={bft}
           />
