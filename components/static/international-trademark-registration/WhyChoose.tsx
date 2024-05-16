@@ -11,7 +11,7 @@ export const WhyChoose = () => {
           <Image
             alt="Why choose International Trademark Registration?"
             className="WhyChoose-img w-100"
-            height={450}
+            height={480}
             loading="lazy"
             src={bft}
           />

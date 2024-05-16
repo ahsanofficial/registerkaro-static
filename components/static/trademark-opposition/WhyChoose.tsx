@@ -5,7 +5,7 @@ import dft from "../../../assets/images/static/common-images/Why _choose.svg"
 export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
-      <div className="benefits flex w-80 m-auto mobile-flex-column">        
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">        
         <div className="flex-7">
           <p><strong>Pool of Experts:</strong> RegisterKaro holds a large pool of Experts from all over the world specializing in Trademark Related Services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
           <p><strong>Cost-effective: </strong>RegisterKaro Trademark Related Services are of premium quality at the most efficient rate, which suits the client’s pocket, making sure that quality service is not the only thing the client gains on our platform.</p>

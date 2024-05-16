@@ -5,7 +5,7 @@ import bft from '../../../assets/images/static/company-valuation-for-startups/Fa
 export const FactorsAffectingValuation = () => {
   return (
     <div id='FactorsAffectingValuation'>
-      <div className="factors-affecting-valuation flex w-80 m-auto mobile-flex-column">
+      <div className="factors-affecting-valuation flex w-80 m-auto mobile-flex-column-reverse">
         
         <div className="flex-7">
           <p><strong>1. Market Potential: </strong>Investors assess the startup’s addressable market size, growth potential, and scalability within the Indian market. India’s growing population and increasing consumer demand in various sectors like technology, e-commerce, healthcare, and FinTech influence valuation.</p>
@@ -18,7 +18,7 @@ export const FactorsAffectingValuation = () => {
             <Image
               alt="Factors Affecting Company Valuation for Startups in India"
               className="FactorsAffectingValuation-img w-100"
-              height={500}
+              height={530}
               loading="lazy"
               src={bft}
             />

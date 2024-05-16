@@ -30,16 +30,15 @@ export const Process = () => {
                             </a>
                             <a href="#Faq" className="scrollTo">
                                 <li>Frequently Asked Questions</li>
-                            </a> 
-
+                            </a>
                         </ul>
                     </ul>
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Qatar</p>
-                <div>
-                    <Image alt="What is Trademark Opposition?" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                <p className="small-heading text-center">What is Trademark Opposition</p>
+                <div className='flex justify-content-center'>
+                    <Image alt="What is Trademark Opposition?" className="certificate h-75 w-75" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

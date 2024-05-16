@@ -35,7 +35,7 @@ export const Process = () => {
         <div className='flex-5'>
             <p className="small-heading text-center">Company Valuation for Startups</p>
             <div className='d-flex justify-content-center'>
-                <Image alt="Company Valuation for Startups" className="certificate h-100 w-100 " loading="lazy"  src={bft} />
+                <Image alt="Company Valuation for Startups" className="certificate h-100 w-100" loading="lazy"  src={bft} />
             </div>
         </div>
         
