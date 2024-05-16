@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/icegate-registration/one.svg";
 
 const CorporateEntity = () => {
   return (
@@ -9,7 +9,16 @@ const CorporateEntity = () => {
         The entity name shall match the name on the license uploaded during
         ICEGATE registration.
       </p>
-      <div className="flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="flex w-80 m-auto mobile-flex-column">
+      <div className="flex-4">
+          <Image
+            alt="Prerequisites where Entity Type is Corporate (Company or LLP)"
+            className="Importance-img-h-100 w-100"
+            height={480}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-6 pt-5">
           <p>
             <strong>Board Resolution Document Guidelines : </strong>
@@ -68,15 +77,6 @@ const CorporateEntity = () => {
               </li>
             </ol>
           </p>
-        </div>
-        <div className="flex-4">
-          <Image
-            alt="What is a Legal Defamation Notice"
-            className="Importance-img-h-100 w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
         </div>
       </div>
       <p className="main-para pt-3">

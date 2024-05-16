@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/italy-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/legal-notice-for-defamation/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>Defamation is an offence in which a person makes a false statement about another person in front of a third person by words, signs, or visible representations to cause harm and also with the knowledge that it will cause harm to the person's reputation. It is of two types: Civil and Criminal.</p>
                 <div className='page-point'>
                     <ul>
@@ -32,10 +32,10 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Italy</p>
+            <div className='flex-3'>
+                <p className="small-heading text-center">Legal Notice for Defamation</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Italy" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Legal Notice for Defamation" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
