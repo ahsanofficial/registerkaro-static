@@ -6,9 +6,9 @@ export const WhoCanOppose = () => {
   return (
     <div id="WhoCanOppose">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
+        <div className="flex-4">
           <Image
-            alt="Requirements to be fulfilled for International Trademark Registration"
+            alt="Who can oppose the trademark?"
             className="RequirementsToFulfil-img w-100"
             height={300}
             loading="lazy"

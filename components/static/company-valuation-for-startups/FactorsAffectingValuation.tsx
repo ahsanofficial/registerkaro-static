@@ -14,11 +14,11 @@ export const FactorsAffectingValuation = () => {
           <p><strong>4. Team and Execution: </strong>The startup team’s expertise, experience, and ability to execute the business plan are crucial factors influencing valuation. A strong, skilled team often attracts higher valuations.</p>
           <p><strong>5. Funding Round and Investor Sentiment: </strong>Previous funding rounds, investor interest, and market sentiment also influence startup valuations. Successful funding rounds or endorsements from reputable investors can positively impact valuations.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
             <Image
               alt="Factors Affecting Company Valuation for Startups in India"
               className="FactorsAffectingValuation-img w-100"
-              height={530}
+              height={550}
               loading="lazy"
               src={bft}
             />

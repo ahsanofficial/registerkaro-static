@@ -8,7 +8,7 @@ export const ChallengesInValuation = () => {
       <div className="challenges-in-valuation flex w-80 m-auto mobile-flex-column">
         <div className="flex-3">
           <Image
-            alt="Methods Used for Company Valuation of Startups"
+            alt="Challenges in Startup Valuation in India"
             className="ChangesInValuation-img w-100"
             height={290}
             loading="lazy"
