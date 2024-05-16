@@ -1,14 +1,25 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/non-government-organisation/List_of_Documents_Needed_for_NGO.svg";
 
 export const Why = () => {
   return (
     <div id="Instruction">
  <p className='main-para mb-2'>Here is a list of documents essential for different types of NGO registration.</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
         
        
+      <div className="flex-4">
+          <Image
+            alt="List of Documents Needed for NGO Registration:"
+            className="Importance-img-h-100 w-100"
+            height={500}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
+
+
         <div className="flex-7 ">
           <p >
             <strong>1.  Documents Required for Trust Registration:</strong>
@@ -55,17 +66,6 @@ export const Why = () => {
           </p>
           
         </div>
-
-        <div className="flex-3">
-          <Image
-            alt="documents essential for different types of NGO registration  "
-            className="Importance-img-h-100 w-100"
-            height={700}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
-
 
       </div>
     </div>

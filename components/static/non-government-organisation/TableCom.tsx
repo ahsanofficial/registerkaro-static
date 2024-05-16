@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TableCom = () => {
     return (
-        <div id='Tablecom'>
+        <div id='Tablecom' className='w-80 m-auto' >
             
             <table>
                 <tr>

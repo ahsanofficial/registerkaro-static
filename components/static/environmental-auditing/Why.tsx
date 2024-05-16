@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/environmental-auditing/Areas_of_Environmental.svg";
 
 export const Why = () => {
   return (
@@ -23,7 +23,7 @@ export const Why = () => {
           <Image
             alt="areas of the environment audit"
             className="Importance-img-h-100 w-100"
-            height={700}
+            height={800}
             loading="lazy"
             src={dft}
           />
