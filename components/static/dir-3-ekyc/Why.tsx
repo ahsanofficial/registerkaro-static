@@ -1,20 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/dir-3-ekyc/one.svg";
 
 export const Why = () => {
   return (
     <div id="Instruction">
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-3">
-          <Image
-            alt="Instructions for Form No. DIR-3 KYC (Web) "
-            className="Importance-img-h-100 w-100"
-            height={700}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7 ">
           <p >
             <strong>1. Director Identification Number (DIN):</strong>
@@ -106,6 +97,15 @@ export const Why = () => {
             <br />
             </p>
           </p>
+        </div>
+        <div className="flex-3">
+          <Image
+            alt="Instructions for Form No. DIR-3 KYC (Web) "
+            className="Importance-img-h-100 w-100"
+            height={700}
+            loading="lazy"
+            src={dft}
+          />
         </div>
       </div>
     </div>
