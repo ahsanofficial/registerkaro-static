@@ -15,7 +15,7 @@ export const RegionalCumulation = () => {
                     <div>
                         <Image
                             alt="Regional cumulation of origin"
-                            className="RegionalCumulation-img w-100 img-h-100"
+                            className="Importance-img-h-100 w-100"
                             height={250}
                             loading="lazy"
                             src={dft}

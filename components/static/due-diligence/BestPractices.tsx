@@ -17,7 +17,7 @@ export const BestPractices = () => {
         <div className="flex-4">
           <Image
             alt="Best Practices to be followed for Effective Due Diligence"
-            className="BestPractices-img w-100 img-h-100"
+            className="Importance-img-h-100 w-100"
             height={620}
             loading="lazy"
             src={bft}

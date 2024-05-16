@@ -9,7 +9,7 @@ export const Cumulation = () => {
                     <div>
                         <Image
                             alt="Cumulation"
-                            className="Cumulation-img w-100 img-h-100"
+                            className="Importance-img-h-100 w-100"
                             height={220}
                             loading="lazy"
                             src={dft}

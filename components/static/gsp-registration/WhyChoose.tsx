@@ -17,7 +17,7 @@ export const WhyChoose = () => {
         <div className="flex-4">
           <Image
             alt="How RegisterKaro Can Assist You in the GSP Registration Process?"
-            className="WhyChoose-img w-100 img-h-100"
+            className="Importance-img-h-100 w-100"
             height={650}
             loading="lazy"
             src={dft}
