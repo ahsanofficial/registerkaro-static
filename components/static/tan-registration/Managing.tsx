@@ -7,7 +7,7 @@ export const Managing = () => {
     <div id="managing">
       <p className="main-para" style={{ textAlign: "left" }}>Any person or organization charged with the duty of deducting or collecting tax at source must apply for a TAN (Tax Deduction and Collection Account Number), in accordance with Section 203A of the Income-tax Act, 1961. Additionally, this section requires the TAN Number to appear in several papers. </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-6">
+        <div className="flex-6 pt-5">
             <p>The following documents should make clear the TAN:</p>
           
             <p><strong>1. </strong>Statements and returns pertaining to TDS (Tax Deducted at Source) or TCS (Tax Collected at Source):</p>
@@ -18,9 +18,9 @@ export const Managing = () => {
         </div>
         <div className="flex-5">
           <Image
-            alt="importance of Obtaining a TAN Number"
+            alt="importance of Obtaining a TAN Number,The importance of Obtaining a TAN Number:"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={370}
             loading="lazy"
             src={dft}
           />

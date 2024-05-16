@@ -62,7 +62,7 @@ const Home = () => {
                <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
             <Hero />
-            <h1 className='main-heading'>Introduction:</h1>
+            <h1 className='main-heading'>Introduction</h1>
             <div className='heading-line'></div>
             <Process />
             <h2 className='main-heading'>Why is there a Necessity / Reason to appoint a Managing Director?</h2>

@@ -18,9 +18,9 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=" GREEN Category Industries processed by District Industries Centers"
+            alt="Documents Required for Consent to Establish (CFE)Application:"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={360}
             loading="lazy"
             src={dft}
           />

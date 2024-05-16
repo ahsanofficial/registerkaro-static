@@ -8,9 +8,9 @@ export const ProcessCompany = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="Procedure for Appointment of Managing Director"
+            alt="TAN Registration"
             className="Importance-img-h-100 w-100"
-            height={340}
+            height={300}
             loading="lazy"
             src={dft}
           />

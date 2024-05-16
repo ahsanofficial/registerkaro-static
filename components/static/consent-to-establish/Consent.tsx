@@ -9,16 +9,16 @@ export const Consent = () => {
       
         <div className="flex-3">
           <Image
-            alt=" Projects Validity Period for Micro and Small scale Green category projects"
+            alt="Consent to Establish a validity period shall be as follows:"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={250}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7 pt-2">
-          <p><strong>1. </strong> Projects Validity Period for Micro and Small scale Green category projects Combined CTE & CTO issued for 15 years after collecting 5 years fees.</p>
-          <p><strong>2. </strong>For all other projects, CTE is issued for 5 Years (1 year fee).</p>
+        <div className="flex-7 pt-5">
+          <p className="pt-2"><strong>1. </strong> Projects Validity Period for Micro and Small scale Green category projects Combined CTE & CTO issued for 15 years after collecting 5 years fees.</p>
+          <p className="pt-2"><strong>2. </strong>For all other projects, CTE is issued for 5 Years (1 year fee).</p>
          
         </div>
       </div>

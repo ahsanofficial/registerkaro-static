@@ -10,7 +10,7 @@ export const WhyChoose = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
       
-        <div className="flex-7">
+        <div className="flex-7  pt-4">
             <p><strong>Group of Experts: </strong>RegisterKaro holds a large group of experts from all over the world having specialization in TAN registration services. Our team of experts make sure that you work is taken care of in the most effective possible manner.</p>
 
             <p><strong>Cost-effective: </strong>RRegisterKaro TAN registration services are of premium quality at the most efficient rate, which suits the client’s pocket, making sure that quality service is not the only thing which client gets on our platform.</p>
@@ -22,9 +22,9 @@ export const WhyChoose = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt="RegisterKaro helps you in the registration process"
+            alt="How RegisterKaro helps you in the registration process?"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={540}
             loading="lazy"
             src={dft}
           />

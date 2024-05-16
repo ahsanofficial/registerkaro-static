@@ -5,8 +5,8 @@ import dft from "../../../assets/images/static/appointment-of-managing-director/
 export const Appointment = () => {
   return (
     <div id="appointment">
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-      <div className="flex-3">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="flex-4">
           <Image
             alt=" List of the documents required for the Appointment of Managing Director"
             className="Importance-img-h-100 w-100"
@@ -16,7 +16,7 @@ export const Appointment = () => {
           />
         </div>
       
-        <div className="flex-7 pt-2">
+        <div className="flex-4 pt-3">
           <p><strong>1. </strong> Self-attested Identification Proof.</p>
           <p><strong>2. </strong>Residential Proof.</p>
           <p><strong>3. </strong>Passport Size Photograph.</p>

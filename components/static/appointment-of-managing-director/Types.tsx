@@ -6,11 +6,11 @@ export const Types = () => {
   return (
     <div id="Types">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
+      <div className="flex-3">
           <Image
-            alt="Necessity / Reason to appoint a Managing Director"
+            alt="Why is there a Necessity / Reason to appoint a Managing Director?"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={400}
             loading="lazy"
             src={dft}
           />

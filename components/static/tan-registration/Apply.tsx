@@ -12,13 +12,13 @@ export const Apply = () => {
           <Image
             alt=" Process to apply for TAN Registration:"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={560}
             loading="lazy"
             src={dft}
           />
         </div>
       
-        <div className="flex-7 pt-2">
+        <div className="flex-7 pt-4">
           <p><strong>1. </strong> Go to the NSDL official website at TAN apply online.</p>
           <p><strong>2. </strong>Select the 49B form and choose the appropriate category. It could be for an individual, a Company, a Trust, a Government Organization, or any other applicable category and download the form.</p>
           <p><strong>3. </strong> Fill in the TAN application form with accurate information. Provide details such as the applicant’s name, address, contact information, date of birth/incorporation, and other relevant particulars and prepare a DD or challan.</p>

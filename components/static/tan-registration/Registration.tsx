@@ -9,7 +9,7 @@ export const Registration = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
      
       
-        <div className="flex-7 pt-2">
+        <div className="flex-7 pt-3">
           <p className="ps-5"><strong>1. </strong>Passport Size Photo .</p>
           <p className="ps-5"><strong>2. </strong>Legal Document.</p>
           <p className="ps-5"><strong>3. </strong>Proof of Address for the Registered office.

@@ -23,11 +23,11 @@ NOC at highly competitive rates, ensuring that quality service remains accessibl
             <p><strong>Process Alteration:  </strong>For the fact that we focus on a Client-centric approach, we keep our process structurization open for the client to alter it as per their need, requirements, and vision.  For us, obtaining the best results is the focus, along with the Client satisfaction.</p>
             <p><strong>Trusted Partner of 10,000+ Clientele: </strong>With trust as our cornerstone, RegisterKaro has garnered the loyalty of over 10,000 satisfied clients. Our unwavering commitment to quality and assurance has earned us the enduring trust of our esteemed clientele. Enroll with RegisterKaro today and experience excellence firsthand.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
-            alt="RegisterKaro serves as your ultimate solution for Consent to Establish"
+            alt="How RegisterKaro Can Assist You in the Franchise Agreement Process?"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={550}
             loading="lazy"
             src={dft}
           />

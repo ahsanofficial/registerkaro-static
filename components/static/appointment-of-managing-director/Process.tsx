@@ -44,7 +44,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Appointment of managing director</p>
                 <div>
-                    <Image alt="regulatory authority for implementing various pollution control laws," className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="An Appointment of a Managing Director (MD) is necessary to lead and manage a company's overall operations. " className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

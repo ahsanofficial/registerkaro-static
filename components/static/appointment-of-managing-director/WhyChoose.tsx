@@ -7,7 +7,7 @@ export const WhyChoose = () => {
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro serves as your ultimate solution for appointment of MD, offering a multitude of benefits:
 </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
       
         <div className="flex-7">
@@ -23,9 +23,9 @@ export const WhyChoose = () => {
 
         <div className="flex-4">
           <Image
-            alt="RegisterKaro serves as your ultimate solution for Consent to Establish"
+            alt="How RegisterKaro Can Assist You in the Franchise Agreement Process?"
             className="Importance-img-h-100 w-100"
-            height={450}
+            height={550}
             loading="lazy"
             src={dft}
           />

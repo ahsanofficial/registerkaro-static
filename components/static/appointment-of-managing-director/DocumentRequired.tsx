@@ -6,7 +6,7 @@ export const DocumentRequired = () => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
+      <div className="flex-3">
           <Image
             alt=" Section 96 of the Companies Act "
             className="Importance-img-h-100 w-100"

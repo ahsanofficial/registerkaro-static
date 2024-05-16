@@ -13,8 +13,7 @@ import ten from "../../../assets/images/pvt-reg/HowToRegister/ten.svg";
 import eleven from "../../../assets/images/pvt-reg/HowToRegister/eleven.svg";
 
 import arrow from "../../../assets/images/pvt-reg/HowToRegister/arrow.svg";
-import { text } from "stream/consumers";
-import { AlignLeft } from "phosphor-react";
+
 
 export const Publiclimited = () => {
   const [active, setActive] = useState("1");
@@ -26,7 +25,7 @@ export const Publiclimited = () => {
     <div className="DocumentButtonWise w-80 m-auto" id="Publiclimited">
      
       
-      <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
+      <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
       
 
 

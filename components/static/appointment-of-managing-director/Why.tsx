@@ -9,7 +9,7 @@ export const Why = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
         
-        <div className="flex-7 pt-2">
+        <div className="flex-7 pt-3">
           <p><strong>1. </strong>Eligibility as per the Articles of Association.</p>
           <p><strong>2. </strong>Age requirement: Above 18 years.</p>
           <p><strong>3. </strong>Qualification as per Companies Act, 2013.No specific educational qualification is mandated by the Companies Act.</p>
@@ -20,7 +20,7 @@ export const Why = () => {
           <Image
             alt="Eligibility Criteria for the Appointment of Managing Director"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={320}
             loading="lazy"
             src={dft}
           />

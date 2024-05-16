@@ -9,14 +9,14 @@ export const Why = () => {
       
         <div className="flex-3">
           <Image
-            alt="Consent to Establish a validity period shall be as follows"
+            alt="Things to know about conset to Establish(CFE)"
             className="Importance-img-h-100 w-100"
             height={300}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7 pt-2">
+        <div className="flex-7 pt-4">
           <p><strong>1. </strong> Application for NOC from the Board must be submitted online through portals.</p>
           <p><strong>2. </strong>The NOC issued by the Board remains valid for seven (7) years.</p>
           <p><strong>3. </strong>The application fee for Consent to Establish is determined based on the Gross Capital Investment concerning land, building, and plant machinery for the project.</p>

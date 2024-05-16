@@ -15,11 +15,11 @@ export const Advantage = () => {
             <p><strong>Enhance Resource Efficiency: </strong>Implementing pollution control measures often helps to improve resource efficiency, reducing waste generation, water and energy consumption, and overall operational costs.</p>
             <p><strong>Innovation and Competitiveness: </strong>Self-certified Site plan/layout with Road map / Route map.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
-            alt="establishment and operation from the Pollution Control Committee"
+            alt="Advantages of Consent to Establish (NOC)"
             className=" Importance-img-h-100 w-100"
-            height={350}
+            height={530}
             loading="lazy"
             src={dft}
           />
