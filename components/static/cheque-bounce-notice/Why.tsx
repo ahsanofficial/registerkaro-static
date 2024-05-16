@@ -13,12 +13,12 @@ export const Why = () => {
           <Image
             alt="When do you receive a notice for Cheque Bounce?"
             className="Importance-img-h-100 w-100"
-            height={450}
+            height={380}
             loading="lazy"
             src={dft}
           />
         </div>
-         <div className="flex-7 pt-2">
+         <div className="flex-7 pt-4">
           <p><strong>Insufficient Balance:</strong> When the account balance is insufficient for the cheque to be encashed, then in such scenario it is expected to receive a notice for cheque bounce.</p>
           <p><strong>Expired Cheques:</strong> The cheque will be returned unpaid if it is presented for payment after the specified date..</p>
 
