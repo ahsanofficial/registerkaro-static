@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/gsp-registration/three.svg";
 import Image from 'next/image';
 
 export const RegionalCumulation = () => {
@@ -11,7 +11,7 @@ export const RegionalCumulation = () => {
                     <p><strong>2. </strong>Cumulation allows a product to attain originating status based on the work done in the last processing country, even if it doesn't meet normal origin rules.</p>
                     <p><strong>3. </strong>Products manufactured in one beneficiary country within a regional group can undergo further processing in another beneficiary country within the same group, qualifying them as originating from the country of further manufacture.</p>
                 </div>
-                <div className='flex-5'>
+                <div className='flex-3'>
                     <div>
                         <Image
                             alt="Regional cumulation of origin"

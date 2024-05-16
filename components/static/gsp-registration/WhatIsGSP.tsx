@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/gsp-registration/pre-incorporation.svg";
 import Image from 'next/image';
 
 export const WhatIsGSP = () => {
@@ -10,7 +10,7 @@ export const WhatIsGSP = () => {
                         <Image
                             alt="What is GSP?"
                             className="WhatIsGSP-img w-100 img-h-100"
-                            height={250}
+                            height={275}
                             loading="lazy"
                             src={dft}
                         />

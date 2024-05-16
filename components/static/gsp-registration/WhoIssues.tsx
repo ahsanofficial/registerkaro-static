@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/gsp-registration/whoIssues.svg";
 import Image from 'next/image';
 
 export const WhoIssues = () => {

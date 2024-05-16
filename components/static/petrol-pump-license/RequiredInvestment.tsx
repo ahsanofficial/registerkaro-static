@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/Required Investment for the Procurement of a Fuel Pump License.svg";
 import Image from 'next/image';
 
 export const RequiredInvestment = () => {
@@ -18,7 +18,7 @@ export const RequiredInvestment = () => {
                         <Image
                             alt="Required Investment for the Procurement of a Fuel Pump License"
                             className="RequiredInvestment-img w-100 Importance-img-h-100"
-                            height={200}
+                            height={220}
                             loading="lazy"
                             src={dft}
                         />

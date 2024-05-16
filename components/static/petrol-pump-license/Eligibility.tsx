@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/eligibilityForLicense.svg";
 import Image from 'next/image';
 
 export const Eligibility = () => {
