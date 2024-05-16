@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/static/trademark-reg/trademark_certificate.webp';
+import certificate from '../../../assets/images/static/trademark-rectification/certificate.svg';
 import Image from 'next/image';
 
 
@@ -39,7 +39,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Trademark Sample Certificate</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="Trademark Sample Certificate" className="certificate h-100 w-60 " loading="lazy"  src={certificate} />
+                    <Image alt="What is Trademark Rectification?" className="certificate h-100 w-60 " loading="lazy"  src={certificate} />
                 </div>
             </div>
         </div>
