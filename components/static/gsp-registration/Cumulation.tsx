@@ -1,16 +1,16 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/gsp-registration/two.svg";
 import Image from 'next/image';
 
 export const Cumulation = () => {
     return (
         <div id="Cumulation">
             <div className='cumulation flex w-80 m-auto mobile-flex-column'>
-            <div className='flex-5'>
+                <div className='flex-3'>
                     <div>
                         <Image
                             alt="Cumulation"
                             className="Cumulation-img w-100 img-h-100"
-                            height={200}
+                            height={220}
                             loading="lazy"
                             src={dft}
                         />

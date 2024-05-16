@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/The licenses and certificates required to open a Petrol Pump.svg";
 import Image from 'next/image';
 
 export const LicenseCertificatedRequired = () => {
