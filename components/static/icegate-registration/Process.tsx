@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/italy-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/icegate-registration/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>ICEGATE stands for Indian Customs Electronic Gateway. It is an online platform that facilitates the filing of customs and import-export documents, reducing paperwork and accelerating the customs clearance process. The registration of ICEGATE is mandatory for cargo carriers and trading partners. It provides benefits such as reduced processing time, lower overall costs due to reduced manpower requirements, and increased visibility into shipment status.</p>
                 <div className='page-point'>
                     <ul>
@@ -38,10 +38,10 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Italy</p>
+            <div className='flex-3'>
+                <p className="small-heading text-center">Icegate Registration</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Italy" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Icegate Registration" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
