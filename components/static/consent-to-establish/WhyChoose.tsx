@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/consent to establish/How RegisterKaro Can Assist You in the Franchise Agreement Process_.svg";
 
 export const WhyChoose = () => {
   return (

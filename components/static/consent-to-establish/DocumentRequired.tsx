@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/consent to establish/Procedure for Consent To Establish.svg";
 
 export const DocumentRequired = () => {
   return (

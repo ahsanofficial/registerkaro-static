@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/List of the documents required for the Appointment of Managing Director.svg";
 
 export const Appointment = () => {
   return (
@@ -10,7 +10,7 @@ export const Appointment = () => {
           <Image
             alt=" List of the documents required for the Appointment of Managing Director"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={400}
             loading="lazy"
             src={dft}
           />

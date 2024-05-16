@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/consent to establish/Advantages of Consent to Establish (NOC).svg";
 
 export const Advantage = () => {
   return (

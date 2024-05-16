@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-Registration/Characteristics of TAN Registration_.svg";
 
 export const Publiclimited = () => {
   return (
@@ -17,11 +17,11 @@ export const Publiclimited = () => {
 
 
         </div>
-        <div className="flex-4">
+        <div className="flex-5">
           <Image
             alt="Characteristics of TAN Registration:"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={490}
             loading="lazy"
             src={dft}
           />

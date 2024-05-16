@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-Registration/Documents Required for TAN Registration.svg";
 
 export const Registration = () => {
   return (
@@ -21,7 +21,7 @@ export const Registration = () => {
     
 
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="  Documents Required for TAN Registration"
             className="Importance-img-h-100 w-100"
