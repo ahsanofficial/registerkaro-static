@@ -7,9 +7,6 @@ import { FactorsAffectingValuation } from '../components/static/company-valuatio
 import { ChallengesInValuation } from '../components/static/company-valuation-for-startups/ChallengesInValuation'
 import { WhyForStartupEvaluation } from '../components/static/company-valuation-for-startups/WhyForStartupEvaluation'
 
-const faq = [
-    
-]
 
 
   

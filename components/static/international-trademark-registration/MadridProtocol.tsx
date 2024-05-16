@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/international-trademark-registration/Madrid Protocol & Madrid Agreement.svg";
 
 export const MadridProtocol = () => {
   return (
@@ -22,7 +22,7 @@ export const MadridProtocol = () => {
           <Image
             alt="Madrid Protocol & Madrid Agreement"
             className="MadridProtocol-img w-100"
-            height={450}
+            height={440}
             loading="lazy"
             src={bft}
           />
