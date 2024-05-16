@@ -58,7 +58,7 @@ const faq = [
   
 const Home = () => {
     return (
-        <div className='services-pages dubai-reg'>
+        <div className='services-pages'>
             <Head>
                  <title>DIR-3-ekyc | RegisterKaro</title> 
                  <meta name="description" content="The Official RegisterKaro" />

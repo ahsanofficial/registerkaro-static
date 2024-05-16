@@ -10,15 +10,15 @@ export const Prerequisites = () => {
           <Image
             alt="prerequisites for e-Form Dir-3 KYC"
             className="Importance-img-h-100 w-100"
-            height={250}
+            height={300}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7">
-            <p><strong>1 . </strong>Possession of valid identification documents such as PAN card, Aadhar card, passport, etc.</p>
-            <p><strong>2 . </strong>Active Director Identification Number (DIN) registered with the Ministry of Corporate Affairs.</p>
-            <p><strong>3 . </strong>Valid digital signature certificate (DSC) for electronic submission of the form.</p>
+        <div className="flex-7 pt-5">
+            <p className="pt-4"><strong>1 . </strong>Possession of valid identification documents such as PAN card, Aadhar card, passport, etc.</p>
+            <p className="pt-4"><strong>2 . </strong>Active Director Identification Number (DIN) registered with the Ministry of Corporate Affairs.</p>
+            <p className="pt-4"><strong>3 . </strong>Valid digital signature certificate (DSC) for electronic submission of the form.</p>
             
         </div>
       </div>
