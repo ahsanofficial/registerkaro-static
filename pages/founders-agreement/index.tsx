@@ -365,7 +365,7 @@ const Home = () => {
             <TerminateMeaning cityName={'India'}/>
             <h2 className='main-heading'>Why choose Registerkaro for Founders’ Agreement service?</h2>
             <div className='heading-line'></div>
-            <WhyChooseReg/>
+            <WhyChooseReg cityName={'India'}/>
             <h2 className="main-heading">FAQs</h2>
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />

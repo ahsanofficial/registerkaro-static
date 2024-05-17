@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/environmental-auditing/two.svg";
-
-export const Phases = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Phases = ({ cityName }: HeroProps) => {
   return (
     <div id="phases">
       <p className="main-para">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/environmental-auditing/Process_of_Environmental.svg";
-
-export const ProcessEnvironment = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessEnvironment = ({ cityName }: HeroProps) => {
   return (
     <div id="processenvironment">
         <p className="main-para">The steps that are involved in the environemntal audits are:</p>
