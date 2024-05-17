@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/safta-license/one.svg";
 
-export const ApplicableGovernments = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ApplicableGovernments = ({ cityName }: HeroProps) => {
   return (
     <div id="ApplicableGovernments">
       <p className="main-para">

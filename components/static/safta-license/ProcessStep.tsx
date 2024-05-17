@@ -10,7 +10,11 @@ import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
 import eight from '../../../assets/images/pvt-reg/HowToRegister/eight.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
-export const ProcessStep = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ProcessStep = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -19,7 +23,7 @@ export const ProcessStep = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='ProcessStep'>
         <div className='flex flex-column justify-content-center'>
-        <p className='main-para mb-2'>To leverage the preferential tariff treatment under the SAFTA agreement, Indian exporters must obtain SAFTA Certificate of Origin for their products. This certificate, issued by relevant authorities in India, confirms that the exported products meet the criteria for preferential treatment under the SAFTA agreement.</p>
+        <p className='main-para mb-2'>To leverage the preferential tariff treatment under the SAFTA agreement, Indian exporters must obtain SAFTA Certificate of Origin for their products. This certificate, issued by relevant authorities in {cityName}, confirms that the exported products meet the criteria for preferential treatment under the SAFTA agreement.</p>
         <p className="main-para mb-4">Here is the registration process:</p>
       </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
@@ -70,7 +74,7 @@ export const ProcessStep = () => {
         <div className='flex-5 text-justify fs-20 p-color-black'>
           <div className={`${active === '1' ? 'active' : 'none'}`}>
             <h3>Step 1: Obtain an IEC Code </h3>
-            <p className='mb-0'>The first step is to acquire an Import-Export Code (IEC) from the Director-General of Foreign Trade (DGFT). This 10-digit PAN-based code is necessary for all import and export activities in India.
+            <p className='mb-0'>The first step is to acquire an Import-Export Code (IEC) from the Director-General of Foreign Trade (DGFT). This 10-digit PAN-based code is necessary for all import and export activities in {cityName}.
             </p>
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>

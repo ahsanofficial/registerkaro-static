@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/safta-license/List of documents required for SAFTA Licence registration.svg";
 
-const DocumentReq = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const DocumentReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentReq">
       <div className="flex w-80 m-auto mobile-flex-column">
@@ -58,7 +62,7 @@ const DocumentReq = () => {
             </li>
             <li>
               <strong>Certificate of Origin: </strong>Certificate confirming the
-              origin of the goods, issued by the relevant authority in India.
+              origin of the goods, issued by the relevant authority in {cityName}.
             </li>
             <li>
               <strong>Other Supporting Documents: </strong>Any additional
