@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/common-images/Why _choose.svg";
-
-export const HowRegisterKaro = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const HowRegisterKaro = ({ cityName }: HeroProps) => {
   return (
     <div id="HowRegisterKaro">
       <p className="main-para">
