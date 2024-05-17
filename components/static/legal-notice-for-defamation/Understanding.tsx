@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/legal-notice-for-defamation/one.svg";
-
-export const Understanding = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Understanding = ({ cityName }: HeroProps) => {
   return (
     <div id="Understanding">
       <div className="flex w-80 m-auto mobile-flex-column">
