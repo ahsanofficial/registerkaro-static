@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/icegate-registration/one.svg";
-
-const CorporateEntity = () => {
+interface HeroProps {
+    cityName: string;
+}
+const CorporateEntity = ({ cityName }: HeroProps) => {
   return (
     <div id="CorporateEntity">
       <p className="main-para">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/icegate-registration/documents.svg";
-
-const DocumentPrerequisites = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentPrerequisites = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentPrerequisites">
       <p className="main-para">
