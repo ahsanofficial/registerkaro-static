@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/consent-to-establish/document.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -18,7 +18,7 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=" GREEN Category Industries processed by District Industries Centers"
+            alt="Documents Required for Consent to Establish (CFE)Application, GREEN Category Industries processed by District Industries Centers"
             className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"

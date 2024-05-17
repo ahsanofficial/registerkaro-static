@@ -1,18 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-registration/process.svg";
 
 export const Apply = () => {
   return (
     <div id="Apply">
-      <p className="main-para">Following is the process to apply for online TAN Registration:
-</p>
+      <p className="main-para">Following is the process to apply for online TAN Registration</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
             alt=" Process to apply for TAN Registration:"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={400}
             loading="lazy"
             src={dft}
           />

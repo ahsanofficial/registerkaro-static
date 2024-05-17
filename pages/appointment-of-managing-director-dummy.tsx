@@ -62,7 +62,7 @@ const Home = () => {
                <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
             <Hero />
-            <h1 className='main-heading'>Introduction:</h1>
+            <h1 className='main-heading'>An Overview of Appointment of a Managing Director</h1>
             <div className='heading-line'></div>
             <Process />
             <h2 className='main-heading'>Why is there a Necessity / Reason to appoint a Managing Director?</h2>
@@ -71,7 +71,7 @@ const Home = () => {
             <h2 className='main-heading'>Eligibility Criteria for the Appointment of Managing Director</h2>
             <div className='heading-line'></div>
             <Why />
-            <h2 className='main-heading'>Section 96 of the Companies Act has prescribed the provision for the appointment of Directors:</h2>
+            <h2 className='main-heading'>Section 96 of the Companies Act has prescribed the provision for the appointment of Directors</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
             <h2 className='main-heading'>Procedure for Appointment of Managing Director</h2>
@@ -86,7 +86,7 @@ const Home = () => {
             <h2 className='main-heading'>List of the documents required for the Appointment of Managing Director </h2>
             <div className='heading-line'></div>
             <Appointment /> 
-            <h2 className='main-heading'>How RegisterKaro Can Assist You in the Franchise Agreement Process?</h2>
+            <h2 className='main-heading'>How RegisterKaro Can Assist You in Appointment of Managing Director</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
             <h2 className="main-heading">Why RegisterKaro?</h2>
