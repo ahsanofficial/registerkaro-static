@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/non-government-organisation/Benefits_of_Registration_NGO.svg";
-
-export const Registration_Ngo = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Registration_Ngo = ({ cityName }: HeroProps) => {
   return (
     <div id="registration_ngo">
  <p className='main-para mb-2'>They can experiment freely with innovative approaches and, if necessary, to take risks.</p>

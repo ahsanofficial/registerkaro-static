@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/non-government-organisation/What_eligibility_criteria_should.svg";
-
-export const Eligibility = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Eligibility = ({ cityName }: HeroProps) => {
   return (
     <div id="eligibility">
         <p className="main-para">To establish an NGO, prospective founders must adhere to specific eligibility criteria. These prerequisites vary depending on the chosen legal structure:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/non-government-organisation/List_of_Documents_Needed_for_NGO.svg";
-
-export const Why = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="Instruction">
  <p className='main-para mb-2'>Here is a list of documents essential for different types of NGO registration.</p>
