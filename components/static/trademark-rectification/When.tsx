@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-rectification/When_can_you_file_fo.svg";
-
-const When = () => {
+interface HeroProps {
+    cityName: string;
+}
+const When = ({ cityName }: HeroProps) => {
   return (
     <div id="When">
       <p className="main-para">

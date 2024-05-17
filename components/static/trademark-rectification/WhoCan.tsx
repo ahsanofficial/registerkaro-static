@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-rectification/Who_can_file_for_Trademark_Rectification.svg";
-
-const WhoCan = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhoCan = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCan">
         <p className="main-para">Any person connected to a trademark registration or negatively impacted by one has the right to request rectification, per Section 57 of the Act. It is crucial to remember that not every circumstance can be corrected, and in certain instances, correcting a mistake can lead to trademark registration being cancelled. As a result, care should be taken when handling this process. Any of the following can file for Trademark rectification:</p>
