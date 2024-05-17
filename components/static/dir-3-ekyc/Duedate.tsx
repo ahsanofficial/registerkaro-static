@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/dir-3-ekyc/onetwo.svg";
-
-export const Duedate = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Duedate = ({ cityName }: HeroProps) => {
   return (
     <div id="duedate">
        

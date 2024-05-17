@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/dir-3-ekyc/one.svg";
-
-export const Why = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="Instruction">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
@@ -71,11 +73,11 @@ export const Why = () => {
            
             <p className="ps-5 pt-2"> 1. Father’s Name
             <br />
-            2. Citizen of India
+            2. Citizen of {cityName}
             <br />
             3. Nationality
             <br />
-            4. Resident of India
+            4. Resident of {cityName}
             <br />
             5. Date of Birth
             <br />

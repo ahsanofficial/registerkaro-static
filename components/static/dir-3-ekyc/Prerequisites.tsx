@@ -1,7 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/dir-3-ekyc/What is e-Form DIR-3 KYC.svg";
-export const Prerequisites = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Prerequisites = ({ cityName }: HeroProps) => {
   return (
     <div id="prerequisites">
         <p className="main-para">Before initiating the filing process, directors must ensure they fulfill the following prerequisites:</p>
