@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/common-images/Why _choose.svg";
-
-const HowRegisterKaro = () => {
+interface HeroProps {
+    cityName: string;
+}
+const HowRegisterKaro = ({ cityName }: HeroProps) => {
   return (
     <div id="HowRegisterKaro">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
