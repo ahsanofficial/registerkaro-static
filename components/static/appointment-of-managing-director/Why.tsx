@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/appointment-of-managing-director/Eligibility_Criteria_for_the_Appointment_of_Managing_Director.svg";
 
-export const Why = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyReg">
       <p className="main-para">The individual must meet the following criteria:</p>

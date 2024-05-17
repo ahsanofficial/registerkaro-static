@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-hearing/What are the Key Considerations for a Successful Hearing.svg";
 
-const KeyConsiderations = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const KeyConsiderations = ({ cityName }: HeroProps) => {
   return (
     <div id="KeyConsiderations">
       <p className="main-para">To increase the favorable possibilities of the decision of the Trademark Registrar parties shall consider the following points for hearing.</p>

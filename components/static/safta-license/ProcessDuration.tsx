@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/safta-license/three.svg";
 
-const ProcessDuration = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const ProcessDuration = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcessDuration">
       <div className="flex w-80 m-auto mobile-flex-column">

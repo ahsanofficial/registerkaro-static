@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/consent-to-establish/document.svg";
 
-export const DocumentRequired = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
         <p className="main-para">For Consent to Establish (CFE)[for GREEN Category Industries processed by District Industries Centers]:</p>

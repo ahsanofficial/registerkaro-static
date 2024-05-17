@@ -1,6 +1,10 @@
 import React from 'react'
 
-export const TerritorialJurisdictions = ()=> {
+interface HeroProps {
+    cityName: string;
+}
+
+export const TerritorialJurisdictions = ({ cityName }: HeroProps)=> {
     return (
         <div id='TerritorialJurisdictions'>
             <table>

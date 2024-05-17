@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/franchise-agreement/Key_Elements_of_a_Franchise_Agreement.svg";
 
-const KeyElements = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const KeyElements = ({ cityName }: HeroProps) => {
   return (
     <div id="KeyElements">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

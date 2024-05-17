@@ -1,11 +1,15 @@
 import certificate from '../../../assets/images/static/appointment-of-managing-director/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>An Appointment of a Managing Director (MD) is necessary to lead and manage a company's overall operations. The statutory requirements for appointing a Managing Director in India apply to both private and public companies, with eligibility criteria including qualifications, citizenship, and residency status, necessitating compliance with the Companies Act and other regulations, along with specific disclosures and approvals, conferring key responsibilities and powers, subject to any tenure restrictions and provisions for reappointment, impacting corporate governance practices, and influencing the rights and duties of the Board of Directors and shareholders.</p>
+                <p className='text-justify'>An Appointment of a Managing Director (MD) is necessary to lead and manage a company's overall operations. The statutory requirements for appointing a Managing Director in {cityName} apply to both private and public companies, with eligibility criteria including qualifications, citizenship, and residency status, necessitating compliance with the Companies Act and other regulations, along with specific disclosures and approvals, conferring key responsibilities and powers, subject to any tenure restrictions and provisions for reappointment, impacting corporate governance practices, and influencing the rights and duties of the Board of Directors and shareholders.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/franchise-agreement/Limited_Liability_Partnership_LLP_as_a_Corporate_Entity.svg";
 
-export const DocumentRequired = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-hearing/List of documents required for Trademark Hearing.svg";
 
-const DocumentReq = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const DocumentReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentReq">
       <div className="flex w-80 m-auto mobile-flex-column">

@@ -1,7 +1,11 @@
 import certificate from '../../../assets/images/static/franchise-agreement/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -29,7 +33,7 @@ export const Process = () => {
                              <li>Advantages of Franchise Agreement</li>
                             </a>
                             <a href="#Various" className="scrollTo">
-                             <li>Various laws that govern a Franchise Agreement in India</li>
+                             <li>Various laws that govern a Franchise Agreement in {cityName}</li>
                             </a>
                             <a href="#WhyChoose" className="scrollTo">
                              <li>How RegisterKaro Can Assist You in the Franchise Agreement Process</li>

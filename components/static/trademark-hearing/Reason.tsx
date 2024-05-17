@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-hearing/Reason for Hearing Notices on Trademark.svg";
 
-const Reason = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Reason = ({ cityName }: HeroProps) => {
   return (
     <div id="Reason">
       <div className="flex w-80 m-auto mobile-flex-column">

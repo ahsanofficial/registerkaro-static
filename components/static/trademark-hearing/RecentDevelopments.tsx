@@ -2,11 +2,15 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-hearing/one.svg";
 
-const RecentDevelopments = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const RecentDevelopments = ({ cityName }: HeroProps) => {
   return (
     <div id="RecentDevelopments">
       <p className="main-para">
-      Trademark hearings in India are continuously evolving, with several recent developments and emerging trends we are discussing below:
+      Trademark hearings in {cityName} are continuously evolving, with several recent developments and emerging trends we are discussing below:
       </p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6 pt-5">
