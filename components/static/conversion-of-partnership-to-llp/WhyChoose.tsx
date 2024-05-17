@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/Why_Choose_LLP_ .svg";
 
 export const WhyChoose = () => {
   return (
@@ -9,9 +9,9 @@ export const WhyChoose = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Qatar?"
+            alt="Why Choose LLP?"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={320}
             loading="lazy"
             src={bft}
           />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/common-images/Why _choose.svg";
+import dft from "../../../assets/images/static/response-to-trademark-objection/How RegisterKaro_Can_Assist_You_in_the_Network_Licensing_Process_.svg";
 
 export const WhyChoose = () => {
   return (
@@ -10,11 +10,11 @@ export const WhyChoose = () => {
         Objection, offering a multitude of benefits:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
-            alt="Why Choose RegisterKaro for Company Registration in Qatar?"
+            alt="How RegisterKaro Can Assist You in the Network Licensing Process?"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={550}
             loading="lazy"
             src={dft}
           />

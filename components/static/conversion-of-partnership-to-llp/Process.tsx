@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/conversion-of-partnership-to-llp/conversion_of_partnership_tollp.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -47,7 +47,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">Conversion of Partnership To LLP</p>
                 <div className='d-flex justify-content-center'>
-                    <Image alt="An Overview of Company Registration in Qatar" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="An Overview of Conversion of Partnership To LLP" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

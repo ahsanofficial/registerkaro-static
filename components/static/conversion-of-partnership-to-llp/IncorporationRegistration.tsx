@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/one.svg";
 
 const IncorporationRegistration = () => {
   return (
@@ -11,11 +11,11 @@ const IncorporationRegistration = () => {
             <p><strong>2.</strong> The Registrar retains the incorporation document and initiates further actions if the condition outlined in clause (a) of subsection (1) of section 11 has been satisfied.</p>
             <p><strong>3.</strong> Within fourteen days of compliance, the Registrar Registers the incorporation document and issues a certificate confirming the incorporation of the limited liability partnership, using the specified name. The Registrar may consider the statement provided under clause (c) of subsection (1) of section 11 as sufficient evidence of compliance with the requirement specified in clause (a) of the same subsection. The certificate, bearing the Registrar's signature and authenticated by his official seal, is deemed conclusive evidence of the LLP's incorporation under the specified name.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
         <Image
-            alt=""
+            alt="Incorporation by registration"
             className="Importance-img-h-100 w-100"
-            height={380}
+            height={400}
             loading="lazy"
             src={bft}
           />
