@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-opposition/one.svg";
-
-export const WhoCanOppose = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhoCanOppose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCanOppose">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
