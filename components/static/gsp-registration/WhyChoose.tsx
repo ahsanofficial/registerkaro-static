@@ -18,7 +18,7 @@ export const WhyChoose = () => {
           <Image
             alt="How RegisterKaro Can Assist You in the GSP Registration Process?"
             className="Importance-img-h-100 w-100"
-            height={650}
+            height={530}
             loading="lazy"
             src={dft}
           />

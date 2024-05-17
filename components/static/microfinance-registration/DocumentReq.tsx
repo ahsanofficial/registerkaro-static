@@ -15,7 +15,7 @@ const DocumentReq = () => {
             src={bft}
           />
         </div>
-        <div className="flex-6 pt-4">
+        <div className="flex-6 pt-2">
           <ol>
             <li>Memorandum of Association and Articles of Association</li> 
             <li>Certificate of Incorporation of the company</li> 

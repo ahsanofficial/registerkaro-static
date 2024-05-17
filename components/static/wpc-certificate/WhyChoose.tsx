@@ -25,7 +25,7 @@ export const WhyChoose = () => {
           <Image
             alt="RegisterKaro serves as your ultimate solution for wpc certificate"
             className="Importance-img-h-100 w-100"
-            height={530}
+            height={500}
             loading="lazy"
             src={dft}
           />

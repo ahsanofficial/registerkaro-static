@@ -50,7 +50,7 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Introduction to GSP</p>
+                <p className="small-heading text-center">Generalised System of Preferences</p>
                 <div>
                     <Image alt="Introduction to GSP" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

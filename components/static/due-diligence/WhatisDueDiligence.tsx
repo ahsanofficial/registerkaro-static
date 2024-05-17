@@ -10,12 +10,12 @@ export const WhatisDueDiligence = () => {
           <Image
             alt="What is Due Diligence?"
             className="Importance-img-h-100 w-100"
-            height={180}
+            height={250}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-4">
           <p>A detailed investigation and analysis process conducted by prospective parties involved in a business transaction is known as due diligence. Its objective is to evaluate the legal, financial, operational, and commercial aspects of the target businesses of the entity. Due diligence is required for stakeholders to analyse the risks, opportunities, and overall viability of the business by scrutinizing relevant documents, financial statements, contracts, regulatory compliance, and operational procedures.</p>
         </div>
       </div>

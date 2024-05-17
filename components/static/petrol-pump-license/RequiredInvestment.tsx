@@ -6,7 +6,7 @@ export const RequiredInvestment = () => {
         <div id="RequiredInvestment">
             <p className="main-para">To initiate a conventional gas pump, the candidate must demonstrate the potential to invest a minimum of Rs. 25 lakh, and for rural gas pumps, the candidate must demonstrate a minimum investment of Rs. 12 lakh. The following formats are possible for the investment fund:</p>
             <div className='requiredInvestment flex w-80 m-auto mobile-flex-column-reverse'>
-                <div className="flex-7">
+                <div className="flex-7 pb-5">
                     <p><strong>1. </strong>Money in savings accounts, bank deposits, or registered businesses</p>
                     <p><strong>2. </strong>Certificates of National Savings</p>
                     <p><strong>3. </strong>Bonds</p>
