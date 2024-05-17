@@ -1,16 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/due-diligence/Importance of Due Diligence.svg'
 
 export const Importance = () => {
   return (
     <div id="Importance">
       <p className="main-para">The importance of due diligence is very high in today's revolutionary business context. Below are several factors.</p>
       <div className="Importance flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
+        <div className="flex-3">
           <Image
             alt="Importance of Due Diligence"
-            className="Importance-img w-100 img-h-100"
+            className="Importance-img-h-100 w-100"
             height={550}
             loading="lazy"
             src={bft}

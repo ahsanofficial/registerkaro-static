@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/environmental-auditing/Purpose_of_Environmental.svg";
 
 export const Types = () => {
   return (
@@ -9,9 +9,9 @@ export const Types = () => {
       <div className="Importance-img flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="Types in environment-auditing"
+            alt="Purpose of Environmental Audit"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={550}
             loading="lazy"
             src={dft}
           />

@@ -1,9 +1,21 @@
-.services-pages{
+.wpc-certificate-reg{
+ 
+  .line{
+    width: 4px;
+    background-color: #E9A038;
+    margin: 0 0.5rem;
+  }
+
+ 
     @media screen and (max-width: 990px) {
       
-      .Importance-img-h-100{
-        height: 100%;
-      }
+     .line{
+       display: none;
+
+     }
+     .right{
+      margin-top: -13px;
+     }
     }
   }
   

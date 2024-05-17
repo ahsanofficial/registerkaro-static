@@ -17,9 +17,9 @@ export const WhyChoose = () => {
         </div>
          <div className="flex-3">
           <Image
-            alt="Environment Auditing ?"
+            alt="How does Register Karo Help ?"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={500}
             loading="lazy"
             src={dft}
           />

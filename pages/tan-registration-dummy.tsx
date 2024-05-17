@@ -69,7 +69,7 @@ const Home = () => {
                <link rel="canonical" href="https://www.registerkaro.in/ads/tan-registration" /> 
             </Head>
             <Hero />
-            <h1 className='main-heading'>Overview of TAN Registration:</h1>
+            <h1 className='main-heading'>An Overview of TAN Registration</h1>
             <div className='heading-line'></div>
             <Process />
             <h2 className='main-heading'>TAN: What is it?</h2>
@@ -81,29 +81,22 @@ const Home = () => {
             <h2 className='main-heading'>Who Needs to Get a TAN?</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h2 className='main-heading'>The importance of Obtaining a TAN Number:</h2>
+            <h2 className='main-heading'>The importance of Obtaining a TAN Number</h2>
             <div className='heading-line'></div>
             <Managing />
-            <h2 className='main-heading'>TAN Registration:</h2>
+            <h2 className='main-heading'>TAN Registration</h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-            <h2 className='main-heading'>Characteristics of TAN Registration:</h2>
+            <h2 className='main-heading'>Characteristics of TAN Registration</h2>
             <div className='heading-line'></div>
             <Publiclimited />
-            <h2 className='main-heading'>Benefits of TAN Registration: </h2>
+            <h2 className='main-heading'>Benefits of TAN Registration </h2>
             <div className='heading-line'></div>
             <Appointment />
-
-
-
-            <h2 className='main-heading'>Documents Required for TAN Registration:    </h2>
+            <h2 className='main-heading'>Documents Required for TAN Registration    </h2>
             <div className='heading-line'></div>
             <Registration />  
-
-
-
-
-            <h2 className='main-heading'>Process to apply for TAN Registration:</h2>
+            <h2 className='main-heading'>Process to apply for TAN Registration</h2>
             <div className='heading-line'></div>
             <Apply /> 
             <h2 className='main-heading'>How RegisterKaro helps you in the registration process?</h2>

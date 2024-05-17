@@ -26,20 +26,20 @@ export const Publiclimited = () => {
     <div className="DocumentButtonWise w-80 m-auto" id="Publiclimited">
      
       
-      <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
+      <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
       
 
 
 
         <div className="flex-5 text-justify fs-20 p-color-black">
           <div className={`${active === "1" ? "active" : "none"}`}>
-            <h3>Step 1.Authorization by Articles of Association (AOA):</h3>
+            <h3>Step 1. Authorization by Articles of Association (AOA):</h3>
             <p>
             The AOA contains provisions regarding the appointment, powers, and terms of office of the Managing Director. The company must authorize the appointment of a Managing Director.
             </p>
           </div>
           <div className={`${active === "2" ? "active" : "none"}`}>
-            <h3>Step 2.Board Resolution:</h3>
+            <h3>Step 2. Board Resolution:</h3>
             <p>
             The Board of Directors schedules a meeting to propose the appointment of a Managing Director and a resolution shall be passed by the Board recommending the appointment.
             </p>
@@ -116,7 +116,7 @@ export const Publiclimited = () => {
                 height={30}
               />
               <div className="ms-1 pe-4">
-                Step 1:Authorization by Articles of Association (AOA)
+                Step 1: Authorization by Articles of Association (AOA)
               </div>
               <Image
                 src={arrow}
@@ -142,7 +142,7 @@ export const Publiclimited = () => {
                 width={30}
                 height={30}
               />
-              <div className="ms-1 pe-4"> step 2:Board Resolution</div>
+              <div className="ms-1 pe-4"> step 2: Board Resolution</div>
               <Image
                 src={arrow}
                 alt="arrow"

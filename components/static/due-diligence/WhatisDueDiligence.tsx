@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
+import bft from '../../../assets/images/static/due-diligence/three.svg'
 
 export const WhatisDueDiligence = () => {
   return (
@@ -9,13 +9,13 @@ export const WhatisDueDiligence = () => {
         <div className="flex-3">
           <Image
             alt="What is Due Diligence?"
-            className="WhatisDueDiligence-img w-100 img-h-100"
-            height={180}
+            className="Importance-img-h-100 w-100"
+            height={250}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-4">
           <p>A detailed investigation and analysis process conducted by prospective parties involved in a business transaction is known as due diligence. Its objective is to evaluate the legal, financial, operational, and commercial aspects of the target businesses of the entity. Due diligence is required for stakeholders to analyse the risks, opportunities, and overall viability of the business by scrutinizing relevant documents, financial statements, contracts, regulatory compliance, and operational procedures.</p>
         </div>
       </div>

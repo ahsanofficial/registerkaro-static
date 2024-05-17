@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/qatar-company-registration/types.svg";
+import dft from "../../../assets/images/static/trademark-objection/When do you receive a trademark objection.svg";
 
 export const WhenRecieveObjection = () => {
   return (
@@ -10,7 +10,7 @@ export const WhenRecieveObjection = () => {
             <Image
               alt="When do you receive a trademark objection?"
               className="WhenRecieveObjection-img w-100 img-h-100"
-              height={1000}
+              height={900}
               loading="lazy"
               src={dft}
             />

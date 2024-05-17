@@ -7,7 +7,7 @@ const DocumentsReq = () => {
     <div id="DocumentsReq">
         <p className="main-para"> Following documents are required for Joint Venture Agreement:</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-6 pt-5">
+        <div className="flex-6 pt-2">
         <ol className="fs-5">
               <li>A written agreement signed by all joint venture participants.</li>
               <li>Photocopies of government-issued identity documents of all parties, such as a passport, PAN card, or voter ID card.</li>
@@ -22,7 +22,7 @@ const DocumentsReq = () => {
         <Image
             alt="Documents Required for Joint Venture Agreement"
             className="DocumentsReq-img w-100"
-            height={580}
+            height={500}
             loading="lazy"
             src={bft}
           />

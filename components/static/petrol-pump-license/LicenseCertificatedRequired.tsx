@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/The licenses and certificates required to open a Petrol Pump.svg";
 import Image from 'next/image';
 
 export const LicenseCertificatedRequired = () => {
@@ -16,7 +16,7 @@ export const LicenseCertificatedRequired = () => {
                     <div>
                         <Image
                             alt="The licenses and certificates required to open a Petrol Pump"
-                            className="LicenseCertificatedRequired-img w-100 Importance-img-h-100"
+                            className="Importance-img-h-100 w-100"
                             height={150}
                             loading="lazy"
                             src={dft}

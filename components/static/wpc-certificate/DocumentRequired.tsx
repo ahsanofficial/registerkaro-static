@@ -1,21 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/wpc-certificate/What_are_the_types_of_WPC_Certificate_.svg";
 
 export const DocumentRequired = () => {
   return (
     <div id="DocumentRequired">
         <p className="main-para">There are three types of WPC Certificate which are listed below:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=" the types of WPC Certificate"
-            className="Importance-img-h-100 w-100"
-            height={350}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+    
       
         <div className="flex-7">
             <p><strong>1. Importer's License: </strong> WPC grants importers of wireless products in India an importer's license. Upon obtaining an importer's license, you are permitted to sell wireless devices that have been imported from overseas.</p>
@@ -24,6 +16,15 @@ export const DocumentRequired = () => {
 
            
            
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="What are the types of WPC Certificate?"
+            className="Importance-img-h-100 w-100"
+            height={350}
+            loading="lazy"
+            src={dft}
+          />
         </div>
        
       </div>

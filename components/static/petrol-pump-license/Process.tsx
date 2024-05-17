@@ -1,10 +1,10 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/Vector Smart Object2 221.svg";
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>To increase the number of locations where Oil Marketing Companies can grant licenses for gas pumps, a new dealer selection process has been established. The candidate is first evaluated in accordance with the new process in comparison to pre-established qualifying conditions. All applicants who satisfy the eligibility requirements move on to the next round, when dealers are selected by drawing lots. These days, choosing a gasoline pump dealer or gasoline pump dealer is heavily influenced by eligibility requirements.</p>
                 
                 <div className='page-point'>
@@ -42,10 +42,10 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Overview on Petrol Pump License</p>
+            <div className='flex-4'>
+                <p className="small-heading text-center">Petrol Pump License</p>
                 <div>
-                    <Image alt="Overview on Petrol Pump License" className="certificate h-100 w-100" loading="lazy" src={dft} />
+                    <Image alt="Overview on Petrol Pump License" className="certificate h-100 w-100 m-auto" loading="lazy" src={dft} />
                 </div>
             </div>
         </div>

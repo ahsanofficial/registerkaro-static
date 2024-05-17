@@ -10,7 +10,6 @@ import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-import bft from '../../../assets/images/pvt-reg/benefit.svg'
 
 export const HowToReply = () => {
     const [active, setActive] = useState('1')
@@ -22,19 +21,10 @@ export const HowToReply = () => {
     <div className='DocumentButtonWise w-80 m-auto' id='HowToReply'>
         <p className="main-para">After that, the applicant has a set amount of time—typically four months for regular applications and three months for expedited applications—to submit a response answering the objections. This response may entail:</p>
         <div className="main flex justify-content-between align-center m-auto mobile-flex-column-reverse">
-            <div className='flex-6'>
+            <div className='m-auto'>
                 <p><strong>1. </strong>Presenting justifications and proof for the mark’s uniqueness</p>
                 <p><strong>2. </strong>Changing the application to set the mark apart from others that already exist</p>
                 <p><strong>3. </strong>Refusing to pursue the application if it doesn’t appear likely to be successful</p>
-            </div>
-            <div className='flex-4'>
-                <Image
-                alt="How do you reply to Trademark Objections?"
-                className="HowToReply-img w-100 img-h-100"
-                height={200}
-                loading="lazy"
-                src={bft}
-                />
             </div>
 
         </div>

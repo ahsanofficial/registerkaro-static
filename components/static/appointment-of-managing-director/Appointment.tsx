@@ -1,22 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/List_of_the_documents_required_for_the_Appointment_of_Managing_Director.svg";
 
 export const Appointment = () => {
   return (
     <div id="appointment">
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt=" List of the documents required for the Appointment of Managing Director"
+            alt="List of the documents required for the Appointment of Managing Director"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={385}
             loading="lazy"
             src={dft}
           />
         </div>
       
-        <div className="flex-7 pt-2">
+        <div className="flex-5 pt-4">
           <p><strong>1. </strong> Self-attested Identification Proof.</p>
           <p><strong>2. </strong>Residential Proof.</p>
           <p><strong>3. </strong>Passport Size Photograph.</p>

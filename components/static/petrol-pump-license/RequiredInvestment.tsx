@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/Required Investment for the Procurement of a Fuel Pump License.svg";
 import Image from 'next/image';
 
 export const RequiredInvestment = () => {
@@ -6,7 +6,7 @@ export const RequiredInvestment = () => {
         <div id="RequiredInvestment">
             <p className="main-para">To initiate a conventional gas pump, the candidate must demonstrate the potential to invest a minimum of Rs. 25 lakh, and for rural gas pumps, the candidate must demonstrate a minimum investment of Rs. 12 lakh. The following formats are possible for the investment fund:</p>
             <div className='requiredInvestment flex w-80 m-auto mobile-flex-column-reverse'>
-                <div className="flex-7">
+                <div className="flex-7 pb-5">
                     <p><strong>1. </strong>Money in savings accounts, bank deposits, or registered businesses</p>
                     <p><strong>2. </strong>Certificates of National Savings</p>
                     <p><strong>3. </strong>Bonds</p>
@@ -17,8 +17,8 @@ export const RequiredInvestment = () => {
                     <div>
                         <Image
                             alt="Required Investment for the Procurement of a Fuel Pump License"
-                            className="RequiredInvestment-img w-100 Importance-img-h-100"
-                            height={200}
+                            className="Importance-img-h-100 w-100"
+                            height={220}
                             loading="lazy"
                             src={dft}
                         />

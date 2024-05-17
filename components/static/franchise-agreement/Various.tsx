@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/franchise-agreement/Various_laws_that_govern_a_Franchise_Agreement_in_India.svg";
 
 const Various = () => {
   return (
@@ -8,14 +8,14 @@ const Various = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
         <Image
-            alt=""
+            alt="Various laws that govern a Franchise Agreement in India"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={550}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-5">
+        <div className="flex-5 pt-5">
             <ol>
                 <li>Indian Contract Act.</li>
                 <li>The Foreign Exchange Management Act, 1999 (FEMA).</li>

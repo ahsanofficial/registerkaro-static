@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/environmental-auditing/Benefits.svg";
 
 export const Benifits = () => {
   return (
@@ -8,7 +8,7 @@ export const Benifits = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt="Documents you would need"
+            alt="Benefits of Environmental Audit"
             className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"
@@ -16,7 +16,7 @@ export const Benifits = () => {
           />
         </div>
 
-        <div className="flex-7">
+        <div className="flex-7 mt-3">
             <p><strong>1. </strong>A proper and strucutured tool or statergy to evaluate the companys use of natural resources</p>
             <p><strong>2. </strong>Provides framework for various functioning of the company. </p>
             <p><strong>3. </strong>Gives a positive viewpoint of the company, of their natural usage of their environmental resources.</p>

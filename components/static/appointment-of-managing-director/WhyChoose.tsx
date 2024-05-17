@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/common-images/Why _choose.svg";
 
 export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro serves as your ultimate solution for appointment of MD, offering a multitude of benefits:
 </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
       
         <div className="flex-7">
@@ -21,11 +21,11 @@ export const WhyChoose = () => {
             <p><strong>Trusted Partner of 10,000+ Clientele: </strong>With trust as our cornerstone, RegisterKaro has garnered the loyalty of over 10,000 satisfied clients. Our unwavering commitment to quality and assurance has earned us the enduring trust of our esteemed clientele. Enroll with RegisterKaro today and experience excellence firsthand.</p>
         </div>
 
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
-            alt="RegisterKaro serves as your ultimate solution for Consent to Establish"
+            alt="How RegisterKaro Can Assist You in the Franchise Agreement Process?"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={550}
             loading="lazy"
             src={dft}
           />

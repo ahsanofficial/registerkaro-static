@@ -39,9 +39,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-3'>
-                <p className="small-heading text-center">Company Registration in Italy</p>
+                <p className="small-heading text-center">The South Asian Free Trade Agreement (SAFTA) License</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Italy" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="The South Asian Free Trade Agreement (SAFTA) License" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/international-trademark-registration/Requirements to be fulfilled.svg";
 
 export const RequirementsToFulfil = () => {
   return (
@@ -16,7 +16,7 @@ export const RequirementsToFulfil = () => {
         <div className="flex-4">
           <Image
             alt="Requirements to be fulfilled for International Trademark Registration"
-            className="RequirementsToFulfil-img w-100"
+            className="Importance-img-h-100 w-100"
             height={450}
             loading="lazy"
             src={bft}

@@ -7,16 +7,16 @@ export const WhyChoose = () => {
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for cheque bounce related services for the varied ranges of benefits such as:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
             alt="How RegisterKaro helps you in the Cheque Bounce Notice ?"
             className="Importance-img-h-100 w-100"
-            height={520}
+            height={550}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 pt-2">
           <p><strong>Pool of Experts:</strong> RegisterKaro holds a large pool of Experts from all over the world specializing in Cheque Bounce related services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
           <p><strong>Cost-effective: </strong>RegisterKaro Cheque Bounce related services are of premium quality at the most efficient rate, which suits the client’s pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
           <p><strong>Client-oriented approach:</strong> Our team of experts is well trained and equipped with a client-oriented approach, keeping in mind that the process must be client-centric, focusing on meeting all the requirements of their business and, therefore, satisfying their needs.</p>

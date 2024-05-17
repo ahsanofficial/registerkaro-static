@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/response-to-trademark-objection/onetwo.svg";
 
 const TrademarkObjection = () => {
   return (
@@ -52,9 +52,9 @@ const TrademarkObjection = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt=""
+            alt="Trademark Objection Response: Overcoming Challenges under Sections 9 & 11"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={500}
             loading="lazy"
             src={bft}
           />

@@ -20,7 +20,7 @@ export const IssueCheque = () => {
           <Image
             alt="How do you issue a notice for cheque Bounce?"
             className="Importance-img-h-100 w-100"
-            height={500}
+            height={400}
             loading="lazy"
             src={dft}
           />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/one.svg";
 
 const WhatIs = () => {
   return (
@@ -30,7 +30,7 @@ const WhatIs = () => {
         </div>
         <div className="flex-4">
           <Image
-            alt=""
+            alt="What is a Franchise Agreement?"
             className="Importance-img-h-100 w-100"
             height={400}
             loading="lazy"

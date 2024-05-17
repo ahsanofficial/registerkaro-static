@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/gsp-registration/private (copy).svg";
 import Image from 'next/image';
 
 export const RegionalCumulationGroups = () => {
@@ -6,12 +6,12 @@ export const RegionalCumulationGroups = () => {
         <div>
             <p className="main-para">Regional cumulation applies to three distinct groups of beneficiary countries under GSP:</p>
             <div className='regionalCumulationGroups flex w-80 m-auto mobile-flex-column'>
-                <div className='flex-5'>
+                <div className='flex-3'>
                     <div>
                         <Image
                             alt="Regional cumulation of origin "
-                            className="RegionalCumulationGroups-img w-100 img-h-100"
-                            height={200}
+                            className="Importance-img-h-100 w-100"
+                            height={225}
                             loading="lazy"
                             src={dft}
                         />

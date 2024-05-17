@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/petrol-pump-license/pre-incorporation.svg";
 import Image from 'next/image';
 
 export const Summary = () => {
@@ -10,8 +10,8 @@ export const Summary = () => {
                     <div>
                         <Image
                             alt="In summary"
-                            className="Summary-img w-100 Importance-img-h-100"
-                            height={220}
+                            className="Importance-img-h-100 w-100"
+                            height={240}
                             loading="lazy"
                             src={dft}
                         />

@@ -62,7 +62,7 @@ const Home = () => {
                <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
             </Head>
             <Hero />
-            <h1 className='main-heading'>Introduction:</h1>
+            <h1 className='main-heading'>Introduction</h1>
             <div className='heading-line'></div>
             <Process />
             <h2 className='main-heading'>What is Consent to Establish?</h2>
@@ -71,7 +71,7 @@ const Home = () => {
             <h2 className='main-heading'>Things to know about conset to Establish(CFE)</h2>
             <div className='heading-line'></div>
             <Why />
-            <h2 className='main-heading'>Documents Required for Consent to Establish (CFE)Application:</h2>
+            <h2 className='main-heading'>Documents Required for Consent to Establish (CFE)Application</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
             <h2 className='main-heading'>Procedure for Consent To Establish</h2>
@@ -80,10 +80,10 @@ const Home = () => {
             <h2 className='main-heading'>Advantages of Consent to Establish (NOC):</h2>
             <div className='heading-line'></div>
             <Advantage/>
-            <h2 className='main-heading'>Consent to Establish a validity period shall be as follows: </h2>
+            <h2 className='main-heading'>Consent to Establish a validity period shall be as follows </h2>
             <div className='heading-line'></div>
           <Consent/>
-            <h2 className='main-heading'>How RegisterKaro Can Assist You in the Franchise Agreement Process?</h2>
+            <h2 className='main-heading'>How RegisterKaro Can Assist You in the Consent to Establish?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
             <h2 className="main-heading">Why RegisterKaro?</h2>

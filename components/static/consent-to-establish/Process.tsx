@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/consent-to-establish/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -44,8 +44,8 @@ An application for this consent must be submitted in the prescribed form with th
             </div>
             <div className='flex-5'>
                 <p className="small-heading text-center">Conset-to-Establish</p>
-                <div>
-                    <Image alt="regulatory authority for implementing various pollution control laws," className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                <div className='d-flex justify-content-center'>
+                    <Image alt="regulatory authority for implementing various pollution control laws," className="certificate h-100 w-80" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

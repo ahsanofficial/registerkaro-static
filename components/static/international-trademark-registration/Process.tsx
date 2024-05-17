@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import certificate from "../../../assets/images/static/international-trademark-registration/certificate.svg";
 
 export const Process = () => {
   return (
@@ -42,9 +42,9 @@ export const Process = () => {
             </div>
         </div>
         <div className='flex-5'>
-            <p className="small-heading text-center">Company Registration in Qatar</p>
+            <p className="small-heading text-center">International Trademark Registration</p>
             <div>
-                <Image alt="An Overview of Company Registration in Qatar" className="certificate h-100 w-100" loading="lazy" src={bft} />
+                <Image src={certificate} alt="International Trademark Registration" className="certificate h-100 w-100 Importance-img-h-100" loading="lazy" />
             </div>
         </div>
     </div>

@@ -11,12 +11,12 @@ export const Benefits = () => {
         <Image
             alt="What are the Benefits of Joint Venture?"
             className="Benefits-img w-100"
-            height={380}
+            height={300}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-6 align-items-center pt-5">
+        <div className="flex-6 align-items-center ">
             <ol className="fs-5">
               <li>It allows the parties to pool their resources, expertise, and networks to achieve a common goal.</li>
               <li>It enables the parties to access new markets, customers, and opportunities that they may not be able to reach individually.</li>

@@ -66,7 +66,7 @@ export const ProcessCompany = () => {
                 width={30}
                 height={30}
               />
-              <div className="ms-1 pe-4">Step 2:Select "Apply new ETA"</div>
+              <div className="ms-1 pe-4">Step 2: Select "Apply new ETA"</div>
               <Image
                 src={arrow}
                 alt="arrow"
@@ -116,7 +116,7 @@ export const ProcessCompany = () => {
                 width={30}
                 height={30}
               />
-              <div className="ms-1 pe-4">Step 4:Utilizing WPC</div>
+              <div className="ms-1 pe-4">Step 4: Utilizing WPC</div>
               <Image
                 src={arrow}
                 alt="arrow"

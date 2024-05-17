@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/environmental-auditing/two.svg";
 
 export const Phases = () => {
   return (
@@ -46,9 +46,9 @@ export const Phases = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="Documents you would need"
+            alt="Phases,Phase 1: Pre-Audit Phase,Phase 2: Audit Phase"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={450}
             loading="lazy"
             src={dft}
           />

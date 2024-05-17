@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/gsp-registration/Vector Smart Object2 80.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-7'>
                 <p className='text-justify'>Generalised System of Preferences (GSP) are unilateral preference granted by some developed countries for exports from India. However, the exporters are to satisfy the rules of origin for exports. However, exporters must adhere to stringent rules of origin to qualify for these preferential tariffs. These regulations made under this comply with that the product must be originating from India and exporters must adhere to stringent rules of origin to get eligible for GSP benefits. Compliance with these rules is imperative for Indian exporters seeking to capitalise on the advantages offered by GSP schemes in target markets.</p>
                 
                 <div className='page-point'>
@@ -50,7 +50,7 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Introduction to GSP</p>
+                <p className="small-heading text-center">Generalised System of Preferences</p>
                 <div>
                     <Image alt="Introduction to GSP" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

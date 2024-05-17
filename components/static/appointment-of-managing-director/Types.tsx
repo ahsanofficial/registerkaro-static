@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/onetwo.svg";
 
 export const Types = () => {
   return (
@@ -8,9 +8,9 @@ export const Types = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="Necessity / Reason to appoint a Managing Director"
+            alt="Why is there a Necessity / Reason to appoint a Managing Director?, Necessity / Reason to appoint a Managing Director"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={450}
             loading="lazy"
             src={dft}
           />
