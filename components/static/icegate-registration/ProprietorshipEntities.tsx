@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/icegate-registration/Prerequisites for Proprietorship.svg";
-
-const ProprietorshipEntities = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ProprietorshipEntities = ({ cityName }: HeroProps) => {
   return (
     <div id="ProprietorshipEntities">
       <Image
