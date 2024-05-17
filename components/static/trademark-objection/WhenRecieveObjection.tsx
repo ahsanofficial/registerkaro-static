@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/trademark-objection/When do you receive a trademark objection.svg";
 
-export const WhenRecieveObjection = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhenRecieveObjection = ({ cityName }: HeroProps) => {
   return (
     <div id="WhenRecieveObjection">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

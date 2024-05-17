@@ -1,11 +1,15 @@
 import certificate from '../../../assets/images/static/trademark-objection/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>In India, a trademark objection arises when the Trademark Registry expresses doubts over a trademark application, thereby impeding its prompt registration. Usually, this occurs because the mark has the capacity to violate one of the Trade Marks Act, 1999’s absolute grounds for denial or infringe upon an already-registered brand, i.e., be too similar and would confuse consumers. These justifications consist of:</p>
+                <p className='text-justify'>In {cityName}, a trademark objection arises when the Trademark Registry expresses doubts over a trademark application, thereby impeding its prompt registration. Usually, this occurs because the mark has the capacity to violate one of the Trade Marks Act, 1999’s absolute grounds for denial or infringe upon an already-registered brand, i.e., be too similar and would confuse consumers. These justifications consist of:</p>
                 <p><strong>1. </strong>Absence of uniqueness (using terms that are descriptive or generic)</p>
                 <p><strong>2. </strong>Being dishonest (giving false information about a good or service)</p>
                 <p><strong>3. </strong>resemblance to banned names or insignia</p>
