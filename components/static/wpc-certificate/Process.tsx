@@ -1,7 +1,9 @@
 import certificate from "../../../assets/images/static/wpc-certificate/certificate.svg";
 import Image from "next/image";
-
-export const Process = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
   return (
     <div className="process flex w-80 m-auto mobile-flex-column-reverse">
       <div className="flex-5">
@@ -9,15 +11,15 @@ export const Process = () => {
           An authority certificate known as a WPC certificate or WPC license
           enables Indian importers to purchase radio and wireless equipment from
           overseas. The Department of Telecommunication (DoT) is the one who
-          issues it. Before being imported into India, any radio equipment—such
+          issues it. Before being imported into {cityName}, any radio equipment—such
           as walkie-talkies, RC cars, boats, drones, ZigBee, Bluetooth devices,
           etc.—must receive WPC ETA certification. Customs officers will
-          confiscate radio equipment smuggled into India at the border if they
+          confiscate radio equipment smuggled into {cityName} at the border if they
           don't have prior WPC approval. It is not need to have separate WPC
           permission for routers, laptops, or phones. The product must go
           through the certification process, which includes application,
           evaluation, and testing because of the factory inspection; therefore,
-          any approved testing facility outside of India can conduct the testing
+          any approved testing facility outside of {cityName} can conduct the testing
           before the WPC certificate and ETA (Equipment Type Approval)
           certification number are provided.
         </p>
