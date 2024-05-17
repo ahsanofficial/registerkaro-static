@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/joint-venture-agreement/What are the Benefits.svg";
 
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">A joint venture agreement can be beneficial for various reasons, such as: </p>

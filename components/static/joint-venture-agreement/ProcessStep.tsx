@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/joint-venture-agreement/How to Register a Joint.svg";
-
-export const ProcessStep = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessStep = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcessStep">
-        <p className="main-para">To register a joint venture agreement in India, you need to follow these steps: </p>
+        <p className="main-para">To register a joint venture agreement in {cityName}, you need to follow these steps: </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4 pt-5">
         <Image

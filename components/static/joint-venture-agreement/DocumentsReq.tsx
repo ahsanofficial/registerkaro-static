@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/joint-venture-agreement/Documents Required.svg";
 
-const DocumentsReq = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+const DocumentsReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsReq">
         <p className="main-para"> Following documents are required for Joint Venture Agreement:</p>
