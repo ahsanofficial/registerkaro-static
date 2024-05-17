@@ -390,7 +390,7 @@ const Home = () => {
 
             <h2 className='main-heading'>How RegisterKaro helps you in the Cheque Bounce Notice?</h2>
             <div className='heading-line'></div>
-            <WhyChoose/>
+            <WhyChoose cityName={'India'}/>
 
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>

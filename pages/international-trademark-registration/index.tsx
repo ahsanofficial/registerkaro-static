@@ -375,7 +375,7 @@ const Home = () => {
         <ProcessOfRegn cityName={'India'}/>
         <h2 className="main-heading">How RegisterKaro helps you with the International Trademark Registration?</h2>
         <div className='heading-line'></div>
-        <HowRegisterKaroHelps/>
+        <HowRegisterKaroHelps cityName={'India'}/>
         <h2 className="main-heading">Why RegisterKaro?</h2>
         <div className='heading-line'></div>
         <WhyRegisterkaro />

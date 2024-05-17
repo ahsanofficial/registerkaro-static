@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/environmental-auditing/Areas_of_Environmental.svg";
-
-export const Why = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyReg">
       <p className="main-para">The following are the areas of environmental audit</p>

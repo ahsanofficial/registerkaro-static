@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/cheque-bounce-notice/How do you issue a notic.svg";
- interface HeroProps {
+interface HeroProps {
     cityName: string;
 }
 export const ChequeBounce = ({ cityName }: HeroProps) => {

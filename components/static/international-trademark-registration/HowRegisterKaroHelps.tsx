@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from "../../../assets/images/static/common-images/Why _choose.svg";
-
-export const HowRegisterKaroHelps = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const HowRegisterKaroHelps = ({ cityName }: HeroProps) => {
   return (
     <div id='HowRegisterKaroHelps'>
       <div className="howRegisterKaroHelps flex w-80 m-auto mobile-flex-column">
