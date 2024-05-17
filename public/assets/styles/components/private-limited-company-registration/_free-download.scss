@@ -224,9 +224,12 @@
     }
       
     .new-right{
-        display: flex;
+         display: none;
+        @include tablet{
+            display: flex;
         flex-direction: column;
         gap: 12px;
+        }
         .box{
             display: flex;
             align-items: center;
