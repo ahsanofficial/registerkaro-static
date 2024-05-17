@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/conversion-of-partnership-to-llp/two.svg"
 
-export const DocumentRequired = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <p className="main-para">

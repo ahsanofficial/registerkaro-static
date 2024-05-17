@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/Requirements_for_Conversion_of_Partnership_into_LLP.svg";
 
-const Requirements = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Requirements = ({ cityName }: HeroProps) => {
   return (
     <div id="Requirements">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

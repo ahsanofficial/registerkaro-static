@@ -15,7 +15,11 @@ import eleven from '../../../assets/images/pvt-reg/HowToRegister/eleven.svg'
 import twelve from '../../../assets/images/pvt-reg/HowToRegister/twelve.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
-export const ProcessConversion = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ProcessConversion = ({ cityName }: HeroProps) => {
     const [active, setActive] = useState('1')
   
     const handleActive = (id: string) => {

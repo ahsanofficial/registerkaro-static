@@ -1,11 +1,15 @@
 import certificate from '../../../assets/images/static/conversion-of-partnership-to-llp/conversion_of_partnership_tollp.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+  }
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Limited Liability Partnership (LLP) has been governed in India by the Limited Liability Partnership Act, 2008. LLP is a separate legal entity and it has limited liability for its partners to the extent of their contribution. It combines the advantages of both Partnership and Company. LLP is one of the easiest forms of business to incorporate and manage. This comprehensive guide outlines the legal requirements, provisions, and steps involved in converting a partnership into an LLP. It emphasizes the importance of compliance, planning, and communication throughout the conversion process to ensure a smooth transition and successful integration into an LLP structure. </p>
+                <p className='text-justify'>Limited Liability Partnership (LLP) has been governed in {cityName} by the Limited Liability Partnership Act, 2008. LLP is a separate legal entity and it has limited liability for its partners to the extent of their contribution. It combines the advantages of both Partnership and Company. LLP is one of the easiest forms of business to incorporate and manage. This comprehensive guide outlines the legal requirements, provisions, and steps involved in converting a partnership into an LLP. It emphasizes the importance of compliance, planning, and communication throughout the conversion process to ensure a smooth transition and successful integration into an LLP structure. </p>
                 <div className='page-point'>
                     <ul>
                         <ul>
