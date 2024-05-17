@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/franchise-agreement/Advantages_of_Franchise_Agreement.svg"
 
-const Advantages = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Advantages = ({ cityName }: HeroProps) => {
   return (
     <div id="Advantages">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

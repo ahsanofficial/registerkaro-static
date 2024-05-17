@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/franchise-agreement/Types_of_Franchise_Agreements.svg";
 
-export const Types = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
       <p className="main-para">

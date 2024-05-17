@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/franchise-agreement/Various_laws_that_govern_a_Franchise_Agreement_in_India.svg";
 
-const Various = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Various = ({ cityName }: HeroProps) => {
   return (
     <div id="Various">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
