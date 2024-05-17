@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/appointment-of-managing-director/two.svg";
 
-export const DocumentRequired = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

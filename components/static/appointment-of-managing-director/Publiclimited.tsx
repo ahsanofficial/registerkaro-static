@@ -16,7 +16,11 @@ import arrow from "../../../assets/images/pvt-reg/HowToRegister/arrow.svg";
 import { text } from "stream/consumers";
 import { AlignLeft } from "phosphor-react";
 
-export const Publiclimited = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Publiclimited = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState("1");
 
   const handleActive = (id: string) => {
