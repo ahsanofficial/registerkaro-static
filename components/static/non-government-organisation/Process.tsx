@@ -1,16 +1,18 @@
 import certificate from '../../../assets/images/static/non-government-organisation/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>NGO (Non-Governmental Organisation) is a voluntary group or institution with a social mission, which operates independently from the government. Non-governmental organizations (NGOs) play a pivotal role in India's socio-economic development by addressing various social issues and advocating for change. In this blog, we will explore the legal framework governing NGOs in India, along with the registration process, to provide clarity and guidance for aspiring social entrepreneurs and activists. Establishing and operating an NGO in India involves navigating a multifaceted legal framework and adhering to specific registration procedures.</p>
+                <p className='text-justify'>NGO (Non-Governmental Organisation) is a voluntary group or institution with a social mission, which operates independently from the government. Non-governmental organizations (NGOs) play a pivotal role in {cityName}'s socio-economic development by addressing various social issues and advocating for change. In this blog, we will explore the legal framework governing NGOs in {cityName}, along with the registration process, to provide clarity and guidance for aspiring social entrepreneurs and activists. Establishing and operating an NGO in {cityName} involves navigating a multifaceted legal framework and adhering to specific registration procedures.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
                             <a href="#Benefits" className="scrollTo">
-                                <li>Legal Framework for NGOs in India:</li>
+                                <li>Legal Framework for NGOs in {cityName}:</li>
                             </a>
                             <a href="#Types" className="scrollTo">
                                 <li>Different Types of NGOs:</li>

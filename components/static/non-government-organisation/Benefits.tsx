@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/non-government-organisation/Legal_Framework_for_NGO.svg";
-
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">NGOs may operate under various legal structures, including trusts, societies, and Section 8 of the Companies Act. Each structure has its own set of regulations and requirements, governed primarily by:</p>

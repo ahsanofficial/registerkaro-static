@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const TableCom = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const TableCom = ({ cityName }: HeroProps) => {
     return (
         <div id='Tablecom' className='w-80 m-auto' >
             
@@ -17,7 +19,7 @@ export const TableCom = () => {
                 </tr>
                 <tr>
                     <td>The owner of the property/assets called <br/> the ‘author of the trust’,entitles its ‘trustee’ to hold his <br/> property/assets for the benefit of other authors and beneficiaries.</td>
-                    <td>A society is the simplest form of a Non-Governmental <br/> Organization in India and can be registered to operate <br/> on state level or national level for educational,  <br/>charitable, religious, and social welfare purposes or the promotion <br/> of art, music, culture, science, literature, and political education.</td>
+                    <td>A society is the simplest form of a Non-Governmental <br/> Organization in {cityName} and can be registered to operate <br/> on state level or national level for educational,  <br/>charitable, religious, and social welfare purposes or the promotion <br/> of art, music, culture, science, literature, and political education.</td>
                     <td>All the income, donations, and grants that <br/> are earned by a Section 8 Company, must be  <br/>completely spent on the promotion of the prescribed objects only.</td>
                 </tr>
                
