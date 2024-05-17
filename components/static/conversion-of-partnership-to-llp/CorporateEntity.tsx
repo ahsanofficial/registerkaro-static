@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/Limited_Liability_Partnership_LLP_as_a_Corporate_Entity.svg";
 
-const CorporateEntity = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const CorporateEntity = ({ cityName }: HeroProps) => {
   return (
     <div id="CorporateEntity">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

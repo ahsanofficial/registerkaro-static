@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/pre-incorporation.svg";
 
-const ToIncorporate = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const ToIncorporate = ({ cityName }: HeroProps) => {
   return (
     <div id="ToIncorporate">
         <p className="main-para">The following steps and requirements must be fulfilled</p>

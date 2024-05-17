@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/conversion-of-partnership-to-llp/Why_Choose_LLP_ .svg";
 
-export const WhyChoose = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for Qatar Company Registration for the varied ranges of benefits such as:</p>
