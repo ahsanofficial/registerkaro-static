@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/cheque-bounce-notice/Points to remember for drafting.svg";
- 
-export const DraftingCheque = () => {
+ interface HeroProps {
+    cityName: string;
+}
+export const DraftingCheque = ({ cityName }: HeroProps) => {
   return (
     <div id="Document3">
         <p className="main-para">In order to send out a cheque bounce notice to legal action, the following procedures must be completed</p>

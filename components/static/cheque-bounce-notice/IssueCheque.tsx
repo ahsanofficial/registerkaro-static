@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/cheque-bounce-notice/How do you issue a notice.svg";
- 
-export const IssueCheque = () => {
+ interface HeroProps {
+    cityName: string;
+}
+export const IssueCheque = ({ cityName }: HeroProps) => {
   return (
     <div id="issue">
 
