@@ -15,8 +15,10 @@ let hero = {
         "Tax Return Filing",
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +32,7 @@ export const Hero = () => {
             />
             <div className="header-content">
               <h4 className='mb-4'>Petrol Pump License</h4>
-              <p>In India, one of the most lucrative business ventures is operating a petrol pump. The business has experienced a surge in recent years due to the steadily rising need for fuel. Additionally, the number of cars on Indian roadways has been rising annually, which has led to an increase in consumption of fuel. Secure Your License, Unlock Opportunities by registering it at RegisterKaro.</p>
+              <p>In {cityName}, one of the most lucrative business ventures is operating a petrol pump. The business has experienced a surge in recent years due to the steadily rising need for fuel. Additionally, the number of cars on Indian roadways has been rising annually, which has led to an increase in consumption of fuel. Secure Your License, Unlock Opportunities by registering it at RegisterKaro.</p>
               <div className="packages">
                   {hero.pack_includes?.map((i: any, n: number) => {
                       return (

@@ -1,7 +1,10 @@
 import dft from "../../../assets/images/static/petrol-pump-license/pre-incorporation.svg";
 import Image from 'next/image';
 
-export const Summary = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Summary = ({ cityName }: HeroProps) => {
     return (
         <div id="Summary">
             

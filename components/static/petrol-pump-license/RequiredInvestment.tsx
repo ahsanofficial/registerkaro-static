@@ -1,7 +1,10 @@
 import dft from "../../../assets/images/static/petrol-pump-license/Required Investment for the Procurement of a Fuel Pump License.svg";
 import Image from 'next/image';
 
-export const RequiredInvestment = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RequiredInvestment = ({ cityName }: HeroProps) => {
     return (
         <div id="RequiredInvestment">
             <p className="main-para">To initiate a conventional gas pump, the candidate must demonstrate the potential to invest a minimum of Rs. 25 lakh, and for rural gas pumps, the candidate must demonstrate a minimum investment of Rs. 12 lakh. The following formats are possible for the investment fund:</p>
