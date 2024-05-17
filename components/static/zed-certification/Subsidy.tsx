@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/onetwo.svg";
 
-const Subsidy = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Subsidy = ({ cityName }: HeroProps) => {
   return (
     <div id="Subsidy">
       <p className="main-para">Under this Scheme, any number of Units registered under a single Udyam Registration may apply for a subsidy. To get a subsidy, benefits, or incentives, each Unit (under one Udyam Registration) must apply for certification separately.</p>

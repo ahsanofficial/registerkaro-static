@@ -1,11 +1,13 @@
 import certificate from '../../../assets/images/static/microfinance-registration/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-7'>
-                <p className='text-justify'>Microfinance in India supports low-income individuals by offering microloans, micro-savings, and microinsurance through non-profit organizations. These services cater to those without access to traditional banking. In India, "small loans" are defined as amounts below one lakh rupees.</p>
+                <p className='text-justify'>Microfinance in {cityName} supports low-income individuals by offering microloans, micro-savings, and microinsurance through non-profit organizations. These services cater to those without access to traditional banking. In {cityName}, "small loans" are defined as amounts below one lakh rupees.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

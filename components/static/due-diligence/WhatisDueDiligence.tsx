@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/due-diligence/three.svg'
-
-export const WhatisDueDiligence = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhatisDueDiligence = ({ cityName }: HeroProps) => {
   return (
     <div id="WhatisDueDiligence">
       <div className="whatisDueDiligence flex w-80 m-auto mobile-flex-column">

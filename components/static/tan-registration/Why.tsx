@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/number.svg";
 
-export const Why = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyReg">
       <p className="main-para" style={{ textAlign: "left" }}>The TAN Number, also known as the Tax Deduction and Collection Account Number, is a ten-character alphanumeric number that follows a particular format:</p>

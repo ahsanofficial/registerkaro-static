@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/microfinance-registration/Checklist to Set Up a Microfinance Company Registration_.svg";
-
-const Checklist = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Checklist = ({ cityName }: HeroProps) => {
   return (
     <div id="Checklist">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
@@ -25,7 +27,7 @@ const Checklist = () => {
               <ol>
                 <li>Private Limited and Section 8: Minimum two directors.</li>
                 <li>Public Limited Company: Minimum three directors.</li>
-                <li>At least one director must be a resident of India.</li>
+                <li>At least one director must be a resident of {cityName}.</li>
               </ol>
             </li>
             <li>

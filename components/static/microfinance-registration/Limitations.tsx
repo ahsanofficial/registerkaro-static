@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/microfinance-registration/three.svg";
-
-const Limitations = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Limitations = ({ cityName }: HeroProps) => {
   return (
     <div id="Limitations">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

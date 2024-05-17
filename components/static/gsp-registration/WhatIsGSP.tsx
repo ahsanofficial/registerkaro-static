@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/gsp-registration/pre-incorporation.svg";
 import Image from 'next/image';
-
-export const WhatIsGSP = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhatIsGSP = ({ cityName }: HeroProps) => {
     return (
         <div id="WhatIsGSP">
             <div className='whatisGSP flex w-80 m-auto mobile-flex-column'>

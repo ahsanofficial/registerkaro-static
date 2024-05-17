@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/private (copy).svg";
 
-const Surveillance = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Surveillance = ({ cityName }: HeroProps) => {
   return (
     <div id="Surveillance">
         <p className="main-para">As part of the ZED Certification, QCI’s Accredited Assessment Agencies will carry out a surveillance assessment 18 months after obtaining ZED Certification. Only MSMEs that have attained Silver and Gold Certification levels will be eligible for the surveillance evaluation.</p>

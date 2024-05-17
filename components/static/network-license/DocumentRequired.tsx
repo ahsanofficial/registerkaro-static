@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/network-license/Documents_required_for_the_Network_License_in_India.svg";
-
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
         
@@ -17,7 +19,7 @@ export const DocumentRequired = () => {
         </div>
         <div className="flex-5">
             <Image
-              alt="Documents required for the Network License in India"
+              alt="Documents required for the Network License in {cityName}"
               className="Importance-img-h-100 w-100"
               height={350}
               loading="lazy"

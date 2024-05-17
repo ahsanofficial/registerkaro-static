@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/response-to-trademark-objection/important.svg";
 
-const ReasonTrademark = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ReasonTrademark = ({ cityName }: HeroProps) => {
   return (
     <div id="ReasonTrademark">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

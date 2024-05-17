@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/Components of ZED Certification_.svg";
 
-const Components = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Components = ({ cityName }: HeroProps) => {
   return (
     <div id="Components">
       <p className="main-para">These are the following components of ZED Certification</p>

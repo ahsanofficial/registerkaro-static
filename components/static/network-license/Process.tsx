@@ -1,7 +1,9 @@
 import certificate from '../../../assets/images/static/network-license/certificate.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -14,10 +16,10 @@ export const Process = () => {
                              <li>What is a Network License?</li>
                             </a>
                             <a href="#Eligibility" className="scrollTo">
-                             <li>Eligibility Criteria for Network License in India</li>
+                             <li>Eligibility Criteria for Network License in {cityName}</li>
                             </a>
                             <a href="#DocumentRequired" className="scrollTo">
-                             <li>Documents required for the Network License in India</li>
+                             <li>Documents required for the Network License in {cityName}</li>
                             </a>
                             <a href="#ProcessObtain" className="scrollTo">
                              <li>Process to Obtain Network License</li>

@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/pre-incorporation.svg";
 
-const CertificationProcess = () => {
+interface HeroProps {
+    cityName: string;
+}
+const CertificationProcess = ({ cityName }: HeroProps) => {
   return (
     <div id="CertificationProcess">
       <div className="flex w-80 m-auto mobile-flex-column">

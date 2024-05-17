@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/network-license/Process_to_Obtain_Network_License.svg";
-
-const ProcessObtain = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ProcessObtain = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcessObtain">
         <p className="main-para">Following is the process to obtain a Network License:</p>

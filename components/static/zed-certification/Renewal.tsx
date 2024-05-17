@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/important.svg";
 
-const Renewal = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Renewal = ({ cityName }: HeroProps) => {
   return (
     <div id="Renewal">
       <div className="flex w-80 m-auto mobile-flex-column">

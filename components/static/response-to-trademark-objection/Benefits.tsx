@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/conversion-of-partnership-to-llp/one.svg"
 
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
 

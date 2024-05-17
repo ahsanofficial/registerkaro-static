@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/Characteristics_of_TAN_Registration_.svg";
 
-export const Publiclimited = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Publiclimited = ({ cityName }: HeroProps) => {
   return (
     <div id="publiclimited">
       <p className="main-para" style={{ textAlign: "left" }}>An essential tool for individuals in charge of withholding or collecting taxes at source is the Tax Deduction and Collection Account Number (TAN). The key components of TAN registration are as follows:</p>
