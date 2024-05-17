@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/founders-agreement/Why choose Register.svg";
-
-const WhyChooseReg = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhyChooseReg = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChooseReg">
       <p className="main-para">

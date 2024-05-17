@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from "../../../assets/images/static/international-trademark-registration/Why choose Internationa.svg";
-
-export const WhyChoose = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id='WhyChoose'>
-      <p className='main-para'>You can directly opt for the International Trademark Registration rather than registering your Trademark within India only as you can enjoy a wide range of benefits such as:</p>
+      <p className='main-para'>You can directly opt for the International Trademark Registration rather than registering your Trademark within {cityName} only as you can enjoy a wide range of benefits such as:</p>
       <div className="whychoose flex w-80 m-auto mobile-flex-column">
         <div className="flex-4">
           <Image

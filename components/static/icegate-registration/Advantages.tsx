@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/icegate-registration/two.svg";
-
-const Advantages = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Advantages = ({ cityName }: HeroProps) => {
   return (
     <div id="Advantages">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

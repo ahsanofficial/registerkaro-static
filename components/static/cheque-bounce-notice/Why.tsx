@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/cheque-bounce-notice/When do you receive a.svg";
-
-export const Why = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="why">
               <p className="main-para" style={{ textAlign: 'left' }}>There are several reasons why a cheque would bounce. The most frequent explanation is that when the cheque was offered for payment, the payer did not have enough money in their savings account. A “bounce due to insufficient funds” is what is meant by this. cheque bounces can also occur for the following reasons:</p>

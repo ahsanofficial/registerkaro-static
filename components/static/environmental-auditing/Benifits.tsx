@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/environmental-auditing/Benefits.svg";
-
-export const Benifits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benifits = ({ cityName }: HeroProps) => {
   return (
     <div id="benifits">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

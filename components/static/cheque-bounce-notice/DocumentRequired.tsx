@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/cheque-bounce-notice/Cheque Bounce Notice vis-a-vis Negotiable.svg";
-
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
        

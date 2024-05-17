@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const TableCom = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const TableCom = ({ cityName }: HeroProps) => {
     return (
         <div id='tablecom'>
             <p className='main-para'>DIR-3-KYC(Web) FILING</p>

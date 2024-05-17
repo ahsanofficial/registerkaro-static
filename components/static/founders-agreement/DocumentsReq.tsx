@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/founders-agreement/Documents.svg";
-
-const DocumentsReq = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentsReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsReq">
         <p className="main-para"> To prepare and register your Agreement, you will need to provide us with the following documents:</p>

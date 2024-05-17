@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/company-valuation-for-startups/pre-incorporation.svg'
-
-export const WhyForStartupEvaluation = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhyForStartupEvaluation = ({ cityName }: HeroProps) => {
   return (
     <div id='WhyForStartupEvaluation'>
       <div className="factors-affecting-valuation flex w-80 m-auto mobile-flex-column-reverse">
@@ -12,7 +14,7 @@ export const WhyForStartupEvaluation = () => {
           <p><strong>3. </strong>At RegisterKaro, we specialize in precise startup valuation services tailored for the Indian market. Our seasoned team of valuation experts ensures accurate assessments across diverse industries, focusing particularly on tech startups and early-stage ventures.</p>
           <p><strong>4. </strong>With a wealth of experience in startup valuation, we offer comprehensive solutions for both pre-revenue startups and those eyeing acquisition opportunities. Our progressive valuation methodologies and advanced tools guarantee reliable insights, facilitating well-informed investment decisions.</p>
           <p><strong>5. </strong>Trusted by clients nationwide, we deliver top-notch startup valuation services in major Indian cities. Our startup valuation calculators streamline the assessment process, providing efficient and accurate results for thorough financial analysis.</p>
-          <p><strong>6. </strong>At RegisterKaro, we take pride in delivering the highest level of accuracy in startup valuation, supporting the growth of innovative ventures in India. By availing our services, entrepreneurs can sidestep the pitfalls of inaccurate valuation methods, ensuring a smooth business journey without penalties or complications.</p>
+          <p><strong>6. </strong>At RegisterKaro, we take pride in delivering the highest level of accuracy in startup valuation, supporting the growth of innovative ventures in {cityName}. By availing our services, entrepreneurs can sidestep the pitfalls of inaccurate valuation methods, ensuring a smooth business journey without penalties or complications.</p>
           <p><strong>7. </strong>Choose RegisterKaro for prompt and effective services, enabling you to manage your business seamlessly and avoid the negative outcomes associated with faulty valuation methods.</p>
         </div>
         <div className="flex-3">

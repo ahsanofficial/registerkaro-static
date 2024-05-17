@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/cheque-bounce-notice/How do you issue a notic.svg";
- 
-export const ChequeBounce = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ChequeBounce = ({ cityName }: HeroProps) => {
   return (
     <div id="Document4">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

@@ -11,8 +11,10 @@ import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
 import eight from '../../../assets/images/pvt-reg/HowToRegister/eight.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const ProcessCompany = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessCompany = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -22,7 +24,7 @@ export const ProcessCompany = () => {
   return (
     <div className='DocumentButtonWise w-80 m-auto' id='registration_process'>
         <div className='flex justify-content-center'>
-        <p className='main-para mb-2'>The registration process for NGOs in India typically involves the following steps:</p>
+        <p className='main-para mb-2'>The registration process for NGOs in {cityName} typically involves the following steps:</p>
       </div>
       <div className="main flex justify-content-between align-center m-auto mobile-flex-column">
       <div className='flex-5'>

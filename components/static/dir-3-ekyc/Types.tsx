@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/dir-3-ekyc/There are primarily two types.svg";
-
-export const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         <p className="main-para">There are primarily two types of e-Form DIR-3 KYC:</p>

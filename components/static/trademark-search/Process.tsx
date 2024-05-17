@@ -2,8 +2,10 @@ import React from 'react'
 import certificate from '../../../assets/images/static/trademark-search/certificate.svg';
 import Image from 'next/image';
 
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -23,13 +25,13 @@ export const Process = () => {
                                 <li>A description of products/services Involved</li>
                             </a>
                             <a href="#WhyNecessary" className="scrollTo">
-                                <li>Why is it necessary to do a Trademark Search in India?</li>
+                                <li>Why is it necessary to do a Trademark Search in {cityName}?</li>
                             </a>
                             <a href="#ImportantPoints" className="scrollTo">
-                                <li>Important Points to know for Conducting a Trademark Search Availability in India</li>
+                                <li>Important Points to know for Conducting a Trademark Search Availability in {cityName}</li>
                             </a>
                             <a href="#WhatProcess" className="scrollTo">
-                                <li>What is the process to conduct a Trademark IP India Public Search?</li>
+                                <li>What is the process to conduct a Trademark IP {cityName} Public Search?</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

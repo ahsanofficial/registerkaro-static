@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/icegate-registration/Components of.svg";
-
-export const WhoCanHave = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhoCanHave = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCanHave">
       <p className="main-para">

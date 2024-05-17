@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/founders-agreement/Meaning of Terminatin.svg";
-
-const TerminateMeaning = () => {
+interface HeroProps {
+    cityName: string;
+}
+const TerminateMeaning = ({ cityName }: HeroProps) => {
   return (
     <div id="TerminateMeaning">
         <p className="main-para"> Terminating a Founders’ Agreement is a serious decision that can affect the future of your business and your relationship with your co-founders. Therefore, you should consider the following factors before proceeding with the termination:</p>

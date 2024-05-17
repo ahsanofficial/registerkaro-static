@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from "../../../assets/images/static/international-trademark-registration/Madrid Protocol & Madrid Agreement.svg";
-
-export const MadridProtocol = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const MadridProtocol = ({ cityName }: HeroProps) => {
   return (
     <div id='MadridProtocol'>
       <div className='main-para'>

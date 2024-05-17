@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-rectification/Forms_for_Trademark_Rectification.svg";
-
-const Forms = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Forms = ({ cityName }: HeroProps) => {
   return (
     <div id="Forms">
         <p className="main-para">For the Trademark Rectification, you need to be familiar with certain forms that you might need depending on the nature of rectification. These forms are:</p>

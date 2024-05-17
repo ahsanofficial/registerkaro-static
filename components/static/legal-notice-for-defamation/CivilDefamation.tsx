@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/legal-notice-for-defamation/three.svg";
-
-const CivilDefamation = () => {
+interface HeroProps {
+    cityName: string;
+}
+const CivilDefamation = ({ cityName }: HeroProps) => {
   return (
     <div id="CivilDefamation">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

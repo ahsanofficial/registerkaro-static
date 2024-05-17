@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/joint-venture-agreement/Why choose RegisterKaro.svg";
-
-const WhyChooseReg = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhyChooseReg = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChooseReg">
       <p className="main-para">
@@ -24,7 +26,7 @@ const WhyChooseReg = () => {
             <li>
               RegisterKaro has a team of experienced and qualified
               professionals, who can guide you through the entire process of
-              registering a joint venture agreement in India.
+              registering a joint venture agreement in {cityName}.
             </li>
             <li>
               RegisterKaro provides a hassle-free and convenient online
@@ -54,7 +56,7 @@ const WhyChooseReg = () => {
           />
         </div>
       </div>
-      <p className="main-para">If you are looking for a reliable and professional partner to help you register a joint venture agreement in India, look no further than RegisterKaro. Contact us today and get started with your joint venture.</p>
+      <p className="main-para">If you are looking for a reliable and professional partner to help you register a joint venture agreement in {cityName}, look no further than RegisterKaro. Contact us today and get started with your joint venture.</p>
     </div>
   );
 };

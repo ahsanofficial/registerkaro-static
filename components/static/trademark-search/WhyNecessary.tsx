@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-search/Why_is_it_necessary_to_do.svg";
-
-const WhyNecessary = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhyNecessary = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyNecessary">
         <p className="main-para">It is not easy to conduct a Trademark Search because it require a lot of time & effort which is why most people choose to outsource the process. If you decide to do you won search for Trademark, remember that it can be more expensive than going through an agency or any expert. When looking for a Trademark Public Search, you must consider the following criteria:</p>
