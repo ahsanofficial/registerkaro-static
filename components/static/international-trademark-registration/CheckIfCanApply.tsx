@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from "../../../assets/images/static/international-trademark-registration/Check if you can apply for the International Trademark Registration.svg";
-
-export const CheckIfCanApply = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const CheckIfCanApply = ({ cityName }: HeroProps) => {
   return (
     <div id='CheckIfCanApply'>
       <p className='main-para'>If you fall to be one among the following, then you are eligible for the International Trademark Registration:</p>
