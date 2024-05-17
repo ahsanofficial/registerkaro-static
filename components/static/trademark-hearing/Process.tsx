@@ -1,7 +1,11 @@
 import certificate from "../../../assets/images/static/trademark-hearing/certificate.svg";
 import Image from "next/image";
 
-export const Process = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
   return (
     <div className="process flex w-80 m-auto mobile-flex-column-reverse">
       <div className="flex-5">
@@ -18,8 +22,8 @@ export const Process = () => {
           vital for businesses. For a smooth process always trust in the
           expertise of legal professionals and proactive measures to secure
           trademark rights are essential steps towards success in trademark
-          hearings in India. In this blog, we explore the trademark hearing
-          process in India, emphasizing key steps, considerations, and best
+          hearings in {cityName}. In this blog, we explore the trademark hearing
+          process in {cityName}, emphasizing key steps, considerations, and best
           practices.
         </p>
         <div className="page-point">
