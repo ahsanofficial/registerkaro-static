@@ -8,8 +8,10 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const HowToDeal = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const HowToDeal = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -53,12 +55,12 @@ export const HowToDeal = () => {
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
             <h3>Step 2. Response to counter-statement with evidence:</h3>
-            <p className='mb-0'> Upon the receipt of the counter statement, the opposing party is required to respond within two months, along with evidence to support their claims made in the Notice of Opposition, which can also include an affidavit and other evidence. It is suggested to reply to the counter statement; however, the response is not mandatory and can be waived off by the opposing party by informing the Trade Marks Registry in India within the prescribed time, or else, the proceedings are tagged as abandoned.
+            <p className='mb-0'> Upon the receipt of the counter statement, the opposing party is required to respond within two months, along with evidence to support their claims made in the Notice of Opposition, which can also include an affidavit and other evidence. It is suggested to reply to the counter statement; however, the response is not mandatory and can be waived off by the opposing party by informing the Trade Marks Registry in {cityName} within the prescribed time, or else, the proceedings are tagged as abandoned.
             </p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>
             <h3>Step 3. Evidence in response: </h3>
-            <p className='mb-0'>If chosen to respond with the supportive evidence by the opposing party, the applicant can also file the evidence in support of his counter statement, or else can choose to waive off the opportunity by filing a letter to the Trademark Registry of India. Otherwise, one should file the evidence within one month.
+            <p className='mb-0'>If chosen to respond with the supportive evidence by the opposing party, the applicant can also file the evidence in support of his counter statement, or else can choose to waive off the opportunity by filing a letter to the Trademark Registry of {cityName}. Otherwise, one should file the evidence within one month.
             </p>
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>

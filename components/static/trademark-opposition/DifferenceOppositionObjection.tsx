@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const DifferenceOppositionObjection = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DifferenceOppositionObjection = ({ cityName }: HeroProps) => {
     return (
         <div id='DifferenceOppositionObjection' className='w-80 m-auto'>
             <table>

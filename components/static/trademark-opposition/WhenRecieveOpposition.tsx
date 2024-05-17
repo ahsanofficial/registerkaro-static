@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/trademark-opposition/When do you receive the Trademark.svg";
-
-export const WhenRecieveOpposition = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhenRecieveOpposition = ({ cityName }: HeroProps) => {
   return (
     <div id="WhenRecieveOpposition">
       <p className="main-para">The trademark opposition can be raised in the same matters as the trademark opposition except for the matter that has been approved by the Registrar. A few of such possible grounds to be raised are as follows:</p>
