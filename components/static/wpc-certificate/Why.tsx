@@ -1,8 +1,7 @@
-import Image from "next/image";
-import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Why = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const Why = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyReg">
       <p className="main-para">The following devices fall under the WPC mandatory products list:</p>

@@ -1,7 +1,10 @@
 import dft from "../../../assets/images/static/petrol-pump-license/The licenses and certificates required to open a Petrol Pump.svg";
 import Image from 'next/image';
 
-export const LicenseCertificatedRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const LicenseCertificatedRequired = ({ cityName }: HeroProps) => {
     return (
         <div id="LicenseCertificatedRequired">
             <p className="main-para">An application needs to be granted specific certifications and permission in order to operate a gas station successfully. Below are a few instances:</p>

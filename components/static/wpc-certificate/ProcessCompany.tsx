@@ -9,8 +9,10 @@ import six from "../../../assets/images/pvt-reg/HowToRegister/six.svg";
 import seven from "../../../assets/images/pvt-reg/HowToRegister/seven.svg";
 
 import arrow from "../../../assets/images/pvt-reg/HowToRegister/arrow.svg";
-
-export const ProcessCompany = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const ProcessCompany = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState("1");
 
   const handleActive = (id: string) => {
@@ -228,7 +230,7 @@ export const ProcessCompany = () => {
             
             
             </p><br/>
-            <p>In 2021, a new guideline addressing RF resting was adopted, which states that RF testing reports from locally accredited labs in India will be approved. formerly need to obtain a WPC license. </p>
+            <p>In 2021, a new guideline addressing RF resting was adopted, which states that RF testing reports from locally accredited labs in {cityName} will be approved. formerly need to obtain a WPC license. </p>
           </div>
           <div className={`${active === "4" ? "active" : "none"}`}>
             <h3>Step 4:  Utilizing WPC</h3>
@@ -253,7 +255,7 @@ export const ProcessCompany = () => {
             <h3>Step 7: WPC certificate is issued
 </h3>
             <p>
-            The application is submitted following the verification of the papers. The WPC wing will provide the device-specific WPC certificate. After obtaining a WPC license, importers can import wireless equipment into India with ease. 
+            The application is submitted following the verification of the papers. The WPC wing will provide the device-specific WPC certificate. After obtaining a WPC license, importers can import wireless equipment into {cityName} with ease. 
             </p>
           </div>
 

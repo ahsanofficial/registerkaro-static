@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/wpc-certificate/certificate_fee.svg";
-
-export const Fees = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const Fees = ({ cityName }: HeroProps) => {
   return (
     <div id="Fees">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

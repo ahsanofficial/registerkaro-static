@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/wpc-certificate/required_documents.svg";
-
-export const Advantage = () => {
+interface HeroProps {
+  cityName: string;
+}
+export const Advantage = ({ cityName }: HeroProps) => {
   return (
     <div id="advantage">
         <p className="main-para">The WPC ETA Registration requires the following documents:</p>
