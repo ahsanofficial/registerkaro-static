@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from '../../../assets/images/static/company-valuation-for-startups/Methods Used for Compan.svg'
-
-export const MethodsUsed = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const MethodsUsed = ({ cityName }: HeroProps) => {
   return (
     <div id='MethodsUsed'>
       <div className="methods-used flex w-80 m-auto mobile-flex-column">
