@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-registration/who_needs.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -10,9 +10,9 @@ export const DocumentRequired = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt=" Needs to Get a TAN"
+            alt="Who Needs to Get a TAN?"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={280}
             loading="lazy"
             src={dft}
           />

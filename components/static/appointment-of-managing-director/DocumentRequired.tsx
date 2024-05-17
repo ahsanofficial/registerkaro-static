@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/two.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -8,7 +8,7 @@ export const DocumentRequired = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-3">
           <Image
-            alt=" Section 96 of the Companies Act "
+            alt="Section 96 of the Companies Act has prescribed the provision for the appointment of Directors"
             className="Importance-img-h-100 w-100"
             height={350}
             loading="lazy"

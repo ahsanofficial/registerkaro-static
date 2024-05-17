@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tan-registration/important.svg";
 
 export const ProcessCompany = () => {
   return (
@@ -8,7 +8,7 @@ export const ProcessCompany = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-4">
           <Image
-            alt="Procedure for Appointment of Managing Director"
+            alt="TAN Registration"
             className="Importance-img-h-100 w-100"
             height={300}
             loading="lazy"

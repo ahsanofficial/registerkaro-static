@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/common-images/why_choose_new.svg";
 
 export const WhyChoose = () => {
   return (
@@ -8,6 +8,7 @@ export const WhyChoose = () => {
       <p className="main-para">RegisterKaro has been one step solution for the WPC Certificate, because of the varied ranges of benefits such as:
 </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+   
       
      
         <div className="flex-7">
@@ -20,15 +21,16 @@ export const WhyChoose = () => {
             <p><strong>Trust builders:  </strong>RegisterKaro builds the trust among its clients and because of only this trust we have built a good network in worldwide marketplace.</p>
             <p><strong>Trusted partner of 10000+ Clients: </strong> RegisterKaro has earned the trust of more than 10000+ clients who have availed our WPC certificate registration services.  Their trust in us from a term in continuity is proof of our services backed by quality and assurance.</p>
         </div>
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="RegisterKaro serves as your ultimate solution for wpc certificate"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={530}
             loading="lazy"
             src={dft}
           />
         </div>
+     
         
       </div>
     </div>

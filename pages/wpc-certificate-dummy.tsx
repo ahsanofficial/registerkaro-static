@@ -15,7 +15,7 @@ import { Fees } from '../components/static/wpc-certificate/Fees'
   
 const Home = () => {
     return (
-        <div className='services-pages dubai-reg'>
+        <div className='services-pages wpc-certificate-reg'>
             <Head>
                  <title>WPC certificate| RegisterKaro</title> 
               <meta name="description" content="The Official RegisterKaro" /> 
@@ -43,23 +43,18 @@ const Home = () => {
             <h2 className='main-heading'>Required Documents for WPC Certification</h2>
             <div className='heading-line'></div>
             <Advantage/>
-
-
             <h2 className='main-heading'>How to Apply Certificate or WPC License </h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-           
-            <h2 className='main-heading'>Importance of WPC License: </h2>
+            <h2 className='main-heading'>Importance of WPC License </h2>
             <div className='heading-line'></div>
             <Consent/>
             <h2 className='main-heading'>WPC Certificate Fees </h2>
             <div className='heading-line'></div>
             <Fees/>
-
             <h2 className='main-heading'>How RegisterKaro Can Assist You in the WPC Certificate Fees process?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
-
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

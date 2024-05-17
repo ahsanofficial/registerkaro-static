@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/appointment-of-managing-director/Eligibility_Criteria_for_the_Appointment_of_Managing_Director.svg";
 
 export const Why = () => {
   return (
@@ -9,7 +9,7 @@ export const Why = () => {
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
         
-        <div className="flex-7 pt-2">
+        <div className="flex-7 pt-4">
           <p><strong>1. </strong>Eligibility as per the Articles of Association.</p>
           <p><strong>2. </strong>Age requirement: Above 18 years.</p>
           <p><strong>3. </strong>Qualification as per Companies Act, 2013.No specific educational qualification is mandated by the Companies Act.</p>
