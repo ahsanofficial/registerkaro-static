@@ -341,7 +341,7 @@ const Home = () => {
     return (
         <div className='services-pages dubai-reg'>
             <Head>
-                 <title>Appointment-of-managing-director | RegisterKaro</title> 
+                 <title>Appointment of a Managing Director | RegisterKaro</title> 
               <meta name="description" content="The Official RegisterKaro" /> 
                 <meta name="robots" content="noindex,nofollow" />
                 <meta name="googlebot" content="noindex,nofollow" />
@@ -386,7 +386,7 @@ const Home = () => {
             <div className='heading-line'></div>
             <FaqTemplatePVT faqItems={faq} />
             <div className='mb-4'></div>
-            <RegistrationLinks formattedQuery={'Appointment-of-managing-director'} state={state} Query={'appointment-of-managing-director'} city={city} />
+            <RegistrationLinks formattedQuery={'Appointment of a Managing Director'} state={state} Query={'appointment-of-managing-director'} city={city} />
         </div>
     )
 }

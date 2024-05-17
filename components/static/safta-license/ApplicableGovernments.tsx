@@ -26,7 +26,7 @@ export const ApplicableGovernments = ({ cityName }: HeroProps) => {
         <div className="flex-6 align-items-center">
           <ol>
             <li>Bangladesh</li> 
-            <li>India</li> 
+            <li>{cityName}</li> 
             <li>Republic of Maldives</li> 
             <li>Nepal</li> 
             <li>Pakistan</li> 
