@@ -1,7 +1,11 @@
 import certificate from '../../../assets/images/static/joint-venture-agreement/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -16,7 +20,7 @@ export const Process = () => {
                                 <li>Documents Required for Joint Venture Agreement</li>
                             </a>
                             <a href="#ProcessStep" className="scrollTo">
-                                <li>How to Register a Joint Venture Agreement in India?</li>
+                                <li>How to Register a Joint Venture Agreement in {cityName}?</li>
                             </a>
                             <a href="#WhyChooseReg" className="scrollTo">
                                 <li>Why choose RegisterKaro for your Joint Venture?</li>
