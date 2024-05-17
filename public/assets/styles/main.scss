@@ -211,3 +211,27 @@
 @import "./static/non-government-organisation";
 @import "./static/wpc-certificate";
 @import "./components/typeform";
+
+
+
+
+// screens
+@import "./screens.scss";
+
+
+// landing page three or private-ltd-registration
+
+
+@import "./components/private-limited-company-registration/Header";
+@import "./components/private-limited-company-registration/Hero";
+@import "./components/private-limited-company-registration/benefits";
+@import "./components/private-limited-company-registration/free-download";
+@import "./components/private-limited-company-registration/all-one-business";
+@import "./components/private-limited-company-registration/build-dream";
+@import "./components/private-limited-company-registration/grow-your-business";
+@import "./components/private-limited-company-registration/client-testimonials";
+@import "./components/private-limited-company-registration/faq";
+@import "./components/private-limited-company-registration/landingpage3-footer";
+@import "./components/private-limited-company-registration/landingpage3-test-slider";
+@import "./components/private-limited-company-registration/what-time-it-is";
+@import "./components/private-limited-company-registration/ZohoformServicePvt";
