@@ -10,7 +10,7 @@ export const Laws = () => {
           <Image
             alt="Lawa for penalty charges for failure"
             className="Importance-img-h-100 w-100"
-            height={310}
+            height={250}
             loading="lazy"
             src={dft}
           />

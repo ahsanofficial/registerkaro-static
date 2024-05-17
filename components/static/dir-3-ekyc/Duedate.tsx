@@ -17,7 +17,7 @@ export const Duedate = () => {
           <Image
             alt="Due date"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={280}
             loading="lazy"
             src={dft}
           />

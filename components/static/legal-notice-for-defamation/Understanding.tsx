@@ -6,16 +6,16 @@ export const Understanding = () => {
   return (
     <div id="Understanding">
       <div className="flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
+        <div className="flex-3">
           <Image
             alt="Understanding Legal Notices"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={320}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-6 pt-5 align-items-center">
+        <div className="flex-6 pt-4 align-items-center">
           <p>
             A legal notice is a formal communication or written document made by
             one party to another to convey that there is legal intent, or there

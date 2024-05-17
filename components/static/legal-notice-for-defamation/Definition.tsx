@@ -13,7 +13,7 @@ const Definition = () => {
         <Image
             alt="What is a Legal Defamation Notice"
             className="Importance-img-h-100 w-100"
-            height={380}
+            height={350}
             loading="lazy"
             src={bft}
           />

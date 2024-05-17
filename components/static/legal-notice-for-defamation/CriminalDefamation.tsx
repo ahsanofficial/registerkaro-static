@@ -10,12 +10,12 @@ const CriminalDefamation = () => {
         <Image
             alt="Criminal Defamation"
             className="Importance-img-h-100 w-100"
-            height={280}
+            height={250}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-6 pt-5">
+        <div className="flex-6 pt-4">
         <p>In criminal defamation, legal notice ingredients would differ as in that of a civil defamation legal notice and a legal notice in criminal defamation serves the purpose of a complaint, and also in the notice must make the other party aware that, the aggrieved party alleges the other party that he made defamatory statements with malice intent, and in the case when the aggrieved party is a public figure then notice may help to establish “actual malice”.</p>
         </div>
       </div>
