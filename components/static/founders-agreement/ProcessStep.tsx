@@ -8,8 +8,10 @@ import five from '../../../assets/images/pvt-reg/HowToRegister/five.svg'
 import six from '../../../assets/images/pvt-reg/HowToRegister/six.svg'
 import seven from '../../../assets/images/pvt-reg/HowToRegister/seven.svg'
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const ProcessStep = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessStep = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

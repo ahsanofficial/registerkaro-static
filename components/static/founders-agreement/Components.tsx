@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/founders-agreement/Components of Founders.svg";
-
-export const Components = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Components = ({ cityName }: HeroProps) => {
   return (
     <div id="Components">
       <p className="main-para">
