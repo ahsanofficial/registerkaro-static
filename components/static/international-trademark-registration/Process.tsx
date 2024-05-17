@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 import certificate from "../../../assets/images/static/international-trademark-registration/certificate.svg";
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
   return (
     <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
         <div className='flex-5'>
-            <p className='text-justify'>A trademark is a brand or logo that includes a symbol, letters, words, numbers, or phrases connected to a business or person’s products or services. A trademark serves as a company’s or individual’s identity, assisting customers in selling branded goods and services apart from those offered by competitors. Therefore, in order to prevent unauthorized use of a trademark by third parties, registration is required. Trademark registration is, however, restricted to some regions. As a result, protection for a trademark is limited to India when it is registered there. To protect their Trademark outside of India, trademark owners must apply for International Trademark Registration. Owners of trademarks that are registered internationally are able to use their marks outside of India and prevent other parties from registering identical marks in other markets. </p>
+            <p className='text-justify'>A trademark is a brand or logo that includes a symbol, letters, words, numbers, or phrases connected to a business or person’s products or services. A trademark serves as a company’s or individual’s identity, assisting customers in selling branded goods and services apart from those offered by competitors. Therefore, in order to prevent unauthorized use of a trademark by third parties, registration is required. Trademark registration is, however, restricted to some regions. As a result, protection for a trademark is limited to {cityName} when it is registered there. To protect their Trademark outside of {cityName}, trademark owners must apply for International Trademark Registration. Owners of trademarks that are registered internationally are able to use their marks outside of {cityName} and prevent other parties from registering identical marks in other markets. </p>
             <div className='page-point'>
                 <ul>
                     <ul>

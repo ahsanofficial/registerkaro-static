@@ -8,8 +8,10 @@ import three from '../../../assets/images/pvt-reg/HowToRegister/three.svg'
 import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
-
-export const ProcessOfRegn = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessOfRegn = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {
@@ -65,7 +67,7 @@ export const ProcessOfRegn = () => {
           </div>
           <div className={`${active === '2' ? 'active' : 'none'}`}>
             <h3>Step 2. Registration Application:</h3>
-            <p className='mb-0'> The applicant needs to submit the international trademark registration application using Form MM2(E) following the trademark search. Since the Office of the Registrar of Trademarks in India is the office of origin for Indian firms, the applicant should submit the application for international trademark registration there, not with the WIPO. The application will be processed and verified by the Registrar of Trademarks. The Registrar will file it with the World Intellectual Property Organization (WIPO) in Geneva following verification. The foreign trademark application must be submitted electronically via the official IP India website, along with payment of the handling fee.
+            <p className='mb-0'> The applicant needs to submit the international trademark registration application using Form MM2(E) following the trademark search. Since the Office of the Registrar of Trademarks in {cityName} is the office of origin for Indian firms, the applicant should submit the application for international trademark registration there, not with the WIPO. The application will be processed and verified by the Registrar of Trademarks. The Registrar will file it with the World Intellectual Property Organization (WIPO) in Geneva following verification. The foreign trademark application must be submitted electronically via the official IP {cityName} website, along with payment of the handling fee.
             </p>
           </div>
           <div className={`${active === '3' ? 'active' : 'none'}`}>

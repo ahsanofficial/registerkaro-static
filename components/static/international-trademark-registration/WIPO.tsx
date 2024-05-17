@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import bft from "../../../assets/images/static/international-trademark-registration/two.svg";
-
-export const WIPO = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WIPO = ({ cityName }: HeroProps) => {
   return (
     <div id='WIPO'>
       <div className='wipo flex w-80 m-auto mobile-flex-column-reverse'>
