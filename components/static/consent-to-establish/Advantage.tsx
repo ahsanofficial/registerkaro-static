@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/consent-to-establish/Advantages_of_Consent_to_Establish_NOC.svg";
 
-export const Advantage = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Advantage = ({ cityName }: HeroProps) => {
   return (
     <div id="advantage">
         <p className="main-para">Obtaining consent for establishment and operation from the Pollution Control Committee has several benefits:</p>

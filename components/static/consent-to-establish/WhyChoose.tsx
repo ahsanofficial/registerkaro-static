@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/consent-to-establish/How RegisterKaro_Can_Assist_You_in_the_Franchise_Agreement_Process_.svg";
 
-export const WhyChoose = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">
