@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-search/Different_Types_of_Trademark.svg";
 
-const DifferentTypes = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DifferentTypes = ({ cityName }: HeroProps) => {
   return (
     <div id="DifferentTypes">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

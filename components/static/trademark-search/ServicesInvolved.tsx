@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/trademark-search/A_description_of_products.svg";
-
-const ServicesInvolved = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ServicesInvolved = ({ cityName }: HeroProps) => {
   return (
     <div id="ServicesInvolved">
        <Image
