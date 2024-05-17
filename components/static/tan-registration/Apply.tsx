@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/process.svg";
 
-export const Apply = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Apply = ({ cityName }: HeroProps) => {
   return (
     <div id="Apply">
       <p className="main-para">Following is the process to apply for online TAN Registration</p>

@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/the_importance.svg";
 
-export const Managing = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Managing = ({ cityName }: HeroProps) => {
   return (
     <div id="managing">
       <p className="main-para" style={{ textAlign: "left" }}>Any person or organization charged with the duty of deducting or collecting tax at source must apply for a TAN (Tax Deduction and Collection Account Number), in accordance with Section 203A of the Income-tax Act, 1961. Additionally, this section requires the TAN Number to appear in several papers. </p>

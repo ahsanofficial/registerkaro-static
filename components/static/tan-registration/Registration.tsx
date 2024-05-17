@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/Documents_Required_for_TAN_Registration.svg";
 
-export const Registration = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Registration = ({ cityName }: HeroProps) => {
   return (
     <div id="Registration">
       <p className="main-para">As per section 114(4) of Income Tax Rules, 1962 at the time of application certain documents are needed. Following documents are listed below-</p>

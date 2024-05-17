@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/response-to-trademark-objection/Documents_required_for_a_trademark_objection_response_includes.svg";
 
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

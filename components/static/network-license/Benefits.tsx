@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/conversion-of-partnership-to-llp/one.svg";
-
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">In essence, network licensing streamlines license management, enhances control and tracking capabilities and promotes standardization within organizations.

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/gsp-registration/How RegisterKaro Can Assist You in the GSP Registration Process_.svg"
-
-export const WhyChoose = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro serves as your ultimate solution for GSP Registration, offering a multitude of benefits:</p>

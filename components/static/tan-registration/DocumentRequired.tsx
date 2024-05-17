@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/who_needs.svg";
 
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
             <p className="main-para" style={{ textAlign: "left" }}>Tax Deducting Entities: Any person or entity that has to deduct taxes at the source while doing specific operations, such paying contractors, distributing salaries, or paying rent that exceeds Rs.1,80,000 annually.</p>

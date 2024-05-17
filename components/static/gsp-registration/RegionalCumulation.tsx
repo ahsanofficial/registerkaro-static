@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/gsp-registration/three.svg";
 import Image from 'next/image';
-
-export const RegionalCumulation = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RegionalCumulation = ({ cityName }: HeroProps) => {
     return (
         <div id="RegionalCumulation">
             <p className="main-para">The groups that may benefit from this are:</p>

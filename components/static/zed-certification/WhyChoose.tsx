@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/canada-company-reg/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg"
 
-export const WhyChoose = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for Canada Company Registration for the varied ranges of benefits such as:</p>

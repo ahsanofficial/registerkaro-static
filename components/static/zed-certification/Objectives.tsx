@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/one.svg";
 
-export const Objectives = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Objectives = ({ cityName }: HeroProps) => {
   return (
     <div id="Objectives">
       <p className="main-para">

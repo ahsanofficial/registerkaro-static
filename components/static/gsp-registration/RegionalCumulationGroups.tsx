@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/gsp-registration/private (copy).svg";
 import Image from 'next/image';
-
-export const RegionalCumulationGroups = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RegionalCumulationGroups = ({ cityName }: HeroProps) => {
     return (
         <div>
             <p className="main-para">Regional cumulation applies to three distinct groups of beneficiary countries under GSP:</p>
@@ -20,7 +22,7 @@ export const RegionalCumulationGroups = () => {
                 <div className="flex-7">
                     <p><strong>Group I: </strong> Brunei-Darussalam, Cambodia, Indonesia, Laos, Malaysia, Philippines, Thailand & Vietnam.</p>
                     <p><strong>Group II: </strong>Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua, Panama, Peru & Venezuela.</p>
-                    <p><strong>Group III: </strong>Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan & Sri Lanka</p>
+                    <p><strong>Group III: </strong>Bangladesh, Bhutan, {cityName}, Maldives, Nepal, Pakistan & Sri Lanka</p>
                     <p><strong>Group IV: </strong>Argentina, Brazil, Paraguay, and Uruguay.</p>
                 </div>                
             </div>

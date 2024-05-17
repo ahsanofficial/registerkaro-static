@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/Documents required for ZED Certificate.svg";
 
-const DocumentReq = () => {
+interface HeroProps {
+    cityName: string;
+}
+const DocumentReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentReq">
       <p className="main-para">Following are the documents which are required for the ZED Certification</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/due-diligence/Best Practices to be followed for Effective Due Diligence.svg'
-
-export const BestPractices = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const BestPractices = ({ cityName }: HeroProps) => {
   return (
     <div id="BestPractices">
       <div className="BestPractices flex w-80 m-auto mobile-flex-column-reverse">

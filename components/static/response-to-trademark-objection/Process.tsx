@@ -1,11 +1,14 @@
 import certificate from '../../../assets/images/static/response-to-trademark-objection/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>In India, trademarks are crucial for businesses, yet obtaining them can be complex. Each year, numerous applications face rejection due to potential conflicts with existing trademarks. Examiners meticulously review applications against registered trademark databases to pinpoint identical or potentially confusing marks. They then compile their findings and rationale for objection in a trademark examination report. This rigorous process serves to protect existing trademarks and maintain clarity for consumers, ultimately preventing confusion in the marketplace.</p>
+                <p className='text-justify'>In {cityName}, trademarks are crucial for businesses, yet obtaining them can be complex. Each year, numerous applications face rejection due to potential conflicts with existing trademarks. Examiners meticulously review applications against registered trademark databases to pinpoint identical or potentially confusing marks. They then compile their findings and rationale for objection in a trademark examination report. This rigorous process serves to protect existing trademarks and maintain clarity for consumers, ultimately preventing confusion in the marketplace.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

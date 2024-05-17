@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/Benefits_of_TAN_Registration_.svg";
 
-export const Appointment = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Appointment = ({ cityName }: HeroProps) => {
   return (
     <div id="appointment">
       <p className="main-para">There are many benefits of TAN registration among them here are few benefits which are listed below-</p>

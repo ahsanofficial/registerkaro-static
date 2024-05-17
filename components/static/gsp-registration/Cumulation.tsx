@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/gsp-registration/two.svg";
 import Image from 'next/image';
-
-export const Cumulation = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Cumulation = ({ cityName }: HeroProps) => {
     return (
         <div id="Cumulation">
             <div className='cumulation flex w-80 m-auto mobile-flex-column'>

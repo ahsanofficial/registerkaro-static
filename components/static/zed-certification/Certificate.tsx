@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/zed-certification/two.svg";
 
-const Certificate = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Certificate = ({ cityName }: HeroProps) => {
   return (
     <div id="Certificate">
       <p className="main-para">

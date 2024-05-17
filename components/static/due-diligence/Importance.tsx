@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/due-diligence/Importance of Due Diligence.svg'
-
-export const Importance = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Importance = ({ cityName }: HeroProps) => {
   return (
     <div id="Importance">
       <p className="main-para">The importance of due diligence is very high in today's revolutionary business context. Below are several factors.</p>

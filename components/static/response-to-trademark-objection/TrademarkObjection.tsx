@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/response-to-trademark-objection/onetwo.svg";
 
-const TrademarkObjection = () => {
+interface HeroProps {
+    cityName: string;
+}
+const TrademarkObjection = ({ cityName }: HeroProps) => {
   return (
     <div id="TrademarkObjection">
       <p className="main-para">

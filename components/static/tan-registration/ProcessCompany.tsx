@@ -2,7 +2,10 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tan-registration/important.svg";
 
-export const ProcessCompany = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessCompany = ({ cityName }: HeroProps) => {
   return (
     <div id="processcompany">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

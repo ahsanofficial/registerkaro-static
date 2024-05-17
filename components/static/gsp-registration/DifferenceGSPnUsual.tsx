@@ -1,6 +1,8 @@
 import React from 'react'
-
-export const DifferenceGSPnUsual = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DifferenceGSPnUsual = ({ cityName }: HeroProps) => {
     return (
         <div id='DifferenceGSPnUsual' className='w-80 m-auto'>
             <table>

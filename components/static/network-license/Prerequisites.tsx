@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/u-k-company-registration/Prerequisites_of.svg";
-
-export const Prerequisites = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Prerequisites = ({ cityName }: HeroProps) => {
   return (
     <div id="Prerequisites">
         <p className="main-para">Following are prerequisites to be fulfilled for company registration in United Kingdom :</p>

@@ -1,10 +1,12 @@
 import dft from "../../../assets/images/static/gsp-registration/whoIssues.svg";
 import Image from 'next/image';
-
-export const WhoIssues = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhoIssues = ({ cityName }: HeroProps) => {
     return (
         <div id="WhoIssues">
-            <p className="main-para">The Government of India has launched various agencies to issue Certificate of Origin. To issue CoO under GSP following agencies have been nominated and are available to accept the application online on the common portal to issue the Certificate.</p>
+            <p className="main-para">The Government of {cityName} has launched various agencies to issue Certificate of Origin. To issue CoO under GSP following agencies have been nominated and are available to accept the application online on the common portal to issue the Certificate.</p>
             <div className='whoIssues flex w-80 m-auto mobile-flex-column-reverse'>
                 <div className="flex-7">
                     <p><strong>1. </strong>Export Inspection Council</p>
@@ -18,7 +20,7 @@ export const WhoIssues = () => {
                 <div className='flex-5'>
                     <div>
                         <Image
-                            alt="Who issues GSP Certificate of Origin in India?"
+                            alt="Who issues GSP Certificate of Origin in {cityName}?"
                             className="Importance-img-h-100 w-100"
                             height={300}
                             loading="lazy"
