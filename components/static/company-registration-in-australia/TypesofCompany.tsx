@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/company-registration-in-australia/Types of Company in Australia.svg";
 
 export const TypesOfCompany = () => {
   return (

@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/company-registration-in-australia/three.svg";
 import Image from 'next/image';
 
 export const WhyEstablish = () => {
