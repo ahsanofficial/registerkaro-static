@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/canada-company-reg/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg";
+import bft from "../../../assets/images/static/change-of-auditor/How RegisterKaro Can Assist You in the Franchise Agreement Process_.svg";
 
 export const HowRegisterKaro = () => {
   return (
@@ -11,7 +11,7 @@ export const HowRegisterKaro = () => {
           <Image
             alt="How RegisterKaro helps you in the Registration process?"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={550}
             loading="lazy"
             src={bft}
           />
