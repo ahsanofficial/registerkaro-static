@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/italy-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/change-of-auditor/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-6'>
                 <p className='text-justify'>Auditors are experts in finance who conduct audits by evaluating financial statements, internal procedures, and transaction documents to determine their accuracy and completeness. The primary categories of auditors are internal and external. Internal auditors typically are employed by the organization they audit and provide advice to management regarding enhancing recording and reporting procedures. However, external auditors are employed by accounting firms to conduct audits on companies other than their own.</p>
                 <div className='page-point'>
                     <ul>
@@ -32,10 +32,10 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Italy</p>
+            <div className='flex-4'>
+                <p className="small-heading text-center">Change of Auditor</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Italy" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Change of Auditor" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

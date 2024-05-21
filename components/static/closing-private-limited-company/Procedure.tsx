@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/closing-private-limited-company/Procedure for Closure of Pvt. Ltd. Company.svg";
 
 const Procedure = () => {
   return (
@@ -10,7 +10,7 @@ const Procedure = () => {
           <Image
             alt="Procedure for Closure of Pvt. Ltd. Company"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />
