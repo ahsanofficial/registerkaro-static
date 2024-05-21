@@ -61,8 +61,8 @@ export default function Benefits() {
           </div>
           <div className="cards">
            {
-            list_items.map((item)=>(
-              <div className="item">
+            list_items.map((item,index)=>(
+              <div className="item" key={index}>
                 <div className="item-content">
                     <Image src={item.icon} alt={item.details}  />
                     <p>{item.details}</p>
