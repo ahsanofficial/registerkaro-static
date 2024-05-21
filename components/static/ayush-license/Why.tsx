@@ -1,14 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/ayush-license/onetwo.svg";
 
 export const Why = () => {
   return (
     <div id="Why">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
-      
-      
-
         <div className="flex-6 pt-2 ps-5  ">
             <p className="ps-5"> <strong>1. </strong>MoA or AoA</p>
             <p className="ps-5"> <strong>2. </strong>Photo ID Proof</p>
@@ -31,9 +28,9 @@ export const Why = () => {
         </div>
         <div className="flex-3">
           <Image
-            alt="Douments required:"
+            alt="Documents Required"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={400}
             loading="lazy"
             src={dft}
           />

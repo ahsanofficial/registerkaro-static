@@ -1,12 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/remote-chief-financial-officer-services/two.svg";
 
 const Function = () => {
   return (
     <div id="Function">
         <p className="main-para">There are numerous functions that remote CFO services projects, some of which are significant and are enumerated below:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+        <div className="flex-3">
+          <Image
+            alt="Functions of Remote CFO"
+            className="Importance-img-h-100 w-100"
+            height={480}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-7">
             <p><strong>1. Business Governance: </strong>This refers to the policies and procedures a company abides by, which are all included in corporate administration. These policies help strike a balance between the interests of business partners, investors, executives, and clients. </p>
             <p><strong>2. Financial Assessment: </strong>Income projection is yet another essential function offered by the Remote CFO. Organizations need a better understanding of their financial circumstances to make the right decisions. </p>
@@ -18,15 +27,6 @@ const Function = () => {
             <p><strong>8. Accounting rules and procedures: </strong>An organization can increase its accountability and uniformity by maintaining a set of well-organized and current bookkeeping practices. The company's executives profit from the organization and application of highly skilled bookkeeping strategies and procedures.</p>
             <p><strong>9. Establish the Break-Even Point: </strong>The analysis shows that the pay that will establish the point at which the business either loses money or makes no money differs from the overall cost (fixed plus variable). The organization will be able to control costs thanks to the Remote CFO's assistance in expediting the study of equal initial investment.</p>
             <p><strong>10. MIS Reporting: </strong>In reports produced by the Management Information System (MIS), the Remote CFO is in charge of providing clear and concise details regarding the organization's financial soundness.</p>
-        </div>
-        <div className="flex-3">
-        <Image
-            alt=""
-            className="Importance-img-h-100 w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
         </div>
       </div>
     </div>
