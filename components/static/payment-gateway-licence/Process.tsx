@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/dubai-company-registration/Company_regis_Dubai_certificate.svg';
+import certificate from '../../../assets/images/pvt-reg/benefit.svg';
 import Image from 'next/image';
 
 export const Process = () => {

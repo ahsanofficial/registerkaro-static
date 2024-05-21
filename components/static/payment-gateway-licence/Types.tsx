@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/dubai-company-registration/types_of_comapnaies_in.svg";
+import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
 export const Types = () => {
   return (
     <div id="Types">
         <p className="main-para">There are different types of companies to be chosen for business registration under the Dubai Laws. Following are such among the popular company structures that people opt for Company Registration:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
+      <div className="flex-5">
           <Image
             alt="Different types of companines to be chosen"
             className="Importance-img-h-100 w-100"
-            height={800}
+            height={600}
             loading="lazy"
             src={dft}
           />

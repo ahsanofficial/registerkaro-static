@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/dubai-company-registration/documents_you_would_need.svg";
+import dft from "../../../assets/images/pvt-reg/benefit.svg";
 
 export const DocumentRequired = () => {
   return (
