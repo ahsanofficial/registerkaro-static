@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/change-in-object-clause/two.svg";
 
 export const ProcessOfChanging = () => {
   return (
@@ -11,7 +11,7 @@ export const ProcessOfChanging = () => {
           <Image
             alt="Process of changing an object clause:"
             className="ProcessOfChanging-img w-100 Importance-img-h-100"
-            height={600}
+            height={650}
             loading="lazy"
             src={dft}
           />
