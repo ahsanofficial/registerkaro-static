@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/canada-company-reg/Why Choose RegisterKaro_for_Company_Registration_in_the_United_Kingdom.svg";
 
 export const HowRegisterKaro = () => {
   return (
@@ -16,7 +16,7 @@ export const HowRegisterKaro = () => {
             src={bft}
           />
         </div>
-        <div className="flex-6 pt-5">
+        <div className="flex-6">
           <p>
             <strong>1. Pool of Experts: </strong>
                 RegisterKaro holds a large pool of Experts from all over the world specializing in SSI registration services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.

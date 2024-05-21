@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/change-of-auditor/three.svg";
 
 const Appointment = () => {
   return (
     <div id="Appointment">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-6 pt-5">
+        <div className="flex-6">
           <ol>
             <li>The company's first auditor is appointed by the directors. They remain in office until the conclusion of the initial shareholder meeting where the accounts are presented to the members. During that meeting, the shareholders have the option to either re-appoint the current auditor or select a new one to serve until the next shareholders' meeting where accounts are presented.</li>
             <li>Private companies have the option to decide not to present accounts to the members at a general meeting by passing an 'elective resolution'. In case of completion, the auditor must be re-elected or a new one chosen at a subsequent meeting of the company's members within 28 days of the accounts distribution.</li>
