@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tea-board-registration/Types of Licenses granted by the Tea Board.svg";
 
 export const TypesOfLicenses = () => {
   return (
@@ -70,7 +70,7 @@ export const TypesOfLicenses = () => {
           <Image
             alt="Types of Licenses granted by the Tea Board"
             className="TypesOfLicenses-img w-100 Importance-img-h-100"
-            height={2300}
+            height={500}
             loading="lazy"
             src={dft}
           />

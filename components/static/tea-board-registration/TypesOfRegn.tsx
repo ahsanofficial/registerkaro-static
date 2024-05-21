@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tea-board-registration/Types of Registration granted by the Tea Board.svg";
 
 export const TypesOfRegn = () => {
   return (

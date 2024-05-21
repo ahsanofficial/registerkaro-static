@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tea-board-registration/one.svg";
 import Image from 'next/image';
 
 export const Cancellation = () => {
