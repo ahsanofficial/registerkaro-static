@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/spice-board-registration/three.svg";
 import Image from 'next/image';
 
 export const WhyBeneficial = () => {
@@ -11,7 +11,7 @@ export const WhyBeneficial = () => {
                         <Image
                             alt="Why it’s Beneficial?"
                             className="WhyBeneficial-img w-100 Importance-img-h-100"
-                            height={550}
+                            height={575}
                             loading="lazy"
                             src={dft}
                         />
