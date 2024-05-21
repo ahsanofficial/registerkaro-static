@@ -5,7 +5,7 @@ import dft from "../../../assets/images/pvt-reg/benefit.svg";
 export const Types = () => {
   return (
     <div id="Types">
-        <p className="main-para">There are different types of companies to be chosen for business registration under the Dubai Laws. Following are such among the popular company structures that people opt for Company Registration:</p>
+        
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       <div className="flex-5">
           <Image

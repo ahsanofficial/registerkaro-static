@@ -31,10 +31,10 @@ export const ProcessCompany = () => {
             Following making of the application, the application is verified by the RBI department. If they feel needs or changes they might make the changes as per their requirements for the applications to be accepted.
             </p>
             <p>In order for the application to be accepted following are the conditions that must be met:</p>
-            <p>A. There must be a proper product prototype of the the payment system in the application.</p>
-            <p>B. The security systems in the payment system must be functioning at the time of the application, in order to give assurance of the secure system.</p>
-            <p>C. Demonstration of the entire procedure of the fund transfer from one bank account to another.</p>
-            <p>D. The terms and conditions that the customers would be made to agree upon</p>
+            <p>1. There must be a proper product prototype of the the payment system in the application.</p>
+            <p>2. The security systems in the payment system must be functioning at the time of the application, in order to give assurance of the secure system.</p>
+            <p>3. Demonstration of the entire procedure of the fund transfer from one bank account to another.</p>
+            <p>4. The terms and conditions that the customers would be made to agree upon</p>
 
           </div>
           <div className={`${active === "3" ? "active" : "none"}`}>

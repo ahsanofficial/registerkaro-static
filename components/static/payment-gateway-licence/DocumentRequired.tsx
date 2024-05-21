@@ -18,13 +18,13 @@ export const DocumentRequired = () => {
           />
         </div>
         <div className="flex-7">
-            <p><strong>1 : </strong>Business Incoproation papers from the Registrar of Companies</p>
-            <p><strong>2 : </strong>Onwers identity proof- Adhar Card or Pan card</p>
-            <p><strong>3 : </strong>Director Identification Number(DIN) and Digital Signature Certificate(DSC)</p>
-            <p><strong>4 : </strong>Bank account of the business</p>
-            <p><strong>5 : </strong>Proof of registered property for the business</p>
-            <p><strong>6 : </strong>Proof of test related to the working of the transfer model, coding test certificate from a software company.</p>
-            <p><strong>7 : </strong>Basic business plan of the company</p>
+            <p><strong>1 . </strong>Business Incoproation papers from the Registrar of Companies</p>
+            <p><strong>2 . </strong>Onwers identity proof- Adhar Card or Pan card</p>
+            <p><strong>3 . </strong>Director Identification Number(DIN) and Digital Signature Certificate(DSC)</p>
+            <p><strong>4 . </strong>Bank account of the business</p>
+            <p><strong>5 . </strong>Proof of registered property for the business</p>
+            <p><strong>6 . </strong>Proof of test related to the working of the transfer model, coding test certificate from a software company.</p>
+            <p><strong>7 . </strong>Basic business plan of the company</p>
 
         </div>
       </div>

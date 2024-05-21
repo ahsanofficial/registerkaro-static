@@ -8,8 +8,8 @@ export const CapitalRequirement = () => {
         
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
-            <p><strong>1 : </strong>Only Banks and Non-banking companies must adhere to the minimum capital requirement necessities to be met.</p>
-            <p><strong>2 : </strong>Companies that have approved lisences from foreign countries for dealing with these transaction rellated business under the FEMA, need not adhere to these requirements.</p>
+            <p><strong>1 . </strong>Only Banks and Non-banking companies must adhere to the minimum capital requirement necessities to be met.</p>
+            <p><strong>2 . </strong>Companies that have approved lisences from foreign countries for dealing with these transaction rellated business under the FEMA, need not adhere to these requirements.</p>
           
 
         </div>
