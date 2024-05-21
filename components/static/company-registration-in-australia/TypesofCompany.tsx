@@ -1,21 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/company-registration-in-australia/Types of Company in Australia.svg";
 
 export const TypesOfCompany = () => {
   return (
     <div id="TypesOfCompany">
       <div className="typesOfCompany flex w-80 m-auto mobile-flex-column">
-        <div className="flex-3">
+        <div className="flex-4">
           <Image
             alt="Types of Company in Australia"
             className="TypesOfCompany-img w-100 Importance-img-h-100"
-            height={1000}
+            height={800}
             loading="lazy"
             src={dft}
           />
         </div>     
-        <div className="flex-7">
+        <div className="flex-6">
           <p><strong>1. Proprietorship Company : </strong>The structure closely resembling a Limited Liability Company is the Proprietary Limited company ("Pty Ltd"). It is highly favoured in Australia and ideal for foreign investors. A minimum of one resident director is required for incorporation, unless a nominee director is appointed. Pty. Ltd companies are open to full foreign ownership with a minimum share capital of $1. We can help establish your Pty. Ltd company in Australia.</p>
           <p><strong>2. Australian Public Company : </strong>Public companies in Australia are typically established by entrepreneurs seeking investment from a larger pool of investors, as opposed to Pty Ltd companies. The management of these companies is typically separate from the owners. Similar to Proprietary Limited Companies, they require a minimum of 3 directors (at least two of whom must be Australian residents), along with a Company Secretary and Public Officer for tax purposes.</p>
           <p><strong>3. Australian Branch Office : </strong>Foreign companies can register their Australian branch through ASIC and The Australian Taxation Office, allowing them to establish a presence in the country and consolidate earnings from their home nation. An agent in the local area must be designated to receive notifications on behalf of the business, and an address within Australia must be created. Branch offices are taxed on their Australian earnings and are required to submit financial reports to ASIC annually.</p>

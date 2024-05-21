@@ -1,21 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/csr-registration/one.svg";
 
 const ProcedureCsr = () => {
   return (
     <div id="ProcedureCsr">
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
-          <Image
-            alt=""
-            className="Importance-img-h-100 w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
-        <div className="flex-7">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+        <div className="flex-6">
           <p>
             <strong>1. </strong>The applicant must go to the Ministry of
             Corporate Affairs (MCA) official website and click on the Forms &
@@ -73,7 +64,15 @@ const ProcedureCsr = () => {
             Number.
           </p>
         </div>
-
+        <div className="flex-4">
+          <Image
+            alt="Procedure to File CSR"
+            className="Importance-img-h-100 w-100"
+            height={480}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
       </div>
     </div>
   );

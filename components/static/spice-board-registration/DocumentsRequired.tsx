@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/spice-board-registration/Documents Required.svg";
 
 export const DocumentsRequired = () => {
   return (
@@ -17,9 +17,9 @@ export const DocumentsRequired = () => {
         </div>
         <div className="flex-5">
           <Image
-            alt="DocumentsRequired"
+            alt="Documents Required"
             className="DocumentsRequired-img w-100 Importance-img-h-100"
-            height={440}
+            height={480}
             loading="lazy"
             src={dft}
           />

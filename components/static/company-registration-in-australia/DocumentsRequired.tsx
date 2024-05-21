@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/company-registration-in-australia/Documents Required.svg";
 
 export const DocumentsRequired = () => {
   return (
@@ -10,7 +10,7 @@ export const DocumentsRequired = () => {
           <Image
             alt="Documents Required"
             className="DocumentsRequired-img w-100 Importance-img-h-100"
-            height={430}
+            height={460}
             loading="lazy"
             src={dft}
           />

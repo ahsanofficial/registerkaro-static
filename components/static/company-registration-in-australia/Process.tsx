@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/company-registration-in-australia/certificate.svg';
 import Image from 'next/image';
 
 export const Process = () => {

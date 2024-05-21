@@ -1,11 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/spice-board-registration/onetwo.svg";
 
 export const ListOfSpices = () => {
   return (
     <div id="ListOfSpices">
-      <div className="listOfSpices flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="listOfSpices flex w-80 m-auto mobile-flex-column">
+        <div className="flex-5">
+          <Image
+            alt="List Of Spices for Registration"
+            className="ListOfSpices-img w-100 Importance-img-h-100"
+            height={550}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
         <div className="flex-5">
           <p><strong>1.</strong> KOKAM</p>
           <p><strong>2.</strong> MINT</p>
@@ -59,15 +68,6 @@ export const ListOfSpices = () => {
           <p><strong>50.</strong> OREGANO</p>
           <p><strong>51.</strong> TARRAGON</p>
           <p><strong>52.</strong> TAMARIND</p>
-        </div>
-        <div className="flex-5">
-          <Image
-            alt="List Of Spices for Registration"
-            className="ListOfSpices-img w-100 Importance-img-h-100"
-            height={2250}
-            loading="lazy"
-            src={dft}
-          />
         </div>
       </div>
     </div>

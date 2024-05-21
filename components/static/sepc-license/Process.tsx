@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/sepc-license/certificate.svg';
 import Image from 'next/image';
  
 export const Process = () => {
@@ -27,12 +27,6 @@ export const Process = () => {
             <p><strong>9. </strong>Indian Embassies/Missions offer essential assistance for business opportunities abroad. They also encourage involvement in policy creation to support a conducive business climate. Allows attendance at global trade shows, Reverse Buyer-Sellers Meets, and other export promotion events with financial support. Utilizes benefits within the Market Access Initiative Scheme offered by the Ministry of Commerce and Industry. </p>
            
             <p><strong>10. </strong>Provides partial assistance with airfare expenses (based on set criteria) when attending international exhibitions with the SEPC pavilion. Utilize Export Incentives established by the Foreign Trade Policy. Qualifies for programs offered by the Ministry of Micro, Small, and Medium Enterprises.</p>
-
-
-               
-
-              
-
                 <div className='page-point'>
                     <ul>
                         <ul>
@@ -62,7 +56,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">SEPC License</p>
                 <div>
-                    <Image alt="Fieo registration" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="SEPC License" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/spice-board-registration/certificate.svg";
 import Image from 'next/image';
 
 export const Process = () => {

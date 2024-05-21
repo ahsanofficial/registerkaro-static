@@ -49,7 +49,6 @@ const Home = () => {
             <h1 className='main-heading'>Spice Board Registration</h1>
             <div className='heading-line'></div>
             <Process />
-
             <h2 className='main-heading'>Why it’s Beneficial?</h2>
             <div className='heading-line'></div>
             <WhyBeneficial/>
@@ -62,7 +61,6 @@ const Home = () => {
             <h2 className='main-heading'>List Of Spices for Registration</h2>
             <div className='heading-line'></div>
             <ListOfSpices/>
-
             <h2 className='main-heading'>How RegisterKaro helps you in the Registration process?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
