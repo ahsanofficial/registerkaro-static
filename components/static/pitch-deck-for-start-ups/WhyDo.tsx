@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/pitch-deck-for-start-ups/two.svg";
 
 const WhyDo = () => {
   return (
@@ -13,10 +13,10 @@ const WhyDo = () => {
             <p><strong>3. </strong>Creating an attractive pitch deck as well as educating investors regarding the business increases drastically the chances of securing funding for the start-up.</p>
         </div>
         <div className="flex-3">
-        <Image
-            alt=""
+          <Image
+            alt="Why do you need a pitch deck?"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={300}
             loading="lazy"
             src={bft}
           />

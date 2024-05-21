@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/spice-board-registration/two.svg";
 
 export const ListOfSpices = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/pitch-deck-for-start-ups/Elements.svg";
 
 const Elements = () => {
   return (
@@ -9,16 +9,16 @@ const Elements = () => {
         The following are the elements of a pitch deck:
       </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-3">
+        <div className="flex-4">
           <Image
-            alt=""
+            alt="Elements"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={750}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-6">
           <h3>Problem</h3>
           <p>
             <strong>1. </strong>Introduction to problem

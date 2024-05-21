@@ -1,10 +1,10 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/change-in-object-clause/Change in Object Clause_.svg';
 import Image from 'next/image';
 
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-6'>
                 <p className='text-justify'>A contract contains various clauses, one of the clauses is an object clause. An object clause may be used as a specific clause, as a part of the contract. The following is the purpose of object clauses in a contract:</p>
                 <p className='text-justify'><strong>1. </strong>Defining the purpose of the contract</p>
                 <p className='text-justify'><strong>2. </strong>Scope, Obligation and the limits of the contract </p>
@@ -33,7 +33,7 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
+            <div className='flex-4'>
                 <p className="small-heading text-center">What is an object clause?</p>
                 <div>
                     <Image alt="What is an object clause?" className="certificate h-100 w-100" loading="lazy" src={certificate} />

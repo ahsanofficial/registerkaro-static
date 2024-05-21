@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/change-in-object-clause/pre-incorporation.svg";
 import Image from 'next/image';
 
 export const LegalSignificance = () => {
@@ -11,7 +11,7 @@ export const LegalSignificance = () => {
                         <Image
                             alt="Legal Significance of Object Clause"
                             className="LegalSignificance-img w-100 Importance-img-h-100"
-                            height={300}
+                            height={325}
                             loading="lazy"
                             src={dft}
                         />
