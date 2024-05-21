@@ -29,22 +29,22 @@ const Home = () => {
             <h1 className='main-heading'>What is a payment gateway licence ?</h1>
             <div className='heading-line'></div>
             <Process />
-            <h1 className='main-heading'>Benefits:</h1>
+            <h2 className='main-heading'>Benefits</h2>
             <div className='heading-line'></div>
             <Types />
-            <h1 className='main-heading'>Procedure</h1>
+            <h2 className='main-heading'>Procedure</h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-            <h1 className='main-heading'>Documents Required:</h1>
+            <h2 className='main-heading'>Documents Required</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h1 className='main-heading'>Capital Requirements for licence:</h1>
+            <h2 className='main-heading'>Capital Requirements for licence</h2>
             <div className='heading-line'></div>
             <CapitalRequirement />
-            <h1 className='main-heading'>How does Register Karo help ?</h1>
+            <h2 className='main-heading'>How does Register Karo help ?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>
-            <h1 className="main-heading">Why RegisterKaro?</h1>
+            <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
            
