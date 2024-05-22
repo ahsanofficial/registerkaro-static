@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/bee-registration/Benefits of BEE registration.svg";
 
-export const BenefitsBee = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const BenefitsBee = ({ cityName }: HeroProps) => {
   return (
     <div id="BenefitsBee">
       <p className="main-para">These are the some listed benefits of BEE registration-</p>
@@ -11,7 +15,7 @@ export const BenefitsBee = () => {
           <Image
             alt="Benefits of BEE registration"
             className="BenefitsBee-img w-100 Importance-img-h-100"
-            height={400}
+            height={320}
             loading="lazy"
             src={dft}
           />

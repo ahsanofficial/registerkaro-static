@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/bee-registration/Renewal of BEE Certificate.svg";
 
-export const Renewal = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Renewal = ({ cityName }: HeroProps) => {
   return (
     <div id="Renewal">
       <p className="main-para">The following procedures must be followed in order for the agreement to be renewed by the manufacturer before the schedule agreement between BEE expires:</p>
@@ -11,7 +15,7 @@ export const Renewal = () => {
           <Image
             alt="Renewal of BEE Certificate"
             className="Renewal-img w-100 Importance-img-h-100"
-            height={375}
+            height={300}
             loading="lazy"
             src={dft}
           />

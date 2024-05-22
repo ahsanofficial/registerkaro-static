@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/vendor-agreement/one.svg";
 
-const Who = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Who = ({ cityName }: HeroProps) => {
   return (
     <div id="Who">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
@@ -10,12 +14,12 @@ const Who = () => {
           <Image
             alt="Who is a Vendor?"
             className="Importance-img-h-100 w-100"
-            height={250}
+            height={200}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-7 p-5">
             <p>A vendor is an individual or supplier who provides products and services to the business owner or individual in order for the business to conduct its operations in exchange for payment.</p>
         </div>
       </div>

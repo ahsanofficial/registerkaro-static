@@ -1,9 +1,13 @@
 import React from 'react'
 
-export const FeesRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const FeesRequired = ({ cityName }: HeroProps) => {
     return (
         <div id='FeesRequired' className='w-80 m-auto'>
-            <p className="main-para">The fee structure of BEE registration in India is as follows:</p>
+            <p className="main-para">The fee structure of BEE registration in {cityName} is as follows:</p>
             <table>
                 <tr>
                     <th className='first'>Subject</th>
