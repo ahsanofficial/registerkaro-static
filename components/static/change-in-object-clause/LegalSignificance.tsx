@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/change-in-object-clause/pre-incorporation.svg";
 import Image from 'next/image';
-
-export const LegalSignificance = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const LegalSignificance = ({ cityName }: HeroProps) => {
     return (
         <div id="LegalSignificance">
             <p className="main-para">Following are the legal significances of the object clause in a contract:</p>
