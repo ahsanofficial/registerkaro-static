@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/ayush-license/ayush License.svg';
 import Image from 'next/image';
  
 export const Process = () => {
