@@ -7,11 +7,12 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Expert Advisory",
-        "Bank Account opening",
-        "Application drafting and filing",
-        "Post registration Compliances",
-        "Comprehensive Documentation"
+        "Detailed Joint Venture Structuring",
+        "Financial Arrangements and Profit Sharing",
+        "Intellectual Property and Confidentiality",
+        "Operational and Management Provisions",
+        "Regulatory Compliance and Legal Protections",
+        "Performance and Monitoring"
     ]
 }
 interface HeroProps {

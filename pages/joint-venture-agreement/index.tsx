@@ -325,13 +325,10 @@ const Home = () => {
             <Head>
                 <title>Joint Venture Agreement | RegisterKaro</title>
                 <meta name="description" content="A joint venture agreement is a legal contract between two or more parties who agree to collaborate on a specific project or business activity." />
-                <meta name="robots" content="noindex,nofollow" />
-                <meta name="googlebot" content="noindex,nofollow" />
-                <meta name="robots" content="all" />
-                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-                <meta name="google" content="notranslate" key="notranslate" />
+                <link rel="canonical" href="https://www.registerkaro.in/joint-venture-agreement" />
                 <link rel="icon" href="/favicon.ico" />
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                <meta property="og:title" content="Joint Venture Agreement | RegisterKaro" />
+                <meta property="og:description" content="A joint venture agreement is a legal contract between two or more parties who agree to collaborate on a specific project or business activity." />
             </Head>
             <Hero  cityName={'India'}/>
             <h1 className='main-heading'>What is a Joint Venture Agreement?</h1>

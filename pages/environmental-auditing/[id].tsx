@@ -359,15 +359,12 @@ const Home = () => {
     return (
         <div className='services-pages '>
             <Head>
-                 <title>Environmental Auditing | RegisterKaro</title> 
-                <meta name="description" content="The Official RegisterKaro" /> 
-                <meta name="robots" content="noindex,nofollow" />
-                <meta name="googlebot" content="noindex,nofollow" />
-                <meta name="robots" content="all" />
-                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-                <meta name="google" content="notranslate" key="notranslate" />
-                <link rel="icon" href="/favicon.ico" />
-                 <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> 
+              <title>Environmental Auditing | RegisterKaro</title>
+              <meta name="description" content="Environmental Auditing in modern-day businesses are being incorporated to increase environmental awareness, sustainability, regulatory compliance," />
+              <link rel="canonical" href="https://www.registerkaro.in/trademark-registration" />
+              <link rel="icon" href="/favicon.ico" />
+              <meta property="og:title" content="Environmental Auditing | RegisterKaro" />
+              <meta property="og:description" content="Environmental Auditing in modern-day businesses are being incorporated to increase environmental awareness, sustainability, regulatory compliance," />
             </Head>
             <Hero  cityName={cityName} />
             <h1 className='main-heading'>Understanding Environmental Audit</h1>

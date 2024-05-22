@@ -339,13 +339,10 @@ const Home = () => {
             <Head>
                 <title>Founders’ Agreement | RegisterKaro</title>
                 <meta name="description" content="A Founders’ Agreement is a legal document that defines the roles, responsibilities, and ownership of each founder in a business." />
-                <meta name="robots" content="noindex,nofollow" />
-                <meta name="googlebot" content="noindex,nofollow" />
-                <meta name="robots" content="all" />
-                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-                <meta name="google" content="notranslate" key="notranslate" />
+                <link rel="canonical" href="https://www.registerkaro.in/founders-agreement" />
                 <link rel="icon" href="/favicon.ico" />
-                {/* <link rel="canonical" href="https://www.registerkaro.in/ads/public-limited-company-registration" /> */}
+                <meta property="og:title" content="Founders’ Agreement | RegisterKaro" />
+                <meta property="og:description" content="A Founders’ Agreement is a legal document that defines the roles, responsibilities, and ownership of each founder in a business." />
             </Head>
             <Hero  cityName={'India'}/>
             <h1 className='main-heading'>What is Founders’ Agreement?</h1>

@@ -8,12 +8,12 @@ import rightArrow from '../../../assets/images/pvt-reg/rightArrow.svg';
 
 let hero = {
   "pack_includes": [
-      "Expert Advisory",
-      "Comprehensive Documentation",
-      "Post Registration Compliance",
-      "Company Annual Filing",
-      "Process Consultation",
-      "Certificate Procurement",
+      "Comprehensive Trademark Search",
+      "Filing and Documentation",
+      "Legal Compliance and Advisory",
+      "Trademark Monitoring and Enforcement",
+      "Renewal and Maintenance Services",
+      "Professional Consultation and Support",
   ]
 }
 interface HeroProps {

@@ -7,11 +7,12 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Expert Advisory",
-        "Bank Account opening",
-        "Application drafting and filing",
-        "Post registration Compliances",
-        "Comprehensive Documentation"
+        "Equity Ownership and Capital Contributions",
+        "Roles and Responsibilities:",
+        "Intellectual Property Rights",
+        "Compensation and Benefits",
+        "Exit and Termination Clauses",
+        "Future Funding and Dilutionn"
     ]
 }
 

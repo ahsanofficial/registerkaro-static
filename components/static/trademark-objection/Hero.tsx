@@ -7,12 +7,12 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Expert Advisory",
-        "Comprehensive Documentation",
-        "Post Registration Compliance",
-        "Company Annual Filing",
-        "Process Consultation",
-        "Certificate Procurement",
+        "Review of Objection Notice",
+        "Analysis of Trademark Application",
+        "Legal Response Strategy",
+        "Drafting and Submission of Response",
+        "Negotiation and Settlement",
+        "Follow-up and Monitoring",
     ]
 }
 

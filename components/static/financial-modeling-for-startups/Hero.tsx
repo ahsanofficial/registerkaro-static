@@ -7,12 +7,12 @@ import { GoogleDiv } from '../GoogleDiv';
 
 let hero = {
     "pack_includes": [
-        "Expert Advisory",
-        "Comprehensive Documentation",
-        "Post Registration Compliance",
-        "Company Annual Filing",
-        "Process Consultation",
-        "Certificate Procurement",
+        "Comprehensive Financial Forecasting",
+        "Investor-Ready Financial Statements",
+        "Startup Valuation Models",
+        "Fundraising Strategy and Planning",
+        "Key Metrics and Performance Indicators",
+        "Customized Financial Dashboards",
     ]
 }
 interface HeroProps {
