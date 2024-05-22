@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/csr-registration/two.svg";
 
-const FactsCsr = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const FactsCsr = ({ cityName }: HeroProps) => {
   return (
     <div id="FactsCsr">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
@@ -34,7 +38,7 @@ const FactsCsr = () => {
           </p>
           <p>
             Signing up for CSR-1, the online platform for corporate social
-            responsibility in India, offers numerous advantages. Above all, it
+            responsibility in {cityName}, offers numerous advantages. Above all, it
             offers a single location for all the necessary information and
             resources for NGOs to meet the CSR obligations outlined in the
             Companies Act. This comprises an extensive repository of accredited

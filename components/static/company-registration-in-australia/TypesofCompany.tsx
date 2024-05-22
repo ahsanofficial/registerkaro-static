@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/company-registration-in-australia/Types of Company in Australia.svg";
 
-export const TypesOfCompany = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const TypesOfCompany = ({ cityName }: HeroProps) => {
   return (
     <div id="TypesOfCompany">
       <div className="typesOfCompany flex w-80 m-auto mobile-flex-column">

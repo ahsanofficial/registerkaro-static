@@ -4,7 +4,11 @@ import React from "react";
 import dft from "../../../assets/images/static/spice-board-registration/onetwo.svg";
 
 
-export const ListOfSpices = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ListOfSpices = ({ cityName }: HeroProps) => {
   return (
     <div id="ListOfSpices">
       <div className="listOfSpices flex w-80 m-auto mobile-flex-column">

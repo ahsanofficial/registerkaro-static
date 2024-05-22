@@ -9,7 +9,11 @@ import two from '../../../assets/images/pvt-reg/HowToRegister/two.svg'
 
 import arrow from '../../../assets/images/pvt-reg/HowToRegister/arrow.svg'
 
-export const HowRegister = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const HowRegister = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState('1')
 
   const handleActive = (id: string) => {

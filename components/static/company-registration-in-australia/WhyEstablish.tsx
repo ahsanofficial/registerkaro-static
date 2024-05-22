@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-import dft from "../../../assets/images/static/company-registration-in-australia/three.svg";
-=======
 import dft from "../../../assets/images/static/company-registration-in-australia/one.svg";
->>>>>>> neha
 import Image from 'next/image';
 
-export const WhyEstablish = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const WhyEstablish = ({ cityName }: HeroProps) => {
     return (
         <div id="WhyEstablish">
             <div className='whyEstablish flex w-80 m-auto mobile-flex-column-reverse'>       
