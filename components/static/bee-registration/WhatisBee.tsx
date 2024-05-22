@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/bee-registration/What is BEE Certification_.svg";
 import Image from 'next/image';
 
 export const WhatisBee = () => {
@@ -11,7 +11,7 @@ export const WhatisBee = () => {
                         <Image
                             alt="What is BEE Certification?"
                             className="WhatisBee-img w-100 Importance-img-h-100"
-                            height={250}
+                            height={325}
                             loading="lazy"
                             src={dft}
                         />

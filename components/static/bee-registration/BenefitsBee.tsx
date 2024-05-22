@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/bee-registration/Benefits of BEE registration.svg";
 
 export const BenefitsBee = () => {
   return (
@@ -11,7 +11,7 @@ export const BenefitsBee = () => {
           <Image
             alt="Benefits of BEE registration"
             className="BenefitsBee-img w-100 Importance-img-h-100"
-            height={300}
+            height={400}
             loading="lazy"
             src={dft}
           />

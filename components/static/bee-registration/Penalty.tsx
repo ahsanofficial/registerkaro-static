@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/bee-registration/two.svg";
 
 export const Penalty = () => {
   return (
@@ -20,7 +20,7 @@ export const Penalty = () => {
           <Image
             alt="Penalty for Non- compliance with BEE guidelines"
             className="Penalty-img w-100 Importance-img-h-100"
-            height={250}
+            height={310}
             loading="lazy"
             src={dft}
           />

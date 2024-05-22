@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/bee-registration/Classification of BEE Certification.svg";
+import dft2 from "../../../assets/images/static/bee-registration/three.svg";
 
 export const Classification = () => {
   return (
@@ -12,7 +13,7 @@ export const Classification = () => {
           <Image
             alt="Classification of BEE Certification"
             className="Classification-img w-100 Importance-img-h-100"
-            height={500}
+            height={550}
             loading="lazy"
             src={dft}
           />
@@ -62,9 +63,9 @@ export const Classification = () => {
           <Image
             alt="Classification of BEE Certification"
             className="Classification-img w-100 Importance-img-h-100"
-            height={950}
+            height={1000}
             loading="lazy"
-            src={dft}
+            src={dft2}
           />
         </div>
       </div>
