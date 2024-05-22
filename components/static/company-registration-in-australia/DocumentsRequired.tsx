@@ -10,7 +10,7 @@ export const DocumentsRequired = () => {
           <Image
             alt="Documents Required"
             className="DocumentsRequired-img w-100 Importance-img-h-100"
-            height={430}
+            height={460}
             loading="lazy"
             src={dft}
           />

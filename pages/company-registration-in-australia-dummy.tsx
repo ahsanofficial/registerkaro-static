@@ -49,7 +49,6 @@ const Home = () => {
             <h1 className='main-heading'>Company Registration in Australia</h1>
             <div className='heading-line'></div>
             <Process />
-
             <h2 className='main-heading'>Types of Company in Australia</h2>
             <div className='heading-line'></div>
             <TypesOfCompany/>
@@ -65,7 +64,6 @@ const Home = () => {
             <h2 className='main-heading'>Facts to Know</h2>
             <div className='heading-line'></div>
             <Facts/>
-
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

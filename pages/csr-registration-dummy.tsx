@@ -52,7 +52,7 @@ const Home = () => {
             <h2 className='main-heading'>Documents Required</h2>
             <div className='heading-line'></div>
             <DocumentRequired />
-            <h2 className='main-heading'>Procedure to File CSR </h2>
+            <h2 className='main-heading'>Procedure to File CSR</h2>
             <div className='heading-line'></div>
             <ProcedureCsr/>
             <h2 className='main-heading'>Facts About CSR</h2>

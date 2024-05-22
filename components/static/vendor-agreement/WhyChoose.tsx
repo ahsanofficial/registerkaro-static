@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/common-images/Why _choose.svg";
+import dft from "../../../assets/images/static/vendor-agreement/How RegisterKaro Can Assist You in the Franchise Agreement Process_.svg";
 
 export const WhyChoose = () => {
   return (
@@ -9,17 +9,8 @@ export const WhyChoose = () => {
         RegisterKaro has been one stop solution for preparing Vendor’s Agreement
         because of the varied ranges of benefits such as:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-        <div className="flex-3">
-          <Image
-            alt="Why Choose RegisterKaro for Company Registration in Qatar?"
-            className="Importance-img-h-100 w-100"
-            height={400}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
-        <div className="flex-7">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+        <div className="flex-6">
           <p>
             <strong> Pool of Experts: </strong>RegisterKaro holds a large pool
             of Experts from all over the world specializing in Vendor Agreement
@@ -52,6 +43,15 @@ export const WhyChoose = () => {
             our Vendor’s Agreement services. Their trust in us from a term in
             continuity is proof of our services backed by quality and assurance.
           </p>
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="How RegisterKaro helps in preparing Vendor’s Agreement?"
+            className="Importance-img-h-100 w-100"
+            height={550}
+            loading="lazy"
+            src={dft}
+          />
         </div>
       </div>
     </div>

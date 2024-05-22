@@ -41,9 +41,9 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Qatar</p>
+                <p className="small-heading text-center">Remote Chief Financial Officer (CFO) Services</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Qatar" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Remote Chief Financial Officer (CFO) Services" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

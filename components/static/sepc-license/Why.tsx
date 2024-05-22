@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/sepc-license/Documents Required.svg";
 
 export const Why = () => {
   return (
@@ -9,9 +9,9 @@ export const Why = () => {
       
       <div className="flex-3">
           <Image
-            alt="Douments required:"
+            alt="Documents Required"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={580}
             loading="lazy"
             src={dft}
           />
@@ -28,9 +28,6 @@ export const Why = () => {
             <p className="ps-5"><strong>8. </strong> Proof of Rent Agreement.</p>
             <p className="ps-5"> <strong>9. </strong>Copy of GST Registration.</p>
             <p className="ps-5"> <strong>10. </strong>Ownership proof of the registered office duly notarised on Rs. 10 stamp paper or No Objection Certificate from the owner of the property.</p>
-
-            
-
         </div>
         
       </div>
