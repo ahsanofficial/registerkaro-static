@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/transfer-pricing-agreement/What to Take Care in Transfer Pricing Agreement.svg";
-
-export const Pricingagreement = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Pricingagreement = ({ cityName }: HeroProps) => {
   return (
     <div id="pricingagreement">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

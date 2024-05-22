@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/common-images/Why _choose.svg";
-
-export const WhyChoose = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one stop solution for the SSI registration for the varied ranges of benefits such as:
