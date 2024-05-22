@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/gst-cancellation-and-revocation/Procedure for Cancellation of Registration.svg";
-
-const ProcedureCancellation = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ProcedureCancellation = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcedureCancellation">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

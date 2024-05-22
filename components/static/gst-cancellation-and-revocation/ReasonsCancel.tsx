@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/gst-cancellation-and-revocation/Reasons for Cancellation of GST Registration.svg";
-
-const ReasonsCancel = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ReasonsCancel = ({ cityName }: HeroProps) => {
   return (
     <div id="ReasonsCancel">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
