@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pitch-deck-for-start-ups/How to prepare a pitch deck_.svg";
-
-const HowPrepare = () => {
+interface HeroProps {
+    cityName: string;
+}
+const HowPrepare = ({ cityName }: HeroProps) => {
   return (
     <div id="HowPrepare">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
