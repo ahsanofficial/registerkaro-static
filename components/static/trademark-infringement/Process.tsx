@@ -1,7 +1,9 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/trademark-infringement/What is Rubber Board Registration_.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -10,7 +12,7 @@ export const Process = () => {
                     <ul>
                         <ul>
                             <a href="#Types" className="scrollTo">
-                                <li>Types of Trademark Infringement in India</li>
+                                <li>Types of Trademark Infringement in {cityName}</li>
                             </a>
                             <a href="#DocumentRequired" className="scrollTo">
                                 <li>What Constitutes Trademark Infringement?</li>

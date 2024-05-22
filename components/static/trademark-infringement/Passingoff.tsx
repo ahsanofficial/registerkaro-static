@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Passingoff = () => {
+import dft from "../../../assets/images/static/trademark-infringement/pre-incorporation.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const Passingoff = ({ cityName }: HeroProps) => {
   return (
     <div id="passingoff">
         
@@ -17,7 +19,7 @@ export const Passingoff = () => {
           />
         </div>
         <div className="flex-7">
-          <p>Passing off is a common law tort. In India, it is used to protect unregistered trademarks. Similar to the protection extended to registered marks under Section 29 of the Trademark Act, 1999 it also prevents a person from misrepresenting their goods and services. This common law principle is embodied in Section 27 of the Act. There are three elements of passing off popularly known as the classical trinity which include— reputation, misrepresentation and damage to goodwill.</p>
+          <p>Passing off is a common law tort. In {cityName}, it is used to protect unregistered trademarks. Similar to the protection extended to registered marks under Section 29 of the Trademark Act, 1999 it also prevents a person from misrepresenting their goods and services. This common law principle is embodied in Section 27 of the Act. There are three elements of passing off popularly known as the classical trinity which include— reputation, misrepresentation and damage to goodwill.</p>
           
             
 

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const CapitalRequirement = () => {
+import dft from "../../../assets/images/static/trademark-infringement/one.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const CapitalRequirement = ({ cityName }: HeroProps) => {
   return (
     <div id="CapitalRequirement">
       <p className="main-para">Section 30 of the Trademarks Act, 1999 lays down certain conditions wherein a trademark cannot be said to have been infringed which can be used as defences by the alleged infringer during the suits for infringement. Those conditions are as follows:</p>
@@ -13,7 +15,7 @@ export const CapitalRequirement = () => {
           <Image
             alt=" What does not Constitute Trademark Infringement"
             className="Importance-img-h-100 w-100"
-            height={320}
+            height={425}
             loading="lazy"
             src={dft}
           />

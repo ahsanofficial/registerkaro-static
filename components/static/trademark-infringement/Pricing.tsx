@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Pricing = () => {
+import dft from "../../../assets/images/static/trademark-infringement/Pricing for Institution of the Suit.png";
+interface HeroProps {
+    cityName: string;
+}
+export const Pricing = ({ cityName }: HeroProps) => {
   return (
     
     <div id="Pricing">
@@ -24,7 +26,7 @@ export const Pricing = () => {
           <Image
             alt=" Pricing for Institution of the Suit"
             className="Importance-img-h-100 w-100"
-            height={320}
+            height={750}
             loading="lazy"
             src={dft}
           />

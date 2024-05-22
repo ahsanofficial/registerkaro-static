@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Limitation = () => {
+import dft from "../../../assets/images/static/trademark-infringement/onetwo.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const Limitation = ({ cityName }: HeroProps) => {
   return (
 
     <div id="Limitation">
@@ -12,7 +14,7 @@ export const Limitation = () => {
           <Image
             alt="the Limitation Period for Filling the Suit"
             className="Importance-img-h-100 w-100"
-            height={320}
+            height={150}
             loading="lazy"
             src={dft}
           />

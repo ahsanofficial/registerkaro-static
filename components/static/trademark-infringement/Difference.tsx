@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Difference = () => {
+import dft from "../../../assets/images/static/trademark-infringement/three.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const Difference = ({ cityName }: HeroProps) => {
   return (
     <div id="Difference">
         <p className="main-para">Delhi High Court for the first time expounded the difference between passing off and trademark infringement in the landmark case of Cadbury India Limited and Ors. v. Neeraj Food Products, 2007 as follows:</p>
@@ -20,7 +22,7 @@ export const Difference = () => {
           <Image
             alt=" the Difference b/w Infringement and Passing Off"
             className="Importance-img-h-100 w-100"
-            height={320}
+            height={475}
             loading="lazy"
             src={dft}
           />
