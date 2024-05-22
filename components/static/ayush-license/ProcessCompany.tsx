@@ -10,7 +10,11 @@ import seven from "../../../assets/images/pvt-reg/HowToRegister/seven.svg";
 
 import arrow from "../../../assets/images/pvt-reg/HowToRegister/arrow.svg";
 
-export const ProcessCompany = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const ProcessCompany = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState("1");
 
   const handleActive = (id: string) => {
@@ -213,13 +217,13 @@ export const ProcessCompany = () => {
           <div className={`${active === "1" ? "active" : "none"}`}>
             <h3>Step 1: GMP Certificate </h3>
             <p>
-            The World Health Organisation has set out rules for Good Manufacturing Practices to oversee the production of drugs/cosmetics and their quality. India and other countries adhere to these guidelines. Drugs/cosmetics made in India must also meet these standards and receive a GMP Certificate from the Drug Controller General of India, which can be obtained through the relevant state's Drug Control Department. This certificate is required when applying for an AYUSH license. 
+            The World Health Organisation has set out rules for Good Manufacturing Practices to oversee the production of drugs/cosmetics and their quality. {cityName} and other countries adhere to these guidelines. Drugs/cosmetics made in {cityName} must also meet these standards and receive a GMP Certificate from the Drug Controller General of {cityName}, which can be obtained through the relevant state's Drug Control Department. This certificate is required when applying for an AYUSH license. 
             </p>
           </div>
           <div className={`${active === "2" ? "active" : "none"}`}>
             <h3>Step 2: COPP Certificate </h3>
             <p>
-            The WHO has created the Certificate of Pharmaceutical Products to confirm drug quality when they are exported. It is typically requested by the National Health Authorities of the importing nation, and exporters must obtain it in their country. AYUSH manufacturers planning to distribute products globally must include this certificate when applying for an AYUSH license. Similar to the GMP Certificate, the COPP is issued by the Drug Controller General of India, with applications accepted by the Drug Control Department of the relevant state. 
+            The WHO has created the Certificate of Pharmaceutical Products to confirm drug quality when they are exported. It is typically requested by the National Health Authorities of the importing nation, and exporters must obtain it in their country. AYUSH manufacturers planning to distribute products globally must include this certificate when applying for an AYUSH license. Similar to the GMP Certificate, the COPP is issued by the Drug Controller General of {cityName}, with applications accepted by the Drug Control Department of the relevant state. 
             </p>
           </div>
           <div className={`${active === "3" ? "active" : "none"}`}>
@@ -232,7 +236,7 @@ export const ProcessCompany = () => {
           <div className={`${active === "4" ? "active" : "none"}`}>
             <h3>Step 4: Documents</h3>
             <p>
-            The process of AYUSH Registration in India is done online through an application. The AYUSH License form must be submitted with all required documents in the correct format and with current information. Mistakes in document submission could result in application rejection, so it is advised to gather all necessary documents before starting the application process.
+            The process of AYUSH Registration in {cityName} is done online through an application. The AYUSH License form must be submitted with all required documents in the correct format and with current information. Mistakes in document submission could result in application rejection, so it is advised to gather all necessary documents before starting the application process.
             </p>
           </div>
           <div className={`${active === "5" ? "active" : "none"}`}>
