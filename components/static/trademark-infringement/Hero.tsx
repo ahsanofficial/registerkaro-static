@@ -14,8 +14,10 @@ let hero = {
         
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,7 +31,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>Trademark Infringement</h4>
-                <p>Trademark infringement, as defined by Section 29 of the Trademarks Act, involves unauthorized usage of a registered trademark. In India, trademark infringement is both a civil and criminal offence punishable by both imprisonment and fines. Remedies for infringement include injunction, compensation, and even destruction of infringing goods. Passing off on the other hand is another tool which extends protection to unregistered trademarks. The limitation period for filing a suit for infringement is three years from the date of the alleged infringement.</p>
+                <p>Trademark infringement, as defined by Section 29 of the Trademarks Act, involves unauthorized usage of a registered trademark. In {cityName}, trademark infringement is both a civil and criminal offence punishable by both imprisonment and fines. Remedies for infringement include injunction, compensation, and even destruction of infringing goods. Passing off on the other hand is another tool which extends protection to unregistered trademarks. The limitation period for filing a suit for infringement is three years from the date of the alleged infringement.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

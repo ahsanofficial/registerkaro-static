@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const DocumentRequired = () => {
+import dft from "../../../assets/images/static/trademark-infringement/What does not Constitute Trademark Infringement_.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
       <p className="main-para">In the following cases, a registered trademark is said to be infringed— If the mark in dispute is identical with or deceptively similar to the registered trademark and is concerning the same or similar goods or services:</p>
@@ -22,7 +24,7 @@ export const DocumentRequired = () => {
           <Image
             alt="What Constitutes Trademark Infringement"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={475}
             loading="lazy"
             src={dft}
           />
