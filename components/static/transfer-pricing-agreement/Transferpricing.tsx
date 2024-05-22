@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/transfer-pricing-agreement/pre-incorporation.svg";
-
-export const Transferpricing = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Transferpricing = ({ cityName }: HeroProps) => {
   return (
     <div id="transferpricing">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tea-board-registration/Registration Cum Membership Certificate (RCMC).svg";
-
-export const RCMC = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RCMC = ({ cityName }: HeroProps) => {
   return (
     <div id="RCMC">
       <p className="main-para">If a person wants to export tea in bulk or packets or bags or instant tea etc. They are required to register with the Tea Board and obtain a RCMC. To obtain RCMC the Applicant needs to apply in form 19-A and form 19-B. Once granted it is valid until the validity of the manufacturer's export licence and can be further renewed.</p>

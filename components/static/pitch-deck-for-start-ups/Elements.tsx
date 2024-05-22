@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pitch-deck-for-start-ups/Elements.svg";
-
-const Elements = () => {
+interface HeroProps {
+    cityName: string;
+}
+const Elements = ({ cityName }: HeroProps) => {
   return (
     <div id="Elements">
       <p className="main-para">

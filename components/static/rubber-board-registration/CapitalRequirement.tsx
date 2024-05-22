@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const CapitalRequirement = () => {
+import dft from "../../../assets/images/static/rubber-board-registration/Rubber.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const CapitalRequirement = ({ cityName }: HeroProps) => {
   return (
     <div id="CapitalRequirement">
         
@@ -28,7 +30,7 @@ export const CapitalRequirement = () => {
           <Image
             alt=" Types of rubber "
             className="Importance-img-h-100 w-100"
-            height={320}
+            height={425}
             loading="lazy"
             src={dft}
           />

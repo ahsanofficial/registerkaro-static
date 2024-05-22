@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/change-in-object-clause/two.svg";
-
-export const ProcessOfChanging = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessOfChanging = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcessOfChanging">
       <p className="main-para">There is a formal procedure that needs to be followed for changing the object clause of the company, it cannot be made merely it has a formal procedure and all the steps in this process need to be documented properly </p>

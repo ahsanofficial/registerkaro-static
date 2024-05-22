@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tea-board-registration/Types of Registration granted by the Tea Board.svg";
-
-export const TypesOfRegn = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const TypesOfRegn = ({ cityName }: HeroProps) => {
   return (
     <div id="TypesOfRegn">
       <p className="main-para">The following licences are issuance by the Board:</p>
