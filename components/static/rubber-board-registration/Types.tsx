@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Types = () => {
+import dft from "../../../assets/images/static/rubber-board-registration/Eligibility.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         

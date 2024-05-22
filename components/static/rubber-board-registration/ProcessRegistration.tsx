@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const ProcessRegistration = () => {
+import dft from "../../../assets/images/static/rubber-board-registration/Process.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessRegistration = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcessRegistration">
                 <p className="main-para">The following is the registration process that is followed for registration:</p>
@@ -20,7 +22,7 @@ export const ProcessRegistration = () => {
           <Image
             alt="Process that is followed for registration"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={175}
             loading="lazy"
             src={dft}
           />
