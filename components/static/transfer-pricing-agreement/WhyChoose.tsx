@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/common-images/Why _choose.svg";
 
 export const WhyChoose = () => {
   return (
@@ -9,16 +9,16 @@ export const WhyChoose = () => {
 </p>
       <div className="benefits flex w-80 m-auto mobile-flex-column">
       
-      <div className="flex-3">
+      <div className="flex-4">
           <Image
             alt=" RegisterKaro has been one stop solution for the SSI registration "
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={580}
             loading="lazy"
             src={dft}
           />
         </div>
-        <div className="flex-7">
+        <div className="flex-6">
             <p><strong>Pool of Experts: </strong>RegisterKaro holds a large pool of Experts from all over the world specializing in SSI registration services.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
 
             <p><strong>Cost-effective: </strong>RegisterKaro SSI registration services are of premium quality at the most efficient rate, which suits the client's pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
