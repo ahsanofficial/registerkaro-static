@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/payment-gateway-licence/three.svg";
-
-export const CapitalRequirement = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const CapitalRequirement = ({ cityName }: HeroProps) => {
   return (
     <div id="CapitalRequirement">
         
