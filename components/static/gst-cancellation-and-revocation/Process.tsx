@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/gst-cancellation-and-revocation/What is Cancellation of GST Registration_.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -47,7 +47,7 @@ export const Process = () => {
             <div className='flex-5'>
                 <p className="small-heading text-center">GST Cancellation and Revocation</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Qatar" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="GST Cancellation and Revocation" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/payment-gateway-licence/Documents Required.svg";
 
 export const DocumentRequired = () => {
   return (
@@ -12,7 +12,7 @@ export const DocumentRequired = () => {
           <Image
             alt="Documents you would need"
             className="Importance-img-h-100 w-100"
-            height={350}
+            height={330}
             loading="lazy"
             src={dft}
           />

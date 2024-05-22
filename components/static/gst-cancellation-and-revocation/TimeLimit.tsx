@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/gst-cancellation-and-revocation/Time Limit for filling the revocation application.svg";
 
 const TimeLimit = () => {
   return (
@@ -11,9 +11,9 @@ const TimeLimit = () => {
         </div>
         <div className="flex-3">
         <Image
-            alt=""
+            alt="Time Limit for filling the revocation application"
             className="Importance-img-h-100 w-100"
-            height={400}
+            height={250}
             loading="lazy"
             src={bft}
           />

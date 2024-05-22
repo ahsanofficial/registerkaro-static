@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/payment-gateway-licence/What is a payment gateway licence_.svg';
 import Image from 'next/image';
 
 export const Process = () => {
@@ -38,9 +38,9 @@ There are multiple benefits and steps involved in acquiring various types of pay
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Payment gateway licence</p>
+                <p className="small-heading text-center">What is a payment gateway licence?</p>
                 <div>
-                    <Image alt="Payment Gateway licences are legal authorisations that are granted, by regulatory bodies like the Reserve Bank of India. " className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="What is a payment gateway licence?" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

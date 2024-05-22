@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/transfer-pricing-agreement/What Transfer Pricing Agreement_.svg';
 import Image from 'next/image';
  
 export const Process = () => {

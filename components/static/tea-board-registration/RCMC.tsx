@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/tea-board-registration/Registration Cum Membership Certificate (RCMC).svg";
 
 export const RCMC = () => {
   return (
@@ -18,7 +18,7 @@ export const RCMC = () => {
           <Image
             alt="Registration Cum Membership Certificate (RCMC)"
             className="RCMC-img w-100 Importance-img-h-100"
-            height={250}
+            height={275}
             loading="lazy"
             src={dft}
           />

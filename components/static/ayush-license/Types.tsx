@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/ayush-license/Types of AYUSH License.svg";
 
 export const Types = () => {
   return (
@@ -10,7 +10,7 @@ export const Types = () => {
           <Image
             alt="Types of AYUSH License"
             className="Importance-img-h-100 w-100"
-            height={300}
+            height={875}
             loading="lazy"
             src={dft} 
           />
