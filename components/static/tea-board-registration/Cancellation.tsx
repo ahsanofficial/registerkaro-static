@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/tea-board-registration/one.svg";
 import Image from 'next/image';
-
-export const Cancellation = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Cancellation = ({ cityName }: HeroProps) => {
     return (
         <div id="Cancellation">
             <div className='Cancellation flex w-80 m-auto mobile-flex-column'>

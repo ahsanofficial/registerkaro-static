@@ -1,14 +1,16 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/tea-board-registration/Types of Licenses granted by the Tea Board.svg";
-
-export const TypesOfLicenses = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const TypesOfLicenses = ({ cityName }: HeroProps) => {
   return (
     <div id="TypesOfLicenses">
       <p className="main-para">The following licences are issuance by the Board:</p>
       <div className="TypesOfLicenses flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
-          <p><strong>1. Export License : </strong>As per the Tea (Distribution & Export) Control Order, 1957, all the companies exporting tea from India need to obtain a valid export license. It is valid for a period of three years only thereafter the applicant needs to renew it. Application for an export license can be submitted by filing form A along with the prescribed fees. Moreover, a Permanent export licence can also be granted, if the the applicant fulfils the eligibility criteria of exporting, a minimum of 100,000 Kg of Tea for 3 years continuously.</p>
+          <p><strong>1. Export License : </strong>As per the Tea (Distribution & Export) Control Order, 1957, all the companies exporting tea from {cityName} need to obtain a valid export license. It is valid for a period of three years only thereafter the applicant needs to renew it. Application for an export license can be submitted by filing form A along with the prescribed fees. Moreover, a Permanent export licence can also be granted, if the the applicant fulfils the eligibility criteria of exporting, a minimum of 100,000 Kg of Tea for 3 years continuously.</p>
           <div>
             <p>Documents required for export licence:</p>
             <ol>

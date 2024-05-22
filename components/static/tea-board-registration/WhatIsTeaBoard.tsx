@@ -1,7 +1,9 @@
 import dft from "../../../assets/images/static/tea-board-registration/pre-incorporation.svg";
 import Image from 'next/image';
-
-export const WhatIsTeaBoard = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhatIsTeaBoard = ({ cityName }: HeroProps) => {
     return (
         <div id="WhatIsTeaBoard">
             
@@ -18,7 +20,7 @@ export const WhatIsTeaBoard = () => {
                     </div>
                 </div>
                 <div className="flex-7">
-                    <p>It is a governing body which regulates the tea business in India. It encourages tea cultivation, enforces quality standards, and supports tea producers, processors, exporters, etc. Registration with the board is referred to as  <em>“Tea Board registration”</em> which ensures legal compliance, advances high standards of quality, and supports the tea business in India.</p>
+                    <p>It is a governing body which regulates the tea business in {cityName}. It encourages tea cultivation, enforces quality standards, and supports tea producers, processors, exporters, etc. Registration with the board is referred to as  <em>“Tea Board registration”</em> which ensures legal compliance, advances high standards of quality, and supports the tea business in {cityName}.</p>
                 </div>
             </div>
         </div>

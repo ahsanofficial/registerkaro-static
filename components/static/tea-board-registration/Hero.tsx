@@ -14,8 +14,10 @@ let hero = {
         "Pan India Expert Assistance",
     ]
 }
-
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -29,7 +31,7 @@ export const Hero = () => {
             />
             <div className="header-content">
               <h4 className='mb-4'>Tea Board Registration</h4>
-              <p>The Tea Board of India, established in 1954 under the Tea Act of 1953, serves as the governing body overseeing the tea industry in India. It regulates tea cultivation and enforces quality standards on producers, processors, and exporters of tea. To operate legally, businesses must obtain the applicable licence and registration such as export and distributor licence, manufacturing unit, buyers and flavour registration etc.</p>
+              <p>The Tea Board of {cityName}, established in 1954 under the Tea Act of 1953, serves as the governing body overseeing the tea industry in {cityName}. It regulates tea cultivation and enforces quality standards on producers, processors, and exporters of tea. To operate legally, businesses must obtain the applicable licence and registration such as export and distributor licence, manufacturing unit, buyers and flavour registration etc.</p>
               <div className="packages">
                   {hero.pack_includes?.map((i: any, n: number) => {
                       return (
