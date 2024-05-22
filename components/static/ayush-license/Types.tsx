@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/ayush-license/Types of AYUSH License.svg";
 
-export const Types = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
@@ -10,7 +14,7 @@ export const Types = () => {
           <Image
             alt="Types of AYUSH License"
             className="Importance-img-h-100 w-100"
-            height={875}
+            height={480}
             loading="lazy"
             src={dft} 
           />

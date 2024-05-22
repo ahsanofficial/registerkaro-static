@@ -5,8 +5,11 @@ import ZohoFormService from '../../child_components/ZohoformService';
 import Image from 'next/image';
 import { GoogleDiv } from '../GoogleDiv';
 
+interface HeroProps {
+    cityName: string;
+}
 
-export const Hero = () => {
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image

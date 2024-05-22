@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/master-service-agreement/one.svg";
 
-export const Importance = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Importance = ({ cityName }: HeroProps) => {
   return (
     <div id="Importance">
       <div className="flex w-80 m-auto mobile-flex-column">

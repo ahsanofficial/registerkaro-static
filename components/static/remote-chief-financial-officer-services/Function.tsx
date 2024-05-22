@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/remote-chief-financial-officer-services/two.svg";
 
-const Function = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Function = ({ cityName }: HeroProps) => {
   return (
     <div id="Function">
         <p className="main-para">There are numerous functions that remote CFO services projects, some of which are significant and are enumerated below:</p>

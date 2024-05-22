@@ -16,7 +16,11 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -33,7 +37,7 @@ export const Hero = () => {
                 
                 <p>The abbreviation FIEO stands for Federation of Indian Export Organizations. FIEO was established in 1965 by the collaboration of the Ministry of Trade and Commerce and the Private Trade and Industry. The primary goal of the Organization is to boost global trade by supporting and assisting entrepreneurs and exporters in foreign markets. Consequently, FIEO is actively working towards expanding and enhancing India's market and exports.</p>
                 <p>An Export House/Star Export House/Trading House is a government-acknowledged company that advocates for the interests of government-acknowledged exporting businesses. FIEO is focused on promoting not only goods exports, but also services exports.</p>
-                <p>The FIEO serves as a guide for all Indian businesspeople involved in the export-import sector. FIEO regulates all export-related organizations in India with the use of FIEO registration. As a result, it assists the Indian government in marketing India's exports. Businessmen can benefit from FIEO registration in a variety of ways, including global exposure, detailed guidance on key areas of global commerce, such as Foreign Trade Policy (FTP), and different exemptions for MSMEs.</p>
+                <p>The FIEO serves as a guide for all Indian businesspeople involved in the export-import sector. FIEO regulates all export-related organizations in {cityName} with the use of FIEO registration. As a result, it assists the Indian government in marketing India's exports. Businessmen can benefit from FIEO registration in a variety of ways, including global exposure, detailed guidance on key areas of global commerce, such as Foreign Trade Policy (FTP), and different exemptions for MSMEs.</p>
 
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {

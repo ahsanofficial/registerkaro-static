@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/bee-registration/Withdrawal of BEE Certificate by manufacturer.svg";
 
-export const Withdrawal = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Withdrawal = ({ cityName }: HeroProps) => {
   return (
     <div id="Withdrawal">
       

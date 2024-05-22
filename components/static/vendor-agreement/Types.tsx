@@ -1,8 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/vendor-agreement/two.svg";
+import dft from "../../../assets/images/static/vendor-agreement/What are the Types of Vendor Agreements  _.svg";
 
-export const Types = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         <p className="main-para">Depending upon the requirements of the company and the nature of the activities, there are many types of Vendor Agreement:</p>
@@ -11,7 +15,7 @@ export const Types = () => {
             <Image
               alt="What are the types of Vendor Agreement?"
               className="Importance-img-h-100 w-100"
-              height={400}
+              height={580}
               loading="lazy"
               src={dft}
             />

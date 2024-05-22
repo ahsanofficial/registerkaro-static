@@ -1,7 +1,11 @@
-import certificate from '../../../assets/images/static/qatar-company-registration/certificate.svg';
+import certificate from '../../../assets/images/static/remote-chief-financial-officer-services/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>

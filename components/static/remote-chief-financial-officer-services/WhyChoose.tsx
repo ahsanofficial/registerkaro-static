@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/remote-chief-financial-officer-services/How RegisterKaro Can Assist You in the Franchise Agreement Process_.svg"
 
-export const WhyChoose = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been one step solution for the CFO Services because of the varied ranges of benefits such as:</p>

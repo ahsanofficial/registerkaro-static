@@ -1,7 +1,11 @@
 import dft from "../../../assets/images/static/bee-registration/Why do we need a BEE Certificate_.svg";
 import Image from 'next/image';
 
-export const WhyNeedBee = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const WhyNeedBee = ({ cityName }: HeroProps) => {
     return (
         <div id="WhyNeedBee">
             
@@ -15,7 +19,7 @@ export const WhyNeedBee = () => {
                         <Image
                             alt="Why do we need a BEE Certificate?"
                             className="WhyNeedBee-img w-100 Importance-img-h-100"
-                            height={340}
+                            height={300}
                             loading="lazy"
                             src={dft}
                         />

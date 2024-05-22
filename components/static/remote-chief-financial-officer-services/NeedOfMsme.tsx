@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/remote-chief-financial-officer-services/pre-incorporation.svg";
 
-const NeedOfMsme = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const NeedOfMsme = ({ cityName }: HeroProps) => {
   return (
     <div id="NeedOfMsme">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

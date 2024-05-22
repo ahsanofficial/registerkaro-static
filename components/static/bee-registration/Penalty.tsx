@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/bee-registration/two.svg";
 
-export const Penalty = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Penalty = ({ cityName }: HeroProps) => {
   return (
     <div id="Penalty">
       <p className="main-para">The goal of the fine for failing to comply with the BEE star label requirement is to prevent manufacturers from mislabeling their goods and to guarantee that buyers are provided with accurate information regarding the energy efficiency of the goods they are purchasing.</p>
@@ -13,7 +17,7 @@ export const Penalty = () => {
           <p><strong>2. </strong>There is a maximum fine of Rs. 2 lakh for the second offense.</p>
           <p><strong>3. </strong>There is a maximum fine of Rs. 5 lakh for the third and consecutive offenses.</p>
           <p><strong>4. </strong>Give the maker a notice to show cause.</p>
-          <p><strong>5. </strong>Revoke or suspend the manufacturer's authorization to market goods in India.</p>
+          <p><strong>5. </strong>Revoke or suspend the manufacturer's authorization to market goods in {cityName}.</p>
           <p><strong>6. </strong>Publish the name of the manufacturer in the BEE’s website.</p>
         </div>
         <div className="flex-3">

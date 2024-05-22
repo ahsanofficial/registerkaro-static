@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/csr-registration/one.svg";
 
-const ProcedureCsr = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const ProcedureCsr = ({ cityName }: HeroProps) => {
   return (
     <div id="ProcedureCsr">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

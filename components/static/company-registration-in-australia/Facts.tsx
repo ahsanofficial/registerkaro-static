@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-<<<<<<< HEAD
-import dft from "../../../assets/images/static/company-registration-in-australia/private (copy).svg";
-=======
 import dft from "../../../assets/images/static/company-registration-in-australia/two.svg";
->>>>>>> neha
 
-export const Facts = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Facts = ({ cityName }: HeroProps) => {
   return (
     <div id="Facts">
       <div className="facts flex w-80 m-auto mobile-flex-column-reverse">

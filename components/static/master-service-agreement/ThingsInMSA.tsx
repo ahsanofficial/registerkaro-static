@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/master-service-agreement/two.svg";
 
-const ThingsInMSA = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const ThingsInMSA = ({ cityName }: HeroProps) => {
   return (
     <div id="ThingsInMSA">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

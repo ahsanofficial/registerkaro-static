@@ -3,7 +3,11 @@ import React from "react";
 import dft from "../../../assets/images/static/bee-registration/Classification of BEE Certification.svg";
 import dft2 from "../../../assets/images/static/bee-registration/three.svg";
 
-export const Classification = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Classification = ({ cityName }: HeroProps) => {
   return (
     <div id="Classification">
       <p className="main-para">The BEE Certification is classified under two major categories:</p>

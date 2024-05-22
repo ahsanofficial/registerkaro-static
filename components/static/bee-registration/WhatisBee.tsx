@@ -1,7 +1,11 @@
 import dft from "../../../assets/images/static/bee-registration/What is BEE Certification_.svg";
 import Image from 'next/image';
 
-export const WhatisBee = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const WhatisBee = ({ cityName }: HeroProps) => {
     return (
         <div id="WhatisBee">
             
@@ -11,7 +15,7 @@ export const WhatisBee = () => {
                         <Image
                             alt="What is BEE Certification?"
                             className="WhatisBee-img w-100 Importance-img-h-100"
-                            height={325}
+                            height={300}
                             loading="lazy"
                             src={dft}
                         />

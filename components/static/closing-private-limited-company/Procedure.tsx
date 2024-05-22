@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/closing-private-limited-company/Procedure for Closure of Pvt. Ltd. Company.svg";
 
-const Procedure = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Procedure = ({ cityName }: HeroProps) => {
   return (
     <div id="Procedure">
       <div className="flex w-80 m-auto mobile-flex-column">
@@ -81,7 +85,7 @@ const Procedure = () => {
             </li>
             <li>
               <strong>Compulsory Wind Up: </strong>
-              If any company in India, according to the Companies Act, engages
+              If any company in {cityName}, according to the Companies Act, engages
               in illegal or fraudulent activities or contributes to such
               activities, it will be required by the Tribunal to cease
               operations. The process of compulsory winding up includes the

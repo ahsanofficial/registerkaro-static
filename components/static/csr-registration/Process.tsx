@@ -1,12 +1,16 @@
 import certificate from '../../../assets/images/static/csr-registration/certificate.svg';
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
                 <p className='text-justify'>CSR Registration, also known as the Corporate Social Responsibility Act, was introduced by the government to encourage private sector involvement in social initiatives. Previously optional, private companies are now required to meet specific criteria set by the government and actively participate in charitable activities as outlined in the CSR act. More detailed analysis will be provided here.</p>
-                <p className='text-justify'>Corporate social responsibility (CSR) is a type of global corporate self-regulation that involves businesses participating in or supporting volunteering and ethically-driven practices to help achieve the goals of activism, philanthropy, or charity. Introduction of the Companies Act, 2013 by the Ministry of Corporate Affairs (MCA), Government of India, was one of the most comprehensive trials globally of mandating corporate social responsibility (CSR) by legally obligating companies to engage in welfare initiatives. CSR-1 form serves as a means for organizations to apply for CSR funding from corporate entities through implementing agencies. The form named CSR-1 is referred to as Form for <q>Registration of Entities for undertaking CSR Activities</q>.</p>
+                <p className='text-justify'>Corporate social responsibility (CSR) is a type of global corporate self-regulation that involves businesses participating in or supporting volunteering and ethically-driven practices to help achieve the goals of activism, philanthropy, or charity. Introduction of the Companies Act, 2013 by the Ministry of Corporate Affairs (MCA), Government of {cityName}, was one of the most comprehensive trials globally of mandating corporate social responsibility (CSR) by legally obligating companies to engage in welfare initiatives. CSR-1 form serves as a means for organizations to apply for CSR funding from corporate entities through implementing agencies. The form named CSR-1 is referred to as Form for <q>Registration of Entities for undertaking CSR Activities</q>.</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

@@ -1,8 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/vendor-agreement/pre-incorporation.svg";
+import bft from "../../../assets/images/static/vendor-agreement/Importance of Vendor Agreement.svg";
 
-const ImportanceVendor = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const ImportanceVendor = ({ cityName }: HeroProps) => {
   return (
     <div id="ImportanceVendor">
         <p className="main-para">It is imperative to have a vendor agreement in place for multiple reasons.</p>

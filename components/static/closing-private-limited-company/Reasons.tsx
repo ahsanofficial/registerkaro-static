@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/closing-private-limited-company/one.svg";
 
-export const Reasons = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Reasons = ({ cityName }: HeroProps) => {
   return (
     <div id="Reasons">
       <p className="main-para">

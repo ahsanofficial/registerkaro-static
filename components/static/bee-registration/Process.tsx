@@ -1,12 +1,16 @@
 import dft from "../../../assets/images/static/bee-registration/one.svg";
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>In India, the Ministry of Power established the Bureau of Energy Efficiency (BEE) in March 2002, and it functions in compliance with the Energy Conservation Act of 2001. The principal aim of BEE is to encourage and assist energy efficiency projects in all areas of the nation.</p>
-                <p className='text-justify'>It runs awareness campaigns and imposes regulations on energy efficiency. In accordance with BEE rules, it also certifies producers, exporters, and dealers of electric appliances. To start doing business in India, it is crucial for all manufacturers and traders to obtain BEE certification.</p>
+                <p className='text-justify'>In {cityName}, the Ministry of Power established the Bureau of Energy Efficiency (BEE) in March 2002, and it functions in compliance with the Energy Conservation Act of 2001. The principal aim of BEE is to encourage and assist energy efficiency projects in all areas of the nation.</p>
+                <p className='text-justify'>It runs awareness campaigns and imposes regulations on energy efficiency. In accordance with BEE rules, it also certifies producers, exporters, and dealers of electric appliances. To start doing business in {cityName}, it is crucial for all manufacturers and traders to obtain BEE certification.</p>
                 
                 <div className='page-point'>
                     <ul>
@@ -57,7 +61,7 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Overview on BEE Registration in India</p>
+                <p className="small-heading text-center">Overview on BEE Registration in {cityName}</p>
                 <div>
                     <Image alt="Overview on BEE Registration in India" className="certificate h-100 w-100" loading="lazy" src={dft} />
                 </div>

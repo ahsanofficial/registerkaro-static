@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/remote-chief-financial-officer-services/onetwo.svg";
 
-export const Benefits = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
       <p className="main-para">

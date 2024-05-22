@@ -16,7 +16,11 @@ let hero = {
     ]
 }
 
-export const Hero = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +34,7 @@ export const Hero = () => {
             />
             <div className="header-content">
             <h4 className='mb-4'>CSR Registration</h4>
-                <p>The Ministry of Corporate Affairs, Government of India made the Companies Act, 2013 into law which was a major initiative in making CSR mandatory for companies by requiring them to engage in social welfare projects. This has positioned India as the sole nation to enforce and require CSR for specific types of companies governed by the Act. This CSR Initiative aims to drive the country towards attaining sustainable development goals and fostering public-private partnerships in India's transformation.</p>
+                <p>The Ministry of Corporate Affairs, Government of {cityName} made the Companies Act, 2013 into law which was a major initiative in making CSR mandatory for companies by requiring them to engage in social welfare projects. This has positioned {cityName} as the sole nation to enforce and require CSR for specific types of companies governed by the Act. This CSR Initiative aims to drive the country towards attaining sustainable development goals and fostering public-private partnerships in India's transformation.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

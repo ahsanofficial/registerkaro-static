@@ -1,12 +1,16 @@
 import certificate from '../../../assets/images/static/ayush-license/ayush License.svg';
 import Image from 'next/image';
  
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
                 
-            <p>AYUSH, short for Ayurvedic, Yoga & Naturopathy, Unani, Siddha, and Homeopathy, represent ancient forms of medicine popular in India. Pre-2014, these therapies were unregulated until the establishment of an AYUSH Ministry. This Ministry introduced a regulatory framework for AYUSH businesses in manufacturing, selling, marketing, and exporting products domestically and internationally. AYUSH licenses are now a crucial aspect of this framework, with unlicensed businesses prohibited from operating in India. These licenses are granted by the state AYUSH Ministry under which the business operates, following provisions in the Drugs and Cosmetics Rules, 1945, business involving import/export, drugs, or cosmetics requires compliance with the Drugs and Cosmetics Act of 1940 and the Drugs and Cosmetics Rules of 1945. Any company dealing with herbal, Unani, or ayurvedic products must obtain an AYUSH License. Ancient Indian doctors treated patients with ayurvedic and Unani medicines, known for their lack of side effects, which has contributed to their global popularity over allopathic or homeopathic alternatives.</p>
+            <p>AYUSH, short for Ayurvedic, Yoga & Naturopathy, Unani, Siddha, and Homeopathy, represent ancient forms of medicine popular in {cityName}. Pre-2014, these therapies were unregulated until the establishment of an AYUSH Ministry. This Ministry introduced a regulatory framework for AYUSH businesses in manufacturing, selling, marketing, and exporting products domestically and internationally. AYUSH licenses are now a crucial aspect of this framework, with unlicensed businesses prohibited from operating in {cityName}. These licenses are granted by the state AYUSH Ministry under which the business operates, following provisions in the Drugs and Cosmetics Rules, 1945, business involving import/export, drugs, or cosmetics requires compliance with the Drugs and Cosmetics Act of 1940 and the Drugs and Cosmetics Rules of 1945. Any company dealing with herbal, Unani, or ayurvedic products must obtain an AYUSH License. Ancient Indian doctors treated patients with ayurvedic and Unani medicines, known for their lack of side effects, which has contributed to their global popularity over allopathic or homeopathic alternatives.</p>
             
 
               
@@ -35,7 +39,7 @@ export const Process = () => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Types of AYUSH License</p>
+                <p className="small-heading text-center">AYUSH License</p>
                 <div>
                     <Image alt="Ayush License" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

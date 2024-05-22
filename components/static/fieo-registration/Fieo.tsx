@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/fieo-registration/two.svg";
 
-export const Fieo = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Fieo = ({ cityName }: HeroProps) => {
   return (
     <div id="Fieo">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

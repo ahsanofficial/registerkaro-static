@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/closing-private-limited-company/DOCUMENTS REQUIRED.svg";
 
-const DocumentsReq = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const DocumentsReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsReq">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

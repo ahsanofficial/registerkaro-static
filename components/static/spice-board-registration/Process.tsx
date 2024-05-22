@@ -2,7 +2,11 @@
 import dft from "../../../assets/images/static/spice-board-registration/certificate.svg";
 import Image from 'next/image';
 
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>

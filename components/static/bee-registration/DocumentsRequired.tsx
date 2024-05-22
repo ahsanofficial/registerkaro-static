@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/bee-registration/Documents required for the BEE Registration.svg";
 
-export const DocumentsRequired = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
       
@@ -12,7 +16,7 @@ export const DocumentsRequired = () => {
           <Image
             alt="DocumentsRequired of BEE Certification"
             className="documentsRequired-img w-100 Importance-img-h-100"
-            height={1300}
+            height={500}
             loading="lazy"
             src={dft}
           />

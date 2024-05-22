@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/spice-board-registration/Documents Required.svg";
 
-export const DocumentsRequired = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const DocumentsRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentsRequired">
       <div className="documentsRequired flex w-80 m-auto mobile-flex-column-reverse">
