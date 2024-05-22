@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
-
-export const Types = () => {
+import dft from "../../../assets/images/static/petroleum-and-explosive-safety-organisation/Process of obtaining a licence.svg";
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
         
@@ -11,7 +13,7 @@ export const Types = () => {
           <Image
             alt="Process of obtaining a licence"
             className="Importance-img-h-100 w-100"
-            height={600}
+            height={500}
             loading="lazy"
             src={dft}
           />
