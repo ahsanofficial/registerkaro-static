@@ -4,8 +4,10 @@ import one from "../../../assets/images/pvt-reg/HowToRegister/one.svg";
 import two from "../../../assets/images/pvt-reg/HowToRegister/two.svg";
 import three from "../../../assets/images/pvt-reg/HowToRegister/three.svg";
 import arrow from "../../../assets/images/pvt-reg/HowToRegister/arrow.svg";
-
-export const ProcessCompany = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProcessCompany = ({ cityName }: HeroProps) => {
   const [active, setActive] = useState("1");
 
   const handleActive = (id: string) => {
@@ -22,7 +24,7 @@ export const ProcessCompany = () => {
           <div className={`${active === "1" ? "active" : "none"}`}>
             <h3>Step 1: As stated in the Payment and Settlement Act</h3>
             <p>
-            As stated in the Payment and Settlement Act, one needs to submit an application in the form A, to the Resrve Bank of India office to department handling the payment and settlements. 
+            As stated in the Payment and Settlement Act, one needs to submit an application in the form A, to the Resrve Bank of {cityName} office to department handling the payment and settlements. 
             </p>
           </div>
           <div className={`${active === "2" ? "active" : "none"}`}>
