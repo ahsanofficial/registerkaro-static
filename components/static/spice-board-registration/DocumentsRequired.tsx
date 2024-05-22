@@ -17,9 +17,9 @@ export const DocumentsRequired = () => {
         </div>
         <div className="flex-5">
           <Image
-            alt="DocumentsRequired"
+            alt="Documents Required"
             className="DocumentsRequired-img w-100 Importance-img-h-100"
-            height={460}
+            height={480}
             loading="lazy"
             src={dft}
           />

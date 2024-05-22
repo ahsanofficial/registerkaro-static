@@ -48,7 +48,6 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
                <link rel="canonical" href="https://www.registerkaro.in/ads/sepc-license" /> 
             </Head>
-            
             <Hero />
             <h1 className='main-heading'>All You Need to Know About SEPC License</h1>
             <div className='heading-line'></div>
@@ -59,20 +58,15 @@ const Home = () => {
             <h2 className='main-heading'>Process to get SEPC License </h2>
             <div className='heading-line'></div>
             <ProcessCompany />
-
-
             <h2 className='main-heading'>Fees for New Membership</h2>
             <div className='heading-line'></div>
             <TableCom/>  
             <h2 className='main-heading'>Fees for Renewal of Membership</h2>
             <div className='heading-line'></div>
             <Tablerenewal/>   
-
-
             <h2 className='main-heading'>How RegisterKaro helps you in the Registration process?</h2>
             <div className='heading-line'></div>
             <WhyChoose/>   
-            
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />

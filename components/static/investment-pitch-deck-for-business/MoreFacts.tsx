@@ -1,11 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/investment-pitch-deck-for-business/two.svg";
 
 const MoreFacts = () => {
   return (
     <div id="MoreFacts">
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+        <div className="flex-3">
+          <Image
+            alt="More Facts About Investment Pitch Deck"
+            className="Importance-img-h-100 w-100"
+            height={480}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-7">
           <p>
             <strong>1. </strong>An investor pitch deck should avoid containing
@@ -48,15 +57,6 @@ const MoreFacts = () => {
             recruiting staff, or persuading suppliers to work with you. Keep in
             mind, for a business owner.
           </p>
-        </div>
-        <div className="flex-3">
-          <Image
-            alt=""
-            className="Importance-img-h-100 w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
         </div>
       </div>
     </div>

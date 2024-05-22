@@ -1,10 +1,11 @@
-import dft from "../../../assets/images/static/spice-board-registration/three.svg";
+
+import dft from "../../../assets/images/static/spice-board-registration/one.svg";
+
 import Image from 'next/image';
 
 export const WhyBeneficial = () => {
     return (
         <div id="WhyBeneficial">
-            
             <div className='whyBeneficial flex w-80 m-auto mobile-flex-column'>
                 <div className='flex-5'>
                     <div>

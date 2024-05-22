@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/financial-consultancy-services/onetwo.svg";
 import Image from 'next/image';
 
 export const BestFCS = () => {
@@ -17,7 +17,7 @@ export const BestFCS = () => {
                         <Image
                             alt="What could be the Best Financial Consultancy Services?"
                             className="BestFCS-img w-100 Importance-img-h-100"
-                            height={700}
+                            height={550}
                             loading="lazy"
                             src={dft}
                         />

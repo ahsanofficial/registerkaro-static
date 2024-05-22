@@ -1,11 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/pvt-reg/benefit.svg";
+import bft from "../../../assets/images/static/investment-pitch-deck-for-business/one.svg";
 
 const InvestorDeck = () => {
   return (
     <div id="InvestorDeck">
-      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="benefits flex w-80 m-auto mobile-flex-column">
+        <div className="flex-3">
+          <Image
+            alt="Investor Deck vs Pitch Deck"
+            className="Importance-img-h-100 w-100"
+            height={480}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-7">
             <p><strong>1. </strong>The issue at hand. Do not mistake this for irritation or mild discomfort. In order for the narrative to be effective, the issue must be significant, unpleasant, and pressing. And always remember that it must be an issue that actual individuals face. Express it in basic, widely understood language.</p>
             <p><strong>2. </strong>The answer. This may not be your answer, but it's the answer that everyone wishes for. Everyone in the crowd should be agreeing, believing it is a clever solution to the problem. Your method or way of doing something. This is the answer to your problem. It must be evident right away that your solution exceeds the audience's expectations.</p>
@@ -21,15 +30,6 @@ const InvestorDeck = () => {
             <p><strong>12. </strong>Model of operation or functioning in business. Investors will need to grasp how your business generates revenue, what pricing strategy you use, the lifetime value of a customer, and your customer acquisition channels and costs.</p>
             <p><strong>13. </strong>Plan for promoting and selling products or services. The supplement for your business strategy. What methods of promotion will you utilize, how you present your promotional materials, and the results of your promotional efforts.</p>
             <p><strong>14. </strong>Finances. Investors will seek to comprehend the company’s present financial status and projected future expenditure rate. Provide forecasts for the next three to five years, details on unit economics, the rate at which cash is being spent, important metrics such as annual recurring revenue, overall revenue and expenses, EBITDA, and crucial underlying assumptions. Ensure that your numbers are practical. Astute investors will be closely monitoring.</p>
-        </div>
-        <div className="flex-3">
-        <Image
-            alt=""
-            className="Importance-img-h-100 w-100"
-            height={480}
-            loading="lazy"
-            src={bft}
-          />
         </div>
       </div>
     </div>

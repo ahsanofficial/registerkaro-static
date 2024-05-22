@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/financial-consultancy-services/two.svg";
 import Image from 'next/image';
 
 export const WhyRKforFCS = () => {
@@ -9,9 +9,9 @@ export const WhyRKforFCS = () => {
                 <div className='flex-5'>
                     <div>
                         <Image
-                            alt="Key Notes for Financial Consultancy Services"
+                            alt="Why RegisterKaro is Perfect for Financial Consultancy Services"
                             className="WhyRKforFCS-img w-100 Importance-img-h-100"
-                            height={800}
+                            height={550}
                             loading="lazy"
                             src={dft}
                         />

@@ -1,12 +1,14 @@
+<<<<<<< HEAD
 import dft from "../../../assets/images/static/company-registration-in-australia/three.svg";
+=======
+import dft from "../../../assets/images/static/company-registration-in-australia/one.svg";
+>>>>>>> neha
 import Image from 'next/image';
 
 export const WhyEstablish = () => {
     return (
         <div id="WhyEstablish">
-            
-            <div className='whyEstablish flex w-80 m-auto mobile-flex-column-reverse'>
-                
+            <div className='whyEstablish flex w-80 m-auto mobile-flex-column-reverse'>       
                 <div className="flex-7">
                     <p>Establishing a business in Australia offers owners limited liability protection, ensuring their personal assets are distinct from the company's. The Australian government is supportive of business growth, providing tax incentives and grants. </p>
                     <p>Australia has a low corporate tax rate and offers tax benefits for small businesses. Companies in Australia have access to various funding options, including venture capital, angel investors, and government grants. </p>
@@ -19,7 +21,7 @@ export const WhyEstablish = () => {
                         <Image
                             alt="Why to establish a business in Australia"
                             className="WhyEstablish-img w-100 Importance-img-h-100"
-                            height={600}
+                            height={550}
                             loading="lazy"
                             src={dft}
                         />

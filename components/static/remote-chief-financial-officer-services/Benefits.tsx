@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/remote-chief-financial-officer-services/onetwo.svg";
 
 export const Benefits = () => {
   return (
@@ -9,16 +9,7 @@ export const Benefits = () => {
         The following are the benefits that business owners can receive by using
         remote CFO services:
       </p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-4">
-          <Image
-            alt="Benefits of starting a Business in Qatar"
-            className="Importance-img-h-100 w-100"
-            height={750}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
           <p>
             <strong>Success-focused methodology : </strong>
@@ -86,7 +77,15 @@ export const Benefits = () => {
             to accommodate growth.
           </p>
         </div>
-     
+        <div className="flex-4">
+          <Image
+            alt="Benefits of Employing Remote CFO Services"
+            className="Importance-img-h-100 w-100"
+            height={550}
+            loading="lazy"
+            src={dft}
+          />
+        </div>
       </div>
     </div>
   );

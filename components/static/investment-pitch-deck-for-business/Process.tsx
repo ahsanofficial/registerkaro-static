@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const Process = () => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
-            <div className='flex-5'>
+            <div className='flex-6'>
                 <p className='text-justify'>You recognize the potential market for your idea and believe you possess the necessary skills to make it a reality. However, convincing investors of the worth of your idea and expertise can feel daunting.</p>
                 <p className='text-justify'>This presentation for investors was created to demonstrate why your idea is the most promising one among all others. Utilize it to outline the issue your company addresses, your income strategy, their contribution, and a financial analysis of its allocation. It is simple to personalize it to align with your brand and work together on the presentation with your team in real time.</p>
                 <div className='page-point'>
@@ -34,10 +34,10 @@ export const Process = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex-5'>
-                <p className="small-heading text-center">Company Registration in Qatar</p>
+            <div className='flex-4'>
+                <p className="small-heading text-center">Investment Pitch Deck for Business</p>
                 <div>
-                    <Image alt="An Overview of Company Registration in Qatar" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                    <Image alt="Investment Pitch Deck for Business" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>

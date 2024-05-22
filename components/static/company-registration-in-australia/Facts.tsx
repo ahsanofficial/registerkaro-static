@@ -1,6 +1,10 @@
 import Image from "next/image";
 import React from "react";
+<<<<<<< HEAD
 import dft from "../../../assets/images/static/company-registration-in-australia/private (copy).svg";
+=======
+import dft from "../../../assets/images/static/company-registration-in-australia/two.svg";
+>>>>>>> neha
 
 export const Facts = () => {
   return (
