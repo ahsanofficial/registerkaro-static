@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/change-in-object-clause/Reasons for changing the object clause_.svg";
-
-export const ReasonsForChanging = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ReasonsForChanging = ({ cityName }: HeroProps) => {
   return (
     <div id="ReasonsForChanging">
       <p className="main-para">Following are the reasons why businesses might consider a change in the object clause of their contracts,  or the Memorandum of Association(MoA) which acts as the Constitution of the Company, can also be defined as the document to which the operations of the company must adhere and it contains multiple clauses like object clause which have their purpose of defining certain things in the MoA.  MoA’s object clause changes when there is a change in a huge thing that affects the business and a contract’s object clause change happens when a company has entered into a contract with third-party for some project, supply of material or any other purpose, and the MoA of the company changes.</p>
