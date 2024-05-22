@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/pitch-deck-for-start-ups/two.svg";
-
-const WhyDo = () => {
+interface HeroProps {
+    cityName: string;
+}
+const WhyDo = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyDo">
         <p className="main-para">Following are the reasons one needs a pitch deck, and why is it important</p>
