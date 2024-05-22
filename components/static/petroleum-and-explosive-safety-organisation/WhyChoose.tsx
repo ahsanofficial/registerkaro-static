@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/common-images/Why _choose.svg";
-
-export const WhyChoose = () => {
+import dft from "../../../assets/images/static/petroleum-and-explosive-safety-organisation/How does RegisterKaro help_.png";
+interface HeroProps {
+    cityName: string;
+}
+export const WhyChoose = ({ cityName }: HeroProps) => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been a one-stop solution for registering businesses in various countries for the varied ranges of benefits such as:</p>
