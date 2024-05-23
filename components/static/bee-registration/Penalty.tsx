@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/static/bee-registration/two.svg";
+import dft from "../../../assets/images/static/bee-registration/pvgt.svg";
 
 interface HeroProps {
   cityName: string;
