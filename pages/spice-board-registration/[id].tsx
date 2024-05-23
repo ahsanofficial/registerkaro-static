@@ -351,7 +351,7 @@ const Home = () => {
     }
 
     return (
-        <div className='services-pages spice-board-registration'>
+        <div className='services-pages spice-board-regi'>
             <Head>
                 <title>Spice Board Registration | RegisterKaro</title>
                 <meta name="description" content="Spices Board was established on 26th February 1987 as per the Spices Board Act 1986 (No. 10 of 1986) by merging the former Cardamom Board (1968) and Spices Export Promotion Council (1960). Spices Board operates as one of the five Commodity Boards that operate under the Ministry of Commerce & Industry. It is a self-governing organization in charge of promoting the export of the 52 specified spices and advancing Cardamom (Small & Large) growth." />

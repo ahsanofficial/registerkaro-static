@@ -11,17 +11,9 @@ interface HeroProps {
 export const ListOfSpices = ({ cityName }: HeroProps) => {
   return (
     <div id="ListOfSpices">
-      <div className="listOfSpices flex w-80 m-auto mobile-flex-column">
-        <div className="flex-5">
-          <Image
-            alt="List Of Spices for Registration"
-            className="ListOfSpices-img w-100 Importance-img-h-100"
-            height={550}
-            loading="lazy"
-            src={dft}
-          />
-        </div>
-        <div className="flex-5">
+      <div className="benefits flex   w-80 m-auto mobile-flex-column">
+       
+      <div className="flex-4 left p-0 m-0">
           <p><strong>1.</strong> KOKAM</p>
           <p><strong>2.</strong> MINT</p>
           <p><strong>3.</strong> HORSE-RADISH</p>
@@ -47,7 +39,11 @@ export const ListOfSpices = ({ cityName }: HeroProps) => {
           <p><strong>23.</strong> SWEET FLAG</p>
           <p><strong>24.</strong> CHILLY</p>
           <p><strong>25.</strong> GINGER</p>
-          <p><strong>26.</strong> TURMERIC</p>
+          <p className="p-0 m-0"><strong>26.</strong> TURMERIC</p>
+        </div>
+            <span className="line p-0 m-0">
+            </span>
+        <div className="flex-4 right ">
           <p><strong>27.</strong> CUMIN</p>
           <p><strong>28.</strong> FENNEL</p>
           <p><strong>29.</strong> FENUGREEK</p>

@@ -81,19 +81,19 @@ export const HowRegister = ({ cityName }: HeroProps) => {
             <p className='mb-0'>Upon finishing the login for the masala/spice board, individuals must fill out all necessary fields. It is important to note that the IEC code must be accurately entered as the Spices Masala Board issues CRES based on IEC criteria.</p>    
           </div>
           <div className={`${active === '4' ? 'active' : 'none'}`}>
-            <h3>Step 4: Hearing: </h3>
+            <h3>Step 4: </h3>
             <p className='mb-0'>Upon completing Part 1, a unique application number will be generated for future reference. The individual is required to input the application number in order to log in to the online portal. The candidate is required to submit all necessary documents along with the photo in the correct file formats.</p>
           </div>
           <div className={`${active === '5' ? 'active' : 'none'}`}>
-            <h3>Step 5: Hearing: </h3>
+            <h3>Step 5: </h3>
             <p className='mb-0'>After a successful transaction, the Spices Board forwards the application to the appropriate regional office for review. If any inconsistencies were found, the application would be returned to its original state.</p>
           </div>
           <div className={`${active === '6' ? 'active' : 'none'}`}>
-            <h3>Step 6: Hearing: </h3>
+            <h3>Step 6: </h3>
             <p className='mb-0'>The CRES certification will be issued to the applicant immediately after they finish the registration process. You are able to log in to the spice board and obtain the spice board certificate.</p>
           </div>
           <div className={`${active === '7' ? 'active' : 'none'}`}>
-            <h3>Step 7: Hearing: </h3>
+            <h3>Step 7: </h3>
             <p className='mb-0'>All documents from the checklist must be submitted to the appropriate regional office of the spices board within 10 days of finishing the online registration application.</p>
           </div>
         </div>
