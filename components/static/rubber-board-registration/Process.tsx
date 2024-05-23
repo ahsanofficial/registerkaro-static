@@ -7,7 +7,7 @@ export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'> Rubber Board Board of India was set up, to develop the rubber industry in the country, under the Union of Rubber Industry under the Ministry of Commerce and Industry. It was established in 1947, immediately after independence. The primary goal of this board is to encourage sustainable development and foster the growth of natural rubber and products related to rubber.</p>
+                <p className='text-justify'> Rubber Board Board of {cityName} was set up, to develop the rubber industry in the country, under the Union of Rubber Industry under the Ministry of Commerce and Industry. It was established in 1947, immediately after independence. The primary goal of this board is to encourage sustainable development and foster the growth of natural rubber and products related to rubber.</p>
               
               <p>Purpose:</p>
               <p>1. Development of Rubber Industry</p>
@@ -18,7 +18,7 @@ export const Process = ({ cityName }: HeroProps) => {
               <p>6. Helps in preparing Market strategy</p>
               <p>7. Promoting Export in the country</p>
               <p>8. Creating consumer awareness</p>
-              <p>9. Collect important and helpful information in the form of statistics from rubber-using industries in India</p>
+              <p>9. Collect important and helpful information in the form of statistics from rubber-using industries in {cityName}</p>
               <p>10. Encourage and promote participation in international trade and conferences related to rubber.</p>
 
                 <div className='page-point'>

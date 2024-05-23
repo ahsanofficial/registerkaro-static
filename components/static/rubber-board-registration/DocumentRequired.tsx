@@ -7,7 +7,7 @@ interface HeroProps {
 export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
-        <p className="main-para">The following are the documents required for registering with the Register Board of India</p>
+        <p className="main-para">The following are the documents required for registering with the Register Board of {cityName}</p>
 
         
       <div className="benefits flex w-80 m-auto mobile-flex-column">

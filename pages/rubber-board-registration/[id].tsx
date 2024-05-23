@@ -1,14 +1,17 @@
 import Head from 'next/head'
-import { WhyRegisterkaro } from '../components/static/WhyRegisterkaro'
-import { Hero } from '../components/static/rubber-board-registration/Hero'
-import { Process } from '../components/static/rubber-board-registration/Process'
-import { Types } from '../components/static/rubber-board-registration/Types'
-import { DocumentRequired } from '../components/static/rubber-board-registration/DocumentRequired'
-import { CapitalRequirement } from '../components/static/rubber-board-registration/CapitalRequirement'
-import { WhyChoose } from '../components/static/rubber-board-registration/WhyChoose'
-import { ProcessRegistration } from '../components/static/rubber-board-registration/ProcessRegistration'
-import { Benefits } from '../components/static/rubber-board-registration/Benefits'
-import { RegistrationLinks } from '../components/child_components/RegistrationLinks'
+import { WhyRegisterkaro } from '../../components/static/WhyRegisterkaro'
+import { Hero } from '../../components/static/rubber-board-registration/Hero'
+import { Process } from '../../components/static/rubber-board-registration/Process'
+import { Types } from '../../components/static/rubber-board-registration/Types'
+import { DocumentRequired } from '../../components/static/rubber-board-registration/DocumentRequired'
+import { CapitalRequirement } from '../../components/static/rubber-board-registration/CapitalRequirement'
+import { WhyChoose } from '../../components/static/rubber-board-registration/WhyChoose'
+import { ProcessRegistration } from '../../components/static/rubber-board-registration/ProcessRegistration'
+import { Benefits } from '../../components/static/rubber-board-registration/Benefits'
+import { RegistrationLinks } from '../../components/child_components/RegistrationLinks'
+import { CustomDefault } from '../../components/child_components/CustomDefault'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
 let state = [
     "maharashtra",
@@ -299,7 +302,29 @@ let state = [
     "yamunanagar"
   ]
 
-const Home = () => {
+  function formatString(input: string) {
+    let words = input.split('-')
+    let formattedString = words.map((word: string) => {
+        return word.charAt(0).toUpperCase() + word.slice(1)
+    }).join(' ')
+    return formattedString;
+  }
+  
+  const Home = () => {
+    const router = useRouter();
+    const query = router.query.id as string;
+  
+    useEffect(() => {
+        console.log('q', query);
+    }, [query]);
+  
+    const cityFromQuery = query?.replace('rubber-board-registration-in-', '');
+    const cityString = cityFromQuery ? cityFromQuery.slice(0) : '';
+    const cityName = formatString(cityString)
+    const isCityValid = city.includes(cityString) || state.includes(cityString)
+    if (!isCityValid) {
+        return <CustomDefault />;
+    }
     return (
         <div className='services-pages dubai-reg'>
             <Head>
@@ -313,34 +338,34 @@ const Home = () => {
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="canonical" href="https://www.registerkaro.in/ads/rubber-board-registration" />
             </Head>
-            <Hero  cityName={'India'} />
+            <Hero  cityName={cityName} />
             <h1 className='main-heading'>What is Rubber Board Registration ?</h1>
             <div className='heading-line'></div>
-            <Process  cityName={'India'} />
+            <Process  cityName={cityName} />
             <h2 className='main-heading'>Eligibility</h2>
             <div className='heading-line'></div>
-            <Types  cityName={'India'} />
+            <Types  cityName={cityName} />
            
             <h2 className='main-heading'>Process</h2>
             <div className='heading-line'></div>
-            <ProcessRegistration  cityName={'India'} />
+            <ProcessRegistration  cityName={cityName} />
 
             <h2 className='main-heading'>Documents Required</h2>
             <div className='heading-line'></div>
-            <DocumentRequired  cityName={'India'} />
+            <DocumentRequired  cityName={cityName} />
 
             <h2 className='main-heading'>Types</h2>
             <div className='heading-line'></div>
-            <CapitalRequirement  cityName={'India'} />
+            <CapitalRequirement  cityName={cityName} />
 
             <h2 className='main-heading'>Benefits</h2>
             <div className='heading-line'></div>
-            <Benefits  cityName={'India'} />
+            <Benefits  cityName={cityName} />
 
 
             <h2 className='main-heading'>How does Register Karo help ?</h2>
             <div className='heading-line'></div>
-            <WhyChoose cityName={'India'} />
+            <WhyChoose cityName={cityName} />
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
