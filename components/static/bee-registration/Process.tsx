@@ -61,7 +61,7 @@ export const Process = ({ cityName }: HeroProps) => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">Overview on BEE Registration in {cityName}</p>
+                <p className="small-heading text-center">BEE Registration</p>
                 <div>
                     <Image alt="Overview on BEE Registration in India" className="certificate h-100 w-100" loading="lazy" src={dft} />
                 </div>

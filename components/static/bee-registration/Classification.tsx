@@ -23,7 +23,7 @@ export const Classification = ({ cityName }: HeroProps) => {
           />
         </div>     
         <div className="flex-5">
-          <p>For Mandatory Appliances-</p>
+          <p><strong>For Mandatory Appliances : </strong></p>
           <p><strong>1. </strong>Frost Free Refrigerator</p>
           <p><strong>2. </strong>Stationary storage type Electric Water Heater</p>
           <p><strong>3. </strong>Color Television</p>
@@ -40,7 +40,7 @@ export const Classification = ({ cityName }: HeroProps) => {
       </div>
       <div className="classification-voluntary flex w-80 m-auto mobile-flex-column-reverse">        
         <div className="flex-5">
-            <p>For Voluntary Appliances-</p>
+            <p><strong>For Voluntary Appliances :</strong></p>
             <p><strong>1. </strong>Computer</p>
             <p><strong>2. </strong>Gas Stove for home</p>
             <p><strong>3. </strong>Industrial General Purpose Motor</p>
