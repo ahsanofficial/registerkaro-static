@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/investment-pitch-deck-for-business/one.svg";
 
-const InvestorDeck = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const InvestorDeck = ({ cityName }: HeroProps) => {
   return (
     <div id="InvestorDeck">
       <div className="benefits flex w-80 m-auto mobile-flex-column">

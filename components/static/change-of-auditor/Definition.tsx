@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-of-auditor/one.svg";
 
-export const Definition = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Definition = ({ cityName }: HeroProps) => {
   return (
     <div id="Definition">
       <div className="flex w-80 m-auto mobile-flex-column">

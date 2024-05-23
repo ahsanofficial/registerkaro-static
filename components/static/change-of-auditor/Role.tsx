@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-of-auditor/onetwo.svg";
 
-export const Role = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Role = ({ cityName }: HeroProps) => {
   return (
     <div id="Role">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

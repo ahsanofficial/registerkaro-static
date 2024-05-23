@@ -1,7 +1,11 @@
 import dft from "../../../assets/images/static/financial-consultancy-services/onetwo.svg";
 import Image from 'next/image';
 
-export const BestFCS = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const BestFCS = ({ cityName }: HeroProps) => {
     return (
         <div id="BestFCS">
             

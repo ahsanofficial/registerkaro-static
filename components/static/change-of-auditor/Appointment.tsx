@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-of-auditor/three.svg";
 
-const Appointment = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const Appointment = ({ cityName }: HeroProps) => {
   return (
     <div id="Appointment">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

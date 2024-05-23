@@ -1,6 +1,10 @@
 import React from 'react'
 
-export const Tablerenewal = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Tablerenewal = ({ cityName }: HeroProps) => {
     return (
         <div id='renewal'>
             
