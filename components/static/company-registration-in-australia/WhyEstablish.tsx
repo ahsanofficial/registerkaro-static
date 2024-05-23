@@ -1,11 +1,7 @@
 import dft from "../../../assets/images/static/company-registration-in-australia/one.svg";
 import Image from 'next/image';
 
-interface HeroProps {
-    cityName: string;
-}
-
-export const WhyEstablish = ({ cityName }: HeroProps) => {
+export const WhyEstablish = () => {
     return (
         <div id="WhyEstablish">
             <div className='whyEstablish flex w-80 m-auto mobile-flex-column-reverse'>       
