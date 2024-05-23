@@ -36,7 +36,7 @@ export const Process = ({ cityName }: HeroProps) => {
                 </div>
             </div>
             <div className='flex-4'>
-                <p className="small-heading text-center">What is an object clause?</p>
+                <p className="small-heading text-center">Change in Object Clause</p>
                 <div>
                     <Image alt="What is an object clause?" className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

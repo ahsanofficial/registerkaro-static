@@ -14,7 +14,7 @@ export const DocumentRequired = ({ cityName }: HeroProps) => {
           <div className="flex-5">
             <Image
               alt="Documents to carry for registration process"
-              className="DocumentRequired-img w-100"
+              className="Importance-img-h-100 w-100"
               height={460}
               loading="lazy"
               src={dft}

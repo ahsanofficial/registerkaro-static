@@ -9,11 +9,11 @@ export const Types = ({ cityName }: HeroProps) => {
     <div id="Types">
         
       <div className="benefits flex w-80 m-auto mobile-flex-column">
-      <div className="flex-5">
+      <div className="flex-3">
           <Image
             alt="Different types of companines to be chosen"
             className="Importance-img-h-100 w-100"
-            height={950}
+            height={750}
             loading="lazy"
             src={dft}
           />

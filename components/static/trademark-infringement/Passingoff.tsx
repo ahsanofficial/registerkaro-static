@@ -13,7 +13,7 @@ export const Passingoff = ({ cityName }: HeroProps) => {
           <Image
             alt=" What is Passing Off "
             className="Importance-img-h-100 w-100"
-            height={320}
+            height={220}
             loading="lazy"
             src={dft}
           />

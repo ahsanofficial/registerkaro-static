@@ -8,9 +8,10 @@ export const Pricing = ({ cityName }: HeroProps) => {
   return (
     
     <div id="Pricing">
+        <p className="main-para">Generally, two costs are involved for the institution of an infringement suit, the first one is case filing and court fees which are paid to the court and the second one is the legal representation fee which is paid to an Advocate. Trademark infringement poses significant challenges for companies seeking to protect their brand identities. The unauthorised use of trademarks confuses consumers and undermines the value and reputation built by the trademark owner. RegisterKaro is a legal services platform that provides businesses and individuals with a wide range of legal solutions. There are several reasons why someone should choose RegisterKaro for their legal needs:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
-        <p>Generally, two costs are involved for the institution of an infringement suit, the first one is case filing and court fees which are paid to the court and the second one is the legal representation fee which is paid to an Advocate. Trademark infringement poses significant challenges for companies seeking to protect their brand identities. The unauthorised use of trademarks confuses consumers and undermines the value and reputation built by the trademark owner. RegisterKaro is a legal services platform that provides businesses and individuals with a wide range of legal solutions. There are several reasons why someone should choose RegisterKaro for their legal needs:</p>
+      
 
           <p><strong>1. Experienced team:</strong> It has a team of experienced lawyers who specialise in various areas of law. This means that clients can receive expert advice and representation for their legal matters.</p>
           <p><strong>2. Convenience:</strong> It offers online legal services, which means that clients can access legal solutions from the comfort of their own homes or offices. This can save time and make the legal process more convenient.</p>
@@ -26,7 +27,7 @@ export const Pricing = ({ cityName }: HeroProps) => {
           <Image
             alt=" Pricing for Institution of the Suit"
             className="Importance-img-h-100 w-100"
-            height={750}
+            height={550}
             loading="lazy"
             src={dft}
           />

@@ -13,13 +13,13 @@ export const WhatIsTeaBoard = ({ cityName }: HeroProps) => {
                         <Image
                             alt="What is Tea Board of India?"
                             className="WhatIsTeaBoard-img w-100 Importance-img-h-100"
-                            height={100}
+                            height={200}
                             loading="lazy"
                             src={dft}
                         />
                     </div>
                 </div>
-                <div className="flex-7">
+                <div className="flex-7 pt-4">
                     <p>It is a governing body which regulates the tea business in {cityName}. It encourages tea cultivation, enforces quality standards, and supports tea producers, processors, exporters, etc. Registration with the board is referred to as  <em>“Tea Board registration”</em> which ensures legal compliance, advances high standards of quality, and supports the tea business in {cityName}.</p>
                 </div>
             </div>

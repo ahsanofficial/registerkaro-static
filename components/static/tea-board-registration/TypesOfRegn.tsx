@@ -14,7 +14,7 @@ export const TypesOfRegn = ({ cityName }: HeroProps) => {
           <Image
             alt="Types of Registration granted by the Tea Board"
             className="TypesOfRegn-img w-100 Importance-img-h-100"
-            height={1250}
+            height={450}
             loading="lazy"
             src={dft}
           />

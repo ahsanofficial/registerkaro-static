@@ -7,7 +7,7 @@ interface HeroProps {
 export const Difference = ({ cityName }: HeroProps) => {
   return (
     <div id="Difference">
-        <p className="main-para">Delhi High Court for the first time expounded the difference between passing off and trademark infringement in the landmark case of Cadbury India Limited and Ors. v. Neeraj Food Products, 2007 as follows:</p>
+        <p className="main-para">Delhi High Court for the first time expounded the difference between passing off and trademark infringement in the landmark case of <strong>Cadbury { cityName } Limited and Ors. v. Neeraj Food Products, 2007</strong> as follows:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
           <p><strong>1. </strong> An action for passing off is a common law remedy whereas an action for trademark infringement is a statutory remedy.</p>

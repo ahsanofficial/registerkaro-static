@@ -41,7 +41,7 @@ export const Process = ({ cityName }: HeroProps) => {
                 </div>
             </div>
             <div className='flex-5'>
-                <p className="small-heading text-center">PESO(petroleum and Explosives and safety organisation)certificate</p>
+                <p className="small-heading text-center">PESO certificate</p>
                 <div>
                     <Image alt="PESO certification is granted by the PESO organisation, also known as Chief Controller of Explosives(CCOE)." className="certificate h-100 w-100" loading="lazy" src={certificate} />
                 </div>

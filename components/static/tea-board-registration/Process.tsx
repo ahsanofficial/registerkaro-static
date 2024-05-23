@@ -39,8 +39,8 @@ export const Process = ({ cityName }: HeroProps) => {
             </div>
             <div className='flex-5'>
                 <p className="small-heading text-center">What is Tea Board of {cityName}?</p>
-                <div>
-                    <Image alt="What is Tea Board of India?" className="certificate h-100 w-100" loading="lazy" src={certificate} />
+                <div className='d-flex justify-content-center'>
+                    <Image alt="What is Tea Board of India?" className="certificate h-100 w-70" loading="lazy" src={certificate} />
                 </div>
             </div>
         </div>
