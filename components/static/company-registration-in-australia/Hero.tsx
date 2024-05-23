@@ -16,11 +16,7 @@ let hero = {
     ]
 }
 
-interface HeroProps {
-    cityName: string;
-}
-
-export const Hero = ({ cityName }: HeroProps) => {
+export const Hero = () => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image

@@ -2,11 +2,7 @@ import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/company-registration-in-australia/two.svg";
 
-interface HeroProps {
-  cityName: string;
-}
-
-export const Facts = ({ cityName }: HeroProps) => {
+export const Facts = () => {
   return (
     <div id="Facts">
       <div className="facts flex w-80 m-auto mobile-flex-column-reverse">
