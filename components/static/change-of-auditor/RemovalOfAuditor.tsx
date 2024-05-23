@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-of-auditor/two.svg";
 
-const RemovalOfAuditor = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+const RemovalOfAuditor = ({ cityName }: HeroProps) => {
   return (
     <div id="RemovalOfAuditor">
       <div className="flex w-80 m-auto mobile-flex-column">

@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/change-of-auditor/How RegisterKaro Can Assist You in the Franchise Agreement Process_.svg";
 
-export const HowRegisterKaro = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const HowRegisterKaro = ({ cityName }: HeroProps) => {
   return (
     <div id="HowRegisterKaro">
         <p className="main-para">RegisterKaro has been one stop solution for the SSI registration for the varied ranges of benefits such as:</p>

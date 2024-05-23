@@ -1,7 +1,11 @@
 import certificate from '../../../assets/images/static/sepc-license/certificate.svg';
 import Image from 'next/image';
  
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -18,7 +22,7 @@ export const Process = () => {
             <p><strong>5. </strong>Developing policies to establish a conducive atmosphere for business operations. Utilize benefits offered by the Market Access Initiative Scheme from the Ministry of Commerce and Industry. Gain access to upcoming export incentives established in the Foreign Trade Policy. Qualify for programs offered by the Ministry of Micro, Small, and Medium Enterprises. Obtain certificates for export achievement or duty/GST payment to qualify for Bank Guarantee exemption for Advance Authorisation (AA)/DFIA/EPCG approval.</p>
            
           
-            <p><strong>6. </strong>Getting a Services Export Promotion Council (SEPC) license in India offers various advantages for service exporters. SEPC, formed under the Ministry of Commerce and Industry, Government of India, is committed to supporting and easing the process of exporting services. Listed below are the advantages of acquiring an SEPC license, an SEPC license effectively generates business prospects for services exporters, whether they are new or already established.</p>
+            <p><strong>6. </strong>Getting a Services Export Promotion Council (SEPC) license in {cityName} offers various advantages for service exporters. SEPC, formed under the Ministry of Commerce and Industry, Government of {cityName}, is committed to supporting and easing the process of exporting services. Listed below are the advantages of acquiring an SEPC license, an SEPC license effectively generates business prospects for services exporters, whether they are new or already established.</p>
            
             <p><strong>7. </strong>Acts as a bridge connecting the government and industry by offering policy advice and tackling industry concerns. Provides information on worldwide markets, encompassing current and developing chances, obstacles, and regulatory structures. Develops mechanisms, such as rewards, to enhance and ease the process of exporting goods. Creates promotional events and activities focused on the market to improve visibility.</p>
             
