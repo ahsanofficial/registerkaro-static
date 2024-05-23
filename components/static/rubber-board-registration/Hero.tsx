@@ -33,7 +33,7 @@ export const Hero = ({ cityName }: HeroProps) => {
             />
             <div className="header-content">
             <h4 className='mb-4'>Rubber Board Registration</h4>
-                <p>Exporting business has taken over the world, it has increased significantly. Exporting is an important factor in increasing the economy of a country. The government of India has taken multiple steps in building trust with other countries for exporting goods from the country to others one of them is setting up a group of counsellors who can make decisions regarding exporting goods from the country. Similarly, this group of counsellors came up with a statutory body the Rubber Board of India, which the Rubber Act governs, this act came in 1947.</p>
+                <p>Exporting business has taken over the world, it has increased significantly. Exporting is an important factor in increasing the economy of a country. The government of {cityName} has taken multiple steps in building trust with other countries for exporting goods from the country to others one of them is setting up a group of counsellors who can make decisions regarding exporting goods from the country. Similarly, this group of counsellors came up with a statutory body the Rubber Board of {cityName}, which the Rubber Act governs, this act came in 1947.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
                         return (

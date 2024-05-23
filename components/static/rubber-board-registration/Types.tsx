@@ -19,7 +19,7 @@ export const Types = ({ cityName }: HeroProps) => {
           />
         </div>
         <div className="flex-7">
-            <p><strong> Types of business: </strong>The type of business a company is operating depends on whether they are eligible to register under the Rubber Board of India, this includes rubber cultivation, trading and manufacturing of products, research and development in rubber technology and other activities. And also the business structure and the methodology the company operates on.</p>
+            <p><strong> Types of business: </strong>The type of business a company is operating depends on whether they are eligible to register under the Rubber Board of {cityName}, this includes rubber cultivation, trading and manufacturing of products, research and development in rubber technology and other activities. And also the business structure and the methodology the company operates on.</p>
             <p><strong> Legal Entity: </strong>The company must be a recognised legal entity, meaning that it must be registered in simple terms it means that it must have its existence on paper.</p>
             <p><strong> Compliance: </strong>Just like The point discussed above the company must have complied with all the laws and regulations that are necessary besides having its registration, if the company has complied then this would increase the trust of the board to make the company its member.</p>
             <p><strong> Financial Standing: </strong> Companies seeking Registration under this board may be required to show their financial planning, the business they ma, and their books of accounts for the board to show their financial position and health in the industry to conduct business.</p>
