@@ -11,10 +11,11 @@ import FreeDownload from "../../components/static/private-limited-company-regist
 import GrowYourBusiness from "../../components/static/private-limited-company-registration/GrowYourBusiness ";
 import NextNProgress from "nextjs-progressbar";
 import Faq from "../../components/static/private-limited-company-registration/Faq";
-import Carousel from "../../components/static/private-limited-company-registration/Carousel";
+
 import { Footer } from "../../components/static/private-limited-company-registration/LandingPageFooter";
 import ClientTestimonials from "../../components/static/private-limited-company-registration/ClientTestimonials";
 import WhatTime from '../../components/static/private-limited-company-registration/WhatTime';
+import Carousel from '../../components/static/testimonail-test/Carousel';
 
 
 
@@ -33,7 +34,8 @@ export default function Home() {
         <WhatTime/>
         <GrowYourBusiness/>
         <ClientTestimonials/>
-        <Carousel clientTestmonailColor={'heading-color'}/>
+        {/* <Carousel clientTestmonailColor={'heading-color'}/> */}
+        {/* <Carousel/> */}
         <Faq/>
         <Footer/>
 

@@ -1,0 +1,90 @@
+.client-para-testimonail {
+  width: 100%;
+  .container {
+    padding: 2rem 0;
+    margin: 0 auto;
+
+    // all card height
+    .slick-list {
+      height: 105% !important;
+    
+
+      @include tablet{
+        margin-left: -8.5%;
+        width: 117%;
+      }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+
+    }
+     
+      .cardss {
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 16px;
+        margin:2% auto;
+        min-height:450px;
+        width: 98%;
+        border: 1px solid #00000033;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:24px;
+
+        @include mobile{
+          max-height:450px;
+          
+        }
+       
+        &:hover{
+          box-shadow: 0px 4px 4px 0px #00000070;
+          background-color: #f5f0f06c;
+        }
+        .client{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+                .stars{
+                  display: flex;
+                }
+            }
+      }
+    }
+   
+    .left-arrow {
+      position: absolute;
+      left: -50px;
+      top: 44.5%;
+      cursor: pointer;
+      img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        &:hover{
+          box-shadow: 0px 4px 4px 0px #00000070;
+        }
+      }
+     
+    }
+    .right-arrow {
+      position: absolute;
+      right: -50px;
+      bottom: 44.5%;
+      cursor: pointer;
+      img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        &:hover{
+          box-shadow: 0px 4px 4px 0px #00000070;
+        }
+      }
+    }
+  }
+}
