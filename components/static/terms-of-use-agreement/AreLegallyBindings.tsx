@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/terms-of-use-agreement/Are Terms of Use Agreements Legally Binding_.svg";
 
 export const AreLegallyBindings = () => {
   return (
@@ -12,7 +12,7 @@ export const AreLegallyBindings = () => {
           <Image
             alt="Are Terms of Use Agreements Legally Binding?"
             className="AreLegallyBindings-img w-100 Importance-img-h-100"
-            height={320}
+            height={400}
             loading="lazy"
             src={dft}
           />

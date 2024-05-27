@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/terms-of-use-agreement/Procedure to Creating Terms of Use┬á Agreement.svg";
 
 export const Procedure = () => {
   return (
@@ -10,7 +10,7 @@ export const Procedure = () => {
           <Image
             alt="Procedure to Creating Terms of Use  Agreement"
             className="Procedure-img w-100 Importance-img-h-100"
-            height={320}
+            height={1025}
             loading="lazy"
             src={dft}
           />

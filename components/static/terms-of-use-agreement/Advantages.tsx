@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/terms-of-use-agreement/Advantages of Terms of Use Agreement.svg";
 
 export const Advantages = () => {
   return (
@@ -11,7 +11,7 @@ export const Advantages = () => {
           <Image
             alt="Advantages of Terms of Use Agreement"
             className="Advantages-img w-100 Importance-img-h-100"
-            height={320}
+            height={775}
             loading="lazy"
             src={dft}
           />

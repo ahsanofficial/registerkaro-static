@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/terms-of-use-agreement/Key Clauses to Include in Your Terms of Use Agreement.svg";
 
 export const KeyClauses = () => {
   return (
@@ -24,7 +24,7 @@ export const KeyClauses = () => {
           <Image
             alt="Key Clauses to Include in Your Terms of Use Agreement"
             className="KeyClauses-img w-100 Importance-img-h-100"
-            height={320}
+            height={1025}
             loading="lazy"
             src={dft}
           />

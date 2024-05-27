@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/terms-of-use-agreement/Importance of Terms of Use Agreements for Organisations.svg";
 
 export const Importance = () => {
   return (
@@ -18,7 +18,7 @@ export const Importance = () => {
           <Image
             alt="Importance of Terms of Use Agreements for Organisations"
             className="Importance-img w-100 Importance-img-h-100"
-            height={320}
+            height={375}
             loading="lazy"
             src={dft}
           />
