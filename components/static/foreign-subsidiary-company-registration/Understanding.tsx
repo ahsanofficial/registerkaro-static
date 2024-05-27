@@ -1,23 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/one.svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Understanding Foreign Subsidiary Company Registration.svg";
 
 
 export const Understanding = () => {
   return (
     <div id="Understanding">
         <p className="main-para">India's burgeoning market, characterized by its vast consumer base, low-cost labour, and skilled workforce, presents a lucrative opportunity for foreign companies. The strategic location and favourable business environment further accentuate India's appeal as an investment destination. Here’s a breakdown of key considerations for establishing a foreign subsidiary company in India:</p>
-      <div className="flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
-          <Image
+        <Image
             alt="Understanding Foreign Subsidiary Company Registration"
             className="Importance-img-h-100 w-100"
             height={480}
             loading="lazy"
             src={bft}
           />
-        </div>
-        <div className="flex-6 pt-5">
+      <div className="flex w-80 m-auto">
+        <div className="flex-7">
           <ol>
             <li>
                 <strong>Types of Subsidiary Structures:</strong>

@@ -1,22 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/important.svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/onetwo.svg";
 
 
 export const ComplianceReq = () => {
   return (
     <div id="ComplianceReq">
         <p className="main-para">Upon successfully incorporating a foreign subsidiary company in India, adhering to compliance requirements is paramount to ensure smooth operations and avoid legal ramifications. Compliance encompasses a broad spectrum of regulations, including taxation, labour laws, corporate governance, foreign exchange laws etc. A concise breakdown of compliance requirements is as follows:</p>
-      <div className="flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
-          <Image
-            alt="Compliance Requirements for Foreign Subsidiary"
-            className="Importance-img-h-100 w-100"
-            height={680}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6 pt-5">
           <ol>
             <li>Taxation and Financial Compliances:
@@ -39,6 +30,15 @@ export const ComplianceReq = () => {
                 </ol>
             </li>
           </ol>
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="Compliance Requirements for Foreign Subsidiary"
+            className="Importance-img-h-100 w-100"
+            height={680}
+            loading="lazy"
+            src={bft}
+          />
         </div>
       </div>
       <p className="main-para">Ensuring compliance with these regulations not only solidifies the legal standing of a foreign subsidiary in India but also fosters a conducive environment for business growth and sustainability.</p>

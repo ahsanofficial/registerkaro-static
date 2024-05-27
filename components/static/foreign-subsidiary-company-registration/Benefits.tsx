@@ -1,12 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/onetwo.svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/one.svg";
 
 
 export const Benefits = () => {
   return (
     <div id="Benefits">
-      <div className="flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="flex w-80 m-auto mobile-flex-column">
+        <div className="flex-4">
+          <Image
+            alt="Benefits of Registering a Foreign Subsidiary in India"
+            className="Importance-img-h-100 w-100"
+            height={580}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-6 pt-5">
           <ol>
             <li>
@@ -26,15 +35,6 @@ export const Benefits = () => {
                 </ol>
             </li>
           </ol>
-        </div>
-        <div className="flex-4">
-          <Image
-            alt="Benefits of Registering a Foreign Subsidiary in India"
-            className="Importance-img-h-100 w-100"
-            height={580}
-            loading="lazy"
-            src={bft}
-          />
         </div>
       </div>
       <p className="main-para">The blend of market access, cost efficiency, a skilled talent pool, and a supportive regulatory framework underscores the strategic advantage of registering a subsidiary company in India. This, coupled with incentives like free trade zones and tax benefits, makes India an attractive destination for foreign investment and business expansion.</p>

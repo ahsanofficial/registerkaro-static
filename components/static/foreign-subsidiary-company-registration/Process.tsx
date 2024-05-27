@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/canada-company-reg/certificate.svg';
+import certificate from '../../../assets/images/static/foreign-subsidiary-company-registration/Overview of Foreign Subsidiary Company Registration.svg';
 import Image from 'next/image';
 
 

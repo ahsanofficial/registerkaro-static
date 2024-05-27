@@ -1,22 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/pre-incorporation.svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/two.svg";
 
 
 export const DocumentReq = () => {
   return (
     <div id="DocumentReq">
         <p className="main-para">Gathering the essential documents is a critical step in the process of registering a foreign subsidiary company in India. This comprehensive checklist ensures that all legal and regulatory requirements are met efficiently:</p>
-      <div className="flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
-          <Image
-            alt="Essential Documents for Registration"
-            className="Importance-img-h-100 w-100"
-            height={580}
-            loading="lazy"
-            src={bft}
-          />
-        </div>
+      <div className="flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6 pt-5">
           <ol>
             <li>For Indian and Foreign Directors/Shareholders
@@ -75,6 +66,15 @@ export const DocumentReq = () => {
                 </ol>
             </li>
           </ol>
+        </div>
+        <div className="flex-4">
+          <Image
+            alt="Essential Documents for Registration"
+            className="Importance-img-h-100 w-100"
+            height={580}
+            loading="lazy"
+            src={bft}
+          />
         </div>
       </div>
     </div>

@@ -1,13 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/private (copy).svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/three.svg";
 
 
 export const RegistrationProcess = () => {
   return (
     <div id="RegistrationProcess">
         <p className="main-para">The registration process of a foreign subsidiary company in India is divided into several key steps to ensure compliance with the Companies Act, foreign exchange laws and other related laws. The breakdown of the process is as follows:</p>
-      <div className="flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="flex w-80 m-auto mobile-flex-column">
+        <div className="flex-4">
+          <Image
+            alt="Registration Process"
+            className="Importance-img-h-100 w-100"
+            height={580}
+            loading="lazy"
+            src={bft}
+          />
+        </div>
         <div className="flex-6 pt-5">
           <ol>
             <li><strong>Pre-Registration Requirements:</strong>
@@ -30,15 +39,6 @@ export const RegistrationProcess = () => {
                 </ol>
             </li>
           </ol>
-        </div>
-        <div className="flex-4">
-          <Image
-            alt="Registration Process"
-            className="Importance-img-h-100 w-100"
-            height={580}
-            loading="lazy"
-            src={bft}
-          />
         </div>
       </div>
     </div>
