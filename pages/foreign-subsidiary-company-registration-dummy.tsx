@@ -11,8 +11,51 @@ import { RegistrationProcess } from '../components/static/foreign-subsidiary-com
 import { ComplianceReq } from '../components/static/foreign-subsidiary-company-registration/ComplianceReq'
 import { ApplicableTaxes } from '../components/static/foreign-subsidiary-company-registration/ApplicableTaxes'
 import { CostsInclude } from '../components/static/foreign-subsidiary-company-registration/CostsInclude'
+import { FaqTemplatePVT } from '../components/child_components/FaqTemplatePVT'
 
 
+const faq = [
+    {
+        "question": "What is a foreign subsidiary company?",
+        "answer": "A foreign subsidiary company is a company that is owned and controlled by a parent company based in another country. The parent company holds a majority of the subsidiary's shares and can influence its operations and policies."
+    },
+    {
+        "question": "What are the benefits of registering a foreign subsidiary company?",
+        "answer": "Registering a foreign subsidiary company offers numerous benefits, including access to new markets, local market insights, tax advantages, limited liability protection, and enhanced credibility with customers and partners in the host country."
+    },
+    {
+        "question": "What are the legal requirements for registering a foreign subsidiary company?",
+        "answer": "The legal requirements vary by country but generally include selecting a business name, preparing incorporation documents, appointing directors, registering with local authorities, obtaining necessary licences, and adhering to local regulations and tax laws."
+    },
+    {
+        "question": "How long does it take to register a foreign subsidiary company?",
+        "answer": "The registration process duration can vary depending on the country and the complexity of the business. Typically, it can take anywhere from a few weeks to several months to complete all necessary steps and obtain approval."
+    },
+    {
+        "question": "What documents are required to register a foreign subsidiary company?",
+        "answer": "Commonly required documents include the parent company’s certificate of incorporation, articles of association, resolution of the board of directors approving the subsidiary formation, identification and proof of address of directors, and a registered office address in the host country."
+    },
+    {
+        "question": "Do I need a local director to register a foreign subsidiary company?",
+        "answer": "Many countries require at least one local director or representative. This individual must be a resident of the country where the subsidiary is being registered and will act as a liaison between the company and local authorities."
+    },
+    {
+        "question": "What is the minimum capital requirement for a foreign subsidiary company?",
+        "answer": "The minimum capital requirement varies by country and the type of business. Some countries have no minimum capital requirement, while others may require a specific amount to demonstrate financial stability."
+    },
+    {
+        "question": "What taxes will a foreign subsidiary company be subject to?",
+        "answer": "A foreign subsidiary company is subject to local taxes, which can include corporate income tax, value-added tax (VAT), payroll taxes, and other applicable local taxes. The parent company may also be subject to withholding taxes on dividends and other income repatriated from the subsidiary."
+    },
+    {
+        "question": "Can a foreign subsidiary repatriate profits to the parent company?",
+        "answer": "Yes, a foreign subsidiary can repatriate profits to the parent company, but this process is subject to local tax regulations and any applicable withholding taxes. It is important to comply with local regulations and tax treaties to avoid double taxation."
+    },
+    {
+        "question": "Do I need to file annual reports for a foreign subsidiary company?",
+        "answer": "Yes, most countries require foreign subsidiary companies to file annual reports and financial statements with local authorities. This includes providing details on the company's financial performance, compliance with local regulations, and any changes in ownership or management."
+    },
+]
 
 const Home = () => {
     return (
@@ -61,6 +104,9 @@ const Home = () => {
             <h2 className="main-heading">Why RegisterKaro?</h2>
             <div className='heading-line'></div>
             <WhyRegisterkaro />
+            <h2 className="main-heading">FAQs</h2>
+            <div className='heading-line'></div>
+            <FaqTemplatePVT faqItems={faq} />
         </div>
     )
 }
