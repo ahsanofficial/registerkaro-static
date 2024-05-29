@@ -30,6 +30,7 @@ export const Hero = () => {
             />
             <div className="header-content">
                 <h4 className='mb-4'>Terms of Use Agreement</h4>
+                <p>The Terms of Use Agreement serves as a crucial foundation for businesses providing clarity, protection, and a legal framework for both service providers and users. It outlines obligations, defines policies, and establishes expectations. Such agreements foster trust, transparency, and business-customer relationships. With its legally binding nature and comprehensive coverage through essential clauses, the Terms of Use Agreement stands as a cornerstone in ensuring a safe, credible, and mutually beneficial environment for all parties involved.</p>
                 <p>With our services, you can benefit from:</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {

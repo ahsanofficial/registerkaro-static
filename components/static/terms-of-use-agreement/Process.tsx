@@ -10,38 +10,20 @@ export const Process = () => {
                 <div className='page-point'>
                     <ul>
                         <ul>
-                            <a href="#WhatisBee" className="scrollTo">
-                             <li>What is BEE Certification?</li>
+                            <a href="#Advantages" className="scrollTo">
+                             <li>Advantages of Terms of Use Agreement</li>
                             </a>
-                            <a href="#WhoNeedsBee" className="scrollTo">
-                             <li>Who needs a BEE Certificate?</li>
+                            <a href="#Importance" className="scrollTo">
+                             <li>Importance of Terms of Use Agreements for Organisations</li>
                             </a>
-                            <a href="#Classification" className="scrollTo">
-                             <li>Classification of BEE Certification</li>
+                            <a href="#AreLegallyBindings" className="scrollTo">
+                             <li>Are Terms of Use Agreements Legally Binding?</li>
                             </a>
-                            <a href="#DocumentsRequired" className="scrollTo">
-                             <li>Documents required for the BEE Registration</li>
+                            <a href="#KeyClauses" className="scrollTo">
+                             <li>Key Clauses to Include in Your Terms of Use Agreement</li>
                             </a>
-                            <a href="#FeesRequired" className="scrollTo">
-                             <li>Fees required for BEE Registration</li>
-                            </a>
-                            <a href="#WhyNeedBee" className="scrollTo">
-                             <li>Why do we need a BEE Certificate?</li>
-                            </a>
-                            <a href="#BenefitsBee" className="scrollTo">
-                             <li>Benefits of BEE registration</li>
-                            </a>
-                            <a href="#Penalty" className="scrollTo">
-                             <li>Penalty for Non- compliance with BEE guidelines</li>
-                            </a>
-                            <a href="#Renewal" className="scrollTo">
-                             <li>Renewal of BEE Certificate</li>
-                            </a>
-                            <a href="#Withdrawal" className="scrollTo">
-                             <li>Withdrawal of BEE Certificate by manufacturer</li>
-                            </a>
-                            <a href="#WhyChoose" className="scrollTo">
-                             <li>How RegisterKaro helps in the registration process?</li>
+                            <a href="#Procedure" className="scrollTo">
+                             <li>Procedure to Creating Terms of Use  Agreement</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>
