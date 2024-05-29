@@ -23,6 +23,7 @@ const Home = () => {
             <h1 className='main-heading'>Introduction to Terms of Use Agreement</h1>
             <div className='heading-line'></div>
             <Process />
+            
             <h2 className='main-heading'>Advantages of Terms of Use Agreement</h2>
             <div className='heading-line'></div>
             <Advantages />

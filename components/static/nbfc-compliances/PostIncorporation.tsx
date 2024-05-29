@@ -5,7 +5,7 @@ import bft from '../../../assets/images/pvt-reg/benefit.svg';
 const PostIncorporation = () => {
     return (
         <div id="PostIncorporation">
-            <p className="main-para">Earlier the online return filing was done through the COSMOS platform. However, RBI has now shifted the return filling platform into the XBRL system. The essential requirements for NBFC annual compliance are as follows:</p>
+            <p className="main-para">Upon receiving the Certificate of Registration from the RBI, Non-Banking Financial Companies (NBFCs) are obligated to adhere to various compliance regulations, which are as follows:</p>
             <div className="benefits flex w-80 m-auto mobile-flex-column">
                 <div className="flex-4">
                     <Image

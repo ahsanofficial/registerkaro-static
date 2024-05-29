@@ -10,36 +10,6 @@ import RBIMasterDirection from '../components/static/nbfc-compliances/RBIMasterD
 import ChallengesInManaging from '../components/static/nbfc-compliances/ChallengesInManaging'
 import { Consequences } from '../components/static/nbfc-compliances/Consequences'
 import { HowRegisterKaro } from '../components/static/nbfc-compliances/HowRegisterKaro'
-// import Establish from '../components/static/nbfc-compliances/Establish'
-// import DocumentReq from '../components/static/nbfc-compliances/DocumentReq'
-// import { ProcessStep } from '../components/static/nbfc-compliances/ProcessStep'
-// import Facts from '../components/static/nbfc-compliances/Facts'
-
-
-const faq = [
-    {
-        "question": "What’s Australian Company Number (ACN)?",
-        "answer": "When a company in Australia is registered, they are given a distinctive nine-digit number known as the Australian Company Number (ACN), which must be included on all official company paperwork."
-    },
-    {
-        "question": "What’s the role of ASIC?",
-        "answer": "ASIC oversees Australian businesses, financial markets, financial service providers (such as banks, insurers, and superannuation funds), and investment, superannuation, insurance, deposit, and credit professionals."
-    },
-    {
-        "question": "Can a Foreigner register a company in Australia?",
-        "answer": "A person who is not a resident of Australia can establish a business in the country, but they must have at least one Australian resident as a director for any company, and for a public company, two out of a minimum of three directors must be Australian residents."
-    },
-    {
-        "question": "Can I get PR by Opening a business in Australia?",
-        "answer": "Business Visas in Australia such as the Business Innovation and Investment Visa are available for individuals planning to start a new business, manage an existing one, or invest in the country, with the possibility of obtaining permanent residency."
-    },
-    {
-        "question": "How much money is required to set-up a business in Australia?",
-        "answer": "This temporary visa necessitates a minimum investment of AUD2.5 million in Australian assets that fulfill specific criteria and continued business or investment ventures in Australia for a maximum of 5 years. To get an idea of how long it takes to process this visa, utilize the visa processing time guide tool."
-    }
-]
-
-
 
 const Home = () => {
     return (
