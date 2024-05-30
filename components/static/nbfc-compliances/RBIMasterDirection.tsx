@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg';
+import bft from '../../../assets/images/static/nbfc-compliances/RBI Master Direction - Prudential Regulation.svg';
 
 const RBIMasterDirection = () => {
     return (
@@ -25,7 +25,7 @@ const RBIMasterDirection = () => {
                     <Image
                         alt="RBI Master Direction - Prudential Regulation"
                         className="RBIMasterDirection-img w-100 Importance-img-h-100"
-                        height={700}
+                        height={750}
                         loading="lazy"
                         src={bft}
                     />
