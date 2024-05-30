@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Benefits of GST Registration.svg";
-
-export const BenefitsGst = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const BenefitsGst = ({ cityName }: HeroProps) => {
   return (
     <div id="BenefitsGst">
         <p className="main-para">Registering for GST offers several advantages:
@@ -19,7 +21,7 @@ export const BenefitsGst = () => {
           />
         </div>
         <div className="flex-7">
-           <p><strong>1. Makes Taxing Easier:</strong> GST combines different taxes, making the tax process simpler and creating a unified market in India.</p>
+           <p><strong>1. Makes Taxing Easier:</strong> GST combines different taxes, making the tax process simpler and creating a unified market in {cityName}.</p>
            <p><strong>2. Decreases Costs:</strong> Getting rid of stacked taxes lowers the prices of goods and services for buyers.</p>
            <p><strong>3. Saves Time:</strong> Small businesses with turnovers below certain limits don't have to pay GST, saving them from complicated tax processes.</p>
            <p><strong>4. Fights Corruption: </strong>GST helps fight corruption and promotes transparency in business transactions by ensuring proper receipts.</p>

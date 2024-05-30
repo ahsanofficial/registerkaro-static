@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/nbfc-compliances/Essential Requirements for NBFC Compliances.svg';
-
-const EssentialRequirements = () => {
+interface HeroProps {
+    cityName: string;
+}
+const EssentialRequirements = ({ cityName }: HeroProps) => {
   return (
     <div id="EssentialRequirements">
         <p className="main-para">Earlier the online return filing was done through the COSMOS platform. However, RBI has now shifted the return filling platform into the XBRL system. The essential requirements for NBFC annual compliance are as follows:</p>

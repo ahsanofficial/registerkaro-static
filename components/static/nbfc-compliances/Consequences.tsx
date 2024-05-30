@@ -1,7 +1,9 @@
 import bft from '../../../assets/images/static/nbfc-compliances/Consequences of Non-Compliance with NBFC Regulations.svg';
 import Image from 'next/image';
-
-export const Consequences = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Consequences = ({ cityName }: HeroProps) => {
     return (
         <div id="Consequences">
             

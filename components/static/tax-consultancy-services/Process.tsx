@@ -1,7 +1,9 @@
 import certificate from '../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Overview of Tax Consultancy Services for Startups.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
@@ -11,7 +13,7 @@ export const Process = () => {
                     <ul>
                         <ul>
                             <a href="#Benefits" className="scrollTo">
-                             <li>Benefits for Start-ups in India</li>
+                             <li>Benefits for Start-ups in {cityName}</li>
                             </a>
                             <a href="#Types" className="scrollTo">
                              <li>GST Registration and Advisory Services</li>
@@ -38,7 +40,7 @@ export const Process = () => {
                              <li>Benefits of TDS Return Filling</li>
                             </a>
                             <a href="#CriteriaTds" className="scrollTo">
-                             <li>Eligibility Criteria for TDS Deduction in India</li>
+                             <li>Eligibility Criteria for TDS Deduction in {cityName}</li>
                             </a>
                             <a href="#IncomeTaxReturn" className="scrollTo">
                              <li>Income Tax Return Filing</li>
@@ -47,7 +49,7 @@ export const Process = () => {
                              <li>Benefits of ITR Filing</li>
                             </a>
                             <a href="#EligibilityFiling" className="scrollTo">
-                             <li>Eligibility for Filing Income Tax Returns in India</li>
+                             <li>Eligibility for Filing Income Tax Returns in {cityName}</li>
                             </a>
                             
                             <a href="#WhyChoose" className="scrollTo">

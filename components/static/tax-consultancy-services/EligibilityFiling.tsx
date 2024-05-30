@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Eligibility for Filing Income Tax Returns in India.svg";
-
-export const EligibilityFiling= () => {
+interface HeroProps {
+    cityName: string;
+}
+export const EligibilityFiling= ({ cityName }: HeroProps) => {
   return (
     <div id="EligibilityFiling">
       <p className="main-para">The following people are required to filing income tax returns:</p>
@@ -20,7 +22,7 @@ export const EligibilityFiling= () => {
          <p><strong>1. Individuals with Taxable Income:</strong> People earning over Rs. 3 lakhs annually (for both normal and senior citizens). And in the case of Super Senior citizens (aged 80 and above) with income exceeding Rs. 5 lakhs.</p>
          <p><strong>2. Legal Entities:</strong> All legal entities, regardless of profit or loss, that generate income.</p>
          <p><strong>3. Claiming Refunds:</strong>  Individuals who have paid more in income or payroll taxes than they owe and are seeking a refund.</p>
-         <p><strong>4. International Financial Connections:</strong> Individuals with financial connections to companies based outside India due to treaty agreements and Certain companies headquartered abroad but operating within India.</p>
+         <p><strong>4. International Financial Connections:</strong> Individuals with financial connections to companies based outside {cityName} due to treaty agreements and Certain companies headquartered abroad but operating within {cityName}.</p>
 
         </div>
         

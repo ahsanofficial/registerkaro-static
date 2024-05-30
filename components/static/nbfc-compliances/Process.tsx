@@ -1,12 +1,14 @@
 import React from 'react'
 import certificate from '../../../assets/images/static/nbfc-compliances/pre-incorporation.svg';
 import Image from 'next/image';
-
-export const Process = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Non-banking financial companies (NBFCs) are crucial players in India's financial sector. They offer a variety of financial services like loans, insurance, and investment management to people and businesses. However, NBFCs need to follow many rules and regulations to operate properly and legally. Unlike banks, NBFCs don't have a banking license and can't take deposits from the public. But they're important for giving credit to individuals and businesses who are unable to access regular banking services. NBFCs have to follow various rules prescribed by different authorities. These include guidelines from the Reserve Bank of India (RBI), rules under the Companies Act, 2013, and regulations from the Securities and Exchange Board of India (SEBI).</p>
+                <p className='text-justify'>Non-banking financial companies (NBFCs) are crucial players in {cityName}'s financial sector. They offer a variety of financial services like loans, insurance, and investment management to people and businesses. However, NBFCs need to follow many rules and regulations to operate properly and legally. Unlike banks, NBFCs don't have a banking license and can't take deposits from the public. But they're important for giving credit to individuals and businesses who are unable to access regular banking services. NBFCs have to follow various rules prescribed by different authorities. These include guidelines from the Reserve Bank of India (RBI), rules under the Companies Act, 2013, and regulations from the Securities and Exchange Board of India (SEBI).</p>
                 <div className='page-point'>
                     <ul>
                         <ul>

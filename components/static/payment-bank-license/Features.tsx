@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/payment-bank-license/Features of a Licensed Payments Bank.svg";
-
-export const Features = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Features = ({ cityName }: HeroProps) => {
   return (
     <div id="Features">
       <p className="main-para">Licensed Payment Banks come with the following features:</p>

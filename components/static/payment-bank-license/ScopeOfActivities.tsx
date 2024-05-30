@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/payment-bank-license/Scope of Activities After Obtaining Payment Bank License.svg";
-
-export const ScopeOfActivities = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ScopeOfActivities = ({ cityName }: HeroProps) => {
   return (
     <div id="ScopeOfActivities">
       <p className="main-para">Once a Payments Bank secures its license, it's allowed to establish its outlets, including branches, Automated Teller Machines (ATMs), and Business Correspondents (BCs). These outlets can only engage in specific activities permitted by the Banking Regulation Act, 1949. The activities which may be performed by such banks are as follows:</p>

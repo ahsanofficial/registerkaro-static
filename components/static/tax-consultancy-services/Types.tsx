@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/GST Registration and Advisory Services.svg";
-
-export const Types = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Types = ({ cityName }: HeroProps) => {
   return (
     <div id="Types">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

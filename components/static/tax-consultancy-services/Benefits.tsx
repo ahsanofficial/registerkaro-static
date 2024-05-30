@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Benefits for Start-ups in India.svg";
-
-export const Benefits = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">The benefits of availing tax consultancy services by Startups from RegisterKaro are as follows:</p>
@@ -18,7 +20,7 @@ export const Benefits = () => {
           />
         </div>
         <div className="flex-6">
-           <p><strong>1. Expert Guidance and Long-term Support:</strong>By partnering with us for tax consultancy and compliance services, start-ups gain access to our team of expert professionals, who are well-versed in India’s taxation framework. We offer personalized advice tailored to the business's unique needs.</p>
+           <p><strong>1. Expert Guidance and Long-term Support:</strong>By partnering with us for tax consultancy and compliance services, start-ups gain access to our team of expert professionals, who are well-versed in {cityName}’s taxation framework. We offer personalized advice tailored to the business's unique needs.</p>
            <p><strong>2. Minimizing Tax Liabilities:</strong>  Our experienced tax consultants can identify legitimate deductions, credits, and incentives that start-ups might overlook. By optimizing tax planning strategies, these services help start-ups reduce their tax liabilities, allowing them to reinvest more earnings into business growth.</p>
            <p><strong>3. Maintaining Reputation: </strong>Tax compliance is crucial for building and preserving a positive reputation in the business community. Start-ups that meet their tax obligations demonstrate transparency and integrity, enhancing credibility and trust among stakeholders.</p>
            <p><strong>4. Efficient Resource Management: </strong>Tax consultancy services free up start-ups to focus on core business activities rather than grappling with complex tax matters. By delegating tax-related responsibilities to RegisterKaro’s experts, founders can allocate resources more efficiently.</p>

@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Eligibility for GST Registration.svg";
-
-export const DocumentRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const DocumentRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentRequired">
-        <p className="main-para">The following entities are eligible for GST registration in India:</p>
+        <p className="main-para">The following entities are eligible for GST registration in {cityName}:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
      
     
@@ -18,7 +20,7 @@ export const DocumentRequired = () => {
             <p><strong>5. </strong>Taxpayers under the reverse charge mechanism.</p>
             <p><strong>6. </strong>Input Service Distributors (ISD) and their agents.</p>
             <p><strong>7. </strong>E-commerce operators or aggregators and the persons supplying through e-commerce aggregators.</p>
-            <p><strong>8. </strong>Entities providing online information or acquiring databases from outside India to a person in India, other than a registered taxable person.</p>
+            <p><strong>8. </strong>Entities providing online information or acquiring databases from outside {cityName} to a person in {cityName}, other than a registered taxable person.</p>
             
         </div>
         <div className="flex-4">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/terms-of-use-agreement/Key Clauses to Include in Your Terms of Use Agreement.svg";
-
-export const KeyClauses = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const KeyClauses = ({ cityName }: HeroProps) => {
   return (
     <div id="KeyClauses">
       <p className="main-para">These are some of the essential clauses which should be incorporated to meticulously craft the Terms of Use Agreement, which are as follows:</p>

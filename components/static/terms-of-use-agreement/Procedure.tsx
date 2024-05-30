@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/terms-of-use-agreement/Procedure to Creating Terms of Use┬á Agreement.svg";
-
-export const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Procedure = ({ cityName }: HeroProps) => {
   return (
     <div id="Procedure">
       <div className="Procedure flex w-80 m-auto mobile-flex-column">
@@ -30,7 +32,7 @@ export const Procedure = () => {
         </div>
       </div>
       <p className="main-para">Customers who agree to Terms and Conditions agreements comprehend their obligations and the company's commitments. It establishes a legally binding contract between your company and its customers. The agreement ideally encompasses sections detailing your firm's service scope, payment terms, liability limitations, intellectual property rights, account termination procedures, user-generated content policies, acceptable use guidelines, and contact information. It's advisable to ensure your Terms and Conditions agreement is readily accessible to end users by publishing it in multiple locations.</p>
-      <p className="main-para">RegisterKaro specialises in offering complete services relating to Terms of Use Agreements. We understand the importance of a well-crafted Terms of Use Agreement in safeguarding your business interests and ensuring compliance with legal requirements. Our team of experts specializes in drafting customized and comprehensive Terms of Use Agreements tailored to the specific needs of businesses operating in India. Join our community of 1000+ happy clients who have entrusted us to provide them with reliable and effective legal solutions. Let us help you protect your business and manage user expectations with a robust Terms of Use Agreement.</p>
+      <p className="main-para">RegisterKaro specialises in offering complete services relating to Terms of Use Agreements. We understand the importance of a well-crafted Terms of Use Agreement in safeguarding your business interests and ensuring compliance with legal requirements. Our team of experts specializes in drafting customized and comprehensive Terms of Use Agreements tailored to the specific needs of businesses operating in {cityName}. Join our community of 1000+ happy clients who have entrusted us to provide them with reliable and effective legal solutions. Let us help you protect your business and manage user expectations with a robust Terms of Use Agreement.</p>
       <p className="main-para">Get started with RegisterKaro today!</p>
     </div>
   );

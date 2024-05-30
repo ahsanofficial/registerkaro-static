@@ -1,7 +1,9 @@
 import bft from '../../../assets/images/static/payment-bank-license/Business Plan Requirements for Payment Bank.svg';
 import Image from 'next/image';
-
-export const BusinessPlanReq = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const BusinessPlanReq = ({ cityName }: HeroProps) => {
     return (
         <div id="BusinessPlanReq">
             <div className='BusinessPlanReq flex w-80 m-auto mobile-flex-column-reverse'>

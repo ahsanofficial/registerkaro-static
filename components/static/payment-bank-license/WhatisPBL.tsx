@@ -1,7 +1,9 @@
 import bft from '../../../assets/images/static/payment-bank-license/What is a Payment Bank Licence_.svg';
 import Image from 'next/image';
-
-export const WhatisPBL = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhatisPBL = ({ cityName }: HeroProps) => {
     return (
         <div id="WhatisPBL">
             <div className='WhatisPBL flex w-80 m-auto mobile-flex-column'>
@@ -15,7 +17,7 @@ export const WhatisPBL = () => {
                     />
                 </div>
                 <div className="flex-5">
-                    <p>Payment Bank License is a mandatory requirement to open a Payment Bank in India.  The applicant needs to fulfil the eligibility criteria before applying for the license. The Reserve Bank of India has the authority to issue the Payment Bank License as per section 22 of the Banking Regulation Act, 1949.</p>
+                    <p>Payment Bank License is a mandatory requirement to open a Payment Bank in {cityName}.  The applicant needs to fulfil the eligibility criteria before applying for the license. The Reserve Bank of India has the authority to issue the Payment Bank License as per section 22 of the Banking Regulation Act, 1949.</p>
                 </div>
             </div>
         </div>

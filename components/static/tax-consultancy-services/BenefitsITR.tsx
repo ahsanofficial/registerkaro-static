@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Benefits of ITR Filing.svg";
-
-export const BenefitsITR = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const BenefitsITR = ({ cityName }: HeroProps) => {
   return (
     <div id="BenefitsITR">
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">

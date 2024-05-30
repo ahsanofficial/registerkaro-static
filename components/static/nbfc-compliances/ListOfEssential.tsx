@@ -1,6 +1,8 @@
 import React from 'react'
-
-const ListOfEssential = () => {
+interface HeroProps {
+    cityName: string;
+}
+const ListOfEssential = ({ cityName }: HeroProps) => {
     return (
         <div id='ListOfEssential' className='w-80 m-auto'>
             <table >
