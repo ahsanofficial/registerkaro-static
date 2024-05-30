@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/nbfc-compliances/RBI Master Direction - Prudential Regulation.svg';
-
-const RBIMasterDirection = () => {
+interface HeroProps {
+    cityName: string;
+}
+const RBIMasterDirection = ({ cityName }: HeroProps) => {
     return (
         <div id="RBIMasterDirection">
             <p className="main-para">In addition to the aforementioned NBFC compliances, non-banking institutions must also adhere to RBI Master Direction’s Prudential Norms which are as follows:</p>
