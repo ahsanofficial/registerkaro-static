@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/payment-bank-license/What are the Requirements to Obtain a Payment Bank License_.svg";
 
 export const RequirementsToObtain = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg';
+import bft from '../../../assets/images/static/nbfc-compliances/Challenges in Managing Compliance for NBFCs.svg';
 
 const ChallengesInManaging = () => {
     return (
@@ -11,7 +11,7 @@ const ChallengesInManaging = () => {
                     <Image
                         alt="Challenges in Managing Compliance for NBFCs"
                         className="ChallengesInManaging-img w-100 Importance-img-h-100"
-                        height={575}
+                        height={625}
                         loading="lazy"
                         src={bft}
                     />

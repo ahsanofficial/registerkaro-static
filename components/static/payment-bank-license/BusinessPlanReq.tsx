@@ -1,4 +1,4 @@
-import bft from '../../../assets/images/pvt-reg/benefit.svg';
+import bft from '../../../assets/images/static/payment-bank-license/Business Plan Requirements for Payment Bank.svg';
 import Image from 'next/image';
 
 export const BusinessPlanReq = () => {

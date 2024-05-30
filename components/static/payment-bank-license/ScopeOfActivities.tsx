@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/payment-bank-license/Scope of Activities After Obtaining Payment Bank License.svg";
 
 export const ScopeOfActivities = () => {
   return (
     <div id="ScopeOfActivities">
       <p className="main-para">Once a Payments Bank secures its license, it's allowed to establish its outlets, including branches, Automated Teller Machines (ATMs), and Business Correspondents (BCs). These outlets can only engage in specific activities permitted by the Banking Regulation Act, 1949. The activities which may be performed by such banks are as follows:</p>
-      <div className="ScopeOfActivities flex w-80 m-auto mobile-flex-column">
+      <div className="ScopeOfActivities flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-7">
           <p><strong>1. Accept Deposits : </strong>Payments Banks can accept deposits like current deposits and savings bank deposits from individuals, small businesses, and other entities allowed by law. They must conduct their own Know Your Customer (KYC), Anti-Money Laundering (AML), and Combating the Financing of Terrorism (CFT) exercises, just like any other bank.</p>
           <p><strong>2. Issue ATM/Debit Cards : </strong>Although Payments Banks can issue ATM/debit cards, they cannot issue credit cards.</p>
@@ -22,7 +22,7 @@ export const ScopeOfActivities = () => {
           <Image
             alt="Scope of Activities After Obtaining Payment Bank License"
             className="ScopeOfActivities-img w-100 Importance-img-h-100"
-            height={725}
+            height={875}
             loading="lazy"
             src={dft}
           />
