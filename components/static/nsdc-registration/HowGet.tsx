@@ -1,6 +1,10 @@
 import React from "react";
 
-export const HowGet = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const HowGet = ({ cityName }: HeroProps) => {
   return (
     <div id="HowGet">
       <div className="w-80 m-auto">

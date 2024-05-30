@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsdc-registration/NSDC Courses Available in India.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const CoursesAvailable = () => {
+export const CoursesAvailable = ({ cityName }: HeroProps) => {
   return (
     <div id="CoursesAvailable">
         <p className="main-para">NSDC offers courses in the following skill sectors:</p>
@@ -14,7 +17,7 @@ export const CoursesAvailable = () => {
             <li>Capital Goods Skill Council</li>
             <li>Domestic Workers Sector Skill Council</li>
             <li>Food Industry Capacity & Skill Initiative</li>
-            <li>Gem & Jewellery Skill Council of India</li>
+            <li>Gem & Jewellery Skill Council of {cityName}</li>
             <li>Healthcare Sector Skill Council</li>
             <li>Indian Plumbing Skills Council</li>
             <li>IT-ITeS Sector Skill Council</li>

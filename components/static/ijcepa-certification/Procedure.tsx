@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/ijcepa-certification/Procedure for Obtaining IJCEPA Certificate.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const Procedure = () => {
+export const Procedure = ({ cityName }: HeroProps) => {
   return (
     <div id="Procedure">
         <p className="main-para">The complete procedure for obtaining the IJCEPA Certificate is as follows:</p>

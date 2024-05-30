@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/ijcepa-certification/Fees for IJCEPA Registration.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const Fees = () => {
+export const Fees = ({ cityName }: HeroProps) => {
   return (
     <div id="Fees">
       <div className="flex w-80 m-auto mobile-flex-column-reverse">

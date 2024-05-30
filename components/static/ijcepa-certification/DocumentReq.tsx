@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/ijcepa-certification/Documents and Information Required for IJCEPA Certificate.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const DocumentReq = () => {
+export const DocumentReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentReq">
         <p className="main-para">When applying for an IJCEPA Certificate, you'll need the following documents:</p>

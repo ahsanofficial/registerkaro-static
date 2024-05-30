@@ -2,11 +2,14 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Compliance Requirements for Foreign Subsidiary.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const ComplianceReq = () => {
+export const ComplianceReq = ({ cityName }: HeroProps) => {
   return (
     <div id="ComplianceReq">
-        <p className="main-para">Upon successfully incorporating a foreign subsidiary company in India, adhering to compliance requirements is paramount to ensure smooth operations and avoid legal ramifications. Compliance encompasses a broad spectrum of regulations, including taxation, labour laws, corporate governance, foreign exchange laws etc. A concise breakdown of compliance requirements is as follows:</p>
+        <p className="main-para">Upon successfully incorporating a foreign subsidiary company in {cityName}, adhering to compliance requirements is paramount to ensure smooth operations and avoid legal ramifications. Compliance encompasses a broad spectrum of regulations, including taxation, labour laws, corporate governance, foreign exchange laws etc. A concise breakdown of compliance requirements is as follows:</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6 pt-5">
           <ol>
@@ -19,7 +22,7 @@ export const ComplianceReq = () => {
             </li>
             <li>Corporate and Regulatory Compliances:
                 <ol>
-                    <li><strong>RBI Guidelines: </strong>Compliance with Foreign Direct Investment (FDI) guidelines and reporting of foreign investments to the Reserve Bank of India.</li>
+                    <li><strong>RBI Guidelines: </strong>Compliance with Foreign Direct Investment (FDI) guidelines and reporting of foreign investments to the Reserve Bank of {cityName}.</li>
                     <li><strong>Companies Act, 2013: </strong>Holding of Annual General Meetings (AGM), Board Meetings, maintenance of statutory registers, and filings with the Registrar of Companies (ROC).</li>
                 </ol>
             </li>
@@ -41,7 +44,7 @@ export const ComplianceReq = () => {
           />
         </div>
       </div>
-      <p className="main-para">Ensuring compliance with these regulations not only solidifies the legal standing of a foreign subsidiary in India but also fosters a conducive environment for business growth and sustainability.</p>
+      <p className="main-para">Ensuring compliance with these regulations not only solidifies the legal standing of a foreign subsidiary in {cityName} but also fosters a conducive environment for business growth and sustainability.</p>
     </div>
   );
 };

@@ -2,7 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/ijcepa-certification/Import Export Code Validity and Renewal.svg";
 
-export const Renewal = () => {
+interface HeroProps {
+  cityName: string;
+}
+
+export const Renewal = ({ cityName }: HeroProps) => {
   return (
     <div id="Renewal">
       <p className="main-para">
