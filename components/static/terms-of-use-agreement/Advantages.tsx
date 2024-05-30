@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/terms-of-use-agreement/Advantages of Terms of Use Agreement.svg";
-
-export const Advantages = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Advantages = ({ cityName }: HeroProps) => {
   return (
     <div id="Advantages">
       <p className="main-para">A well-crafted Terms of Use Agreement offers numerous benefits such as:</p>

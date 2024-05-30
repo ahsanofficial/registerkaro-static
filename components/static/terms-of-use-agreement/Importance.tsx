@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/terms-of-use-agreement/Importance of Terms of Use Agreements for Organisations.svg";
-
-export const Importance = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Importance = ({ cityName }: HeroProps) => {
   return (
     <div id="Importance">
       <p className="main-para">Such an agreement is essential as it acts as a legally binding contract encompassing significant aspects such as privacy policies, data management practices and similar actions. Some of the key functions of this agreement include:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/terms-of-use-agreement/Are Terms of Use Agreements Legally Binding_.svg";
-
-export const AreLegallyBindings = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const AreLegallyBindings = ({ cityName }: HeroProps) => {
   return (
     <div id="AreLegallyBindings">
       <p className="main-para">Indeed, they are legally binding contracts between service providers and their clients. The primary objective of these agreements is to outline the relationship and outline the functionality and service availability of the organization. Many legal issues can be effectively addressed through this means. For instance, in the event of a consumer lodging a legal complaint against your service due to prolonged unavailability, having a clearly articulated section in your Terms of Use Agreement acknowledging the possibility of service disruptions can shield you from legal repercussions.</p>
