@@ -1,4 +1,4 @@
-import bft from '../../../assets/images/pvt-reg/benefit.svg';
+import bft from '../../../assets/images/static/nbfc-compliances/How can RegisterKaro help_.svg';
 import Image from 'next/image';
 
 export const HowRegisterKaro = () => {
@@ -11,7 +11,7 @@ export const HowRegisterKaro = () => {
                         <Image
                             alt="How can RegisterKaro help?"
                             className="HowRegisterKaro-img w-100 Importance-img-h-100"
-                            height={225}
+                            height={275}
                             loading="lazy"
                             src={bft}
                         />

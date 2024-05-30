@@ -1,5 +1,5 @@
 import React from 'react'
-import certificate from '../../../assets/images/pvt-reg/benefit.svg';
+import certificate from '../../../assets/images/static/nbfc-compliances/pre-incorporation.svg';
 import Image from 'next/image';
 
 export const Process = () => {

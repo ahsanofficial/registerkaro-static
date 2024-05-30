@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from '../../../assets/images/pvt-reg/benefit.svg';
+import bft from '../../../assets/images/static/nbfc-compliances/Post-Incorporation NBFC Compliances.svg';
 
 const PostIncorporation = () => {
     return (
@@ -11,7 +11,7 @@ const PostIncorporation = () => {
                     <Image
                         alt="Post-Incorporation NBFC Compliances"
                         className="PostIncorporation-img w-100 Importance-img-h-100"
-                        height={775}
+                        height={925}
                         loading="lazy"
                         src={bft}
                     />

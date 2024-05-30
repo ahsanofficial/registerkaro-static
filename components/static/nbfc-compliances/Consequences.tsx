@@ -1,4 +1,4 @@
-import bft from '../../../assets/images/pvt-reg/benefit.svg';
+import bft from '../../../assets/images/static/nbfc-compliances/Consequences of Non-Compliance with NBFC Regulations.svg';
 import Image from 'next/image';
 
 export const Consequences = () => {
@@ -13,7 +13,7 @@ export const Consequences = () => {
                     <Image
                         alt="Consequences of Non-Compliance with NBFC Regulations"
                         className="Consequences-img w-100 Importance-img-h-100"
-                        height={250}
+                        height={325}
                         loading="lazy"
                         src={bft}
                     />
