@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/ijcepa-certification/one.svg";
+import bft from "../../../assets/images/static/ijcepa-certification/Benefits of the IJCEPA Certificate.svg";
 
 
 export const Benefits = () => {
@@ -12,7 +12,7 @@ export const Benefits = () => {
           <Image
             alt="Benefits of the IJCEPA Certificate"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

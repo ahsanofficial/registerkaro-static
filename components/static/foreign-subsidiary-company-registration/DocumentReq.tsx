@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/two.svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Essential Documents for Registration.svg";
 
 
 export const DocumentReq = () => {

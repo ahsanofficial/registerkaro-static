@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/ijcepa-certification/pre-incorporation.svg";
+import bft from "../../../assets/images/static/ijcepa-certification/Procedure for Obtaining IJCEPA Certificate.svg";
 
 
 export const Procedure = () => {
@@ -12,12 +12,12 @@ export const Procedure = () => {
           <Image
             alt="Procedure for Obtaining IJCEPA Certificate"
             className="Importance-img-h-100 w-100"
-            height={380}
+            height={340}
             loading="lazy"
             src={bft}
           />
         </div>
-        <div className="flex-6 pt-5">
+        <div className="flex-6">
           <ol>
             <li><strong>Application: </strong>The applicant applies to the appropriate authority with a Digital Signature Certificate (DSC) and updated Import-Export Code (IEC).</li>
             <li><strong>Necessary Documents: </strong>The applicant submits all relevant information and required documents along with the application.</li>

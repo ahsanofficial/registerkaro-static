@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/onetwo.svg";
+import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Compliance Requirements for Foreign Subsidiary.svg";
 
 
 export const ComplianceReq = () => {
@@ -35,7 +35,7 @@ export const ComplianceReq = () => {
           <Image
             alt="Compliance Requirements for Foreign Subsidiary"
             className="Importance-img-h-100 w-100"
-            height={680}
+            height={580}
             loading="lazy"
             src={bft}
           />
