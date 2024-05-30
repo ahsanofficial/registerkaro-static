@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/payment-bank-license/Who can Obtain a Payment Banks License_.svg";
-
-export const WhoCanObtain = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const WhoCanObtain = ({ cityName }: HeroProps) => {
   return (
     <div id="WhoCanObtain">
       <p className="main-para">The following persons are eligible to obtain a Payment Bank License:</p>

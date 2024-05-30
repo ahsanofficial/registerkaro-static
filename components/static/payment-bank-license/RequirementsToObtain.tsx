@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/payment-bank-license/What are the Requirements to Obtain a Payment Bank License_.svg";
-
-export const RequirementsToObtain = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const RequirementsToObtain = ({ cityName }: HeroProps) => {
   return (
     <div id="RequirementsToObtain">
       <p className="main-para">The following are the requirements, which need to be fulfilled before making an application for a Payments Bank Licence:</p>

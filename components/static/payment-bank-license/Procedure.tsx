@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/payment-bank-license/Procedure to Obtain a Payment Bank License.svg";
-
-export const Procedure = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const Procedure = ({ cityName }: HeroProps) => {
   return (
     <div id="Procedure">
       <p className="main-para">The step-by-step process for applying for a Payment Bank License is as follows:</p>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import bft from '../../../assets/images/static/payment-bank-license/What Information is Required for Obtaining Payment Bank Licence_.svg';
-
-const InformationRequired = () => {
+interface HeroProps {
+    cityName: string;
+}
+const InformationRequired = ({ cityName }: HeroProps) => {
   return (
     <div id="InformationRequired">
       <p className="main-para">To obtain a Payments Bank License from the RBI, the following details must be provided:</p>
