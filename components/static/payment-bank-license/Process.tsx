@@ -1,4 +1,4 @@
-import dft from "../../../assets/images/pvt-reg/benefit.svg";
+import dft from "../../../assets/images/static/payment-bank-license/What is Payment Banks_.svg";
 import Image from 'next/image';
 
 export const Process = () => {
