@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/ijcepa-certification/three.svg";
+import bft from "../../../assets/images/static/ijcepa-certification/Documents and Information Required for IJCEPA Certificate.svg";
 
 
 export const DocumentReq = () => {
@@ -8,7 +8,7 @@ export const DocumentReq = () => {
     <div id="DocumentReq">
         <p className="main-para">When applying for an IJCEPA Certificate, you'll need the following documents:</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
-        <div className="flex-6 pt-5">
+        <div className="flex-6">
           <ol>
             <li>DGFT login id</li>
             <li><strong>Exporter and Importer Details: </strong>This includes their name, address, country and other details.</li>
@@ -31,7 +31,7 @@ export const DocumentReq = () => {
           <Image
             alt="Documents and Information Required for IJCEPA Certificate"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={880}
             loading="lazy"
             src={bft}
           />

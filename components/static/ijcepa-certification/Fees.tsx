@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/ijcepa-certification/private (copy).svg";
+import bft from "../../../assets/images/static/ijcepa-certification/Fees for IJCEPA Registration.svg";
 
 
 export const Fees = () => {

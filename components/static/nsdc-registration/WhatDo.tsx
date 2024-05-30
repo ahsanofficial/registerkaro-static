@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/nsdc-registration/one.svg";
+import bft from "../../../assets/images/static/nsdc-registration/What does NSDC do_.svg";
 
 
 export const WhatDo = () => {
@@ -12,7 +12,7 @@ export const WhatDo = () => {
           <Image
             alt="What does NSDC do?"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

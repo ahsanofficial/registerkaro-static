@@ -1,22 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/nsdc-registration/two.svg";
+import bft from "../../../assets/images/static/nsdc-registration/Eligibility for Non-Funded Affiliation.svg";
 
 
 export const NonFunded = () => {
   return (
     <div id="NonFunded">
         <p className="main-para">NSDC incorporates reputed entities with established credentials willing to be part of Skill India or Make in India Mission, without requiring funding. However, the proposals submitted must be robust, catering to sectors with high growth, unmet needs or unorganized sectors. They must be outcome-oriented and should focus on placement in industry, self-employment and entrepreneurship.</p>
-      <div className="flex w-80 m-auto mobile-flex-column">
-        <div className="flex-4">
-          <Image
+        <Image
             alt="Non-Funded Affiliation"
             className="Importance-img-h-100 w-100"
             height={480}
             loading="lazy"
             src={bft}
           />
-        </div>
+      <div className="flex w-80 m-auto">
         <div className="flex-6 pt-5">
           <ol>
             <li>Eligibility for Non-Funded Affiliation
