@@ -32,7 +32,7 @@ export const Hero = ({ cityName }: HeroProps) => {
                 className="background-image"
             />
             <div className="header-content">
-                <h4 className='mb-4'>Terms of Use Agreement</h4>
+                <h4 className='mb-4'>Payment Bank License</h4>
                 <p>In the dynamic landscape of banking, Payment Banks have emerged as a transformative force, offering accessible financial services to all. Originating from the vision of the Reserve Bank of India in 2013, these banks stand as beacons of inclusion, bridging the gap between traditional banking and the unbanked masses. With a focus on simplicity and digital innovation, Payment Banks pave the way for seamless transactions and financial empowerment. However, gaining a Payment Bank License is no small feat, requiring meticulous planning, adherence to regulatory standards, and a commitment to serving underprivileged regions. From the initial screening to the establishment of outlets and adherence to strict operational guidelines, the journey of a Payment Bank is fraught with challenges and opportunities.</p>
                 <div className="packages">
                     {hero.pack_includes?.map((i: any, n: number) => {
