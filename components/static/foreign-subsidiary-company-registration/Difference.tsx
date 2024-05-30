@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Difference between Foreign Branch and Subsidiary.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const Difference = () => {
+export const Difference = ({ cityName }: HeroProps) => {
   return (
     <div id="Difference">
       <div className="flex w-80 m-auto mobile-flex-column">

@@ -2,11 +2,14 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Registration Process.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const RegistrationProcess = () => {
+export const RegistrationProcess = ({ cityName }: HeroProps) => {
   return (
     <div id="RegistrationProcess">
-        <p className="main-para">The registration process of a foreign subsidiary company in India is divided into several key steps to ensure compliance with the Companies Act, foreign exchange laws and other related laws. The breakdown of the process is as follows:</p>
+        <p className="main-para">The registration process of a foreign subsidiary company in {cityName} is divided into several key steps to ensure compliance with the Companies Act, foreign exchange laws and other related laws. The breakdown of the process is as follows:</p>
       <div className="flex w-80 m-auto mobile-flex-column">
         <div className="flex-4">
           <Image
@@ -21,7 +24,7 @@ export const RegistrationProcess = () => {
           <ol>
             <li><strong>Pre-Registration Requirements:</strong>
                 <ol>
-                    <li>Submit a name approval application through the MCA portal by filling SPICe+ form. The name should be unique and should not be similar to existing companies. The name can include "India" to associate with the parent company.</li>
+                    <li>Submit a name approval application through the MCA portal by filling SPICe+ form. The name should be unique and should not be similar to existing companies. The name can include "{cityName}" to associate with the parent company.</li>
                     <li>Obtain DSC (Digital Signature Certificate) for all the proposed directors and DIN (Director Identification Number) for Indian directors.</li>
                 </ol>
             </li>

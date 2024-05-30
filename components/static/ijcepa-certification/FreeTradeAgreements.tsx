@@ -1,12 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/ijcepa-certification/onetwo.svg";
+import bft from "../../../assets/images/static/ijcepa-certification/Other Free Trade Agreements.png";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const FreeTradeAgreements = () => {
+export const FreeTradeAgreements = ({ cityName }: HeroProps) => {
   return (
     <div id="FreeTradeAgreements">
-        <p className="main-para">India has enhanced its market access commitments for neighbouring service providers. These commitments provide companies with an opportunity to build market expertise and grow through international expansion. Under Free or Preferential Trade Agreements there are multiple options where the certificate of origin can be generated from India for import benefits to importing companies which are as follows:</p>
+        <p className="main-para">{cityName} has enhanced its market access commitments for neighbouring service providers. These commitments provide companies with an opportunity to build market expertise and grow through international expansion. Under Free or Preferential Trade Agreements there are multiple options where the certificate of origin can be generated from {cityName} for import benefits to importing companies which are as follows:</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6 pt-5">
           <ol>
@@ -27,7 +30,7 @@ export const FreeTradeAgreements = () => {
           <Image
             alt="Other Free Trade Agreements"
             className="Importance-img-h-100 w-100"
-            height={480}
+            height={580}
             loading="lazy"
             src={bft}
           />

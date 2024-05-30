@@ -15,8 +15,11 @@ let hero = {
     ]
 }
 
+interface HeroProps {
+    cityName: string;
+}
 
-export const Hero = () => {
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -30,7 +33,7 @@ export const Hero = () => {
             />
             <div className="header-content">
               <h4 className='mb-4'>National Skill Development Corporation (NSDC) Registration</h4>
-              <p>The National Skill Development Corporation (NSDC) plays a pivotal role in enhancing skill development in India through various initiatives and schemes. Established as a not-for-profit company under the Ministry of Finance, NSDC focuses on fostering partnerships and funding vocational institutions to promote skill development across different sectors. Offering a wide array of courses and support services, NSDC aims to empower individuals, institutions, and organizations to contribute to India's workforce development. From offering quality training programs to facilitating international opportunities, NSDC's efforts are geared towards upskilling the Indian youth and promoting economic growth. With its diverse range of schemes and initiatives, NSDC provides ample opportunities for individuals and entities to engage in skill development efforts.</p>
+              <p>The National Skill Development Corporation (NSDC) plays a pivotal role in enhancing skill development in {cityName} through various initiatives and schemes. Established as a not-for-profit company under the Ministry of Finance, NSDC focuses on fostering partnerships and funding vocational institutions to promote skill development across different sectors. Offering a wide array of courses and support services, NSDC aims to empower individuals, institutions, and organizations to contribute to India's workforce development. From offering quality training programs to facilitating international opportunities, NSDC's efforts are geared towards upskilling the Indian youth and promoting economic growth. With its diverse range of schemes and initiatives, NSDC provides ample opportunities for individuals and entities to engage in skill development efforts.</p>
               <div className="packages">
                   {hero.pack_includes?.map((i: any, n: number) => {
                       return (

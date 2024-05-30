@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/ijcepa-certification/Eligibility Criteria for the IJCEPA Certificate.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const EligibilityCriteria = () => {
+export const EligibilityCriteria = ({ cityName }: HeroProps) => {
   return (
     <div id="EligibilityCriteria">
         <p className="main-para">To qualify for the Comprehensive Economic Preferential Agreement between India and Japan, goods must meet the following criteria:</p>

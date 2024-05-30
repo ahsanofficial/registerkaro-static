@@ -1,12 +1,15 @@
 import certificate from '../../../assets/images/static/foreign-subsidiary-company-registration/Overview of Foreign Subsidiary Company Registration.svg';
 import Image from 'next/image';
 
+interface HeroProps {
+    cityName: string;
+}
 
-export const Process = () => {
+export const Process = ({ cityName }: HeroProps) => {
     return (
         <div className='process flex w-80 m-auto mobile-flex-column-reverse'>
             <div className='flex-5'>
-                <p className='text-justify'>Setting up a subsidiary company in India is a strategic avenue for international companies which aspire to establish a foothold in the Indian market. However, these subsidiary companies first need to gain the needed legitimacy to operate within India's vibrant economy. To do so registering the foreign subsidiary company is required, the process of registration involves the creation of a separate legal entity in India as per the established procedure by acquiring a Permanent Account Number (PAN) and Director Identification Number (DIN).</p>
+                <p className='text-justify'>Setting up a subsidiary company in {cityName} is a strategic avenue for international companies which aspire to establish a foothold in the Indian market. However, these subsidiary companies first need to gain the needed legitimacy to operate within India's vibrant economy. To do so registering the foreign subsidiary company is required, the process of registration involves the creation of a separate legal entity in {cityName} as per the established procedure by acquiring a Permanent Account Number (PAN) and Director Identification Number (DIN).</p>
                 <div className='page-point'>
                     <ul>
                         <ul>
@@ -14,10 +17,10 @@ export const Process = () => {
                                 <li>Understanding Foreign Subsidiary Company Registration</li>
                             </a>
                             <a href="#Benefits" className="scrollTo">
-                                <li>Benefits of Registering a Foreign Subsidiary in India</li>
+                                <li>Benefits of Registering a Foreign Subsidiary in {cityName}</li>
                             </a>
                             <a href="#Examples" className="scrollTo">
-                                <li>Examples of Some Foreign Subsidiary Companies in India</li>
+                                <li>Examples of Some Foreign Subsidiary Companies in {cityName}</li>
                             </a>
                             <a href="#Difference" className="scrollTo">
                                 <li>Difference between Foreign Branch and Subsidiary</li>
@@ -32,10 +35,10 @@ export const Process = () => {
                                 <li>Compliance Requirements for Foreign Subsidiary</li>
                             </a>
                             <a href="#ApplicableTaxes" className="scrollTo">
-                                <li>Applicable Taxes on Foreign Subsidiary in India</li>
+                                <li>Applicable Taxes on Foreign Subsidiary in {cityName}</li>
                             </a>
                             <a href="#CostsInclude" className="scrollTo">
-                                <li>Costs included in Registering a Subsidiary in India</li>
+                                <li>Costs included in Registering a Subsidiary in {cityName}</li>
                             </a>
                             <a href="#Why" className="scrollTo">
                                 <li>Why RegisterKaro?</li>

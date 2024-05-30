@@ -2,11 +2,14 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Essential Documents for Registration.svg";
 
+interface HeroProps {
+    cityName: string;
+}
 
-export const DocumentReq = () => {
+export const DocumentReq = ({ cityName }: HeroProps) => {
   return (
     <div id="DocumentReq">
-        <p className="main-para">Gathering the essential documents is a critical step in the process of registering a foreign subsidiary company in India. This comprehensive checklist ensures that all legal and regulatory requirements are met efficiently:</p>
+        <p className="main-para">Gathering the essential documents is a critical step in the process of registering a foreign subsidiary company in {cityName}. This comprehensive checklist ensures that all legal and regulatory requirements are met efficiently:</p>
       <div className="flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6 pt-5">
           <ol>
@@ -52,13 +55,13 @@ export const DocumentReq = () => {
                     <li>From the Parent Company:
                         <ol>
                             <li>Certificate of registration with name and address</li>
-                            <li>Board resolution authorizing registration in India</li>
+                            <li>Board resolution authorizing registration in {cityName}</li>
                         </ol>
                     </li>
                     <li>Proposed Company Details:
                         <ol>
                             <li>Name of the proposed company</li>
-                            <li>Activities the company will undertake in India</li>
+                            <li>Activities the company will undertake in {cityName}</li>
                             <li>Share capital for the Indian Company</li>
                             <li>Details of shareholders and directors, ensuring at least one director is an Indian resident</li>
                         </ol>

@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/ijcepa-certification/Benefits of the IJCEPA Certificate.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const Benefits = () => {
+export const Benefits = ({ cityName }: HeroProps) => {
   return (
     <div id="Benefits">
         <p className="main-para">The following are the benefits of the certification:</p>

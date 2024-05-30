@@ -2,8 +2,11 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsdc-registration/What does NSDC do_.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const WhatDo = () => {
+export const WhatDo = ({ cityName }: HeroProps) => {
   return (
     <div id="WhatDo">
         <p className="main-para">The NSDC strives for skill development, however, it doesn't directly operate in the skill development space but rather facilitates initiatives having potential multiplier effects. It aims to engage the industry in all aspects of skill development, instead of taking on numerous initiatives directly or duplicating existing efforts, NSDC focuses on developing partnerships with various stakeholders to scale up efforts towards the up-skilling of 150 million Indians.</p>

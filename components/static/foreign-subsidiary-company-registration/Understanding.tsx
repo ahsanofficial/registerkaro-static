@@ -2,11 +2,14 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/foreign-subsidiary-company-registration/Understanding Foreign Subsidiary Company Registration.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const Understanding = () => {
+export const Understanding = ({ cityName }: HeroProps) => {
   return (
     <div id="Understanding">
-        <p className="main-para">India's burgeoning market, characterized by its vast consumer base, low-cost labour, and skilled workforce, presents a lucrative opportunity for foreign companies. The strategic location and favourable business environment further accentuate India's appeal as an investment destination. Here’s a breakdown of key considerations for establishing a foreign subsidiary company in India:</p>
+        <p className="main-para">India's burgeoning market, characterized by its vast consumer base, low-cost labour, and skilled workforce, presents a lucrative opportunity for foreign companies. The strategic location and favourable business environment further accentuate India's appeal as an investment destination. Here’s a breakdown of key considerations for establishing a foreign subsidiary company in {cityName}:</p>
         <Image
             alt="Understanding Foreign Subsidiary Company Registration"
             className="Importance-img-h-100 w-100"

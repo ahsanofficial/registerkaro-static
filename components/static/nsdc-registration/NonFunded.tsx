@@ -2,11 +2,14 @@ import Image from "next/image";
 import React from "react";
 import bft from "../../../assets/images/static/nsdc-registration/Eligibility for Non-Funded Affiliation.svg";
 
+interface HeroProps {
+  cityName: string;
+}
 
-export const NonFunded = () => {
+export const NonFunded = ({ cityName }: HeroProps) => {
   return (
     <div id="NonFunded">
-        <p className="main-para">NSDC incorporates reputed entities with established credentials willing to be part of Skill India or Make in India Mission, without requiring funding. However, the proposals submitted must be robust, catering to sectors with high growth, unmet needs or unorganized sectors. They must be outcome-oriented and should focus on placement in industry, self-employment and entrepreneurship.</p>
+        <p className="main-para">NSDC incorporates reputed entities with established credentials willing to be part of Skill {cityName} or Make in {cityName} Mission, without requiring funding. However, the proposals submitted must be robust, catering to sectors with high growth, unmet needs or unorganized sectors. They must be outcome-oriented and should focus on placement in industry, self-employment and entrepreneurship.</p>
         <Image
             alt="Non-Funded Affiliation"
             className="Importance-img-h-100 w-100"

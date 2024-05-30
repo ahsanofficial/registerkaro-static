@@ -16,8 +16,11 @@ let hero = {
     ]
 }
 
+interface HeroProps {
+    cityName: string;
+}
 
-export const Hero = () => {
+export const Hero = ({ cityName }: HeroProps) => {
     return (
         <div className="hero align-center mobile-flex-column">
             <Image
@@ -31,7 +34,7 @@ export const Hero = () => {
             />
             <div className="header-content">
               <h4 className='mb-4'>Foreign Subsidiary Company Registration</h4>
-              <p>Establishing a foreign subsidiary company in India presents a strategic opportunity for international businesses to tap into the country's vast consumer base and rapidly growing market. The registration process of a foreign subsidiary involves acquiring Permanent Account Number (PAN), Director Identification Number (DIN) and Digital Signature Certificate. Subsidiary companies can be registered either as a Private or Public Limited company or as a Limited Liability Partnership. Once registered, subsidiaries operate independently from the parent company and are required to comply with the local laws and regulations.</p>
+              <p>Establishing a foreign subsidiary company in {cityName} presents a strategic opportunity for international businesses to tap into the country's vast consumer base and rapidly growing market. The registration process of a foreign subsidiary involves acquiring Permanent Account Number (PAN), Director Identification Number (DIN) and Digital Signature Certificate. Subsidiary companies can be registered either as a Private or Public Limited company or as a Limited Liability Partnership. Once registered, subsidiaries operate independently from the parent company and are required to comply with the local laws and regulations.</p>
               <div className="packages">
                   {hero.pack_includes?.map((i: any, n: number) => {
                       return (
