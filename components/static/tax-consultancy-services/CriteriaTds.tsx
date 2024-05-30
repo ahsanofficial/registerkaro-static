@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Eligibility Criteria for TDS Deduction in India.svg";
-
-export const CriteriaTds = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const CriteriaTds = ({ cityName }: HeroProps) => {
   return (
     <div id="CriteriaTds">
-      <p className="main-para">The following entities are considered eligible for TDS deduction and filing in India:</p>
+      <p className="main-para">The following entities are considered eligible for TDS deduction and filing in {cityName}:</p>
       <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
       
         <div className="flex-7">

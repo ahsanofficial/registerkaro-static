@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Professional Tax Registration.svg";
-
-export const ProfessionalTax = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const ProfessionalTax = ({ cityName }: HeroProps) => {
   return (
     <div id="ProfessionalTax">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
@@ -16,7 +18,7 @@ export const ProfessionalTax = () => {
             />
           </div>
         <div className="flex-6 pt-5">
-            <p>Professional tax registration is a mandatory requirement for professionals like chartered accountants, lawyers, and doctors in India. It's a state-imposed tax based on one's profession, with rates varying from state to state, with a maximum cap of Rs. 2,500 per year.</p>
+            <p>Professional tax registration is a mandatory requirement for professionals like chartered accountants, lawyers, and doctors in {cityName}. It's a state-imposed tax based on one's profession, with rates varying from state to state, with a maximum cap of Rs. 2,500 per year.</p>
             
         </div>
       

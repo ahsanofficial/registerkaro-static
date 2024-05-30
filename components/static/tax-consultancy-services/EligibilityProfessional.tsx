@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import dft from "../../../assets/images/static/Tax-Consultancy-Services-for-Startups/Eligibility for Professional Tax Registration.svg";
-
-export const EligibilityProfessional = () => {
+interface HeroProps {
+    cityName: string;
+}
+export const EligibilityProfessional = ({ cityName }: HeroProps) => {
   return (
     <div id="EligibilityProfessional">
       <div className="benefits flex w-80 m-auto mobile-flex-column">
