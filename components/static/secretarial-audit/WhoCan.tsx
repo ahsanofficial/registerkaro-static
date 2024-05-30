@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/secretarial-audit/onetwo.svg";
+import bft from "../../../assets/images/pvt-reg/benefit.svg";
 
 
 export const WhoCan = () => {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bft from "../../../assets/images/static/secretarial-audit/three.svg";
+import bft from "../../../assets/images/static/common-images/Why _choose.svg";
 
 
 export const HowRegisterkaro = () => {
@@ -12,7 +12,7 @@ export const HowRegisterkaro = () => {
           <Image
             alt="How RegisterKaro helps you in the Registration process?"
             className="Importance-img-h-100 w-100"
-            height={580}
+            height={680}
             loading="lazy"
             src={bft}
           />

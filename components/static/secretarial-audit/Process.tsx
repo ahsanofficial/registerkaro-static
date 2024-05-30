@@ -1,4 +1,4 @@
-import certificate from '../../../assets/images/static/secretarial-audit/one.svg';
+import certificate from '../../../assets/images/pvt-reg/benefit.svg';
 import Image from 'next/image';
  
 
