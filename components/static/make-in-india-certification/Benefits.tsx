@@ -6,7 +6,7 @@ export const Benefits = () => {
   return (
     <div id="Benefits">
       <p className="main-para">Certain benefits are attached to this certification:</p>      
-      <div className="Benefits flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="Benefits flex w-80 m-auto mobile-flex-column">
         <div className="flex-3">
           <Image
             alt="Benefits"
