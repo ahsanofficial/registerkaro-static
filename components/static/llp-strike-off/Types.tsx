@@ -6,7 +6,7 @@ export const Types = () => {
   return (
     <div id="Types">
       <p className="main-para">Licensed Payment Banks come with the following Types:</p>
-      <div className="Types flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="Types flex w-80 m-auto mobile-flex-column">
         <div className="flex-3">
           <Image
             alt="Types of Strike Off"
