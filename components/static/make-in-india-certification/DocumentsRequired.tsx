@@ -6,7 +6,7 @@ export const DocumentsRequired = () => {
   return (
     <div id="DocumentsRequired">
       <p className="main-para">The following are the documents required to obtain the certification:</p>
-      <div className="DocumentsRequired flex w-80 m-auto mobile-flex-column-reverse">
+      <div className="DocumentsRequired flex w-80 m-auto mobile-flex-column">
         <div className="flex-3">
           <Image
             alt="Documents Required"

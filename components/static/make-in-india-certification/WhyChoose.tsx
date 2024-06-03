@@ -6,7 +6,7 @@ export const WhyChoose = () => {
   return (
     <div id="WhyChoose">
       <p className="main-para">RegisterKaro has been a one-stop solution for acquiring certifications of  various types for the varied ranges of benefits such as:</p>
-      <div className="benefits flex w-80 m-auto mobile-flex-column">
+      <div className="benefits flex w-80 m-auto mobile-flex-column-reverse">
         <div className="flex-6">
           <p><strong>Pool of Experts: </strong>RegisterKaro holds a large pool of Experts from all over the world specializing in certification services of different types.  Our team of experts makes sure that your work is taken care of in the most effective manner possible.</p>
           <p><strong>Cost-effective: </strong>RegisterKaro business registration services are of premium quality at the most efficient rate, which suits the client's pocket, making sure that quality service is not the only thing the client gains on our platform.</p>
